@@ -2,9 +2,9 @@
 
 # Academy Software Foundation Landscape
 
-![ASWF Landscape Logo](https://landscape.aswf.io/images/left-logo.svg)
+![Open Mainframe Project Landscape Logo](https://landscape.openmainframeproject.org/images/left-logo.svg)
 
-- [ASWF Landscape](#academy-software-foundation-landscape)
+- [Open Mainframe Project Landscape](#open-mainframe-project-landscape)
   * [Current Version](#current-version)
   * [Interactive Version](#interactive-version)
   * [New Entries](#new-entries)
@@ -20,20 +20,20 @@
   * [Vulnerability reporting](#vulnerability-reporting)
   * [Adjusting the Landscape View](#adjusting-the-landscape-view)
 
-This landscape is intended as a map to explore open source artificial intelligence (AI), machine learning (ML), and deep learning (DL) projects, and also shows the member companies of the LF Deep Learning Foundation. It is modelled after the Cloud Native Computing Foundation (CNCF) [landscape](https://landscape.cncf.io) and based on the same open source code.
+This landscape is intended as a map to explore open source projects specifically for the mainframe, and also shows the member companies of the Open Mainframe Project. It is modeled after the Cloud Native Computing Foundation (CNCF) [landscape](https://landscape.cncf.io) and based on the same open source code.
 
 ## Current Version
 
-[![ASWF Landscape](https://landscape.aswf.io/images/landscape.png)](https://landscape.aswf.io/images/landscape.png)
+[![Open Mainframe Project Landscape](https://landscape.openmainframeproject.org/images/landscape.png)](https://landscape.openmainframeproject.org/images/landscape.png)
 
 ## Interactive Version
 
-Please see [landscape.aswf.io](https://landscape.aswf.io).
+Please see [landscape.openmainframeproject.org](https://landscape.openmainframeproject.org).
 
 ## New Entries
 
 * Projects must be open source and hosted on or mirrored to GitHub.
-* AI, ML, and DL projects with at least 300 GitHub stars that clearly fit in an existing category are generally included. Put the project in the single category where it best fits.
+* Mainframe centric projects with at least 300 GitHub stars that clearly fit in an existing category are generally included. Put the project in the single category where it best fits.
 * We are unlikely to create a new category for projects as we'd rather find the best home with the current options.
 * Your project or company needs a logo and the logo needs to include the name.
 * Crunchbase organization should be the company or organization that controls the software. That is normally the owner of the trademark, whether or not a trademark has been formally filed.
@@ -88,13 +88,13 @@ The update server enhances the source data with the fetched data and saves the r
 As explained at https://bestpractices.coreinfrastructure.org/:
 >The Linux Foundation (LF) Core Infrastructure Initiative (CII) Best Practices badge is a way for Free/Libre and Open Source Software (FLOSS) projects to show that they follow best practices. Projects can voluntarily self-certify, at no cost, by using this web application to explain how they follow each best practice. The CII Best Practices Badge is inspired by the many badges available to projects on GitHub. Consumers of the badge can quickly assess which FLOSS projects are following best practices and as a result are more likely to produce higher-quality secure software.
 
-The interactive landscape displays the status (or non-existence) of a badge for each open-source project. There's also a feature not available through the filter bar to see all items [with](https://landscape.lfdl.io/bestpractices=yes) and [without](https://landscape.aswf.io/bestpractices=no) badges. Note that a passing badge is a requirement for projects to [graduate](https://github.com/cncf/toc/blob/master/process/graduation_criteria.adoc) in the CNCF.
+The interactive landscape displays the status (or non-existence) of a badge for each open-source project. There's also a feature not available through the filter bar to see all items [with](https://landscape.lfdl.io/bestpractices=yes) and [without](https://landscape.openmainframeproject.org/bestpractices=no) badges. Note that a passing badge is a requirement for projects to [graduate](https://github.com/cncf/toc/blob/master/process/graduation_criteria.adoc) in the CNCF.
 
 ## Non-Updated Items
 
-We generally remove open source projects that have not had a commit in over 3 months. Note that for projects not hosted on GitHub, we need them to mirror to GitHub to fetch updates, and we try to work with projects when their mirrors are broken. Here is view of projects sorted by last update: https://landscape.aswf.io/grouping=no&license=open-source&sort=latest-commit
+We generally remove open source projects that have not had a commit in over 3 months. Note that for projects not hosted on GitHub, we need them to mirror to GitHub to fetch updates, and we try to work with projects when their mirrors are broken. Here is view of projects sorted by last update: https://landscape.openmainframeproject.org/grouping=no&license=open-source&sort=latest-commit
 
-We generally remove closed source products when they have not tweeted in over 3 months. This doesn't apply to Chinese companies without Twitter accounts, since Twitter is blocked there. Here is a view of products sorted by last tweet: https://landscape.aswf.io/grouping=no&license=not-open-source&sort=latest-tweet
+We generally remove closed source products when they have not tweeted in over 3 months. This doesn't apply to Chinese companies without Twitter accounts, since Twitter is blocked there. Here is a view of products sorted by last tweet: https://landscape.openmainframeproject.org/grouping=no&license=not-open-source&sort=latest-tweet
 
 Items that have been removed can apply to be re-added using the regular New Entries criteria above.
 
@@ -106,10 +106,10 @@ Everything else is under the Apache License, Version 2.0, except for project and
 
 ## Formats
 
-The ASWF Landscape is available in these formats:
+The Open Mainframe Project Landscape is available in these formats:
 
-* [PNG](https://landscape.aswf.io/images/landscape.png)
-* [PDF](https://landscape.aswf.io/images/landscape.pdf)
+* [PNG](https://landscape.openmainframeproject.org/images/landscape.png)
+* [PDF](https://landscape.openmainframeproject.org/images/landscape.pdf)
 
 ## Installation
 
@@ -144,5 +144,4 @@ same way as we adjust the width.
 We have an experimental `fitWidth` property, it is good when you want to get rid of
 an extra space on the right of a section.
 
-The best way to test that layout is ok, is to visit `/landscape`, and if it looks ok, run `PORT=3000 babel-node
-tools/renderLandscape` and see the rendered png files, they are in src/images folder.
+The best way to test that layout is ok, is to visit `/landscape`, and if it looks ok, run `PORT=3000 babel-nodetools/renderLandscape` and see the rendered png files, they are in src/images folder.
