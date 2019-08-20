@@ -200,22 +200,31 @@ landscape:
             logo: william-paterson-university-of-new-jersey.svg
             homepage_url: 'https://www.wpunj.edu/'
             crunchbase: 'https://www.crunchbase.com/organization/william-paterson-university-of-new-jersey'
-      # - subcategory:
-      #   name: Associate
-      #   items:
+      - subcategory:
+        name: Associate
+        items:
+          - item:
+            name: SHARE
+            logo: share.svg
+            homepage_url: 'https://www.share.org/'
+            crunchbase: 'https://www.crunchbase.com/organization/share-8c77'
       #     - item:
-      #       name: Blender Foundation
-      #       logo: blender.svg
-      #       homepage_url: 'https://www.blender.org/'
-      #       crunchbase: 'https://www.crunchbase.com/organization/blender-org'
-      #       twitter: 'https://twitter.com/blender_org'
-      #     - item:
-      #       name: MovieLabs
-      #       logo: movie-labs.svg
-      #       homepage_url: 'https://movielabs.com/'
+      #       name: GSE
+      #       logo: gse.svg
+      #       homepage_url: 'https://www.gse.org'
       #       crunchbase: 'https://www.crunchbase.com/organization/motion-picture-laboratories'
       #     - item:
-      #       name: VES
-      #       logo: ves.svg
-      #       homepage_url: 'https://www.visualeffectssociety.com/'
+      #       name: GSE UK
+      #       logo: gse-uk.svg
+      #       homepage_url: 'http://www.gse.org.uk'
+      #       crunchbase: 'https://www.crunchbase.com/organization/motion-picture-laboratories'
+      #     - item:
+      #       name: Academic Mainframe Consortium
+      #       logo: amc.svg
+      #       homepage_url: 'https://amc-ev.org/'
+      #       crunchbase: 'https://www.crunchbase.com/organization/visual-effects-society'
+      #     - item:
+      #       name: European Mainframe Academy
+      #       logo: ema.svg
+      #       homepage_url: 'https://mainframe-academy.de/'
       #       crunchbase: 'https://www.crunchbase.com/organization/visual-effects-society'
