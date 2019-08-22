@@ -47,6 +47,115 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             logo: ade.svg
   - category:
+    name: Zowe Conformant
+    subcategories:
+      - subcategory:
+        name: API Mediation Layer
+        items:
+          - item:
+            name: CA File Master™ Plus
+            homepage_url: 'https://docops.ca.com/ca-file-master-plus/11/en/using-the-rest-api'
+            logo: ca-broadcom.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ca'
+            stock_ticker: AVGO
+          - item:
+            name: (E)JES Zowe REST API
+            description: "The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer."
+            logo: phoenix-software-international.svg
+            homepage_url: 'https://phoenixsoftware.com/ejes/ejes_zowe.htm'
+            crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+          - item:
+            name: IBM® Db2 DevOps Experience for z/OS - API Mediation Layer
+            description: "Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed."
+            logo: ibm.svg
+            homepage_url: 'https://www.ibm.com/us-en/marketplace/db2-devops-experience'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+      - subcategory:
+        name: App Framework
+        items:
+          - item:
+            name: IBM® Db2 DevOps Experience for z/OS - App Framework
+            description: "Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed."
+            logo: ibm.svg
+            homepage_url: 'https://www.ibm.com/us-en/marketplace/db2-devops-experience'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
+            name: IBM® Service Management Unite(SMU)
+            description: "IBM® Service Management Unite(SMU) is a customizable service management user interface that provides dashboards to monitor and operate IBM Z environments. Zowe application plugin for SMU is provided to allow user to use SMU directly on Zowe Desktop."
+            logo: ibm.svg
+            homepage_url: 'https://www.ibm.com/us-en/marketplace/ibm-service-management-unite'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
+            name: Rocket™ BlueZone
+            description: "Rocket BlueZone Web is a zero-footprint terminal emulator that delivers real-time access to enterprise applications. You can combine the capabilities in BlueZone with the power of the Zowe open source development framework using our BlueZone Web plug-in for Zowe."
+            logo: rocketsoftware.svg
+            homepage_url: 'https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-terminal-emulation'
+            crunchbase: 'https://www.crunchbase.com/organization/rocket-software'
+      - subcategory:
+        name: CLI
+        items:
+          - item:
+            name: CA Endevor® SCM Plug-in for Zowe CLI
+            description: "The CA Endevor® SCM Plug-in for Zowe CLI lets you interact with CA Endevor through a local command-line interface. You can control CA Endevor application lifecycle actions, allowing easy scripting from off-platform CI/CD pipelines."
+            homepage_url: 'https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm'
+            logo: ca-broadcom.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ca'
+            stock_ticker: AVGO
+          - item:
+            name: CA File Master™ Plus Plug-in for Zowe CLI
+            description: "The CA File Master™ Plus Plug-in for Zowe CLI brings advanced file management and data manipulation functionality to the CLI. Control functions that CLI can invoke include copying, renaming and deleting files, and populating files with data."
+            homepage_url: 'https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus'
+            logo: ca-broadcom.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ca'
+            stock_ticker: AVGO
+          - item:
+            name: CA OPS/MVS® Plug-in for Zowe CLI
+            description: "The CA OPS/MVS® Plug-in for Zowe CLI lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient automation and resource management from the CLI."
+            homepage_url: 'https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs'
+            logo: ca-broadcom.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ca'
+            stock_ticker: AVGO
+          - item:
+            name: CA z/OS Extended Files Plug-in for Zowe CLI
+            description: "The CA z/OS Extended Files Plug-in for Zowe CLI lets application developers extend the CLI to support data set management functionality. For example, copying the contents of a data set and downloading data sets that match a DSLEVEL pattern."
+            homepage_url: 'https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files'
+            logo: ca-broadcom.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ca'
+            stock_ticker: AVGO
+          - item:
+            name: CA z/OS Extended Jobs Plug-in for Zowe CLI
+            description: "The CA z/OS Extended Jobs Plug-in for Zowe CLI lets application developers extend the CLI to support additional z/OS job creation and job management functionality. For example, viewing all spool content and deleting multiple jobs in the OUTPUT status."
+            homepage_url: 'https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs'
+            logo: ca-broadcom.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ca'
+            stock_ticker: AVGO
+          - item:
+            name: CA Secure Credential Store Plug-in for Zowe CLI
+            description: "The CA Secure Credential Store Plug-in for Zowe CLI lets you store your credentials securely in the default credential manager of your operating system."
+            homepage_url: 'https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store'
+            logo: ca-broadcom.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ca'
+            stock_ticker: AVGO
+          - item:
+            name: (E)JES Plug-in for Zowe CLI
+            description: "The (E)JES Plug-in for Zowe CLI uses the (E)JES Zowe REST API to provide command line functions to stream or search the mainframe system logs. "
+            logo: phoenix-software-international.svg
+            homepage_url: 'https://phoenixsoftware.com/ejes/ejes_zowe.htm'
+            crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+          - item:
+            name: IBM® Db2 DevOps Experience for z/OS - CLI
+            description: "Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed."
+            logo: ibm.svg
+            homepage_url: 'https://www.ibm.com/us-en/marketplace/db2-devops-experience'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
+            name: z/OS Connect EE Plug-in for Zowe CLI
+            description: "A Zowe CLI Plug-in for administering z/OS Connect EE artifacts."
+            logo: ibm.svg
+            homepage_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
+            repo_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+  - category:
     name: Open Mainframe Project Member Company
     subcategories:
       - subcategory:

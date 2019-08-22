@@ -110,22 +110,22 @@ big_picture:
     elements:
       - type: HorizontalCategory
         category: Projects
-        rows: 10
+        rows: 4
         width: 700
-        height: 500
+        height: 300
         top: 0
         left: 0
         color: 'rgb(78,171,207)'
         fit_width: true
-      # - type: HorizontalCategory
-      #   category: Reinforcement Learning
-      #   rows: 4
-      #   width: 125
-      #   height: 160
-      #   top: 0
-      #   left: 990
-      #   color: 'rgb(124, 200, 182)'
-      #   fit_width: true
+      - type: HorizontalCategory
+        category: Zowe Conformant
+        rows: 4
+        width: 700
+        height: 160
+        top: 350
+        left: 0
+        color: 'rgb(124, 200, 182)'
+        fit_width: true
       # - type: HorizontalCategory
       #   category: Distributed Computing
       #   rows: 3
