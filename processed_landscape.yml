@@ -55,7 +55,7 @@ landscape:
           - item:
             name: Zowe
             homepage_url: 'https://zowe.org'
-            repo_url: 'https://github.com/zowe/community'
+            repo_url: 'https://github.com/zowe/api-layer'
             logo: zowe.svg
             project: graduated
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
@@ -71,26 +71,26 @@ landscape:
               twitter: 'https://twitter.com/OpenMFProject'
               linkedin: null
             github_data:
-              stars: 12
-              license: Unknown License
-              description: 'Community Engagement - Contribution Guidelines, Meeting Minutes, and more'
-              latest_commit_date: '2019-08-16T04:00:00.000Z'
-              latest_commit_link: /zowe/community/commit/594ec998377fe0724e93b3270ba31fb66c9ae866
-              release_date: null
-              release_link: null
-              contributors_count: 38
-              contributors_link: 'https://github.com/zowe/community/graphs/contributors'
+              stars: 15
+              license: Eclipse Public License 2.0
+              description: Zowe API Mediation Layer
+              latest_commit_date: '2019-08-15T04:00:00.000Z'
+              latest_commit_link: /zowe/api-layer/commit/0eba051af5cf2f8215770a010b17b7eb18c763ba
+              release_date: '2019-08-15T11:19:31Z'
+              release_link: 'https://github.com/zowe/api-layer/releases'
+              contributors_count: 23
+              contributors_link: 'https://github.com/zowe/api-layer/graphs/contributors'
             github_start_commit_data:
-              start_commit_link: /zowe/community/commit/156e36a18c3db28a658d8b6cb52559fc251a78ff
-              start_date: '2018-08-23T15:06:56Z'
+              start_commit_link: /zowe/api-layer/commit/c34ba84ac7bf5b042c76b375c5e3638c2a78b449
+              start_date: '2018-10-30T12:48:43Z'
             membership_data:
               member: false
             image_data:
               fileName: zowe.svg
               hash: BdoSgULyRmzDep67eLYtIuIhouyWK9OiigLipxJfbgk=
             best_practice_data:
-              badge: false
-              percentage: null
+              badge: 2322
+              percentage: 79
             twitter_data:
               latest_tweet_date: 2019-08-16T18:53:09.000Z
           - item:
