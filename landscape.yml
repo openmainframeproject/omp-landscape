@@ -226,11 +226,11 @@ landscape:
             logo: vicominfinity.svg
             homepage_url: 'http://www.vicominfinity.com/'
             crunchbase: 'https://www.crunchbase.com/organization/vicom-infinity'
-          # - item:
-          #   name: Zoss Team LLC
-          #   logo: zoss-team.svg
-          #   homepage_url: 'http://www.phoenixsoftware.com/'
-          #   crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+          - item:
+            name: Zoss Team LLC
+            logo: zossteam-llc.svg
+            homepage_url: 'https://www.bizapedia.com/ma/zoss-team-llc.html'
+            crunchbase: 'https://www.crunchbase.com/organization/zoss-team-llc'
       - subcategory:
         name: Academic Institution
         items:
@@ -284,11 +284,11 @@ landscape:
             logo: university-of-bedfordshire.svg
             homepage_url: 'https://www.beds.ac.uk/'
             crunchbase: 'https://www.crunchbase.com/organization/university-of-bedfordshire'
-          # - item:
-          #   name: University of Washington CIAC
-          #   logo: academy-of-motion-picture-arts-and-sciences.svg
-          #   homepage_url: 'https://www.uwb.edu/ciac'
-          #   crunchbase: 'https://www.crunchbase.com/organization/the-academy-of-motion-picture-arts-and-sciences'
+          - item:
+            name: University of Washington CIAC
+            logo: ciac.svg
+            homepage_url: 'https://www.uwb.edu/ciac'
+            crunchbase: 'https://www.crunchbase.com/organization/university-of-washington'
           - item:
             name: University of Wolverhampton
             logo: university-of-wolverhampton.svg
@@ -317,23 +317,24 @@ landscape:
             logo: share.svg
             homepage_url: 'https://www.share.org/'
             crunchbase: 'https://www.crunchbase.com/organization/share-8c77'
-      #     - item:
-      #       name: GSE
-      #       logo: gse.svg
-      #       homepage_url: 'https://www.gse.org'
-      #       crunchbase: 'https://www.crunchbase.com/organization/motion-picture-laboratories'
-      #     - item:
-      #       name: GSE UK
-      #       logo: gse-uk.svg
-      #       homepage_url: 'http://www.gse.org.uk'
-      #       crunchbase: 'https://www.crunchbase.com/organization/motion-picture-laboratories'
-      #     - item:
-      #       name: Academic Mainframe Consortium
-      #       logo: amc.svg
-      #       homepage_url: 'https://amc-ev.org/'
-      #       crunchbase: 'https://www.crunchbase.com/organization/visual-effects-society'
-      #     - item:
-      #       name: European Mainframe Academy
-      #       logo: ema.svg
-      #       homepage_url: 'https://mainframe-academy.de/'
-      #       crunchbase: 'https://www.crunchbase.com/organization/visual-effects-society'
+          - item:
+            name: GSE
+            logo: gse.svg
+            homepage_url: 'https://www.gse.org'
+            crunchbase: 'https://www.crunchbase.com/organization/guide-share-europe'
+            twitter: 'https://twitter.com/GuideShareEurop'
+          - item:
+            name: GSE UK
+            logo: gse-uk.svg
+            homepage_url: 'http://www.gse.org.uk'
+            crunchbase: 'https://www.crunchbase.com/organization/guide-share-europe-uk-region'
+          - item:
+            name: Academic Mainframe Consortium
+            logo: amc.svg
+            homepage_url: 'https://amc-ev.org/'
+            crunchbase: 'https://www.crunchbase.com/organization/academic-mainframe-consortium'
+          - item:
+            name: European Mainframe Academy
+            logo: ema.svg
+            homepage_url: 'https://mainframe-academy.de/'
+            crunchbase: 'https://www.crunchbase.com/organization/european-mainframe-academy'
