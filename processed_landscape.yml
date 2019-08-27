@@ -190,6 +190,7 @@ landscape:
           - item:
             name: Zowe
             homepage_url: 'https://zowe.org'
+            description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
             repo_url: 'https://github.com/zowe/api-layer'
             logo: zowe.svg
             project: graduated
@@ -353,7 +354,7 @@ landscape:
               effective_ticker: WMT
             image_data:
               fileName: z-fam.svg
-              hash: +/bs6krOlbvZcsmZ+wdNlseMeUWKcmJPbaNDYDxI8b8=
+              hash: UzNuUap3QItqSul2gDbY1LY+8xHAT547iOAZpEC5KH0=
             best_practice_data:
               badge: false
               percentage: null
@@ -449,6 +450,51 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2019-08-19T15:43:27.000Z
+          - item:
+            name: zUID
+            homepage_url: 'https://github.com/walmartlabs/zUID'
+            repo_url: 'https://github.com/walmartlabs/zUID'
+            logo: zuid.svg
+            crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
+            crunchbase_data:
+              name: Walmart Labs
+              description: 'WalmartLabs, the technology division responsible for Walmart’s global e-Commerce initiatives.'
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'http://www.walmartlabs.com/'
+              city: San Bruno
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/WalmartLabs'
+              linkedin: 'https://www.linkedin.com/company/9390173'
+              ticker: WMT
+              kind: market_cap
+            github_data:
+              stars: 11
+              license: Apache License 2.0
+              description: z/OS-based Unique Identifier generator
+              latest_commit_date: '2018-12-17T05:00:00.000Z'
+              latest_commit_link: /walmartlabs/zUID/commit/4bf25a2eed97c7e0c2f586cdcfb5fdb8e5575121
+              release_date: null
+              release_link: null
+              contributors_count: 3
+              contributors_link: 'https://github.com/walmartlabs/zUID/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /walmartlabs/zUID/commit/a57d9be0acc6e1d24a7f628db14c98316a543f07
+              start_date: '2016-11-16T22:30:24Z'
+            membership_data:
+              member: false
+            yahoo_finance_data:
+              market_cap: 319700074496
+              effective_ticker: WMT
+            image_data:
+              fileName: z-uid.svg
+              hash: iKRCS4zZq5o3G7n+yNWW0gRkrXbTLA+8Bd4AiQ43ezo=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-08-26T12:18:01.000Z
       - subcategory:
         name: Other
         items:
@@ -1354,6 +1400,9 @@ landscape:
           - item:
             name: LuaJIT
             logo: luajit.svg
+            description: >-
+              LuaJIT is a Just-In-Time Compiler (JIT) for the Lua programming language. Lua is a powerful, dynamic and light-weight programming language. It may
+              be embedded or used as a general-purpose, stand-alone language.
             homepage_url: 'http://luajit.org/'
             repo_url: 'https://github.com/siddhesh/LuaJIT'
             crunchbase: 'https://www.crunchbase.com/organization/linaro'
@@ -1394,6 +1443,9 @@ landscape:
           - item:
             name: PostgreSQL
             logo: postgresql.svg
+            description: >-
+              PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong
+              reputation for reliability, feature robustness, and performance.
             homepage_url: 'https://www.postgresql.org/'
             repo_url: 'https://github.com/postgres/postgres'
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
@@ -2044,7 +2096,7 @@ landscape:
               member: silver
             image_data:
               fileName: sine-nomine-associates.svg
-              hash: j0eoFZxh3IpMoWHsl0BUIw57U4X4Pd8308eP4SUvycY=
+              hash: CkAN2ujSOXsNZhW/8SwEeR7U51O56WUHSTzevBBtKqE=
             best_practice_data:
               badge: false
               percentage: null
@@ -2223,7 +2275,7 @@ landscape:
               member: academic
             image_data:
               fileName: epsi.svg
-              hash: u4CF2SJZTVQPl1klThnNoYKnQrSvrD650XAfUxPmz8E=
+              hash: 0w30swBPqz7lzNBJdm4lJQX10pskwDdXBm/cNIx3KE0=
             best_practice_data:
               badge: false
               percentage: null
