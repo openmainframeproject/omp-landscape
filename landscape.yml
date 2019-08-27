@@ -190,6 +190,20 @@ landscape:
             logo: omp_rocket-bluezone.svg
             homepage_url: 'https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-terminal-emulation'
             crunchbase: 'https://www.crunchbase.com/organization/rocket-software'
+          - item:
+            name: IBM® Service Management Suite for z/OS
+            description: "IBM® Service Management Suite is focused on delivering comprehensive management of your z/OS enterprise, encompassing monitoring, automation, network management, and asset discovery."
+            logo: omp_ibm-sms-for-zos.svg
+            homepage_url: "https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/897/ENUS217-270/index.html"
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
+          - item:
+            name: IBM® Service Automation Suite
+            description: "IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions."
+            logo: omp_ibm-sas.svg
+            homepage_url: "https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/5/897/ENUS219-085/index.html&request_locale=en"
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
       - subcategory:
         name: CLI
         items:
@@ -267,31 +281,36 @@ landscape:
             logo: alpine-linux.svg
             homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
             crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
-            open_source: true
+            repo_url: 'https://github.com/alpinelinux/abuild'
+            description: 'A security-oriented, lightweight Linux distribution'
           - item:
             name: ClefOS
             logo: clefos.svg
             homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
             crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
-            open_source: true
+            repo_url: 'https://github.com/alexlovesgithub/docker-images-s390x'
+            description: 'ClefOS is a distribution specifically for Linux on z Systems (s390x aka "the mainframe"). It is based on the CentOS source materials but is not part of the CentOS organization.'
           - item:
             name: Debian
             logo: debian.svg
             homepage_url: 'https://www.debian.org/ports/s390/'
             crunchbase: 'https://www.crunchbase.com/organization/debian'
-            open_source: true
+            repo_url: 'https://github.com/Debian/apt'
+            description: 'Debian is a free operating system (OS) for your computer.'
           - item:
             name: Fedora
             logo: fedora.svg
             homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
             crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
-            open_source: true
+            repo_url: 'https://github.com/fedora-infra/fedora-packages'
+            description: 'Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community members to build tailored solutions for their users.'
           - item:
             name: Gentoo
             logo: gentoo.svg
             homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
             crunchbase: 'https://www.crunchbase.com/organization/gentoo'
-            open_source: true
+            repo_url: 'https://github.com/gentoo/portage'
+            description: 'Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized and customized for just about any application or need.'
           - item:
             name: LuaJIT
             logo: luajit.svg
@@ -316,6 +335,7 @@ landscape:
             homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
             crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
             repo_url: 'https://github.com/nealef/clefos'
+            description: 'ClefOS is a distribution specifically for Linux on z Systems (s390x aka "the mainframe"). It is based on the CentOS source materials but is not part of the CentOS organization.'
           - item:
             name: Red Hat Enterprise Linux
             logo: suse.svg
@@ -339,30 +359,34 @@ landscape:
             logo: alpine-linux.svg
             homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
             crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
-            open_source: true
+            repo_url: 'https://github.com/alpinelinux/aports'
+            description: 'A security-oriented, lightweight Linux distribution'
           - item:
             name: Debian Linux
             logo: debian.svg
             homepage_url: 'https://www.debian.org/ports/s390/'
             crunchbase: 'https://www.crunchbase.com/organization/debian'
-            open_source: true
+            repo_url: 'https://github.com/Debian/devscripts'
+            description: 'Debian is a free operating system (OS) for your computer.'
           - item:
             name: Fedora Linux
             logo: fedora.svg
             homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
             crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
-            open_source: true
+            repo_url: 'https://github.com/fedora-infra/bodhi'
+            description: 'Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community members to build tailored solutions for their users.'
           - item:
             name: Gentoo Linux
             logo: gentoo.svg
             homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
             crunchbase: 'https://www.crunchbase.com/organization/gentoo'
-            open_source: true
+            #repo_url: 'https://github.com/gentoo/gentoo'
+            description: 'Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized and customized for just about any application or need.'
           - item:
             name: OpenSUSE
             logo: opensuse.svg
             homepage_url: 'https://en.opensuse.org/ZSystems'
-            open_source: true
+            repo_url: 'https://github.com/openSUSE/openSUSE-release-tools'
             crunchbase: 'https://www.crunchbase.com/organization/opensuse'
   - category:
     name: Open Mainframe Project Member Company

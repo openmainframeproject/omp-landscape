@@ -562,7 +562,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             membership_data:
-              member: false
+              member: platinum
             yahoo_finance_data:
               market_cap: 108692119552
               effective_ticker: AVGO
@@ -740,6 +740,74 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2019-08-15T18:07:02.000Z
+          - item:
+            name: IBM® Service Management Suite for z/OS
+            description: >-
+              IBM® Service Management Suite is focused on delivering comprehensive management of your z/OS enterprise, encompassing monitoring, automation,
+              network management, and asset discovery.
+            logo: omp_ibm-sms-for-zos.svg
+            homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/897/ENUS217-270/index.html'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              ticker: IBM
+              kind: market_cap
+            membership_data:
+              member: platinum
+            yahoo_finance_data:
+              market_cap: 120682749952
+              effective_ticker: IBM
+            image_data:
+              fileName: ibm-service-management-suite-for-z-os.svg
+              hash: KvA06k4wt3E8NUlzOkom0LjAwYW+L01mFj1lasbH0uU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-08-26T20:06:06.000Z
+          - item:
+            name: IBM® Service Automation Suite
+            description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
+            logo: omp_ibm-sas.svg
+            homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/5/897/ENUS219-085/index.html&request_locale=en'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              ticker: IBM
+              kind: market_cap
+            membership_data:
+              member: platinum
+            yahoo_finance_data:
+              market_cap: 120682749952
+              effective_ticker: IBM
+            image_data:
+              fileName: ibm-service-automation-suite.svg
+              hash: GNZs/IwOY6OAXy7Pl6fPGDTzD8BqMXc77ogqKfQ2Xsg=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-08-26T20:06:06.000Z
       - subcategory:
         name: CLI
         items:
@@ -767,7 +835,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             membership_data:
-              member: false
+              member: platinum
             yahoo_finance_data:
               market_cap: 108692119552
               effective_ticker: AVGO
@@ -803,7 +871,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             membership_data:
-              member: false
+              member: platinum
             yahoo_finance_data:
               market_cap: 108692119552
               effective_ticker: AVGO
@@ -839,7 +907,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             membership_data:
-              member: false
+              member: platinum
             yahoo_finance_data:
               market_cap: 108692119552
               effective_ticker: AVGO
@@ -875,7 +943,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             membership_data:
-              member: false
+              member: platinum
             yahoo_finance_data:
               market_cap: 108692119552
               effective_ticker: AVGO
@@ -911,7 +979,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             membership_data:
-              member: false
+              member: platinum
             yahoo_finance_data:
               market_cap: 108692119552
               effective_ticker: AVGO
@@ -947,7 +1015,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             membership_data:
-              member: false
+              member: platinum
             yahoo_finance_data:
               market_cap: 108692119552
               effective_ticker: AVGO
@@ -1079,7 +1147,8 @@ landscape:
             logo: alpine-linux.svg
             homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
             crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
-            open_source: true
+            repo_url: 'https://github.com/alpinelinux/abuild'
+            description: 'A security-oriented, lightweight Linux distribution'
             crunchbase_data:
               name: Alpine Linux
               description: 'Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.'
@@ -1091,6 +1160,19 @@ landscape:
               country: Spain
               twitter: 'https://twitter.com/alpinelinux'
               linkedin: null
+            github_data:
+              stars: 27
+              license: Unknown License
+              description: Build script to build Alpine packages (mirror)
+              latest_commit_date: '2019-08-09T04:00:00.000Z'
+              latest_commit_link: /alpinelinux/abuild/commit/6310405af8c5d91178524c212ead7755c16e70b3
+              release_date: null
+              release_link: null
+              contributors_count: 49
+              contributors_link: 'https://github.com/alpinelinux/abuild/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /alpinelinux/abuild/commit/fdc478bde8a2a0d76d33fcc89fa313c9f31bb79c
+              start_date: '2008-10-18T08:09:24Z'
             membership_data:
               member: false
             image_data:
@@ -1106,7 +1188,10 @@ landscape:
             logo: clefos.svg
             homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
             crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
-            open_source: true
+            repo_url: 'https://github.com/alexlovesgithub/docker-images-s390x'
+            description: >-
+              ClefOS is a distribution specifically for Linux on z Systems (s390x aka "the mainframe"). It is based on the CentOS source materials but is not
+              part of the CentOS organization.
             crunchbase_data:
               name: Sine Nomine Associates
               description: Sine Nomine Associates is an IT research and custom development engineering firm.
@@ -1118,6 +1203,19 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
+            github_data:
+              stars: 0
+              license: Unknown License
+              description: Docker build scripts for ClefOS 7 (s390x)
+              latest_commit_date: '2019-04-09T04:00:00.000Z'
+              latest_commit_link: /alexlovesgithub/docker-images-s390x/commit/7d0c8ee93d31db94a6e693e655eca1d8685e16d6
+              release_date: null
+              release_link: null
+              contributors_count: 1
+              contributors_link: 'https://github.com/alexlovesgithub/docker-images-s390x/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /alexlovesgithub/docker-images-s390x/commit/ea9d04276acfa69f2df1dd62f3de3e377a7bc205
+              start_date: '2019-04-09T08:27:43Z'
             membership_data:
               member: silver
             image_data:
@@ -1131,7 +1229,8 @@ landscape:
             logo: debian.svg
             homepage_url: 'https://www.debian.org/ports/s390/'
             crunchbase: 'https://www.crunchbase.com/organization/debian'
-            open_source: true
+            repo_url: 'https://github.com/Debian/apt'
+            description: Debian is a free operating system (OS) for your computer.
             crunchbase_data:
               name: Debian
               description: Debian An operating system is the set of basic programs and utilities that make your computer run.
@@ -1143,6 +1242,19 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/debian'
               linkedin: 'https://www.linkedin.com/company/163400'
+            github_data:
+              stars: 220
+              license: Unknown License
+              description: Mirror of the apt git repository
+              latest_commit_date: '2019-08-22T04:00:00.000Z'
+              latest_commit_link: /Debian/apt/commit/b9127ca07c37288f16b1fdc267d3f106721ed301
+              release_date: null
+              release_link: null
+              contributors_count: 126
+              contributors_link: 'https://github.com/Debian/apt/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /Debian/apt/commit/89eaeb446c24bbeacc5f69c170cf60104854432e
+              start_date: '2005-03-23T15:46:22Z'
             membership_data:
               member: false
             image_data:
@@ -1158,7 +1270,10 @@ landscape:
             logo: fedora.svg
             homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
             crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
-            open_source: true
+            repo_url: 'https://github.com/fedora-infra/fedora-packages'
+            description: >-
+              Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community
+              members to build tailored solutions for their users.
             crunchbase_data:
               name: The Fedora Project
               description: The Fedora Project is a partnership of free software community members from around the globe.
@@ -1170,6 +1285,19 @@ landscape:
               country: United States
               twitter: 'https://www.twitter.com/fedora'
               linkedin: null
+            github_data:
+              stars: 51
+              license: GNU Affero General Public License v3.0
+              description: A webapp that allows searching packages in Fedora. Written in Python using TurboGears2 and Moksha.
+              latest_commit_date: '2019-05-26T04:00:00.000Z'
+              latest_commit_link: /fedora-infra/fedora-packages/commit/f8c9f386c3318475a19d7e0668c0f90105c69500
+              release_date: null
+              release_link: null
+              contributors_count: 33
+              contributors_link: 'https://github.com/fedora-infra/fedora-packages/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /fedora-infra/fedora-packages/commit/43ade441ab5857d71eeac40b8a509fd936a243a2
+              start_date: '2008-01-08T19:34:41Z'
             membership_data:
               member: false
             image_data:
@@ -1185,7 +1313,10 @@ landscape:
             logo: gentoo.svg
             homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
             crunchbase: 'https://www.crunchbase.com/organization/gentoo'
-            open_source: true
+            repo_url: 'https://github.com/gentoo/portage'
+            description: >-
+              Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized and customized for just about any
+              application or need.
             crunchbase_data:
               name: Gentoo
               description: Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized.
@@ -1197,6 +1328,19 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/gentoo'
               linkedin: 'https://www.linkedin.com/company/gentoo-linux/'
+            github_data:
+              stars: 260
+              license: Other
+              description: 'Portage Package Manager - this is just a mirror, see https://wiki.gentoo.org/wiki/Project:Portage#Contributing_to_Portage'
+              latest_commit_date: '2019-08-26T04:00:00.000Z'
+              latest_commit_link: /gentoo/portage/commit/ccba5a6ff0c4a2d6896827da9fa779919e86f744
+              release_date: null
+              release_link: null
+              contributors_count: 136
+              contributors_link: 'https://github.com/gentoo/portage/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /gentoo/portage/commit/d9fc4acc572c6647a4f27b838d35d27d805d190e
+              start_date: '2005-08-28T08:37:44Z'
             membership_data:
               member: false
             image_data:
@@ -1301,6 +1445,9 @@ landscape:
             homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
             crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
             repo_url: 'https://github.com/nealef/clefos'
+            description: >-
+              ClefOS is a distribution specifically for Linux on z Systems (s390x aka "the mainframe"). It is based on the CentOS source materials but is not
+              part of the CentOS organization.
             crunchbase_data:
               name: Sine Nomine Associates
               description: Sine Nomine Associates is an IT research and custom development engineering firm.
@@ -1421,7 +1568,8 @@ landscape:
             logo: alpine-linux.svg
             homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
             crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
-            open_source: true
+            repo_url: 'https://github.com/alpinelinux/aports'
+            description: 'A security-oriented, lightweight Linux distribution'
             crunchbase_data:
               name: Alpine Linux
               description: 'Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.'
@@ -1433,6 +1581,19 @@ landscape:
               country: Spain
               twitter: 'https://twitter.com/alpinelinux'
               linkedin: null
+            github_data:
+              stars: 369
+              license: Unknown License
+              description: Mirror of aports repository
+              latest_commit_date: '2019-08-27T04:00:00.000Z'
+              latest_commit_link: /alpinelinux/aports/commit/62cc66f8ccc2a9c940506375aea20f71fe35f739
+              release_date: null
+              release_link: null
+              contributors_count: 566
+              contributors_link: 'https://github.com/alpinelinux/aports/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /alpinelinux/aports/commit/3196418bad03f30a8a8bc833cda9a2e0fe8d18b2
+              start_date: '2006-02-01T18:18:47Z'
             membership_data:
               member: false
             image_data:
@@ -1448,7 +1609,8 @@ landscape:
             logo: debian.svg
             homepage_url: 'https://www.debian.org/ports/s390/'
             crunchbase: 'https://www.crunchbase.com/organization/debian'
-            open_source: true
+            repo_url: 'https://github.com/Debian/devscripts'
+            description: Debian is a free operating system (OS) for your computer.
             crunchbase_data:
               name: Debian
               description: Debian An operating system is the set of basic programs and utilities that make your computer run.
@@ -1460,6 +1622,19 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/debian'
               linkedin: 'https://www.linkedin.com/company/163400'
+            github_data:
+              stars: 17
+              license: GNU General Public License v2.0
+              description: 'Mirror of https://salsa.debian.org/deban/devscripts.git'
+              latest_commit_date: '2019-05-22T04:00:00.000Z'
+              latest_commit_link: /Debian/devscripts/commit/a5c813bb256d84db19f4a96be6c348f4ef1caa18
+              release_date: null
+              release_link: null
+              contributors_count: 96
+              contributors_link: 'https://github.com/Debian/devscripts/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /Debian/devscripts/commit/4f381994f9a44ced0ce48a0f46331afd70fbf116
+              start_date: '2004-07-29T22:21:56Z'
             membership_data:
               member: false
             image_data:
@@ -1475,7 +1650,10 @@ landscape:
             logo: fedora.svg
             homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
             crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
-            open_source: true
+            repo_url: 'https://github.com/fedora-infra/bodhi'
+            description: >-
+              Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community
+              members to build tailored solutions for their users.
             crunchbase_data:
               name: The Fedora Project
               description: The Fedora Project is a partnership of free software community members from around the globe.
@@ -1487,6 +1665,19 @@ landscape:
               country: United States
               twitter: 'https://www.twitter.com/fedora'
               linkedin: null
+            github_data:
+              stars: 92
+              license: GNU General Public License v2.0
+              description: Bodhi is a web-system that facilitates the process of publishing updates for a Fedora-based software distribution.
+              latest_commit_date: '2019-08-27T04:00:00.000Z'
+              latest_commit_link: /fedora-infra/bodhi/commit/3a89b54eb4941b617f1c7be39609ced13f13b438
+              release_date: '2019-08-22T09:41:31Z'
+              release_link: 'https://github.com/fedora-infra/bodhi/releases'
+              contributors_count: 89
+              contributors_link: 'https://github.com/fedora-infra/bodhi/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /fedora-infra/bodhi/commit/e26dacbb680bb65ffee0b82679e3f48a982ae4a1
+              start_date: '2007-01-15T23:02:11Z'
             membership_data:
               member: false
             image_data:
@@ -1502,7 +1693,9 @@ landscape:
             logo: gentoo.svg
             homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
             crunchbase: 'https://www.crunchbase.com/organization/gentoo'
-            open_source: true
+            description: >-
+              Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized and customized for just about any
+              application or need.
             crunchbase_data:
               name: Gentoo
               description: Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized.
@@ -1528,7 +1721,7 @@ landscape:
             name: OpenSUSE
             logo: opensuse.svg
             homepage_url: 'https://en.opensuse.org/ZSystems'
-            open_source: true
+            repo_url: 'https://github.com/openSUSE/openSUSE-release-tools'
             crunchbase: 'https://www.crunchbase.com/organization/opensuse'
             crunchbase_data:
               name: OpenSUSE
@@ -1541,6 +1734,19 @@ landscape:
               country: Germany
               twitter: 'https://twitter.com/opensuse'
               linkedin: 'https://www.linkedin.com/company/opensuse-project'
+            github_data:
+              stars: 23
+              license: GNU General Public License v2.0
+              description: Tools to aid in staging and release work for openSUSE/SUSE
+              latest_commit_date: '2019-08-27T04:00:00.000Z'
+              latest_commit_link: /openSUSE/openSUSE-release-tools/commit/7f92a226fcba1d6e4626c18479e8d2f79b49174e
+              release_date: null
+              release_link: null
+              contributors_count: 49
+              contributors_link: 'https://github.com/openSUSE/openSUSE-release-tools/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openSUSE/openSUSE-release-tools/commit/7c18bf8f8465b5805c20085dd6163c31f73f991d
+              start_date: '2011-03-29T11:48:57Z'
             membership_data:
               member: false
             image_data:
@@ -1609,7 +1815,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             membership_data:
-              member: false
+              member: platinum
             yahoo_finance_data:
               market_cap: 108692119552
               effective_ticker: AVGO
