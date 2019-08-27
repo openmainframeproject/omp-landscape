@@ -90,6 +90,7 @@ landscape:
           - item:
             name: Zowe
             homepage_url: 'https://zowe.org'
+            description: 'Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.'
             repo_url: 'https://github.com/zowe/api-layer'
             logo: zowe.svg
             project: graduated
@@ -314,12 +315,14 @@ landscape:
           - item:
             name: LuaJIT
             logo: luajit.svg
+            description: "LuaJIT is a Just-In-Time Compiler (JIT) for the Lua programming language. Lua is a powerful, dynamic and light-weight programming language. It may be embedded or used as a general-purpose, stand-alone language."
             homepage_url: 'http://luajit.org/'
             repo_url: 'https://github.com/siddhesh/LuaJIT'
             crunchbase: 'https://www.crunchbase.com/organization/linaro'
           - item:
             name: PostgreSQL
             logo: postgresql.svg
+            description: "PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance."
             homepage_url: 'https://www.postgresql.org/'
             repo_url: 'https://github.com/postgres/postgres'
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
