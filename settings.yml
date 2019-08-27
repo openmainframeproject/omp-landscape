@@ -29,19 +29,19 @@ relation:
       children:
         - id: graduated
           label: Graduated Open Mainframe Project Projects
-          prefix: Open Mainframe Project
+          prefix: OMP
           tag: Graduated
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: Open Mainframe Project Graduated
+          big_picture_label: OMP Graduated
           big_picture_color: 'rgb(24,54,114)'
         - id: incubating
           label: Incubating Open Mainframe Project Projects
-          prefix: Open Mainframe Project
+          prefix: OMP
           tag: Incubating
           color: '#00cbff'
           big_picture_order: 2
-          big_picture_label: Open Mainframe Project Incubating
+          big_picture_label: OMP Incubating
           big_picture_color: 'rgb(83, 113, 189)'
     - id: company
       label: Open Mainframe Project Members
@@ -114,71 +114,44 @@ big_picture:
     elements:
       - type: HorizontalCategory
         category: Projects
-        rows: 4
+        rows: 3
         width: 700
-        height: 300
+        height: 200
         top: 0
         left: 0
         color: 'rgb(78,171,207)'
         fit_width: true
       - type: HorizontalCategory
         category: Zowe Conformant
-        rows: 4
+        rows: 3
         width: 700
         height: 160
-        top: 350
+        top: 395
         left: 0
         color: 'rgb(124, 200, 182)'
         fit_width: true
-      # - type: HorizontalCategory
-      #   category: Distributed Computing
-      #   rows: 3
-      #   width: 300
-      #   height: 160
-      #   top: 190
-      #   left: 0
-      #   color: 'rgb(64, 89, 163)'
-      #   fit_width: true
-      # - type: HorizontalCategory
-      #   category: Data
-      #   rows: 3
-      #   width: 795
-      #   height: 160
-      #   top: 190
-      #   left: 320
-      #   color: 'rgb(74, 131, 104)'
-      #   fit_width: true
-      # - type: HorizontalCategory
-      #   category: AI Ethics & Fairness
-      #   rows: 3
-      #   width: 155
-      #   height: 160
-      #   top: 380
-      #   left: 0
-      #   color: 'rgb(142, 209, 216)'
-      #   fit_width: true
-      # - type: HorizontalCategory
-      #   category: Natural Language Processing
-      #   rows: 4
-      #   width: 200
-      #   height: 160
-      #   top: 380
-      #   left: 175
-      #   color: 'rgb(64, 89, 163)'
-      #   fit_width: true
-      # - type: HorizontalCategory
-      #   category: Model
-      #   rows: 4
-      #   width: 720
-      #   height: 160
-      #   top: 380
-      #   left: 395
-      #   color: 'rgb(108, 135, 75)'
-      #   fit_width: true
+      - type: HorizontalCategory
+        category: Linux Distributions
+        rows: 3
+        width: 300
+        height: 160
+        top: 215
+        left: 0
+        color: 'rgb(64, 89, 163)'
+        fit_width: true
+      - type: HorizontalCategory
+        category: Supported Projects
+        rows: 3
+        width: 380
+        height: 160
+        top: 215
+        left: 320
+        color: 'rgb(74, 131, 104)'
+        fit_width: true
       - type: HorizontalCategory
         category: Open Mainframe Project Member Company
         rows: 6
-        width: 950
+        width: 1000
         height: 300
         top: 570
         left: 0
@@ -188,7 +161,7 @@ big_picture:
         width: 365
         height: 200
         top: 0
-        left: 750
+        left: 740
         children:
           - type: text
             text: >

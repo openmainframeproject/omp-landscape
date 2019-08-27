@@ -13,14 +13,80 @@ landscape:
             project: incubating
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           # - item:
-          #   name: ZNETBOOT
-          #   homepage_url: 'https://github.com/trothr/znetboot'
-          #   repo_url: 'https://github.com/trothr/znetboot'
-          #   logo:
-          #   crunchbase: 'https://www.crunchbase.com/organization/rice-university'
+          #   name: zoom (System z object-oriented management)
+          #   homepage_url: 'https://sourceforge.net/projects/system-zoom/'
+          #   repo_url:
+          #   logo: zoom.svg
+          #   crunchbase: 'https://www.crunchbase.com/organization/adp'
+          # - item:
+          #   name: zuess (System z user-enabled self-service)
+          #   homepage_url: 'https://sourceforge.net/projects/system-zoom/'
+          #   repo_url:
+          #   logo: zuess.svg
+          #   crunchbase: 'https://www.crunchbase.com/organization/adp'
+          - item:
+            name: s390-tools
+            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/s390-tools.html'
+            repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
+            logo: s390-tools.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          # - item:
+          #   name: Query Capacity library (qclib)
+          #   homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/qclib.html'
+          #   repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
+          #   logo: qclib.svg
+          #   crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          # - item:
+          #   name: snIPL (simple network IPL)
+          #   homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/snipl.html'
+          #   repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
+          #   logo: snipl.svg
+          #   crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          # - item:
+          #   name: zfcp HBA API library
+          #   homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/zfcp-hbaapi.html'
+          #   repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
+          #   logo: zfcp.svg
+          #   crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          # - item:
+          #   name: Shared Memory Communication Tools
+          #   homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/smc-tools.html'
+          #   repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
+          #   logo: smc-tools.svg
+          #   crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          # - item:
+          #   name: src_vipa (source VIPA)
+          #   homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/useful_add-ons_vipa.html'
+          #   repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
+          #   logo: src_vipa.svg
+          #   crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          # - item:
+          #   name: System Loader (sysload)
+          #   homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/sysload.html'
+          #   repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
+          #   logo: sysload.svg
+          #   crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
+            name: libica
+            homepage_url: 'https://github.com/opencryptoki/libica'
+            repo_url: 'https://github.com/opencryptoki/libica'
+            logo: libica.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
+            name: crc32-s390x
+            homepage_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
+            repo_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
+            logo: crc32-s390x.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
       - subcategory:
         name: z/OS
         items:
+          # - item:
+          #   name: CBT tape
+          #   homepage_url: 'http://www.cbttape.org/'
+          #   crunchbase: 'https://www.crunchbase.com/organization/cbt-tape'
+          #   open_source: true
+          #   logo: cbttape.svg
           - item:
             name: Zowe
             homepage_url: 'https://zowe.org'
@@ -35,6 +101,30 @@ landscape:
             logo: zorow.svg
             project: incubating
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: zECS
+            homepage_url: 'https://github.com/walmartlabs/zECS'
+            repo_url: 'https://github.com/walmartlabs/zECS'
+            logo: zecs.svg
+            crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
+          - item:
+            name: zFAM
+            homepage_url: 'https://github.com/walmartlabs/zFAM'
+            repo_url: 'https://github.com/walmartlabs/zFAM'
+            logo: zfam.svg
+            crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
+          - item:
+            name: z/OS Node Accessor
+            homepage_url: 'https://github.com/IBM/zos-node-accessor'
+            repo_url: 'https://github.com/IBM/zos-node-accessor'
+            logo: zos-node-accessor.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
+            name: z/OS Tools
+            homepage_url: 'https://github.com/IBM/IBM-Z-zOS'
+            repo_url: 'https://github.com/IBM/IBM-Z-zOS'
+            logo: zos-tools.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
       - subcategory:
         name: Other
         items:
@@ -166,6 +256,114 @@ landscape:
             repo_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
             twitter: 'https://twitter.com/ibmz'
+  - category:
+    name: Supported Projects
+    subcategories:
+      - subcategory:
+        name: Supported Projects
+        items:
+          - item:
+            name: Alpine
+            logo: alpine-linux.svg
+            homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
+            crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
+            open_source: true
+          - item:
+            name: ClefOS
+            logo: clefos.svg
+            homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
+            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
+            open_source: true
+          - item:
+            name: Debian
+            logo: debian.svg
+            homepage_url: 'https://www.debian.org/ports/s390/'
+            crunchbase: 'https://www.crunchbase.com/organization/debian'
+            open_source: true
+          - item:
+            name: Fedora
+            logo: fedora.svg
+            homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
+            crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
+            open_source: true
+          - item:
+            name: Gentoo
+            logo: gentoo.svg
+            homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
+            crunchbase: 'https://www.crunchbase.com/organization/gentoo'
+            open_source: true
+          - item:
+            name: LuaJIT
+            logo: luajit.svg
+            homepage_url: 'http://luajit.org/'
+            repo_url: 'https://github.com/siddhesh/LuaJIT'
+            crunchbase: 'https://www.crunchbase.com/organization/linaro'
+          - item:
+            name: PostgreSQL
+            logo: postgresql.svg
+            homepage_url: 'https://www.postgresql.org/'
+            repo_url: 'https://github.com/postgres/postgres'
+            crunchbase: 'https://www.crunchbase.com/organization/postgresql'
+  - category:
+    name: Linux Distributions
+    subcategories:
+      - subcategory:
+        name: Commercial
+        items:
+          - item:
+            name: ClefOS for System z
+            logo: clefos.svg
+            homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
+            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
+            repo_url: 'https://github.com/nealef/clefos'
+          - item:
+            name: Red Hat Enterprise Linux
+            logo: suse.svg
+            homepage_url: 'https://www.redhat.com/en/store/red-hat-enterprise-linux-ibm-system-z#?sku=RH0416249'
+            crunchbase: 'https://www.crunchbase.com/organization/suse'
+          - item:
+            name: SUSE Linux Enterprise Server
+            logo: rhel.svg
+            homepage_url: 'https://www.suse.com/products/systemz/'
+            crunchbase: 'https://www.crunchbase.com/organization/suse'
+          - item:
+            name: Ubuntu
+            logo: ubuntu.svg
+            homepage_url: 'https://wiki.ubuntu.com/S390X'
+            crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
+      - subcategory:
+        name: Community
+        items:
+          - item:
+            name: Alpine Linux
+            logo: alpine-linux.svg
+            homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
+            crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
+            open_source: true
+          - item:
+            name: Debian Linux
+            logo: debian.svg
+            homepage_url: 'https://www.debian.org/ports/s390/'
+            crunchbase: 'https://www.crunchbase.com/organization/debian'
+            open_source: true
+          - item:
+            name: Fedora Linux
+            logo: fedora.svg
+            homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
+            crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
+            open_source: true
+          - item:
+            name: Gentoo Linux
+            logo: gentoo.svg
+            homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
+            crunchbase: 'https://www.crunchbase.com/organization/gentoo'
+            open_source: true
+          - item:
+            name: OpenSUSE
+            logo: opensuse.svg
+            homepage_url: 'https://en.opensuse.org/ZSystems'
+            open_source: true
+            crunchbase: 'https://www.crunchbase.com/organization/opensuse'
   - category:
     name: Open Mainframe Project Member Company
     subcategories:
@@ -327,7 +525,7 @@ landscape:
           - item:
             name: SHARE
             logo: share.svg
-            homepage_url: 'https://www.share.org/'
+            homepage_url: 'https://www.share.org'
             crunchbase: 'https://www.crunchbase.com/organization/share-8c77'
           - item:
             name: GSE
@@ -343,10 +541,10 @@ landscape:
           - item:
             name: Academic Mainframe Consortium
             logo: amc.svg
-            homepage_url: 'https://amc-ev.org/'
+            homepage_url: 'https://amc-ev.org'
             crunchbase: 'https://www.crunchbase.com/organization/academic-mainframe-consortium'
           - item:
             name: European Mainframe Academy
             logo: ema.svg
-            homepage_url: 'https://mainframe-academy.de/'
+            homepage_url: 'https://mainframe-academy.de'
             crunchbase: 'https://www.crunchbase.com/organization/european-mainframe-academy'
