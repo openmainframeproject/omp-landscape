@@ -149,6 +149,20 @@ landscape:
             repo_url: 'https://github.com/openmainframeproject/ade'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             logo: ade.svg
+          - item:
+            name: Mentorship
+            project: graduated
+            homepage_url: 'http://openmainframeproject.github.io/ade/'
+            repo_url: 'https://github.com/openmainframeproject-internship/resources'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            logo: mentorship.svg
+          - item:
+            name: Atom language syntax highlighting for z/VM
+            homepage_url: 'https://atom.io/users/openmainframeproject'
+            repo_url: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            project: incubating
+            logo: atom.svg
   - category:
     name: Zowe Conformant
     subcategories:
