@@ -171,7 +171,7 @@ landscape:
         items:
           - item:
             name: CA File Master™ Plus
-            homepage_url: 'https://docops.ca.com/ca-file-master-plus/11/en/using-the-rest-api'
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-filemaster-plus/11-0/using-the-rest-api.html'
             logo: omp_catechnologies-cafilemasterplus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             stock_ticker: AVGO
@@ -222,7 +222,7 @@ landscape:
             name: IBM® Service Management Suite for z/OS
             description: "IBM® Service Management Suite is focused on delivering comprehensive management of your z/OS enterprise, encompassing monitoring, automation, network management, and asset discovery."
             logo: omp_ibm-sms-for-zos.svg
-            homepage_url: "https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/897/ENUS217-270/index.html"
+            homepage_url: "https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/897/ENUS217-270/index.html&request_locale=en"
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
             twitter: 'https://twitter.com/ibmz'
           - item:
@@ -245,42 +245,42 @@ landscape:
           - item:
             name: CA Endevor® SCM Plug-in for Zowe CLI
             description: "The CA Endevor® SCM Plug-in for Zowe CLI lets you interact with CA Endevor through a local command-line interface. You can control CA Endevor application lifecycle actions, allowing easy scripting from off-platform CI/CD pipelines."
-            homepage_url: 'https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm'
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside-enterprise-and-essentials-2-0/2-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html'
             logo: omp_catechnologies-caendevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             stock_ticker: AVGO
           - item:
             name: CA File Master™ Plus Plug-in for Zowe CLI
             description: "The CA File Master™ Plus Plug-in for Zowe CLI brings advanced file management and data manipulation functionality to the CLI. Control functions that CLI can invoke include copying, renaming and deleting files, and populating files with data."
-            homepage_url: 'https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus'
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside-enterprise-and-essentials-2-0/2-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html'
             logo: omp_catechnologies-cafilemasterplus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             stock_ticker: AVGO
           - item:
             name: CA OPS/MVS® Plug-in for Zowe CLI
             description: "The CA OPS/MVS® Plug-in for Zowe CLI lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient automation and resource management from the CLI."
-            homepage_url: 'https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs'
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside-enterprise-and-essentials-2-0/2-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html'
             logo: omp_catechnologies-caopsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             stock_ticker: AVGO
           - item:
             name: CA z/OS Extended Files Plug-in for Zowe CLI
             description: "The CA z/OS Extended Files Plug-in for Zowe CLI lets application developers extend the CLI to support data set management functionality. For example, copying the contents of a data set and downloading data sets that match a DSLEVEL pattern."
-            homepage_url: 'https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files'
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside-enterprise-and-essentials-2-0/2-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html'
             logo: omp_catechnologies-cazosextendedfiles.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             stock_ticker: AVGO
           - item:
             name: CA z/OS Extended Jobs Plug-in for Zowe CLI
             description: "The CA z/OS Extended Jobs Plug-in for Zowe CLI lets application developers extend the CLI to support additional z/OS job creation and job management functionality. For example, viewing all spool content and deleting multiple jobs in the OUTPUT status."
-            homepage_url: 'https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs'
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside-enterprise-and-essentials-2-0/2-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html'
             logo: omp_catechnologies-cazosextendedjobs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             stock_ticker: AVGO
           - item:
             name: CA Secure Credential Store Plug-in for Zowe CLI
             description: "The CA Secure Credential Store Plug-in for Zowe CLI lets you store your credentials securely in the default credential manager of your operating system."
-            homepage_url: 'https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store'
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside-enterprise-and-essentials-2-0/2-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store.html'
             logo: omp_catechnologies-casecurecredentialstore.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             stock_ticker: AVGO
@@ -447,12 +447,12 @@ landscape:
           - item:
             name: CA Broadcom
             logo: ca-broadcom.svg
-            homepage_url: 'https://www.ca.com/'
+            homepage_url: 'https://www.ca.com/us.html'
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             stock_ticker: AVGO
           - item:
             name: IBM
-            homepage_url: 'https://www.ibm.com/'
+            homepage_url: 'https://www.ibm.com/us-en/?ar=1'
             logo: ibm.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
             twitter: 'https://twitter.com/ibmz'
@@ -497,7 +497,7 @@ landscape:
           - item:
             name: Syncsort
             logo: syncsort.svg
-            homepage_url: 'https://www.syncsort.com/'
+            homepage_url: 'https://www.syncsort.com/en/home'
             crunchbase: 'https://www.crunchbase.com/organization/syncsort'
           - item:
             name: Vicom Infinity
@@ -604,7 +604,7 @@ landscape:
           - item:
             name: GSE UK
             logo: gse-uk.svg
-            homepage_url: 'http://www.gse.org.uk'
+            homepage_url: 'http://www.gse.org.uk/mainsite/content/content_events.php'
             crunchbase: 'https://www.crunchbase.com/organization/guide-share-europe-uk-region'
           - item:
             name: Academic Mainframe Consortium
