@@ -1,4 +1,4 @@
-[![Dependency Status](https://img.shields.io/david/openmainframeproject/omp-landscape.svg?style=flat-square)](https://david-dm.org/openmainframeproject/omp-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/0be0c0c1-cb6d-43a2-8087-1c865cc35c62/deploy-status)](https://app.netlify.com/sites/openmainframe/deploys)
+[![Dependency Status](https://img.shields.io/david/openmainframeproject/omp-landscape.svg?style=flat-square)](https://david-dm.org/openmainframeproject/omp-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/0be0c0c1-cb6d-43a2-8087-1c865cc35c62/deploy-status)](https://app.netlify.com/sites/omp-landscape/deploys)
 
 # Academy Software Foundation Landscape
 
