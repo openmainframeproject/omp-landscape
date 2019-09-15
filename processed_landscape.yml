@@ -159,7 +159,7 @@ landscape:
               latest_commit_link: /ibm-s390-tools/s390-tools/commit/7a569c7e33bc38826cf358e48862f7a9b90e579d
               release_date: '2019-09-06T12:25:46Z'
               release_link: 'https://github.com/ibm-s390-tools/s390-tools/releases'
-              contributors_count: 0
+              contributors_count: 25
               contributors_link: 'https://github.com/ibm-s390-tools/s390-tools/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /ibm-s390-tools/s390-tools/commit/b627b8d8e1abef0724ceac559f255fabb996b359
@@ -248,7 +248,7 @@ landscape:
               description: 'The helpful and handy location for finding and sharing z/OS files, which are not included in the product.'
               latest_commit_date: '2019-09-12T00:00:00.000Z'
               latest_commit_link: /IBM/IBM-Z-zOS/commit/98adc83868b7f86e80287f98de000ad6fe9fcb89
-              contributors_count: 0
+              contributors_count: 20
               contributors_link: 'https://github.com/IBM/IBM-Z-zOS/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /IBM/IBM-Z-zOS/commit/c94c49958d7a64cbf11151f8e3b5877e50d6b42c
@@ -732,7 +732,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T17:16:02.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS - API Mediation Layer
             description: >-
@@ -766,7 +766,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T17:16:02.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
       - subcategory:
         name: App Framework
         items:
@@ -800,7 +800,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T17:16:02.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS - App Framework
             description: >-
@@ -834,7 +834,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T17:16:02.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
             name: IBM® Service Automation Suite
             description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
@@ -866,7 +866,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T17:16:02.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
             name: IBM® Service Management Suite for z/OS
             description: >-
@@ -900,7 +900,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T17:16:02.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
             name: IBM® Service Management Unite(SMU)
             description: >-
@@ -934,7 +934,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T17:16:02.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
             name: Rocket™ BlueZone
             description: >-
@@ -1246,7 +1246,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T17:16:02.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS - CLI
             description: >-
@@ -1280,7 +1280,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T17:16:02.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI
             description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.
@@ -1326,7 +1326,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T17:16:02.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
   - category:
     name: Supported Projects
     subcategories:
@@ -1429,7 +1429,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/163400'
               parents: []
             github_data:
-              stars: 221
+              stars: 222
               license: Unknown License
               description: Mirror of the apt git repository
               latest_commit_date: '2019-08-22T00:00:00.000Z'
@@ -1512,8 +1512,8 @@ landscape:
               stars: 261
               license: Other
               description: 'Portage Package Manager - this is just a mirror, see https://wiki.gentoo.org/wiki/Project:Portage#Contributing_to_Portage'
-              latest_commit_date: '2019-09-12T00:00:00.000Z'
-              latest_commit_link: /gentoo/portage/commit/524aa791f28ffcc1df921d8a8a9c111b7e359099
+              latest_commit_date: '2019-09-15T00:00:00.000Z'
+              latest_commit_link: /gentoo/portage/commit/c510f715b748a604c47fb78ed4796bf0391bcfdd
               contributors_count: 136
               contributors_link: 'https://github.com/gentoo/portage/graphs/contributors'
             github_start_commit_data:
@@ -1589,13 +1589,13 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/758353'
               parents: []
             github_data:
-              stars: 5785
+              stars: 5786
               license: Other
               description: >-
                 Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute,
                 please see https://wiki.postgresql.org/wiki/Submitting_a_Patch
-              latest_commit_date: '2019-09-14T00:00:00.000Z'
-              latest_commit_link: /postgres/postgres/commit/e7ff59686eacf5021fb84be921116986c3828d8a
+              latest_commit_date: '2019-09-15T00:00:00.000Z'
+              latest_commit_link: /postgres/postgres/commit/87e9fae0696d9e3ff70a1438775ad9f786b854a5
               contributors_count: 33
               contributors_link: 'https://github.com/postgres/postgres/graphs/contributors'
             github_start_commit_data:
@@ -1682,7 +1682,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T19:54:01.000Z
+              latest_tweet_date: 2019-09-14T19:15:14.000Z
           - item:
             name: SUSE Linux Enterprise Server
             homepage_url: 'https://www.suse.com/products/systemz/'
@@ -1709,7 +1709,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T02:00:21.000Z
+              latest_tweet_date: 2019-09-14T18:35:03.000Z
           - item:
             name: Ubuntu
             homepage_url: 'https://wiki.ubuntu.com/S390X'
@@ -1763,8 +1763,8 @@ landscape:
               stars: 370
               license: Unknown License
               description: Mirror of aports repository
-              latest_commit_date: '2019-09-14T00:00:00.000Z'
-              latest_commit_link: /alpinelinux/aports/commit/c54dc7d6dec45155410bc40129f7fb8211b6c406
+              latest_commit_date: '2019-09-15T00:00:00.000Z'
+              latest_commit_link: /alpinelinux/aports/commit/52a89765b1ad1b8dffd826eb6d8108f550cb3688
               contributors_count: 568
               contributors_link: 'https://github.com/alpinelinux/aports/graphs/contributors'
             github_start_commit_data:
@@ -1883,8 +1883,8 @@ landscape:
               stars: 1076
               license: Unknown License
               description: The Gentoo ebuild repository mirror
-              latest_commit_date: '2019-09-14T00:00:00.000Z'
-              latest_commit_link: /gentoo/gentoo/commit/7952d5442b709d64a932c3d30b303356b00d3b91
+              latest_commit_date: '2019-09-15T00:00:00.000Z'
+              latest_commit_link: /gentoo/gentoo/commit/9edfb1b31ea8bb835d457c0e9e12d0536e2592d7
               contributors_count: 781
               contributors_link: 'https://github.com/gentoo/gentoo/graphs/contributors'
             github_start_commit_data:
@@ -1934,7 +1934,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T16:56:17.000Z
+              latest_tweet_date: 2019-09-14T17:05:53.000Z
   - category:
     name: Open Mainframe Project Member Company
     subcategories:
@@ -1971,7 +1971,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T21:02:25.000Z
+              latest_tweet_date: 2019-09-14T16:00:02.000Z
           - item:
             name: CA Broadcom
             homepage_url: 'https://www.ca.com/us.html'
@@ -2033,7 +2033,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T17:16:02.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
             name: Rocket Software
             homepage_url: 'https://www.rocketsoftware.com/'
@@ -2087,7 +2087,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T02:00:21.000Z
+              latest_tweet_date: 2019-09-14T18:35:03.000Z
       - subcategory:
         name: Silver
         items:
@@ -2267,7 +2267,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T10:15:23.000Z
+              latest_tweet_date: 2019-09-14T18:51:14.000Z
           - item:
             name: Zoss Team LLC
             homepage_url: 'https://www.bizapedia.com/ma/zoss-team-llc.html'
@@ -2366,7 +2366,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T22:01:00.000Z
+              latest_tweet_date: 2019-09-14T22:49:14.000Z
           - item:
             name: EPSI
             homepage_url: 'http://www.epsi.fr/'
@@ -2489,7 +2489,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T16:49:33.000Z
+              latest_tweet_date: 2019-09-15T02:32:38.000Z
           - item:
             name: University of Bedfordshire
             homepage_url: 'https://www.beds.ac.uk/'
@@ -2541,7 +2541,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T01:27:00.000Z
+              latest_tweet_date: 2019-09-14T22:41:12.000Z
           - item:
             name: University of Wolverhampton
             homepage_url: 'https://www.wlv.ac.uk/'
@@ -2566,7 +2566,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T15:28:10.000Z
+              latest_tweet_date: 2019-09-14T09:47:15.000Z
           - item:
             name: Universität Leipzig
             homepage_url: 'https://www.uni-leipzig.de/'
@@ -2645,7 +2645,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T03:31:00.000Z
+              latest_tweet_date: 2019-09-15T01:43:44.000Z
           - item:
             name: William Patterson University
             homepage_url: 'https://www.wpunj.edu/'
@@ -2670,7 +2670,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T18:48:12.000Z
+              latest_tweet_date: 2019-09-14T17:12:08.000Z
       - subcategory:
         name: Associate
         items:
