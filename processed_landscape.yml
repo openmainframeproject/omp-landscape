@@ -7,51 +7,10 @@ landscape:
         name: Linux
         items:
           - item:
-            name: Feilong
-            homepage_url: 'https://www.openmainframeproject.org/projects/feilong'
-            repo_url: 'https://github.com/openmainframeproject/python-zvm-sdk'
-            logo: feilong.svg
-            project: incubating
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-            crunchbase_data:
-              name: Open Mainframe Project
-              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.openmainframeproject.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/OpenMFProject'
-              linkedin: null
-            github_data:
-              stars: 10
-              license: Apache License 2.0
-              description: >-
-                z/VM Cloud Connector is a development sdk for managing z/VM. It provides a set of APIs to operate z/VM including guest, image, network, volume
-                etc.
-              latest_commit_date: '2019-07-18T04:00:00.000Z'
-              latest_commit_link: /openmainframeproject/python-zvm-sdk/commit/6a72e8bd16049bd49f8117639079b21afd88ee4e
-              release_date: null
-              release_link: null
-              contributors_count: 22
-              contributors_link: 'https://github.com/openmainframeproject/python-zvm-sdk/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /openmainframeproject/python-zvm-sdk/commit/e3114feead46f9dc46600203626131c50cddc72f
-              start_date: '2016-10-19T06:08:30Z'
-            image_data:
-              fileName: feilong.svg
-              hash: Pi9UfFakinbIEjL2gnrL+DxxLniwKrZnG0UChqRLe/g=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-16T18:53:09.000Z
-          - item:
-            name: s390-tools
-            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/s390-tools.html'
-            repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
-            logo: s390-tools.svg
+            name: crc32-s390x
+            homepage_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
+            repo_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
+            logo: crc32-s390x.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
             crunchbase_data:
               name: IBM
@@ -64,32 +23,72 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
               ticker: IBM
               kind: market_cap
             github_data:
-              stars: 28
-              license: MIT License
-              description: Tools for use with the s390 Linux kernel and device drivers
-              latest_commit_date: '2019-08-08T04:00:00.000Z'
-              latest_commit_link: /ibm-s390-tools/s390-tools/commit/a9f4ae2db3fa513941244956e323cb6ce214ca5f
-              release_date: '2019-07-31T14:38:46Z'
-              release_link: 'https://github.com/ibm-s390-tools/s390-tools/releases'
-              contributors_count: 25
-              contributors_link: 'https://github.com/ibm-s390-tools/s390-tools/graphs/contributors'
+              stars: 1
+              license: Other
+              description: Library for accelerated CRC-32 checksums on the IBM z13 processor
+              latest_commit_date: '2016-12-20T00:00:00.000Z'
+              latest_commit_link: /linux-on-ibm-z/crc32-s390x/commit/30980583bf9ed3fa193abb83a1849705ff457f70
+              contributors_count: 1
+              contributors_link: 'https://github.com/linux-on-ibm-z/crc32-s390x/graphs/contributors'
             github_start_commit_data:
-              start_commit_link: /ibm-s390-tools/s390-tools/commit/b627b8d8e1abef0724ceac559f255fabb996b359
-              start_date: '2017-08-07T14:13:17Z'
+              start_commit_link: /linux-on-ibm-z/crc32-s390x/commit/a4d891f47e8204bc2c8a4cc4c31262ff09b842c6
+              start_date: '2016-05-31T14:19:37Z'
             yahoo_finance_data:
-              market_cap: 120682749952
+              market_cap: 127273664512
               effective_ticker: IBM
             image_data:
-              fileName: s390-tools.svg
-              hash: kcU2GXEHvX/A3tJohQ9q6qIUg233Nv2tVle5nR7rX8c=
+              fileName: crc32-s390x.svg
+              hash: oRNL8khKCPEvYvQ6oubeBf79TxdDFepLd/mlAWhszwQ=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T15:43:27.000Z
+              latest_tweet_date: 2019-09-13T15:58:00.000Z
+          - item:
+            name: Feilong
+            homepage_url: 'https://www.openmainframeproject.org/projects/feilong'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/python-zvm-sdk'
+            logo: feilong.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              stars: 11
+              license: Apache License 2.0
+              description: >-
+                Feilong is a open source z/VM cloud connector project under the Open Mainframe Project umbrella that will accelerate the z/VM adoption,
+                extending its ecosystem and its user experience. It provides a set of APIs to operate z/VM including guest, image, network, volume etc.
+              latest_commit_date: '2019-09-09T00:00:00.000Z'
+              latest_commit_link: /openmainframeproject/python-zvm-sdk/commit/6da80ca30c171dd7123b926d45993f9d447d6154
+              contributors_count: 22
+              contributors_link: 'https://github.com/openmainframeproject/python-zvm-sdk/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/python-zvm-sdk/commit/e3114feead46f9dc46600203626131c50cddc72f
+              start_date: '2016-10-19T06:08:30Z'
+            image_data:
+              fileName: feilong.svg
+              hash: Pi9UfFakinbIEjL2gnrL+DxxLniwKrZnG0UChqRLe/g=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T22:00:04.000Z
           - item:
             name: libica
             homepage_url: 'https://github.com/opencryptoki/libica'
@@ -107,23 +106,22 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
               ticker: IBM
               kind: market_cap
             github_data:
               stars: 2
               license: Other
               description: Crypto library for s390x.
-              latest_commit_date: '2019-06-26T04:00:00.000Z'
-              latest_commit_link: /opencryptoki/libica/commit/f13678e81050600a34c820a68d7a31f6f2a2d1df
-              release_date: null
-              release_link: null
+              latest_commit_date: '2019-09-11T00:00:00.000Z'
+              latest_commit_link: /opencryptoki/libica/commit/64ff9599a7d17a5edc534a750777536b43e9c386
               contributors_count: 9
               contributors_link: 'https://github.com/opencryptoki/libica/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /opencryptoki/libica/commit/80bfa416c1369be4d8b99194e744c2f84541d934
               start_date: '2005-01-14T22:36:18Z'
             yahoo_finance_data:
-              market_cap: 120682749952
+              market_cap: 127273664512
               effective_ticker: IBM
             image_data:
               fileName: libica.svg
@@ -132,12 +130,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T15:43:27.000Z
+              latest_tweet_date: 2019-09-13T15:58:00.000Z
           - item:
-            name: crc32-s390x
-            homepage_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
-            repo_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
-            logo: crc32-s390x.svg
+            name: s390-tools
+            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/s390-tools.html'
+            repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
+            logo: s390-tools.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
             crunchbase_data:
               name: IBM
@@ -150,200 +148,36 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
               ticker: IBM
               kind: market_cap
             github_data:
-              stars: 1
-              license: Other
-              description: Library for accelerated CRC-32 checksums on the IBM z13 processor
-              latest_commit_date: '2016-12-20T05:00:00.000Z'
-              latest_commit_link: /linux-on-ibm-z/crc32-s390x/commit/30980583bf9ed3fa193abb83a1849705ff457f70
-              release_date: null
-              release_link: null
-              contributors_count: 1
-              contributors_link: 'https://github.com/linux-on-ibm-z/crc32-s390x/graphs/contributors'
+              stars: 28
+              license: MIT License
+              description: Tools for use with the s390 Linux kernel and device drivers
+              latest_commit_date: '2019-09-06T00:00:00.000Z'
+              latest_commit_link: /ibm-s390-tools/s390-tools/commit/7a569c7e33bc38826cf358e48862f7a9b90e579d
+              release_date: '2019-09-06T12:25:46Z'
+              release_link: 'https://github.com/ibm-s390-tools/s390-tools/releases'
+              contributors_count: 25
+              contributors_link: 'https://github.com/ibm-s390-tools/s390-tools/graphs/contributors'
             github_start_commit_data:
-              start_commit_link: /linux-on-ibm-z/crc32-s390x/commit/a4d891f47e8204bc2c8a4cc4c31262ff09b842c6
-              start_date: '2016-05-31T14:19:37Z'
+              start_commit_link: /ibm-s390-tools/s390-tools/commit/b627b8d8e1abef0724ceac559f255fabb996b359
+              start_date: '2017-08-07T14:13:17Z'
             yahoo_finance_data:
-              market_cap: 120682749952
+              market_cap: 127273664512
               effective_ticker: IBM
             image_data:
-              fileName: crc32-s390x.svg
-              hash: oRNL8khKCPEvYvQ6oubeBf79TxdDFepLd/mlAWhszwQ=
+              fileName: s390-tools.svg
+              hash: kcU2GXEHvX/A3tJohQ9q6qIUg233Nv2tVle5nR7rX8c=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T15:43:27.000Z
+              latest_tweet_date: 2019-09-13T15:58:00.000Z
       - subcategory:
         name: z/OS
         items:
-          - item:
-            name: Zowe
-            homepage_url: 'https://www.zowe.org'
-            description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
-            repo_url: 'https://github.com/zowe/api-layer'
-            logo: zowe.svg
-            project: graduated
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-            crunchbase_data:
-              name: Open Mainframe Project
-              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.openmainframeproject.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/OpenMFProject'
-              linkedin: null
-            github_data:
-              stars: 15
-              license: Eclipse Public License 2.0
-              description: Zowe API Mediation Layer
-              latest_commit_date: '2019-08-15T04:00:00.000Z'
-              latest_commit_link: /zowe/api-layer/commit/0eba051af5cf2f8215770a010b17b7eb18c763ba
-              release_date: '2019-08-15T11:19:31Z'
-              release_link: 'https://github.com/zowe/api-layer/releases'
-              contributors_count: 23
-              contributors_link: 'https://github.com/zowe/api-layer/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /zowe/api-layer/commit/c34ba84ac7bf5b042c76b375c5e3638c2a78b449
-              start_date: '2018-10-30T12:48:43Z'
-            image_data:
-              fileName: zowe.svg
-              hash: BdoSgULyRmzDep67eLYtIuIhouyWK9OiigLipxJfbgk=
-            best_practice_data:
-              badge: 2322
-              percentage: 79
-            twitter_data:
-              latest_tweet_date: 2019-08-16T18:53:09.000Z
-          - item:
-            name: Zorow
-            homepage_url: 'https://www.openmainframeproject.org/projects/zorow'
-            repo_url: 'https://github.com/openmainframeproject/zorow'
-            logo: zorow.svg
-            project: incubating
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-            crunchbase_data:
-              name: Open Mainframe Project
-              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.openmainframeproject.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/OpenMFProject'
-              linkedin: null
-            github_data:
-              stars: 6
-              license: Apache License 2.0
-              description: zorow project hosted by Open Mainframe Project
-              latest_commit_date: '2019-08-19T04:00:00.000Z'
-              latest_commit_link: /openmainframeproject/zorow/commit/c29420deee8b88698356652ec835aeec265812ef
-              release_date: null
-              release_link: null
-              contributors_count: 9
-              contributors_link: 'https://github.com/openmainframeproject/zorow/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /openmainframeproject/zorow/commit/ab971f63edefdbae82946978822280c99a8c7c40
-              start_date: '2019-04-29T13:02:20Z'
-            image_data:
-              fileName: zorow.svg
-              hash: dL6vdxqOUlfmToHwT8gfaT9+EMCUbji/PcV2Eh3TPBo=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-16T18:53:09.000Z
-          - item:
-            name: zECS
-            homepage_url: 'https://github.com/walmartlabs/zECS'
-            repo_url: 'https://github.com/walmartlabs/zECS'
-            logo: zecs.svg
-            crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
-            crunchbase_data:
-              name: Walmart Labs
-              description: 'WalmartLabs, the technology division responsible for Walmart’s global e-Commerce initiatives.'
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'http://www.walmartlabs.com/'
-              city: San Bruno
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/WalmartLabs'
-              linkedin: 'https://www.linkedin.com/company/9390173'
-              ticker: WMT
-              kind: market_cap
-            github_data:
-              stars: 8
-              license: Apache License 2.0
-              description: z/OS-based Enterprise Cache Service
-              latest_commit_date: '2017-07-13T04:00:00.000Z'
-              latest_commit_link: /walmartlabs/zECS/commit/6d6bcbbc89c9be086a58cb7ad2ff4d702e873d02
-              release_date: null
-              release_link: null
-              contributors_count: 5
-              contributors_link: 'https://github.com/walmartlabs/zECS/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /walmartlabs/zECS/commit/9a1b04dd3d76bd4aa5b92a40c99ffd3dd33c50af
-              start_date: '2016-11-22T03:15:05Z'
-            yahoo_finance_data:
-              market_cap: 319700074496
-              effective_ticker: WMT
-            image_data:
-              fileName: z-ecs.svg
-              hash: wprnuQAzagtswAxJZ6Zqzih0RyZQikHW6vYLLEVGVAw=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-26T12:18:01.000Z
-          - item:
-            name: zFAM
-            homepage_url: 'https://github.com/walmartlabs/zFAM'
-            repo_url: 'https://github.com/walmartlabs/zFAM'
-            logo: zfam.svg
-            crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
-            crunchbase_data:
-              name: Walmart Labs
-              description: 'WalmartLabs, the technology division responsible for Walmart’s global e-Commerce initiatives.'
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'http://www.walmartlabs.com/'
-              city: San Bruno
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/WalmartLabs'
-              linkedin: 'https://www.linkedin.com/company/9390173'
-              ticker: WMT
-              kind: market_cap
-            github_data:
-              stars: 16
-              license: Apache License 2.0
-              description: z/OS-based File Access Manager
-              latest_commit_date: '2018-12-17T05:00:00.000Z'
-              latest_commit_link: /walmartlabs/zFAM/commit/f57e36adec60c0c03d2fb86cd944b2ce0c43f8f5
-              release_date: null
-              release_link: null
-              contributors_count: 3
-              contributors_link: 'https://github.com/walmartlabs/zFAM/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /walmartlabs/zFAM/commit/93f3ced6f001dc7a027741a19335315c0cba0b59
-              start_date: '2016-11-22T03:35:49Z'
-            yahoo_finance_data:
-              market_cap: 319700074496
-              effective_ticker: WMT
-            image_data:
-              fileName: z-fam.svg
-              hash: UzNuUap3QItqSul2gDbY1LY+8xHAT547iOAZpEC5KH0=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-26T12:18:01.000Z
           - item:
             name: z/OS Node Accessor
             homepage_url: 'https://github.com/IBM/zos-node-accessor'
@@ -361,13 +195,14 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
               ticker: IBM
               kind: market_cap
             github_data:
               stars: 16
               license: Eclipse Public License 1.0
               description: z/OS Node Accessor - A Node module to help Node.JS developers interacting with z/OS easily.
-              latest_commit_date: '2019-08-23T04:00:00.000Z'
+              latest_commit_date: '2019-08-23T00:00:00.000Z'
               latest_commit_link: /IBM/zos-node-accessor/commit/ed957f352d9c32c39ebc776f70c175e450f30290
               release_date: '2019-08-24T10:59:54Z'
               release_link: 'https://github.com/IBM/zos-node-accessor/releases'
@@ -377,7 +212,7 @@ landscape:
               start_commit_link: /IBM/zos-node-accessor/commit/9cd4dab421b48f65d5e371fe8d7d239015722bb5
               start_date: '2017-10-12T08:37:34Z'
             yahoo_finance_data:
-              market_cap: 120682749952
+              market_cap: 127273664512
               effective_ticker: IBM
             image_data:
               fileName: z-os-node-accessor.svg
@@ -386,7 +221,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T15:43:27.000Z
+              latest_tweet_date: 2019-09-13T15:58:00.000Z
           - item:
             name: z/OS Tools
             homepage_url: 'https://github.com/IBM/IBM-Z-zOS'
@@ -404,23 +239,22 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
               ticker: IBM
               kind: market_cap
             github_data:
-              stars: 117
+              stars: 121
               license: Apache License 2.0
               description: 'The helpful and handy location for finding and sharing z/OS files, which are not included in the product.'
-              latest_commit_date: '2019-08-12T04:00:00.000Z'
-              latest_commit_link: /IBM/IBM-Z-zOS/commit/0e59c2a169a7b83d0ef10a72760f7af259035948
-              release_date: null
-              release_link: null
-              contributors_count: 19
+              latest_commit_date: '2019-09-12T00:00:00.000Z'
+              latest_commit_link: /IBM/IBM-Z-zOS/commit/98adc83868b7f86e80287f98de000ad6fe9fcb89
+              contributors_count: 20
               contributors_link: 'https://github.com/IBM/IBM-Z-zOS/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /IBM/IBM-Z-zOS/commit/c94c49958d7a64cbf11151f8e3b5877e50d6b42c
               start_date: '2017-07-17T15:24:03Z'
             yahoo_finance_data:
-              market_cap: 120682749952
+              market_cap: 127273664512
               effective_ticker: IBM
             image_data:
               fileName: z-os-tools.svg
@@ -429,7 +263,176 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T15:43:27.000Z
+              latest_tweet_date: 2019-09-13T15:58:00.000Z
+          - item:
+            name: zECS
+            homepage_url: 'https://github.com/walmartlabs/zECS'
+            repo_url: 'https://github.com/walmartlabs/zECS'
+            logo: zecs.svg
+            crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
+            crunchbase_data:
+              name: Walmart Labs
+              description: 'WalmartLabs, the technology division responsible for Walmart’s global e-Commerce initiatives.'
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'http://www.walmartlabs.com/'
+              city: San Bruno
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/WalmartLabs'
+              linkedin: 'https://www.linkedin.com/company/9390173'
+              parents:
+                - 'https://www.crunchbase.com/organization/walmart'
+              ticker: WMT
+              kind: market_cap
+            github_data:
+              stars: 8
+              license: Apache License 2.0
+              description: z/OS-based Enterprise Cache Service
+              latest_commit_date: '2017-07-13T00:00:00.000Z'
+              latest_commit_link: /walmartlabs/zECS/commit/6d6bcbbc89c9be086a58cb7ad2ff4d702e873d02
+              contributors_count: 5
+              contributors_link: 'https://github.com/walmartlabs/zECS/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /walmartlabs/zECS/commit/9a1b04dd3d76bd4aa5b92a40c99ffd3dd33c50af
+              start_date: '2016-11-22T03:15:05Z'
+            yahoo_finance_data:
+              market_cap: 334003798016
+              effective_ticker: WMT
+            image_data:
+              fileName: z-ecs.svg
+              hash: wprnuQAzagtswAxJZ6Zqzih0RyZQikHW6vYLLEVGVAw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T06:06:00.000Z
+          - item:
+            name: zFAM
+            homepage_url: 'https://github.com/walmartlabs/zFAM'
+            repo_url: 'https://github.com/walmartlabs/zFAM'
+            logo: zfam.svg
+            crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
+            crunchbase_data:
+              name: Walmart Labs
+              description: 'WalmartLabs, the technology division responsible for Walmart’s global e-Commerce initiatives.'
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'http://www.walmartlabs.com/'
+              city: San Bruno
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/WalmartLabs'
+              linkedin: 'https://www.linkedin.com/company/9390173'
+              parents:
+                - 'https://www.crunchbase.com/organization/walmart'
+              ticker: WMT
+              kind: market_cap
+            github_data:
+              stars: 16
+              license: Apache License 2.0
+              description: z/OS-based File Access Manager
+              latest_commit_date: '2018-12-17T00:00:00.000Z'
+              latest_commit_link: /walmartlabs/zFAM/commit/f57e36adec60c0c03d2fb86cd944b2ce0c43f8f5
+              contributors_count: 3
+              contributors_link: 'https://github.com/walmartlabs/zFAM/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /walmartlabs/zFAM/commit/93f3ced6f001dc7a027741a19335315c0cba0b59
+              start_date: '2016-11-22T03:35:49Z'
+            yahoo_finance_data:
+              market_cap: 334003798016
+              effective_ticker: WMT
+            image_data:
+              fileName: z-fam.svg
+              hash: UzNuUap3QItqSul2gDbY1LY+8xHAT547iOAZpEC5KH0=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T06:06:00.000Z
+          - item:
+            name: Zorow
+            homepage_url: 'https://www.openmainframeproject.org/projects/zorow'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/zorow'
+            logo: zorow.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              stars: 6
+              license: Apache License 2.0
+              description: >-
+                z/OS Open Repository of Workflows (zorow), is an open source community dedicated to contributing and collaborating on z/OSMF workflows. Hosted
+                by Open Mainframe Project
+              latest_commit_date: '2019-09-13T00:00:00.000Z'
+              latest_commit_link: /openmainframeproject/zorow/commit/b2c12b49a71d9faa770a3b29fd0e7592a3b2057e
+              contributors_count: 10
+              contributors_link: 'https://github.com/openmainframeproject/zorow/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/zorow/commit/ab971f63edefdbae82946978822280c99a8c7c40
+              start_date: '2019-04-29T13:02:20Z'
+            image_data:
+              fileName: zorow.svg
+              hash: dL6vdxqOUlfmToHwT8gfaT9+EMCUbji/PcV2Eh3TPBo=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T22:00:04.000Z
+          - item:
+            name: Zowe
+            description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
+            homepage_url: 'https://www.zowe.org'
+            project: graduated
+            repo_url: 'https://github.com/zowe/api-layer'
+            logo: zowe.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              stars: 15
+              license: Eclipse Public License 2.0
+              description: Zowe API Mediation Layer
+              latest_commit_date: '2019-09-12T00:00:00.000Z'
+              latest_commit_link: /zowe/api-layer/commit/75899fba3ebded42c0dc2cec5bfabf1eddd2033a
+              release_date: '2019-08-15T11:19:31Z'
+              release_link: 'https://github.com/zowe/api-layer/releases'
+              contributors_count: 24
+              contributors_link: 'https://github.com/zowe/api-layer/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /zowe/api-layer/commit/c34ba84ac7bf5b042c76b375c5e3638c2a78b449
+              start_date: '2018-10-30T12:48:43Z'
+            image_data:
+              fileName: zowe.svg
+              hash: BdoSgULyRmzDep67eLYtIuIhouyWK9OiigLipxJfbgk=
+            best_practice_data:
+              badge: 2322
+              percentage: 79
+            twitter_data:
+              latest_tweet_date: 2019-09-13T22:00:04.000Z
           - item:
             name: zUID
             homepage_url: 'https://github.com/walmartlabs/zUID'
@@ -447,23 +450,23 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/WalmartLabs'
               linkedin: 'https://www.linkedin.com/company/9390173'
+              parents:
+                - 'https://www.crunchbase.com/organization/walmart'
               ticker: WMT
               kind: market_cap
             github_data:
               stars: 11
               license: Apache License 2.0
               description: z/OS-based Unique Identifier generator
-              latest_commit_date: '2018-12-17T05:00:00.000Z'
+              latest_commit_date: '2018-12-17T00:00:00.000Z'
               latest_commit_link: /walmartlabs/zUID/commit/4bf25a2eed97c7e0c2f586cdcfb5fdb8e5575121
-              release_date: null
-              release_link: null
               contributors_count: 3
               contributors_link: 'https://github.com/walmartlabs/zUID/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /walmartlabs/zUID/commit/a57d9be0acc6e1d24a7f628db14c98316a543f07
               start_date: '2016-11-16T22:30:24Z'
             yahoo_finance_data:
-              market_cap: 319700074496
+              market_cap: 334003798016
               effective_ticker: WMT
             image_data:
               fileName: z-uid.svg
@@ -472,58 +475,17 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T12:18:01.000Z
+              latest_tweet_date: 2019-09-13T06:06:00.000Z
       - subcategory:
         name: Other
         items:
           - item:
-            name: TerseDecompress
-            homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
-            repo_url: 'https://github.com/openmainframeproject/tersedecompress'
-            logo: tersedecompress.svg
-            project: incubating
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-            crunchbase_data:
-              name: Open Mainframe Project
-              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.openmainframeproject.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/OpenMFProject'
-              linkedin: null
-            github_data:
-              stars: 1
-              license: Apache License 2.0
-              description: >-
-                TerseDecompress is a java program that can be used to decompress files which have been previously compressed on an IBM Mainframe using the TERSE
-                / AMATERSE program (on IBM z/OS or IBM z/VM).
-              latest_commit_date: '2019-05-15T04:00:00.000Z'
-              latest_commit_link: /openmainframeproject/tersedecompress/commit/c4b93e46d2ff3037066c30de12c1103ef8321ab8
-              release_date: null
-              release_link: null
-              contributors_count: 2
-              contributors_link: 'https://github.com/openmainframeproject/tersedecompress/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /openmainframeproject/tersedecompress/commit/9d879bd2d6d3bc7717b33014646710a012a0e420
-              start_date: '2019-02-07T13:14:55Z'
-            image_data:
-              fileName: terse-decompress.svg
-              hash: PxMXomWB4wWYprTeNRslt3ONb0dyZhGou7ukb5pQYVI=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-16T18:53:09.000Z
-          - item:
             name: ADE
-            project: graduated
             homepage_url: 'http://openmainframeproject.github.io/ade/'
+            project: graduated
             repo_url: 'https://github.com/openmainframeproject/ade'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             logo: ade.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -535,14 +497,14 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/OpenMFProject'
               linkedin: null
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
               stars: 27
               license: GNU General Public License v3.0
               description: null
-              latest_commit_date: '2017-11-13T05:00:00.000Z'
+              latest_commit_date: '2017-11-13T00:00:00.000Z'
               latest_commit_link: /openmainframeproject/ade/commit/6ecf4a36c957ba9eac8cf0fc1d367a7a0ca37ce4
-              release_date: null
-              release_link: null
               contributors_count: 7
               contributors_link: 'https://github.com/openmainframeproject/ade/graphs/contributors'
             github_start_commit_data:
@@ -555,51 +517,14 @@ landscape:
               badge: 378
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2019-08-16T18:53:09.000Z
-          - item:
-            name: Mentorship
-            project: graduated
-            homepage_url: 'http://openmainframeproject.github.io/ade/'
-            repo_url: 'https://github.com/openmainframeproject-internship/resources'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-            logo: mentorship.svg
-            crunchbase_data:
-              name: Open Mainframe Project
-              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.openmainframeproject.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/OpenMFProject'
-              linkedin: null
-            github_data:
-              stars: 6
-              license: Creative Commons Attribution 4.0 International
-              description: Open Mainframe Project Summer Internship program resources
-              latest_commit_date: '2019-06-28T04:00:00.000Z'
-              latest_commit_link: /openmainframeproject-internship/resources/commit/8e57d51817c42c6bb336d470f3912aec0efb88de
-              contributors_count: 2
-              contributors_link: 'https://github.com/openmainframeproject-internship/resources/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /openmainframeproject-internship/resources/commit/ed53bdf9419ee7cd904d8ec2236315ae36a35bc9
-              start_date: '2018-12-13T19:41:44Z'
-            image_data:
-              fileName: mentorship.svg
-              hash: x9uqGKDmxAGDCiNqvsL3TqdsgHyVIeQVcrnNI1XzYhk=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-16T18:53:09.000Z
+              latest_tweet_date: 2019-09-13T22:00:04.000Z
           - item:
             name: Atom language syntax highlighting for z/VM
             homepage_url: 'https://atom.io/users/openmainframeproject'
-            repo_url: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             project: incubating
+            repo_url: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm'
             logo: atom.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -611,11 +536,13 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/OpenMFProject'
               linkedin: null
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
               stars: 0
               license: Apache License 2.0
               description: Atom editor package that adds language syntax highlighting for z/VM assembler language files.
-              latest_commit_date: '2019-02-15T05:00:00.000Z'
+              latest_commit_date: '2019-02-15T00:00:00.000Z'
               latest_commit_link: /openmainframeproject/atompkg-language-zvm-asm/commit/f192b343d15bfa914c31e3b9c1b682fbba73a677
               release_date: '2019-02-15T11:42:48Z'
               release_link: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm/releases'
@@ -631,7 +558,87 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-16T18:53:09.000Z
+              latest_tweet_date: 2019-09-13T22:00:04.000Z
+          - item:
+            name: Mentorship
+            homepage_url: 'http://openmainframeproject.github.io/ade/'
+            project: graduated
+            repo_url: 'https://github.com/openmainframeproject-internship/resources'
+            logo: mentorship.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              stars: 6
+              license: Creative Commons Attribution 4.0 International
+              description: Open Mainframe Project Summer Internship program resources
+              latest_commit_date: '2019-06-28T00:00:00.000Z'
+              latest_commit_link: /openmainframeproject-internship/resources/commit/8e57d51817c42c6bb336d470f3912aec0efb88de
+              contributors_count: 2
+              contributors_link: 'https://github.com/openmainframeproject-internship/resources/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject-internship/resources/commit/ed53bdf9419ee7cd904d8ec2236315ae36a35bc9
+              start_date: '2018-12-13T19:41:44Z'
+            image_data:
+              fileName: mentorship.svg
+              hash: x9uqGKDmxAGDCiNqvsL3TqdsgHyVIeQVcrnNI1XzYhk=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T22:00:04.000Z
+          - item:
+            name: TerseDecompress
+            homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/tersedecompress'
+            logo: tersedecompress.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              stars: 1
+              license: Apache License 2.0
+              description: >-
+                TerseDecompress is a java program that can be used to decompress files which have been previously compressed on an IBM Mainframe using the TERSE
+                / AMATERSE program (on IBM z/OS or IBM z/VM).
+              latest_commit_date: '2019-05-15T00:00:00.000Z'
+              latest_commit_link: /openmainframeproject/tersedecompress/commit/c4b93e46d2ff3037066c30de12c1103ef8321ab8
+              contributors_count: 2
+              contributors_link: 'https://github.com/openmainframeproject/tersedecompress/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/tersedecompress/commit/9d879bd2d6d3bc7717b33014646710a012a0e420
+              start_date: '2019-02-07T13:14:55Z'
+            image_data:
+              fileName: terse-decompress.svg
+              hash: PxMXomWB4wWYprTeNRslt3ONb0dyZhGou7ukb5pQYVI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T22:00:04.000Z
   - category:
     name: Zowe Conformant
     subcategories:
@@ -639,40 +646,10 @@ landscape:
         name: API Mediation Layer
         items:
           - item:
-            name: CA File Master™ Plus
-            homepage_url: 'https://docops.ca.com/ca-file-master-plus/11/en/using-the-rest-api'
-            logo: omp_catechnologies-cafilemasterplus.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
-            stock_ticker: AVGO
-            crunchbase_data:
-              name: Broadcom
-              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.broadcom.com'
-              city: San Jose
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/Broadcom'
-              linkedin: 'https://www.linkedin.com/company/broadcom'
-              ticker: BRCM
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 108692119552
-              effective_ticker: AVGO
-            image_data:
-              fileName: ca-file-master-plus.svg
-              hash: it5DvN/pa6YXUKl7GHgKlS+8yOEPdHIX7voxjnfnedY=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-23T14:17:01.000Z
-          - item:
             name: (E)JES Zowe REST API
             description: The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer.
-            logo: omp_phoenix-ejes.svg
             homepage_url: 'https://phoenixsoftware.com/ejes/ejes_zowe.htm'
+            logo: omp_phoenix-ejes.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
             crunchbase_data:
               name: Phoenix Software International
@@ -685,6 +662,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/PhnxSoftware'
               linkedin: 'https://www.linkedin.com/company/phoenix-software-international'
+              parents: []
             image_data:
               fileName: e-jes-zowe-rest-api.svg
               hash: TUs7HVUJ6s3T33VBEBAWv7n4EQ/+57InapfWPeURiNM=
@@ -692,46 +670,44 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-09T16:30:51.000Z
+              latest_tweet_date: 2019-09-12T17:15:16.000Z
           - item:
-            name: IBM® Db2 DevOps Experience for z/OS - API Mediation Layer
-            description: >-
-              Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
-              practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
-            logo: omp_ibm-db2.svg
-            homepage_url: 'https://www.ibm.com/us-en/marketplace/db2-devops-experience'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
-            twitter: 'https://twitter.com/ibmz'
+            name: CA File Master™ Plus
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-filemaster-plus/11-0/using-the-rest-api.html'
+            stock_ticker: AVGO
+            logo: omp_catechnologies-cafilemasterplus.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             crunchbase_data:
-              name: IBM
-              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
               num_employees_min: 10001
               num_employees_max: 1000000
-              homepage: 'http://www.ibm.com/'
-              city: Armonk
-              region: New York
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
               country: United States
-              twitter: 'http://twitter.com/IBM'
-              linkedin: 'https://www.linkedin.com/company/ibm/'
-              ticker: IBM
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              parents: []
+              ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 120682749952
-              effective_ticker: IBM
+              market_cap: 115568844800
+              effective_ticker: AVGO
             image_data:
-              fileName: ibm-db2-dev-ops-experience-for-z-os-api-mediation-layer.svg
-              hash: /PMnqA9tNVR4ZfQJ7xml9R997BVCN7dRxruMaCvIZ/o=
+              fileName: ca-file-master-plus.svg
+              hash: it5DvN/pa6YXUKl7GHgKlS+8yOEPdHIX7voxjnfnedY=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T20:06:06.000Z
+              latest_tweet_date: 2019-09-13T13:55:02.000Z
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI - API Mediation Layer
-            logo: omp_ibm-mq-for-cli.svg
             homepage_url: 'https://www.ibm.com/products/mq/zos'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            logo: omp_ibm-mq-for-cli.svg
             twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -743,10 +719,11 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 120682749952
+              market_cap: 127273664512
               effective_ticker: IBM
             image_data:
               fileName: ibm-mq-for-z-os-plug-in-for-zowe-cli-api-mediation-layer.svg
@@ -755,19 +732,16 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T20:06:06.000Z
-      - subcategory:
-        name: App Framework
-        items:
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
-            name: IBM® Db2 DevOps Experience for z/OS - App Framework
+            name: IBM® Db2 DevOps Experience for z/OS - API Mediation Layer
             description: >-
               Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
               practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
-            logo: omp_ibm-db2.svg
             homepage_url: 'https://www.ibm.com/us-en/marketplace/db2-devops-experience'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            logo: omp_ibm-db2.svg
             twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -779,10 +753,79 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 120682749952
+              market_cap: 127273664512
+              effective_ticker: IBM
+            image_data:
+              fileName: ibm-db2-dev-ops-experience-for-z-os-api-mediation-layer.svg
+              hash: /PMnqA9tNVR4ZfQJ7xml9R997BVCN7dRxruMaCvIZ/o=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
+      - subcategory:
+        name: App Framework
+        items:
+          - item:
+            name: IBM MQ for z/OS Plug-in for Zowe CLI - App Framework
+            homepage_url: 'https://www.ibm.com/products/mq/zos'
+            logo: omp_ibm-mq-for-cli.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 127273664512
+              effective_ticker: IBM
+            image_data:
+              fileName: ibm-mq-for-z-os-plug-in-for-zowe-cli-app-framework.svg
+              hash: NG5F/lxqikMq+Xrhx9mnKYMG9B27mQXAY1n4IK1baVU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
+          - item:
+            name: IBM® Db2 DevOps Experience for z/OS - App Framework
+            description: >-
+              Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
+              practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
+            homepage_url: 'https://www.ibm.com/us-en/marketplace/db2-devops-experience'
+            logo: omp_ibm-db2.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 127273664512
               effective_ticker: IBM
             image_data:
               fileName: ibm-db2-dev-ops-experience-for-z-os-app-framework.svg
@@ -791,16 +834,14 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T20:06:06.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
-            name: IBM® Service Management Unite(SMU)
-            description: >-
-              IBM® Service Management Unite(SMU) is a customizable service management user interface that provides dashboards to monitor and operate IBM Z
-              environments. Zowe application plugin for SMU is provided to allow user to use SMU directly on Zowe Desktop.
-            logo: omp_ibm-servicemanagement.svg
-            homepage_url: 'https://www.ibm.com/us-en/marketplace/ibm-service-management-unite'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            name: IBM® Service Automation Suite
+            description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
+            homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/5/897/ENUS219-085/index.html&request_locale=en'
+            logo: omp_ibm-sas.svg
             twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -812,10 +853,79 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 120682749952
+              market_cap: 127273664512
+              effective_ticker: IBM
+            image_data:
+              fileName: ibm-service-automation-suite.svg
+              hash: hWb6ndXMrxf52j9BMty3KH3q5S3hozP0deNDW/aXLjk=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
+          - item:
+            name: IBM® Service Management Suite for z/OS
+            description: >-
+              IBM® Service Management Suite is focused on delivering comprehensive management of your z/OS enterprise, encompassing monitoring, automation,
+              network management, and asset discovery.
+            homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/897/ENUS217-270/index.html&request_locale=en'
+            logo: omp_ibm-sms-for-zos.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 127273664512
+              effective_ticker: IBM
+            image_data:
+              fileName: ibm-service-management-suite-for-z-os.svg
+              hash: VOR5InQ4IMdHuY26pVZoUXj8ysjKQVqZQd8iebinSnI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
+          - item:
+            name: IBM® Service Management Unite(SMU)
+            description: >-
+              IBM® Service Management Unite(SMU) is a customizable service management user interface that provides dashboards to monitor and operate IBM Z
+              environments. Zowe application plugin for SMU is provided to allow user to use SMU directly on Zowe Desktop.
+            homepage_url: 'https://www.ibm.com/us-en/marketplace/ibm-service-management-unite'
+            logo: omp_ibm-servicemanagement.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 127273664512
               effective_ticker: IBM
             image_data:
               fileName: ibm-service-management-unite-smu.svg
@@ -824,14 +934,14 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T20:06:06.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
             name: Rocket™ BlueZone
             description: >-
               Rocket BlueZone Web is a zero-footprint terminal emulator that delivers real-time access to enterprise applications. You can combine the
               capabilities in BlueZone with the power of the Zowe open source development framework using our BlueZone Web plug-in for Zowe.
-            logo: omp_rocket-bluezone.svg
             homepage_url: 'https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-terminal-emulation'
+            logo: omp_rocket-bluezone.svg
             crunchbase: 'https://www.crunchbase.com/organization/rocket-software'
             crunchbase_data:
               name: Rocket Software
@@ -844,6 +954,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/Rocket'
               linkedin: 'https://www.linkedin.com/groups/Rocket-Software-3997577?home=&gid=3997577&trk=groups_guest_most_popular-h-logo'
+              parents: []
               kind: funding
               funding: 91911267
             image_data:
@@ -853,313 +964,15 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-15T18:07:02.000Z
-          - item:
-            name: IBM® Service Management Suite for z/OS
-            description: >-
-              IBM® Service Management Suite is focused on delivering comprehensive management of your z/OS enterprise, encompassing monitoring, automation,
-              network management, and asset discovery.
-            logo: omp_ibm-sms-for-zos.svg
-            homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/897/ENUS217-270/index.html'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase_data:
-              name: IBM
-              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.ibm.com/'
-              city: Armonk
-              region: New York
-              country: United States
-              twitter: 'http://twitter.com/IBM'
-              linkedin: 'https://www.linkedin.com/company/ibm/'
-              ticker: IBM
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 120682749952
-              effective_ticker: IBM
-            image_data:
-              fileName: ibm-service-management-suite-for-z-os.svg
-              hash: VOR5InQ4IMdHuY26pVZoUXj8ysjKQVqZQd8iebinSnI=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-26T20:06:06.000Z
-          - item:
-            name: IBM® Service Automation Suite
-            description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
-            logo: omp_ibm-sas.svg
-            homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/5/897/ENUS219-085/index.html&request_locale=en'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase_data:
-              name: IBM
-              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.ibm.com/'
-              city: Armonk
-              region: New York
-              country: United States
-              twitter: 'http://twitter.com/IBM'
-              linkedin: 'https://www.linkedin.com/company/ibm/'
-              ticker: IBM
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 120682749952
-              effective_ticker: IBM
-            image_data:
-              fileName: ibm-service-automation-suite.svg
-              hash: hWb6ndXMrxf52j9BMty3KH3q5S3hozP0deNDW/aXLjk=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-26T20:06:06.000Z
-          - item:
-            name: IBM MQ for z/OS Plug-in for Zowe CLI - App Framework
-            logo: omp_ibm-mq-for-cli.svg
-            homepage_url: 'https://www.ibm.com/products/mq/zos'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase_data:
-              name: IBM
-              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.ibm.com/'
-              city: Armonk
-              region: New York
-              country: United States
-              twitter: 'http://twitter.com/IBM'
-              linkedin: 'https://www.linkedin.com/company/ibm/'
-              ticker: IBM
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 120682749952
-              effective_ticker: IBM
-            image_data:
-              fileName: ibm-mq-for-z-os-plug-in-for-zowe-cli-app-framework.svg
-              hash: NG5F/lxqikMq+Xrhx9mnKYMG9B27mQXAY1n4IK1baVU=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-26T20:06:06.000Z
+              latest_tweet_date: 2019-09-13T22:17:01.000Z
       - subcategory:
         name: CLI
         items:
           - item:
-            name: CA Endevor® SCM Plug-in for Zowe CLI
-            description: >-
-              The CA Endevor® SCM Plug-in for Zowe CLI lets you interact with CA Endevor through a local command-line interface. You can control CA Endevor
-              application lifecycle actions, allowing easy scripting from off-platform CI/CD pipelines.
-            homepage_url: >-
-              https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm
-            logo: omp_catechnologies-caendevor.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
-            stock_ticker: AVGO
-            crunchbase_data:
-              name: Broadcom
-              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.broadcom.com'
-              city: San Jose
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/Broadcom'
-              linkedin: 'https://www.linkedin.com/company/broadcom'
-              ticker: BRCM
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 108692119552
-              effective_ticker: AVGO
-            image_data:
-              fileName: ca-endevor-scm-plug-in-for-zowe-cli.svg
-              hash: CoAIqyWajcIYFtczcjcD1UlD7YYnWqNomtYLDUeTsuI=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-23T14:17:01.000Z
-          - item:
-            name: CA File Master™ Plus Plug-in for Zowe CLI
-            description: >-
-              The CA File Master™ Plus Plug-in for Zowe CLI brings advanced file management and data manipulation functionality to the CLI. Control functions
-              that CLI can invoke include copying, renaming and deleting files, and populating files with data.
-            homepage_url: >-
-              https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus
-            logo: omp_catechnologies-cafilemasterplus.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
-            stock_ticker: AVGO
-            crunchbase_data:
-              name: Broadcom
-              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.broadcom.com'
-              city: San Jose
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/Broadcom'
-              linkedin: 'https://www.linkedin.com/company/broadcom'
-              ticker: BRCM
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 108692119552
-              effective_ticker: AVGO
-            image_data:
-              fileName: ca-file-master-plus-plug-in-for-zowe-cli.svg
-              hash: it5DvN/pa6YXUKl7GHgKlS+8yOEPdHIX7voxjnfnedY=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-23T14:17:01.000Z
-          - item:
-            name: CA OPS/MVS® Plug-in for Zowe CLI
-            description: >-
-              The CA OPS/MVS® Plug-in for Zowe CLI lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient
-              automation and resource management from the CLI.
-            homepage_url: >-
-              https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs
-            logo: omp_catechnologies-caopsmvs.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
-            stock_ticker: AVGO
-            crunchbase_data:
-              name: Broadcom
-              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.broadcom.com'
-              city: San Jose
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/Broadcom'
-              linkedin: 'https://www.linkedin.com/company/broadcom'
-              ticker: BRCM
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 108692119552
-              effective_ticker: AVGO
-            image_data:
-              fileName: ca-ops-mvs-plug-in-for-zowe-cli.svg
-              hash: KvlKxGGT76ue62QvwMgkilnfTzm3d60716vCT9ZxSeY=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-23T14:17:01.000Z
-          - item:
-            name: CA z/OS Extended Files Plug-in for Zowe CLI
-            description: >-
-              The CA z/OS Extended Files Plug-in for Zowe CLI lets application developers extend the CLI to support data set management functionality. For
-              example, copying the contents of a data set and downloading data sets that match a DSLEVEL pattern.
-            homepage_url: >-
-              https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files
-            logo: omp_catechnologies-cazosextendedfiles.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
-            stock_ticker: AVGO
-            crunchbase_data:
-              name: Broadcom
-              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.broadcom.com'
-              city: San Jose
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/Broadcom'
-              linkedin: 'https://www.linkedin.com/company/broadcom'
-              ticker: BRCM
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 108692119552
-              effective_ticker: AVGO
-            image_data:
-              fileName: ca-z-os-extended-files-plug-in-for-zowe-cli.svg
-              hash: TeW2q2lXwYGEUYOenwP+cvsQ4hRbw6lFgd/zrbtx1QQ=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-23T14:17:01.000Z
-          - item:
-            name: CA z/OS Extended Jobs Plug-in for Zowe CLI
-            description: >-
-              The CA z/OS Extended Jobs Plug-in for Zowe CLI lets application developers extend the CLI to support additional z/OS job creation and job
-              management functionality. For example, viewing all spool content and deleting multiple jobs in the OUTPUT status.
-            homepage_url: >-
-              https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs
-            logo: omp_catechnologies-cazosextendedjobs.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
-            stock_ticker: AVGO
-            crunchbase_data:
-              name: Broadcom
-              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.broadcom.com'
-              city: San Jose
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/Broadcom'
-              linkedin: 'https://www.linkedin.com/company/broadcom'
-              ticker: BRCM
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 108692119552
-              effective_ticker: AVGO
-            image_data:
-              fileName: ca-z-os-extended-jobs-plug-in-for-zowe-cli.svg
-              hash: jCQUle/YxAAE2hh3DR2qReBKuhs4koF2mWnxIeiIqOI=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-23T14:17:01.000Z
-          - item:
-            name: CA Secure Credential Store Plug-in for Zowe CLI
-            description: >-
-              The CA Secure Credential Store Plug-in for Zowe CLI lets you store your credentials securely in the default credential manager of your operating
-              system.
-            homepage_url: >-
-              https://docops.ca.com/ca-brightside-enterprise/2-0/en/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store
-            logo: omp_catechnologies-casecurecredentialstore.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
-            stock_ticker: AVGO
-            crunchbase_data:
-              name: Broadcom
-              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.broadcom.com'
-              city: San Jose
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/Broadcom'
-              linkedin: 'https://www.linkedin.com/company/broadcom'
-              ticker: BRCM
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 108692119552
-              effective_ticker: AVGO
-            image_data:
-              fileName: ca-secure-credential-store-plug-in-for-zowe-cli.svg
-              hash: z62S3w1kKg63CYSKA7Fa40lpAkYrbKfXaydaonlK2YU=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-23T14:17:01.000Z
-          - item:
             name: (E)JES Plug-in for Zowe CLI
             description: 'The (E)JES Plug-in for Zowe CLI uses the (E)JES Zowe REST API to provide command line functions to stream or search the mainframe system logs. '
-            logo: omp_phoenix-ejes.svg
             homepage_url: 'https://phoenixsoftware.com/ejes/ejes_zowe.htm'
+            logo: omp_phoenix-ejes.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
             crunchbase_data:
               name: Phoenix Software International
@@ -1172,6 +985,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/PhnxSoftware'
               linkedin: 'https://www.linkedin.com/company/phoenix-software-international'
+              parents: []
             image_data:
               fileName: e-jes-plug-in-for-zowe-cli.svg
               hash: TUs7HVUJ6s3T33VBEBAWv7n4EQ/+57InapfWPeURiNM=
@@ -1179,92 +993,224 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-09T16:30:51.000Z
+              latest_tweet_date: 2019-09-12T17:15:16.000Z
           - item:
-            name: IBM® Db2 DevOps Experience for z/OS - CLI
+            name: CA Endevor® SCM Plug-in for Zowe CLI
             description: >-
-              Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
-              practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
-            logo: omp_ibm-db2.svg
-            homepage_url: 'https://www.ibm.com/us-en/marketplace/db2-devops-experience'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
-            twitter: 'https://twitter.com/ibmz'
+              The CA Endevor® SCM Plug-in for Zowe CLI lets you interact with CA Endevor through a local command-line interface. You can control CA Endevor
+              application lifecycle actions, allowing easy scripting from off-platform CI/CD pipelines.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside-enterprise/2-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-caendevor.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             crunchbase_data:
-              name: IBM
-              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
               num_employees_min: 10001
               num_employees_max: 1000000
-              homepage: 'http://www.ibm.com/'
-              city: Armonk
-              region: New York
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
               country: United States
-              twitter: 'http://twitter.com/IBM'
-              linkedin: 'https://www.linkedin.com/company/ibm/'
-              ticker: IBM
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              parents: []
+              ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 120682749952
-              effective_ticker: IBM
+              market_cap: 115568844800
+              effective_ticker: AVGO
             image_data:
-              fileName: ibm-db2-dev-ops-experience-for-z-os-cli.svg
-              hash: /PMnqA9tNVR4ZfQJ7xml9R997BVCN7dRxruMaCvIZ/o=
+              fileName: ca-endevor-scm-plug-in-for-zowe-cli.svg
+              hash: CoAIqyWajcIYFtczcjcD1UlD7YYnWqNomtYLDUeTsuI=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T20:06:06.000Z
+              latest_tweet_date: 2019-09-13T13:55:02.000Z
           - item:
-            name: z/OS Connect EE Plug-in for Zowe CLI
-            description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.
-            logo: omp_ibm-zosconnectee.svg
-            homepage_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
-            repo_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
-            twitter: 'https://twitter.com/ibmz'
+            name: CA File Master™ Plus Plug-in for Zowe CLI
+            description: >-
+              The CA File Master™ Plus Plug-in for Zowe CLI brings advanced file management and data manipulation functionality to the CLI. Control functions
+              that CLI can invoke include copying, renaming and deleting files, and populating files with data.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside-enterprise/2-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-cafilemasterplus.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             crunchbase_data:
-              name: IBM
-              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
               num_employees_min: 10001
               num_employees_max: 1000000
-              homepage: 'http://www.ibm.com/'
-              city: Armonk
-              region: New York
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
               country: United States
-              twitter: 'http://twitter.com/IBM'
-              linkedin: 'https://www.linkedin.com/company/ibm/'
-              ticker: IBM
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              parents: []
+              ticker: BRCM
               kind: market_cap
-            github_data:
-              stars: 3
-              license: Eclipse Public License 2.0
-              description: Zowe CLI plugin for z/OS Connect EE servers
-              latest_commit_date: '2019-08-05T04:00:00.000Z'
-              latest_commit_link: /zosconnect/zowe-cli-zosconnect-plugin/commit/703c85a390107052061447db6e0f0114092f65bc
-              release_date: null
-              release_link: null
-              contributors_count: 1
-              contributors_link: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /zosconnect/zowe-cli-zosconnect-plugin/commit/f78745b741fee862dfdb689ce63dc2dece0721d4
-              start_date: '2018-09-18T21:58:26Z'
             yahoo_finance_data:
-              market_cap: 120682749952
-              effective_ticker: IBM
+              market_cap: 115568844800
+              effective_ticker: AVGO
             image_data:
-              fileName: z-os-connect-ee-plug-in-for-zowe-cli.svg
-              hash: BgonixJWu2H2V25QzqVIOCoBwtzPFNe8gafb/HkHP68=
+              fileName: ca-file-master-plus-plug-in-for-zowe-cli.svg
+              hash: it5DvN/pa6YXUKl7GHgKlS+8yOEPdHIX7voxjnfnedY=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T20:06:06.000Z
+              latest_tweet_date: 2019-09-13T13:55:02.000Z
+          - item:
+            name: CA OPS/MVS® Plug-in for Zowe CLI
+            description: >-
+              The CA OPS/MVS® Plug-in for Zowe CLI lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient
+              automation and resource management from the CLI.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside-enterprise/2-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-caopsmvs.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              parents: []
+              ticker: BRCM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 115568844800
+              effective_ticker: AVGO
+            image_data:
+              fileName: ca-ops-mvs-plug-in-for-zowe-cli.svg
+              hash: KvlKxGGT76ue62QvwMgkilnfTzm3d60716vCT9ZxSeY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T13:55:02.000Z
+          - item:
+            name: CA Secure Credential Store Plug-in for Zowe CLI
+            description: >-
+              The CA Secure Credential Store Plug-in for Zowe CLI lets you store your credentials securely in the default credential manager of your operating
+              system.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside-enterprise/2-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-casecurecredentialstore.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              parents: []
+              ticker: BRCM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 115568844800
+              effective_ticker: AVGO
+            image_data:
+              fileName: ca-secure-credential-store-plug-in-for-zowe-cli.svg
+              hash: z62S3w1kKg63CYSKA7Fa40lpAkYrbKfXaydaonlK2YU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T13:55:02.000Z
+          - item:
+            name: CA z/OS Extended Files Plug-in for Zowe CLI
+            description: >-
+              The CA z/OS Extended Files Plug-in for Zowe CLI lets application developers extend the CLI to support data set management functionality. For
+              example, copying the contents of a data set and downloading data sets that match a DSLEVEL pattern.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside-enterprise/2-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-cazosextendedfiles.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              parents: []
+              ticker: BRCM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 115568844800
+              effective_ticker: AVGO
+            image_data:
+              fileName: ca-z-os-extended-files-plug-in-for-zowe-cli.svg
+              hash: TeW2q2lXwYGEUYOenwP+cvsQ4hRbw6lFgd/zrbtx1QQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T13:55:02.000Z
+          - item:
+            name: CA z/OS Extended Jobs Plug-in for Zowe CLI
+            description: >-
+              The CA z/OS Extended Jobs Plug-in for Zowe CLI lets application developers extend the CLI to support additional z/OS job creation and job
+              management functionality. For example, viewing all spool content and deleting multiple jobs in the OUTPUT status.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside-enterprise/2-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-cazosextendedjobs.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              parents: []
+              ticker: BRCM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 115568844800
+              effective_ticker: AVGO
+            image_data:
+              fileName: ca-z-os-extended-jobs-plug-in-for-zowe-cli.svg
+              hash: jCQUle/YxAAE2hh3DR2qReBKuhs4koF2mWnxIeiIqOI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T13:55:02.000Z
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI - CLI
-            logo: omp_ibm-mq-for-cli.svg
             homepage_url: 'https://www.ibm.com/products/mq/zos'
             repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            logo: omp_ibm-mq-for-cli.svg
             twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -1276,23 +1222,22 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
               ticker: IBM
               kind: market_cap
             github_data:
               stars: 2
               license: Other
               description: Zowe CLI plug-in for MQ that enables users to issue MQSC commands to a queue manager.
-              latest_commit_date: '2019-08-22T04:00:00.000Z'
+              latest_commit_date: '2019-08-22T00:00:00.000Z'
               latest_commit_link: /zowe/zowe-cli-mq-plugin/commit/05af1a2083a8dfb44eeb2a9d3582bde3723a8feb
-              release_date: null
-              release_link: null
               contributors_count: 5
               contributors_link: 'https://github.com/zowe/zowe-cli-mq-plugin/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /zowe/zowe-cli-mq-plugin/commit/2ded494f521b32f3e9b7f514bc8e37a5a21f552b
               start_date: '2019-04-18T14:01:18Z'
             yahoo_finance_data:
-              market_cap: 120682749952
+              market_cap: 127273664512
               effective_ticker: IBM
             image_data:
               fileName: ibm-mq-for-z-os-plug-in-for-zowe-cli-cli.svg
@@ -1301,7 +1246,87 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T20:06:06.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
+          - item:
+            name: IBM® Db2 DevOps Experience for z/OS - CLI
+            description: >-
+              Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
+              practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
+            homepage_url: 'https://www.ibm.com/us-en/marketplace/db2-devops-experience'
+            logo: omp_ibm-db2.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 127273664512
+              effective_ticker: IBM
+            image_data:
+              fileName: ibm-db2-dev-ops-experience-for-z-os-cli.svg
+              hash: /PMnqA9tNVR4ZfQJ7xml9R997BVCN7dRxruMaCvIZ/o=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
+          - item:
+            name: z/OS Connect EE Plug-in for Zowe CLI
+            description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.
+            homepage_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
+            repo_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
+            logo: omp_ibm-zosconnectee.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            github_data:
+              stars: 3
+              license: Eclipse Public License 2.0
+              description: Zowe CLI plugin for z/OS Connect EE servers
+              latest_commit_date: '2019-08-05T00:00:00.000Z'
+              latest_commit_link: /zosconnect/zowe-cli-zosconnect-plugin/commit/703c85a390107052061447db6e0f0114092f65bc
+              release_date: '2019-03-27T10:16:16Z'
+              release_link: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin/releases'
+              contributors_count: 1
+              contributors_link: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /zosconnect/zowe-cli-zosconnect-plugin/commit/f78745b741fee862dfdb689ce63dc2dece0721d4
+              start_date: '2018-09-18T21:58:26Z'
+            yahoo_finance_data:
+              market_cap: 127273664512
+              effective_ticker: IBM
+            image_data:
+              fileName: z-os-connect-ee-plug-in-for-zowe-cli.svg
+              hash: BgonixJWu2H2V25QzqVIOCoBwtzPFNe8gafb/HkHP68=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
   - category:
     name: Supported Projects
     subcategories:
@@ -1310,11 +1335,11 @@ landscape:
         items:
           - item:
             name: Alpine
-            logo: alpine-linux.svg
-            homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
-            crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
-            repo_url: 'https://github.com/alpinelinux/abuild'
             description: 'A security-oriented, lightweight Linux distribution'
+            homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
+            repo_url: 'https://github.com/alpinelinux/abuild'
+            logo: alpine-linux.svg
+            crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
             crunchbase_data:
               name: Alpine Linux
               description: 'Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.'
@@ -1326,14 +1351,13 @@ landscape:
               country: Spain
               twitter: 'https://twitter.com/alpinelinux'
               linkedin: null
+              parents: []
             github_data:
-              stars: 27
+              stars: 28
               license: Unknown License
               description: Build script to build Alpine packages (mirror)
-              latest_commit_date: '2019-08-09T04:00:00.000Z'
+              latest_commit_date: '2019-08-09T00:00:00.000Z'
               latest_commit_link: /alpinelinux/abuild/commit/6310405af8c5d91178524c212ead7755c16e70b3
-              release_date: null
-              release_link: null
               contributors_count: 49
               contributors_link: 'https://github.com/alpinelinux/abuild/graphs/contributors'
             github_start_commit_data:
@@ -1349,13 +1373,13 @@ landscape:
               latest_tweet_date: 2019-08-20T12:08:33.000Z
           - item:
             name: ClefOS
-            logo: clefos.svg
-            homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
-            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
-            repo_url: 'https://github.com/alexlovesgithub/docker-images-s390x'
             description: >-
               ClefOS is a distribution specifically for Linux on z Systems (s390x aka "the mainframe"). It is based on the CentOS source materials but is not
               part of the CentOS organization.
+            homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
+            repo_url: 'https://github.com/alexlovesgithub/docker-images-s390x'
+            logo: clefos.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
             crunchbase_data:
               name: Sine Nomine Associates
               description: Sine Nomine Associates is an IT research and custom development engineering firm.
@@ -1367,14 +1391,13 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
+              parents: []
             github_data:
               stars: 0
               license: Unknown License
               description: Docker build scripts for ClefOS 7 (s390x)
-              latest_commit_date: '2019-04-09T04:00:00.000Z'
+              latest_commit_date: '2019-04-09T00:00:00.000Z'
               latest_commit_link: /alexlovesgithub/docker-images-s390x/commit/7d0c8ee93d31db94a6e693e655eca1d8685e16d6
-              release_date: null
-              release_link: null
               contributors_count: 1
               contributors_link: 'https://github.com/alexlovesgithub/docker-images-s390x/graphs/contributors'
             github_start_commit_data:
@@ -1388,11 +1411,11 @@ landscape:
               percentage: null
           - item:
             name: Debian
-            logo: debian.svg
-            homepage_url: 'https://www.debian.org/ports/s390/'
-            crunchbase: 'https://www.crunchbase.com/organization/debian'
-            repo_url: 'https://github.com/Debian/apt'
             description: Debian is a free operating system (OS) for your computer.
+            homepage_url: 'https://www.debian.org/ports/s390/'
+            repo_url: 'https://github.com/Debian/apt'
+            logo: debian.svg
+            crunchbase: 'https://www.crunchbase.com/organization/debian'
             crunchbase_data:
               name: Debian
               description: Debian An operating system is the set of basic programs and utilities that make your computer run.
@@ -1404,15 +1427,14 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/debian'
               linkedin: 'https://www.linkedin.com/company/163400'
+              parents: []
             github_data:
-              stars: 220
+              stars: 222
               license: Unknown License
               description: Mirror of the apt git repository
-              latest_commit_date: '2019-08-22T04:00:00.000Z'
+              latest_commit_date: '2019-08-22T00:00:00.000Z'
               latest_commit_link: /Debian/apt/commit/b9127ca07c37288f16b1fdc267d3f106721ed301
-              release_date: null
-              release_link: null
-              contributors_count: 126
+              contributors_count: 127
               contributors_link: 'https://github.com/Debian/apt/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /Debian/apt/commit/89eaeb446c24bbeacc5f69c170cf60104854432e
@@ -1424,16 +1446,16 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T15:54:01.000Z
+              latest_tweet_date: 2019-09-10T15:20:32.000Z
           - item:
             name: Fedora
-            logo: fedora.svg
-            homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
-            crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
-            repo_url: 'https://github.com/fedora-infra/fedora-packages'
             description: >-
               Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community
               members to build tailored solutions for their users.
+            homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
+            repo_url: 'https://github.com/fedora-infra/fedora-packages'
+            logo: fedora.svg
+            crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
             crunchbase_data:
               name: The Fedora Project
               description: The Fedora Project is a partnership of free software community members from around the globe.
@@ -1445,14 +1467,13 @@ landscape:
               country: United States
               twitter: 'https://www.twitter.com/fedora'
               linkedin: null
+              parents: []
             github_data:
               stars: 51
               license: GNU Affero General Public License v3.0
               description: A webapp that allows searching packages in Fedora. Written in Python using TurboGears2 and Moksha.
-              latest_commit_date: '2019-05-26T04:00:00.000Z'
+              latest_commit_date: '2019-05-26T00:00:00.000Z'
               latest_commit_link: /fedora-infra/fedora-packages/commit/f8c9f386c3318475a19d7e0668c0f90105c69500
-              release_date: null
-              release_link: null
               contributors_count: 33
               contributors_link: 'https://github.com/fedora-infra/fedora-packages/graphs/contributors'
             github_start_commit_data:
@@ -1465,16 +1486,16 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T14:06:39.000Z
+              latest_tweet_date: 2019-09-13T11:48:27.000Z
           - item:
             name: Gentoo
-            logo: gentoo.svg
-            homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
-            crunchbase: 'https://www.crunchbase.com/organization/gentoo'
-            repo_url: 'https://github.com/gentoo/portage'
             description: >-
               Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized and customized for just about any
               application or need.
+            homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
+            repo_url: 'https://github.com/gentoo/portage'
+            logo: gentoo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/gentoo'
             crunchbase_data:
               name: Gentoo
               description: Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized.
@@ -1486,14 +1507,13 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/gentoo'
               linkedin: 'https://www.linkedin.com/company/gentoo-linux/'
+              parents: []
             github_data:
-              stars: 260
+              stars: 261
               license: Other
               description: 'Portage Package Manager - this is just a mirror, see https://wiki.gentoo.org/wiki/Project:Portage#Contributing_to_Portage'
-              latest_commit_date: '2019-08-26T04:00:00.000Z'
-              latest_commit_link: /gentoo/portage/commit/ccba5a6ff0c4a2d6896827da9fa779919e86f744
-              release_date: null
-              release_link: null
+              latest_commit_date: '2019-09-15T00:00:00.000Z'
+              latest_commit_link: /gentoo/portage/commit/c510f715b748a604c47fb78ed4796bf0391bcfdd
               contributors_count: 136
               contributors_link: 'https://github.com/gentoo/portage/graphs/contributors'
             github_start_commit_data:
@@ -1506,15 +1526,15 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-03T11:56:18.000Z
+              latest_tweet_date: 2019-09-02T03:18:28.000Z
           - item:
             name: LuaJIT
-            logo: luajit.svg
             description: >-
               LuaJIT is a Just-In-Time Compiler (JIT) for the Lua programming language. Lua is a powerful, dynamic and light-weight programming language. It may
               be embedded or used as a general-purpose, stand-alone language.
             homepage_url: 'http://luajit.org/'
             repo_url: 'https://github.com/siddhesh/LuaJIT'
+            logo: luajit.svg
             crunchbase: 'https://www.crunchbase.com/organization/linaro'
             crunchbase_data:
               name: Linaro
@@ -1527,14 +1547,13 @@ landscape:
               country: United Kingdom
               twitter: 'http://twitter.com/linaroorg'
               linkedin: 'https://www.linkedin.com/company/1026961'
+              parents: []
             github_data:
-              stars: 17
+              stars: 18
               license: Other
               description: Integration fork of the original LuaJIT. README describes differences from the original.
-              latest_commit_date: '2019-08-14T04:00:00.000Z'
-              latest_commit_link: /siddhesh/LuaJIT/commit/84240a602aa7f2cd055e21fbb53e8630503a56b6
-              release_date: null
-              release_link: null
+              latest_commit_date: '2019-08-31T00:00:00.000Z'
+              latest_commit_link: /siddhesh/LuaJIT/commit/d8a7769ef37435f3c81c19779395eb6adb95037a
               contributors_count: 12
               contributors_link: 'https://github.com/siddhesh/LuaJIT/graphs/contributors'
             github_start_commit_data:
@@ -1547,15 +1566,15 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-23T21:22:50.000Z
+              latest_tweet_date: 2019-09-13T10:00:47.000Z
           - item:
             name: PostgreSQL
-            logo: postgresql.svg
             description: >-
               PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong
               reputation for reliability, feature robustness, and performance.
             homepage_url: 'https://www.postgresql.org/'
             repo_url: 'https://github.com/postgres/postgres'
+            logo: postgresql.svg
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
             crunchbase_data:
               name: PostgreSQL
@@ -1568,16 +1587,15 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/postgresql'
               linkedin: 'https://www.linkedin.com/company/758353'
+              parents: []
             github_data:
-              stars: 5729
+              stars: 5786
               license: Other
               description: >-
                 Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute,
                 please see https://wiki.postgresql.org/wiki/Submitting_a_Patch
-              latest_commit_date: '2019-08-27T04:00:00.000Z'
-              latest_commit_link: /postgres/postgres/commit/9acda731184c1ebdf99172cbb19d0404b7eebc37
-              release_date: null
-              release_link: null
+              latest_commit_date: '2019-09-15T00:00:00.000Z'
+              latest_commit_link: /postgres/postgres/commit/87e9fae0696d9e3ff70a1438775ad9f786b854a5
               contributors_count: 33
               contributors_link: 'https://github.com/postgres/postgres/graphs/contributors'
             github_start_commit_data:
@@ -1590,7 +1608,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-22T14:44:26.000Z
+              latest_tweet_date: 2019-09-12T20:25:58.000Z
   - category:
     name: Linux Distributions
     subcategories:
@@ -1599,13 +1617,13 @@ landscape:
         items:
           - item:
             name: ClefOS for System z
-            logo: clefos.svg
-            homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
-            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
-            repo_url: 'https://github.com/nealef/clefos'
             description: >-
               ClefOS is a distribution specifically for Linux on z Systems (s390x aka "the mainframe"). It is based on the CentOS source materials but is not
               part of the CentOS organization.
+            homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
+            repo_url: 'https://github.com/nealef/clefos'
+            logo: clefos.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
             crunchbase_data:
               name: Sine Nomine Associates
               description: Sine Nomine Associates is an IT research and custom development engineering firm.
@@ -1617,14 +1635,13 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
+              parents: []
             github_data:
-              stars: 2
+              stars: 3
               license: GNU General Public License v2.0
               description: ClefOS - Official Base Image
-              latest_commit_date: '2018-01-22T05:00:00.000Z'
+              latest_commit_date: '2018-01-22T00:00:00.000Z'
               latest_commit_link: /nealef/clefos/commit/76e47dd670fb67ec4e7218d5b5f3a36bd5551f35
-              release_date: null
-              release_link: null
               contributors_count: 1
               contributors_link: 'https://github.com/nealef/clefos/graphs/contributors'
             github_start_commit_data:
@@ -1638,8 +1655,8 @@ landscape:
               percentage: null
           - item:
             name: Red Hat Enterprise Linux
-            logo: rhel.svg
             homepage_url: 'https://www.redhat.com/en/store/red-hat-enterprise-linux-ibm-system-z#?sku=RH0416249'
+            logo: rhel.svg
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             crunchbase_data:
               name: Red Hat
@@ -1654,6 +1671,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/red-hat'
               ticker: RHT
               kind: market_cap
+              parents: []
             yahoo_finance_data:
               market_cap: 33429835776
               effective_ticker: RHT
@@ -1664,23 +1682,26 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-30T13:07:05.000Z
+              latest_tweet_date: 2019-09-14T19:15:14.000Z
           - item:
             name: SUSE Linux Enterprise Server
-            logo: suse.svg
             homepage_url: 'https://www.suse.com/products/systemz/'
+            logo: suse.svg
             crunchbase: 'https://www.crunchbase.com/organization/suse'
             crunchbase_data:
               name: SUSE
               description: SUSE provides reliable and interoperable Linux and cloud infrastructure solutions that give enterprises greater control and flexibility
-              num_employees_min: 10001
-              num_employees_max: 1000000
+              num_employees_min: 501
+              num_employees_max: 1000
               homepage: 'http://www.suse.com'
               city: Nuremberg
               region: Bayern
               country: Germany
-              twitter: 'http://twitter.com/SUSE'
-              linkedin: 'https://www.linkedin.com/company/suse'
+              twitter: 'https://twitter.com/SUSE'
+              linkedin: 'https://www.linkedin.com/company/suse/'
+              parents: []
+              kind: funding
+              funding: 3838168
             image_data:
               fileName: suse-linux-enterprise-server.svg
               hash: S/f0/2EMiffuLBGVaAiciron2aurofDNmCdonW1WvrE=
@@ -1688,11 +1709,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T14:01:00.000Z
+              latest_tweet_date: 2019-09-14T18:35:03.000Z
           - item:
             name: Ubuntu
-            logo: ubuntu.svg
             homepage_url: 'https://wiki.ubuntu.com/S390X'
+            logo: ubuntu.svg
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
             crunchbase_data:
               name: Canonical
@@ -1705,6 +1726,7 @@ landscape:
               country: United Kingdom
               twitter: 'http://twitter.com/Canonical'
               linkedin: 'https://www.linkedin.com/company/canonical-ltd-/'
+              parents: []
               kind: funding
               funding: 12800000
             image_data:
@@ -1714,17 +1736,17 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-09T15:40:06.000Z
+              latest_tweet_date: 2019-09-12T17:08:11.000Z
       - subcategory:
         name: Community
         items:
           - item:
             name: Alpine Linux
-            logo: alpine-linux.svg
-            homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
-            crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
-            repo_url: 'https://github.com/alpinelinux/aports'
             description: 'A security-oriented, lightweight Linux distribution'
+            homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
+            repo_url: 'https://github.com/alpinelinux/aports'
+            logo: alpine-linux.svg
+            crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
             crunchbase_data:
               name: Alpine Linux
               description: 'Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.'
@@ -1736,15 +1758,14 @@ landscape:
               country: Spain
               twitter: 'https://twitter.com/alpinelinux'
               linkedin: null
+              parents: []
             github_data:
-              stars: 369
+              stars: 370
               license: Unknown License
               description: Mirror of aports repository
-              latest_commit_date: '2019-08-27T04:00:00.000Z'
-              latest_commit_link: /alpinelinux/aports/commit/62cc66f8ccc2a9c940506375aea20f71fe35f739
-              release_date: null
-              release_link: null
-              contributors_count: 566
+              latest_commit_date: '2019-09-15T00:00:00.000Z'
+              latest_commit_link: /alpinelinux/aports/commit/52a89765b1ad1b8dffd826eb6d8108f550cb3688
+              contributors_count: 568
               contributors_link: 'https://github.com/alpinelinux/aports/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /alpinelinux/aports/commit/3196418bad03f30a8a8bc833cda9a2e0fe8d18b2
@@ -1759,11 +1780,11 @@ landscape:
               latest_tweet_date: 2019-08-20T12:08:33.000Z
           - item:
             name: Debian Linux
-            logo: debian.svg
-            homepage_url: 'https://www.debian.org/ports/s390/'
-            crunchbase: 'https://www.crunchbase.com/organization/debian'
-            repo_url: 'https://github.com/Debian/devscripts'
             description: Debian is a free operating system (OS) for your computer.
+            homepage_url: 'https://www.debian.org/ports/s390/'
+            repo_url: 'https://github.com/Debian/devscripts'
+            logo: debian.svg
+            crunchbase: 'https://www.crunchbase.com/organization/debian'
             crunchbase_data:
               name: Debian
               description: Debian An operating system is the set of basic programs and utilities that make your computer run.
@@ -1775,14 +1796,13 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/debian'
               linkedin: 'https://www.linkedin.com/company/163400'
+              parents: []
             github_data:
-              stars: 17
+              stars: 18
               license: GNU General Public License v2.0
               description: 'Mirror of https://salsa.debian.org/deban/devscripts.git'
-              latest_commit_date: '2019-05-22T04:00:00.000Z'
+              latest_commit_date: '2019-05-22T00:00:00.000Z'
               latest_commit_link: /Debian/devscripts/commit/a5c813bb256d84db19f4a96be6c348f4ef1caa18
-              release_date: null
-              release_link: null
               contributors_count: 96
               contributors_link: 'https://github.com/Debian/devscripts/graphs/contributors'
             github_start_commit_data:
@@ -1795,16 +1815,16 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T15:54:01.000Z
+              latest_tweet_date: 2019-09-10T15:20:32.000Z
           - item:
             name: Fedora Linux
-            logo: fedora.svg
-            homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
-            crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
-            repo_url: 'https://github.com/fedora-infra/bodhi'
             description: >-
               Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community
               members to build tailored solutions for their users.
+            homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
+            repo_url: 'https://github.com/fedora-infra/bodhi'
+            logo: fedora.svg
+            crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
             crunchbase_data:
               name: The Fedora Project
               description: The Fedora Project is a partnership of free software community members from around the globe.
@@ -1816,12 +1836,13 @@ landscape:
               country: United States
               twitter: 'https://www.twitter.com/fedora'
               linkedin: null
+              parents: []
             github_data:
-              stars: 92
+              stars: 93
               license: GNU General Public License v2.0
               description: Bodhi is a web-system that facilitates the process of publishing updates for a Fedora-based software distribution.
-              latest_commit_date: '2019-08-27T04:00:00.000Z'
-              latest_commit_link: /fedora-infra/bodhi/commit/3a89b54eb4941b617f1c7be39609ced13f13b438
+              latest_commit_date: '2019-09-13T00:00:00.000Z'
+              latest_commit_link: /fedora-infra/bodhi/commit/5b5b3069e8a716b722f326f64fb1bbc91f66c040
               release_date: '2019-08-22T09:41:31Z'
               release_link: 'https://github.com/fedora-infra/bodhi/releases'
               contributors_count: 89
@@ -1836,16 +1857,16 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T14:06:39.000Z
+              latest_tweet_date: 2019-09-13T11:48:27.000Z
           - item:
             name: Gentoo Linux
-            logo: gentoo.svg
-            homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
-            crunchbase: 'https://www.crunchbase.com/organization/gentoo'
-            repo_url: 'https://github.com/gentoo/gentoo'
             description: >-
               Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized and customized for just about any
               application or need.
+            homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
+            repo_url: 'https://github.com/gentoo/gentoo'
+            logo: gentoo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/gentoo'
             crunchbase_data:
               name: Gentoo
               description: Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized.
@@ -1857,13 +1878,14 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/gentoo'
               linkedin: 'https://www.linkedin.com/company/gentoo-linux/'
+              parents: []
             github_data:
-              stars: 1068
+              stars: 1076
               license: Unknown License
               description: The Gentoo ebuild repository mirror
-              latest_commit_date: '2019-09-03T04:00:00.000Z'
-              latest_commit_link: /gentoo/gentoo/commit/043576cfd4b6f0e2f08f28d519be07bab473480e
-              contributors_count: 780
+              latest_commit_date: '2019-09-15T00:00:00.000Z'
+              latest_commit_link: /gentoo/gentoo/commit/9edfb1b31ea8bb835d457c0e9e12d0536e2592d7
+              contributors_count: 781
               contributors_link: 'https://github.com/gentoo/gentoo/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /gentoo/gentoo/commit/56bd759df1d0c750a065b8c845e93d5dfa6b549d
@@ -1875,12 +1897,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-03T11:56:18.000Z
+              latest_tweet_date: 2019-09-02T03:18:28.000Z
           - item:
             name: OpenSUSE
-            logo: opensuse.svg
             homepage_url: 'https://en.opensuse.org/ZSystems'
             repo_url: 'https://github.com/openSUSE/openSUSE-release-tools'
+            logo: opensuse.svg
             crunchbase: 'https://www.crunchbase.com/organization/opensuse'
             crunchbase_data:
               name: OpenSUSE
@@ -1893,14 +1915,13 @@ landscape:
               country: Germany
               twitter: 'https://twitter.com/opensuse'
               linkedin: 'https://www.linkedin.com/company/opensuse-project'
+              parents: []
             github_data:
               stars: 23
               license: GNU General Public License v2.0
               description: Tools to aid in staging and release work for openSUSE/SUSE
-              latest_commit_date: '2019-08-27T04:00:00.000Z'
-              latest_commit_link: /openSUSE/openSUSE-release-tools/commit/7f92a226fcba1d6e4626c18479e8d2f79b49174e
-              release_date: null
-              release_link: null
+              latest_commit_date: '2019-09-13T00:00:00.000Z'
+              latest_commit_link: /openSUSE/openSUSE-release-tools/commit/9d119079582b04b205b4f6e8d500262a8feee07f
               contributors_count: 49
               contributors_link: 'https://github.com/openSUSE/openSUSE-release-tools/graphs/contributors'
             github_start_commit_data:
@@ -1913,7 +1934,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-27T09:35:27.000Z
+              latest_tweet_date: 2019-09-14T17:05:53.000Z
   - category:
     name: Open Mainframe Project Member Company
     subcategories:
@@ -1922,10 +1943,10 @@ landscape:
         items:
           - item:
             name: ADP
-            logo: adp.svg
             homepage_url: 'https://www.adp.com/'
-            crunchbase: 'https://www.crunchbase.com/organization/adp'
+            logo: adp.svg
             twitter: 'https://twitter.com/ADP'
+            crunchbase: 'https://www.crunchbase.com/organization/adp'
             crunchbase_data:
               name: ADP
               description: 'ADP provides business outsourcing solutions that facilitate businesses in HR, payroll and administration processes.'
@@ -1937,10 +1958,11 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/ADP?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'
               linkedin: 'https://www.linkedin.com/company-beta/1463/'
+              parents: []
               ticker: ADP
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 73262596096
+              market_cap: 69318057984
               effective_ticker: ADP
             image_data:
               fileName: adp.svg
@@ -1949,13 +1971,13 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T14:03:44.000Z
+              latest_tweet_date: 2019-09-14T16:00:02.000Z
           - item:
             name: CA Broadcom
-            logo: ca-broadcom.svg
-            homepage_url: 'https://www.ca.com/'
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            homepage_url: 'https://www.ca.com/us.html'
             stock_ticker: AVGO
+            logo: ca-broadcom.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -1967,10 +1989,11 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/Broadcom'
               linkedin: 'https://www.linkedin.com/company/broadcom'
+              parents: []
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 108692119552
+              market_cap: 115568844800
               effective_ticker: AVGO
             image_data:
               fileName: ca-broadcom.svg
@@ -1979,13 +2002,13 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-23T14:17:01.000Z
+              latest_tweet_date: 2019-09-13T13:55:02.000Z
           - item:
             name: IBM
-            homepage_url: 'https://www.ibm.com/'
+            homepage_url: 'https://www.ibm.com/us-en/?ar=1'
             logo: ibm.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
             twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -1997,10 +2020,11 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 120682749952
+              market_cap: 127273664512
               effective_ticker: IBM
             image_data:
               fileName: ibm.svg
@@ -2009,11 +2033,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-26T20:06:06.000Z
+              latest_tweet_date: 2019-09-14T17:00:00.000Z
           - item:
             name: Rocket Software
-            logo: rocketsoftware.svg
             homepage_url: 'https://www.rocketsoftware.com/'
+            logo: rocketsoftware.svg
             crunchbase: 'https://www.crunchbase.com/organization/rocket-software'
             crunchbase_data:
               name: Rocket Software
@@ -2026,6 +2050,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/Rocket'
               linkedin: 'https://www.linkedin.com/groups/Rocket-Software-3997577?home=&gid=3997577&trk=groups_guest_most_popular-h-logo'
+              parents: []
               kind: funding
               funding: 91911267
             image_data:
@@ -2035,23 +2060,26 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-15T18:07:02.000Z
+              latest_tweet_date: 2019-09-13T22:17:01.000Z
           - item:
             name: SUSE
-            logo: suse.svg
             homepage_url: 'https://www.suse.com/'
+            logo: suse.svg
             crunchbase: 'https://www.crunchbase.com/organization/suse'
             crunchbase_data:
               name: SUSE
               description: SUSE provides reliable and interoperable Linux and cloud infrastructure solutions that give enterprises greater control and flexibility
-              num_employees_min: 10001
-              num_employees_max: 1000000
+              num_employees_min: 501
+              num_employees_max: 1000
               homepage: 'http://www.suse.com'
               city: Nuremberg
               region: Bayern
               country: Germany
-              twitter: 'http://twitter.com/SUSE'
-              linkedin: 'https://www.linkedin.com/company/suse'
+              twitter: 'https://twitter.com/SUSE'
+              linkedin: 'https://www.linkedin.com/company/suse/'
+              parents: []
+              kind: funding
+              funding: 3838168
             image_data:
               fileName: suse.svg
               hash: S/f0/2EMiffuLBGVaAiciron2aurofDNmCdonW1WvrE=
@@ -2059,14 +2087,14 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T14:01:00.000Z
+              latest_tweet_date: 2019-09-14T18:35:03.000Z
       - subcategory:
         name: Silver
         items:
           - item:
             name: Canonical
-            logo: canonical.svg
             homepage_url: 'https://canonical.com/'
+            logo: canonical.svg
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
             crunchbase_data:
               name: Canonical
@@ -2079,6 +2107,7 @@ landscape:
               country: United Kingdom
               twitter: 'http://twitter.com/Canonical'
               linkedin: 'https://www.linkedin.com/company/canonical-ltd-/'
+              parents: []
               kind: funding
               funding: 12800000
             image_data:
@@ -2088,11 +2117,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-09T15:40:06.000Z
+              latest_tweet_date: 2019-09-12T17:08:11.000Z
           - item:
             name: Docker
-            logo: docker.svg
             homepage_url: 'https://www.docker.com/'
+            logo: docker.svg
             crunchbase: 'https://www.crunchbase.com/organization/docker'
             crunchbase_data:
               name: Docker
@@ -2105,6 +2134,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/docker'
               linkedin: 'https://www.linkedin.com/company/docker'
+              parents: []
               kind: funding
               funding: 272855439
             image_data:
@@ -2114,11 +2144,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T15:43:02.000Z
+              latest_tweet_date: 2019-09-13T21:37:05.000Z
           - item:
             name: GT Software
-            logo: gt-software.svg
             homepage_url: 'https://www.gtsoftware.com/'
+            logo: gt-software.svg
             crunchbase: 'https://www.crunchbase.com/organization/gt-software'
             crunchbase_data:
               name: GT Software
@@ -2131,6 +2161,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/gtsoftware'
               linkedin: 'https://www.linkedin.com/company/216201'
+              parents: []
             image_data:
               fileName: gt-software.svg
               hash: UCXe4gn+FJ1HDb5H8A8lTqr4O0ljVnURuCa2ya/FuKc=
@@ -2138,11 +2169,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-16T13:39:31.000Z
+              latest_tweet_date: 2019-09-13T14:33:02.000Z
           - item:
             name: Phoenix Software International
-            logo: phoenix-software-international.svg
             homepage_url: 'http://www.phoenixsoftware.com/'
+            logo: phoenix-software-international.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
             crunchbase_data:
               name: Phoenix Software International
@@ -2155,6 +2186,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/PhnxSoftware'
               linkedin: 'https://www.linkedin.com/company/phoenix-software-international'
+              parents: []
             image_data:
               fileName: phoenix-software-international.svg
               hash: jri6OF6I/XXL66WRQi2sAgDRQz6yeZh7CGTUkffrFQc=
@@ -2162,11 +2194,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-09T16:30:51.000Z
+              latest_tweet_date: 2019-09-12T17:15:16.000Z
           - item:
             name: Sine Nomine Associates
-            logo: sinenomine.svg
             homepage_url: 'https://www.sinenomine.net/'
+            logo: sinenomine.svg
             crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
             crunchbase_data:
               name: Sine Nomine Associates
@@ -2179,6 +2211,7 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
+              parents: []
             image_data:
               fileName: sine-nomine-associates.svg
               hash: CkAN2ujSOXsNZhW/8SwEeR7U51O56WUHSTzevBBtKqE=
@@ -2187,8 +2220,8 @@ landscape:
               percentage: null
           - item:
             name: Syncsort
+            homepage_url: 'https://www.syncsort.com/en/home'
             logo: syncsort.svg
-            homepage_url: 'https://www.syncsort.com/'
             crunchbase: 'https://www.crunchbase.com/organization/syncsort'
             crunchbase_data:
               name: Syncsort
@@ -2201,6 +2234,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/Syncsort'
               linkedin: 'https://www.linkedin.com/company/syncsort'
+              parents: []
             image_data:
               fileName: syncsort.svg
               hash: eCGJKmVHiUDdLKk4FZlUQ1nPGXRYRXzRKPy/zb4vgyk=
@@ -2208,11 +2242,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T14:32:26.000Z
+              latest_tweet_date: 2019-09-13T19:00:53.000Z
           - item:
             name: Vicom Infinity
-            logo: vicominfinity.svg
             homepage_url: 'http://www.vicominfinity.com/'
+            logo: vicominfinity.svg
             crunchbase: 'https://www.crunchbase.com/organization/vicom-infinity'
             crunchbase_data:
               name: Vicom Infinity
@@ -2225,6 +2259,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/vicom_infinity'
               linkedin: 'https://www.linkedin.com/company/vicom-infinity-inc/'
+              parents: []
             image_data:
               fileName: vicom-infinity.svg
               hash: sdCg7kg8MfIgDUG68E3A9eMDk/y0/kr39kxTxh2Htn4=
@@ -2232,15 +2267,15 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-20T18:36:12.000Z
+              latest_tweet_date: 2019-09-14T18:51:14.000Z
           - item:
             name: Zoss Team LLC
-            logo: zossteam-llc.svg
             homepage_url: 'https://www.bizapedia.com/ma/zoss-team-llc.html'
+            logo: zossteam-llc.svg
             crunchbase: 'https://www.crunchbase.com/organization/zoss-team-llc'
             crunchbase_data:
               name: Zoss Team LLC
-              description: Zoss Team LLC
+              description: Zoss Team LLC is a Massachusetts Domestic Limited-Liability Company.
               num_employees_min: null
               num_employees_max: null
               homepage: 'https://www.bizapedia.com/ma/zoss-team-llc.html'
@@ -2249,6 +2284,7 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
+              parents: []
             image_data:
               fileName: zoss-team-llc.svg
               hash: Vl2CwkwQtpUIwG8/nu25H2YJcp4xpbsXTC4RlP2Eck0=
@@ -2260,8 +2296,8 @@ landscape:
         items:
           - item:
             name: Albany State University
-            logo: albany_state_university.svg
             homepage_url: 'https://www.asurams.edu/'
+            logo: albany_state_university.svg
             crunchbase: 'https://www.crunchbase.com/organization/albany-state-university'
             crunchbase_data:
               name: Albany State University
@@ -2274,6 +2310,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/albanystateuniv'
               linkedin: 'https://www.linkedin.com/company/37000'
+              parents: []
             image_data:
               fileName: albany-state-university.svg
               hash: rUyV1Y1CWbtBSL8vdDaAeejZ9kmBWt/MyNbl0GNP5Wc=
@@ -2281,11 +2318,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T13:30:18.000Z
+              latest_tweet_date: 2019-09-13T14:22:20.000Z
           - item:
             name: Coburg University of Applied Sciences and Arts
-            logo: coburg.svg
             homepage_url: 'https://www.coburg-university.de/'
+            logo: coburg.svg
             crunchbase: 'https://www.crunchbase.com/organization/coburg-university-of-applied-sciences-and-arts'
             crunchbase_data:
               name: Coburg University of Applied Sciences and Arts
@@ -2298,6 +2335,7 @@ landscape:
               country: Germany
               twitter: null
               linkedin: 'https://de.linkedin.com/school/hochschule-coburg'
+              parents: []
             image_data:
               fileName: coburg-university-of-applied-sciences-and-arts.svg
               hash: qD/P/hn0ZNlnf/j1FJYjVLl7Xx0jaMTZdYMJL/ltxEo=
@@ -2306,8 +2344,8 @@ landscape:
               percentage: null
           - item:
             name: East Carolina University
-            logo: east-carolina-university.svg
             homepage_url: 'https://www.ecu.edu/'
+            logo: east-carolina-university.svg
             crunchbase: 'https://www.crunchbase.com/organization/east-carolina-university'
             crunchbase_data:
               name: East Carolina University
@@ -2320,6 +2358,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/EastCarolina'
               linkedin: null
+              parents: []
             image_data:
               fileName: east-carolina-university.svg
               hash: dLMQl5UzThHydKpZZLjFqUemOx7fDQDeq9zAhWd98Yw=
@@ -2327,11 +2366,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T14:05:01.000Z
+              latest_tweet_date: 2019-09-14T22:49:14.000Z
           - item:
             name: EPSI
-            logo: epsi.svg
             homepage_url: 'http://www.epsi.fr/'
+            logo: epsi.svg
             crunchbase: 'https://www.crunchbase.com/organization/epsi'
             crunchbase_data:
               name: EPSI
@@ -2344,6 +2383,7 @@ landscape:
               country: France
               twitter: 'https://www.twitter.com/epsilyon'
               linkedin: null
+              parents: []
             image_data:
               fileName: epsi.svg
               hash: 0w30swBPqz7lzNBJdm4lJQX10pskwDdXBm/cNIx3KE0=
@@ -2354,8 +2394,8 @@ landscape:
               latest_tweet_date: 2018-04-21T08:20:14.000Z
           - item:
             name: HTL Donaustadt
-            logo: htl-donaustadt.svg
             homepage_url: 'https://www.htl-donaustadt.at/'
+            logo: htl-donaustadt.svg
             crunchbase: 'https://www.crunchbase.com/organization/htl-donaustadt'
             crunchbase_data:
               name: HTL Donaustadt
@@ -2368,6 +2408,7 @@ landscape:
               country: Austria
               twitter: 'https://www.twitter.com/htldonaustadt'
               linkedin: null
+              parents: []
             image_data:
               fileName: htl-donaustadt.svg
               hash: A/waexxm0GWMx7isUKkdOeGLpR8fOfhkmkvXFXsQL4U=
@@ -2378,8 +2419,8 @@ landscape:
               latest_tweet_date: 2013-03-05T17:34:52.000Z
           - item:
             name: Johann Wolfgang Goethe University
-            logo: goethe-university-frankfurt.svg
             homepage_url: 'https://www.oscars.org/'
+            logo: goethe-university-frankfurt.svg
             crunchbase: 'https://www.crunchbase.com/organization/goethe-university-frankfurt'
             crunchbase_data:
               name: Goethe University Frankfurt
@@ -2392,6 +2433,7 @@ landscape:
               country: Germany
               twitter: null
               linkedin: null
+              parents: []
             image_data:
               fileName: johann-wolfgang-goethe-university.svg
               hash: GpDGd0+pljl74JhiuRmGI70ap1tU7xyBA9FLudYYPv8=
@@ -2400,8 +2442,8 @@ landscape:
               percentage: null
           - item:
             name: Marist College
-            logo: marist_college.svg
             homepage_url: 'https://www.marist.edu/'
+            logo: marist_college.svg
             crunchbase: 'https://www.crunchbase.com/organization/marist-college'
             crunchbase_data:
               name: Marist College
@@ -2414,6 +2456,7 @@ landscape:
               country: United States
               twitter: null
               linkedin: null
+              parents: []
             image_data:
               fileName: marist-college.svg
               hash: BoZQhK5ORn31IiTnZKYMTyIvygPWo1b0zhj55LFm+bg=
@@ -2422,8 +2465,8 @@ landscape:
               percentage: null
           - item:
             name: North Carolina A&T State
-            logo: north-carolina-a-t-state-university.svg
             homepage_url: 'https://www.oscars.org/'
+            logo: north-carolina-a-t-state-university.svg
             crunchbase: 'https://www.crunchbase.com/organization/north-carolina-a-t-state-university'
             crunchbase_data:
               name: North Carolina A & T State University
@@ -2436,6 +2479,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/ncatsuaggies'
               linkedin: null
+              parents: []
               kind: funding
               funding: 142000
             image_data:
@@ -2445,35 +2489,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T13:37:11.000Z
-          - item:
-            name: Universität Leipzig
-            logo: leipzig-university.svg
-            homepage_url: 'https://www.uni-leipzig.de/'
-            crunchbase: 'https://www.crunchbase.com/organization/leipzig-university'
-            crunchbase_data:
-              name: Leipzig University
-              description: 'Leipzig University, an educational institute, offers academic services on natural sciences and medicine to its students.'
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'http://www.uni-leipzig.de/'
-              city: Leipzig
-              region: Sachsen
-              country: Germany
-              twitter: 'http://twitter.com/unileipzig'
-              linkedin: null
-            image_data:
-              fileName: universität-leipzig.svg
-              hash: 2VeIs35jl5Z1TwhOXdY8/ogPawVGZSz/NVfjl2z5W9k=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-16T09:18:03.000Z
+              latest_tweet_date: 2019-09-15T02:32:38.000Z
           - item:
             name: University of Bedfordshire
-            logo: university-of-bedfordshire.svg
             homepage_url: 'https://www.beds.ac.uk/'
+            logo: university-of-bedfordshire.svg
             crunchbase: 'https://www.crunchbase.com/organization/university-of-bedfordshire'
             crunchbase_data:
               name: University of Bedfordshire
@@ -2486,6 +2506,7 @@ landscape:
               country: United Kingdom
               twitter: 'http://twitter.com/uniofbeds'
               linkedin: null
+              parents: []
             image_data:
               fileName: university-of-bedfordshire.svg
               hash: d8BVy6YdDckRlKOIBEPva2EGcb6upC7dfPxnTwBrVNY=
@@ -2493,11 +2514,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T09:48:12.000Z
+              latest_tweet_date: 2019-09-13T11:56:32.000Z
           - item:
             name: University of Washington CIAC
-            logo: ciac.svg
             homepage_url: 'https://www.uwb.edu/ciac'
+            logo: ciac.svg
             crunchbase: 'https://www.crunchbase.com/organization/university-of-washington'
             crunchbase_data:
               name: University of Washington
@@ -2510,6 +2531,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/UW'
               linkedin: 'https://www.linkedin.com/school/university-of-washington/'
+              parents: []
               kind: funding
               funding: 87530000
             image_data:
@@ -2519,11 +2541,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-22T23:42:08.000Z
+              latest_tweet_date: 2019-09-14T22:41:12.000Z
           - item:
             name: University of Wolverhampton
-            logo: university-of-wolverhampton.svg
             homepage_url: 'https://www.wlv.ac.uk/'
+            logo: university-of-wolverhampton.svg
             crunchbase: 'https://www.crunchbase.com/organization/university-of-wolverhampton'
             crunchbase_data:
               name: University of Wolverhampton
@@ -2536,6 +2558,7 @@ landscape:
               country: United Kingdom
               twitter: 'http://twitter.com/wlv_uni'
               linkedin: null
+              parents: []
             image_data:
               fileName: university-of-wolverhampton.svg
               hash: ebjJi/B9uyF12hvM78vkiJR2RccG/Ojl2f5gSDRJRec=
@@ -2543,11 +2566,36 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T09:00:04.000Z
+              latest_tweet_date: 2019-09-14T09:47:15.000Z
+          - item:
+            name: Universität Leipzig
+            homepage_url: 'https://www.uni-leipzig.de/'
+            logo: leipzig-university.svg
+            crunchbase: 'https://www.crunchbase.com/organization/leipzig-university'
+            crunchbase_data:
+              name: Leipzig University
+              description: 'Leipzig University, an educational institute, offers academic services on natural sciences and medicine to its students.'
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://www.uni-leipzig.de/'
+              city: Leipzig
+              region: Sachsen
+              country: Germany
+              twitter: 'http://twitter.com/unileipzig'
+              linkedin: null
+              parents: []
+            image_data:
+              fileName: universität-leipzig.svg
+              hash: 2VeIs35jl5Z1TwhOXdY8/ogPawVGZSz/NVfjl2z5W9k=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T10:31:56.000Z
           - item:
             name: Virginia Commonwealth University
-            logo: vcu.svg
             homepage_url: 'https://www.vcu.edu/'
+            logo: vcu.svg
             crunchbase: 'https://www.crunchbase.com/organization/virginia-commonwealth-university'
             crunchbase_data:
               name: Virginia Commonwealth University
@@ -2560,6 +2608,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/VCU'
               linkedin: 'https://www.linkedin.com/company/virginia-commonwealth-university'
+              parents: []
               kind: funding
               funding: 7000000
             image_data:
@@ -2569,11 +2618,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-18T18:25:04.000Z
+              latest_tweet_date: 2019-09-11T19:45:46.000Z
           - item:
             name: Western University
-            logo: university-of-western-ontario.svg
             homepage_url: 'https://www.uwo.ca/'
+            logo: university-of-western-ontario.svg
             crunchbase: 'https://www.crunchbase.com/organization/university-of-western-ontario'
             crunchbase_data:
               name: University of Western Ontario
@@ -2586,6 +2635,7 @@ landscape:
               country: Canada
               twitter: 'http://twitter.com/westernu'
               linkedin: 'https://www.linkedin.com/edu/western-university-10852'
+              parents: []
               kind: funding
               funding: 1000000
             image_data:
@@ -2595,11 +2645,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T14:36:30.000Z
+              latest_tweet_date: 2019-09-15T01:43:44.000Z
           - item:
             name: William Patterson University
-            logo: william-paterson-university-of-new-jersey.svg
             homepage_url: 'https://www.wpunj.edu/'
+            logo: william-paterson-university-of-new-jersey.svg
             crunchbase: 'https://www.crunchbase.com/organization/william-paterson-university-of-new-jersey'
             crunchbase_data:
               name: William Paterson University of New Jersey
@@ -2612,6 +2662,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/WPUNJ_EDU'
               linkedin: null
+              parents: []
             image_data:
               fileName: william-patterson-university.svg
               hash: wEHhqqNs1KZGgibloBVIJnVJGTh5Z0r7NbIIED6cZ8s=
@@ -2619,87 +2670,14 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-08-19T13:08:46.000Z
+              latest_tweet_date: 2019-09-14T17:12:08.000Z
       - subcategory:
         name: Associate
         items:
           - item:
-            name: SHARE
-            logo: share.svg
-            homepage_url: 'https://www.share.org'
-            crunchbase: 'https://www.crunchbase.com/organization/share-8c77'
-            crunchbase_data:
-              name: SHARE
-              description: 'SHARE is an independent volunteer-run information technology association that provides education, networking and industry influence.'
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.share.org/'
-              city: Chicago
-              region: Illinois
-              country: United States
-              twitter: 'https://twitter.com/sharehq'
-              linkedin: 'https://www.linkedin.com/company/share-association/'
-            image_data:
-              fileName: share.svg
-              hash: i7yi3K6MJcCEPIJbFy5WXgJ/c5YDGL6X0yca3v8Qa7o=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-19T14:30:05.000Z
-          - item:
-            name: GSE
-            logo: gse.svg
-            homepage_url: 'https://www.gse.org'
-            crunchbase: 'https://www.crunchbase.com/organization/guide-share-europe'
-            twitter: 'https://twitter.com/GuideShareEurop'
-            crunchbase_data:
-              name: Guide Share Europe
-              description: 'At GSE we believe a better, more sustainable world will be achieved when every individual and every business reaches their full potential.'
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.gse.org/'
-              city: Cham
-              region: Zug
-              country: Switzerland
-              twitter: 'https://mobile.twitter.com/GuideShareEurop'
-              linkedin: 'https://www.linkedin.com/in/guideshareeurope'
-            image_data:
-              fileName: gse.svg
-              hash: GkGx53CrU3F4UfTWyGpj7bR/oiNfIfzkMtOeFhvYfng=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-18T06:20:16.000Z
-          - item:
-            name: GSE UK
-            logo: gse-uk.svg
-            homepage_url: 'http://www.gse.org.uk'
-            crunchbase: 'https://www.crunchbase.com/organization/guide-share-europe-uk-region'
-            crunchbase_data:
-              name: Guide Share Europe - UK Region
-              description: Guide Share Europe - UK Region
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.gse.org.uk/'
-              city: Knutsford
-              region: Cheshire
-              country: United Kingdom
-              twitter: 'https://twitter.com/gseukc'
-              linkedin: 'https://www.linkedin.com/in/gse-uk-region-826633158'
-            image_data:
-              fileName: gse-uk.svg
-              hash: 7rTmFyQlXIO4lZKDobpGHPKm1hQ/U1PYFSkIWCioYt4=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-08-20T07:09:14.000Z
-          - item:
             name: Academic Mainframe Consortium
-            logo: amc.svg
             homepage_url: 'https://amc-ev.org'
+            logo: amc.svg
             crunchbase: 'https://www.crunchbase.com/organization/academic-mainframe-consortium'
             crunchbase_data:
               name: Academic Mainframe Consortium
@@ -2712,6 +2690,7 @@ landscape:
               country: Germany
               twitter: null
               linkedin: null
+              parents: []
             image_data:
               fileName: academic-mainframe-consortium.svg
               hash: DrGQvcvIrNXGOa0liT6n0zIYPlDanebNyxJ7d85c7xk=
@@ -2720,8 +2699,8 @@ landscape:
               percentage: null
           - item:
             name: European Mainframe Academy
-            logo: ema.svg
             homepage_url: 'https://mainframe-academy.de'
+            logo: ema.svg
             crunchbase: 'https://www.crunchbase.com/organization/european-mainframe-academy'
             crunchbase_data:
               name: European Mainframe Academy
@@ -2734,12 +2713,89 @@ landscape:
               country: Germany
               twitter: null
               linkedin: null
+              parents: []
             image_data:
               fileName: european-mainframe-academy.svg
               hash: Aqr4LUnD7u2XYmPafwUhBzCl31WVvGvd2yIwcrmdVog=
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: GSE
+            homepage_url: 'https://www.gse.org'
+            logo: gse.svg
+            twitter: 'https://twitter.com/GuideShareEurop'
+            crunchbase: 'https://www.crunchbase.com/organization/guide-share-europe'
+            crunchbase_data:
+              name: Guide Share Europe
+              description: 'At GSE we believe a better, more sustainable world will be achieved when every individual and every business reaches their full potential.'
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.gse.org/'
+              city: Cham
+              region: Zug
+              country: Switzerland
+              twitter: 'https://twitter.com/GuideShareEurop'
+              linkedin: 'https://www.linkedin.com/in/guideshareeurope'
+              parents: []
+            image_data:
+              fileName: gse.svg
+              hash: GkGx53CrU3F4UfTWyGpj7bR/oiNfIfzkMtOeFhvYfng=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-12T15:40:33.000Z
+          - item:
+            name: GSE UK
+            homepage_url: 'http://www.gse.org.uk/mainsite/content/content_events.php'
+            logo: gse-uk.svg
+            crunchbase: 'https://www.crunchbase.com/organization/guide-share-europe-uk-region'
+            crunchbase_data:
+              name: Guide Share Europe - UK Region
+              description: Guide Share Europe gives GSE members access to a process of Information and Communication Technology standards.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.gse.org.uk/'
+              city: Knutsford
+              region: Cheshire
+              country: United Kingdom
+              twitter: 'https://twitter.com/gseukc'
+              linkedin: 'https://www.linkedin.com/in/gse-uk-region-826633158'
+              parents: []
+            image_data:
+              fileName: gse-uk.svg
+              hash: 7rTmFyQlXIO4lZKDobpGHPKm1hQ/U1PYFSkIWCioYt4=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-10T18:05:11.000Z
+          - item:
+            name: SHARE
+            homepage_url: 'https://www.share.org'
+            logo: share.svg
+            crunchbase: 'https://www.crunchbase.com/organization/share-8c77'
+            crunchbase_data:
+              name: SHARE
+              description: 'SHARE is an independent volunteer-run information technology association that provides education, networking and industry influence.'
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.share.org/'
+              city: Chicago
+              region: Illinois
+              country: United States
+              twitter: 'https://twitter.com/sharehq'
+              linkedin: 'https://www.linkedin.com/company/share-association/'
+              parents: []
+            image_data:
+              fileName: share.svg
+              hash: i7yi3K6MJcCEPIJbFy5WXgJ/c5YDGL6X0yca3v8Qa7o=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-09-13T13:30:05.000Z
 twitter_options:
   count: 37
   since_id: '1141123500800823296'
