@@ -59,6 +59,7 @@ membership:
     name: Open Mainframe Project
     label: Platinum Member
     funding: Platinum
+    is_large: true
   Silver:
     name: Open Mainframe Project
     label: Silver Member
@@ -151,9 +152,9 @@ big_picture:
         fit_width: true
       - type: HorizontalCategory
         category: Open Mainframe Project Member Company
-        rows: 6
-        width: 1000
-        height: 300
+        rows: 4
+        width: 1105
+        height: 200
         top: 570
         left: 0
         color: 'rgb(124, 200, 182)'
