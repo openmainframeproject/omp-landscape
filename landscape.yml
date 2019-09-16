@@ -69,7 +69,7 @@ landscape:
             description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
             homepage_url: 'https://www.zowe.org'
             project: graduated
-            repo_url: 'https://github.com/zowe/api-layer'
+            repo_url: 'https://github.com/zowe/zlc'
             logo: zowe.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
@@ -351,6 +351,7 @@ landscape:
             repo_url: 'https://github.com/postgres/postgres'
             logo: postgresql.svg
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
+            url_for_bestpratices: 'https://git.postgresql.org/git/postgresql.git'
   - category:
     name: Linux Distributions
     subcategories:
