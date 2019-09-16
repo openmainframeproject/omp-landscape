@@ -396,7 +396,7 @@ landscape:
             description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
             homepage_url: 'https://www.zowe.org'
             project: graduated
-            repo_url: 'https://github.com/zowe/api-layer'
+            repo_url: 'https://github.com/zowe/zlc'
             logo: zowe.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             crunchbase_data:
@@ -413,24 +413,22 @@ landscape:
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
-              stars: 15
-              license: Eclipse Public License 2.0
-              description: Zowe API Mediation Layer
+              stars: 11
+              license: Creative Commons Attribution 4.0 International
+              description: Zowe Leadership Committee collaboration
               latest_commit_date: '2019-09-12T00:00:00.000Z'
-              latest_commit_link: /zowe/api-layer/commit/75899fba3ebded42c0dc2cec5bfabf1eddd2033a
-              release_date: '2019-08-15T11:19:31Z'
-              release_link: 'https://github.com/zowe/api-layer/releases'
-              contributors_count: 24
-              contributors_link: 'https://github.com/zowe/api-layer/graphs/contributors'
+              latest_commit_link: /zowe/zlc/commit/e10506d66fde02e9a1ecdd594d17220ff7437f92
+              contributors_count: 14
+              contributors_link: 'https://github.com/zowe/zlc/graphs/contributors'
             github_start_commit_data:
-              start_commit_link: /zowe/api-layer/commit/c34ba84ac7bf5b042c76b375c5e3638c2a78b449
-              start_date: '2018-10-30T12:48:43Z'
+              start_commit_link: /zowe/zlc/commit/1d1ba0ed8f7be99c0558363e862fa5139607be3a
+              start_date: '2018-07-17T16:32:04Z'
             image_data:
               fileName: zowe.svg
               hash: BdoSgULyRmzDep67eLYtIuIhouyWK9OiigLipxJfbgk=
             best_practice_data:
-              badge: 2322
-              percentage: 79
+              badge: 2226
+              percentage: 100
             twitter_data:
               latest_tweet_date: 2019-09-13T22:00:04.000Z
           - item:
@@ -732,7 +730,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T17:00:00.000Z
+              latest_tweet_date: 2019-09-15T20:00:00.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS - API Mediation Layer
             description: >-
@@ -766,7 +764,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T17:00:00.000Z
+              latest_tweet_date: 2019-09-15T20:00:00.000Z
       - subcategory:
         name: App Framework
         items:
@@ -800,7 +798,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T17:00:00.000Z
+              latest_tweet_date: 2019-09-15T20:00:00.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS - App Framework
             description: >-
@@ -834,7 +832,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T17:00:00.000Z
+              latest_tweet_date: 2019-09-15T20:00:00.000Z
           - item:
             name: IBM® Service Automation Suite
             description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
@@ -866,7 +864,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T17:00:00.000Z
+              latest_tweet_date: 2019-09-15T20:00:00.000Z
           - item:
             name: IBM® Service Management Suite for z/OS
             description: >-
@@ -900,7 +898,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T17:00:00.000Z
+              latest_tweet_date: 2019-09-15T20:00:00.000Z
           - item:
             name: IBM® Service Management Unite(SMU)
             description: >-
@@ -934,7 +932,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T17:00:00.000Z
+              latest_tweet_date: 2019-09-15T20:00:00.000Z
           - item:
             name: Rocket™ BlueZone
             description: >-
@@ -1246,7 +1244,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T17:00:00.000Z
+              latest_tweet_date: 2019-09-15T20:00:00.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS - CLI
             description: >-
@@ -1280,7 +1278,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T17:00:00.000Z
+              latest_tweet_date: 2019-09-15T20:00:00.000Z
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI
             description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.
@@ -1326,7 +1324,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T17:00:00.000Z
+              latest_tweet_date: 2019-09-15T20:00:00.000Z
   - category:
     name: Supported Projects
     subcategories:
@@ -1552,8 +1550,8 @@ landscape:
               stars: 18
               license: Other
               description: Integration fork of the original LuaJIT. README describes differences from the original.
-              latest_commit_date: '2019-08-31T00:00:00.000Z'
-              latest_commit_link: /siddhesh/LuaJIT/commit/d8a7769ef37435f3c81c19779395eb6adb95037a
+              latest_commit_date: '2019-09-16T00:00:00.000Z'
+              latest_commit_link: /siddhesh/LuaJIT/commit/c7e0e64eb8311c56f7757fb5ffd696b0bb79e379
               contributors_count: 12
               contributors_link: 'https://github.com/siddhesh/LuaJIT/graphs/contributors'
             github_start_commit_data:
@@ -1574,6 +1572,7 @@ landscape:
               reputation for reliability, feature robustness, and performance.
             homepage_url: 'https://www.postgresql.org/'
             repo_url: 'https://github.com/postgres/postgres'
+            url_for_bestpractices: 'https://git.postgresql.org/git/postgresql.git'
             logo: postgresql.svg
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
             crunchbase_data:
@@ -1595,7 +1594,7 @@ landscape:
                 Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute,
                 please see https://wiki.postgresql.org/wiki/Submitting_a_Patch
               latest_commit_date: '2019-09-15T00:00:00.000Z'
-              latest_commit_link: /postgres/postgres/commit/87e9fae0696d9e3ff70a1438775ad9f786b854a5
+              latest_commit_link: /postgres/postgres/commit/d8122578098d3ff20a9a12d25807e56cecac673c
               contributors_count: 33
               contributors_link: 'https://github.com/postgres/postgres/graphs/contributors'
             github_start_commit_data:
@@ -1605,8 +1604,8 @@ landscape:
               fileName: postgre-sql.svg
               hash: dacOvtbt91uxI6JgoDVrELGaJsHoDihYCbfihUagbck=
             best_practice_data:
-              badge: false
-              percentage: null
+              badge: 2268
+              percentage: 94
             twitter_data:
               latest_tweet_date: 2019-09-12T20:25:58.000Z
   - category:
@@ -1682,7 +1681,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T19:15:14.000Z
+              latest_tweet_date: 2019-09-15T20:10:01.000Z
           - item:
             name: SUSE Linux Enterprise Server
             homepage_url: 'https://www.suse.com/products/systemz/'
@@ -1709,7 +1708,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T18:35:03.000Z
+              latest_tweet_date: 2019-09-16T03:02:41.000Z
           - item:
             name: Ubuntu
             homepage_url: 'https://wiki.ubuntu.com/S390X'
@@ -1760,11 +1759,11 @@ landscape:
               linkedin: null
               parents: []
             github_data:
-              stars: 370
+              stars: 371
               license: Unknown License
               description: Mirror of aports repository
               latest_commit_date: '2019-09-15T00:00:00.000Z'
-              latest_commit_link: /alpinelinux/aports/commit/52a89765b1ad1b8dffd826eb6d8108f550cb3688
+              latest_commit_link: /alpinelinux/aports/commit/6ac0abb933ac2e68aa28f8d766a26e0b17747272
               contributors_count: 568
               contributors_link: 'https://github.com/alpinelinux/aports/graphs/contributors'
             github_start_commit_data:
@@ -1838,7 +1837,7 @@ landscape:
               linkedin: null
               parents: []
             github_data:
-              stars: 93
+              stars: 94
               license: GNU General Public License v2.0
               description: Bodhi is a web-system that facilitates the process of publishing updates for a Fedora-based software distribution.
               latest_commit_date: '2019-09-13T00:00:00.000Z'
@@ -1880,11 +1879,11 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/gentoo-linux/'
               parents: []
             github_data:
-              stars: 1076
+              stars: 1077
               license: Unknown License
               description: The Gentoo ebuild repository mirror
-              latest_commit_date: '2019-09-15T00:00:00.000Z'
-              latest_commit_link: /gentoo/gentoo/commit/9edfb1b31ea8bb835d457c0e9e12d0536e2592d7
+              latest_commit_date: '2019-09-16T00:00:00.000Z'
+              latest_commit_link: /gentoo/gentoo/commit/225c339aea5ac79f566972d07ed350d5825f95c1
               contributors_count: 781
               contributors_link: 'https://github.com/gentoo/gentoo/graphs/contributors'
             github_start_commit_data:
@@ -2033,7 +2032,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T17:00:00.000Z
+              latest_tweet_date: 2019-09-15T20:00:00.000Z
           - item:
             name: Rocket Software
             homepage_url: 'https://www.rocketsoftware.com/'
@@ -2087,7 +2086,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T18:35:03.000Z
+              latest_tweet_date: 2019-09-16T03:02:41.000Z
       - subcategory:
         name: Silver
         items:
@@ -2267,7 +2266,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T18:51:14.000Z
+              latest_tweet_date: 2019-09-15T13:24:53.000Z
           - item:
             name: Zoss Team LLC
             homepage_url: 'https://www.bizapedia.com/ma/zoss-team-llc.html'
@@ -2366,7 +2365,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T22:49:14.000Z
+              latest_tweet_date: 2019-09-15T18:23:02.000Z
           - item:
             name: EPSI
             homepage_url: 'http://www.epsi.fr/'
@@ -2541,7 +2540,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-14T22:41:12.000Z
+              latest_tweet_date: 2019-09-15T23:46:03.000Z
           - item:
             name: University of Wolverhampton
             homepage_url: 'https://www.wlv.ac.uk/'
@@ -2591,7 +2590,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-13T10:31:56.000Z
+              latest_tweet_date: 2019-09-15T14:53:53.000Z
           - item:
             name: Virginia Commonwealth University
             homepage_url: 'https://www.vcu.edu/'
@@ -2645,7 +2644,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-15T01:43:44.000Z
+              latest_tweet_date: 2019-09-16T02:54:32.000Z
           - item:
             name: William Patterson University
             homepage_url: 'https://www.wpunj.edu/'
@@ -2770,7 +2769,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-10T18:05:11.000Z
+              latest_tweet_date: 2019-09-15T08:01:28.000Z
           - item:
             name: SHARE
             homepage_url: 'https://www.share.org'
