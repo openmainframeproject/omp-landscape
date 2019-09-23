@@ -70,9 +70,9 @@ landscape:
             homepage_url: 'https://www.zowe.org'
             project: graduated
             repo_url: 'https://github.com/zowe/api-layer'
+            url_for_bestpractices: 'https://github.com/zowe/zlc'
             logo: zowe.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-            url_for_bestpractices: 'https://github.com/zowe/zlc'
           - item:
             name: zUID
             homepage_url: 'https://github.com/walmartlabs/zUID'
@@ -310,6 +310,15 @@ landscape:
             logo: clefos.svg
             crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
           - item:
+            name: CloudFoundry
+            description: >-
+              Cloud Foundry makes it faster and easier to build, test, deploy and scale applications, providing a choice of clouds, developer frameworks, and
+              application services. It is an open source project and is available through a variety of private cloud distributions and public cloud instances.
+            homepage_url: 'https://www.cloudfoundry.org/'
+            repo_url: 'https://github.com/cloudfoundry/bosh'
+            logo: cloudfoundry.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
+          - item:
             name: Debian
             description: Debian is a free operating system (OS) for your computer.
             homepage_url: 'https://www.debian.org/ports/s390/'
@@ -353,14 +362,6 @@ landscape:
             url_for_bestpractices: 'https://git.postgresql.org/git/postgresql.git'
             logo: postgresql.svg
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
-          - item:
-            name: CloudFoundry
-            description: >-
-              Cloud Foundry makes it faster and easier to build, test, deploy and scale applications, providing a choice of clouds, developer frameworks, and application services. It is an open source project and is available through a variety of private cloud distributions and public cloud instances.
-            repo_url: 'https://github.com/cloudfoundry/bosh'
-            homepage_url: 'https://www.cloudfoundry.org/'
-            logo: cloudfoundry.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
   - category:
     name: Linux Distributions
     subcategories:
