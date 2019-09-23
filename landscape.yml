@@ -353,6 +353,14 @@ landscape:
             url_for_bestpractices: 'https://git.postgresql.org/git/postgresql.git'
             logo: postgresql.svg
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
+          - item:
+            name: CloudFoundry
+            description: >-
+              Cloud Foundry makes it faster and easier to build, test, deploy and scale applications, providing a choice of clouds, developer frameworks, and application services. It is an open source project and is available through a variety of private cloud distributions and public cloud instances.
+            repo_url: 'https://github.com/cloudfoundry/bosh'
+            homepage_url: 'https://www.cloudfoundry.org/'
+            logo: cloudfoundry.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
   - category:
     name: Linux Distributions
     subcategories:
