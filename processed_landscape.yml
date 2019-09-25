@@ -706,6 +706,8 @@ landscape:
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI - API Mediation Layer
             homepage_url: 'https://www.ibm.com/products/mq/zos'
+            repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            allow_duplicate_repo: true
             logo: omp_ibm-mq-for-cli.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -723,6 +725,17 @@ landscape:
               parents: []
               ticker: IBM
               kind: market_cap
+            github_data:
+              stars: 2
+              license: Other
+              description: Zowe CLI plug-in for MQ that enables users to issue MQSC commands to a queue manager.
+              latest_commit_date: '2019-08-22T00:00:00.000Z'
+              latest_commit_link: /zowe/zowe-cli-mq-plugin/commit/05af1a2083a8dfb44eeb2a9d3582bde3723a8feb
+              contributors_count: 5
+              contributors_link: 'https://github.com/zowe/zowe-cli-mq-plugin/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /zowe/zowe-cli-mq-plugin/commit/2ded494f521b32f3e9b7f514bc8e37a5a21f552b
+              start_date: '2019-04-18T14:01:18Z'
             yahoo_finance_data:
               market_cap: 125510762496
               effective_ticker: IBM
@@ -775,6 +788,8 @@ landscape:
             name: IBM MQ for z/OS Plug-in for Zowe CLI - App Framework
             homepage_url: 'https://www.ibm.com/products/mq/zos'
             logo: omp_ibm-mq-for-cli.svg
+            repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            allow_duplicate_repo: true
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
             crunchbase_data:
@@ -791,6 +806,17 @@ landscape:
               parents: []
               ticker: IBM
               kind: market_cap
+            github_data:
+              stars: 2
+              license: Other
+              description: Zowe CLI plug-in for MQ that enables users to issue MQSC commands to a queue manager.
+              latest_commit_date: '2019-08-22T00:00:00.000Z'
+              latest_commit_link: /zowe/zowe-cli-mq-plugin/commit/05af1a2083a8dfb44eeb2a9d3582bde3723a8feb
+              contributors_count: 5
+              contributors_link: 'https://github.com/zowe/zowe-cli-mq-plugin/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /zowe/zowe-cli-mq-plugin/commit/2ded494f521b32f3e9b7f514bc8e37a5a21f552b
+              start_date: '2019-04-18T14:01:18Z'
             yahoo_finance_data:
               market_cap: 125510762496
               effective_ticker: IBM
@@ -1209,6 +1235,7 @@ landscape:
             name: IBM MQ for z/OS Plug-in for Zowe CLI - CLI
             homepage_url: 'https://www.ibm.com/products/mq/zos'
             repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            allow_duplicate_repo: true
             logo: omp_ibm-mq-for-cli.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -1655,7 +1682,7 @@ landscape:
               badge: 2268
               percentage: 94
             twitter_data:
-              latest_tweet_date: 2019-09-18T02:12:22.000Z
+              latest_tweet_date: 2019-09-16T22:15:04.000Z
   - category:
     name: Linux Distributions
     subcategories:

@@ -131,6 +131,8 @@ landscape:
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI - API Mediation Layer
             homepage_url: 'https://www.ibm.com/products/mq/zos'
+            repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            allow_duplicate_repo: true
             logo: omp_ibm-mq-for-cli.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -150,6 +152,8 @@ landscape:
             name: IBM MQ for z/OS Plug-in for Zowe CLI - App Framework
             homepage_url: 'https://www.ibm.com/products/mq/zos'
             logo: omp_ibm-mq-for-cli.svg
+            repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            allow_duplicate_repo: true
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
           - item:
@@ -267,6 +271,7 @@ landscape:
             name: IBM MQ for z/OS Plug-in for Zowe CLI - CLI
             homepage_url: 'https://www.ibm.com/products/mq/zos'
             repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            allow_duplicate_repo: true
             logo: omp_ibm-mq-for-cli.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
