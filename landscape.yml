@@ -16,7 +16,7 @@ landscape:
             homepage_url: 'https://www.openmainframeproject.org/projects/feilong'
             project: incubating
             repo_url: 'https://github.com/openmainframeproject/python-zvm-sdk'
-            logo: feilong.svg
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/feilong/feilong-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
             name: libica
@@ -62,7 +62,7 @@ landscape:
             homepage_url: 'https://www.openmainframeproject.org/projects/zorow'
             project: incubating
             repo_url: 'https://github.com/openmainframeproject/zorow'
-            logo: zorow.svg
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/zorow/zorow-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
             name: Zowe
@@ -71,7 +71,7 @@ landscape:
             project: graduated
             repo_url: 'https://github.com/zowe/api-layer'
             url_for_bestpractices: 'https://github.com/zowe/zlc'
-            logo: zowe.svg
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/zowe/zowe-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
             name: zUID
@@ -87,28 +87,35 @@ landscape:
             homepage_url: 'http://openmainframeproject.github.io/ade/'
             project: graduated
             repo_url: 'https://github.com/openmainframeproject/ade'
-            logo: ade.svg
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/ade/ade-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
             name: Atom language syntax highlighting for z/VM
             homepage_url: 'https://atom.io/users/openmainframeproject'
             project: incubating
             repo_url: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm'
-            logo: atom.svg
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/atom/atom-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
             name: Mentorship
             homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
             project: graduated
             repo_url: 'https://github.com/openmainframeproject-internship/resources'
-            logo: mentorship.svg
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
             name: TerseDecompress
             homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
             project: incubating
             repo_url: 'https://github.com/openmainframeproject/tersedecompress'
-            logo: tersedecompress.svg
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/tersedecompress/tersedecompress-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: Ambitus
+            homepage_url: 'https://github.com/ambitus'
+            project: incubating
+            repo_url: 'https://github.com/ambitus/ambitus'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/ambitus/ambitus-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
   - category:
     name: Zowe Conformant
