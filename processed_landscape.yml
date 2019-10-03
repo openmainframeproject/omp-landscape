@@ -1440,22 +1440,23 @@ landscape:
             description: Deploy applications developed on a workstation to IBM CICS Transaction Server for z/OS.
             homepage_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
             repo_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
-            logo: omp_zowe-cli-cics-deploy.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-            allow_duplicate_repo: true
+            logo: omp_ibm-cli-cics-deploy.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/IBM_CICS'
             crunchbase_data:
-              name: Open Mainframe Project
-              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.openmainframeproject.org/'
-              city: San Francisco
-              region: California
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
               country: United States
-              twitter: 'https://twitter.com/OpenMFProject'
-              linkedin: null
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
             github_data:
               stars: 8
               license: Eclipse Public License 2.0
@@ -1469,14 +1470,17 @@ landscape:
             github_start_commit_data:
               start_commit_link: /IBM/zowe-cli-cics-deploy-plugin/commit/3b9907cee0a7fbc37a45d2cbc659e8dd20dae6b9
               start_date: '2019-02-11T18:11:42Z'
+            yahoo_finance_data:
+              market_cap: 127430041600
+              effective_ticker: IBM
             image_data:
               fileName: zowe-cli-cics-deploy-plug-in.svg
-              hash: dcJW7sjJINOsOd0Xnf2lABmGC83jjLqNC6TOBmKKQBw=
+              hash: ta0YALQarPyL2Yl1S+oxpgapUiizDX7sssYRba4QNp0=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-02T19:30:10.000Z
+              latest_tweet_date: 2019-10-01T16:25:14.000Z
   - category:
     name: Supported Projects
     subcategories:
