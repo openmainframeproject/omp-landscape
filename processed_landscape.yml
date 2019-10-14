@@ -1870,12 +1870,13 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/redhat'
               linkedin: 'https://www.linkedin.com/company/red-hat'
+              parents:
+                - 'https://www.crunchbase.com/organization/ibm'
               ticker: RHT
               kind: market_cap
-              parents: []
             yahoo_finance_data:
-              market_cap: 33429835776
-              effective_ticker: RHT
+              market_cap: 125829677056
+              effective_ticker: IBM
             image_data:
               fileName: red-hat-enterprise-linux.svg
               hash: Cw+QQAwqxRC7e4KfcRvyC72nODc9Af//uE1Ke4+vU4M=
@@ -1883,7 +1884,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T21:05:03.000Z
+              latest_tweet_date: 2019-10-14T21:19:29.000Z
           - item:
             name: SUSE Linux Enterprise Server
             homepage_url: 'https://www.suse.com/products/systemz/'
@@ -2175,7 +2176,7 @@ landscape:
               latest_tweet_date: 2019-10-05T19:00:03.000Z
           - item:
             name: CA Broadcom
-            homepage_url: 'https://www.ca.com/us.html'
+            homepage_url: 'https://www.broadcom.com'
             stock_ticker: AVGO
             logo: ca-broadcom.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
