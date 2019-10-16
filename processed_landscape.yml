@@ -38,7 +38,7 @@ landscape:
               start_commit_link: /linux-on-ibm-z/crc32-s390x/commit/a4d891f47e8204bc2c8a4cc4c31262ff09b842c6
               start_date: '2016-05-31T14:19:37Z'
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: crc32-s390x.svg
@@ -47,7 +47,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T13:17:26.000Z
+              latest_tweet_date: 2019-10-15T17:00:04.000Z
           - item:
             name: Feilong
             homepage_url: 'https://www.openmainframeproject.org/projects/feilong'
@@ -87,7 +87,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:00:08.000Z
+              latest_tweet_date: 2019-10-15T19:52:06.000Z
           - item:
             name: libica
             homepage_url: 'https://github.com/opencryptoki/libica'
@@ -120,7 +120,7 @@ landscape:
               start_commit_link: /opencryptoki/libica/commit/80bfa416c1369be4d8b99194e744c2f84541d934
               start_date: '2005-01-14T22:36:18Z'
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: libica.svg
@@ -129,7 +129,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T13:17:26.000Z
+              latest_tweet_date: 2019-10-15T17:00:04.000Z
           - item:
             name: s390-tools
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/s390-tools.html'
@@ -151,7 +151,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             github_data:
-              stars: 29
+              stars: 30
               license: MIT License
               description: Tools for use with the s390 Linux kernel and device drivers
               latest_commit_date: '2019-07-29T15:05:31Z'
@@ -164,7 +164,7 @@ landscape:
               start_commit_link: /ibm-s390-tools/s390-tools/commit/b627b8d8e1abef0724ceac559f255fabb996b359
               start_date: '2017-08-07T14:13:17Z'
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: s390-tools.svg
@@ -173,7 +173,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T13:17:26.000Z
+              latest_tweet_date: 2019-10-15T17:00:04.000Z
       - subcategory:
         name: z/OS
         items:
@@ -211,7 +211,7 @@ landscape:
               start_commit_link: /IBM/zos-node-accessor/commit/9cd4dab421b48f65d5e371fe8d7d239015722bb5
               start_date: '2017-10-12T08:37:34Z'
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: z-os-node-accessor.svg
@@ -220,7 +220,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T13:17:26.000Z
+              latest_tweet_date: 2019-10-15T17:00:04.000Z
           - item:
             name: z/OS Tools
             homepage_url: 'https://github.com/IBM/IBM-Z-zOS'
@@ -245,15 +245,15 @@ landscape:
               stars: 125
               license: Apache License 2.0
               description: 'The helpful and handy location for finding and sharing z/OS files, which are not included in the product.'
-              latest_commit_date: '2019-10-03T21:56:37Z'
-              latest_commit_link: /IBM/IBM-Z-zOS/commit/67b2eea316eb03108b9c25035f033bb81b3e02a2
+              latest_commit_date: '2019-10-07T14:09:48Z'
+              latest_commit_link: /IBM/IBM-Z-zOS/commit/15bfa2170e265050d9deb6f91d869ce44e3f9833
               contributors_count: 20
               contributors_link: 'https://github.com/IBM/IBM-Z-zOS/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /IBM/IBM-Z-zOS/commit/c94c49958d7a64cbf11151f8e3b5877e50d6b42c
               start_date: '2017-07-17T15:24:03Z'
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: z-os-tools.svg
@@ -262,7 +262,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T13:17:26.000Z
+              latest_tweet_date: 2019-10-15T17:00:04.000Z
           - item:
             name: zECS
             homepage_url: 'https://github.com/walmartlabs/zECS'
@@ -296,7 +296,7 @@ landscape:
               start_commit_link: /walmartlabs/zECS/commit/9a1b04dd3d76bd4aa5b92a40c99ffd3dd33c50af
               start_date: '2016-11-22T03:15:05Z'
             yahoo_finance_data:
-              market_cap: 335531868160
+              market_cap: 339976781824
               effective_ticker: WMT
             image_data:
               fileName: z-ecs.svg
@@ -305,7 +305,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-03T09:03:02.000Z
+              latest_tweet_date: 2019-10-15T10:04:00.000Z
           - item:
             name: zFAM
             homepage_url: 'https://github.com/walmartlabs/zFAM'
@@ -333,13 +333,13 @@ landscape:
               description: z/OS-based File Access Manager
               latest_commit_date: '2018-12-17T17:29:53Z'
               latest_commit_link: /walmartlabs/zFAM/commit/f57e36adec60c0c03d2fb86cd944b2ce0c43f8f5
-              contributors_count: 0
+              contributors_count: 3
               contributors_link: 'https://github.com/walmartlabs/zFAM/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /walmartlabs/zFAM/commit/93f3ced6f001dc7a027741a19335315c0cba0b59
               start_date: '2016-11-22T03:35:49Z'
             yahoo_finance_data:
-              market_cap: 335531868160
+              market_cap: 339976781824
               effective_ticker: WMT
             image_data:
               fileName: z-fam.svg
@@ -348,7 +348,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-03T09:03:02.000Z
+              latest_tweet_date: 2019-10-15T10:04:00.000Z
           - item:
             name: Zorow
             homepage_url: 'https://www.openmainframeproject.org/projects/zorow'
@@ -370,7 +370,7 @@ landscape:
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
-              stars: 6
+              stars: 7
               license: Apache License 2.0
               description: >-
                 z/OS Open Repository of Workflows (zorow), is an open source community dedicated to contributing and collaborating on z/OSMF workflows. Hosted
@@ -388,7 +388,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:00:08.000Z
+              latest_tweet_date: 2019-10-15T19:52:06.000Z
           - item:
             name: Zowe
             description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
@@ -415,9 +415,9 @@ landscape:
               stars: 16
               license: Eclipse Public License 2.0
               description: Zowe API Mediation Layer
-              latest_commit_date: '2019-10-01T08:47:56Z'
-              latest_commit_link: /zowe/api-layer/commit/e232a25f7945940b5fbc9c9c79f484cbcd7df926
-              release_date: '2019-09-19T12:26:32Z'
+              latest_commit_date: '2019-10-14T07:28:57Z'
+              latest_commit_link: /zowe/api-layer/commit/3358e3b94afd472f4f24e4459eb696630500b770
+              release_date: '2019-10-14T07:30:51Z'
               release_link: 'https://github.com/zowe/api-layer/releases'
               contributors_count: 25
               contributors_link: 'https://github.com/zowe/api-layer/graphs/contributors'
@@ -430,7 +430,7 @@ landscape:
               badge: 2226
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:00:08.000Z
+              latest_tweet_date: 2019-10-15T19:52:06.000Z
           - item:
             name: zUID
             homepage_url: 'https://github.com/walmartlabs/zUID'
@@ -464,7 +464,7 @@ landscape:
               start_commit_link: /walmartlabs/zUID/commit/a57d9be0acc6e1d24a7f628db14c98316a543f07
               start_date: '2016-11-16T22:30:24Z'
             yahoo_finance_data:
-              market_cap: 335531868160
+              market_cap: 339976781824
               effective_ticker: WMT
             image_data:
               fileName: z-uid.svg
@@ -473,7 +473,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-03T09:03:02.000Z
+              latest_tweet_date: 2019-10-15T10:04:00.000Z
       - subcategory:
         name: Other
         items:
@@ -514,7 +514,7 @@ landscape:
               badge: 378
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:00:08.000Z
+              latest_tweet_date: 2019-10-15T19:52:06.000Z
           - item:
             name: Ambitus
             homepage_url: 'https://github.com/ambitus'
@@ -539,9 +539,9 @@ landscape:
               stars: 0
               license: Creative Commons Attribution 4.0 International
               description: 'A guide for mainframers to open source software '
-              latest_commit_date: '2019-10-02T03:56:02Z'
-              latest_commit_link: /ambitus/ambitus/commit/6e1a1bd8b47c024003aca8913b3a537134e45a55
-              contributors_count: 1
+              latest_commit_date: '2019-10-14T01:30:30Z'
+              latest_commit_link: /ambitus/ambitus/commit/d48be30ffb1595148063db71d5d6fc18daf22f0a
+              contributors_count: 2
               contributors_link: 'https://github.com/ambitus/ambitus/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /ambitus/ambitus/commit/67660565a9e4a8c8a766a5406706bdea8f3940f4
@@ -552,7 +552,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:00:08.000Z
+              latest_tweet_date: 2019-10-15T19:52:06.000Z
           - item:
             name: Atom language syntax highlighting for z/VM
             homepage_url: 'https://atom.io/users/openmainframeproject'
@@ -592,7 +592,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:00:08.000Z
+              latest_tweet_date: 2019-10-15T19:52:06.000Z
           - item:
             name: Mentorship
             homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
@@ -616,9 +616,9 @@ landscape:
             github_data:
               stars: 6
               license: Creative Commons Attribution 4.0 International
-              description: Open Mainframe Project Summer Internship program resources
-              latest_commit_date: '2019-06-28T13:45:37Z'
-              latest_commit_link: /openmainframeproject-internship/resources/commit/8e57d51817c42c6bb336d470f3912aec0efb88de
+              description: Open Mainframe Project Mentorship Program resources
+              latest_commit_date: '2019-10-07T02:34:36Z'
+              latest_commit_link: /openmainframeproject-internship/resources/commit/316ad4fd7f11a229656138c1bd164367c515b946
               contributors_count: 2
               contributors_link: 'https://github.com/openmainframeproject-internship/resources/graphs/contributors'
             github_start_commit_data:
@@ -630,7 +630,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:00:08.000Z
+              latest_tweet_date: 2019-10-15T19:52:06.000Z
           - item:
             name: TerseDecompress
             homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
@@ -670,7 +670,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:00:08.000Z
+              latest_tweet_date: 2019-10-15T19:52:06.000Z
   - category:
     name: Zowe Conformant
     subcategories:
@@ -724,7 +724,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109861543936
+              market_cap: 115161530368
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus.svg
@@ -733,7 +733,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T17:37:01.000Z
+              latest_tweet_date: 2019-10-14T15:13:01.000Z
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI - API Mediation Layer
             homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
@@ -772,7 +772,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:00:08.000Z
+              latest_tweet_date: 2019-10-15T19:52:06.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS - API Mediation Layer
             description: >-
@@ -797,7 +797,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: ibm-db2-dev-ops-experience-for-z-os-api-mediation-layer.svg
@@ -806,7 +806,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T21:30:01.000Z
+              latest_tweet_date: 2019-10-16T10:14:29.000Z
           - item:
             name: IBM® Z Netview - API Mediation Layer
             description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
@@ -829,7 +829,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-netview-api-mediation-layer.svg
@@ -838,7 +838,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T21:30:01.000Z
+              latest_tweet_date: 2019-10-16T10:14:29.000Z
       - subcategory:
         name: App Framework
         items:
@@ -880,7 +880,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:00:08.000Z
+              latest_tweet_date: 2019-10-15T19:52:06.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS - App Framework
             description: >-
@@ -905,7 +905,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: ibm-db2-dev-ops-experience-for-z-os-app-framework.svg
@@ -914,7 +914,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T21:30:01.000Z
+              latest_tweet_date: 2019-10-16T10:14:29.000Z
           - item:
             name: IBM® Service Automation Suite
             description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
@@ -937,7 +937,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: ibm-service-automation-suite.svg
@@ -946,7 +946,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T21:30:01.000Z
+              latest_tweet_date: 2019-10-16T10:14:29.000Z
           - item:
             name: IBM® Service Management Suite for z/OS
             description: >-
@@ -971,7 +971,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: ibm-service-management-suite-for-z-os.svg
@@ -980,7 +980,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T21:30:01.000Z
+              latest_tweet_date: 2019-10-16T10:14:29.000Z
           - item:
             name: IBM® Service Management Unite(SMU)
             description: >-
@@ -1005,7 +1005,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: ibm-service-management-unite-smu.svg
@@ -1014,7 +1014,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T21:30:01.000Z
+              latest_tweet_date: 2019-10-16T10:14:29.000Z
           - item:
             name: IBM® Z Netview - App Framework
             description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
@@ -1037,7 +1037,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-netview-app-framework.svg
@@ -1046,7 +1046,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T21:30:01.000Z
+              latest_tweet_date: 2019-10-16T10:14:29.000Z
           - item:
             name: Rocket™ BlueZone
             description: >-
@@ -1076,7 +1076,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:56:37.000Z
+              latest_tweet_date: 2019-10-15T22:17:02.000Z
       - subcategory:
         name: CLI
         items:
@@ -1131,7 +1131,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109861543936
+              market_cap: 115161530368
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-scm-plug-in-for-zowe-cli.svg
@@ -1140,7 +1140,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T17:37:01.000Z
+              latest_tweet_date: 2019-10-14T15:13:01.000Z
           - item:
             name: CA File Master™ Plus Plug-in for Zowe CLI
             description: >-
@@ -1166,7 +1166,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109861543936
+              market_cap: 115161530368
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-plug-in-for-zowe-cli.svg
@@ -1175,7 +1175,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T17:37:01.000Z
+              latest_tweet_date: 2019-10-14T15:13:01.000Z
           - item:
             name: CA OPS/MVS® Plug-in for Zowe CLI
             description: >-
@@ -1201,7 +1201,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109861543936
+              market_cap: 115161530368
               effective_ticker: AVGO
             image_data:
               fileName: ca-ops-mvs-plug-in-for-zowe-cli.svg
@@ -1210,7 +1210,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T17:37:01.000Z
+              latest_tweet_date: 2019-10-14T15:13:01.000Z
           - item:
             name: CA Secure Credential Store Plug-in for Zowe CLI
             description: >-
@@ -1236,7 +1236,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109861543936
+              market_cap: 115161530368
               effective_ticker: AVGO
             image_data:
               fileName: ca-secure-credential-store-plug-in-for-zowe-cli.svg
@@ -1245,7 +1245,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T17:37:01.000Z
+              latest_tweet_date: 2019-10-14T15:13:01.000Z
           - item:
             name: CA z/OS Extended Files Plug-in for Zowe CLI
             description: >-
@@ -1271,7 +1271,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109861543936
+              market_cap: 115161530368
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-files-plug-in-for-zowe-cli.svg
@@ -1280,7 +1280,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T17:37:01.000Z
+              latest_tweet_date: 2019-10-14T15:13:01.000Z
           - item:
             name: CA z/OS Extended Jobs Plug-in for Zowe CLI
             description: >-
@@ -1306,7 +1306,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109861543936
+              market_cap: 115161530368
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-jobs-plug-in-for-zowe-cli.svg
@@ -1315,7 +1315,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T17:37:01.000Z
+              latest_tweet_date: 2019-10-14T15:13:01.000Z
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI - CLI
             homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
@@ -1354,7 +1354,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:00:08.000Z
+              latest_tweet_date: 2019-10-15T19:52:06.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS - CLI
             description: >-
@@ -1379,7 +1379,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: ibm-db2-dev-ops-experience-for-z-os-cli.svg
@@ -1388,7 +1388,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T21:30:01.000Z
+              latest_tweet_date: 2019-10-16T10:14:29.000Z
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI
             description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.
@@ -1415,17 +1415,17 @@ landscape:
               stars: 3
               license: Eclipse Public License 2.0
               description: Zowe CLI plugin for z/OS Connect EE servers
-              latest_commit_date: '2019-09-27T15:07:18Z'
-              latest_commit_link: /zosconnect/zowe-cli-zosconnect-plugin/commit/9406533fa29ff554ab8e5856462bac47e82cab33
+              latest_commit_date: '2019-10-10T21:34:26Z'
+              latest_commit_link: /zosconnect/zowe-cli-zosconnect-plugin/commit/42792d56bd0195c0bea49948bf06909a20d384c3
               release_date: '2019-03-27T10:16:16Z'
               release_link: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin/releases'
-              contributors_count: 1
+              contributors_count: 2
               contributors_link: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /zosconnect/zowe-cli-zosconnect-plugin/commit/f78745b741fee862dfdb689ce63dc2dece0721d4
               start_date: '2018-09-18T21:58:26Z'
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: z-os-connect-ee-plug-in-for-zowe-cli.svg
@@ -1434,7 +1434,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T21:30:01.000Z
+              latest_tweet_date: 2019-10-16T10:14:29.000Z
           - item:
             name: Zowe CLI CICS deploy plug-in
             description: Deploy applications developed on a workstation to IBM CICS Transaction Server for z/OS.
@@ -1463,15 +1463,15 @@ landscape:
               description: >-
                 Provides the cics-deploy plug-in for Zowe CLI https://github.com/zowe/zowe-cli to deploy applications from a workstation to IBM CICS Transaction
                 Server. Initially it supports deploying Node.js applications. Documentation is available at https://ibm.github.io/zowe-cli-cics-deploy-plugin/
-              latest_commit_date: '2019-08-21T15:52:50Z'
-              latest_commit_link: /IBM/zowe-cli-cics-deploy-plugin/commit/8f358699ada5a579ff1edd525890045744295c4c
+              latest_commit_date: '2019-10-08T12:45:58Z'
+              latest_commit_link: /IBM/zowe-cli-cics-deploy-plugin/commit/734c5b663fa7a402308704ede1beff15762932e4
               contributors_count: 8
               contributors_link: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /IBM/zowe-cli-cics-deploy-plugin/commit/3b9907cee0a7fbc37a45d2cbc659e8dd20dae6b9
               start_date: '2019-02-11T18:11:42Z'
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: zowe-cli-cics-deploy-plug-in.svg
@@ -1480,7 +1480,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-01T16:25:14.000Z
+              latest_tweet_date: 2019-10-14T15:00:42.000Z
   - category:
     name: Supported Projects
     subcategories:
@@ -1507,7 +1507,7 @@ landscape:
               linkedin: null
               parents: []
             github_data:
-              stars: 28
+              stars: 29
               license: Unknown License
               description: Build script to build Alpine packages (mirror)
               latest_commit_date: '2019-10-01T16:56:47Z'
@@ -1586,13 +1586,13 @@ landscape:
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
-              stars: 1837
+              stars: 1839
               license: Apache License 2.0
               description: >-
                 Cloud Foundry BOSH is an open source tool chain for release engineering, deployment and lifecycle management of large scale distributed
                 services.
-              latest_commit_date: '2019-10-04T22:34:46Z'
-              latest_commit_link: /cloudfoundry/bosh/commit/2172559b783e781b2c9bf6e906a60e0db9e5fa0e
+              latest_commit_date: '2019-10-10T23:45:41Z'
+              latest_commit_link: /cloudfoundry/bosh/commit/9fd99560a102910d467437aea4f7eec6f8624e5d
               release_date: '2019-10-04T16:07:04Z'
               release_link: 'https://github.com/cloudfoundry/bosh/releases'
               contributors_count: 258
@@ -1607,7 +1607,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T20:27:26.000Z
+              latest_tweet_date: 2019-10-15T14:52:04.000Z
           - item:
             name: Debian
             description: Debian is a free operating system (OS) for your computer.
@@ -1628,12 +1628,12 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/163400'
               parents: []
             github_data:
-              stars: 228
+              stars: 230
               license: Unknown License
               description: Mirror of the apt git repository
               latest_commit_date: '2019-09-27T10:09:22Z'
               latest_commit_link: /Debian/apt/commit/4afb07258fad5f9026ad25f579a871093a312ac5
-              contributors_count: 127
+              contributors_count: 128
               contributors_link: 'https://github.com/Debian/apt/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /Debian/apt/commit/89eaeb446c24bbeacc5f69c170cf60104854432e
@@ -1645,7 +1645,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T17:17:32.000Z
+              latest_tweet_date: 2019-10-15T11:52:32.000Z
           - item:
             name: Fedora
             description: >-
@@ -1685,7 +1685,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T14:20:15.000Z
+              latest_tweet_date: 2019-10-14T15:52:25.000Z
           - item:
             name: Gentoo
             description: >-
@@ -1708,11 +1708,11 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/gentoo-linux/'
               parents: []
             github_data:
-              stars: 262
+              stars: 265
               license: Other
               description: 'Portage Package Manager - this is just a mirror, see https://wiki.gentoo.org/wiki/Project:Portage#Contributing_to_Portage'
-              latest_commit_date: '2019-10-03T14:19:54Z'
-              latest_commit_link: /gentoo/portage/commit/6a539b7c5163899db1d58cf152aeab1b2b4f9be4
+              latest_commit_date: '2019-10-14T23:22:57Z'
+              latest_commit_link: /gentoo/portage/commit/a934cafcf928b9e8cf2aaf749dca68fa6fa689d7
               contributors_count: 136
               contributors_link: 'https://github.com/gentoo/portage/graphs/contributors'
             github_start_commit_data:
@@ -1748,12 +1748,12 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/1026961'
               parents: []
             github_data:
-              stars: 22
+              stars: 24
               license: Other
               description: Integration fork of the original LuaJIT. README describes differences from the original.
-              latest_commit_date: '2019-09-26T19:50:24Z'
-              latest_commit_link: /siddhesh/LuaJIT/commit/34aa60cda1bc84b8e6c83f72331f7e935821666e
-              contributors_count: 15
+              latest_commit_date: '2019-10-10T18:07:52Z'
+              latest_commit_link: /siddhesh/LuaJIT/commit/69d1214fd40eb2ff963f7321467a1222988163f6
+              contributors_count: 16
               contributors_link: 'https://github.com/siddhesh/LuaJIT/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /siddhesh/LuaJIT/commit/55b16959717084884fd4a0cbae6d19e3786c20c7
@@ -1765,7 +1765,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-02T03:31:11.000Z
+              latest_tweet_date: 2019-10-16T10:30:19.000Z
           - item:
             name: PostgreSQL
             description: >-
@@ -1789,13 +1789,13 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/758353'
               parents: []
             github_data:
-              stars: 5873
+              stars: 5906
               license: Other
               description: >-
                 Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute,
                 please see https://wiki.postgresql.org/wiki/Submitting_a_Patch
-              latest_commit_date: '2019-10-05T18:49:39Z'
-              latest_commit_link: /postgres/postgres/commit/36425ece5d6c78177cdc1453a9925a0bb85da59f
+              latest_commit_date: '2019-10-16T09:37:34Z'
+              latest_commit_link: /postgres/postgres/commit/ae5cae54ca6b1949829026b9fbb744c7f5a28bd5
               contributors_count: 33
               contributors_link: 'https://github.com/postgres/postgres/graphs/contributors'
             github_start_commit_data:
@@ -1808,7 +1808,7 @@ landscape:
               badge: 2268
               percentage: 94
             twitter_data:
-              latest_tweet_date: 2019-10-03T12:45:05.000Z
+              latest_tweet_date: 2019-10-16T09:30:05.000Z
   - category:
     name: Linux Distributions
     subcategories:
@@ -1875,7 +1875,7 @@ landscape:
               ticker: RHT
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 125829677056
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: red-hat-enterprise-linux.svg
@@ -1884,7 +1884,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-14T21:19:29.000Z
+              latest_tweet_date: 2019-10-15T22:39:16.000Z
           - item:
             name: SUSE Linux Enterprise Server
             homepage_url: 'https://www.suse.com/products/systemz/'
@@ -1911,7 +1911,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T18:30:14.000Z
+              latest_tweet_date: 2019-10-16T09:00:28.000Z
           - item:
             name: Ubuntu
             homepage_url: 'https://wiki.ubuntu.com/S390X'
@@ -1938,7 +1938,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-03T21:25:57.000Z
+              latest_tweet_date: 2019-10-16T10:05:06.000Z
       - subcategory:
         name: Community
         items:
@@ -1962,12 +1962,12 @@ landscape:
               linkedin: null
               parents: []
             github_data:
-              stars: 381
+              stars: 383
               license: Unknown License
               description: Mirror of aports repository
-              latest_commit_date: '2019-09-22T16:52:51Z'
-              latest_commit_link: /alpinelinux/aports/commit/966c30eff15a2885de24ff11ed297fcb1a24a02a
-              contributors_count: 576
+              latest_commit_date: '2019-10-15T13:50:50Z'
+              latest_commit_link: /alpinelinux/aports/commit/41e574563a228c690047bb1b5c88c58978a2cfd5
+              contributors_count: 580
               contributors_link: 'https://github.com/alpinelinux/aports/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /alpinelinux/aports/commit/3196418bad03f30a8a8bc833cda9a2e0fe8d18b2
@@ -2005,7 +2005,7 @@ landscape:
               description: 'Mirror of https://salsa.debian.org/deban/devscripts.git'
               latest_commit_date: '2019-05-22T17:56:12Z'
               latest_commit_link: /Debian/devscripts/commit/a5c813bb256d84db19f4a96be6c348f4ef1caa18
-              contributors_count: 96
+              contributors_count: 97
               contributors_link: 'https://github.com/Debian/devscripts/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /Debian/devscripts/commit/4f381994f9a44ced0ce48a0f46331afd70fbf116
@@ -2017,7 +2017,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T17:17:32.000Z
+              latest_tweet_date: 2019-10-15T11:52:32.000Z
           - item:
             name: Fedora Linux
             description: >-
@@ -2043,11 +2043,11 @@ landscape:
               stars: 95
               license: GNU General Public License v2.0
               description: Bodhi is a web-system that facilitates the process of publishing updates for a Fedora-based software distribution.
-              latest_commit_date: '2019-09-30T15:47:56Z'
-              latest_commit_link: /fedora-infra/bodhi/commit/6c5c7a64379b5e357d1d3738ec3dced4a73b6c90
+              latest_commit_date: '2019-10-15T01:31:17Z'
+              latest_commit_link: /fedora-infra/bodhi/commit/f29492799e3ee3281c6f01c0ad0d0d0c8ff69197
               release_date: '2019-08-22T09:41:31Z'
               release_link: 'https://github.com/fedora-infra/bodhi/releases'
-              contributors_count: 90
+              contributors_count: 91
               contributors_link: 'https://github.com/fedora-infra/bodhi/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /fedora-infra/bodhi/commit/e26dacbb680bb65ffee0b82679e3f48a982ae4a1
@@ -2059,7 +2059,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T14:20:15.000Z
+              latest_tweet_date: 2019-10-14T15:52:25.000Z
           - item:
             name: Gentoo Linux
             description: >-
@@ -2082,12 +2082,12 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/gentoo-linux/'
               parents: []
             github_data:
-              stars: 1090
+              stars: 1097
               license: Unknown License
               description: The Gentoo ebuild repository mirror
-              latest_commit_date: '2019-10-06T08:41:16Z'
-              latest_commit_link: /gentoo/gentoo/commit/9aed687459cc4b09f686c41ed19338dfdd73bfb1
-              contributors_count: 782
+              latest_commit_date: '2019-10-16T10:22:28Z'
+              latest_commit_link: /gentoo/gentoo/commit/896066254a2d1ecd47f1af0913afc2f1c69fa539
+              contributors_count: 785
               contributors_link: 'https://github.com/gentoo/gentoo/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /gentoo/gentoo/commit/56bd759df1d0c750a065b8c845e93d5dfa6b549d
@@ -2122,8 +2122,8 @@ landscape:
               stars: 23
               license: GNU General Public License v2.0
               description: Tools to aid in staging and release work for openSUSE/SUSE
-              latest_commit_date: '2019-09-30T07:55:23Z'
-              latest_commit_link: /openSUSE/openSUSE-release-tools/commit/3d04dde8c03d5cf92c8f5d13e5c2c1162dc733dc
+              latest_commit_date: '2019-10-15T13:24:35Z'
+              latest_commit_link: /openSUSE/openSUSE-release-tools/commit/0c4d62c582fca179a44f0bab8e8a80c120a3db42
               contributors_count: 50
               contributors_link: 'https://github.com/openSUSE/openSUSE-release-tools/graphs/contributors'
             github_start_commit_data:
@@ -2136,7 +2136,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-06T08:56:58.000Z
+              latest_tweet_date: 2019-10-16T07:28:38.000Z
   - category:
     name: Open Mainframe Project Member Company
     subcategories:
@@ -2164,7 +2164,7 @@ landscape:
               ticker: ADP
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 68628692992
+              market_cap: 71178682368
               effective_ticker: ADP
             image_data:
               fileName: adp.svg
@@ -2173,7 +2173,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T19:00:03.000Z
+              latest_tweet_date: 2019-10-15T18:54:10.000Z
           - item:
             name: CA Broadcom
             homepage_url: 'https://www.broadcom.com'
@@ -2195,7 +2195,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109861543936
+              market_cap: 115161530368
               effective_ticker: AVGO
             image_data:
               fileName: ca-broadcom.svg
@@ -2204,7 +2204,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T17:37:01.000Z
+              latest_tweet_date: 2019-10-14T15:13:01.000Z
           - item:
             name: IBM
             homepage_url: 'https://www.ibm.com/us-en/?ar=1'
@@ -2226,7 +2226,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 128599203840
+              market_cap: 126680129536
               effective_ticker: IBM
             image_data:
               fileName: ibm.svg
@@ -2235,7 +2235,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T21:30:01.000Z
+              latest_tweet_date: 2019-10-16T10:14:29.000Z
           - item:
             name: Rocket Software
             homepage_url: 'https://www.rocketsoftware.com/'
@@ -2262,7 +2262,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:56:37.000Z
+              latest_tweet_date: 2019-10-15T22:17:02.000Z
           - item:
             name: SUSE
             homepage_url: 'https://www.suse.com/'
@@ -2289,7 +2289,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T18:30:14.000Z
+              latest_tweet_date: 2019-10-16T09:00:28.000Z
       - subcategory:
         name: Silver
         items:
@@ -2319,7 +2319,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-03T21:25:57.000Z
+              latest_tweet_date: 2019-10-16T10:05:06.000Z
           - item:
             name: Docker
             homepage_url: 'https://www.docker.com/'
@@ -2346,7 +2346,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:15:03.000Z
+              latest_tweet_date: 2019-10-15T23:06:49.000Z
           - item:
             name: GT Software
             homepage_url: 'https://www.gtsoftware.com/'
@@ -2371,7 +2371,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-03T14:28:54.000Z
+              latest_tweet_date: 2019-10-09T15:37:00.000Z
           - item:
             name: Phoenix Software International
             homepage_url: 'http://www.phoenixsoftware.com/'
@@ -2444,7 +2444,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T19:48:08.000Z
+              latest_tweet_date: 2019-10-15T20:00:56.000Z
           - item:
             name: Vicom Infinity
             homepage_url: 'http://www.vicominfinity.com/'
@@ -2469,7 +2469,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T18:38:27.000Z
+              latest_tweet_date: 2019-10-15T18:08:22.000Z
           - item:
             name: Zoss Team LLC
             homepage_url: 'https://www.bizapedia.com/ma/zoss-team-llc.html'
@@ -2520,7 +2520,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T13:30:15.000Z
+              latest_tweet_date: 2019-10-15T18:01:27.000Z
           - item:
             name: Coburg University of Applied Sciences and Arts
             homepage_url: 'https://www.coburg-university.de/'
@@ -2568,7 +2568,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T16:21:02.000Z
+              latest_tweet_date: 2019-10-15T20:23:23.000Z
           - item:
             name: EPSI
             homepage_url: 'http://www.epsi.fr/'
@@ -2650,13 +2650,13 @@ landscape:
             crunchbase_data:
               name: Marist College
               description: Marist College located in New York which has been recognized for it's use of technology for the enhancement of the learning structure.
-              num_employees_min: null
-              num_employees_max: null
+              num_employees_min: 501
+              num_employees_max: 1000
               homepage: 'http://www.marist.edu/'
               city: Poughkeepsie
               region: New York
               country: United States
-              twitter: null
+              twitter: 'https://twitter.com/marist'
               linkedin: null
               parents: []
             image_data:
@@ -2665,6 +2665,8 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-10-15T13:49:20.000Z
           - item:
             name: North Carolina A&T State
             homepage_url: 'https://www.oscars.org/'
@@ -2691,7 +2693,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T00:09:48.000Z
+              latest_tweet_date: 2019-10-14T19:30:04.000Z
           - item:
             name: University of Bedfordshire
             homepage_url: 'https://www.beds.ac.uk/'
@@ -2716,7 +2718,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T18:44:40.000Z
+              latest_tweet_date: 2019-10-16T10:07:20.000Z
           - item:
             name: University of Washington CIAC
             homepage_url: 'https://www.uwb.edu/ciac'
@@ -2743,7 +2745,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T02:11:01.000Z
+              latest_tweet_date: 2019-10-16T01:57:01.000Z
           - item:
             name: University of Wolverhampton
             homepage_url: 'https://www.wlv.ac.uk/'
@@ -2768,7 +2770,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T13:00:07.000Z
+              latest_tweet_date: 2019-10-16T10:00:44.000Z
           - item:
             name: Universität Leipzig
             homepage_url: 'https://www.uni-leipzig.de/'
@@ -2792,7 +2794,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T10:38:26.000Z
+              latest_tweet_date: 2019-10-15T10:59:00.000Z
           - item:
             name: Virginia Commonwealth University
             homepage_url: 'https://www.vcu.edu/'
@@ -2819,7 +2821,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T14:05:12.000Z
+              latest_tweet_date: 2019-10-15T19:15:13.000Z
           - item:
             name: Western University
             homepage_url: 'https://www.uwo.ca/'
@@ -2846,7 +2848,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-06T02:33:00.000Z
+              latest_tweet_date: 2019-10-16T00:56:02.000Z
           - item:
             name: William Patterson University
             homepage_url: 'https://www.wpunj.edu/'
@@ -2871,7 +2873,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-05T21:06:29.000Z
+              latest_tweet_date: 2019-10-15T19:39:31.000Z
       - subcategory:
         name: Associate
         items:
@@ -2946,7 +2948,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-25T12:32:05.000Z
+              latest_tweet_date: 2019-10-08T06:51:14.000Z
           - item:
             name: GSE UK
             homepage_url: 'http://www.gse.org.uk/mainsite/content/content_events.php'
@@ -2971,7 +2973,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-06T08:01:00.000Z
+              latest_tweet_date: 2019-10-16T04:53:48.000Z
           - item:
             name: SHARE
             homepage_url: 'https://www.share.org'
@@ -2996,7 +2998,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-04T20:22:15.000Z
+              latest_tweet_date: 2019-10-15T14:30:04.000Z
 twitter_options:
   count: 4
   since_id: '1176873071174672386'
