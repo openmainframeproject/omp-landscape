@@ -74,8 +74,8 @@ landscape:
               description: >-
                 Feilong is a open source z/VM cloud connector project under the Open Mainframe Project umbrella that will accelerate the z/VM adoption,
                 extending its ecosystem and its user experience. It provides a set of APIs to operate z/VM including guest, image, network, volume etc.
-              latest_commit_date: '2019-10-17T05:02:23Z'
-              latest_commit_link: /openmainframeproject/python-zvm-sdk/commit/437a9aed42032cfeeb691152131b8352c6fc5d38
+              latest_commit_date: '2019-10-21T02:10:13Z'
+              latest_commit_link: /openmainframeproject/python-zvm-sdk/commit/321e0e850f36e42fb4f291a07d4972453420b1a7
               contributors_count: 23
               contributors_link: 'https://github.com/openmainframeproject/python-zvm-sdk/graphs/contributors'
             github_start_commit_data:
@@ -458,7 +458,7 @@ landscape:
               description: z/OS-based Unique Identifier generator
               latest_commit_date: '2018-12-17T17:48:14Z'
               latest_commit_link: /walmartlabs/zUID/commit/4bf25a2eed97c7e0c2f586cdcfb5fdb8e5575121
-              contributors_count: 0
+              contributors_count: 3
               contributors_link: 'https://github.com/walmartlabs/zUID/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /walmartlabs/zUID/commit/a57d9be0acc6e1d24a7f628db14c98316a543f07
@@ -806,7 +806,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-19T15:00:01.000Z
+              latest_tweet_date: 2019-10-20T17:00:09.000Z
           - item:
             name: IBM® Z Netview - API Mediation Layer
             description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
@@ -838,7 +838,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-19T15:00:01.000Z
+              latest_tweet_date: 2019-10-20T17:00:09.000Z
       - subcategory:
         name: App Framework
         items:
@@ -914,7 +914,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-19T15:00:01.000Z
+              latest_tweet_date: 2019-10-20T17:00:09.000Z
           - item:
             name: IBM® Service Automation Suite
             description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
@@ -946,7 +946,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-19T15:00:01.000Z
+              latest_tweet_date: 2019-10-20T17:00:09.000Z
           - item:
             name: IBM® Service Management Suite for z/OS
             description: >-
@@ -980,7 +980,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-19T15:00:01.000Z
+              latest_tweet_date: 2019-10-20T17:00:09.000Z
           - item:
             name: IBM® Service Management Unite(SMU)
             description: >-
@@ -1014,7 +1014,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-19T15:00:01.000Z
+              latest_tweet_date: 2019-10-20T17:00:09.000Z
           - item:
             name: IBM® Z Netview - App Framework
             description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
@@ -1046,7 +1046,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-19T15:00:01.000Z
+              latest_tweet_date: 2019-10-20T17:00:09.000Z
           - item:
             name: Rocket™ BlueZone
             description: >-
@@ -1388,7 +1388,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-19T15:00:01.000Z
+              latest_tweet_date: 2019-10-20T17:00:09.000Z
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI
             description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.
@@ -1434,7 +1434,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-19T15:00:01.000Z
+              latest_tweet_date: 2019-10-20T17:00:09.000Z
           - item:
             name: Zowe CLI CICS deploy plug-in
             description: Deploy applications developed on a workstation to IBM CICS Transaction Server for z/OS.
@@ -1507,7 +1507,7 @@ landscape:
               linkedin: null
               parents: []
             github_data:
-              stars: 29
+              stars: 30
               license: Unknown License
               description: Build script to build Alpine packages (mirror)
               latest_commit_date: '2019-10-01T16:56:47Z'
@@ -1711,8 +1711,8 @@ landscape:
               stars: 265
               license: Other
               description: 'Portage Package Manager - this is just a mirror, see https://wiki.gentoo.org/wiki/Project:Portage#Contributing_to_Portage'
-              latest_commit_date: '2019-10-19T23:48:56Z'
-              latest_commit_link: /gentoo/portage/commit/d4854fc4e4f3dc4578ae732a4aa9990933f47b7d
+              latest_commit_date: '2019-10-18T07:23:02Z'
+              latest_commit_link: /gentoo/portage/commit/9115e1f6ba35cdcd85f2292dc293f0696caa8f12
               contributors_count: 136
               contributors_link: 'https://github.com/gentoo/portage/graphs/contributors'
             github_start_commit_data:
@@ -1789,13 +1789,13 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/758353'
               parents: []
             github_data:
-              stars: 5922
+              stars: 5924
               license: Other
               description: >-
                 Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute,
                 please see https://wiki.postgresql.org/wiki/Submitting_a_Patch
-              latest_commit_date: '2019-10-19T16:21:58Z'
-              latest_commit_link: /postgres/postgres/commit/5d3587d14b753cb25b0ebcd549d95e1b6ceebce4
+              latest_commit_date: '2019-10-17T03:15:43Z'
+              latest_commit_link: /postgres/postgres/commit/70a6c37d524cc2c29712424785be3d9e2e62f484
               contributors_count: 33
               contributors_link: 'https://github.com/postgres/postgres/graphs/contributors'
             github_start_commit_data:
@@ -1884,7 +1884,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-19T21:13:03.000Z
+              latest_tweet_date: 2019-10-20T21:26:01.000Z
           - item:
             name: SUSE Linux Enterprise Server
             homepage_url: 'https://www.suse.com/products/systemz/'
@@ -1965,9 +1965,9 @@ landscape:
               stars: 386
               license: Unknown License
               description: Mirror of aports repository
-              latest_commit_date: '2019-10-19T20:29:10Z'
-              latest_commit_link: /alpinelinux/aports/commit/b491acf0df41e84f75a2ee192177c56a3a819f68
-              contributors_count: 586
+              latest_commit_date: '2019-10-20T21:09:34Z'
+              latest_commit_link: /alpinelinux/aports/commit/63dc6b50e39cd6e6a899d1589cff3a87c91d4580
+              contributors_count: 587
               contributors_link: 'https://github.com/alpinelinux/aports/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /alpinelinux/aports/commit/3196418bad03f30a8a8bc833cda9a2e0fe8d18b2
@@ -2082,11 +2082,11 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/gentoo-linux/'
               parents: []
             github_data:
-              stars: 1099
+              stars: 1100
               license: Unknown License
               description: The Gentoo ebuild repository mirror
-              latest_commit_date: '2019-10-20T06:28:43Z'
-              latest_commit_link: /gentoo/gentoo/commit/77ad984a9e9b48de8a0b7370722b6e6b44b4a2e3
+              latest_commit_date: '2019-10-21T06:31:43Z'
+              latest_commit_link: /gentoo/gentoo/commit/e8aa7597c951daf3c8516475880704195577b08b
               contributors_count: 785
               contributors_link: 'https://github.com/gentoo/gentoo/graphs/contributors'
             github_start_commit_data:
@@ -2235,7 +2235,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-19T15:00:01.000Z
+              latest_tweet_date: 2019-10-20T17:00:09.000Z
           - item:
             name: Rocket Software
             homepage_url: 'https://www.rocketsoftware.com/'
@@ -2568,7 +2568,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-19T17:42:02.000Z
+              latest_tweet_date: 2019-10-20T16:11:06.000Z
           - item:
             name: EPSI
             homepage_url: 'http://www.epsi.fr/'
@@ -2666,7 +2666,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-17T20:33:41.000Z
+              latest_tweet_date: 2019-10-20T21:00:04.000Z
           - item:
             name: North Carolina A&T State
             homepage_url: 'https://www.oscars.org/'
@@ -2693,7 +2693,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-18T20:13:00.000Z
+              latest_tweet_date: 2019-10-20T23:48:59.000Z
           - item:
             name: University of Bedfordshire
             homepage_url: 'https://www.beds.ac.uk/'
@@ -2848,7 +2848,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-20T02:18:00.000Z
+              latest_tweet_date: 2019-10-20T18:30:22.000Z
           - item:
             name: William Patterson University
             homepage_url: 'https://www.wpunj.edu/'
@@ -2973,7 +2973,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-17T12:35:11.000Z
+              latest_tweet_date: 2019-10-20T08:01:21.000Z
           - item:
             name: SHARE
             homepage_url: 'https://www.share.org'
