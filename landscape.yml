@@ -317,7 +317,21 @@ landscape:
             repo_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
             logo: omp_ibm-cli-cics-deploy.svg
             twitter: 'https://twitter.com/IBM_CICS'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: IBM® Db2® Database Plug-in for Zowe CLI
+            description: The IBM® Db2® Database Plug-in for ZoweTM CLI lets you interact with Db2 for z/OS to perform tasks through Zowe CLI.
+            logo: omp_ibm-db2-for-cli.svg
+            homepage_url: 'https://github.com/zowe/zowe-cli-db2-plugin'
+            repo_url: 'https://github.com/zowe/zowe-cli-db2-plugin'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: IBM® CICS® Plug-in for Zowe CLI
+            description: IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS
+            logo: omp_ibm-cics-for-cli.svg
+            homepage_url: 'https://github.com/zowe/zowe-cli-cics-plugin'
+            repo_url: 'https://github.com/zowe/zowe-cli-cics-plugin'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
   - category:
     name: Supported Projects
     subcategories:
