@@ -424,6 +424,13 @@ landscape:
             logo: GCC.svg
             twitter: 'https://twitter.com/gnutools'
             crunchbase: 'https://www.crunchbase.com/organization/free-software-foundation'
+          - item:
+            name: OpenBLAS
+            description: >-
+              OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.
+            homepage_url: 'https://www.openblas.net/'
+            repo_url: 'https://github.com/xianyi/OpenBLAS'
+            logo: openblas.svg
   - category:
     name: Linux Distributions
     subcategories:
