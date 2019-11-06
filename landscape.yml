@@ -389,6 +389,21 @@ landscape:
             logo: gentoo.svg
             crunchbase: 'https://www.crunchbase.com/organization/gentoo'
           - item:
+            name: GNU Compiler Collection
+            description: GCC is the system compiler for Linux.
+            homepage_url: 'https://gcc.gnu.org/'
+            repo_url: 'https://github.com/gcc-mirror/gcc'
+            logo: GCC.svg
+            twitter: 'https://twitter.com/gnutools'
+            crunchbase: 'https://www.crunchbase.com/organization/free-software-foundation'
+          - item:
+            name: LLVM
+            description: The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.
+            homepage_url: 'https://llvm.org/'
+            repo_url: 'https://github.com/llvm/llvm-project'
+            logo: LLVM.svg
+            crunchbase: 'https://www.crunchbase.com/organization/llvm-foundation'
+          - item:
             name: LuaJIT
             description: >-
               LuaJIT is a Just-In-Time Compiler (JIT) for the Lua programming language. Lua is a powerful, dynamic and light-weight programming language. It may
@@ -407,23 +422,6 @@ landscape:
             url_for_bestpractices: 'https://git.postgresql.org/git/postgresql.git'
             logo: postgresql.svg
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
-          - item:
-            name: LLVM
-            description: >-
-              The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.
-            homepage_url: 'https://llvm.org/'
-            repo_url: 'https://github.com/llvm/llvm-project'
-            logo: LLVM.svg
-            crunchbase: 'https://www.crunchbase.com/organization/llvm-foundation'
-          - item:
-            name: GNU Compiler Collection
-            description: >-
-              GCC is the system compiler for Linux.
-            homepage_url: 'https://gcc.gnu.org/'
-            repo_url: 'https://github.com/gcc-mirror/gcc'
-            logo: GCC.svg
-            twitter: 'https://twitter.com/gnutools'
-            crunchbase: 'https://www.crunchbase.com/organization/free-software-foundation'
   - category:
     name: Linux Distributions
     subcategories:
