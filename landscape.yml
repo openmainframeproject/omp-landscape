@@ -422,6 +422,14 @@ landscape:
             url_for_bestpractices: 'https://git.postgresql.org/git/postgresql.git'
             logo: postgresql.svg
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
+          - item:
+            name: OpenBLAS
+            description: >-
+              OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.
+            homepage_url: 'https://www.openblas.net/'
+            repo_url: 'https://github.com/xianyi/OpenBLAS'
+            logo: openblas.svg
+            crunchbase: 'https://www.crunchbase.com/organization/openblas'
   - category:
     name: Linux Distributions
     subcategories:
