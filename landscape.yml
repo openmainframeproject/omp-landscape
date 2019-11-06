@@ -294,6 +294,13 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             allow_duplicate_repo: true
           - item:
+            name: IBM® CICS® Plug-in for Zowe CLI
+            description: IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS
+            homepage_url: 'https://github.com/zowe/zowe-cli-cics-plugin'
+            repo_url: 'https://github.com/zowe/zowe-cli-cics-plugin'
+            logo: omp_ibm-cics-for-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
             name: IBM® Db2 DevOps Experience for z/OS - CLI
             description: >-
               Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
@@ -302,6 +309,13 @@ landscape:
             logo: omp_ibm-db2.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
+            name: IBM® Db2® Database Plug-in for Zowe CLI
+            description: The IBM® Db2® Database Plug-in for ZoweTM CLI lets you interact with Db2 for z/OS to perform tasks through Zowe CLI.
+            homepage_url: 'https://github.com/zowe/zowe-cli-db2-plugin'
+            repo_url: 'https://github.com/zowe/zowe-cli-db2-plugin'
+            logo: omp_ibm-db2-for-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI
             description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.
@@ -317,7 +331,7 @@ landscape:
             repo_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
             logo: omp_ibm-cli-cics-deploy.svg
             twitter: 'https://twitter.com/IBM_CICS'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
   - category:
     name: Supported Projects
     subcategories:
