@@ -2846,6 +2846,70 @@ landscape:
               percentage: 94
             twitter_data:
               latest_tweet_date: 2019-11-17T16:15:06.000Z
+          - item:
+            name: Eigen
+            description: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
+            homepage_url: 'http://eigen.tuxfamily.org/index.php?title=Main_Page'
+            repo_url: 'https://github.com/eigenteam/eigen-git-mirror'
+            logo: eigen.svg
+            crunchbase: 'https://www.crunchbase.com/organization/inria'
+            crunchbase_data:
+              name: INRIA
+              description: INRIA is the French National Institute for computer science and applied mathematics.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'http://www.inria.fr/en'
+              city: Rocquencourt
+              region: Ile-de-France
+              country: France
+              twitter: 'http://twitter.com/Inria'
+              linkedin: 'https://www.linkedin.com/company/inria'
+              parents: []
+            github_data:
+              languages:
+                - name: C++
+                  value: 10776307
+                  color: '#f34b7d'
+                - name: Fortran
+                  value: 1326307
+                  color: '#4d41b1'
+                - name: C
+                  value: 394543
+                  color: '#555555'
+                - name: CMake
+                  value: 323635
+                - name: Cuda
+                  value: 145992
+                  color: '#3A4E3A'
+                - name: Shell
+                  value: 25074
+                  color: '#89e051'
+                - name: HTML
+                  value: 19500
+                  color: '#e34c26'
+                - name: Python
+                  value: 12007
+                  color: '#3572A5'
+              contributions: 33;20;27;3;8;1;11;62;22;21;9;13;36;15;23;11;12;4;2;2;2;6;5;12;7;8;4;7;1;1;9;15;2;4;4;0;6;9;4;9;16;13;8;16;7;12;7;7;4;6;7;10
+              firstWeek: 2018-11-26Z
+              stars: 1472
+              license: Other
+              description: 'Git mirror of the official Eigen''s repository -- PULL REQUEST MUST BE SENT TO: https://bitbucket.org/eigen/eigen'
+              latest_commit_date: '2019-11-20T16:31:23Z'
+              latest_commit_link: /eigenteam/eigen-git-mirror/commit/e343091d7156ecda62868bf2063e6686a07340a9
+              contributors_count: 197
+              contributors_link: 'https://github.com/eigenteam/eigen-git-mirror/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /eigenteam/eigen-git-mirror/commit/3036eeca0abfee39d2a0feab4ae3ff1d28975999
+              start_date: '2007-05-30T06:24:51Z'
+            image_data:
+              fileName: eigen.svg
+              hash: E+XJwkF5Rnjf/PtHydK+TpZGIszOakOcty/+8hzHp50=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-11-20T19:53:05.000Z
   - category:
     name: Linux Distributions
     subcategories:
