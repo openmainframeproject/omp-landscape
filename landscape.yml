@@ -429,6 +429,14 @@ landscape:
             url_for_bestpractices: 'https://git.postgresql.org/git/postgresql.git'
             logo: postgresql.svg
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
+          - item:
+            name: Eigen
+            description: >-
+              Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+            homepage_url: 'http://eigen.tuxfamily.org/index.php?title=Main_Page'
+            repo_url: 'https://github.com/eigenteam/eigen-git-mirror'
+            logo: eigen.svg
+            crunchbase: 'https://www.crunchbase.com/organization/inria'
   - category:
     name: Linux Distributions
     subcategories:
@@ -477,14 +485,6 @@ landscape:
             repo_url: 'https://github.com/Debian/devscripts'
             logo: debian.svg
             crunchbase: 'https://www.crunchbase.com/organization/debian'
-          - item:
-            name: Eigen
-            description: >-
-              Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
-            homepage_url: 'http://eigen.tuxfamily.org/index.php?title=Main_Page'
-            repo_url: 'https://github.com/eigenteam/eigen-git-mirror'
-            logo: eigen.svg
-            crunchbase: 'https://www.crunchbase.com/organization/inria'
           - item:
             name: Fedora Linux
             description: >-
