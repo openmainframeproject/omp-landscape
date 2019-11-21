@@ -111,18 +111,18 @@ landscape:
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
-            name: TerseDecompress
-            homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
-            project: incubating
-            repo_url: 'https://github.com/openmainframeproject/tersedecompress'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/tersedecompress/tersedecompress-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-          - item:
             name: Polycephaly
             homepage_url: 'https://github.com/edge05/zJenkins'
             project: incubating
             repo_url: 'https://github.com/edge05/zJenkins'
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/polycephaly/polycephaly-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: TerseDecompress
+            homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/tersedecompress'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/tersedecompress/tersedecompress-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
   - category:
     name: Zowe Conformant
@@ -378,6 +378,13 @@ landscape:
             logo: debian.svg
             crunchbase: 'https://www.crunchbase.com/organization/debian'
           - item:
+            name: Eigen
+            description: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
+            homepage_url: 'http://eigen.tuxfamily.org/index.php?title=Main_Page'
+            repo_url: 'https://github.com/eigenteam/eigen-git-mirror'
+            logo: eigen.svg
+            crunchbase: 'https://www.crunchbase.com/organization/inria'
+          - item:
             name: Fedora
             description: >-
               Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community
@@ -436,13 +443,6 @@ landscape:
             url_for_bestpractices: 'https://git.postgresql.org/git/postgresql.git'
             logo: postgresql.svg
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
-          - item:
-            name: Eigen
-            description: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
-            homepage_url: 'http://eigen.tuxfamily.org/index.php?title=Main_Page'
-            repo_url: 'https://github.com/eigenteam/eigen-git-mirror'
-            logo: eigen.svg
-            crunchbase: 'https://www.crunchbase.com/organization/inria'
   - category:
     name: Linux Distributions
     subcategories:
