@@ -30,6 +30,39 @@ landscape:
             repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
             logo: s390-tools.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
+            name: VMLINK
+            crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+            homepage_url: 'https://github.com/trothr/vmlink'
+            repo_url: 'https://github.com/trothr/vmlink'
+            logo: vmlink.svg
+          - item:
+            name: ZNETBOOT
+            crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+            homepage_url: 'https://github.com/trothr/znetboot'
+            repo_url: 'https://github.com/trothr/znetboot'
+            logo: znetboot.svg
+      - subcategory:
+        name: z/VM
+        items:
+          - item:
+            name: CMS Make
+            crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+            homepage_url: 'https://github.com/trothr/cmsmake'
+            repo_url: 'https://github.com/trothr/cmsmake'
+            logo: cmsmake.svg
+          - item:
+            name: CMS TAR
+            crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+            homepage_url: 'https://github.com/trothr/cmstar'
+            repo_url: 'https://github.com/trothr/cmstar'
+            logo: cmstar.svg
+          - item:
+            name: xmitmsgx
+            crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+            homepage_url: 'https://github.com/trothr/xmitmsgx'
+            repo_url: 'https://github.com/trothr/xmitmsgx'
+            logo: xmitmsgx.svg
       - subcategory:
         name: z/OS
         items:
@@ -103,6 +136,12 @@ landscape:
             repo_url: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm'
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/atom/atom-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: Ductwork
+            crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+            homepage_url: 'https://github.com/trothr/ductwork'
+            repo_url: 'https://github.com/trothr/ductwork'
+            logo: ductwork.svg
           - item:
             name: Mentorship
             homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
