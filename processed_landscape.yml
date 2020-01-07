@@ -12,6 +12,7 @@ landscape:
             repo_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
             logo: crc32-s390x.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -59,7 +60,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-01-02T00:38:57.000Z
+              latest_tweet_date: 2020-01-01T20:38:36.000Z
           - item:
             name: Feilong
             homepage_url: 'https://www.openmainframeproject.org/projects/feilong'
@@ -126,6 +127,7 @@ landscape:
             repo_url: 'https://github.com/opencryptoki/libica'
             logo: libica.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -178,13 +180,72 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-01-02T00:38:57.000Z
+              latest_tweet_date: 2020-01-01T20:38:36.000Z
+          - item:
+            name: qclib
+            homepage_url: 'http://www.ibm.com/developerworks/linux/linux390/qclib.html'
+            description: qclib provides a C API for extraction of system information for Linux on z Systems.
+            repo_url: 'https://github.com/openmainframeproject/qclib'
+            logo: qclib.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            github_data:
+              languages:
+                - name: C
+                  value: 233966
+                  color: '#555555'
+                - name: Makefile
+                  value: 2828
+                  color: '#427819'
+                - name: Shell
+                  value: 1107
+                  color: '#89e051'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-01-14Z
+              stars: 0
+              license: Other
+              description: Github mirror of the Linux on z Systems qclib package ('qclib' for 'Query Capacity library').
+              latest_commit_date: '2020-01-07T02:04:30Z'
+              latest_commit_link: /openmainframeproject/qclib/commit/faf17b3419db8c0c2ae01a4ea71ccfbe3bb47dbd
+              release_date: '2020-01-07T02:05:16Z'
+              release_link: 'https://github.com/openmainframeproject/qclib/releases'
+              contributors_count: 1
+              contributors_link: 'https://github.com/openmainframeproject/qclib/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/qclib/commit/eddcc19024de389173f898900cc8836fd7d3d7e1
+              start_date: '2020-01-07T01:51:50Z'
+            yahoo_finance_data:
+              market_cap: 118710779904
+              effective_ticker: IBM
+            image_data:
+              fileName: qclib.svg
+              hash: RdBmzizS6kdxsTNlim9mMRp+qjU6FPdlUsBL1k+JMt0=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-01-01T20:38:36.000Z
           - item:
             name: s390-tools
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/s390-tools.html'
             repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
             logo: s390-tools.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -249,7 +310,251 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-01-02T00:38:57.000Z
+              latest_tweet_date: 2020-01-01T20:38:36.000Z
+          - item:
+            name: SMC Tools
+            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/smc-tools.html'
+            repo_url: 'https://github.com/openmainframeproject/smc-tools'
+            logo: smc-tools.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            github_data:
+              languages:
+                - name: C
+                  value: 29892
+                  color: '#555555'
+                - name: Roff
+                  value: 16681
+                  color: '#ecdebe'
+                - name: Shell
+                  value: 7130
+                  color: '#89e051'
+                - name: Makefile
+                  value: 4763
+                  color: '#427819'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-01-14Z
+              stars: 0
+              license: Eclipse Public License 1.0
+              description: Mirror of the Linux on Z Systems Shared Memory Communication Tools (smc-tools) package
+              latest_commit_date: '2020-01-07T02:27:44Z'
+              latest_commit_link: /openmainframeproject/smc-tools/commit/961b9e73d7cc30b7662ca68562b813946374a051
+              contributors_count: 1
+              contributors_link: 'https://github.com/openmainframeproject/smc-tools/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/smc-tools/commit/961b9e73d7cc30b7662ca68562b813946374a051
+              start_date: '2020-01-07T02:27:44Z'
+            yahoo_finance_data:
+              market_cap: 118710779904
+              effective_ticker: IBM
+            image_data:
+              fileName: smc-tools.svg
+              hash: 7RPTxF9LePzKDa1S207u/Boi81EB3BZmxJi+JMJUTSI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-01-01T20:38:36.000Z
+          - item:
+            name: snIPL
+            homepage_url: 'http://www.ibm.com/developerworks/linux/linux390/snipl.html'
+            description: Linux on System z snIPL 'simple network IPL' package.
+            repo_url: 'https://github.com/openmainframeproject/snipl'
+            logo: snipl.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            github_data:
+              languages:
+                - name: C
+                  value: 369948
+                  color: '#555555'
+                - name: Roff
+                  value: 47564
+                  color: '#ecdebe'
+                - name: Makefile
+                  value: 10477
+                  color: '#427819'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-01-14Z
+              stars: 0
+              license: Other
+              description: Mirror of the Linux on System z snIPL 'simple network IPL' package.
+              latest_commit_date: '2020-01-07T02:15:43Z'
+              latest_commit_link: /openmainframeproject/snipl/commit/1d2bc6e3d61a314fa61cc431c3c337456ec71d39
+              contributors_count: 1
+              contributors_link: 'https://github.com/openmainframeproject/snipl/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/snipl/commit/1d2bc6e3d61a314fa61cc431c3c337456ec71d39
+              start_date: '2020-01-07T02:15:43Z'
+            yahoo_finance_data:
+              market_cap: 118710779904
+              effective_ticker: IBM
+            image_data:
+              fileName: sn-ipl.svg
+              hash: JvVzXKaQOjuJoo/CfVxqPyGUmIrxqAGf1DOe9iETM5o=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-01-01T20:38:36.000Z
+          - item:
+            name: source VIPA
+            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/useful_add-ons_vipa.html'
+            description: src_vipa is a recommended utility that provides a very flexible means of source address selection to arbitrary applications.
+            repo_url: 'https://github.com/openmainframeproject/src_vipa'
+            logo: srcvipa.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            github_data:
+              languages:
+                - name: C
+                  value: 49331
+                  color: '#555555'
+                - name: Roff
+                  value: 7930
+                  color: '#ecdebe'
+                - name: Makefile
+                  value: 1861
+                  color: '#427819'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-01-14Z
+              stars: 0
+              license: Other
+              description: Mirror of the Linux on z Systems src-vipa (source VIPA) package
+              latest_commit_date: '2020-01-07T02:39:42Z'
+              latest_commit_link: /openmainframeproject/src_vipa/commit/d976376936fcb2bbc8b37c77c286c21ee835ac67
+              contributors_count: 1
+              contributors_link: 'https://github.com/openmainframeproject/src_vipa/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/src_vipa/commit/d976376936fcb2bbc8b37c77c286c21ee835ac67
+              start_date: '2020-01-07T02:39:42Z'
+            yahoo_finance_data:
+              market_cap: 118710779904
+              effective_ticker: IBM
+            image_data:
+              fileName: source-vipa.svg
+              hash: XmXGdfD0HITCIbZnd4pil7gPsCw5Hplu0KtGihw2oXc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-01-01T20:38:36.000Z
+          - item:
+            name: sysload
+            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/sysload.html'
+            description: >-
+              System Loader uses a minimal RAM disk based Linux system to run a boot loader application and kexec to boot the final Linux system. Within the
+              boot loader application all capabilities provided by the kernel can be used to select and access a kernel image and other boot files or to start a
+              shell and use it as a rescue system.
+            repo_url: 'https://github.com/openmainframeproject/sysload'
+            logo: sysload.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            github_data:
+              languages:
+                - name: C
+                  value: 207163
+                  color: '#555555'
+                - name: Shell
+                  value: 25481
+                  color: '#89e051'
+                - name: Perl
+                  value: 23205
+                  color: '#0298c3'
+                - name: Yacc
+                  value: 20344
+                  color: '#4B6C4B'
+                - name: Roff
+                  value: 10776
+                  color: '#ecdebe'
+                - name: Lex
+                  value: 9542
+                  color: '#DBCA00'
+                - name: Makefile
+                  value: 4520
+                  color: '#427819'
+                - name: Objective-C
+                  value: 1057
+                  color: '#438eff'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-01-14Z
+              stars: 0
+              license: GNU General Public License v2.0
+              description: Mirror of the Linux on System z System Loader (sysload).
+              latest_commit_date: '2020-01-07T02:34:26Z'
+              latest_commit_link: /openmainframeproject/sysload/commit/666b57cf1fb696251d70b599cde138504a50456b
+              contributors_count: 1
+              contributors_link: 'https://github.com/openmainframeproject/sysload/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/sysload/commit/666b57cf1fb696251d70b599cde138504a50456b
+              start_date: '2020-01-07T02:34:26Z'
+            yahoo_finance_data:
+              market_cap: 118710779904
+              effective_ticker: IBM
+            image_data:
+              fileName: sysload.svg
+              hash: ZtONCx9qXNVE830q9F8VkqH3LfwssGrdaq55ymLkW2w=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-01-01T20:38:36.000Z
           - item:
             name: VMLINK
             crunchbase: 'https://www.crunchbase.com/organization/la-casita'
@@ -333,6 +638,65 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: zfcp HBA API library
+            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/zfcp-hbaapi.html'
+            description: 'zfcp HBA API library, Version 2, is part of an implementation of FC-HBA for the ZFCP device driver to be used with the Linux on Z distributions.'
+            repo_url: 'https://github.com/openmainframeproject/zfcp-hbaapi'
+            logo: zfcp-hbaapi.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            github_data:
+              languages:
+                - name: Shell
+                  value: 328615
+                  color: '#89e051'
+                - name: C
+                  value: 205288
+                  color: '#555555'
+                - name: Makefile
+                  value: 45825
+                  color: '#427819'
+                - name: Roff
+                  value: 6918
+                  color: '#ecdebe'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-01-14Z
+              stars: 0
+              license: Other
+              description: Mirror of the Linux on IBM Z lib-zfcp-hbaapi "zfcp HBA API library" package. (HBA is short for "Host Bus Adapter".)
+              latest_commit_date: '2020-01-07T02:20:42Z'
+              latest_commit_link: /openmainframeproject/zfcp-hbaapi/commit/6d56db9c5d79374c01e802305b48a2b32244cbfa
+              contributors_count: 1
+              contributors_link: 'https://github.com/openmainframeproject/zfcp-hbaapi/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/zfcp-hbaapi/commit/6d56db9c5d79374c01e802305b48a2b32244cbfa
+              start_date: '2020-01-07T02:20:42Z'
+            yahoo_finance_data:
+              market_cap: 118710779904
+              effective_ticker: IBM
+            image_data:
+              fileName: zfcp-hba-api-library.svg
+              hash: 3s7FXPZFKc6esZObF2NZenO832bcrd/2c5JwUIW4tHo=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-01-01T20:38:36.000Z
       - subcategory:
         name: z/VM
         items:
@@ -481,6 +845,7 @@ landscape:
             repo_url: 'https://github.com/IBM/zos-node-accessor'
             logo: zos-node-accessor.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -524,13 +889,14 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-01-02T00:38:57.000Z
+              latest_tweet_date: 2020-01-01T20:38:36.000Z
           - item:
             name: z/OS Tools
             homepage_url: 'https://github.com/IBM/IBM-Z-zOS'
             repo_url: 'https://github.com/IBM/IBM-Z-zOS'
             logo: zos-tools.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: 'https://twitter.com/ibmz'
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -598,7 +964,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-01-02T00:38:57.000Z
+              latest_tweet_date: 2020-01-01T20:38:36.000Z
           - item:
             name: zECS
             homepage_url: 'https://github.com/walmartlabs/zECS'
