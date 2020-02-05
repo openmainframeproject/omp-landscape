@@ -120,6 +120,13 @@ landscape:
         name: z/OS
         items:
           - item:
+            name: Polycephaly
+            homepage_url: 'https://www.openmainframeproject.org/projects/polycephaly'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/polycephaly'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/polycephaly/polycephaly-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
             name: z/OS Node Accessor
             homepage_url: 'https://github.com/IBM/zos-node-accessor'
             repo_url: 'https://github.com/IBM/zos-node-accessor'
@@ -210,13 +217,6 @@ landscape:
             project: graduated
             repo_url: 'https://github.com/openmainframeproject-internship/resources'
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-          - item:
-            name: Polycephaly
-            homepage_url: 'https://github.com/edge05/zJenkins'
-            project: incubating
-            repo_url: 'https://github.com/edge05/zJenkins'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/polycephaly/polycephaly-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
             name: TerseDecompress
