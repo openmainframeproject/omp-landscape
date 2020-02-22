@@ -425,6 +425,15 @@ landscape:
             logo: omp_ibm-db2-for-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
+            name: Secure Credential Store Plug-in
+            description: >-
+              The Secure Credential Store Plug-in for Zowe CLI lets you store your credentials securely in the default credential manager in your computer's
+              operating system.
+            homepage_url: 'https://github.com/zowe/zowe-cli-scs-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-scs-plugin'
+            logo: zowe-secure-credential-store-plugin-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
             name: z/OS Connect EE Plug-in for Zowe CLI
             description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.
             homepage_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
@@ -439,13 +448,6 @@ landscape:
             repo_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
             logo: omp_ibm-cli-cics-deploy.svg
             twitter: 'https://twitter.com/IBM_CICS'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-          - item:
-            name: Secure Credential Store Plug-in
-            description: The Secure Credential Store Plug-in for Zowe CLI lets you store your credentials securely in the default credential manager in your computer's operating system.
-            homepage_url: 'https://github.com/zowe/zowe-cli-scs-plugin#readme'
-            repo_url: 'https://github.com/zowe/zowe-cli-scs-plugin'
-            logo: zowe-secure-credential-store-plugin-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
   - category:
     name: Supported Projects
