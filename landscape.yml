@@ -120,6 +120,12 @@ landscape:
         name: z/OS
         items:
           - item:
+            name: z/OS Connector Plugin for Jenkins
+            homepage_url: 'https://github.com/jenkinsci/zos-connector-plugin'
+            repo_url: 'https://github.com/jenkinsci/zos-connector-plugin'
+            logo: jenkins-zos-plugin.svg
+            crunchbase: 'https://www.crunchbase.com/organization/jenkins-ci'
+          - item:
             name: Polycephaly
             homepage_url: 'https://www.openmainframeproject.org/projects/polycephaly'
             project: incubating

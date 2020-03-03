@@ -4302,6 +4302,50 @@ landscape:
         name: z/OS
         items:
           - item:
+            name: z/OS Connector Plugin for Jenkins
+            homepage_url: 'https://github.com/jenkinsci/zos-connector-plugin'
+            repo_url: 'https://github.com/jenkinsci/zos-connector-plugin'
+            logo: jenkins-zos-plugin.svg
+            crunchbase: 'https://www.crunchbase.com/organization/jenkins-ci'
+            crunchbase_data:
+              name: Jenkins CI
+              description: Jenkins CI is an open-source continuous integration server that supports various configurations.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://jenkins.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/jenkinsci'
+              linkedin: null
+              acquisitions: []
+              parents: []
+            github_data:
+              languages:
+                - name: Java
+                  value: 94681
+                  color: '#b07219'
+              contributions: 0;0;0;0;0;1;0;0;3;0;1;3;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-03-10Z
+              stars: 8
+              license: MIT License
+              description: Plugin for connection of Jenkins CI to IBM zOS including integration of IBM SCLM as SCM.
+              latest_commit_date: '2019-08-20T15:42:14Z'
+              latest_commit_link: /jenkinsci/zos-connector-plugin/commit/6d9256bbc41d75afcf7a2685c14e70d2a2e87b3f
+              contributors_count: 1
+              contributors_link: 'https://github.com/jenkinsci/zos-connector-plugin/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /jenkinsci/zos-connector-plugin/commit/e9e7b512e0a3e6bfab10f7f053c4f52197c48092
+              start_date: '2015-04-27T14:37:15Z'
+            image_data:
+              fileName: z-os-connector-plugin-for-jenkins.svg
+              hash: s76/hNH66Hjf3J1w8OX1yqqHllswrnadpz6nG5STd3U=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-03-03T17:46:25.000Z
+          - item:
             name: Polycephaly
             homepage_url: 'https://www.openmainframeproject.org/projects/polycephaly'
             project: incubating
