@@ -265,6 +265,15 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             allow_duplicate_repo: true
           - item:
+            name: IBM Z Workload Scheduler V 9.5.0.2 (API Mediation Layer 2019)
+            description: >-
+              Simplifies schedulers' and system administrators' tasks with new advanced automation features, enables integration of workload automation in
+              hybrid cloud application through REST API and command line that can easily integrated in applications and scripting.
+            homepage_url: 'https://www.ibm.com/us-en/marketplace/tivoli-workload-scheduler-for-z-systems'
+            logo: ibm-z-workflow-scheduler.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
             name: IBM® Db2 DevOps Experience for z/OS (API Mediation Layer 2019)
             description: >-
               Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
@@ -278,15 +287,6 @@ landscape:
             description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
             homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en'
             logo: omp_ibm-netview.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
-          - item:
-            name: IBM Z Workload Scheduler V 9.5.0.2 (API Mediation Layer 2019)
-            description: >-
-              Simplifies schedulers' and system administrators' tasks with new advanced automation features, enables integration of workload automation in
-              hybrid cloud application through REST API and command line that can easily integrated in applications and scripting.
-            homepage_url: 'https://www.ibm.com/us-en/marketplace/tivoli-workload-scheduler-for-z-systems'
-            logo: ibm-z-workflow-scheduler.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
       - subcategory:
@@ -425,6 +425,15 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             allow_duplicate_repo: true
           - item:
+            name: IBM Z Workload Scheduler V 9.5.0.2 (CLI 2019)
+            description: >-
+              Simplifies schedulers' and system administrators' tasks with new advanced automation features, enables integration of workload automation in
+              hybrid cloud application through REST API and command line that can easily integrated in applications and scripting.
+            homepage_url: 'https://www.ibm.com/us-en/marketplace/tivoli-workload-scheduler-for-z-systems'
+            logo: ibm-z-workflow-scheduler.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
             name: IBM® CICS® Plug-in for Zowe CLI (CLI 2019)
             description: IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS
             homepage_url: 'https://github.com/zowe/zowe-cli-cics-plugin'
@@ -472,15 +481,6 @@ landscape:
             logo: omp_ibm-cli-cics-deploy.svg
             twitter: 'https://twitter.com/IBM_CICS'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-          - item:
-            name: IBM Z Workload Scheduler V 9.5.0.2 (CLI 2019)
-            description: >-
-              Simplifies schedulers' and system administrators' tasks with new advanced automation features, enables integration of workload automation in
-              hybrid cloud application through REST API and command line that can easily integrated in applications and scripting.
-            homepage_url: 'https://www.ibm.com/us-en/marketplace/tivoli-workload-scheduler-for-z-systems'
-            logo: ibm-z-workflow-scheduler.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
   - category:
     name: Supported Projects
     subcategories:
