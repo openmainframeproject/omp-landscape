@@ -243,7 +243,121 @@ landscape:
     name: Zowe Conformant
     subcategories:
       - subcategory:
-        name: API Mediation Layer
+        name: API Mediation Layer ZOWE V1
+        items:
+          - item:
+            name: CA IDMS REST API (API Mediation Layer ZOWE V1)
+            description: 'IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.'
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html'
+            stock_ticker: AVGO
+            logo: ca_idms_rest_api.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+          - item:
+            name: CA Endevor® SCM (API Mediation Layer ZOWE V1)
+            description: >-
+              CA Endevor® SCM provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
+              development process, CA Endevor SCM governs software change from the very first line of modified code through deployment with change tracking.
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0/installing/integrate-rest-api-with-the-api-mediation-layer.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-caendevor.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+      - subcategory:
+        name: App Framework ZOWE V1
+        items: null
+      - subcategory:
+        name: CLI ZOWE V1
+        items:
+          - item:
+            name: CA View® Plug-in for Zowe™ CLI (CLI ZOWE V1)
+            description: >-
+              The CA View® Plug-in for Zowe™ CLI lets you access and interact with CA View report data. You can query reports, logical views, and index values.
+              Search for report data using cross-report indexes. Download report data, convert text and AFP reports to PDF. Export text reports to spreadsheets
+              using predefined rules.
+            homepage_url: 'https://www.npmjs.com/package/@broadcom/caview-for-zowe-cli'
+            stock_ticker: AVGO
+            logo: ca_viewforzowecli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+          - item:
+            name: CA OPS/MVS® Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: >-
+              The CA OPS/MVS® Plug-in for Zowe CLI lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient
+              automation and resource management from the CLI.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-caopsmvs.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+          - item:
+            name: CA Endevor® SCM (CLI ZOWE V1)
+            description: >-
+              CA Endevor® SCM provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
+              development process, CA Endevor SCM governs software change from the very first line of modified code through deployment with change tracking.
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0/installing/integrate-rest-api-with-the-api-mediation-layer.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-caendevor.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+          - item:
+            name: Secure Credential Store Plug-in (CLI ZOWE V1)
+            description: The Secure Credential Store Plug-in for Zowe CLI lets you store your credentials securely in the credential manager of your operating system.
+            homepage_url: 'https://github.com/zowe/zowe-cli-scs-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-scs-plugin'
+            logo: zowe-secure-credential-store-plugin-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
+          - item:
+            name: IBM® CICS® Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: The IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS programs and transactions
+            homepage_url: 'https://github.com/zowe/zowe-cli-cics-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-cics-plugin'
+            logo: omp_ibm-cics-for-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
+          - item:
+            name: IBM® Db2® Database Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: >-
+              The IBM® Db2® Database Plug-in for Zowe CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development tools to
+              automate typical workloads more efficiently.
+            homepage_url: 'https://github.com/zowe/zowe-cli-db2-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-db2-plugin'
+            logo: omp_ibm-db2-for-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
+          - item:
+            name: IBM® IMS™ Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: >-
+              The IBM® IMS™ Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions). You
+              can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
+            homepage_url: 'https://github.com/zowe/zowe-cli-ims-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-ims-plugin'
+            logo: omp-ibm-ims-for-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: CA z/OS Extended Jobs Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: The CA z/OS Extended Jobs Plug-in for Zowe CLI extends the CLI to include additional commands for interaction with z/OS jobs.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-cazosextendedjobs.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+          - item:
+            name: CA z/OS Extended Files Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: The CA z/OS Extended Files Plug-in for Zowe CLI extends the CLI to support complex data set management functionality.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-cazosextendedfiles.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+          - item:
+            name: z/OS FTP Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: 'The z/OS FTP Plug-in for Zowe CLI lets you access z/OS datasets, USS files, and submit JCL, leveraging the z/OS FTP service.'
+            homepage_url: 'https://github.com/zowe/zowe-cli-ftp-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-ftp-plugin'
+            logo: omp-zos-ftp-for-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+      - subcategory:
+        name: API Mediation Layer 2019
         items:
           - item:
             name: (E)JES Zowe REST API (API Mediation Layer 2019)
@@ -290,7 +404,7 @@ landscape:
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
       - subcategory:
-        name: App Framework
+        name: App Framework 2019
         items:
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (App Framework 2019)
@@ -349,7 +463,7 @@ landscape:
             logo: omp_rocket-bluezone.svg
             crunchbase: 'https://www.crunchbase.com/organization/rocket-software'
       - subcategory:
-        name: CLI
+        name: CLI 2019
         items:
           - item:
             name: (E)JES Plug-in for Zowe CLI (CLI 2019)
@@ -440,6 +554,7 @@ landscape:
             repo_url: 'https://github.com/zowe/zowe-cli-cics-plugin'
             logo: omp_ibm-cics-for-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
           - item:
             name: IBM® Db2 DevOps Experience for z/OS (CLI 2019)
             description: >-
@@ -456,6 +571,7 @@ landscape:
             repo_url: 'https://github.com/zowe/zowe-cli-db2-plugin'
             logo: omp_ibm-db2-for-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
           - item:
             name: Secure Credential Store Plug-in (CLI 2019)
             description: >-
@@ -465,6 +581,7 @@ landscape:
             repo_url: 'https://github.com/zowe/zowe-cli-scs-plugin'
             logo: zowe-secure-credential-store-plugin-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI (CLI 2019)
             description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.

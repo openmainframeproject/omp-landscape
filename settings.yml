@@ -120,45 +120,45 @@ big_picture:
     elements:
       - type: HorizontalCategory
         category: Projects
-        rows: 5
+        rows: 6
         width: 750
-        height: 200
+        height: 225
         top: 0
         left: 0
         color: 'rgb(37,81,209)'
         fit_width: false
-      - type: HorizontalCategory
+      - type: VerticalCategory
         category: Zowe Conformant
-        rows: 3
-        width: 550
-        height: 160
-        top: 215
-        left: 550
+        cols: 8
+        width: 340
+        top: 0
+        height: 450
+        left: 765
         color: 'rgb(79,121,13)'
         fit_width: true
       - type: HorizontalCategory
         category: Linux Distributions
         rows: 3
-        width: 260
-        height: 160
-        top: 215
+        width: 360
+        height: 140
+        top: 235
         left: 0
         color: 'rgb(29,119,164)'
         fit_width: true
       - type: HorizontalCategory
         category: Supported Projects
         rows: 3
-        width: 250
-        height: 160
-        top: 215
-        left: 280
+        width: 370
+        height: 140
+        top: 235
+        left: 380
         color: 'rgb(19,105,73)'
         fit_width: true
       - type: HorizontalCategory
         category: Open Mainframe Project Member Company
-        rows: 4
-        width: 1105
-        height: 200
+        rows: 6
+        width: 750
+        height: 240
         top: 395
         left: 0
         color: 'rgb(126,115,14)'
@@ -166,7 +166,7 @@ big_picture:
       - type: LandscapeInfo
         width: 345
         height: 200
-        top: 0
+        top: 435
         left: 770
         children:
           - type: text

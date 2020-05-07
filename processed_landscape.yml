@@ -6464,7 +6464,1265 @@ landscape:
     name: Zowe Conformant
     subcategories:
       - subcategory:
-        name: API Mediation Layer
+        name: API Mediation Layer ZOWE V1
+        items:
+          - item:
+            name: CA IDMS REST API (API Mediation Layer ZOWE V1)
+            description: 'IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.'
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html'
+            stock_ticker: AVGO
+            logo: ca_idms_rest_api.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              acquisitions:
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+                - date: '2019-11-01'
+                  acquiree: Symantec
+                  price: 10700000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+              parents: []
+              ticker: BRCM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 105892642816
+              effective_ticker: AVGO
+            image_data:
+              fileName: ca-idms-rest-api-api-mediation-layer-zowe-v1.svg
+              hash: BNg1fuiiwdQ8aMOQY1EGjx6+XxArVrQN3Xi9vSYVmXY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
+          - item:
+            name: CA Endevor® SCM (API Mediation Layer ZOWE V1)
+            description: >-
+              CA Endevor® SCM provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
+              development process, CA Endevor SCM governs software change from the very first line of modified code through deployment with change tracking.
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0/installing/integrate-rest-api-with-the-api-mediation-layer.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-caendevor.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              acquisitions:
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+                - date: '2019-11-01'
+                  acquiree: Symantec
+                  price: 10700000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+              parents: []
+              ticker: BRCM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 105892642816
+              effective_ticker: AVGO
+            image_data:
+              fileName: ca-endevor-scm-api-mediation-layer-zowe-v1.svg
+              hash: 2HzVR8WaCIaktkfPSPU186DXSEdp7YyOgT5dNbr5s28=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
+      - subcategory:
+        name: App Framework ZOWE V1
+        items: null
+      - subcategory:
+        name: CLI ZOWE V1
+        items:
+          - item:
+            name: CA View® Plug-in for Zowe™ CLI (CLI ZOWE V1)
+            description: >-
+              The CA View® Plug-in for Zowe™ CLI lets you access and interact with CA View report data. You can query reports, logical views, and index values.
+              Search for report data using cross-report indexes. Download report data, convert text and AFP reports to PDF. Export text reports to spreadsheets
+              using predefined rules.
+            homepage_url: 'https://www.npmjs.com/package/@broadcom/caview-for-zowe-cli'
+            stock_ticker: AVGO
+            logo: ca_viewforzowecli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              acquisitions:
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+                - date: '2019-11-01'
+                  acquiree: Symantec
+                  price: 10700000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+              parents: []
+              ticker: BRCM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 105892642816
+              effective_ticker: AVGO
+            image_data:
+              fileName: ca-view-plug-in-for-zowe-cli-cli-zowe-v1.svg
+              hash: z/bZSt1bi+SMY4RfFNZRkhMY+LhVZNizsIr6J2O8mtc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
+          - item:
+            name: CA OPS/MVS® Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: >-
+              The CA OPS/MVS® Plug-in for Zowe CLI lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient
+              automation and resource management from the CLI.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-caopsmvs.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              acquisitions:
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+                - date: '2019-11-01'
+                  acquiree: Symantec
+                  price: 10700000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+              parents: []
+              ticker: BRCM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 105892642816
+              effective_ticker: AVGO
+            image_data:
+              fileName: ca-ops-mvs-plug-in-for-zowe-cli-cli-zowe-v1.svg
+              hash: KvlKxGGT76ue62QvwMgkilnfTzm3d60716vCT9ZxSeY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
+          - item:
+            name: CA Endevor® SCM (CLI ZOWE V1)
+            description: >-
+              CA Endevor® SCM provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
+              development process, CA Endevor SCM governs software change from the very first line of modified code through deployment with change tracking.
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0/installing/integrate-rest-api-with-the-api-mediation-layer.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-caendevor.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              acquisitions:
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+                - date: '2019-11-01'
+                  acquiree: Symantec
+                  price: 10700000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+              parents: []
+              ticker: BRCM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 105892642816
+              effective_ticker: AVGO
+            image_data:
+              fileName: ca-endevor-scm-cli-zowe-v1.svg
+              hash: 2HzVR8WaCIaktkfPSPU186DXSEdp7YyOgT5dNbr5s28=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
+          - item:
+            name: Secure Credential Store Plug-in (CLI ZOWE V1)
+            description: The Secure Credential Store Plug-in for Zowe CLI lets you store your credentials securely in the credential manager of your operating system.
+            homepage_url: 'https://github.com/zowe/zowe-cli-scs-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-scs-plugin'
+            logo: zowe-secure-credential-store-plugin-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 59226
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 7992
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 1235
+                  color: '#89e051'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;1;0;0;4;0;7;15;21;5;6;2;4;0;0
+              firstWeek: 2019-05-12Z
+              stars: 5
+              license: Other
+              description: >-
+                The secure credential store plugin for Zowe CLI, leveraging keytar and the OS keychain to securely access and store sensitive user credentials
+                normally stored in CLI profiles.
+              latest_commit_date: '2020-04-20T20:25:50Z'
+              latest_commit_link: /zowe/zowe-cli-scs-plugin/commit/e814ba08a5e384084c31f4f5d0f06b3b8006b31c
+              contributors_count: 5
+              contributors_link: 'https://github.com/zowe/zowe-cli-scs-plugin/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /zowe/zowe-cli-scs-plugin/commit/aca60a1e5f9079769ad8cbfb48086ae0539d74d6
+              start_date: '2020-01-17T18:12:31Z'
+            image_data:
+              fileName: secure-credential-store-plug-in-cli-zowe-v1.svg
+              hash: b7oA626jFodJT9JHyqUU2qvux3qs6Keyx1yiTsSWqGY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-05T19:01:02.000Z
+          - item:
+            name: IBM® CICS® Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: The IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS programs and transactions
+            homepage_url: 'https://github.com/zowe/zowe-cli-cics-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-cics-plugin'
+            logo: omp_ibm-cics-for-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 865449
+                  color: '#2b7489'
+                - name: Shell
+                  value: 19572
+                  color: '#89e051'
+                - name: JavaScript
+                  value: 5688
+                  color: '#f1e05a'
+              contributions: 0;0;0;0;0;5;1;0;0;3;3;1;10;0;8;8;0;0;2;11;5;0;0;6;38;14;10;7;0;0;3;1;6;1;0;11;6;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0
+              firstWeek: 2019-05-12Z
+              stars: 5
+              license: Other
+              description: CICS Plugin for the Zowe CLI
+              latest_commit_date: '2020-03-27T17:07:38Z'
+              latest_commit_link: /zowe/zowe-cli-cics-plugin/commit/7815151d20d1ba6684e8178be398ce3b701c2123
+              contributors_count: 15
+              contributors_link: 'https://github.com/zowe/zowe-cli-cics-plugin/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /zowe/zowe-cli-cics-plugin/commit/47a5ce9920ae2dc9253e642b915bd01bb151e9d7
+              start_date: '2018-10-04T19:28:12Z'
+            image_data:
+              fileName: ibm-cics-plug-in-for-zowe-cli-cli-zowe-v1.svg
+              hash: m7IhhMpnf+hegEIqnse/fxlrAMrYQ+RzwxhrkSLLAxY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-05T19:01:02.000Z
+          - item:
+            name: IBM® Db2® Database Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: >-
+              The IBM® Db2® Database Plug-in for Zowe CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development tools to
+              automate typical workloads more efficiently.
+            homepage_url: 'https://github.com/zowe/zowe-cli-db2-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-db2-plugin'
+            logo: omp_ibm-db2-for-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 147178
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 8280
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 3419
+                  color: '#89e051'
+              contributions: 1;0;0;0;0;0;4;0;0;7;1;0;3;0;3;3;3;0;0;0;4;0;4;0;0;4;0;0;0;0;0;1;0;0;0;7;5;0;0;0;0;0;0;0;2;0;4;1;0;4;0;0
+              firstWeek: 2019-05-12Z
+              stars: 3
+              license: Other
+              description: DB2 Plugin for the Zowe CLI
+              latest_commit_date: '2020-04-20T15:32:02Z'
+              latest_commit_link: /zowe/zowe-cli-db2-plugin/commit/a4d250e385089fc3309aab1b5a2e8db57240c0a2
+              contributors_count: 15
+              contributors_link: 'https://github.com/zowe/zowe-cli-db2-plugin/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /zowe/zowe-cli-db2-plugin/commit/093df7d34ffa0843dd1e3c9523130c92d76c9a31
+              start_date: '2018-10-04T18:44:09Z'
+            image_data:
+              fileName: ibm-db2-database-plug-in-for-zowe-cli-cli-zowe-v1.svg
+              hash: SVfu0tXw1CRsfEu8kbt2590vffVDglxnys6Jf1MYxPc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-05T19:01:02.000Z
+          - item:
+            name: IBM® IMS™ Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: >-
+              The IBM® IMS™ Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions). You
+              can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
+            homepage_url: 'https://github.com/zowe/zowe-cli-ims-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-ims-plugin'
+            logo: omp-ibm-ims-for-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 447757
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 16318
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 8128
+                  color: '#89e051'
+              contributions: 12;1;0;3;3;7;4;0;0;13;2;0;9;6;6;2;0;0;0;0;4;0;0;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;8;0;0;0;2;1;0;2;0;0;0;0;0
+              firstWeek: 2019-05-13Z
+              stars: 0
+              license: Other
+              description: Zowe CLI Plug-in for IBM® Information Management System (IMS)™
+              latest_commit_date: '2020-03-27T17:11:44Z'
+              latest_commit_link: /zowe/zowe-cli-ims-plugin/commit/c91106d2679d3c510ec2eb71be9ac7e686d1e117
+              contributors_count: 9
+              contributors_link: 'https://github.com/zowe/zowe-cli-ims-plugin/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /zowe/zowe-cli-ims-plugin/commit/6262d2448a414de058004cba76a134df99552c7e
+              start_date: '2018-12-17T19:50:23Z'
+            image_data:
+              fileName: ibm-ims-plug-in-for-zowe-cli-cli-zowe-v1.svg
+              hash: jj4GsZ8hLzaW2UiTeTKb5kAD6o3HV0w5ZnJYTuPeNPo=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-05T19:01:02.000Z
+          - item:
+            name: CA z/OS Extended Jobs Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: The CA z/OS Extended Jobs Plug-in for Zowe CLI extends the CLI to include additional commands for interaction with z/OS jobs.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-cazosextendedjobs.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              acquisitions:
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+                - date: '2019-11-01'
+                  acquiree: Symantec
+                  price: 10700000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+              parents: []
+              ticker: BRCM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 105892642816
+              effective_ticker: AVGO
+            image_data:
+              fileName: ca-z-os-extended-jobs-plug-in-for-zowe-cli-cli-zowe-v1.svg
+              hash: jCQUle/YxAAE2hh3DR2qReBKuhs4koF2mWnxIeiIqOI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
+          - item:
+            name: CA z/OS Extended Files Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: The CA z/OS Extended Files Plug-in for Zowe CLI extends the CLI to support complex data set management functionality.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-cazosextendedfiles.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              acquisitions:
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+                - date: '2019-11-01'
+                  acquiree: Symantec
+                  price: 10700000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+              parents: []
+              ticker: BRCM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 105892642816
+              effective_ticker: AVGO
+            image_data:
+              fileName: ca-z-os-extended-files-plug-in-for-zowe-cli-cli-zowe-v1.svg
+              hash: TeW2q2lXwYGEUYOenwP+cvsQ4hRbw6lFgd/zrbtx1QQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
+          - item:
+            name: z/OS FTP Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: 'The z/OS FTP Plug-in for Zowe CLI lets you access z/OS datasets, USS files, and submit JCL, leveraging the z/OS FTP service.'
+            homepage_url: 'https://github.com/zowe/zowe-cli-ftp-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-ftp-plugin'
+            logo: omp-zos-ftp-for-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 299660
+                  color: '#2b7489'
+                - name: Shell
+                  value: 9317
+                  color: '#89e051'
+                - name: JavaScript
+                  value: 2726
+                  color: '#f1e05a'
+              contributions: 0;0;1;3;3;3;0;0;0;0;0;0;0;4;0;3;1;0;0;7;0;4;3;4;0;1;3;3;7;2;0;9;7;0;1;7;5;0;0;1;2;0;0;0;2;0;5;10;0;0;0;2
+              firstWeek: 2019-05-13Z
+              stars: 10
+              license: Other
+              description: Zowe CLI FTP Plugin
+              latest_commit_date: '2020-04-30T16:05:06Z'
+              latest_commit_link: /zowe/zowe-cli-ftp-plugin/commit/482ac87b439311832b7d88716b7030f02cf665c2
+              contributors_count: 12
+              contributors_link: 'https://github.com/zowe/zowe-cli-ftp-plugin/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /zowe/zowe-cli-ftp-plugin/commit/4f2d6b4e8ac88435ff1558b728cc0d4e46489b5b
+              start_date: '2019-04-12T17:35:46Z'
+            image_data:
+              fileName: z-os-ftp-plug-in-for-zowe-cli-cli-zowe-v1.svg
+              hash: OPXFgDMtXpfGFIhcL8Tqgida/KS0i6xzTMeMx7j7Kfg=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-05T19:01:02.000Z
+      - subcategory:
+        name: API Mediation Layer 2019
         items:
           - item:
             name: (E)JES Zowe REST API (API Mediation Layer 2019)
@@ -7935,7 +9193,7 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-04-27T20:00:01.000Z
       - subcategory:
-        name: App Framework
+        name: App Framework 2019
         items:
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (App Framework 2019)
@@ -10123,7 +11381,7 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-05-01T21:36:01.000Z
       - subcategory:
-        name: CLI
+        name: CLI 2019
         items:
           - item:
             name: (E)JES Plug-in for Zowe CLI (CLI 2019)
@@ -10287,7 +11545,7 @@ landscape:
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-scm-plug-in-for-zowe-cli-cli-2019.svg
-              hash: CoAIqyWajcIYFtczcjcD1UlD7YYnWqNomtYLDUeTsuI=
+              hash: 2HzVR8WaCIaktkfPSPU186DXSEdp7YyOgT5dNbr5s28=
             best_practice_data:
               badge: false
               percentage: null
@@ -11475,6 +12733,7 @@ landscape:
             repo_url: 'https://github.com/zowe/zowe-cli-cics-plugin'
             logo: omp_ibm-cics-for-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -11945,6 +13204,7 @@ landscape:
             repo_url: 'https://github.com/zowe/zowe-cli-db2-plugin'
             logo: omp_ibm-db2-for-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -11999,6 +13259,7 @@ landscape:
             repo_url: 'https://github.com/zowe/zowe-cli-scs-plugin'
             logo: zowe-secure-credential-store-plugin-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
