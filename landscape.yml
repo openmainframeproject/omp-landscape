@@ -356,6 +356,16 @@ landscape:
             repo_url: 'https://github.com/zowe/zowe-cli-ftp-plugin'
             logo: omp-zos-ftp-for-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: IBM® MQ Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: >-
+              The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks, such
+              as defining, altering, and deleting local queue objects.
+            homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            logo: omp_ibm-mq-for-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
       - subcategory:
         name: API Mediation Layer 2019
         items:

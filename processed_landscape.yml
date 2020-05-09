@@ -7228,7 +7228,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-05T19:01:02.000Z
+              latest_tweet_date: 2020-05-01T17:00:23.000Z
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI (CLI ZOWE V1)
             description: The IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS programs and transactions
@@ -7281,7 +7281,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-05T19:01:02.000Z
+              latest_tweet_date: 2020-05-01T17:00:23.000Z
           - item:
             name: IBM® Db2® Database Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -7336,7 +7336,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-05T19:01:02.000Z
+              latest_tweet_date: 2020-05-01T17:00:23.000Z
           - item:
             name: IBM® IMS™ Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -7390,7 +7390,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-05T19:01:02.000Z
+              latest_tweet_date: 2020-05-01T17:00:23.000Z
           - item:
             name: CA z/OS Extended Jobs Plug-in for Zowe CLI (CLI ZOWE V1)
             description: The CA z/OS Extended Jobs Plug-in for Zowe CLI extends the CLI to include additional commands for interaction with z/OS jobs.
@@ -7720,7 +7720,62 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-05T19:01:02.000Z
+              latest_tweet_date: 2020-05-01T17:00:23.000Z
+          - item:
+            name: IBM® MQ Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: >-
+              The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks, such
+              as defining, altering, and deleting local queue objects.
+            homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin#readme'
+            repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            logo: omp_ibm-mq-for-cli.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 90080
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 2257
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 635
+                  color: '#89e051'
+              contributions: 1;0;0;0;2;1;4;7;6;0;25;9;5;0;0;1;0;0;0;0;0;4;0;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0
+              firstWeek: 2019-05-05Z
+              stars: 2
+              license: Other
+              description: Zowe CLI plug-in for MQ that enables users to issue MQSC commands to a queue manager.
+              latest_commit_date: '2020-03-27T17:12:40Z'
+              latest_commit_link: /zowe/zowe-cli-mq-plugin/commit/7a9ed2f1fa915677dad3e558d974e4819c248356
+              contributors_count: 8
+              contributors_link: 'https://github.com/zowe/zowe-cli-mq-plugin/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /zowe/zowe-cli-mq-plugin/commit/2ded494f521b32f3e9b7f514bc8e37a5a21f552b
+              start_date: '2019-04-18T14:01:18Z'
+            image_data:
+              fileName: ibm-mq-plug-in-for-zowe-cli-cli-zowe-v1.svg
+              hash: jOZ7BIjFrD99rzykHqrr6yoP6UFFGC9DtZTy0AJQ38U=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-01T17:00:23.000Z
       - subcategory:
         name: API Mediation Layer 2019
         items:
@@ -7878,7 +7933,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 103825727488
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-api-mediation-layer-2019.svg
@@ -7887,7 +7942,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-30T18:55:02.000Z
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (API Mediation Layer 2019)
             homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
@@ -11541,7 +11596,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 103825727488
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-scm-plug-in-for-zowe-cli-cli-2019.svg
@@ -11550,7 +11605,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-30T18:55:02.000Z
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
           - item:
             name: CA File Master™ Plus Plug-in for Zowe CLI (CLI 2019)
             description: >-
@@ -11682,7 +11737,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 103825727488
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-plug-in-for-zowe-cli-cli-2019.svg
@@ -11691,7 +11746,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-30T18:55:02.000Z
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
           - item:
             name: CA OPS/MVS® Plug-in for Zowe CLI (CLI 2019)
             description: >-
@@ -11823,7 +11878,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 103825727488
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-ops-mvs-plug-in-for-zowe-cli-cli-2019.svg
@@ -11832,7 +11887,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-30T18:55:02.000Z
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
           - item:
             name: CA Secure Credential Store Plug-in for Zowe CLI (CLI 2019)
             description: >-
@@ -11964,7 +12019,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 103825727488
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-secure-credential-store-plug-in-for-zowe-cli-cli-2019.svg
@@ -11973,7 +12028,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-30T18:55:02.000Z
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
           - item:
             name: CA z/OS Extended Files Plug-in for Zowe CLI (CLI 2019)
             description: >-
@@ -12105,7 +12160,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 103825727488
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-files-plug-in-for-zowe-cli-cli-2019.svg
@@ -12114,7 +12169,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-30T18:55:02.000Z
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
           - item:
             name: CA z/OS Extended Jobs Plug-in for Zowe CLI (CLI 2019)
             description: >-
@@ -12246,7 +12301,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 103825727488
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-jobs-plug-in-for-zowe-cli-cli-2019.svg
@@ -12255,7 +12310,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-30T18:55:02.000Z
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (CLI 2019)
             homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
@@ -12759,8 +12814,8 @@ landscape:
                 - name: JavaScript
                   value: 5688
                   color: '#f1e05a'
-              contributions: 0;0;0;0;0;5;0;1;0;3;3;1;10;0;0;10;6;0;0;10;5;3;0;0;22;28;17;8;0;0;0;3;6;2;0;11;0;6;0;0;0;0;0;0;2;0;2;0;0;0;0;0
-              firstWeek: 2019-05-05Z
+              contributions: 0;0;0;0;0;5;1;0;0;3;3;1;10;0;8;8;0;0;2;11;5;0;0;6;38;14;10;7;0;0;3;1;6;1;0;11;6;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0
+              firstWeek: 2019-05-12Z
               stars: 5
               license: Other
               description: CICS Plugin for the Zowe CLI
@@ -13230,8 +13285,8 @@ landscape:
                 - name: Shell
                   value: 3419
                   color: '#89e051'
-              contributions: 1;1;0;0;0;0;3;1;0;7;1;0;3;0;0;6;3;0;0;0;0;4;0;4;0;4;0;0;0;0;0;0;1;0;0;1;6;5;0;0;0;0;0;0;2;0;2;3;0;0;4;0
-              firstWeek: 2019-05-05Z
+              contributions: 1;0;0;0;0;0;4;0;0;7;1;0;3;0;3;3;3;0;0;0;4;0;4;0;0;4;0;0;0;0;0;1;0;0;0;7;5;0;0;0;0;0;0;0;2;0;4;1;0;4;0;0
+              firstWeek: 2019-05-12Z
               stars: 3
               license: Other
               description: DB2 Plugin for the Zowe CLI
@@ -13285,8 +13340,8 @@ landscape:
                 - name: Shell
                   value: 1235
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;11;1;0;1;0;4;0;3;12;9;24;6;1;2;3;0
-              firstWeek: 2019-05-05Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;1;0;0;4;0;7;15;21;5;6;2;4;0;0
+              firstWeek: 2019-05-12Z
               stars: 5
               license: Other
               description: >-
@@ -15691,7 +15746,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 103825727488
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: broadcom-corporation.svg
@@ -15700,7 +15755,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-30T18:55:02.000Z
+              latest_tweet_date: 2020-05-05T14:17:02.000Z
           - item:
             name: IBM
             homepage_url: 'https://www.ibm.com/us-en/?ar=1'
