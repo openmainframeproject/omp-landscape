@@ -239,6 +239,13 @@ landscape:
             repo_url: 'https://github.com/openmainframeproject/tersedecompress'
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/tersedecompress/tersedecompress-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item: 
+            name: COBOL Programming Course
+            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
   - category:
     name: Zowe Conformant
     subcategories:
@@ -863,9 +870,13 @@ landscape:
             twitter: 'https://twitter.com/SNA_USA'
             crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
           - item:
-            name: Syncsort
-            homepage_url: 'https://www.syncsort.com/en/home'
-            logo: syncsort.svg
+            name: Precisely
+            description: >-
+              Precisely's data integration, data quality, location intelligence, and data enrichment products power better business decisions to create better
+              outcomes.
+            homepage_url: 'https://www.precisely.com'
+            logo: precisely.svg
+            twitter: 'https://twitter.com/preciselydata'
             crunchbase: 'https://www.crunchbase.com/organization/syncsort'
           - item:
             name: Vicom Infinity
