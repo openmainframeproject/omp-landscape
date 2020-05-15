@@ -386,6 +386,18 @@ landscape:
             logo: ca_mat.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
+          - item:
+            name: CA JCLCheck Workload Automation Plug-in for Zowe CLI
+            description: >-
+              The CA JCLCheck Workload Automation Plug-in for Zowe CLI lets you validate the accuracy of Job Control Language (JCL) during development or
+              automated processes. Use the plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to
+              fail and lead to delays in production cycles
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-jclcheck-workload-automation-plug-in-for-zowe-cli.html
+            stock_ticker: AVGO
+            logo: ca_jclcheck.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
       - subcategory:
         name: API Mediation Layer 2019
         items:
