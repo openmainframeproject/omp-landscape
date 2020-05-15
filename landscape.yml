@@ -371,10 +371,21 @@ landscape:
             description: >-
               The CA MAT/PMA plug-in for Zowe CLI provides utilities to access performance data supplied by the CA Mainframe Application Tuner component
               Performance Management Assistant (PMA).
-            homepage_url: 'https://github.gwd.broadcom.net/MFD/PMA-CLI/blob/master/READM'
+            homepage_url: 'https://github.gwd.broadcom.net/MFD/PMA-CLI/blob/master/README'
             stock_ticker: AVGO
             logo: ca_mat_pma.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+          - item:
+            name: CA MAT plug-in for Zowe CLI (CLI ZOWE V1)
+            description: >-
+              The CA MAT plug-in for Zowe CLI ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data
+              in the form of CA MAT analysis views using Zowe CLI.
+            homepage_url: 'https://github.gwd.broadcom.net/MFD/zowe-mat-plugin'
+            stock_ticker: AVGO
+            logo: ca_mat.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
       - subcategory:
         name: API Mediation Layer 2019
         items:
