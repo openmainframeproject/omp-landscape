@@ -6484,6 +6484,55 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-05-06T19:00:25.000Z
+          - item:
+            name: COBOL Programming Course
+            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: COBOL
+                  value: 64832
+                - name: TeX
+                  value: 4631
+                  color: '#3D6117'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;8;10;59;51;14;5
+              firstWeek: 2019-05-26Z
+              stars: 1506
+              license: Creative Commons Attribution 4.0 International
+              description: Training materials and labs for a "Getting Started" level course on COBOL
+              latest_commit_date: '2020-05-14T20:35:53Z'
+              latest_commit_link: /openmainframeproject/cobol-programming-course/commit/8fa3f064bb12f316d4d76b71eebd3fdf02a0aa20
+              release_date: '2020-05-05T20:35:26Z'
+              release_link: 'https://github.com/openmainframeproject/cobol-programming-course/releases'
+              contributors_count: 14
+              contributors_link: 'https://github.com/openmainframeproject/cobol-programming-course/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/cobol-programming-course/commit/53e022f5cf577be0d670b134db4f7bafcaa4ea23
+              start_date: '2020-04-11T13:32:13Z'
+            image_data:
+              fileName: cobol-programming-course.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-06T19:00:25.000Z
   - category:
     name: Zowe Conformant
     subcategories:
@@ -6778,10 +6827,11 @@ landscape:
           - item:
             name: CA View® Plug-in for Zowe™ CLI (CLI ZOWE V1)
             description: >-
-              The CA View® Plug-in for Zowe™ CLI lets you access and interact with CA View report data. You can query reports, logical views, and index values.
-              Search for report data using cross-report indexes. Download report data, convert text and AFP reports to PDF. Export text reports to spreadsheets
-              using predefined rules.
-            homepage_url: 'https://www.npmjs.com/package/@broadcom/caview-for-zowe-cli'
+              The CA View® Plug-in for Zowe™ CLI lets you interact with CA View to access report data. You can query reports through logical views, date,
+              version, indexes, and cross report indexes. You can also download report data, convert text and AFP reports to PDF, as well as export text reports
+              to spreadsheets using predefined rules.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/CA-View-Plug-in-for-Zowe-CLI.html
             stock_ticker: AVGO
             logo: ca_viewforzowecli.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -7252,7 +7302,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-01T17:00:23.000Z
+              latest_tweet_date: 2020-05-06T19:00:25.000Z
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI (CLI ZOWE V1)
             description: The IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS programs and transactions
@@ -7305,7 +7355,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-01T17:00:23.000Z
+              latest_tweet_date: 2020-05-06T19:00:25.000Z
           - item:
             name: IBM® Db2® Database Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -7360,7 +7410,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-01T17:00:23.000Z
+              latest_tweet_date: 2020-05-06T19:00:25.000Z
           - item:
             name: IBM® IMS™ Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -7414,7 +7464,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-01T17:00:23.000Z
+              latest_tweet_date: 2020-05-06T19:00:25.000Z
           - item:
             name: CA z/OS Extended Jobs Plug-in for Zowe CLI (CLI ZOWE V1)
             description: The CA z/OS Extended Jobs Plug-in for Zowe CLI extends the CLI to include additional commands for interaction with z/OS jobs.
@@ -7744,7 +7794,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-01T17:00:23.000Z
+              latest_tweet_date: 2020-05-06T19:00:25.000Z
           - item:
             name: IBM® MQ Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -7799,7 +7849,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-01T17:00:23.000Z
+              latest_tweet_date: 2020-05-06T19:00:25.000Z
           - item:
             name: CA MAT/PMA plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -8382,7 +8432,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 105616785408
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-api-mediation-layer-2019.svg
@@ -8424,8 +8474,8 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 1;0;0;2;1;2;9;4;2;1;33;2;3;0;0;1;0;0;0;0;1;3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;2;1;0;2;0;0;0;0;0
-              firstWeek: 2019-05-12Z
+              contributions: 1;0;0;0;2;1;4;7;6;0;25;9;5;0;0;1;0;0;0;0;0;4;0;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0
+              firstWeek: 2019-05-05Z
               stars: 2
               license: Other
               description: Zowe CLI plug-in for MQ that enables users to issue MQSC commands to a queue manager.
@@ -9737,8 +9787,8 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 1;0;0;2;1;2;9;4;2;1;33;2;3;0;0;1;0;0;0;0;1;3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;2;1;0;2;0;0;0;0;0
-              firstWeek: 2019-05-12Z
+              contributions: 1;0;0;0;2;1;4;7;6;0;25;9;5;0;0;1;0;0;0;0;0;4;0;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0
+              firstWeek: 2019-05-05Z
               stars: 2
               license: Other
               description: Zowe CLI plug-in for MQ that enables users to issue MQSC commands to a queue manager.
@@ -12061,7 +12111,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 105616785408
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-plug-in-for-zowe-cli-cli-2019.svg
@@ -12202,7 +12252,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 105616785408
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-plug-in-for-zowe-cli-cli-2019.svg
@@ -12343,7 +12393,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 105616785408
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-ops-mvs-plug-in-for-zowe-cli-cli-2019.svg
@@ -12484,7 +12534,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 105616785408
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-secure-credential-store-plug-in-for-zowe-cli-cli-2019.svg
@@ -12625,7 +12675,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 105616785408
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-files-plug-in-for-zowe-cli-cli-2019.svg
@@ -12766,7 +12816,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 105616785408
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-jobs-plug-in-for-zowe-cli-cli-2019.svg
@@ -12808,8 +12858,8 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 1;0;0;2;1;2;9;4;2;1;33;2;3;0;0;1;0;0;0;0;1;3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;2;1;0;2;0;0;0;0;0
-              firstWeek: 2019-05-12Z
+              contributions: 1;0;0;0;2;1;4;7;6;0;25;9;5;0;0;1;0;0;0;0;0;4;0;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0
+              firstWeek: 2019-05-05Z
               stars: 2
               license: Other
               description: Zowe CLI plug-in for MQ that enables users to issue MQSC commands to a queue manager.
@@ -13281,7 +13331,7 @@ landscape:
                 - name: JavaScript
                   value: 5688
                   color: '#f1e05a'
-              contributions: 0;0;0;0;0;5;1;0;0;4;2;1;10;0;10;6;0;0;4;9;5;0;0;11;36;12;12;4;0;0;3;2;5;1;1;10;6;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0
+              contributions: 0;0;0;0;0;5;1;0;0;3;3;1;10;0;8;8;0;0;2;11;5;0;0;6;38;14;10;7;0;0;3;1;6;1;0;11;6;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0
               firstWeek: 2019-05-12Z
               stars: 5
               license: Other
@@ -13754,7 +13804,7 @@ landscape:
                 - name: Shell
                   value: 3419
                   color: '#89e051'
-              contributions: 1;0;0;0;0;0;4;0;0;7;1;0;3;0;6;3;0;0;0;0;4;0;4;0;0;4;0;0;0;0;0;1;0;0;0;7;5;0;0;0;0;0;0;0;2;0;4;1;0;4;0;0
+              contributions: 1;0;0;0;0;0;4;0;0;7;1;0;3;0;3;3;3;0;0;0;4;0;4;0;0;4;0;0;0;0;0;1;0;0;0;7;5;0;0;0;0;0;0;0;2;0;4;1;0;4;0;0
               firstWeek: 2019-05-12Z
               stars: 3
               license: Other
@@ -13809,7 +13859,7 @@ landscape:
                 - name: Shell
                   value: 1235
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;1;0;0;4;1;12;10;21;4;6;3;3;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;1;0;0;4;0;7;15;21;5;6;2;4;0;0
               firstWeek: 2019-05-12Z
               stars: 5
               license: Other
@@ -16217,7 +16267,7 @@ landscape:
               ticker: BRCM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 105616785408
+              market_cap: 105892642816
               effective_ticker: AVGO
             image_data:
               fileName: broadcom-corporation.svg

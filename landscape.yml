@@ -239,7 +239,7 @@ landscape:
             repo_url: 'https://github.com/openmainframeproject/tersedecompress'
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/tersedecompress/tersedecompress-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-          - item: 
+          - item:
             name: COBOL Programming Course
             homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
             project: incubating
@@ -278,10 +278,11 @@ landscape:
           - item:
             name: CA View® Plug-in for Zowe™ CLI (CLI ZOWE V1)
             description: >-
-              The CA View® Plug-in for Zowe™ CLI lets you access and interact with CA View report data. You can query reports, logical views, and index values.
-              Search for report data using cross-report indexes. Download report data, convert text and AFP reports to PDF. Export text reports to spreadsheets
-              using predefined rules.
-            homepage_url: 'https://www.npmjs.com/package/@broadcom/caview-for-zowe-cli'
+              The CA View® Plug-in for Zowe™ CLI lets you interact with CA View to access report data. You can query reports through logical views, date,
+              version, indexes, and cross report indexes. You can also download report data, convert text and AFP reports to PDF, as well as export text reports
+              to spreadsheets using predefined rules.
+            homepage_url: >-
+              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/CA-View-Plug-in-for-Zowe-CLI.html
             stock_ticker: AVGO
             logo: ca_viewforzowecli.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
