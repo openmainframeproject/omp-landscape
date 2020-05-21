@@ -419,7 +419,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
-            name: CA SYSVIEW® Performance Management Plug-in for Zowe CLI
+            name: CA SYSVIEW® Performance Management Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
               The CA SYSVIEW Performance Management Plug-in for Zowe CLI lets Application Developers, DevOps and CI/CD Administrators, and other similar IT
               roles issue CA SYSVIEW commands that take actions or display data.
@@ -427,6 +427,14 @@ landscape:
               https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html
             stock_ticker: AVGO
             logo: ca_sysview.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+          - item:
+            name: CA Endevor® Bridge For Git plug-in for Zowe CLI (CLI ZOWE V1)
+            description: The CA Endevor® Bridge for Git Plug-in for Zowe CLI lets you interact with CA Endevor® Bridge For Git to perform tasks through Zowe CLI
+            homepage_url: 'https://www.npmjs.com/package/@broadcom/endevor-bridge-for-git-for-zowe-cli'
+            stock_ticker: AVGO
+            logo: ca_endevor_git.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
       - subcategory:
