@@ -281,6 +281,15 @@ landscape:
             logo: ca_jclcheck.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
+          - item:
+            name: (E)JES (API Mediation Layer ZOWE V1)
+            description: >-
+              (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
+              running JES2 or JES3
+            homepage_url: 'https://phoenixsoftware.com/ejes.htm'
+            logo: omp_phoenix-ejes.svg
+            crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+            allow_duplicate_repo: true
       - subcategory:
         name: App Framework ZOWE V1
         items: null
@@ -436,6 +445,33 @@ landscape:
             stock_ticker: AVGO
             logo: ca_endevor_git.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+          - item:
+            name: CA File Master™ Plus Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: The CA File Master™ Plus Plug-in for Zowe CLI brings advanced file management and data manipulation functionality to the CLI.
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0/ca-brightside-plug-in-for-ca-file-master-plus.html
+            stock_ticker: AVGO
+            logo: omp_catechnologies-cafilemasterplus.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+          - item:
+            name: z/OS Connect EE Plug-in for Zowe CLI (CLI ZOWE V1)
+            description: A Zowe CLI Plug-in for administering z/OS Connect EE servers.
+            homepage_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin/tree/lts-incremental'
+            repo_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
+            logo: omp_ibm-zosconnectee.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
+          - item:
+            name: (E)JES (CLI ZOWE V1)
+            description: >-
+              (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
+              running JES2 or JES3
+            homepage_url: 'https://phoenixsoftware.com/ejes.htm'
+            logo: omp_phoenix-ejes.svg
+            crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
             allow_duplicate_repo: true
       - subcategory:
         name: API Mediation Layer 2019
@@ -671,6 +707,7 @@ landscape:
             logo: omp_ibm-zosconnectee.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: Zowe CLI CICS deploy plug-in (CLI 2019)
             description: Deploy applications developed on a workstation to IBM CICS Transaction Server for z/OS.
