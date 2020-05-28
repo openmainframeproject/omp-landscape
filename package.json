@@ -1,7 +1,7 @@
 {
-  "name": "aswf-interactive-landscape",
+  "name": "omp-interactive-landscape",
   "version": "1.0.0",
-  "description": "Interactive visualization of Academy Software Foundation",
+  "description": "Interactive visualization of Open Mainframe Project",
   "engines": {
     "npm": ">=3",
     "node": ">= 10.5"
@@ -13,13 +13,13 @@
   "author": "ASWF",
   "license": "Apache-2.0",
   "dependencies": {
-    "eslint": "6.1.0",
-    "interactive-landscape": "^1.0.374",
+    "eslint": "7.1.0",
+    "interactive-landscape": "^1.0.385",
     "node-fetch": "2.6.0"
   },
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AcademySoftwareFoundation/aswf-landscape"
+    "url": "https://github.com/openmainframeproject/omp-landscape"
   }
 }
