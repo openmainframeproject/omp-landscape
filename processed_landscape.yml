@@ -6484,6 +6484,55 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-05-06T19:00:25.000Z
+          - item:
+            name: COBOL Programming Course
+            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: COBOL
+                  value: 65951
+                - name: TeX
+                  value: 4631
+                  color: '#3D6117'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13;5;85;30;10;5;3
+              firstWeek: 2019-06-02Z
+              stars: 1537
+              license: Creative Commons Attribution 4.0 International
+              description: Training materials and labs for a "Getting Started" level course on COBOL
+              latest_commit_date: '2020-05-26T20:19:43Z'
+              latest_commit_link: /openmainframeproject/cobol-programming-course/commit/135d1eaf916b906bc406d350376be25f5a36c7b7
+              release_date: '2020-05-05T20:35:26Z'
+              release_link: 'https://github.com/openmainframeproject/cobol-programming-course/releases'
+              contributors_count: 15
+              contributors_link: 'https://github.com/openmainframeproject/cobol-programming-course/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/cobol-programming-course/commit/53e022f5cf577be0d670b134db4f7bafcaa4ea23
+              start_date: '2020-04-11T13:32:13Z'
+            image_data:
+              fileName: cobol-programming-course.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-06T19:00:25.000Z
   - category:
     name: Zowe Conformant
     subcategories:
