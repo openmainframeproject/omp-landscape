@@ -111,12 +111,6 @@ big_picture:
     name: Landscape
     title: Open Mainframe Project Landscape
     fullscreen_header: See the interactive landscape at l.openmainframeproject.org
-    size:
-      width: 1155
-      height: 700
-    fullscreen_size:
-      width: 1155
-      height: 700
     elements:
       - type: HorizontalCategory
         category: Projects
@@ -126,7 +120,7 @@ big_picture:
         top: 0
         left: 0
         color: 'rgb(37,81,209)'
-        fit_width: false
+        fit_width: true
       - type: HorizontalCategory
         category: Zowe Conformant
         rows: 3
@@ -167,7 +161,7 @@ big_picture:
         width: 345
         height: 200
         top: 0
-        left: 770
+        left: 765
         children:
           - type: text
             text: >
