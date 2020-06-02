@@ -220,6 +220,13 @@ landscape:
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/atom/atom-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
+            name: COBOL Programming Course
+            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
             name: Ductwork
             homepage_url: 'https://github.com/trothr/ductwork'
             repo_url: 'https://github.com/trothr/ductwork'
@@ -238,13 +245,6 @@ landscape:
             project: incubating
             repo_url: 'https://github.com/openmainframeproject/tersedecompress'
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/tersedecompress/tersedecompress-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-          - item:
-            name: COBOL Programming Course
-            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
-            project: incubating
-            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
   - category:
     name: Zowe Conformant
@@ -717,12 +717,6 @@ landscape:
             logo: phoenix-software-international.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
           - item:
-            name: Sine Nomine Associates
-            homepage_url: 'https://www.sinenomine.net/'
-            logo: sinenomine.svg
-            twitter: 'https://twitter.com/SNA_USA'
-            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
-          - item:
             name: Precisely
             description: >-
               Precisely's data integration, data quality, location intelligence, and data enrichment products power better business decisions to create better
@@ -731,6 +725,12 @@ landscape:
             logo: precisely.svg
             twitter: 'https://twitter.com/preciselydata'
             crunchbase: 'https://www.crunchbase.com/organization/syncsort'
+          - item:
+            name: Sine Nomine Associates
+            homepage_url: 'https://www.sinenomine.net/'
+            logo: sinenomine.svg
+            twitter: 'https://twitter.com/SNA_USA'
+            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
           - item:
             name: Vicom Infinity
             homepage_url: 'http://www.vicominfinity.com/'
