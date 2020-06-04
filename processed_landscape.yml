@@ -9344,6 +9344,35 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-04-30T14:30:12.000Z
+          - item:
+            name: IBM RSE API Plug-in for Zowe CLI v.1.0.0 (CLI ZOWE V1)
+            description: The IBM RSE API Plug-in for Zowe CLI allows you to interact with z/OS by using IBM Remote System Explorer API (RSE API)
+            homepage_url: 'https://developer.ibm.com/mainframe/2020/04/10/20994/'
+            logo: ibm-rse-api.svg
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            image_data:
+              fileName: ibm-rse-api-plug-in-for-zowe-cli-v-1-0-0-cli-zowe-v1.svg
+              hash: jQ0+FwQdtDPronGVSnfgUaUck6kT1Anto9wmJ9GVxcU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-06T19:00:25.000Z
       - subcategory:
         name: API Mediation Layer 2019
         items:
@@ -15945,7 +15974,7 @@ landscape:
                 - name: Pascal
                   value: 77722
                   color: '#E3F171'
-                - name: 'C#'
+                - name: C#
                   value: 55627
                   color: '#178600'
                 - name: DIGITAL Command Language
@@ -16134,7 +16163,7 @@ landscape:
                   color: '#596706'
                 - name: Cool
                   value: 28670
-                - name: 'C#'
+                - name: C#
                   value: 27973
                   color: '#178600'
                 - name: Pawn
