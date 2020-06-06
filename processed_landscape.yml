@@ -489,7 +489,7 @@ landscape:
                 - name: C++
                   value: 952
                   color: '#f34b7d'
-              contributions: 1;0;0;0;0;2;0;0;0;0;1;1;2;1;5;3;3;0;2;6;4;9;7;3;0;3;1;1;10;2;2;18;6;0;6;4;31;43;33;16;11;8;8;19;19;5;25;9;12;6;1;1
+              contributions: 1;0;0;0;0;2;0;0;0;0;2;0;2;1;6;2;3;0;3;5;6;9;6;2;0;3;1;7;4;2;2;21;3;0;7;6;38;39;31;12;13;6;10;18;18;7;23;12;10;5;2;0
               firstWeek: 2019-06-09Z
               stars: 19
               license: Apache License 2.0
@@ -934,7 +934,7 @@ landscape:
                 - name: Shell
                   value: 1073
                   color: '#89e051'
-              contributions: 0;9;0;0;0;0;1;0;0;0;0;1;1;1;0;0;0;0;0;0;0;1;6;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;1;3;0;0;0;0
+              contributions: 5;4;0;0;0;0;1;0;0;0;0;1;1;1;0;0;0;0;0;0;0;1;6;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;2;0;0;0;0;1;3;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 3
               license: Other
@@ -1836,7 +1836,7 @@ landscape:
                 - name: Dockerfile
                   value: 375
                   color: '#384d54'
-              contributions: 9;16;1;0;2;2;8;14;3;1;7;1;1;2;4;1;3;10;0;5;5;4;5;15;4;5;8;3;0;0;1;2;2;6;3;9;5;4;5;4;7;13;5;2;0;3;1;4;5;0;0;0
+              contributions: 11;11;1;0;2;2;10;12;3;2;6;1;3;2;2;1;4;9;0;5;5;5;5;14;4;5;9;2;0;0;1;2;2;6;3;10;5;4;5;4;7;13;4;2;1;2;1;5;4;0;0;0
               firstWeek: 2019-06-09Z
               stars: 36
               license: MIT License
@@ -4065,10 +4065,10 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 2189101
+                  value: 2189318
                   color: '#3572A5'
                 - name: HTML
-                  value: 189344
+                  value: 190552
                   color: '#e34c26'
                 - name: Rust
                   value: 35431
@@ -4081,15 +4081,15 @@ landscape:
                   color: '#384d54'
                 - name: Mako
                   value: 1073
-              contributions: 0;3;4;2;2;5;3;0;0;3;0;2;2;2;0;1;0;0;2;4;1;0;0;0;4;0;0;0;0;0;0;2;2;2;6;1;1;3;5;0;4;2;4;2;5;1;6;0;0;4;0;0
+              contributions: 1;2;4;2;2;7;1;0;0;3;0;2;2;2;0;1;0;0;2;4;1;0;0;0;4;0;0;0;0;0;0;2;3;1;6;1;1;3;5;0;4;2;4;2;5;1;6;0;0;4;1;5
               firstWeek: 2019-06-09Z
               stars: 1
               license: Apache License 2.0
               description: >-
                 This is a mirror for a public repository https://gitlab.com/tessia-project/tessia Task Execution Supporter and System Installation Assistant - A
                 tool to automate and simplify the installation/configuration/testing of Linux systems running on the IBM Z platform.
-              latest_commit_date: '2020-05-20T14:48:38Z'
-              latest_commit_link: /tessia-project/tessia/commit/8047c11173518a8462aa63e6ce1a137d063cafd0
+              latest_commit_date: '2020-06-05T12:49:26Z'
+              latest_commit_link: /tessia-project/tessia/commit/5ea1b4e32ac6c2857bf4b70ad751bc4edd4b02de
               contributors_count: 4
               contributors_link: 'https://github.com/tessia-project/tessia/graphs/contributors'
             github_start_commit_data:
@@ -4619,7 +4619,7 @@ landscape:
               languages:
                 - name: REXX
                   value: 26164
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 2
               license: Unknown License
@@ -4819,7 +4819,7 @@ landscape:
                   color: '#b07219'
                 - name: REXX
                   value: 16014
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13;0;0;0;0;0;0;0;2;0;0;2;0;80;0;0;0;1;1;4;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13;0;0;0;0;0;0;0;2;0;0;2;78;2;0;0;0;1;1;4;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 6
               license: Apache License 2.0
@@ -4882,7 +4882,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T12:09:04.000Z
+              latest_tweet_date: 2020-06-05T19:57:45.000Z
           - item:
             name: z/OS Node Accessor
             homepage_url: 'https://github.com/IBM/zos-node-accessor'
@@ -5299,7 +5299,7 @@ landscape:
                 - name: JavaScript
                   value: 530
                   color: '#f1e05a'
-              contributions: 0;1;0;1;0;7;3;0;1;1;0;1;0;0;0;0;1;2;0;0;0;0;0;0;0;0;0;5;2;0;2;1;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;4;3;0;0;0
+              contributions: 0;1;0;1;4;3;3;0;2;0;1;0;0;0;0;0;2;1;0;0;0;0;0;0;0;0;0;5;2;0;2;1;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;5;2;0;0;0
               firstWeek: 2019-06-09Z
               stars: 18
               license: Eclipse Public License 1.0
@@ -5765,7 +5765,7 @@ landscape:
                 - name: Shell
                   value: 2325
                   color: '#89e051'
-              contributions: 0;0;2;0;2;5;13;5;0;1;0;0;0;2;0;0;8;15;0;3;1;3;7;9;1;3;1;0;0;0;8;0;0;0;0;0;0;2;0;0;1;0;1;0;3;6;0;0;0;1;11;0
+              contributions: 0;1;1;0;2;5;13;5;0;1;0;0;0;2;0;0;8;15;0;3;2;2;10;7;0;3;1;0;0;0;8;0;0;0;0;0;0;2;0;0;1;0;1;0;3;6;0;0;0;1;11;0
               firstWeek: 2019-06-09Z
               stars: 154
               license: Apache License 2.0
@@ -5867,7 +5867,7 @@ landscape:
               start_commit_link: /walmartlabs/zECS/commit/9a1b04dd3d76bd4aa5b92a40c99ffd3dd33c50af
               start_date: '2016-11-22T03:15:05Z'
             yahoo_finance_data:
-              market_cap: 346023133184
+              market_cap: 344251858944
               effective_ticker: WMT
             image_data:
               fileName: z-ecs.svg
@@ -5956,7 +5956,7 @@ landscape:
               start_commit_link: /walmartlabs/zFAM/commit/93f3ced6f001dc7a027741a19335315c0cba0b59
               start_date: '2016-11-22T03:35:49Z'
             yahoo_finance_data:
-              market_cap: 346023133184
+              market_cap: 344251858944
               effective_ticker: WMT
             image_data:
               fileName: z-fam.svg
@@ -5991,7 +5991,7 @@ landscape:
               languages:
                 - name: REXX
                   value: 785325
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;28;4;88;107;49;64;72;85;81;50;71;14;13;43;39;45;41;67;82;78;130;152;47;0;0;7;18;15;9;9;13;17;23;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;16;14;18;94;106;30;68;86;87;66;51;69;11;17;44;35;52;35;64;90;106;118;136;39;0;0;9;17;16;7;12;13;18;19;0;0
               firstWeek: 2019-06-09Z
               stars: 26
               license: Unknown License
@@ -6046,7 +6046,7 @@ landscape:
                   color: '#89e051'
                 - name: PLpgSQL
                   value: 814
-              contributions: 0;36;0;10;6;5;0;21;4;0;2;0;0;0;5;0;6;1;0;4;2;0;7;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;2;0;0;0;25;0
+              contributions: 3;33;0;14;7;0;0;23;2;1;1;0;0;5;0;0;6;1;4;0;2;1;6;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;2;0;0;0;25;0
               firstWeek: 2019-06-09Z
               stars: 18
               license: Apache License 2.0
@@ -6094,7 +6094,7 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 2150766
+                  value: 2150723
                   color: '#b07219'
                 - name: JavaScript
                   value: 188855
@@ -6120,14 +6120,14 @@ landscape:
                 - name: Batchfile
                   value: 521
                   color: '#C1F12E'
-              contributions: 3;3;1;1;1;3;5;5;1;3;0;0;2;3;7;0;2;0;3;4;0;5;5;1;4;2;2;3;1;1;4;4;2;5;9;10;6;16;8;7;7;8;16;7;7;13;3;1;7;13;5;9
+              contributions: 4;2;1;1;1;4;4;5;1;3;0;0;2;3;7;1;1;0;4;3;2;5;3;1;4;2;3;2;1;1;5;4;1;9;8;8;6;16;8;8;8;6;18;4;9;12;2;1;7;15;4;13
               firstWeek: 2019-06-09Z
               stars: 19
               license: Eclipse Public License 2.0
               description: The API Mediation Layer provides a single point of access for mainframe service REST APIs.
-              latest_commit_date: '2020-06-05T09:01:32Z'
-              latest_commit_link: /zowe/api-layer/commit/6a87fbf027712cd15573a8f45e4d14ed46f553d1
-              release_date: '2020-06-03T05:49:11Z'
+              latest_commit_date: '2020-06-05T14:10:54Z'
+              latest_commit_link: /zowe/api-layer/commit/491dc2d4e05d9ca362cdc45abc6a6459429a1009
+              release_date: '2020-06-05T12:01:59Z'
               release_link: 'https://github.com/zowe/api-layer/releases'
               contributors_count: 34
               contributors_link: 'https://github.com/zowe/api-layer/graphs/contributors'
@@ -6223,7 +6223,7 @@ landscape:
               start_commit_link: /walmartlabs/zUID/commit/a57d9be0acc6e1d24a7f628db14c98316a543f07
               start_date: '2016-11-16T22:30:24Z'
             yahoo_finance_data:
-              market_cap: 346023133184
+              market_cap: 344251858944
               effective_ticker: WMT
             image_data:
               fileName: z-uid.svg
@@ -6417,13 +6417,13 @@ landscape:
                 - name: TeX
                   value: 4631
                   color: '#3D6117'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;15;25;72;21;14;2;3;17
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;16;40;71;6;14;2;15;7
               firstWeek: 2019-06-09Z
-              stars: 1542
+              stars: 1544
               license: Creative Commons Attribution 4.0 International
               description: Training materials and labs for a "Getting Started" level course on COBOL
-              latest_commit_date: '2020-06-02T20:41:22Z'
-              latest_commit_link: /openmainframeproject/cobol-programming-course/commit/9f97906c5302eaa33ebde1470fe8fa62dc39c3e6
+              latest_commit_date: '2020-06-05T18:37:10Z'
+              latest_commit_link: /openmainframeproject/cobol-programming-course/commit/a8ae62b845f5ae2987e524b32fd2d24e4b8d2a16
               release_date: '2020-06-02T21:05:21Z'
               release_link: 'https://github.com/openmainframeproject/cobol-programming-course/releases'
               contributors_count: 15
@@ -6505,7 +6505,7 @@ landscape:
               stockExchange: null
             github_data:
               languages: []
-              contributions: 0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;1;0;0;1;0;4;60;0;0;2;1;0;0;9;2;0;0;0;0;0;0;3;0;0;0;0;1;0;0;0;0
+              contributions: 0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;1;0;0;1;0;4;60;0;0;3;0;0;0;11;0;0;0;0;0;0;0;3;0;0;0;1;0;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 23
               license: Creative Commons Attribution 4.0 International
@@ -6734,7 +6734,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 123491450880
+              market_cap: 126765727744
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-api-mediation-layer-2019.svg
@@ -6777,7 +6777,7 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 1;3;8;4;2;18;16;5;0;0;1;0;0;0;0;0;3;1;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0
+              contributions: 1;4;7;6;0;25;9;5;0;0;1;0;0;0;0;0;4;0;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 2
               license: Other
@@ -8094,7 +8094,7 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 1;3;8;4;2;18;16;5;0;0;1;0;0;0;0;0;3;1;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0
+              contributions: 1;4;7;6;0;25;9;5;0;0;1;0;0;0;0;0;4;0;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 2
               license: Other
@@ -10262,7 +10262,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T22:24:51.000Z
+              latest_tweet_date: 2020-06-05T21:43:01.000Z
       - subcategory:
         name: CLI
         items:
@@ -10426,7 +10426,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 123491450880
+              market_cap: 126765727744
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-scm-plug-in-for-zowe-cli-cli-2019.svg
@@ -10568,7 +10568,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 123491450880
+              market_cap: 126765727744
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-plug-in-for-zowe-cli-cli-2019.svg
@@ -10710,7 +10710,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 123491450880
+              market_cap: 126765727744
               effective_ticker: AVGO
             image_data:
               fileName: ca-ops-mvs-plug-in-for-zowe-cli-cli-2019.svg
@@ -10852,7 +10852,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 123491450880
+              market_cap: 126765727744
               effective_ticker: AVGO
             image_data:
               fileName: ca-secure-credential-store-plug-in-for-zowe-cli-cli-2019.svg
@@ -10994,7 +10994,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 123491450880
+              market_cap: 126765727744
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-files-plug-in-for-zowe-cli-cli-2019.svg
@@ -11136,7 +11136,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 123491450880
+              market_cap: 126765727744
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-jobs-plug-in-for-zowe-cli-cli-2019.svg
@@ -11179,7 +11179,7 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 1;3;8;4;2;18;16;5;0;0;1;0;0;0;0;0;3;1;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0
+              contributions: 1;4;7;6;0;25;9;5;0;0;1;0;0;0;0;0;4;0;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 2
               license: Other
@@ -11653,7 +11653,7 @@ landscape:
                 - name: JavaScript
                   value: 5688
                   color: '#f1e05a'
-              contributions: 0;5;1;0;0;6;1;10;0;0;10;6;0;0;7;6;5;0;0;21;26;20;8;0;0;0;3;3;4;1;7;4;6;0;0;0;0;0;0;1;1;0;2;0;0;0;0;0;0;0;0;0
+              contributions: 5;0;1;0;3;3;1;10;0;0;10;6;0;0;10;5;3;0;0;22;28;17;8;0;0;0;3;6;2;0;11;0;6;0;0;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 5
               license: Other
@@ -12127,7 +12127,7 @@ landscape:
                 - name: Shell
                   value: 3419
                   color: '#89e051'
-              contributions: 0;3;1;0;0;7;1;3;0;0;6;3;0;0;0;0;4;0;4;0;1;3;0;0;0;0;0;1;0;0;1;6;5;0;0;0;0;0;0;1;1;0;4;1;0;4;0;0;0;0;0;0
+              contributions: 0;3;1;0;7;1;0;3;0;0;6;3;0;0;0;0;4;0;4;0;4;0;0;0;0;0;0;1;0;0;1;6;5;0;0;0;0;0;0;2;0;2;3;0;0;4;0;0;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 3
               license: Other
@@ -12182,7 +12182,7 @@ landscape:
                 - name: Shell
                   value: 1235
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;1;0;4;0;1;12;11;20;4;7;2;3;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;11;1;0;1;0;4;0;3;12;9;24;6;1;2;3;0;0;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 5
               license: Other
@@ -12624,7 +12624,7 @@ landscape:
                 - name: Shell
                   value: 106
                   color: '#89e051'
-              contributions: 0;0;4;10;6;0;0;0;4;0;0;0;0;0;0;0;3;2;0;0;0;0;0;0;0;0;1;1;0;1;1;0;2;0;0;0;1;1;0;0;0;0;0;2;0;0;3;1;0;3;1;0
+              contributions: 0;0;4;10;6;0;0;0;4;0;0;0;0;0;0;2;1;2;0;0;0;0;0;0;0;0;1;1;0;1;1;0;2;0;0;0;1;1;0;0;0;0;0;2;0;0;4;0;0;4;0;0
               firstWeek: 2019-06-09Z
               stars: 4
               license: Eclipse Public License 2.0
@@ -12683,7 +12683,7 @@ landscape:
                 - name: Shell
                   value: 116
                   color: '#89e051'
-              contributions: 84;59;53;15;0;0;10;0;0;1;4;0;1;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 73;73;30;5;0;0;10;0;0;1;4;0;1;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 8
               license: Eclipse Public License 2.0
@@ -12752,7 +12752,7 @@ landscape:
                 - name: Makefile
                   value: 3555
                   color: '#427819'
-              contributions: 3;2;0;0;0;2;1;4;2;4;2;2;1;0;0;0;8;0;2;0;2;15;1;0;4;4;0;2;1;0;2;0;2;2;1;4;2;4;5;2;1;7;1;0;2;1;0;1;0;0;1;0
+              contributions: 4;0;0;0;0;2;1;4;5;1;3;1;1;0;0;0;8;1;1;0;2;15;1;0;4;4;0;2;1;0;2;1;1;3;1;3;3;3;5;2;1;7;1;0;3;0;0;1;0;0;1;0
               firstWeek: 2019-06-09Z
               stars: 33
               license: Unknown License
@@ -12873,9 +12873,9 @@ landscape:
                 - name: Vim script
                   value: 111
                   color: '#199f4b'
-              contributions: 14;20;16;24;16;16;24;12;11;29;19;14;21;33;20;15;22;13;4;19;18;11;12;25;5;10;16;13;16;2;25;13;10;9;9;5;4;9;1;2;0;1;8;7;0;0;0;0;4;3;0;0
+              contributions: 11;29;10;22;15;29;16;8;13;34;9;23;15;35;16;16;23;11;4;24;14;16;17;16;3;11;15;24;6;0;25;16;11;6;9;6;6;5;1;2;0;1;9;6;0;0;0;0;5;2;0;0
               firstWeek: 2019-06-09Z
-              stars: 1897
+              stars: 1896
               license: Apache License 2.0
               description: >-
                 Cloud Foundry BOSH is an open source tool chain for release engineering, deployment and lifecycle management of large scale distributed
@@ -12920,7 +12920,7 @@ landscape:
               stockExchange: null
             github_data:
               languages: []
-              contributions: 8;7;3;0;2;0;0;0;2;17;12;0;0;1;5;0;1;0;0;0;1;0;1;0;13;8;1;0;0;0;21;9;7;8;12;6;14;37;0;9;0;6;2;7;0;0;11;6;14;14;11;5
+              contributions: 11;5;2;0;2;0;0;0;2;17;12;0;0;3;3;1;0;0;0;0;1;0;1;2;11;9;0;0;0;0;21;14;2;8;12;6;14;37;3;6;0;7;1;7;0;0;11;11;12;13;10;4
               firstWeek: 2019-06-09Z
               stars: 278
               license: Unknown License
@@ -12986,7 +12986,7 @@ landscape:
                 - name: Python
                   value: 12007
                   color: '#3572A5'
-              contributions: 1;7;4;13;2;6;2;0;7;10;5;7;17;13;9;13;7;16;5;5;7;6;10;7;8;11;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 2;6;12;5;5;3;2;1;9;7;6;12;13;14;6;14;9;13;6;4;7;6;12;5;8;11;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 1570
               license: Other
@@ -13106,7 +13106,7 @@ landscape:
                 - name: Roff
                   value: 14723
                   color: '#ecdebe'
-              contributions: 3;6;2;2;6;0;3;7;10;7;7;10;19;7;6;1;3;1;14;21;3;9;9;10;10;5;6;6;12;3;2;0;9;6;13;12;13;6;33;8;7;16;2;24;4;1;1;5;2;2;2;3
+              contributions: 3;6;2;4;4;0;5;7;8;8;8;16;11;7;6;1;3;4;14;18;3;12;6;11;9;8;4;6;11;3;2;0;9;8;11;13;12;6;35;6;7;17;1;24;4;1;1;5;2;2;2;3
               firstWeek: 2019-06-09Z
               stars: 301
               license: Other
@@ -13271,13 +13271,13 @@ landscape:
                   value: 8
                   color: '#563d7c'
               contributions: >-
-                150;174;146;230;253;98;146;94;106;259;192;103;115;137;189;104;208;168;168;167;164;175;236;226;131;153;216;204;74;75;168;177;199;190;134;141;143;138;146;101;141;120;119;143;94;179;137;145;179;150;142;144
+                141;189;127;264;229;94;136;116;95;266;192;101;110;129;193;113;221;168;173;144;164;197;241;201;144;150;237;196;35;91;200;162;193;194;155;126;155;134;148;98;149;118;117;132;105;174;133;156;184;143;159;124
               firstWeek: 2019-06-09Z
-              stars: 3857
+              stars: 3863
               license: Other
               description: null
-              latest_commit_date: '2020-06-05T09:34:59Z'
-              latest_commit_link: /gcc-mirror/gcc/commit/9a182ef9ee011935d827ab5c6c9a7cd8e22257d8
+              latest_commit_date: '2020-06-06T08:26:56Z'
+              latest_commit_link: /gcc-mirror/gcc/commit/1ca05dead046d88c4bd9e7b8f3129269a5c5eea4
               contributors_count: 850
               contributors_link: 'https://github.com/gcc-mirror/gcc/graphs/contributors'
             github_start_commit_data:
@@ -13315,38 +13315,38 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 266241458
+                  value: 266322204
                   color: '#f34b7d'
                 - name: LLVM
-                  value: 167750526
+                  value: 167696196
                   color: '#185619'
                 - name: C
-                  value: 64981804
+                  value: 65000114
                   color: '#555555'
                 - name: Assembly
-                  value: 59531652
+                  value: 59552204
                   color: '#6E4C13'
                 - name: Python
-                  value: 8085854
+                  value: 8096852
                   color: '#3572A5'
                 - name: Objective-C
-                  value: 4001999
+                  value: 4002011
                   color: '#438eff'
                 - name: MLIR
-                  value: 2491780
+                  value: 2499217
                 - name: CMake
-                  value: 2105847
+                  value: 2107230
                 - name: HTML
-                  value: 1943831
+                  value: 1943817
                   color: '#e34c26'
                 - name: Objective-C++
-                  value: 1026783
+                  value: 1026693
                   color: '#6866fb'
                 - name: Shell
                   value: 939703
                   color: '#89e051'
                 - name: Fortran
-                  value: 831772
+                  value: 832056
                   color: '#4d41b1'
                 - name: Cuda
                   value: 628343
@@ -13462,18 +13462,18 @@ landscape:
                 - name: Logos
                   value: 28
               contributions: >-
-                645;725;712;638;764;752;605;598;765;741;716;725;640;694;624;709;706;840;728;483;582;612;607;648;462;544;637;618;421;342;582;768;675;720;741;771;733;649;646;578;626;620;708;765;751;732;726;628;583;603;584;608
+                681;717;671;639;821;719;581;615;779;724;733;714;637;704;588;727;741;823;707;470;580;647;591;645;412;608;620;629;366;401;584;784;669;712;735;755;752;631;616;620;630;605;740;744;758;747;694;621;606;576;630;628
               firstWeek: 2019-06-09Z
-              stars: 4875
+              stars: 4886
               license: Unknown License
               description: >-
                 The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Note: the repository does not accept github pull
                 requests at this moment. Please submit your patches at http://reviews.llvm.org.
-              latest_commit_date: '2020-06-05T10:02:47Z'
-              latest_commit_link: /llvm/llvm-project/commit/16b7eb6dd1247dbe322061d33636a054d6c954dc
+              latest_commit_date: '2020-06-06T10:02:07Z'
+              latest_commit_link: /llvm/llvm-project/commit/1eda9bfd6129a0da4cb6e4619d230ab0e08d33f9
               release_date: '2020-05-20T00:40:45Z'
               release_link: 'https://github.com/llvm/llvm-project/releases'
-              contributors_count: 1391
+              contributors_count: 1393
               contributors_link: 'https://github.com/llvm/llvm-project/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /llvm/llvm-project/commit/97724f18c79c7cc81ced24239eb5e883bf1398ef
@@ -13538,7 +13538,7 @@ landscape:
                 - name: Shell
                   value: 539
                   color: '#89e051'
-              contributions: 1;1;0;2;1;0;0;3;4;7;0;1;3;0;2;11;0;7;0;3;4;7;4;15;11;4;23;0;0;5;0;9;5;7;4;1;0;0;0;2;0;1;7;3;0;0;3;4;2;3;12;0
+              contributions: 1;1;0;2;1;0;0;3;4;7;0;1;3;0;2;11;0;7;0;3;7;4;4;15;11;4;23;0;1;4;0;9;5;9;2;1;0;0;0;2;1;0;7;3;0;0;3;4;2;8;7;0
               firstWeek: 2019-06-09Z
               stars: 400
               license: Other
@@ -13623,7 +13623,7 @@ landscape:
                   color: '#198CE7'
                 - name: Raku
                   value: 1924
-              contributions: 9;8;2;5;10;8;15;6;4;19;8;10;14;16;2;7;8;14;5;12;11;17;5;22;14;15;5;2;14;34;15;8;10;3;14;50;36;34;40;38;19;19;10;9;41;44;21;11;26;16;5;28
+              contributions: 9;7;4;3;10;10;13;7;6;20;4;16;13;12;3;6;9;12;9;17;4;15;6;21;20;11;4;3;19;32;10;8;10;3;22;45;38;30;49;34;20;12;13;11;38;47;19;10;24;16;6;28
               firstWeek: 2019-06-09Z
               stars: 3338
               license: BSD 3-Clause "New" or "Revised" License
@@ -13670,10 +13670,10 @@ landscape:
             github_data:
               languages:
                 - name: C
-                  value: 38186105
+                  value: 38189220
                   color: '#555555'
                 - name: PLpgSQL
-                  value: 2781570
+                  value: 2781709
                 - name: Perl
                   value: 1077843
                   color: '#0298c3'
@@ -13730,15 +13730,15 @@ landscape:
                   value: 1231
                   color: '#64b970'
               contributions: >-
-                41;40;22;46;34;49;42;36;30;26;35;30;22;39;34;46;43;38;24;32;28;42;42;34;39;29;32;46;32;19;41;37;32;38;29;38;32;43;39;43;59;56;86;90;43;50;38;52;54;49;24;17
+                47;31;23;53;30;50;41;34;31;30;29;31;30;36;36;47;43;29;28;36;23;44;37;40;37;30;28;51;29;22;39;40;29;41;33;28;46;32;37;44;60;56;100;75;46;52;39;48;67;37;18;22
               firstWeek: 2019-06-09Z
               stars: 6802
               license: Other
               description: >-
                 Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute,
                 please see https://wiki.postgresql.org/wiki/Submitting_a_Patch
-              latest_commit_date: '2020-06-05T09:18:11Z'
-              latest_commit_link: /postgres/postgres/commit/f0d2c65f17cab8cfaf4d39f7f8e2254824cd4092
+              latest_commit_date: '2020-06-06T03:10:53Z'
+              latest_commit_link: /postgres/postgres/commit/26056b3ba84d6cb51eea5d6c83fefae19919a56b
               contributors_count: 33
               contributors_link: 'https://github.com/postgres/postgres/graphs/contributors'
             github_start_commit_data:
@@ -13886,7 +13886,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 114440396800
+              market_cap: 117255012352
               effective_ticker: IBM
             image_data:
               fileName: red-hat-enterprise-linux.svg
@@ -13895,7 +13895,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-03T13:49:48.000Z
+              latest_tweet_date: 2020-06-05T20:00:04.000Z
           - item:
             name: SUSE Linux Enterprise Server
             homepage_url: 'https://www.suse.com/products/systemz/'
@@ -13924,7 +13924,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-03T17:20:08.000Z
+              latest_tweet_date: 2020-06-05T18:59:42.000Z
           - item:
             name: Ubuntu
             homepage_url: 'https://wiki.ubuntu.com/S390X'
@@ -13981,7 +13981,7 @@ landscape:
             github_data:
               languages:
                 - name: Shell
-                  value: 10120728
+                  value: 10125095
                   color: '#89e051'
                 - name: C
                   value: 232458
@@ -14030,13 +14030,13 @@ landscape:
                   value: 54
                   color: '#00ADD8'
               contributions: >-
-                495;459;428;359;254;256;332;249;229;244;382;461;596;945;299;489;260;267;317;579;562;822;376;472;385;326;311;307;387;302;411;336;283;243;425;352;396;732;539;557;331;366;521;902;803;420;397;466;365;411;457;409
+                464;411;475;335;208;259;359;244;204;274;388;477;560;949;299;535;191;328;278;582;617;789;353;518;353;379;266;256;467;295;399;296;261;272;436;384;395;705;544;554;320;436;459;942;779;421;437;434;350;450;390;409
               firstWeek: 2019-06-09Z
-              stars: 441
+              stars: 440
               license: Unknown License
               description: '[MIRROR] Alpine packages build scripts'
-              latest_commit_date: '2020-06-05T08:25:58Z'
-              latest_commit_link: /alpinelinux/aports/commit/4226dc034e16702b5d8c669750bd58a57da4007d
+              latest_commit_date: '2020-06-06T07:57:03Z'
+              latest_commit_link: /alpinelinux/aports/commit/bc7dbee2ec770e2618003d7a65d581a4c9f3bcb6
               contributors_count: 684
               contributors_link: 'https://github.com/alpinelinux/aports/graphs/contributors'
             github_start_commit_data:
@@ -14094,7 +14094,7 @@ landscape:
                 - name: C
                   value: 379
                   color: '#555555'
-              contributions: 0;2;5;0;10;2;35;0;3;10;15;4;22;1;2;0;6;3;18;25;1;0;0;1;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;2;5;0;10;9;28;0;4;16;9;4;21;2;1;5;1;3;23;20;1;0;0;1;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-06-09Z
               stars: 22
               license: GNU General Public License v2.0
@@ -14164,7 +14164,7 @@ landscape:
                 - name: Vim script
                   value: 45
                   color: '#199f4b'
-              contributions: 8;26;16;3;10;14;12;9;4;10;4;6;4;3;15;7;11;21;18;28;14;14;31;16;9;10;8;4;4;3;11;7;1;1;2;2;4;2;4;7;6;13;5;7;2;6;1;0;2;5;2;2
+              contributions: 9;24;16;4;9;14;12;12;2;9;5;6;3;5;13;10;9;24;21;23;12;15;36;11;11;9;9;1;4;3;13;5;1;1;2;2;4;2;5;6;8;12;5;6;2;6;1;1;1;5;2;2
               firstWeek: 2019-06-09Z
               stars: 104
               license: GNU General Public License v2.0
@@ -14212,7 +14212,7 @@ landscape:
             github_data:
               languages:
                 - name: Shell
-                  value: 50188279
+                  value: 50230773
                   color: '#89e051'
                 - name: Roff
                   value: 655809
@@ -14291,13 +14291,13 @@ landscape:
                 - name: DTrace
                   value: 39
               contributions: >-
-                721;851;872;790;701;1280;1332;2613;1014;1120;1003;1164;982;1294;1265;1283;1588;1193;1867;1106;790;1149;1536;1681;1647;2788;2879;1797;1772;2044;1222;1612;1290;1799;1777;2842;1514;1202;1560;1459;2561;2617;2030;1239;2041;2094;1694;2303;1938;2041;1196;2369
+                706;855;864;812;663;1385;1317;2609;949;1178;1066;1041;990;1508;1246;1308;1365;1374;1707;1152;875;1039;1592;1756;1563;3304;2432;1799;1702;2131;1083;1678;1211;1839;1969;2671;1587;1040;1623;1401;2720;2658;1911;1203;2112;2066;1749;2444;1704;2008;1266;2346
               firstWeek: 2019-06-09Z
-              stars: 1195
+              stars: 1196
               license: Unknown License
               description: '[MIRROR] Official Gentoo ebuild repository'
-              latest_commit_date: '2020-06-05T09:57:31Z'
-              latest_commit_link: /gentoo/gentoo/commit/69f441719c825f093f71bd873f6767943abdd907
+              latest_commit_date: '2020-06-06T09:41:51Z'
+              latest_commit_link: /gentoo/gentoo/commit/0237e3d652779dca69ab5ff9bd1afb09eb13c0e3
               contributors_count: 870
               contributors_link: 'https://github.com/gentoo/gentoo/graphs/contributors'
             github_start_commit_data:
@@ -14357,7 +14357,7 @@ landscape:
                 - name: CSS
                   value: 467
                   color: '#563d7c'
-              contributions: 5;0;0;7;29;11;10;18;15;10;18;40;34;34;23;36;5;17;19;13;6;102;26;49;30;20;25;5;0;1;2;5;4;13;15;4;11;2;10;6;15;6;0;0;0;0;10;6;1;5;0;0
+              contributions: 5;0;0;12;27;14;7;15;16;24;3;42;32;39;20;37;3;17;19;13;53;73;7;54;27;25;19;4;1;0;2;5;4;23;5;6;9;3;12;4;16;4;0;0;0;2;8;6;5;1;0;0
               firstWeek: 2019-06-09Z
               stars: 25
               license: GNU General Public License v2.0
@@ -14378,7 +14378,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T19:02:24.000Z
+              latest_tweet_date: 2020-06-05T11:35:55.000Z
   - category:
     name: Open Mainframe Project Member Company
     subcategories:
@@ -14474,7 +14474,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 64453210112
+              market_cap: 68819714048
               effective_ticker: ADP
             image_data:
               fileName: adp.svg
@@ -14483,7 +14483,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T20:55:12.000Z
+              latest_tweet_date: 2020-06-06T03:46:43.000Z
           - item:
             name: Broadcom Corporation
             homepage_url: 'https://www.broadcom.com'
@@ -14612,7 +14612,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 123491450880
+              market_cap: 126765727744
               effective_ticker: AVGO
             image_data:
               fileName: broadcom-corporation.svg
@@ -15084,7 +15084,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T22:24:51.000Z
+              latest_tweet_date: 2020-06-05T21:43:01.000Z
           - item:
             name: SUSE
             homepage_url: 'https://www.suse.com/'
@@ -15113,7 +15113,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-03T17:20:08.000Z
+              latest_tweet_date: 2020-06-05T18:59:42.000Z
       - subcategory:
         name: Silver
         items:
@@ -15251,7 +15251,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T19:05:08.000Z
+              latest_tweet_date: 2020-06-05T18:05:07.000Z
           - item:
             name: Sine Nomine Associates
             homepage_url: 'https://www.sinenomine.net/'
@@ -15279,7 +15279,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T13:43:31.000Z
+              latest_tweet_date: 2020-06-05T13:48:26.000Z
           - item:
             name: Vicom Infinity
             homepage_url: 'http://www.vicominfinity.com/'
@@ -15306,7 +15306,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T17:00:45.000Z
+              latest_tweet_date: 2020-06-05T16:24:33.000Z
           - item:
             name: Zoss Team LLC
             homepage_url: 'https://www.bizapedia.com/ma/zoss-team-llc.html'
@@ -15361,7 +15361,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T14:32:31.000Z
+              latest_tweet_date: 2020-06-06T01:43:01.000Z
           - item:
             name: Beijing Institute of Technology
             homepage_url: 'http://www.bit.edu.cn/'
@@ -15438,7 +15438,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T20:06:58.000Z
+              latest_tweet_date: 2020-06-05T15:02:03.000Z
           - item:
             name: EPSI
             homepage_url: 'https://www.epsi.fr/'
@@ -15520,7 +15520,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-05T09:17:23.000Z
+              latest_tweet_date: 2020-06-05T11:53:51.000Z
           - item:
             name: Marist College
             homepage_url: 'https://www.marist.edu/'
@@ -15576,7 +15576,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T13:32:35.000Z
+              latest_tweet_date: 2020-06-05T21:11:44.000Z
           - item:
             name: South China University of Technology
             homepage_url: 'https://www.scut.edu.cn'
@@ -15628,7 +15628,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-05T08:58:30.000Z
+              latest_tweet_date: 2020-06-05T14:03:58.000Z
           - item:
             name: University of Washington CIAC
             homepage_url: 'https://www.uwb.edu/ciac'
@@ -15657,7 +15657,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-05T00:00:01.000Z
+              latest_tweet_date: 2020-06-06T00:00:01.000Z
           - item:
             name: University of Wolverhampton
             homepage_url: 'https://www.wlv.ac.uk/'
@@ -15740,7 +15740,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T14:36:53.000Z
+              latest_tweet_date: 2020-06-05T20:47:05.000Z
           - item:
             name: Western University
             homepage_url: 'https://www.uwo.ca/'
@@ -15769,7 +15769,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-04T20:18:45.000Z
+              latest_tweet_date: 2020-06-05T23:11:00.000Z
           - item:
             name: William Patterson University
             homepage_url: 'https://www.wpunj.edu/'
@@ -15957,8 +15957,8 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-03T14:00:09.000Z
+              latest_tweet_date: 2020-06-05T14:00:12.000Z
 twitter_options:
   count: 9
   since_id: '1252029298883661825'
-updated_at: 2020-06-05T10:13:46.652Z
+updated_at: 2020-06-06T10:07:18.405Z
