@@ -6234,6 +6234,145 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-05-27T04:28:00.000Z
       - subcategory:
+        name: Learning and Mentoring
+        items:
+          - item:
+            name: COBOL Programming Course
+            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
+            github_data:
+              languages:
+                - name: COBOL
+                  value: 68305
+                - name: TeX
+                  value: 4631
+                  color: '#3D6117'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13;5;85;30;10;5;4;18;1
+              firstWeek: 2019-06-16Z
+              stars: 1556
+              license: Creative Commons Attribution 4.0 International
+              description: Training materials and labs for a "Getting Started" level course on COBOL
+              latest_commit_date: '2020-06-05T18:37:10Z'
+              latest_commit_link: /openmainframeproject/cobol-programming-course/commit/a8ae62b845f5ae2987e524b32fd2d24e4b8d2a16
+              release_date: '2020-06-02T21:05:21Z'
+              release_link: 'https://github.com/openmainframeproject/cobol-programming-course/releases'
+              contributors_count: 15
+              contributors_link: 'https://github.com/openmainframeproject/cobol-programming-course/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/cobol-programming-course/commit/53e022f5cf577be0d670b134db4f7bafcaa4ea23
+              start_date: '2020-04-11T13:32:13Z'
+            image_data:
+              fileName: cobol-programming-course.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-10T19:02:05.000Z
+          - item:
+            name: Open Mainframe Education
+            homepage_url: 'https://github.com/openmainframeproject/omp-education'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/omp-education'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/education/education-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;9;0;0
+              firstWeek: 2019-06-16Z
+              stars: 1
+              license: Creative Commons Attribution 4.0 International
+              description: Official repository for the Mainframe Open Education project
+              latest_commit_date: '2020-05-27T14:23:15Z'
+              latest_commit_link: /openmainframeproject/omp-education/commit/69eb6db11a9d0aab46cee913f83b7814a8798517
+              contributors_count: 2
+              contributors_link: 'https://github.com/openmainframeproject/omp-education/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/omp-education/commit/87c542e38670920928716f525938396b42f45ce5
+              start_date: '2020-05-26T12:36:35Z'
+            image_data:
+              fileName: open-mainframe-education.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-10T19:02:05.000Z
+          - item:
+            name: Mentorship
+            homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
+            project: graduated
+            repo_url: 'https://github.com/openmainframeproject-internship/resources'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
+            github_data:
+              languages: []
+              contributions: 0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;1;0;0;0;1;4;60;0;0;2;1;0;0;0;11;0;0;0;0;0;0;3;0;0;0;0;1;0;0;0;0;0
+              firstWeek: 2019-06-16Z
+              stars: 24
+              license: Creative Commons Attribution 4.0 International
+              description: Open Mainframe Project Mentorship Program resources
+              latest_commit_date: '2020-05-01T08:51:01Z'
+              latest_commit_link: /openmainframeproject-internship/resources/commit/8251812a8d86c9730fb3b7c37ae0df7424d31cca
+              contributors_count: 3
+              contributors_link: 'https://github.com/openmainframeproject-internship/resources/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject-internship/resources/commit/ed53bdf9419ee7cd904d8ec2236315ae36a35bc9
+              start_date: '2018-12-13T19:41:44Z'
+            image_data:
+              fileName: mentorship.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-10T19:02:05.000Z
+      - subcategory:
         name: Other
         items:
           - item:
@@ -6389,56 +6528,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-06-10T19:02:05.000Z
           - item:
-            name: COBOL Programming Course
-            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
-            project: incubating
-            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-            crunchbase_data:
-              name: Open Mainframe Project
-              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.openmainframeproject.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/OpenMFProject'
-              linkedin: null
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-              stockExchange: null
-            github_data:
-              languages:
-                - name: COBOL
-                  value: 68305
-                - name: TeX
-                  value: 4631
-                  color: '#3D6117'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13;5;85;30;10;5;4;18;1
-              firstWeek: 2019-06-16Z
-              stars: 1556
-              license: Creative Commons Attribution 4.0 International
-              description: Training materials and labs for a "Getting Started" level course on COBOL
-              latest_commit_date: '2020-06-05T18:37:10Z'
-              latest_commit_link: /openmainframeproject/cobol-programming-course/commit/a8ae62b845f5ae2987e524b32fd2d24e4b8d2a16
-              release_date: '2020-06-02T21:05:21Z'
-              release_link: 'https://github.com/openmainframeproject/cobol-programming-course/releases'
-              contributors_count: 15
-              contributors_link: 'https://github.com/openmainframeproject/cobol-programming-course/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /openmainframeproject/cobol-programming-course/commit/53e022f5cf577be0d670b134db4f7bafcaa4ea23
-              start_date: '2020-04-11T13:32:13Z'
-            image_data:
-              fileName: cobol-programming-course.svg
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-06-10T19:02:05.000Z
-          - item:
             name: Ductwork
             homepage_url: 'https://github.com/trothr/ductwork'
             repo_url: 'https://github.com/trothr/ductwork'
@@ -6481,49 +6570,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-          - item:
-            name: Mentorship
-            homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
-            project: graduated
-            repo_url: 'https://github.com/openmainframeproject-internship/resources'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-            crunchbase_data:
-              name: Open Mainframe Project
-              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.openmainframeproject.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/OpenMFProject'
-              linkedin: null
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-              stockExchange: null
-            github_data:
-              languages: []
-              contributions: 0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;1;0;0;0;1;4;60;0;0;2;1;0;0;0;11;0;0;0;0;0;0;3;0;0;0;0;1;0;0;0;0;0
-              firstWeek: 2019-06-16Z
-              stars: 24
-              license: Creative Commons Attribution 4.0 International
-              description: Open Mainframe Project Mentorship Program resources
-              latest_commit_date: '2020-05-01T08:51:01Z'
-              latest_commit_link: /openmainframeproject-internship/resources/commit/8251812a8d86c9730fb3b7c37ae0df7424d31cca
-              contributors_count: 3
-              contributors_link: 'https://github.com/openmainframeproject-internship/resources/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /openmainframeproject-internship/resources/commit/ed53bdf9419ee7cd904d8ec2236315ae36a35bc9
-              start_date: '2018-12-13T19:41:44Z'
-            image_data:
-              fileName: mentorship.svg
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-06-10T19:02:05.000Z
           - item:
             name: TerseDecompress
             homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
