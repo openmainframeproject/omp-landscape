@@ -196,6 +196,30 @@ landscape:
             logo: zuid.svg
             crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
       - subcategory:
+        name: Learning and Mentoring
+        items:
+          - item:
+            name: COBOL Programming Course
+            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: Open Mainframe Education
+            homepage_url: 'https://github.com/openmainframeproject/omp-education'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/omp-education'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/education/education-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: Mentorship
+            homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
+            project: graduated
+            repo_url: 'https://github.com/openmainframeproject-internship/resources'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+      - subcategory:
         name: Other
         items:
           - item:
@@ -220,25 +244,11 @@ landscape:
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/atom/atom-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
-            name: COBOL Programming Course
-            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
-            project: incubating
-            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-          - item:
             name: Ductwork
             homepage_url: 'https://github.com/trothr/ductwork'
             repo_url: 'https://github.com/trothr/ductwork'
             logo: ductwork.svg
             crunchbase: 'https://www.crunchbase.com/organization/la-casita'
-          - item:
-            name: Mentorship
-            homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
-            project: graduated
-            repo_url: 'https://github.com/openmainframeproject-internship/resources'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
             name: TerseDecompress
             homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
