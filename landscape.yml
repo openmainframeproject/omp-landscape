@@ -9,6 +9,7 @@ landscape:
             name: crc32-s390x
             homepage_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
             repo_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
+            stock_ticker: IBM
             logo: crc32-s390x.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -23,6 +24,7 @@ landscape:
             name: libica
             homepage_url: 'https://github.com/opencryptoki/libica'
             repo_url: 'https://github.com/opencryptoki/libica'
+            stock_ticker: IBM
             logo: libica.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -31,6 +33,7 @@ landscape:
             description: qclib provides a C API for extraction of system information for Linux on z Systems.
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/qclib.html'
             repo_url: 'https://github.com/openmainframeproject/qclib'
+            stock_ticker: IBM
             logo: qclib.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -38,6 +41,7 @@ landscape:
             name: s390-tools
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/s390-tools.html'
             repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
+            stock_ticker: IBM
             logo: s390-tools.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -45,6 +49,7 @@ landscape:
             name: SMC Tools
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/smc-tools.html'
             repo_url: 'https://github.com/openmainframeproject/smc-tools'
+            stock_ticker: IBM
             logo: smc-tools.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -53,6 +58,7 @@ landscape:
             description: Linux on System z snIPL 'simple network IPL' package.
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/snipl.html'
             repo_url: 'https://github.com/openmainframeproject/snipl'
+            stock_ticker: IBM
             logo: snipl.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -61,6 +67,7 @@ landscape:
             description: src_vipa is a recommended utility that provides a very flexible means of source address selection to arbitrary applications.
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/useful_add-ons_vipa.html'
             repo_url: 'https://github.com/openmainframeproject/src_vipa'
+            stock_ticker: IBM
             logo: srcvipa.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -72,6 +79,7 @@ landscape:
               shell and use it as a rescue system.
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/sysload.html'
             repo_url: 'https://github.com/openmainframeproject/sysload'
+            stock_ticker: IBM
             logo: sysload.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -80,6 +88,7 @@ landscape:
             description: A tool to automate and simplify the installation/configuration/testing of Linux systems running on the IBM Z platform
             homepage_url: 'https://github.com/tessia-project'
             repo_url: 'https://github.com/tessia-project/tessia'
+            stock_ticker: IBM
             logo: tessia_logo.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -94,6 +103,7 @@ landscape:
             description: 'zfcp HBA API library, Version 2, is part of an implementation of FC-HBA for the ZFCP device driver to be used with the Linux on Z distributions.'
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/zfcp-hbaapi.html'
             repo_url: 'https://github.com/openmainframeproject/zfcp-hbaapi'
+            stock_ticker: IBM
             logo: zfcp-hbaapi.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -144,6 +154,7 @@ landscape:
             name: z/OS Node Accessor
             homepage_url: 'https://github.com/IBM/zos-node-accessor'
             repo_url: 'https://github.com/IBM/zos-node-accessor'
+            stock_ticker: IBM
             logo: zos-node-accessor.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -151,6 +162,7 @@ landscape:
             name: z/OS Tools
             homepage_url: 'https://github.com/IBM/IBM-Z-zOS'
             repo_url: 'https://github.com/IBM/IBM-Z-zOS'
+            stock_ticker: IBM
             logo: zos-tools.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -206,18 +218,18 @@ landscape:
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
-            name: Open Mainframe Education
-            homepage_url: 'https://github.com/openmainframeproject/omp-education'
-            project: incubating
-            repo_url: 'https://github.com/openmainframeproject/omp-education'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/education/education-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-          - item:
             name: Mentorship
             homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
             project: graduated
             repo_url: 'https://github.com/openmainframeproject-internship/resources'
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: Open Mainframe Education
+            homepage_url: 'https://github.com/openmainframeproject/omp-education'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/omp-education'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/education/education-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
       - subcategory:
         name: Other
@@ -287,6 +299,7 @@ landscape:
               Simplifies schedulers' and system administrators' tasks with new advanced automation features, enables integration of workload automation in
               hybrid cloud application through REST API and command line that can easily integrated in applications and scripting.
             homepage_url: 'https://www.ibm.com/us-en/marketplace/tivoli-workload-scheduler-for-z-systems'
+            stock_ticker: IBM
             logo: ibm-z-workflow-scheduler.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -296,6 +309,7 @@ landscape:
               Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
               practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
             homepage_url: 'https://www.ibm.com/products/db2-devops-experience'
+            stock_ticker: IBM
             logo: omp_ibm-db2.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -303,6 +317,7 @@ landscape:
             name: IBM® Z Netview (API Mediation Layer 2019)
             description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
             homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en'
+            stock_ticker: IBM
             logo: omp_ibm-netview.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -322,6 +337,7 @@ landscape:
               Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
               practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
             homepage_url: 'https://www.ibm.com/products/db2-devops-experience'
+            stock_ticker: IBM
             logo: omp_ibm-db2.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -329,6 +345,7 @@ landscape:
             name: IBM® Service Automation Suite (App Framework 2019)
             description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
             homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/5/897/ENUS219-085/index.html&request_locale=en'
+            stock_ticker: IBM
             logo: omp_ibm-sas.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -338,6 +355,7 @@ landscape:
               IBM® Service Management Suite is focused on delivering comprehensive management of your z/OS enterprise, encompassing monitoring, automation,
               network management, and asset discovery.
             homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/897/ENUS217-270/index.html&request_locale=en'
+            stock_ticker: IBM
             logo: omp_ibm-sms-for-zos.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -347,6 +365,7 @@ landscape:
               IBM® Service Management Unite(SMU) is a customizable service management user interface that provides dashboards to monitor and operate IBM Z
               environments. Zowe application plugin for SMU is provided to allow user to use SMU directly on Zowe Desktop.
             homepage_url: 'https://www.ibm.com/products/ibm-service-management-unite'
+            stock_ticker: IBM
             logo: omp_ibm-servicemanagement.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -354,6 +373,7 @@ landscape:
             name: IBM® Z Netview (App Framework 2019)
             description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
             homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en'
+            stock_ticker: IBM
             logo: omp_ibm-netview.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -447,6 +467,7 @@ landscape:
               Simplifies schedulers' and system administrators' tasks with new advanced automation features, enables integration of workload automation in
               hybrid cloud application through REST API and command line that can easily integrated in applications and scripting.
             homepage_url: 'https://www.ibm.com/us-en/marketplace/tivoli-workload-scheduler-for-z-systems'
+            stock_ticker: IBM
             logo: ibm-z-workflow-scheduler.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -463,6 +484,7 @@ landscape:
               Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
               practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
             homepage_url: 'https://www.ibm.com/products/db2-devops-experience'
+            stock_ticker: IBM
             logo: omp_ibm-db2.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -487,6 +509,7 @@ landscape:
             description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.
             homepage_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
             repo_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
+            stock_ticker: IBM
             logo: omp_ibm-zosconnectee.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -695,6 +718,7 @@ landscape:
           - item:
             name: IBM
             homepage_url: 'https://www.ibm.com/us-en/?ar=1'
+            stock_ticker: IBM
             logo: ibm.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
