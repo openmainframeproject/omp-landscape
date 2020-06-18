@@ -10,6 +10,7 @@ landscape:
             name: crc32-s390x
             homepage_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
             repo_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
+            stock_ticker: IBM
             logo: crc32-s390x.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -512,6 +513,7 @@ landscape:
             name: libica
             homepage_url: 'https://github.com/opencryptoki/libica'
             repo_url: 'https://github.com/opencryptoki/libica'
+            stock_ticker: IBM
             logo: libica.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -959,6 +961,7 @@ landscape:
             description: qclib provides a C API for extraction of system information for Linux on z Systems.
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/qclib.html'
             repo_url: 'https://github.com/openmainframeproject/qclib'
+            stock_ticker: IBM
             logo: qclib.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -1402,6 +1405,7 @@ landscape:
             name: s390-tools
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/s390-tools.html'
             repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
+            stock_ticker: IBM
             logo: s390-tools.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -2305,6 +2309,7 @@ landscape:
             description: Linux on System z snIPL 'simple network IPL' package.
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/snipl.html'
             repo_url: 'https://github.com/openmainframeproject/snipl'
+            stock_ticker: IBM
             logo: snipl.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -3649,6 +3654,7 @@ landscape:
             description: A tool to automate and simplify the installation/configuration/testing of Linux systems running on the IBM Z platform
             homepage_url: 'https://github.com/tessia-project'
             repo_url: 'https://github.com/tessia-project/tessia'
+            stock_ticker: IBM
             logo: tessia_logo.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -4866,6 +4872,7 @@ landscape:
             name: z/OS Node Accessor
             homepage_url: 'https://github.com/IBM/zos-node-accessor'
             repo_url: 'https://github.com/IBM/zos-node-accessor'
+            stock_ticker: IBM
             logo: zos-node-accessor.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -5303,6 +5310,7 @@ landscape:
             name: z/OS Tools
             homepage_url: 'https://github.com/IBM/IBM-Z-zOS'
             repo_url: 'https://github.com/IBM/IBM-Z-zOS'
+            stock_ticker: IBM
             logo: zos-tools.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -6202,6 +6210,145 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-05-05T21:35:01.000Z
       - subcategory:
+        name: Learning and Mentoring
+        items:
+          - item:
+            name: COBOL Programming Course
+            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: COBOL
+                  value: 64832
+                - name: TeX
+                  value: 4631
+                  color: '#3D6117'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;8;10;59;51;14;5
+              firstWeek: 2019-05-26Z
+              stars: 1506
+              license: Creative Commons Attribution 4.0 International
+              description: Training materials and labs for a "Getting Started" level course on COBOL
+              latest_commit_date: '2020-05-14T20:35:53Z'
+              latest_commit_link: /openmainframeproject/cobol-programming-course/commit/8fa3f064bb12f316d4d76b71eebd3fdf02a0aa20
+              release_date: '2020-05-05T20:35:26Z'
+              release_link: 'https://github.com/openmainframeproject/cobol-programming-course/releases'
+              contributors_count: 14
+              contributors_link: 'https://github.com/openmainframeproject/cobol-programming-course/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/cobol-programming-course/commit/53e022f5cf577be0d670b134db4f7bafcaa4ea23
+              start_date: '2020-04-11T13:32:13Z'
+            image_data:
+              fileName: cobol-programming-course.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-06T19:00:25.000Z
+          - item:
+            name: Mentorship
+            homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
+            project: graduated
+            repo_url: 'https://github.com/openmainframeproject-internship/resources'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;1;0;0;0;1;4;60;0;0;2;1;0;0;0;11;0;0;0;0;0;0;3;0;0;0;0;1
+              firstWeek: 2019-05-12Z
+              stars: 21
+              license: Creative Commons Attribution 4.0 International
+              description: Open Mainframe Project Mentorship Program resources
+              latest_commit_date: '2020-05-01T08:51:01Z'
+              latest_commit_link: /openmainframeproject-internship/resources/commit/8251812a8d86c9730fb3b7c37ae0df7424d31cca
+              contributors_count: 3
+              contributors_link: 'https://github.com/openmainframeproject-internship/resources/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject-internship/resources/commit/ed53bdf9419ee7cd904d8ec2236315ae36a35bc9
+              start_date: '2018-12-13T19:41:44Z'
+            image_data:
+              fileName: mentorship.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-06T19:00:25.000Z
+          - item:
+            name: Open Mainframe Education
+            homepage_url: 'https://github.com/openmainframeproject/omp-education'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/omp-education'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/education/education-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;9;0;0;0
+              firstWeek: 2019-06-23Z
+              stars: 1
+              license: Creative Commons Attribution 4.0 International
+              description: Official repository for the Mainframe Open Education project
+              latest_commit_date: '2020-05-27T14:23:15Z'
+              latest_commit_link: /openmainframeproject/omp-education/commit/69eb6db11a9d0aab46cee913f83b7814a8798517
+              contributors_count: 2
+              contributors_link: 'https://github.com/openmainframeproject/omp-education/graphs/contributors'
+            repos:
+              - url: 'https://github.com/openmainframeproject/omp-education'
+                stars: 1
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/omp-education/commit/87c542e38670920928716f525938396b42f45ce5
+              start_date: '2020-05-26T12:36:35Z'
+            image_data:
+              fileName: open-mainframe-education.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-06T19:00:25.000Z
+      - subcategory:
         name: Other
         items:
           - item:
@@ -6396,48 +6543,6 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: Mentorship
-            homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
-            project: graduated
-            repo_url: 'https://github.com/openmainframeproject-internship/resources'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-            crunchbase_data:
-              name: Open Mainframe Project
-              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.openmainframeproject.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/OpenMFProject'
-              linkedin: null
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-            github_data:
-              languages: []
-              contributions: 0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;1;0;0;0;1;4;60;0;0;2;1;0;0;0;11;0;0;0;0;0;0;3;0;0;0;0;1
-              firstWeek: 2019-05-12Z
-              stars: 21
-              license: Creative Commons Attribution 4.0 International
-              description: Open Mainframe Project Mentorship Program resources
-              latest_commit_date: '2020-05-01T08:51:01Z'
-              latest_commit_link: /openmainframeproject-internship/resources/commit/8251812a8d86c9730fb3b7c37ae0df7424d31cca
-              contributors_count: 3
-              contributors_link: 'https://github.com/openmainframeproject-internship/resources/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /openmainframeproject-internship/resources/commit/ed53bdf9419ee7cd904d8ec2236315ae36a35bc9
-              start_date: '2018-12-13T19:41:44Z'
-            image_data:
-              fileName: mentorship.svg
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-05-06T19:00:25.000Z
-          - item:
             name: TerseDecompress
             homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
             project: incubating
@@ -6479,55 +6584,6 @@ landscape:
               start_date: '2019-02-07T13:14:55Z'
             image_data:
               fileName: terse-decompress.svg
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-05-06T19:00:25.000Z
-          - item:
-            name: COBOL Programming Course
-            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
-            project: incubating
-            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-            crunchbase_data:
-              name: Open Mainframe Project
-              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.openmainframeproject.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/OpenMFProject'
-              linkedin: null
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-            github_data:
-              languages:
-                - name: COBOL
-                  value: 64832
-                - name: TeX
-                  value: 4631
-                  color: '#3D6117'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;8;10;59;51;14;5
-              firstWeek: 2019-05-26Z
-              stars: 1506
-              license: Creative Commons Attribution 4.0 International
-              description: Training materials and labs for a "Getting Started" level course on COBOL
-              latest_commit_date: '2020-05-14T20:35:53Z'
-              latest_commit_link: /openmainframeproject/cobol-programming-course/commit/8fa3f064bb12f316d4d76b71eebd3fdf02a0aa20
-              release_date: '2020-05-05T20:35:26Z'
-              release_link: 'https://github.com/openmainframeproject/cobol-programming-course/releases'
-              contributors_count: 14
-              contributors_link: 'https://github.com/openmainframeproject/cobol-programming-course/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /openmainframeproject/cobol-programming-course/commit/53e022f5cf577be0d670b134db4f7bafcaa4ea23
-              start_date: '2020-04-11T13:32:13Z'
-            image_data:
-              fileName: cobol-programming-course.svg
             best_practice_data:
               badge: false
               percentage: null
@@ -13615,7 +13671,7 @@ landscape:
               CA Endevor® lets you interact with CA Endevor through a local command-line interface. You can control CA Endevor application lifecycle actions,
               allowing easy scripting from off-platform CI/CD pipelines.
             homepage_url: >-
-              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -13756,7 +13812,7 @@ landscape:
               CA File Master™ Plus brings advanced file management and data manipulation functionality to the CLI. Control functions that CLI can invoke include
               copying, renaming and deleting files, and populating files with data.
             homepage_url: >-
-              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -13897,7 +13953,7 @@ landscape:
               CA OPS/MVS® lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient automation and resource
               management from the CLI.
             homepage_url: >-
-              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
             stock_ticker: AVGO
             logo: ca-opsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -14036,7 +14092,7 @@ landscape:
             name: CA Secure Credential Store (CLI 2019)
             description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
             homepage_url: >-
-              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store.html
             stock_ticker: AVGO
             logo: ca-secure-credential-store.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -14177,7 +14233,7 @@ landscape:
               CA z/OS Extended Files lets application developers extend the CLI to support data set management functionality. For example, copying the contents
               of a data set and downloading data sets that match a DSLEVEL pattern.
             homepage_url: >-
-              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -14318,7 +14374,7 @@ landscape:
               CA z/OS Extended Jobs lets application developers extend the CLI to support additional z/OS job creation and job management functionality. For
               example, viewing all spool content and deleting multiple jobs in the OUTPUT status.
             homepage_url: >-
-              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -18295,6 +18351,7 @@ landscape:
           - item:
             name: IBM
             homepage_url: 'https://www.ibm.com/us-en/?ar=1'
+            stock_ticker: IBM
             logo: ibm.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -18865,33 +18922,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-04-30T14:30:12.000Z
           - item:
-            name: Sine Nomine Associates
-            homepage_url: 'https://www.sinenomine.net/'
-            logo: sinenomine.svg
-            twitter: 'https://twitter.com/SNA_USA'
-            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
-            crunchbase_data:
-              name: Sine Nomine Associates
-              description: Sine Nomine Associates is an IT research and custom development engineering firm.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'http://www.sinenomine.net/'
-              city: Ashburn
-              region: Virginia
-              country: United States
-              twitter: null
-              linkedin: null
-              acquisitions: []
-              parents: []
-            image_data:
-              fileName: sine-nomine-associates.svg
-              hash: CkAN2ujSOXsNZhW/8SwEeR7U51O56WUHSTzevBBtKqE=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-05-06T13:13:37.000Z
-          - item:
             name: Precisely
             description: >-
               Precisely's data integration, data quality, location intelligence, and data enrichment products power better business decisions to create better
@@ -18942,6 +18972,33 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-05-14T16:01:28.000Z
+          - item:
+            name: Sine Nomine Associates
+            homepage_url: 'https://www.sinenomine.net/'
+            logo: sinenomine.svg
+            twitter: 'https://twitter.com/SNA_USA'
+            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
+            crunchbase_data:
+              name: Sine Nomine Associates
+              description: Sine Nomine Associates is an IT research and custom development engineering firm.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'http://www.sinenomine.net/'
+              city: Ashburn
+              region: Virginia
+              country: United States
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+            image_data:
+              fileName: sine-nomine-associates.svg
+              hash: CkAN2ujSOXsNZhW/8SwEeR7U51O56WUHSTzevBBtKqE=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-06T13:13:37.000Z
           - item:
             name: Vicom Infinity
             homepage_url: 'http://www.vicominfinity.com/'
@@ -19149,7 +19206,7 @@ landscape:
               latest_tweet_date: 2013-03-05T17:34:52.000Z
           - item:
             name: Johann Wolfgang Goethe University
-            homepage_url: 'https://www.goethe-university-frankfurt.de'
+            homepage_url: 'https://www.goethe-university-frankfurt.de/en'
             logo: goethe-university-frankfurt.svg
             twitter: 'https://twitter.com/goetheuni'
             crunchbase: 'https://www.crunchbase.com/organization/goethe-university-frankfurt'
