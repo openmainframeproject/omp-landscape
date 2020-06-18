@@ -9,6 +9,7 @@ landscape:
             name: crc32-s390x
             homepage_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
             repo_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
+            stock_ticker: IBM
             logo: crc32-s390x.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -23,6 +24,7 @@ landscape:
             name: libica
             homepage_url: 'https://github.com/opencryptoki/libica'
             repo_url: 'https://github.com/opencryptoki/libica'
+            stock_ticker: IBM
             logo: libica.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -31,6 +33,7 @@ landscape:
             description: qclib provides a C API for extraction of system information for Linux on z Systems.
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/qclib.html'
             repo_url: 'https://github.com/openmainframeproject/qclib'
+            stock_ticker: IBM
             logo: qclib.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -38,6 +41,7 @@ landscape:
             name: s390-tools
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/s390-tools.html'
             repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
+            stock_ticker: IBM
             logo: s390-tools.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -53,6 +57,7 @@ landscape:
             description: Linux on System z snIPL 'simple network IPL' package.
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/snipl.html'
             repo_url: 'https://github.com/openmainframeproject/snipl'
+            stock_ticker: IBM
             logo: snipl.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -80,6 +85,7 @@ landscape:
             description: A tool to automate and simplify the installation/configuration/testing of Linux systems running on the IBM Z platform
             homepage_url: 'https://github.com/tessia-project'
             repo_url: 'https://github.com/tessia-project/tessia'
+            stock_ticker: IBM
             logo: tessia_logo.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -144,6 +150,7 @@ landscape:
             name: z/OS Node Accessor
             homepage_url: 'https://github.com/IBM/zos-node-accessor'
             repo_url: 'https://github.com/IBM/zos-node-accessor'
+            stock_ticker: IBM
             logo: zos-node-accessor.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -151,6 +158,7 @@ landscape:
             name: z/OS Tools
             homepage_url: 'https://github.com/IBM/IBM-Z-zOS'
             repo_url: 'https://github.com/IBM/IBM-Z-zOS'
+            stock_ticker: IBM
             logo: zos-tools.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -196,6 +204,30 @@ landscape:
             logo: zuid.svg
             crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
       - subcategory:
+        name: Learning and Mentoring
+        items:
+          - item:
+            name: COBOL Programming Course
+            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: Mentorship
+            homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
+            project: graduated
+            repo_url: 'https://github.com/openmainframeproject-internship/resources'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: Open Mainframe Education
+            homepage_url: 'https://github.com/openmainframeproject/omp-education'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/omp-education'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/education/education-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+      - subcategory:
         name: Other
         items:
           - item:
@@ -226,25 +258,11 @@ landscape:
             logo: ductwork.svg
             crunchbase: 'https://www.crunchbase.com/organization/la-casita'
           - item:
-            name: Mentorship
-            homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
-            project: graduated
-            repo_url: 'https://github.com/openmainframeproject-internship/resources'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-          - item:
             name: TerseDecompress
             homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
             project: incubating
             repo_url: 'https://github.com/openmainframeproject/tersedecompress'
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/tersedecompress/tersedecompress-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-          - item:
-            name: COBOL Programming Course
-            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
-            project: incubating
-            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
   - category:
     name: Zowe Conformant
@@ -612,7 +630,7 @@ landscape:
               CA Endevor® lets you interact with CA Endevor through a local command-line interface. You can control CA Endevor application lifecycle actions,
               allowing easy scripting from off-platform CI/CD pipelines.
             homepage_url: >-
-              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -622,7 +640,7 @@ landscape:
               CA File Master™ Plus brings advanced file management and data manipulation functionality to the CLI. Control functions that CLI can invoke include
               copying, renaming and deleting files, and populating files with data.
             homepage_url: >-
-              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -632,7 +650,7 @@ landscape:
               CA OPS/MVS® lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient automation and resource
               management from the CLI.
             homepage_url: >-
-              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
             stock_ticker: AVGO
             logo: ca-opsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -640,7 +658,7 @@ landscape:
             name: CA Secure Credential Store (CLI 2019)
             description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
             homepage_url: >-
-              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store.html
             stock_ticker: AVGO
             logo: ca-secure-credential-store.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -650,7 +668,7 @@ landscape:
               CA z/OS Extended Files lets application developers extend the CLI to support data set management functionality. For example, copying the contents
               of a data set and downloading data sets that match a DSLEVEL pattern.
             homepage_url: >-
-              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -660,7 +678,7 @@ landscape:
               CA z/OS Extended Jobs lets application developers extend the CLI to support additional z/OS job creation and job management functionality. For
               example, viewing all spool content and deleting multiple jobs in the OUTPUT status.
             homepage_url: >-
-              http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -678,6 +696,8 @@ landscape:
               hybrid cloud application through REST API and command line that can easily integrated in applications and scripting.
             homepage_url: 'https://www.ibm.com/us-en/marketplace/tivoli-workload-scheduler-for-z-systems'
             logo: ibm-z-workload-scheduler.svg
+            stock_ticker: IBM
+            logo: ibm-z-workflow-scheduler.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
           - item:
@@ -927,6 +947,7 @@ landscape:
           - item:
             name: IBM
             homepage_url: 'https://www.ibm.com/us-en/?ar=1'
+            stock_ticker: IBM
             logo: ibm.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -959,12 +980,6 @@ landscape:
             logo: phoenix-software-international.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
           - item:
-            name: Sine Nomine Associates
-            homepage_url: 'https://www.sinenomine.net/'
-            logo: sinenomine.svg
-            twitter: 'https://twitter.com/SNA_USA'
-            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
-          - item:
             name: Precisely
             description: >-
               Precisely's data integration, data quality, location intelligence, and data enrichment products power better business decisions to create better
@@ -973,6 +988,12 @@ landscape:
             logo: precisely.svg
             twitter: 'https://twitter.com/preciselydata'
             crunchbase: 'https://www.crunchbase.com/organization/syncsort'
+          - item:
+            name: Sine Nomine Associates
+            homepage_url: 'https://www.sinenomine.net/'
+            logo: sinenomine.svg
+            twitter: 'https://twitter.com/SNA_USA'
+            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
           - item:
             name: Vicom Infinity
             homepage_url: 'http://www.vicominfinity.com/'
@@ -1018,7 +1039,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/htl-donaustadt'
           - item:
             name: Johann Wolfgang Goethe University
-            homepage_url: 'https://www.goethe-university-frankfurt.de'
+            homepage_url: 'https://www.goethe-university-frankfurt.de/en'
             logo: goethe-university-frankfurt.svg
             twitter: 'https://twitter.com/goetheuni'
             crunchbase: 'https://www.crunchbase.com/organization/goethe-university-frankfurt'
