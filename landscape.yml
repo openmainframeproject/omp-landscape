@@ -253,11 +253,11 @@ landscape:
         name: API Mediation Layer ZOWE V1
         items:
           - item:
-            name: CA IDMS REST API (API Mediation Layer ZOWE V1)
+            name: CA IDMS (API Mediation Layer ZOWE V1)
             description: 'IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.'
             homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html'
             stock_ticker: AVGO
-            logo: ca_idms_rest_api.svg
+            logo: ca-idms.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
             name: CA Endevor® (API Mediation Layer ZOWE V1)
@@ -267,18 +267,18 @@ landscape:
             homepage_url: >-
               https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0/installing/integrate-rest-api-with-the-api-mediation-layer.html
             stock_ticker: AVGO
-            logo: omp_catechnologies-caendevor.svg
+            logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
-            name: CA JCLCheck Workload Automation Plug-in for Zowe CLI (API Mediation Layer ZOWE V1)
+            name: CA JCLCheck™ Workload Automation (API Mediation Layer ZOWE V1)
             description: >-
-              The CA JCLCheck Workload Automation Plug-in for Zowe CLI lets you validate the accuracy of Job Control Language (JCL) during development or
-              automated processes. Use the plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to
-              fail and lead to delays in production cycles
+              CA JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles
             homepage_url: >-
               https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-jclcheck-workload-automation-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
-            logo: ca_jclcheck.svg
+            logo: ca-jclcheck-workload-automation.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
@@ -290,6 +290,17 @@ landscape:
             logo: omp_phoenix-ejes.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
             allow_duplicate_repo: true
+          - item:
+            name: CA SYSVIEW® Performance Management (API Mediation Layer ZOWE V1)
+            description: >-
+              CA SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access CA SYSVIEW actions and
+              data using a modern API.
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html
+            stock_ticker: AVGO
+            logo: ca-sysview-performance-management.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
       - subcategory:
         name: App Framework ZOWE V1
         items: null
@@ -297,25 +308,24 @@ landscape:
         name: CLI ZOWE V1
         items:
           - item:
-            name: CA View® Plug-in for Zowe™ CLI (CLI ZOWE V1)
+            name: CA View® (CLI ZOWE V1)
             description: >-
-              The CA View® Plug-in for Zowe™ CLI lets you interact with CA View to access report data. You can query reports through logical views, date,
-              version, indexes, and cross report indexes. You can also download report data, convert text and AFP reports to PDF, as well as export text reports
-              to spreadsheets using predefined rules.
+              CA View® lets you access report data, list repositories, and search cross-report index names or values in a repository. You can also use the
+              plug-in to automate report data exports using rules, and to manage user settings.
             homepage_url: >-
               http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/CA-View-Plug-in-for-Zowe-CLI.html
             stock_ticker: AVGO
-            logo: ca_viewforzowecli.svg
+            logo: ca-view.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
-            name: CA OPS/MVS® Plug-in for Zowe CLI (CLI ZOWE V1)
+            name: CA OPS/MVS® (CLI ZOWE V1)
             description: >-
-              The CA OPS/MVS® Plug-in for Zowe CLI lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient
-              automation and resource management from the CLI.
+              CA OPS/MVS® lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient automation and resource
+              management from the CLI.
             homepage_url: >-
               http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
             stock_ticker: AVGO
-            logo: omp_catechnologies-caopsmvs.svg
+            logo: ca-opsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
             name: CA Endevor® (CLI ZOWE V1)
@@ -325,7 +335,7 @@ landscape:
             homepage_url: >-
               https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0/installing/integrate-rest-api-with-the-api-mediation-layer.html
             stock_ticker: AVGO
-            logo: omp_catechnologies-caendevor.svg
+            logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
             name: Secure Credential Store Plug-in (CLI ZOWE V1)
@@ -363,20 +373,20 @@ landscape:
             logo: omp-ibm-ims-for-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
-            name: CA z/OS Extended Jobs Plug-in for Zowe CLI (CLI ZOWE V1)
-            description: The CA z/OS Extended Jobs Plug-in for Zowe CLI extends the CLI to include additional commands for interaction with z/OS jobs.
+            name: CA z/OS Extended Jobs (CLI ZOWE V1)
+            description: CA z/OS Extended Jobs extends the CLI to include additional commands for interaction with z/OS jobs.
             homepage_url: >-
               http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
             stock_ticker: AVGO
-            logo: omp_catechnologies-cazosextendedjobs.svg
+            logo: ca-zos-extended-jobs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
-            name: CA z/OS Extended Files Plug-in for Zowe CLI (CLI ZOWE V1)
-            description: The CA z/OS Extended Files Plug-in for Zowe CLI extends the CLI to support complex data set management functionality.
+            name: CA z/OS Extended Files (CLI ZOWE V1)
+            description: CA z/OS Extended Files Plug-in extends the CLI to support complex data set management functionality.
             homepage_url: >-
               http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
             stock_ticker: AVGO
-            logo: omp_catechnologies-cazosextendedfiles.svg
+            logo: ca-zos-extended-files.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
             name: z/OS FTP Plug-in for Zowe CLI (CLI ZOWE V1)
@@ -396,63 +406,63 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             allow_duplicate_repo: true
           - item:
-            name: CA MAT/PMA plug-in for Zowe CLI (CLI ZOWE V1)
+            name: CA MAT Detect (CLI ZOWE V1)
             description: >-
-              The CA MAT/PMA plug-in for Zowe CLI provides utilities to access performance data supplied by the CA Mainframe Application Tuner component
-              Performance Management Assistant (PMA).
+              CA MAT Detect provides utilities to access performance data supplied by the CA Mainframe Application Tuner component Performance Management
+              Assistant (PMA).
             homepage_url: 'https://github.gwd.broadcom.net/MFD/PMA-CLI/blob/master/README'
             stock_ticker: AVGO
-            logo: ca_mat_pma.svg
+            logo: ca-mat-detect.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
-            name: CA MAT plug-in for Zowe CLI (CLI ZOWE V1)
+            name: CA MAT Analyze (CLI ZOWE V1)
             description: >-
-              The CA MAT plug-in for Zowe CLI ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data
-              in the form of CA MAT analysis views using Zowe CLI.
+              CA MAT Analyze ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data in the form of CA
+              MAT analysis views using Zowe CLI.
             homepage_url: 'https://github.gwd.broadcom.net/MFD/zowe-mat-plugin'
             stock_ticker: AVGO
-            logo: ca_mat.svg
+            logo: ca-mat-analyze.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
-            name: CA JCLCheck Workload Automation Plug-in for Zowe CLI (CLI ZOWE V1)
+            name: CA JCLCheck™ Workload Automation (CLI ZOWE V1)
             description: >-
-              The CA JCLCheck Workload Automation Plug-in for Zowe CLI lets you validate the accuracy of Job Control Language (JCL) during development or
-              automated processes. Use the plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to
-              fail and lead to delays in production cycles
+              CA JCLCheck™ Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles
             homepage_url: >-
               https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-jclcheck-workload-automation-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
-            logo: ca_jclcheck.svg
+            logo: ca-jclcheck-workload-automation.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
-            name: CA SYSVIEW® Performance Management Plug-in for Zowe CLI (CLI ZOWE V1)
+            name: CA SYSVIEW® Performance Management (CLI ZOWE V1)
             description: >-
-              The CA SYSVIEW Performance Management Plug-in for Zowe CLI lets Application Developers, DevOps and CI/CD Administrators, and other similar IT
-              roles issue CA SYSVIEW commands that take actions or display data.
+              CA SYSVIEW Performance Management lets Application Developers, DevOps and CI/CD Administrators, and other similar IT roles issue CA SYSVIEW
+              commands that take actions or display data.
             homepage_url: >-
               https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html
             stock_ticker: AVGO
-            logo: ca_sysview.svg
+            logo: ca-sysview-performance-management.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
-            name: CA Endevor® Bridge For Git plug-in for Zowe CLI (CLI ZOWE V1)
-            description: The CA Endevor® Bridge for Git Plug-in for Zowe CLI lets you interact with CA Endevor® Bridge For Git to perform tasks through Zowe CLI
+            name: CA Endevor® Bridge For Git (CLI ZOWE V1)
+            description: CA Endevor® Bridge for Git lets you interact with CA Endevor® Bridge For Git to perform tasks through Zowe CLI
             homepage_url: 'https://www.npmjs.com/package/@broadcom/endevor-bridge-for-git-for-zowe-cli'
             stock_ticker: AVGO
-            logo: ca_endevor_git.svg
+            logo: ca-endevor-bridge-for-git.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
-            name: CA File Master™ Plus Plug-in for Zowe CLI (CLI ZOWE V1)
-            description: The CA File Master™ Plus Plug-in for Zowe CLI brings advanced file management and data manipulation functionality to the CLI.
+            name: CA File Master™ Plus (CLI ZOWE V1)
+            description: CA File Master™ Plus brings advanced file management and data manipulation functionality to the CLI.
             homepage_url: >-
               https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0/ca-brightside-plug-in-for-ca-file-master-plus.html
             stock_ticker: AVGO
-            logo: omp_catechnologies-cafilemasterplus.svg
+            logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
@@ -493,7 +503,7 @@ landscape:
             name: CA File Master™ Plus (API Mediation Layer 2019)
             homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-filemaster-plus/11-0/using-the-rest-api.html'
             stock_ticker: AVGO
-            logo: omp_catechnologies-cafilemasterplus.svg
+            logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (API Mediation Layer 2019)
@@ -596,64 +606,62 @@ landscape:
             logo: omp_phoenix-ejes.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
           - item:
-            name: CA Endevor® Plug-in for Zowe CLI (CLI 2019)
+            name: CA Endevor® (CLI 2019)
             description: >-
-              The CA Endevor® Plug-in for Zowe CLI lets you interact with CA Endevor through a local command-line interface. You can control CA Endevor
-              application lifecycle actions, allowing easy scripting from off-platform CI/CD pipelines.
+              CA Endevor® lets you interact with CA Endevor through a local command-line interface. You can control CA Endevor application lifecycle actions,
+              allowing easy scripting from off-platform CI/CD pipelines.
             homepage_url: >-
               http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html
             stock_ticker: AVGO
-            logo: omp_catechnologies-caendevor.svg
+            logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
-            name: CA File Master™ Plus Plug-in for Zowe CLI (CLI 2019)
+            name: CA File Master™ Plus (CLI 2019)
             description: >-
-              The CA File Master™ Plus Plug-in for Zowe CLI brings advanced file management and data manipulation functionality to the CLI. Control functions
-              that CLI can invoke include copying, renaming and deleting files, and populating files with data.
+              CA File Master™ Plus brings advanced file management and data manipulation functionality to the CLI. Control functions that CLI can invoke include
+              copying, renaming and deleting files, and populating files with data.
             homepage_url: >-
               http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html
             stock_ticker: AVGO
-            logo: omp_catechnologies-cafilemasterplus.svg
+            logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
-            name: CA OPS/MVS® Plug-in for Zowe CLI (CLI 2019)
+            name: CA OPS/MVS® (CLI 2019)
             description: >-
-              The CA OPS/MVS® Plug-in for Zowe CLI lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient
-              automation and resource management from the CLI.
+              CA OPS/MVS® lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient automation and resource
+              management from the CLI.
             homepage_url: >-
               http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
             stock_ticker: AVGO
-            logo: omp_catechnologies-caopsmvs.svg
+            logo: ca-opsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
-            name: CA Secure Credential Store Plug-in for Zowe CLI (CLI 2019)
-            description: >-
-              The CA Secure Credential Store Plug-in for Zowe CLI lets you store your credentials securely in the default credential manager of your operating
-              system.
+            name: CA Secure Credential Store (CLI 2019)
+            description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
             homepage_url: >-
               http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store.html
             stock_ticker: AVGO
-            logo: omp_catechnologies-casecurecredentialstore.svg
+            logo: ca-secure-credential-store.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
-            name: CA z/OS Extended Files Plug-in for Zowe CLI (CLI 2019)
+            name: CA z/OS Extended Files (CLI 2019)
             description: >-
-              The CA z/OS Extended Files Plug-in for Zowe CLI lets application developers extend the CLI to support data set management functionality. For
-              example, copying the contents of a data set and downloading data sets that match a DSLEVEL pattern.
+              CA z/OS Extended Files lets application developers extend the CLI to support data set management functionality. For example, copying the contents
+              of a data set and downloading data sets that match a DSLEVEL pattern.
             homepage_url: >-
               http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
             stock_ticker: AVGO
-            logo: omp_catechnologies-cazosextendedfiles.svg
+            logo: ca-zos-extended-files.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
-            name: CA z/OS Extended Jobs Plug-in for Zowe CLI (CLI 2019)
+            name: CA z/OS Extended Jobs (CLI 2019)
             description: >-
-              The CA z/OS Extended Jobs Plug-in for Zowe CLI lets application developers extend the CLI to support additional z/OS job creation and job
-              management functionality. For example, viewing all spool content and deleting multiple jobs in the OUTPUT status.
+              CA z/OS Extended Jobs lets application developers extend the CLI to support additional z/OS job creation and job management functionality. For
+              example, viewing all spool content and deleting multiple jobs in the OUTPUT status.
             homepage_url: >-
               http://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
             stock_ticker: AVGO
-            logo: omp_catechnologies-cazosextendedjobs.svg
+            logo: ca-zos-extended-jobs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (CLI 2019)
