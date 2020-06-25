@@ -321,7 +321,17 @@ landscape:
             allow_duplicate_repo: true
       - subcategory:
         name: App Framework ZOWE V1
-        items: []
+        items:
+          - item:
+            name: IBM® Service Management Unite (App Framework ZOWE V1)
+            description: >-
+              IBM® Service Management Unite is a customizable service management user interface that provides dashboards to monitor and operate IBM Z
+              environments. Zowe application plugin for Service Management Unite is provided to allow user to use Service Management Unite directly on Zowe
+              Desktop.
+            homepage_url: 'https://www.ibm.com/products/service-management-unite'
+            logo: service-management-unite.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
       - subcategory:
         name: CLI ZOWE V1
         items:
