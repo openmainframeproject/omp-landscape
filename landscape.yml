@@ -422,6 +422,14 @@ landscape:
             logo: ca-opsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
+            name: CA Spool™ (CLI ZOWE V1)
+            description: 'CA Spool™ provides you with a central point of control for managing enterprise-wide print, email and intelligence delivery services.'
+            homepage_url: 'https://www.broadcom.com/products/mainframe/content-management/spool'
+            stock_ticker: AVGO
+            logo: ca-spool.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+          - item:
             name: CA SYSVIEW® Performance Management (CLI ZOWE V1)
             description: >-
               CA SYSVIEW Performance Management lets Application Developers, DevOps and CI/CD Administrators, and other similar IT roles issue CA SYSVIEW
