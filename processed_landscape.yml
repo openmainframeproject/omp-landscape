@@ -6360,6 +6360,365 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-07-27T14:40:03.000Z
       - subcategory:
+        name: Development Tools
+        items:
+          - item:
+            name: Atom language syntax highlighting for z/VM
+            homepage_url: 'https://atom.io/users/openmainframeproject'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/atom/atom-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/OpenMFProject'
+              linkedin: null
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
+            github_data:
+              languages:
+                - name: CoffeeScript
+                  value: 6450
+                  color: '#244776'
+                - name: CSS
+                  value: 305
+                  color: '#563d7c'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-08-04Z
+              stars: 2
+              license: Apache License 2.0
+              description: Atom editor package that adds language syntax highlighting for z/VM assembler language files.
+              latest_commit_date: '2019-02-15T11:37:53Z'
+              latest_commit_link: /openmainframeproject/atompkg-language-zvm-asm/commit/f192b343d15bfa914c31e3b9c1b682fbba73a677
+              release_date: '2019-02-15T11:42:48Z'
+              release_link: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm/releases'
+              contributors_count: 2
+              contributors_link: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm/graphs/contributors'
+            repos:
+              - url: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm'
+                stars: 2
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/atompkg-language-zvm-asm/commit/1b25c5951a2da1d0baeac78bcd0b450081ad6f8e
+              start_date: '2017-09-13T17:33:01Z'
+            image_data:
+              fileName: atom-language-syntax-highlighting-for-z-vm.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-07-27T19:33:03.000Z
+          - item:
+            name: COBOL Source colouriser for Visual Studio Code
+            homepage_url: 'https://github.com/spgennard/vscode_cobol'
+            repo_url: 'https://github.com/spgennard/vscode_cobol'
+            logo: cobol_source_colouriser_vscode.svg
+            crunchbase: 'https://www.crunchbase.com/organization/micro-focus'
+            crunchbase_data:
+              name: Micro Focus
+              description: Micro Focus is a software company with 40 years of experience in delivering and supporting enterprise software solutions.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'http://microfocus.com'
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: 'https://twitter.com/microfocus'
+              linkedin: 'https://www.linkedin.com/company/micro-focus'
+              acquisitions:
+                - date: '1998-09-25'
+                  acquiree: 'Intersolv, Inc.'
+                - date: '2006-11-06'
+                  acquiree: HAL Knowledge Solutions
+                  price: 3500000
+                - date: '2008-05-05'
+                  acquiree: NetManage
+                  price: 73300000
+                - date: '2009-01-05'
+                  acquiree: Relativity Technologies
+                  price: 9700000
+                - date: '2009-05-06'
+                  acquiree: Borland
+                  price: 75000000
+                - date: '2013-12-01'
+                  acquiree: AccuRev
+                - date: '2014-09-15'
+                  acquiree: Attachmate
+                  price: 2350000000
+                - date: '2015-07-22'
+                  acquiree: Authasas
+                - date: '2016-03-22'
+                  acquiree: Serena Software
+                  price: 540000000
+                - date: '2016-09-08'
+                  acquiree: Hewlett Packard Enterprise Software
+                  price: 8800000000
+                - date: '2016-10-04'
+                  acquiree: GWAVA
+                - date: '2017-12-19'
+                  acquiree: COBOL-IT
+                - date: '2018-09-01'
+                  acquiree: Covertix
+                - date: '2019-02-15'
+                  acquiree: Interset
+                - date: '2020-07-13'
+                  acquiree: ATAR Labs
+              parents: []
+              ticker: MCRO.L
+              stockExchange: lse
+              kind: market_cap
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 302387
+                  color: '#2b7489'
+                - name: Shell
+                  value: 1935
+                  color: '#89e051'
+                - name: JavaScript
+                  value: 1370
+                  color: '#f1e05a'
+              contributions: 0;0;3;2;5;3;2;11;7;6;3;9;19;25;11;12;10;7;3;1;7;5;2;3;6;0;8;6;1;3;4;0;0;1;4;13;18;11;20;47;10;2;18;4;4;14;13;20;54;21;19;35
+              firstWeek: 2019-08-19Z
+              stars: 43
+              license: MIT License
+              description: 'Visual Studio Code Extension  for COBOL, JCL and MF Directive Files'
+              latest_commit_date: '2020-08-11T23:06:56Z'
+              latest_commit_link: /spgennard/vscode_cobol/commit/3a7754081979f8e5d03805782c068585e7578d78
+              release_date: '2020-08-11T23:08:08Z'
+              release_link: 'https://github.com/spgennard/vscode_cobol/releases'
+              contributors_count: 7
+              contributors_link: 'https://github.com/spgennard/vscode_cobol/graphs/contributors'
+            repos:
+              - url: 'https://github.com/spgennard/vscode_cobol'
+                stars: 43
+            github_start_commit_data:
+              start_commit_link: /spgennard/vscode_cobol/commit/c2e9d917079ef2fa40ccb8ef9d6fa2f833188f63
+              start_date: '2015-11-23T23:43:14Z'
+            yahoo_finance_data:
+              market_cap: 1407578911
+              effective_ticker: MCRO.L
+            image_data:
+              fileName: cobol-source-colouriser-for-visual-studio-code.svg
+              hash: qOWnD8pkUeSzBbaK54uYAPaEvYzbVPoTugH+CvsiCxc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-08-11T21:11:01.000Z
+          - item:
+            name: Eclipse Che4z
+            homepage_url: 'https://projects.eclipse.org/projects/ecd.che.che4z'
+            repo_url: 'https://github.com/eclipse/che-che4z'
+            logo: che4z.svg
+            crunchbase: 'https://www.crunchbase.com/organization/eclipse-foundation'
+            crunchbase_data:
+              name: Eclipse Foundation
+              description: The Eclipse Foundation provides individuals and organizations with a commercially focused environment for open source software innovation.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'http://eclipse.org'
+              city: Ottawa
+              region: Ontario
+              country: Canada
+              twitter: 'http://twitter.com/EclipseFdn'
+              linkedin: 'https://www.linkedin.com/company/eclipse-foundation'
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;14;0;0;9;0;0;0;0;2;0;0;0;0;12;1;0;0;0;0;0;2;0;0;0;8;0;7;0;2;0;9;3;2;1;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-08-19Z
+              stars: 11
+              license: Unknown License
+              description: Che Che4z
+              latest_commit_date: '2020-06-09T12:59:32Z'
+              latest_commit_link: /eclipse/che-che4z/commit/e8dc50000a63f45508a93126b6be049c55480615
+              release_date: '2020-05-26T09:47:22Z'
+              release_link: 'https://github.com/eclipse/che-che4z/releases'
+              contributors_count: 4
+              contributors_link: 'https://github.com/eclipse/che-che4z/graphs/contributors'
+            repos:
+              - url: 'https://github.com/eclipse/che-che4z'
+                stars: 11
+            github_start_commit_data:
+              start_commit_link: /eclipse/che-che4z/commit/9996d877c83c393055c6e825a72fb82b148867d1
+              start_date: '2019-10-17T10:11:57Z'
+            image_data:
+              fileName: eclipse-che4z.svg
+              hash: LHIwZqDeutFVE+bP//dLHb6wsNXu8ejqNl8TESibvIg=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-08-11T18:07:02.000Z
+          - item:
+            name: zSublime
+            homepage_url: 'https://github.com/vadimshchukin/zsublime'
+            repo_url: 'https://github.com/vadimshchukin/zsublime'
+            logo: zsublime.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: Symantec
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              stockExchange: nasdaq
+              kind: market_cap
+            github_data:
+              languages:
+                - name: Python
+                  value: 10225
+                  color: '#3572A5'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-08-19Z
+              stars: 1
+              license: GNU General Public License v3.0
+              description: z/OS plugins for the Sublime Text editor
+              latest_commit_date: '2017-04-19T17:55:55Z'
+              latest_commit_link: /vadimshchukin/zsublime/commit/46e5d6bda3315a4d89335398b8172684e4ff55b5
+              contributors_count: 1
+              contributors_link: 'https://github.com/vadimshchukin/zsublime/graphs/contributors'
+            repos:
+              - url: 'https://github.com/vadimshchukin/zsublime'
+                stars: 1
+            github_start_commit_data:
+              start_commit_link: /vadimshchukin/zsublime/commit/5aea7745985a2c6a25524180236586aa1a5088b3
+              start_date: '2017-02-19T13:30:40Z'
+            yahoo_finance_data:
+              market_cap: 125755203584
+              effective_ticker: AVGO
+            image_data:
+              fileName: z-sublime.svg
+              hash: xKdHNqowMpI9gcBlFSCoJEr3vmE1qCbFfb5WRXSfODE=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
+      - subcategory:
         name: Learning and Mentoring
         items:
           - item:
@@ -6612,60 +6971,6 @@ landscape:
               start_date: '2019-09-30T19:53:35Z'
             image_data:
               fileName: ambitus.svg
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-07-27T19:33:03.000Z
-          - item:
-            name: Atom language syntax highlighting for z/VM
-            homepage_url: 'https://atom.io/users/openmainframeproject'
-            project: incubating
-            repo_url: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/atom/atom-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-            crunchbase_data:
-              name: Open Mainframe Project
-              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.openmainframeproject.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/OpenMFProject'
-              linkedin: null
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-              stockExchange: null
-            github_data:
-              languages:
-                - name: CoffeeScript
-                  value: 6450
-                  color: '#244776'
-                - name: CSS
-                  value: 305
-                  color: '#563d7c'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-08-04Z
-              stars: 2
-              license: Apache License 2.0
-              description: Atom editor package that adds language syntax highlighting for z/VM assembler language files.
-              latest_commit_date: '2019-02-15T11:37:53Z'
-              latest_commit_link: /openmainframeproject/atompkg-language-zvm-asm/commit/f192b343d15bfa914c31e3b9c1b682fbba73a677
-              release_date: '2019-02-15T11:42:48Z'
-              release_link: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm/releases'
-              contributors_count: 2
-              contributors_link: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm/graphs/contributors'
-            repos:
-              - url: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm'
-                stars: 2
-            github_start_commit_data:
-              start_commit_link: /openmainframeproject/atompkg-language-zvm-asm/commit/1b25c5951a2da1d0baeac78bcd0b450081ad6f8e
-              start_date: '2017-09-13T17:33:01Z'
-            image_data:
-              fileName: atom-language-syntax-highlighting-for-z-vm.svg
             best_practice_data:
               badge: false
               percentage: null
