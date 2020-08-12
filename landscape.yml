@@ -304,8 +304,7 @@ landscape:
             description: >-
               CA Endevor® provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
               development process, CA Endevor governs software change from the very first line of modified code through deployment with change tracking.
-            homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0/installing/integrate-rest-api-with-the-api-mediation-layer.html
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0.html'
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -322,10 +321,18 @@ landscape:
               CA JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
               plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
               production cycles
-            homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-jclcheck-workload-automation-plug-in-for-zowe-cli.html
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/automation/ca-jclcheck-workload-automation/12-0.html'
             stock_ticker: AVGO
             logo: ca-jclcheck-workload-automation.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+          - item:
+            name: CA MAT (API Mediation Layer ZOWE V1)
+            description: >-
+              This API enables accessing CA Mainframe Application Tuner via modern tools by providing end-points to enable customers to automate and script a
+              MAT request in their CI/CD pipeline
+            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html'
+            logo: ca-mat.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
@@ -396,14 +403,15 @@ landscape:
               CA Endevor® provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
               development process, CA Endevor governs software change from the very first line of modified code through deployment with change tracking.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0/installing/integrate-rest-api-with-the-api-mediation-layer.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
             name: CA Endevor® Bridge For Git (CLI ZOWE V1)
             description: CA Endevor® Bridge for Git lets you interact with CA Endevor® Bridge For Git to perform tasks through Zowe CLI
-            homepage_url: 'https://www.npmjs.com/package/@broadcom/endevor-bridge-for-git-for-zowe-cli'
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/CA-Endevor-Bridge-for-Git-Plug-in-for-Zowe-CLI.html
             stock_ticker: AVGO
             logo: ca-endevor-bridge-for-git.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -412,7 +420,7 @@ landscape:
             name: CA File Master™ Plus (CLI ZOWE V1)
             description: CA File Master™ Plus brings advanced file management and data manipulation functionality to the CLI.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0/ca-brightside-plug-in-for-ca-file-master-plus.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -434,7 +442,8 @@ landscape:
             description: >-
               CA MAT Analyze ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data in the form of CA
               MAT analysis views using Zowe CLI.
-            homepage_url: 'https://github.gwd.broadcom.net/MFD/zowe-mat-plugin'
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-mat-analyze-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-mat-analyze.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -444,7 +453,8 @@ landscape:
             description: >-
               CA MAT Detect provides utilities to access performance data supplied by the CA Mainframe Application Tuner component Performance Management
               Assistant (PMA).
-            homepage_url: 'https://github.gwd.broadcom.net/MFD/PMA-CLI/blob/master/README'
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-mat-detect-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-mat-detect.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -462,7 +472,8 @@ landscape:
           - item:
             name: CA Spool™ (CLI ZOWE V1)
             description: 'CA Spool™ provides you with a central point of control for managing enterprise-wide print, email and intelligence delivery services.'
-            homepage_url: 'https://www.broadcom.com/products/mainframe/content-management/spool'
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-spool-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-spool.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -473,7 +484,7 @@ landscape:
               CA SYSVIEW Performance Management lets Application Developers, DevOps and CI/CD Administrators, and other similar IT roles issue CA SYSVIEW
               commands that take actions or display data.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins.html
             stock_ticker: AVGO
             logo: ca-sysview-performance-management.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -933,7 +944,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
           - item:
             name: Red Hat Enterprise Linux
-            homepage_url: 'https://www.redhat.com/en/store/red-hat-enterprise-linux-ibm-system-z#?sku=RH0416249'
+            homepage_url: 'https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux'
             logo: rhel.svg
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
