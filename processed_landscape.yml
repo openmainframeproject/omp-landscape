@@ -6415,66 +6415,27 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-07-27T19:33:03.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: COBOL Source colouriser for Visual Studio Code
             homepage_url: 'https://github.com/spgennard/vscode_cobol'
             repo_url: 'https://github.com/spgennard/vscode_cobol'
             logo: cobol_source_colouriser_vscode.svg
-            crunchbase: 'https://www.crunchbase.com/organization/micro-focus'
+            crunchbase: 'https://www.crunchbase.com/organization/bitlang-development'
             crunchbase_data:
-              name: Micro Focus
-              description: Micro Focus is a software company with 40 years of experience in delivering and supporting enterprise software solutions.
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'http://microfocus.com'
-              city: London
-              region: England
+              name: bitlang development
+              description: Open source development
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: null
+              city: Newbury
+              region: West Berkshire
               country: United Kingdom
-              twitter: 'https://twitter.com/microfocus'
-              linkedin: 'https://www.linkedin.com/company/micro-focus'
-              acquisitions:
-                - date: '1998-09-25'
-                  acquiree: 'Intersolv, Inc.'
-                - date: '2006-11-06'
-                  acquiree: HAL Knowledge Solutions
-                  price: 3500000
-                - date: '2008-05-05'
-                  acquiree: NetManage
-                  price: 73300000
-                - date: '2009-01-05'
-                  acquiree: Relativity Technologies
-                  price: 9700000
-                - date: '2009-05-06'
-                  acquiree: Borland
-                  price: 75000000
-                - date: '2013-12-01'
-                  acquiree: AccuRev
-                - date: '2014-09-15'
-                  acquiree: Attachmate
-                  price: 2350000000
-                - date: '2015-07-22'
-                  acquiree: Authasas
-                - date: '2016-03-22'
-                  acquiree: Serena Software
-                  price: 540000000
-                - date: '2016-09-08'
-                  acquiree: Hewlett Packard Enterprise Software
-                  price: 8800000000
-                - date: '2016-10-04'
-                  acquiree: GWAVA
-                - date: '2017-12-19'
-                  acquiree: COBOL-IT
-                - date: '2018-09-01'
-                  acquiree: Covertix
-                - date: '2019-02-15'
-                  acquiree: Interset
-                - date: '2020-07-13'
-                  acquiree: ATAR Labs
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
-              ticker: MCRO.L
-              stockExchange: lse
-              kind: market_cap
+              stockExchange: null
             github_data:
               languages:
                 - name: TypeScript
@@ -6503,17 +6464,12 @@ landscape:
             github_start_commit_data:
               start_commit_link: /spgennard/vscode_cobol/commit/c2e9d917079ef2fa40ccb8ef9d6fa2f833188f63
               start_date: '2015-11-23T23:43:14Z'
-            yahoo_finance_data:
-              market_cap: 1407578911
-              effective_ticker: MCRO.L
             image_data:
               fileName: cobol-source-colouriser-for-visual-studio-code.svg
               hash: qOWnD8pkUeSzBbaK54uYAPaEvYzbVPoTugH+CvsiCxc=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-08-11T21:11:01.000Z
           - item:
             name: Eclipse Che4z
             homepage_url: 'https://projects.eclipse.org/projects/ecd.che.che4z'
@@ -7286,7 +7242,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-api-mediation-layer-zowe-v1.svg
@@ -7295,7 +7251,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA IDMS (API Mediation Layer ZOWE V1)
             description: 'IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.'
@@ -7424,7 +7380,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-idms-api-mediation-layer-zowe-v1.svg
@@ -7433,7 +7389,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA JCLCheck™ Workload Automation (API Mediation Layer ZOWE V1)
             description: >-
@@ -7566,7 +7522,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-jcl-check-workload-automation-api-mediation-layer-zowe-v1.svg
@@ -7575,7 +7531,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA MAT (API Mediation Layer ZOWE V1)
             description: >-
@@ -7706,7 +7662,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-mat-api-mediation-layer-zowe-v1.svg
@@ -7715,7 +7671,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA SYSVIEW® Performance Management (API Mediation Layer ZOWE V1)
             description: >-
@@ -7848,7 +7804,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-sysview-performance-management-api-mediation-layer-zowe-v1.svg
@@ -7857,7 +7813,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: IBM® Z Netview (API Mediation Layer ZOWE V1)
             description: >-
@@ -9350,7 +9306,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-cli-zowe-v1.svg
@@ -9359,7 +9315,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA Endevor® Bridge For Git (CLI ZOWE V1)
             description: CA Endevor® Bridge for Git lets you interact with CA Endevor® Bridge For Git to perform tasks through Zowe CLI
@@ -9490,7 +9446,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-bridge-for-git-cli-zowe-v1.svg
@@ -9499,7 +9455,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA File Master™ Plus (CLI ZOWE V1)
             description: CA File Master™ Plus brings advanced file management and data manipulation functionality to the CLI.
@@ -9630,7 +9586,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-cli-zowe-v1.svg
@@ -9639,7 +9595,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA JCLCheck™ Workload Automation (CLI ZOWE V1)
             description: >-
@@ -9773,7 +9729,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-jcl-check-workload-automation-cli-zowe-v1.svg
@@ -9782,7 +9738,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA MAT Analyze (CLI ZOWE V1)
             description: >-
@@ -9915,7 +9871,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-mat-analyze-cli-zowe-v1.svg
@@ -9924,7 +9880,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA MAT Detect (CLI ZOWE V1)
             description: >-
@@ -10057,7 +10013,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-mat-detect-cli-zowe-v1.svg
@@ -10066,7 +10022,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA OPS/MVS® (CLI ZOWE V1)
             description: >-
@@ -10198,7 +10154,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-ops-mvs-cli-zowe-v1.svg
@@ -10207,7 +10163,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA Spool™ (CLI ZOWE V1)
             description: 'CA Spool™ provides you with a central point of control for managing enterprise-wide print, email and intelligence delivery services.'
@@ -10338,7 +10294,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-spool-cli-zowe-v1.svg
@@ -10347,7 +10303,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA SYSVIEW® Performance Management (CLI ZOWE V1)
             description: >-
@@ -10480,7 +10436,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-sysview-performance-management-cli-zowe-v1.svg
@@ -10489,7 +10445,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA View® (CLI ZOWE V1)
             description: >-
@@ -10621,7 +10577,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-view-cli-zowe-v1.svg
@@ -10630,7 +10586,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA z/OS Extended Files (CLI ZOWE V1)
             description: CA z/OS Extended Files Plug-in extends the CLI to support complex data set management functionality.
@@ -10760,7 +10716,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-files-cli-zowe-v1.svg
@@ -10769,7 +10725,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA z/OS Extended Jobs (CLI ZOWE V1)
             description: CA z/OS Extended Jobs extends the CLI to include additional commands for interaction with z/OS jobs.
@@ -10899,7 +10855,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-jobs-cli-zowe-v1.svg
@@ -10908,7 +10864,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: IBM RSE API Plug-in for Zowe CLI v.1.0.0 (CLI ZOWE V1)
             description: The IBM RSE API Plug-in for Zowe CLI allows you to interact with z/OS by using IBM Remote System Explorer API (RSE API)
@@ -12292,7 +12248,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-api-mediation-layer-2019.svg
@@ -12301,7 +12257,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (API Mediation Layer 2019)
             homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
@@ -16021,7 +15977,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-cli-2019.svg
@@ -16030,7 +15986,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA File Master™ Plus (CLI 2019)
             description: >-
@@ -16162,7 +16118,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-cli-2019.svg
@@ -16171,7 +16127,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA OPS/MVS® (CLI 2019)
             description: >-
@@ -16303,7 +16259,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-ops-mvs-cli-2019.svg
@@ -16312,7 +16268,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA Secure Credential Store (CLI 2019)
             description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
@@ -16442,7 +16398,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-secure-credential-store-cli-2019.svg
@@ -16451,7 +16407,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA z/OS Extended Files (CLI 2019)
             description: >-
@@ -16583,7 +16539,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-files-cli-2019.svg
@@ -16592,7 +16548,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: CA z/OS Extended Jobs (CLI 2019)
             description: >-
@@ -16724,7 +16680,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-jobs-cli-2019.svg
@@ -16733,7 +16689,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (CLI 2019)
             homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
@@ -20683,7 +20639,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 134185009152
+              market_cap: 125755203584
               effective_ticker: AVGO
             image_data:
               fileName: broadcom-corporation.svg
@@ -20692,7 +20648,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:35:01.000Z
+              latest_tweet_date: 2020-07-27T16:31:02.000Z
           - item:
             name: IBM
             homepage_url: 'https://www.ibm.com/us-en/?ar=1'
