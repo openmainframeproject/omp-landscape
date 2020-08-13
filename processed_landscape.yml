@@ -445,7 +445,7 @@ landscape:
               start_commit_link: /linux-on-ibm-z/crc32-s390x/commit/a4d891f47e8204bc2c8a4cc4c31262ff09b842c6
               start_date: '2016-05-31T14:19:37Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: crc32-s390x.svg
@@ -496,15 +496,15 @@ landscape:
                 - name: C++
                   value: 952
                   color: '#f34b7d'
-              contributions: 0;2;0;3;3;4;4;0;0;7;1;9;8;6;0;0;3;1;11;0;2;13;13;0;6;3;19;37;35;29;14;8;3;16;24;6;13;15;21;6;2;2;2;9;18;8;11;5;4;5;5;2
+              contributions: 0;2;0;3;5;3;3;0;0;7;4;10;4;6;0;1;3;1;10;0;3;14;11;0;6;3;29;40;28;25;13;8;5;16;25;5;18;12;17;5;2;2;3;15;11;15;6;3;7;3;5;6
               firstWeek: 2019-08-18Z
               stars: 21
               license: Apache License 2.0
               description: >-
                 Feilong is a open source z/VM cloud connector project under the Open Mainframe Project umbrella that will accelerate the z/VM adoption,
                 extending its ecosystem and its user experience. It provides a set of APIs to operate z/VM including guest, image, network, volume etc.
-              latest_commit_date: '2020-08-12T00:24:38Z'
-              latest_commit_link: /openmainframeproject/python-zvm-sdk/commit/d247d479aa41491c578ebdaa24173112088cc46a
+              latest_commit_date: '2020-08-12T13:27:26Z'
+              latest_commit_link: /openmainframeproject/python-zvm-sdk/commit/4724c08d335d8cea8d48619382cd34c791fc4405
               contributors_count: 42
               contributors_link: 'https://github.com/openmainframeproject/python-zvm-sdk/graphs/contributors'
             repos:
@@ -519,7 +519,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: libica
             homepage_url: 'https://github.com/opencryptoki/libica'
@@ -948,7 +948,7 @@ landscape:
                 - name: Shell
                   value: 1073
                   color: '#89e051'
-              contributions: 0;1;0;2;0;0;0;0;0;0;0;1;0;6;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;2;0;0;0;1;0;3;0;0;0;0;0;0;0;0;0;1;0;0;0
+              contributions: 0;1;1;1;0;0;0;0;0;0;0;1;4;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;1;3;0;0;0;0;0;0;0;0;0;1;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 4
               license: Other
@@ -964,7 +964,7 @@ landscape:
               start_commit_link: /opencryptoki/libica/commit/80bfa416c1369be4d8b99194e744c2f84541d934
               start_date: '2005-01-14T22:36:18Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: libica.svg
@@ -1416,7 +1416,7 @@ landscape:
               start_commit_link: /openmainframeproject/qclib/commit/eddcc19024de389173f898900cc8836fd7d3d7e1
               start_date: '2020-01-07T01:51:50Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: qclib.svg
@@ -1864,7 +1864,7 @@ landscape:
                 - name: Dockerfile
                   value: 375
                   color: '#384d54'
-              contributions: 6;3;0;3;3;2;3;10;0;1;5;6;7;11;11;4;9;3;0;0;1;1;2;1;6;9;5;5;7;2;3;14;10;0;2;3;1;2;7;2;0;0;3;1;4;1;2;2;3;1;0;0
+              contributions: 8;1;1;2;4;1;3;10;0;2;5;7;5;17;5;5;8;3;0;0;1;2;2;2;6;10;2;7;5;2;8;12;7;2;0;3;2;3;6;1;0;0;3;2;3;1;3;3;1;1;0;0
               firstWeek: 2019-08-18Z
               stars: 37
               license: MIT License
@@ -1882,7 +1882,7 @@ landscape:
               start_commit_link: /ibm-s390-tools/s390-tools/commit/b627b8d8e1abef0724ceac559f255fabb996b359
               start_date: '2017-08-07T14:13:17Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: s390-tools.svg
@@ -2334,7 +2334,7 @@ landscape:
               start_commit_link: /openmainframeproject/smc-tools/commit/961b9e73d7cc30b7662ca68562b813946374a051
               start_date: '2020-01-07T02:27:44Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: smc-tools.svg
@@ -2784,7 +2784,7 @@ landscape:
               start_commit_link: /openmainframeproject/snipl/commit/1d2bc6e3d61a314fa61cc431c3c337456ec71d39
               start_date: '2020-01-07T02:15:43Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: sn-ipl.svg
@@ -3234,7 +3234,7 @@ landscape:
               start_commit_link: /openmainframeproject/src_vipa/commit/d976376936fcb2bbc8b37c77c286c21ee835ac67
               start_date: '2020-01-07T02:39:42Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: source-vipa.svg
@@ -3702,7 +3702,7 @@ landscape:
               start_commit_link: /openmainframeproject/sysload/commit/666b57cf1fb696251d70b599cde138504a50456b
               start_date: '2020-01-07T02:34:26Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: sysload.svg
@@ -4144,7 +4144,7 @@ landscape:
                   color: '#384d54'
                 - name: Mako
                   value: 1073
-              contributions: 2;0;4;0;2;0;1;0;1;5;0;1;0;0;1;3;0;0;0;0;0;1;1;5;2;4;1;3;3;3;4;2;1;5;0;5;5;2;0;3;1;1;5;4;2;4;4;1;7;2;5;0
+              contributions: 2;0;4;0;2;1;0;0;1;5;1;0;0;0;1;3;0;0;0;0;0;1;3;3;4;2;2;3;3;2;4;2;3;3;3;2;5;2;0;4;0;1;5;5;1;7;1;4;5;2;4;0
               firstWeek: 2019-08-18Z
               stars: 2
               license: Apache License 2.0
@@ -4162,7 +4162,7 @@ landscape:
               start_commit_link: /tessia-project/tessia/commit/c2cb334ee65b2bde591e1790f4e754a6fdd1610b
               start_date: '2016-06-28T08:40:42Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: tessia.svg
@@ -4661,7 +4661,7 @@ landscape:
               start_commit_link: /openmainframeproject/zfcp-hbaapi/commit/6d56db9c5d79374c01e802305b48a2b32244cbfa
               start_date: '2020-01-07T02:20:42Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: zfcp-hba-api-library.svg
@@ -4928,7 +4928,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: z/OS Connector Plugin for Jenkins
             homepage_url: 'https://github.com/jenkinsci/zos-connector-plugin'
@@ -4954,7 +4954,7 @@ landscape:
                 - name: Java
                   value: 96025
                   color: '#b07219'
-              contributions: 3;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0
+              contributions: 3;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0
               firstWeek: 2019-08-18Z
               stars: 8
               license: MIT License
@@ -4976,7 +4976,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T21:02:48.000Z
+              latest_tweet_date: 2020-08-12T22:59:24.000Z
           - item:
             name: z/OS Node Accessor
             homepage_url: 'https://github.com/IBM/zos-node-accessor'
@@ -5397,7 +5397,7 @@ landscape:
                 - name: JavaScript
                   value: 530
                   color: '#f1e05a'
-              contributions: 0;1;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;5;2;0;2;1;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;5;2;0;0;0;0;0;0;0;1;3;2;0;2
+              contributions: 0;1;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;5;2;0;2;1;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;5;2;0;0;0;0;0;0;0;2;3;1;0;2
               firstWeek: 2019-08-18Z
               stars: 20
               license: Eclipse Public License 1.0
@@ -5415,7 +5415,7 @@ landscape:
               start_commit_link: /IBM/zos-node-accessor/commit/9cd4dab421b48f65d5e371fe8d7d239015722bb5
               start_date: '2017-10-12T08:37:34Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: z-os-node-accessor.svg
@@ -5870,7 +5870,7 @@ landscape:
                 - name: Shell
                   value: 2325
                   color: '#89e051'
-              contributions: 0;0;0;0;2;0;1;24;0;3;0;2;5;7;7;2;2;0;0;0;0;8;0;0;0;0;0;0;2;0;1;0;1;0;3;4;2;0;0;1;11;0;0;1;3;4;0;1;1;3;5;2
+              contributions: 0;0;0;0;2;0;8;17;0;3;0;2;5;7;7;3;1;0;0;0;8;0;0;0;0;0;0;2;0;0;1;0;1;0;3;4;2;0;0;1;11;0;0;4;0;4;0;1;1;8;0;2
               firstWeek: 2019-08-18Z
               stars: 162
               license: Apache License 2.0
@@ -5886,7 +5886,7 @@ landscape:
               start_commit_link: /IBM/IBM-Z-zOS/commit/c94c49958d7a64cbf11151f8e3b5877e50d6b42c
               start_date: '2017-07-17T15:24:03Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: z-os-tools.svg
@@ -5978,7 +5978,7 @@ landscape:
               start_commit_link: /walmartlabs/zECS/commit/9a1b04dd3d76bd4aa5b92a40c99ffd3dd33c50af
               start_date: '2016-11-22T03:15:05Z'
             yahoo_finance_data:
-              market_cap: 368719888384
+              market_cap: 373505884160
               effective_ticker: WMT
             image_data:
               fileName: z-ecs.svg
@@ -6070,7 +6070,7 @@ landscape:
               start_commit_link: /walmartlabs/zFAM/commit/93f3ced6f001dc7a027741a19335315c0cba0b59
               start_date: '2016-11-22T03:35:49Z'
             yahoo_finance_data:
-              market_cap: 368719888384
+              market_cap: 373505884160
               effective_ticker: WMT
             image_data:
               fileName: z-fam.svg
@@ -6105,7 +6105,7 @@ landscape:
               languages:
                 - name: REXX
                   value: 1005068
-              contributions: 0;0;0;0;0;0;0;26;4;49;121;60;80;58;71;100;46;72;27;7;35;43;43;49;60;66;68;132;136;98;1;0;7;17;8;14;10;14;13;28;5;5;11;27;17;17;18;33;10;11;0;0
+              contributions: 0;0;0;0;0;0;0;30;0;55;127;57;73;65;78;90;45;78;16;7;42;43;38;51;66;70;78;114;140;88;1;0;7;17;11;11;11;14;14;26;6;5;12;27;17;15;23;34;6;9;0;0
               firstWeek: 2019-08-18Z
               stars: 30
               license: Unknown License
@@ -6163,7 +6163,7 @@ landscape:
                   color: '#89e051'
                 - name: PLpgSQL
                   value: 814
-              contributions: 2;0;0;0;5;0;4;3;0;4;0;2;7;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;8;17;0;1;0;1;0;0;0;0;0;0
+              contributions: 2;0;0;0;5;0;6;1;0;4;0;2;7;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;25;0;0;1;0;1;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 20
               license: Apache License 2.0
@@ -6186,7 +6186,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: Zowe
             description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
@@ -6214,7 +6214,7 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 2261202
+                  value: 2273302
                   color: '#b07219'
                 - name: JavaScript
                   value: 178282
@@ -6240,13 +6240,13 @@ landscape:
                 - name: Batchfile
                   value: 521
                   color: '#C1F12E'
-              contributions: 3;0;1;2;7;2;2;0;2;5;0;5;4;1;1;6;2;3;1;1;1;4;4;2;10;12;3;12;11;9;10;3;16;10;4;10;10;2;5;4;15;9;10;10;6;6;3;5;4;7;8;3
+              contributions: 2;0;2;1;9;0;2;0;2;5;0;5;4;2;2;4;2;3;1;1;3;2;5;1;12;11;3;16;8;8;9;6;13;11;6;7;11;1;6;6;12;9;11;9;6;7;2;5;6;5;8;4
               firstWeek: 2019-08-18Z
               stars: 21
               license: Eclipse Public License 2.0
               description: The API Mediation Layer provides a single point of access for mainframe service REST APIs.
-              latest_commit_date: '2020-08-11T12:22:39Z'
-              latest_commit_link: /zowe/api-layer/commit/48e189b4ded080c46a1e57297fac457102307c7c
+              latest_commit_date: '2020-08-12T08:09:57Z'
+              latest_commit_link: /zowe/api-layer/commit/083c184ee4445a25a897f671742da67869e046b4
               release_date: '2020-07-31T14:43:36Z'
               release_link: 'https://github.com/zowe/api-layer/releases'
               contributors_count: 45
@@ -6263,7 +6263,7 @@ landscape:
               badge: 2226
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: zUID
             homepage_url: 'https://github.com/walmartlabs/zUID'
@@ -6349,7 +6349,7 @@ landscape:
               start_commit_link: /walmartlabs/zUID/commit/a57d9be0acc6e1d24a7f628db14c98316a543f07
               start_date: '2016-11-16T22:30:24Z'
             yahoo_finance_data:
-              market_cap: 368719888384
+              market_cap: 373505884160
               effective_ticker: WMT
             image_data:
               fileName: z-uid.svg
@@ -6750,9 +6750,9 @@ landscape:
                 - name: TeX
                   value: 4631
                   color: '#3D6117'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;8;70;45;9;6;4;17;3;14;23;18;16;8;7;3;2;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13;5;85;30;10;5;4;19;1;14;27;15;18;9;3;3;2;0
               firstWeek: 2019-08-18Z
-              stars: 1624
+              stars: 1638
               license: Creative Commons Attribution 4.0 International
               description: Training materials and labs for a "Getting Started" level course on COBOL
               latest_commit_date: '2020-08-04T20:45:02Z'
@@ -6763,7 +6763,7 @@ landscape:
               contributors_link: 'https://github.com/openmainframeproject/cobol-programming-course/graphs/contributors'
             repos:
               - url: 'https://github.com/openmainframeproject/cobol-programming-course'
-                stars: 1624
+                stars: 1638
             github_start_commit_data:
               start_commit_link: /openmainframeproject/cobol-programming-course/commit/53e022f5cf577be0d670b134db4f7bafcaa4ea23
               start_date: '2020-04-11T13:32:13Z'
@@ -6773,7 +6773,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: Mentorship
             homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
@@ -6798,7 +6798,7 @@ landscape:
               stockExchange: null
             github_data:
               languages: []
-              contributions: 0;0;0;0;0;0;0;4;0;0;0;1;0;0;0;1;2;62;0;0;2;1;0;0;0;11;0;0;0;0;0;0;1;2;0;0;0;1;0;0;0;0;0;0;0;0;0;24;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;4;0;0;0;1;0;0;0;1;4;60;0;0;2;1;0;0;0;11;0;0;0;0;0;0;3;0;0;0;0;1;0;0;0;0;0;0;0;0;4;20;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 28
               license: Creative Commons Attribution 4.0 International
@@ -6819,7 +6819,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: Open Mainframe Education
             homepage_url: 'https://github.com/openmainframeproject/omp-education'
@@ -6844,7 +6844,7 @@ landscape:
               stockExchange: null
             github_data:
               languages: []
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;2;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;9;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 2
               license: Creative Commons Attribution 4.0 International
@@ -6865,7 +6865,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
       - subcategory:
         name: Other
         items:
@@ -6929,7 +6929,7 @@ landscape:
               badge: 378
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: Ambitus
             homepage_url: 'https://github.com/ambitus'
@@ -6954,7 +6954,7 @@ landscape:
               stockExchange: null
             github_data:
               languages: []
-              contributions: 0;0;0;0;0;0;1;2;2;3;0;3;0;6;0;0;2;0;0;0;0;0;1;0;1;0;0;0;0;0;0;0;3;0;0;0;0;5;0;0;0;0;0;0;8;5;3;3;0;0;0;0
+              contributions: 0;0;0;0;0;0;2;1;2;3;0;3;0;6;0;0;2;0;0;0;0;0;1;0;1;0;0;0;0;0;0;0;3;0;0;0;5;0;0;0;0;0;0;0;13;0;6;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 5
               license: Creative Commons Attribution 4.0 International
@@ -6975,7 +6975,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: Ductwork
             homepage_url: 'https://github.com/trothr/ductwork'
@@ -7067,7 +7067,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: TerseDecompress
             homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
@@ -7118,7 +7118,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
   - category:
     name: Zowe Conformant
     subcategories:
@@ -7286,7 +7286,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-api-mediation-layer-zowe-v1.svg
@@ -7424,7 +7424,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-idms-api-mediation-layer-zowe-v1.svg
@@ -7566,7 +7566,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-jcl-check-workload-automation-api-mediation-layer-zowe-v1.svg
@@ -7706,7 +7706,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-mat-api-mediation-layer-zowe-v1.svg
@@ -7848,7 +7848,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-sysview-performance-management-api-mediation-layer-zowe-v1.svg
@@ -8273,7 +8273,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-netview-api-mediation-layer-zowe-v1.svg
@@ -8702,7 +8702,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-service-management-unite-app-framework-zowe-v1.svg
@@ -9127,7 +9127,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-netview-app-framework-zowe-v1.svg
@@ -9184,7 +9184,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T18:22:24.000Z
+              latest_tweet_date: 2020-08-12T19:23:01.000Z
       - subcategory:
         name: CLI ZOWE V1
         items:
@@ -9350,7 +9350,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-cli-zowe-v1.svg
@@ -9490,7 +9490,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-bridge-for-git-cli-zowe-v1.svg
@@ -9630,7 +9630,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-cli-zowe-v1.svg
@@ -9773,7 +9773,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-jcl-check-workload-automation-cli-zowe-v1.svg
@@ -9915,7 +9915,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-mat-analyze-cli-zowe-v1.svg
@@ -10057,7 +10057,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-mat-detect-cli-zowe-v1.svg
@@ -10198,7 +10198,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-ops-mvs-cli-zowe-v1.svg
@@ -10338,7 +10338,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-spool-cli-zowe-v1.svg
@@ -10480,7 +10480,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-sysview-performance-management-cli-zowe-v1.svg
@@ -10621,7 +10621,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-view-cli-zowe-v1.svg
@@ -10760,7 +10760,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-files-cli-zowe-v1.svg
@@ -10899,7 +10899,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-jobs-cli-zowe-v1.svg
@@ -11323,7 +11323,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-rse-api-plug-in-for-zowe-cli-v-1-0-0-cli-zowe-v1.svg
@@ -11367,7 +11367,7 @@ landscape:
                 - name: JavaScript
                   value: 5688
                   color: '#f1e05a'
-              contributions: 8;8;0;0;2;11;5;0;0;6;38;14;10;7;0;0;3;1;6;1;0;11;6;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 10;6;0;0;4;9;5;0;0;11;36;12;12;4;0;0;3;2;5;1;1;10;6;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 5
               license: Other
@@ -11389,7 +11389,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: IBM® Db2® Database Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -11426,7 +11426,7 @@ landscape:
                 - name: Shell
                   value: 3419
                   color: '#89e051'
-              contributions: 3;3;3;0;0;0;4;0;4;0;0;4;0;0;0;0;0;1;0;0;0;7;5;0;0;0;0;0;0;0;2;0;4;1;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 6;3;0;0;0;0;4;0;4;0;0;4;0;0;0;0;0;1;0;0;0;7;5;0;0;0;0;0;0;0;2;0;4;1;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 3
               license: Other
@@ -11448,7 +11448,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: IBM® IMS™ Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -11484,7 +11484,7 @@ landscape:
                 - name: Shell
                   value: 8128
                   color: '#89e051'
-              contributions: 2;6;0;0;0;0;4;0;0;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;8;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 6;2;0;0;0;0;4;0;0;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;8;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 0
               license: Other
@@ -11506,7 +11506,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: IBM® MQ Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -11543,7 +11543,7 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 0;1;0;0;0;0;1;3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;1;0;0;0;0;1;3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 2
               license: Other
@@ -11565,7 +11565,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI (CLI ZOWE V1)
             description: A Zowe CLI Plug-in for administering z/OS Connect EE servers.
@@ -11991,7 +11991,7 @@ landscape:
                 - name: Shell
                   value: 106
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;2;1;2;0;0;0;0;0;0;0;0;2;0;1;1;0;1;1;0;0;0;2;0;0;0;0;0;2;0;0;0;4;0;3;1;0;3;0;0;0;0;0;6;0;0;0
+              contributions: 0;0;0;0;0;0;2;1;2;0;0;0;0;0;0;0;1;1;0;1;1;0;2;0;0;0;1;1;0;0;0;0;0;2;0;0;0;4;0;3;1;0;3;0;0;0;0;0;6;0;0;0
               firstWeek: 2019-08-18Z
               stars: 4
               license: Eclipse Public License 2.0
@@ -12009,7 +12009,7 @@ landscape:
               start_commit_link: /zosconnect/zowe-cli-zosconnect-plugin/commit/f78745b741fee862dfdb689ce63dc2dece0721d4
               start_date: '2018-09-18T21:58:26Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: z-os-connect-ee-plug-in-for-zowe-cli-cli-zowe-v1.svg
@@ -12052,7 +12052,7 @@ landscape:
                 - name: JavaScript
                   value: 2726
                   color: '#f1e05a'
-              contributions: 0;3;1;0;0;7;0;4;3;3;1;0;4;3;7;2;0;5;11;0;1;7;3;2;0;0;3;0;0;0;2;0;2;13;0;0;0;2;3;9;0;0;3;5;2;4;0;2;4;4;0;0
+              contributions: 0;3;1;0;0;7;0;4;3;4;0;1;3;3;7;2;0;9;7;0;1;7;5;0;0;1;2;0;0;0;2;0;5;10;0;0;0;2;12;0;0;2;1;5;3;3;0;2;8;0;0;0
               firstWeek: 2019-08-18Z
               stars: 11
               license: Other
@@ -12074,7 +12074,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: Zowe Secure Credential Store (CLI ZOWE V1)
             description: Zowe Secure Credential Store lets you store your credentials securely in the credential manager of your operating system.
@@ -12109,7 +12109,7 @@ landscape:
                 - name: Shell
                   value: 1674
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;1;0;0;4;0;7;15;21;5;6;2;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;4
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;1;0;0;4;1;12;10;21;4;6;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;4
               firstWeek: 2019-08-18Z
               stars: 5
               license: Other
@@ -12133,7 +12133,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
       - subcategory:
         name: API Mediation Layer 2019
         items:
@@ -12292,7 +12292,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-api-mediation-layer-2019.svg
@@ -12335,7 +12335,7 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 0;1;0;0;0;0;1;3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;1;0;0;0;0;1;3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 2
               license: Other
@@ -12357,7 +12357,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: IBM Z Workload Scheduler V 9.5.0.2 (API Mediation Layer 2019)
             description: >-
@@ -12773,7 +12773,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-workload-scheduler-v-9-5-0-2-api-mediation-layer-2019.svg
@@ -13198,7 +13198,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-db2-dev-ops-experience-for-z-os-api-mediation-layer-2019.svg
@@ -13621,7 +13621,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-netview-api-mediation-layer-2019.svg
@@ -13667,7 +13667,7 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 0;1;0;0;0;0;1;3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;1;0;0;0;0;1;3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 2
               license: Other
@@ -13689,7 +13689,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS (App Framework 2019)
             description: >-
@@ -14105,7 +14105,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-db2-dev-ops-experience-for-z-os-app-framework-2019.svg
@@ -14528,7 +14528,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-service-automation-suite-app-framework-2019.svg
@@ -14953,7 +14953,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-service-management-suite-for-z-os-app-framework-2019.svg
@@ -15378,7 +15378,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-service-management-unite-smu-app-framework-2019.svg
@@ -15801,7 +15801,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-netview-app-framework-2019.svg
@@ -15858,7 +15858,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T18:22:24.000Z
+              latest_tweet_date: 2020-08-12T19:23:01.000Z
       - subcategory:
         name: CLI 2019
         items:
@@ -16021,7 +16021,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-endevor-cli-2019.svg
@@ -16162,7 +16162,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-file-master-plus-cli-2019.svg
@@ -16303,7 +16303,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-ops-mvs-cli-2019.svg
@@ -16442,7 +16442,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-secure-credential-store-cli-2019.svg
@@ -16583,7 +16583,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-files-cli-2019.svg
@@ -16724,7 +16724,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: ca-z-os-extended-jobs-cli-2019.svg
@@ -16767,7 +16767,7 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 0;1;0;0;0;0;1;3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;1;0;0;0;0;1;3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 2
               license: Other
@@ -16789,7 +16789,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: IBM Z Workload Scheduler V 9.5.0.2 (CLI 2019)
             description: >-
@@ -17205,7 +17205,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-workload-scheduler-v-9-5-0-2-cli-2019.svg
@@ -17249,7 +17249,7 @@ landscape:
                 - name: JavaScript
                   value: 5688
                   color: '#f1e05a'
-              contributions: 8;8;0;0;2;11;5;0;0;6;38;14;10;7;0;0;3;1;6;1;0;11;6;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 10;6;0;0;4;9;5;0;0;11;36;12;12;4;0;0;3;2;5;1;1;10;6;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 5
               license: Other
@@ -17271,7 +17271,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS (CLI 2019)
             description: >-
@@ -17687,7 +17687,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm-db2-dev-ops-experience-for-z-os-cli-2019.svg
@@ -17731,7 +17731,7 @@ landscape:
                 - name: Shell
                   value: 3419
                   color: '#89e051'
-              contributions: 3;3;3;0;0;0;4;0;4;0;0;4;0;0;0;0;0;1;0;0;0;7;5;0;0;0;0;0;0;0;2;0;4;1;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 6;3;0;0;0;0;4;0;4;0;0;4;0;0;0;0;0;1;0;0;0;7;5;0;0;0;0;0;0;0;2;0;4;1;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 3
               license: Other
@@ -17753,7 +17753,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI (CLI 2019)
             description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.
@@ -18179,7 +18179,7 @@ landscape:
                 - name: Shell
                   value: 106
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;2;1;2;0;0;0;0;0;0;0;0;2;0;1;1;0;1;1;0;0;0;2;0;0;0;0;0;2;0;0;0;4;0;3;1;0;3;0;0;0;0;0;6;0;0;0
+              contributions: 0;0;0;0;0;0;2;1;2;0;0;0;0;0;0;0;1;1;0;1;1;0;2;0;0;0;1;1;0;0;0;0;0;2;0;0;0;4;0;3;1;0;3;0;0;0;0;0;6;0;0;0
               firstWeek: 2019-08-18Z
               stars: 4
               license: Eclipse Public License 2.0
@@ -18197,7 +18197,7 @@ landscape:
               start_commit_link: /zosconnect/zowe-cli-zosconnect-plugin/commit/f78745b741fee862dfdb689ce63dc2dece0721d4
               start_date: '2018-09-18T21:58:26Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: z-os-connect-ee-plug-in-for-zowe-cli-cli-2019.svg
@@ -18631,7 +18631,7 @@ landscape:
                 - name: Shell
                   value: 116
                   color: '#89e051'
-              contributions: 0;4;0;2;0;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;7;2;2;0;0;0
+              contributions: 4;0;0;2;0;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;7;3;1;0;0;0
               firstWeek: 2019-08-18Z
               stars: 8
               license: Eclipse Public License 2.0
@@ -18649,7 +18649,7 @@ landscape:
               start_commit_link: /IBM/zowe-cli-cics-deploy-plugin/commit/3b9907cee0a7fbc37a45d2cbc659e8dd20dae6b9
               start_date: '2019-02-11T18:11:42Z'
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: zowe-cli-cics-deploy-plug-in-cli-2019.svg
@@ -18693,7 +18693,7 @@ landscape:
                 - name: Shell
                   value: 1674
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;1;0;0;4;0;7;15;21;5;6;2;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;4
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;1;0;0;4;1;12;10;21;4;6;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;4
               firstWeek: 2019-08-18Z
               stars: 5
               license: Other
@@ -18717,7 +18717,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:00:11.000Z
+              latest_tweet_date: 2020-08-12T21:00:18.000Z
   - category:
     name: Supported Projects
     subcategories:
@@ -18765,7 +18765,7 @@ landscape:
                 - name: Makefile
                   value: 3584
                   color: '#427819'
-              contributions: 3;1;2;0;0;0;8;0;1;1;2;0;15;1;3;3;2;0;3;0;2;0;2;1;2;3;2;3;7;1;2;4;4;0;2;2;0;1;0;0;0;3;0;2;0;0;11;7;0;0;0;0
+              contributions: 3;1;2;0;0;0;8;0;1;1;2;0;16;0;3;4;1;1;2;0;2;0;2;1;2;4;1;3;7;1;2;7;1;0;3;1;0;1;0;0;0;3;0;2;0;1;17;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 33
               license: Unknown License
@@ -18873,13 +18873,13 @@ landscape:
             github_data:
               languages:
                 - name: Ruby
-                  value: 7706618
+                  value: 7706735
                   color: '#701516'
                 - name: Shell
-                  value: 144119
+                  value: 144800
                   color: '#89e051'
                 - name: HTML
-                  value: 66030
+                  value: 66154
                   color: '#e34c26'
                 - name: Go
                   value: 50873
@@ -18892,18 +18892,18 @@ landscape:
                 - name: Vim script
                   value: 111
                   color: '#199f4b'
-              contributions: 28;4;25;21;35;14;27;8;8;6;26;10;16;29;6;5;15;14;20;3;11;18;16;9;8;8;4;7;4;2;0;1;2;11;2;0;0;0;4;3;1;0;1;5;5;0;0;1;1;0;2;0
+              contributions: 29;7;25;23;30;16;23;11;5;12;22;9;17;27;5;8;17;12;18;2;18;15;14;9;8;6;4;9;2;2;0;1;2;11;2;0;0;0;4;3;1;1;1;9;0;0;1;0;1;0;2;2
               firstWeek: 2019-08-18Z
               stars: 1899
               license: Apache License 2.0
               description: >-
                 Cloud Foundry BOSH is an open source tool chain for release engineering, deployment and lifecycle management of large scale distributed
                 services.
-              latest_commit_date: '2020-08-03T17:05:24Z'
-              latest_commit_link: /cloudfoundry/bosh/commit/d717d8c5e663f1560cd0fc4da225fef6785b599f
+              latest_commit_date: '2020-08-12T17:55:30Z'
+              latest_commit_link: /cloudfoundry/bosh/commit/240cb1c36b8a4dd387e656ea03066bbc3cd33a4e
               release_date: '2020-08-03T17:21:09Z'
               release_link: 'https://github.com/cloudfoundry/bosh/releases'
-              contributors_count: 750
+              contributors_count: 751
               contributors_link: 'https://github.com/cloudfoundry/bosh/graphs/contributors'
             repos:
               - url: 'https://github.com/cloudfoundry/bosh'
@@ -18918,7 +18918,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:42:11.000Z
+              latest_tweet_date: 2020-08-12T21:03:03.000Z
           - item:
             name: Debian
             description: Debian is a free operating system (OS) for your computer.
@@ -18942,9 +18942,9 @@ landscape:
               stockExchange: null
             github_data:
               languages: []
-              contributions: 19;9;0;1;2;3;1;0;0;0;0;1;1;0;10;8;4;0;0;0;17;5;15;7;12;4;14;14;27;8;1;5;2;5;3;0;11;6;10;18;12;3;4;4;4;12;3;6;0;1;6;15
+              contributions: 25;2;0;1;2;3;1;0;0;0;1;0;1;0;12;9;1;0;0;0;19;7;11;7;12;5;13;37;4;8;1;6;1;5;3;0;11;8;13;13;13;5;1;4;4;13;3;5;0;1;8;13
               firstWeek: 2019-08-18Z
-              stars: 286
+              stars: 285
               license: Unknown License
               description: Mirror of the apt git repository
               latest_commit_date: '2020-08-11T12:34:13Z'
@@ -18953,7 +18953,7 @@ landscape:
               contributors_link: 'https://github.com/Debian/apt/graphs/contributors'
             repos:
               - url: 'https://github.com/Debian/apt'
-                stars: 286
+                stars: 285
             github_start_commit_data:
               start_commit_link: /Debian/apt/commit/89eaeb446c24bbeacc5f69c170cf60104854432e
               start_date: '2005-03-23T15:46:22Z'
@@ -18964,7 +18964,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-09T19:03:32.000Z
+              latest_tweet_date: 2020-08-12T18:33:02.000Z
           - item:
             name: Eigen
             description: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
@@ -19011,7 +19011,7 @@ landscape:
                 - name: Python
                   value: 12007
                   color: '#3572A5'
-              contributions: 0;0;4;12;10;13;8;13;8;7;5;5;9;10;5;12;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;6;13;8;16;7;12;7;7;4;8;8;10;5;14;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 1600
               license: Other
@@ -19099,7 +19099,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-10T19:03:46.000Z
+              latest_tweet_date: 2020-08-12T14:33:55.000Z
           - item:
             name: Gentoo
             description: >-
@@ -19137,7 +19137,7 @@ landscape:
                 - name: Roff
                   value: 14723
                   color: '#ecdebe'
-              contributions: 7;8;22;2;11;0;2;3;13;21;4;4;14;8;8;6;9;6;7;7;3;0;6;9;13;12;11;8;30;14;7;9;9;0;28;1;1;3;4;2;2;3;3;7;5;8;5;3;18;14;133;22
+              contributions: 7;8;21;4;9;1;2;2;13;21;4;7;11;8;11;3;9;6;9;5;3;0;6;9;13;12;11;9;31;12;7;16;2;21;7;1;1;4;3;2;2;3;3;7;10;3;5;4;24;10;138;14
               firstWeek: 2019-08-18Z
               stars: 310
               license: Other
@@ -19305,18 +19305,18 @@ landscape:
                   value: 8
                   color: '#563d7c'
               contributions: >-
-                264;115;123;144;111;165;183;167;180;163;152;182;187;266;153;155;179;216;145;55;116;188;195;202;165;173;146;160;175;137;155;156;151;162;142;165;187;163;220;197;179;201;169;144;127;121;105;112;107;107;137;84
+                221;103;110;150;141;130;214;141;183;172;161;166;210;259;139;147;201;223;100;66;137;192;199;189;171;160;158;145;186;126;176;151;141;176;123;193;175;161;222;195;181;192;163;144;130;119;97;112;117;100;136;89
               firstWeek: 2019-08-18Z
-              stars: 4045
+              stars: 4047
               license: Other
               description: null
-              latest_commit_date: '2020-08-12T00:16:27Z'
-              latest_commit_link: /gcc-mirror/gcc/commit/a64938091bf13c53cf4dc69eb3c82f8f2f476300
-              contributors_count: 3329
+              latest_commit_date: '2020-08-13T00:53:35Z'
+              latest_commit_link: /gcc-mirror/gcc/commit/2ec803e768a820c9208fea2e8b144ee359379139
+              contributors_count: 3331
               contributors_link: 'https://github.com/gcc-mirror/gcc/graphs/contributors'
             repos:
               - url: 'https://github.com/gcc-mirror/gcc'
-                stars: 4045
+                stars: 4047
             github_start_commit_data:
               start_commit_link: /gcc-mirror/gcc/commit/3cf0d8938a953ef13e57239613d42686f152b4fe
               start_date: '1988-11-23T07:17:23Z'
@@ -19352,27 +19352,27 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 272204057
+                  value: 272227635
                   color: '#f34b7d'
                 - name: LLVM
-                  value: 177979507
+                  value: 178132338
                   color: '#185619'
                 - name: C
-                  value: 65949263
+                  value: 65960080
                   color: '#555555'
                 - name: Assembly
-                  value: 60040357
+                  value: 60043351
                   color: '#6E4C13'
                 - name: Python
-                  value: 8325363
+                  value: 8332825
                   color: '#3572A5'
                 - name: Objective-C
                   value: 4024629
                   color: '#438eff'
                 - name: MLIR
-                  value: 3080615
+                  value: 3082848
                 - name: CMake
-                  value: 2170665
+                  value: 2172687
                 - name: HTML
                   value: 1948228
                   color: '#e34c26'
@@ -19502,22 +19502,22 @@ landscape:
                 - name: Logos
                   value: 28
               contributions: >-
-                740;722;627;751;672;642;668;782;822;615;451;656;594;647;561;433;630;659;554;300;501;706;657;748;754;771;722;671;671;580;621;654;678;770;724;760;730;690;602;623;555;721;795;670;681;731;615;692;685;702;666;693
+                708;719;641;731;640;688;672;769;802;545;553;619;589;656;521;477;647;646;461;303;560;754;669;741;736;776;729;656;658;566;648;637;687;771;746;755;743;645;609;634;575;719;766;686;683;733;620;685;709;693;679;638
               firstWeek: 2019-08-18Z
-              stars: 5571
+              stars: 5579
               license: Unknown License
               description: >-
                 The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Note: the repository does not accept github pull
                 requests at this moment. Please submit your patches at http://reviews.llvm.org.
-              latest_commit_date: '2020-08-12T00:30:02Z'
-              latest_commit_link: /llvm/llvm-project/commit/b0b95dab1ce21d93f3d62bc37256da9f38cff616
+              latest_commit_date: '2020-08-13T00:39:22Z'
+              latest_commit_link: /llvm/llvm-project/commit/b28e3db88d053b94250562f837758dc8a92a0a0f
               release_date: '2020-07-28T15:58:34Z'
               release_link: 'https://github.com/llvm/llvm-project/releases'
-              contributors_count: 2373
+              contributors_count: 2376
               contributors_link: 'https://github.com/llvm/llvm-project/graphs/contributors'
             repos:
               - url: 'https://github.com/llvm/llvm-project'
-                stars: 5571
+                stars: 5579
             github_start_commit_data:
               start_commit_link: /llvm/llvm-project/commit/97724f18c79c7cc81ced24239eb5e883bf1398ef
               start_date: '2001-06-06T20:29:01Z'
@@ -19581,9 +19581,9 @@ landscape:
                 - name: Shell
                   value: 539
                   color: '#89e051'
-              contributions: 7;1;0;3;1;4;8;0;7;0;4;10;3;16;11;4;22;1;0;3;2;8;5;8;2;2;1;0;0;2;0;1;6;4;0;0;2;3;2;4;14;2;1;5;4;1;2;3;0;0;0;0
+              contributions: 1;1;1;2;1;11;1;3;4;0;5;9;4;15;11;4;23;0;0;4;1;9;5;7;4;0;1;0;0;2;0;1;7;3;0;0;2;3;2;5;14;1;1;5;4;3;0;3;0;0;0;0
               firstWeek: 2019-08-18Z
-              stars: 456
+              stars: 457
               license: Other
               description: Just-In-Time Compiler for the Lua Programming language. Fork of LuaJIT to continue development
               latest_commit_date: '2020-07-23T05:53:32Z'
@@ -19594,7 +19594,7 @@ landscape:
               contributors_link: 'https://github.com/moonjit/moonjit/graphs/contributors'
             repos:
               - url: 'https://github.com/moonjit/moonjit'
-                stars: 456
+                stars: 457
             github_start_commit_data:
               start_commit_link: /moonjit/moonjit/commit/55b16959717084884fd4a0cbae6d19e3786c20c7
               start_date: '2009-12-08T18:46:35Z'
@@ -19669,20 +19669,20 @@ landscape:
                   color: '#198CE7'
                 - name: Raku
                   value: 1924
-              contributions: 10;2;22;14;4;3;10;14;5;7;18;16;4;12;15;24;6;3;13;28;19;10;8;3;9;43;43;35;41;43;23;17;8;11;34;46;26;8;29;13;11;13;40;26;9;27;9;23;23;28;24;16
+              contributions: 9;8;16;15;3;4;11;14;5;5;18;17;3;18;15;20;5;2;14;30;17;10;9;1;14;48;41;31;46;39;19;16;11;10;39;45;23;7;29;17;5;27;27;29;9;24;9;23;24;30;20;17
               firstWeek: 2019-08-18Z
-              stars: 3447
+              stars: 3448
               license: BSD 3-Clause "New" or "Revised" License
               description: 'OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version. '
-              latest_commit_date: '2020-08-11T20:40:17Z'
-              latest_commit_link: /xianyi/OpenBLAS/commit/4573cb2f439bfefe9f38acc03dae24e3d36027d8
+              latest_commit_date: '2020-08-12T21:08:38Z'
+              latest_commit_link: /xianyi/OpenBLAS/commit/efdd237a91646f0ce58815ef6507c04e393813a6
               release_date: '2020-06-14T20:12:21Z'
               release_link: 'https://github.com/xianyi/OpenBLAS/releases'
               contributors_count: 200
               contributors_link: 'https://github.com/xianyi/OpenBLAS/graphs/contributors'
             repos:
               - url: 'https://github.com/xianyi/OpenBLAS'
-                stars: 3447
+                stars: 3448
             github_start_commit_data:
               start_commit_link: /xianyi/OpenBLAS/commit/342bbc3871d1b43f548e9d1ae9d380a1d4989cb3
               start_date: '2011-01-24T14:54:24Z'
@@ -19719,7 +19719,7 @@ landscape:
             github_data:
               languages:
                 - name: C
-                  value: 38610763
+                  value: 38638287
                   color: '#555555'
                 - name: PLpgSQL
                   value: 2793106
@@ -19727,7 +19727,7 @@ landscape:
                   value: 1088523
                   color: '#0298c3'
                 - name: C++
-                  value: 1036138
+                  value: 1036559
                   color: '#f34b7d'
                 - name: TSQL
                   value: 777132
@@ -19779,20 +19779,20 @@ landscape:
                   value: 1231
                   color: '#64b970'
               contributions: >-
-                35;31;24;32;30;41;59;35;19;34;31;31;48;32;42;33;25;42;40;18;37;43;31;34;32;39;31;39;44;41;46;64;78;86;66;42;42;51;45;62;25;18;49;55;29;30;34;40;45;28;41;27
+                35;31;21;35;31;50;46;38;23;33;29;34;48;31;38;35;27;44;34;16;44;39;30;37;30;42;32;37;39;51;49;60;80;92;50;45;40;54;43;61;22;20;50;57;28;30;37;36;46;31;35;29
               firstWeek: 2019-08-18Z
-              stars: 7093
+              stars: 7097
               license: Other
               description: >-
                 Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute,
                 please see https://wiki.postgresql.org/wiki/Submitting_a_Patch
-              latest_commit_date: '2020-08-12T00:41:18Z'
-              latest_commit_link: /postgres/postgres/commit/3bd7f9969a240827bc2effa399170b7565238fd2
+              latest_commit_date: '2020-08-13T00:04:51Z'
+              latest_commit_link: /postgres/postgres/commit/b8443eae72b5c36e6b443a2f09b9c605c61a589d
               contributors_count: 50
               contributors_link: 'https://github.com/postgres/postgres/graphs/contributors'
             repos:
               - url: 'https://github.com/postgres/postgres'
-                stars: 7093
+                stars: 7097
             github_start_commit_data:
               start_commit_link: /postgres/postgres/commit/d31084e9d1118b25fd16580d9d8c2924b5740dff
               start_date: '1996-07-09T06:22:35Z'
@@ -19940,7 +19940,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: red-hat-enterprise-linux.svg
@@ -19949,7 +19949,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T20:30:05.000Z
+              latest_tweet_date: 2020-08-12T21:33:02.000Z
           - item:
             name: SUSE Linux Enterprise Server
             homepage_url: 'https://www.suse.com/products/systemz/'
@@ -19980,7 +19980,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T23:15:03.000Z
+              latest_tweet_date: 2020-08-12T21:55:08.000Z
           - item:
             name: Ubuntu
             homepage_url: 'https://wiki.ubuntu.com/S390X'
@@ -20037,7 +20037,7 @@ landscape:
             github_data:
               languages:
                 - name: Shell
-                  value: 10369735
+                  value: 10369756
                   color: '#89e051'
                 - name: C
                   value: 232458
@@ -20086,13 +20086,13 @@ landscape:
                   value: 54
                   color: '#00ADD8'
               contributions: >-
-                303;433;423;1100;365;478;332;215;310;375;662;932;385;358;473;314;374;284;346;368;352;385;292;202;435;299;452;623;664;529;308;395;483;629;972;518;424;458;425;373;498;416;357;295;296;343;308;378;270;315;388;345
+                348;440;503;1052;292;481;315;249;284;498;627;871;395;383;450;293;374;288;354;331;362;399;280;216;451;299;445;662;608;570;315;366;467;918;716;520;418;472;375;405;468;442;333;307;307;320;322;347;290;341;366;336
               firstWeek: 2019-08-18Z
               stars: 448
               license: Unknown License
               description: '[MIRROR] Alpine packages build scripts'
-              latest_commit_date: '2020-08-11T21:40:35Z'
-              latest_commit_link: /alpinelinux/aports/commit/f6f6e90ee986ef01d813ddce6ab3756c82093a9d
+              latest_commit_date: '2020-08-12T21:38:15Z'
+              latest_commit_link: /alpinelinux/aports/commit/bc9abfdcd429f8fa22575a0826625a2427e8b109
               contributors_count: 983
               contributors_link: 'https://github.com/alpinelinux/aports/graphs/contributors'
             repos:
@@ -20153,7 +20153,7 @@ landscape:
                 - name: C
                   value: 379
                   color: '#555555'
-              contributions: 16;6;22;1;3;0;5;1;4;42;0;1;0;1;2;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 18;5;22;0;3;0;6;2;3;41;0;1;0;1;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-08-18Z
               stars: 22
               license: GNU General Public License v2.0
@@ -20175,7 +20175,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-09T19:03:32.000Z
+              latest_tweet_date: 2020-08-12T18:33:02.000Z
           - item:
             name: Fedora Linux
             description: >-
@@ -20226,7 +20226,7 @@ landscape:
                 - name: Vim script
                   value: 45
                   color: '#199f4b'
-              contributions: 9;5;5;2;15;2;13;13;24;23;21;7;22;35;4;13;9;6;3;2;9;8;3;1;3;1;4;2;4;7;4;14;7;5;4;5;2;1;2;2;6;3;1;3;6;4;2;1;6;1;0;5
+              contributions: 4;5;5;3;14;6;11;18;18;28;16;11;21;31;7;11;8;6;3;4;9;8;1;1;3;1;4;3;3;7;4;15;6;7;3;5;1;1;2;4;4;3;2;4;7;1;3;0;6;1;0;5
               firstWeek: 2019-08-18Z
               stars: 104
               license: GNU General Public License v2.0
@@ -20250,7 +20250,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-10T19:03:46.000Z
+              latest_tweet_date: 2020-08-12T14:33:55.000Z
           - item:
             name: Gentoo Linux
             description: >-
@@ -20277,7 +20277,7 @@ landscape:
             github_data:
               languages:
                 - name: Shell
-                  value: 50458502
+                  value: 50559008
                   color: '#89e051'
                 - name: Roff
                   value: 662401
@@ -20357,14 +20357,14 @@ landscape:
                 - name: DTrace
                   value: 39
               contributions: >-
-                1122;983;1107;1146;1467;1203;1436;1294;1753;1345;849;1066;1341;1578;1775;2676;2914;1970;1637;2037;1406;1453;1307;1902;1236;3062;1989;1185;1389;1461;1538;2535;3190;1279;1857;2012;1874;2090;2091;1619;1921;2027;2148;1448;1851;1604;1559;3439;2476;1661;3493;1944
+                1008;1182;982;1303;1290;1179;1630;1112;1872;1221;810;1124;1502;1721;1585;2788;2780;1912;1711;2155;1202;1490;1285;1867;1659;2804;1811;1230;1467;1474;1895;3066;2263;1264;1981;2001;1773;2298;2024;1932;1440;2120;2155;1356;1860;1572;1818;3267;2380;2122;3365;1627
               firstWeek: 2019-08-18Z
               stars: 1232
               license: Unknown License
               description: '[MIRROR] Official Gentoo ebuild repository'
-              latest_commit_date: '2020-08-12T02:08:13Z'
-              latest_commit_link: /gentoo/gentoo/commit/262409d61aef3d3b46321b33913df94ded5d4d83
-              contributors_count: 1208
+              latest_commit_date: '2020-08-13T01:44:50Z'
+              latest_commit_link: /gentoo/gentoo/commit/85f137b7a4f9f2372847f19e53982629201b8faf
+              contributors_count: 1210
               contributors_link: 'https://github.com/gentoo/gentoo/graphs/contributors'
             repos:
               - url: 'https://github.com/gentoo/gentoo'
@@ -20426,7 +20426,7 @@ landscape:
                 - name: CSS
                   value: 467
                   color: '#563d7c'
-              contributions: 20;13;35;34;32;31;28;9;14;22;9;67;61;18;55;11;41;2;3;1;2;2;7;2;26;1;8;8;5;11;9;10;2;0;0;0;2;14;1;5;0;1;5;1;2;2;9;4;3;0;0;10
+              contributions: 18;30;39;31;24;35;14;15;15;17;8;78;50;37;40;17;30;4;1;1;2;3;6;5;23;4;10;3;7;9;12;9;0;0;0;0;5;11;1;5;0;1;6;0;2;2;11;2;3;0;0;10
               firstWeek: 2019-08-18Z
               stars: 25
               license: GNU General Public License v2.0
@@ -20450,7 +20450,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T06:51:28.000Z
+              latest_tweet_date: 2020-08-12T20:07:09.000Z
   - category:
     name: Open Mainframe Project Member Company
     subcategories:
@@ -20546,7 +20546,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 59378167808
+              market_cap: 60014514176
               effective_ticker: ADP
             image_data:
               fileName: adp.svg
@@ -20555,7 +20555,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T19:00:02.000Z
+              latest_tweet_date: 2020-08-12T19:00:03.000Z
           - item:
             name: Broadcom Corporation
             homepage_url: 'https://www.broadcom.com'
@@ -20683,7 +20683,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 130319998976
+              market_cap: 134185009152
               effective_ticker: AVGO
             image_data:
               fileName: broadcom-corporation.svg
@@ -21105,7 +21105,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 112880885760
+              market_cap: 112836354048
               effective_ticker: IBM
             image_data:
               fileName: ibm.svg
@@ -21159,7 +21159,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T18:22:24.000Z
+              latest_tweet_date: 2020-08-12T19:23:01.000Z
           - item:
             name: SUSE
             homepage_url: 'https://www.suse.com/'
@@ -21190,7 +21190,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T23:15:03.000Z
+              latest_tweet_date: 2020-08-12T21:55:08.000Z
       - subcategory:
         name: Silver
         items:
@@ -21249,7 +21249,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T19:56:00.000Z
+              latest_tweet_date: 2020-08-12T15:59:26.000Z
           - item:
             name: Phoenix Software International
             homepage_url: 'https://phoenixsoftware.com/'
@@ -21328,7 +21328,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T18:05:10.000Z
+              latest_tweet_date: 2020-08-12T18:05:09.000Z
           - item:
             name: Sine Nomine Associates
             homepage_url: 'https://www.sinenomine.net/'
@@ -21356,18 +21356,18 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T18:31:00.000Z
+              latest_tweet_date: 2020-08-12T21:08:46.000Z
           - item:
             name: SOFTWARE ENGINEERING GmbH
             homepage_url: 'https://www.seg.de'
             logo: 'https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/software-engineering-gmbh.svg'
             crunchbase: 'https://www.crunchbase.com/organization/software-engineering-gmbh'
             crunchbase_data:
-              name: SOFTWARE ENGINEERING GmbH
-              description: SOFTWARE ENGINEERING GmbH (SEG) is an IT service company founded in 1979.
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: null
+              name: SOFTWARE ENGINEERING
+              description: SOFTWARE ENGINEERING (SEG) is an IT software provider focussed on state of the art Db2 z/OS solution with outstanding customer satisfaction.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.seg.de'
               city: Düsseldorf
               region: Nordrhein-Westfalen
               country: Germany
@@ -21491,7 +21491,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T16:14:53.000Z
+              latest_tweet_date: 2020-08-12T13:43:37.000Z
           - item:
             name: Beijing Institute of Technology
             homepage_url: 'http://www.bit.edu.cn/'
@@ -21568,7 +21568,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-12T00:13:02.000Z
+              latest_tweet_date: 2020-08-12T21:00:01.000Z
           - item:
             name: EPSI
             homepage_url: 'https://www.epsi.fr/'
@@ -21677,7 +21677,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T20:49:33.000Z
+              latest_tweet_date: 2020-08-12T17:04:58.000Z
           - item:
             name: North Carolina A&T State
             homepage_url: 'https://www.ncat.edu/'
@@ -21706,7 +21706,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T15:54:22.000Z
+              latest_tweet_date: 2020-08-12T13:53:42.000Z
           - item:
             name: South China University of Technology
             homepage_url: 'https://www.scut.edu.cn'
@@ -21758,7 +21758,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T17:11:50.000Z
+              latest_tweet_date: 2020-08-12T23:43:31.000Z
           - item:
             name: University of Washington CIAC
             homepage_url: 'https://www.uwb.edu/ciac'
@@ -21787,7 +21787,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-12T00:17:44.000Z
+              latest_tweet_date: 2020-08-12T23:57:00.000Z
           - item:
             name: University of Wolverhampton
             homepage_url: 'https://www.wlv.ac.uk/'
@@ -21841,7 +21841,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T07:16:44.000Z
+              latest_tweet_date: 2020-08-12T14:27:15.000Z
           - item:
             name: Virginia Commonwealth University
             homepage_url: 'https://www.vcu.edu/'
@@ -21870,7 +21870,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-11T20:35:02.000Z
+              latest_tweet_date: 2020-08-12T22:30:13.000Z
           - item:
             name: Western University
             homepage_url: 'https://www.uwo.ca/'
@@ -21899,7 +21899,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-12T00:10:01.000Z
+              latest_tweet_date: 2020-08-12T19:16:01.000Z
           - item:
             name: William Patterson University
             homepage_url: 'https://www.wpunj.edu/'
@@ -21926,7 +21926,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-12T01:43:36.000Z
+              latest_tweet_date: 2020-08-12T21:10:17.000Z
           - item:
             name: Xidian University
             homepage_url: 'https://www.xidian.edu.cn/'
@@ -22087,8 +22087,8 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-08-10T14:42:14.000Z
+              latest_tweet_date: 2020-08-12T18:53:55.000Z
 twitter_options:
   count: 10
   since_id: '1280808389493370882'
-updated_at: 2020-08-12T02:13:02.244Z
+updated_at: 2020-08-13T01:52:11.441Z
