@@ -565,6 +565,14 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             allow_duplicate_repo: true
           - item:
+            name: IBM® Z® Workload Scheduler V 9.5.0.2 (CLI ZOWE V1)
+            description: >-
+              IBM® Z® Workload Scheduler is a workload automation solution that enables organizations to automate, plan and control the processing of complex systems’ workloads.
+            homepage_url: 'https://www.ibm.com/products/z-workload-scheduler'
+            logo: ibm-z-workload-scheduler.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
             name: z/OS Connect EE Plug-in for Zowe CLI (CLI ZOWE V1)
             description: A Zowe CLI Plug-in for administering z/OS Connect EE servers.
             homepage_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin/tree/lts-incremental'
