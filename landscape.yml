@@ -128,6 +128,12 @@ landscape:
         name: z/OS
         items:
           - item:
+            name: Launcher
+            homepage_url: 'https://github.com/phoenixsoftware/Launcher'
+            repo_url: 'https://github.com/phoenixsoftware/Launcher'
+            logo: phoenix-software-international-launcher.svg
+            crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+          - item:
             name: Polycephaly
             homepage_url: 'https://www.openmainframeproject.org/projects/polycephaly'
             project: incubating
@@ -271,6 +277,14 @@ landscape:
             logo: ductwork.svg
             crunchbase: 'https://www.crunchbase.com/organization/la-casita'
           - item:
+            name: GenevaERS
+            homepage_url: 'https://genevaers.org'
+            project: incubating
+            repo_url: 'https://github.com/genevaers/community'
+            project_org: 'https://github.com/genevaers'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/genevaers/genevaers-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
             name: Software Discovery Tool
             homepage_url: 'https://github.com/openmainframeproject/software-discovery-tool'
             project: incubating
@@ -299,6 +313,14 @@ landscape:
             logo: phoenix-software-international-ejes.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
             allow_duplicate_repo: true
+          - item:
+            name: CA Database Management Solutions for Db2 for z/OS (API Mediation Layer ZOWE V1)
+            description: RESTful APIs for Db2 for z/OS data access and management
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html
+            stock_ticker: AVGO
+            logo: ca-database-management-solutions-for-db2-for-zos.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
             name: CA Endevor® (API Mediation Layer ZOWE V1)
             description: >-
@@ -344,6 +366,15 @@ landscape:
               https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html
             stock_ticker: AVGO
             logo: ca-sysview-performance-management.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+          - item:
+            name: CA Vantage™ Storage Resource Manager (API Mediation Layer ZOWE V1)
+            description: 'CA Vantage™ SRM is an automated storage management system that provides comprehensive reporting, monitoring, and automation capabilities.'
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0.html
+            stock_ticker: AVGO
+            logo: ca-vantage-storage-resource-manager.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
@@ -560,6 +591,14 @@ landscape:
             logo: ibm-mq-for-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             allow_duplicate_repo: true
+          - item:
+            name: IBM® Z® Workload Scheduler V 9.5.0.2 (CLI ZOWE V1)
+            description: >-
+              IBM® Z® Workload Scheduler is a workload automation solution that enables organizations to automate, plan and control the processing of complex systems’ workloads.
+            homepage_url: 'https://www.ibm.com/products/z-workload-scheduler'
+            logo: ibm-z-workload-scheduler.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI (CLI ZOWE V1)
             description: A Zowe CLI Plug-in for administering z/OS Connect EE servers.
