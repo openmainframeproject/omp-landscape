@@ -9968,6 +9968,142 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-09-03T15:07:01.000Z
           - item:
+            name: CA IDMS (CLI ZOWE V1)
+            description: >-
+              The CA IDMS Plug-in for Zowe CLI lets you interact with CA IDMS by providing the ability to list real-time performance statistics, view DC Log
+              records, and issue DCMT and DCUF commands. The plug-in requires the CA IDMS REST API.
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html'
+            stock_ticker: AVGO
+            logo: ca-idms.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: Symantec
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              stockExchange: nasdaq
+            image_data:
+              fileName: ca-idms-cli-zowe-v1.svg
+              hash: ndO6mKuQp6ocXsm2K/+Uo0pM76E3pgVbWqUtz+InvrY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-09-03T15:07:01.000Z
+          - item:
             name: CA JCLCheck™ Workload Automation (CLI ZOWE V1)
             description: >-
               CA JCLCheck™ Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the

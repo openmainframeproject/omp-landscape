@@ -459,6 +459,15 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
+            name: CA IDMS (CLI ZOWE V1)
+            description: >-
+              The CA IDMS Plug-in for Zowe CLI lets you interact with CA IDMS by providing the ability to list real-time performance statistics, view DC Log
+              records, and issue DCMT and DCUF commands. The plug-in requires the CA IDMS REST API.
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html'
+            stock_ticker: AVGO
+            logo: ca-idms.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+          - item:
             name: CA JCLCheck™ Workload Automation (CLI ZOWE V1)
             description: >-
               CA JCLCheck™ Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
