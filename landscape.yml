@@ -128,6 +128,17 @@ landscape:
         name: z/OS
         items:
           - item:
+            name: CBT Tape
+            homepage_url: 'http://www.cbttape.org/'
+            logo: cbttape.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cbt-tape'
+          - item:
+            name: Launcher
+            homepage_url: 'https://github.com/phoenixsoftware/Launcher'
+            repo_url: 'https://github.com/phoenixsoftware/Launcher'
+            logo: phoenix-software-international-launcher.svg
+            crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+          - item:
             name: Polycephaly
             homepage_url: 'https://www.openmainframeproject.org/projects/polycephaly'
             project: incubating
@@ -196,6 +207,34 @@ landscape:
             logo: zuid.svg
             crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
       - subcategory:
+        name: Development Tools
+        items:
+          - item:
+            name: Atom language syntax highlighting for z/VM
+            homepage_url: 'https://atom.io/users/openmainframeproject'
+            project: incubating
+            repo_url: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/atom/atom-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+          - item:
+            name: COBOL Source colouriser for Visual Studio Code
+            homepage_url: 'https://github.com/spgennard/vscode_cobol'
+            repo_url: 'https://github.com/spgennard/vscode_cobol'
+            logo: cobol_source_colouriser_vscode.svg
+            crunchbase: 'https://www.crunchbase.com/organization/bitlang-development'
+          - item:
+            name: Eclipse Che4z
+            homepage_url: 'https://projects.eclipse.org/projects/ecd.che.che4z'
+            repo_url: 'https://github.com/eclipse/che-che4z'
+            logo: che4z.svg
+            crunchbase: 'https://www.crunchbase.com/organization/eclipse-foundation'
+          - item:
+            name: zSublime
+            homepage_url: 'https://github.com/vadimshchukin/zsublime'
+            repo_url: 'https://github.com/vadimshchukin/zsublime'
+            logo: zsublime.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+      - subcategory:
         name: Learning and Mentoring
         items:
           - item:
@@ -237,18 +276,19 @@ landscape:
             logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/ambitus/ambitus-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
-            name: Atom language syntax highlighting for z/VM
-            homepage_url: 'https://atom.io/users/openmainframeproject'
-            project: incubating
-            repo_url: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/atom/atom-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
-          - item:
             name: Ductwork
             homepage_url: 'https://github.com/trothr/ductwork'
             repo_url: 'https://github.com/trothr/ductwork'
             logo: ductwork.svg
             crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+          - item:
+            name: GenevaERS
+            homepage_url: 'https://genevaers.org'
+            project: incubating
+            repo_url: 'https://github.com/genevaers/community'
+            project_org: 'https://github.com/genevaers'
+            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/genevaers/genevaers-color.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
           - item:
             name: Software Discovery Tool
             homepage_url: 'https://github.com/openmainframeproject/software-discovery-tool'
@@ -279,18 +319,25 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
             allow_duplicate_repo: true
           - item:
+            name: CA Database Management Solutions for Db2 for z/OS (API Mediation Layer ZOWE V1)
+            description: RESTful APIs for Db2 for z/OS data access and management
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html'
+            stock_ticker: AVGO
+            logo: ca-database-management-solutions-for-db2-for-zos.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+          - item:
             name: CA Endevor® (API Mediation Layer ZOWE V1)
             description: >-
               CA Endevor® provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
               development process, CA Endevor governs software change from the very first line of modified code through deployment with change tracking.
-            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0.html'
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0.html'
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
             name: CA IDMS (API Mediation Layer ZOWE V1)
             description: 'IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.'
-            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html'
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html'
             stock_ticker: AVGO
             logo: ca-idms.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -300,7 +347,7 @@ landscape:
               CA JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
               plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
               production cycles
-            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/automation/ca-jclcheck-workload-automation/12-0.html'
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-jclcheck-workload-automation/12-0.html'
             stock_ticker: AVGO
             logo: ca-jclcheck-workload-automation.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -310,7 +357,7 @@ landscape:
             description: >-
               This API enables accessing CA Mainframe Application Tuner via modern tools by providing end-points to enable customers to automate and script a
               MAT request in their CI/CD pipeline
-            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html'
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html'
             logo: ca-mat.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
@@ -319,10 +366,17 @@ landscape:
             description: >-
               CA SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access CA SYSVIEW actions and
               data using a modern API.
-            homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html'
             stock_ticker: AVGO
             logo: ca-sysview-performance-management.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+          - item:
+            name: CA Vantage™ Storage Resource Manager (API Mediation Layer ZOWE V1)
+            description: 'CA Vantage™ SRM is an automated storage management system that provides comprehensive reporting, monitoring, and automation capabilities.'
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0.html'
+            stock_ticker: AVGO
+            logo: ca-vantage-storage-resource-manager.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
@@ -390,7 +444,7 @@ landscape:
               CA Endevor® provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
               development process, CA Endevor governs software change from the very first line of modified code through deployment with change tracking.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -398,7 +452,7 @@ landscape:
             name: CA Endevor® Bridge For Git (CLI ZOWE V1)
             description: CA Endevor® Bridge for Git lets you interact with CA Endevor® Bridge For Git to perform tasks through Zowe CLI
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/CA-Endevor-Bridge-for-Git-Plug-in-for-Zowe-CLI.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/CA-Endevor-Bridge-for-Git-Plug-in-for-Zowe-CLI.html
             stock_ticker: AVGO
             logo: ca-endevor-bridge-for-git.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -407,11 +461,20 @@ landscape:
             name: CA File Master™ Plus (CLI ZOWE V1)
             description: CA File Master™ Plus brings advanced file management and data manipulation functionality to the CLI.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
+          - item:
+            name: CA IDMS (CLI ZOWE V1)
+            description: >-
+              The CA IDMS Plug-in for Zowe CLI lets you interact with CA IDMS by providing the ability to list real-time performance statistics, view DC Log
+              records, and issue DCMT and DCUF commands. The plug-in requires the CA IDMS REST API.
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html'
+            stock_ticker: AVGO
+            logo: ca-idms.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
           - item:
             name: CA JCLCheck™ Workload Automation (CLI ZOWE V1)
             description: >-
@@ -419,7 +482,7 @@ landscape:
               plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
               production cycles
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-jclcheck-workload-automation-plug-in-for-zowe-cli.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-jclcheck-workload-automation-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-jclcheck-workload-automation.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -430,7 +493,7 @@ landscape:
               CA MAT Analyze ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data in the form of CA
               MAT analysis views using Zowe CLI.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-mat-analyze-plug-in-for-zowe-cli.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-mat-analyze-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-mat-analyze.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -441,7 +504,7 @@ landscape:
               CA MAT Detect provides utilities to access performance data supplied by the CA Mainframe Application Tuner component Performance Management
               Assistant (PMA).
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-mat-detect-plug-in-for-zowe-cli.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-mat-detect-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-mat-detect.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -452,7 +515,7 @@ landscape:
               CA OPS/MVS® lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient automation and resource
               management from the CLI.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
             stock_ticker: AVGO
             logo: ca-opsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -460,7 +523,7 @@ landscape:
             name: CA Spool™ (CLI ZOWE V1)
             description: 'CA Spool™ provides you with a central point of control for managing enterprise-wide print, email and intelligence delivery services.'
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-spool-plug-in-for-zowe-cli.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-spool-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-spool.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -471,7 +534,7 @@ landscape:
               CA SYSVIEW Performance Management lets Application Developers, DevOps and CI/CD Administrators, and other similar IT roles issue CA SYSVIEW
               commands that take actions or display data.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins.html
             stock_ticker: AVGO
             logo: ca-sysview-performance-management.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -482,7 +545,7 @@ landscape:
               CA View® lets you access report data, list repositories, and search cross-report index names or values in a repository. You can also use the
               plug-in to automate report data exports using rules, and to manage user settings.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/CA-View-Plug-in-for-Zowe-CLI.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/CA-View-Plug-in-for-Zowe-CLI.html
             stock_ticker: AVGO
             logo: ca-view.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -490,7 +553,7 @@ landscape:
             name: CA z/OS Extended Files (CLI ZOWE V1)
             description: CA z/OS Extended Files Plug-in extends the CLI to support complex data set management functionality.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -498,7 +561,7 @@ landscape:
             name: CA z/OS Extended Jobs (CLI ZOWE V1)
             description: CA z/OS Extended Jobs extends the CLI to include additional commands for interaction with z/OS jobs.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -548,6 +611,15 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             allow_duplicate_repo: true
           - item:
+            name: IBM® Z® Workload Scheduler V 9.5.0.2 (CLI ZOWE V1)
+            description: >-
+              IBM® Z® Workload Scheduler is a workload automation solution that enables organizations to automate, plan and control the processing of complex
+              systems’ workloads.
+            homepage_url: 'https://www.ibm.com/products/z-workload-scheduler'
+            logo: ibm-z-workload-scheduler.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
             name: z/OS Connect EE Plug-in for Zowe CLI (CLI ZOWE V1)
             description: A Zowe CLI Plug-in for administering z/OS Connect EE servers.
             homepage_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin/tree/lts-incremental'
@@ -582,7 +654,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
           - item:
             name: CA File Master™ Plus (API Mediation Layer 2019)
-            homepage_url: 'https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-filemaster-plus/11-0/using-the-rest-api.html'
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/11-0/using-the-rest-api.html'
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -692,7 +764,7 @@ landscape:
               CA Endevor® lets you interact with CA Endevor through a local command-line interface. You can control CA Endevor application lifecycle actions,
               allowing easy scripting from off-platform CI/CD pipelines.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -702,7 +774,7 @@ landscape:
               CA File Master™ Plus brings advanced file management and data manipulation functionality to the CLI. Control functions that CLI can invoke include
               copying, renaming and deleting files, and populating files with data.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -712,7 +784,7 @@ landscape:
               CA OPS/MVS® lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient automation and resource
               management from the CLI.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
             stock_ticker: AVGO
             logo: ca-opsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -720,7 +792,7 @@ landscape:
             name: CA Secure Credential Store (CLI 2019)
             description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store.html
             stock_ticker: AVGO
             logo: ca-secure-credential-store.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -730,7 +802,7 @@ landscape:
               CA z/OS Extended Files lets application developers extend the CLI to support data set management functionality. For example, copying the contents
               of a data set and downloading data sets that match a DSLEVEL pattern.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -740,7 +812,7 @@ landscape:
               CA z/OS Extended Jobs lets application developers extend the CLI to support additional z/OS job creation and job management functionality. For
               example, viewing all spool content and deleting multiple jobs in the OUTPUT status.
             homepage_url: >-
-              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
