@@ -435,6 +435,7 @@ landscape:
               (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
               running JES2 or JES3
             homepage_url: 'https://phoenixsoftware.com/ejes.htm'
+            repo_url: 'https://github.com/phoenixsoftware/ejes-cli'
             logo: phoenix-software-international-ejes.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
             allow_duplicate_repo: true
@@ -755,9 +756,11 @@ landscape:
           - item:
             name: (E)JES Plug-in for Zowe CLI (CLI 2019)
             description: 'The (E)JES Plug-in for Zowe CLI uses the (E)JES Zowe REST API to provide command line functions to stream or search the mainframe system logs. '
-            homepage_url: 'https://phoenixsoftware.com/ejes.htm#zowe'
+            homepage_url: 'https://phoenixsoftware.com/ejes.htm#zowe'            
+            repo_url: 'https://github.com/phoenixsoftware/ejes-cli'
             logo: phoenix-software-international-ejes.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+            allow_duplicate_repo: true
           - item:
             name: CA Endevor® (CLI 2019)
             description: >-
