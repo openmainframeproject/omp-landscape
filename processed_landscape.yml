@@ -4879,20 +4879,22 @@ landscape:
             name: CBT Tape
             homepage_url: 'http://www.cbttape.org/'
             logo: cbttape.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cbt-tape'
+            project: incubating
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             crunchbase_data:
-              name: CBT Tape
-              description: A collection of freeware almost all open-source distribution for the IBM mainframe MVS and OS/390 operating system environment.
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
               num_employees_min: null
               num_employees_max: null
-              homepage: 'http://www.cbttape.org/'
-              city: Potomac
-              region: Maryland
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
               country: United States
-              twitter: null
+              twitter: 'https://twitter.com/OpenMFProject'
               linkedin: null
               acquisitions: []
-              parents: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
               stockExchange: null
             image_data:
               fileName: cbt-tape.svg
@@ -4900,6 +4902,8 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-09-03T18:00:16.000Z
           - item:
             name: Launcher
             homepage_url: 'https://github.com/phoenixsoftware/Launcher'
@@ -22249,11 +22253,11 @@ landscape:
             logo: 'https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/software-engineering-gmbh.svg'
             crunchbase: 'https://www.crunchbase.com/organization/software-engineering-gmbh'
             crunchbase_data:
-              name: SOFTWARE ENGINEERING
-              description: SOFTWARE ENGINEERING (SEG) is an IT software provider focussed on state of the art Db2 z/OS solution with outstanding customer satisfaction.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'https://www.seg.de'
+              name: SOFTWARE ENGINEERING GmbH
+              description: SOFTWARE ENGINEERING GmbH (SEG) is an IT service company founded in 1979.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: null
               city: Düsseldorf
               region: Nordrhein-Westfalen
               country: Germany
