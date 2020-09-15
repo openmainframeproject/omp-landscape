@@ -4879,20 +4879,22 @@ landscape:
             name: CBT Tape
             homepage_url: 'http://www.cbttape.org/'
             logo: cbttape.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cbt-tape'
+            project: incubating
+            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             crunchbase_data:
-              name: CBT Tape
-              description: A collection of freeware almost all open-source distribution for the IBM mainframe MVS and OS/390 operating system environment.
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
               num_employees_min: null
               num_employees_max: null
-              homepage: 'http://www.cbttape.org/'
-              city: Potomac
-              region: Maryland
+              homepage: 'https://www.openmainframeproject.org/'
+              city: San Francisco
+              region: California
               country: United States
-              twitter: null
+              twitter: 'https://twitter.com/OpenMFProject'
               linkedin: null
               acquisitions: []
-              parents: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
               stockExchange: null
             image_data:
               fileName: cbt-tape.svg
@@ -4900,6 +4902,8 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-09-03T18:00:16.000Z
           - item:
             name: Launcher
             homepage_url: 'https://github.com/phoenixsoftware/Launcher'
@@ -9561,6 +9565,7 @@ landscape:
               (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
               running JES2 or JES3
             homepage_url: 'https://phoenixsoftware.com/ejes.htm'
+            repo_url: 'https://github.com/phoenixsoftware/ejes-cli'
             logo: phoenix-software-international-ejes.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
             allow_duplicate_repo: true
@@ -9578,6 +9583,29 @@ landscape:
               acquisitions: []
               parents: []
               stockExchange: null
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 56039
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 2249
+                  color: '#f1e05a'
+              contributions: 0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;6;0;0;0;0;0;0;0;1;2;2;0;0;0;0;2
+              firstWeek: 2019-09-15Z
+              stars: 2
+              license: Other
+              description: (E)JES plug-in for Zowe CLI
+              latest_commit_date: '2020-09-04T18:47:06Z'
+              latest_commit_link: /phoenixsoftware/ejes-cli/commit/d7552865ec50100ce56e099604c74ab6991895df
+              contributors_count: 4
+              contributors_link: 'https://github.com/phoenixsoftware/ejes-cli/graphs/contributors'
+            repos:
+              - url: 'https://github.com/phoenixsoftware/ejes-cli'
+                stars: 2
+            github_start_commit_data:
+              start_commit_link: /phoenixsoftware/ejes-cli/commit/721ab39841b6b933212ff11ea66d39975797d7fe
+              start_date: '2019-09-19T19:49:10Z'
             image_data:
               fileName: e-jes-cli-zowe-v1.svg
               hash: XNqdj4kpayS9JxtT31MghMPowoHWOWywUUOJclomNkQ=
@@ -16734,7 +16762,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-06T18:40:01.000Z
+              latest_tweet_date: 2020-08-11T18:22:24.000Z
       - subcategory:
         name: CLI 2019
         items:
@@ -16742,8 +16770,10 @@ landscape:
             name: (E)JES Plug-in for Zowe CLI (CLI 2019)
             description: 'The (E)JES Plug-in for Zowe CLI uses the (E)JES Zowe REST API to provide command line functions to stream or search the mainframe system logs. '
             homepage_url: 'https://phoenixsoftware.com/ejes.htm#zowe'
+            repo_url: 'https://github.com/phoenixsoftware/ejes-cli'
             logo: phoenix-software-international-ejes.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Phoenix Software International
               description: 'Phoenix Software International, Inc., is a systems software development company providing advanced software applications to enterprises.'
@@ -16758,6 +16788,29 @@ landscape:
               acquisitions: []
               parents: []
               stockExchange: null
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 56039
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 2249
+                  color: '#f1e05a'
+              contributions: 0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;6;0;0;0;0;0;0;0;1;2;2;0;0;0;0;2
+              firstWeek: 2019-09-15Z
+              stars: 2
+              license: Other
+              description: (E)JES plug-in for Zowe CLI
+              latest_commit_date: '2020-09-04T18:47:06Z'
+              latest_commit_link: /phoenixsoftware/ejes-cli/commit/d7552865ec50100ce56e099604c74ab6991895df
+              contributors_count: 4
+              contributors_link: 'https://github.com/phoenixsoftware/ejes-cli/graphs/contributors'
+            repos:
+              - url: 'https://github.com/phoenixsoftware/ejes-cli'
+                stars: 2
+            github_start_commit_data:
+              start_commit_link: /phoenixsoftware/ejes-cli/commit/721ab39841b6b933212ff11ea66d39975797d7fe
+              start_date: '2019-09-19T19:49:10Z'
             image_data:
               fileName: e-jes-plug-in-for-zowe-cli-cli-2019.svg
               hash: XNqdj4kpayS9JxtT31MghMPowoHWOWywUUOJclomNkQ=
@@ -22005,7 +22058,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-06T18:40:01.000Z
+              latest_tweet_date: 2020-08-11T18:22:24.000Z
           - item:
             name: SUSE
             homepage_url: 'https://www.suse.com/'
@@ -22207,11 +22260,11 @@ landscape:
             logo: 'https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/software-engineering-gmbh.svg'
             crunchbase: 'https://www.crunchbase.com/organization/software-engineering-gmbh'
             crunchbase_data:
-              name: SOFTWARE ENGINEERING
-              description: SOFTWARE ENGINEERING (SEG) is an IT software provider focussed on state of the art Db2 z/OS solution with outstanding customer satisfaction.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'https://www.seg.de'
+              name: SOFTWARE ENGINEERING GmbH
+              description: SOFTWARE ENGINEERING GmbH (SEG) is an IT service company founded in 1979.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: null
               city: Düsseldorf
               region: Nordrhein-Westfalen
               country: Germany
