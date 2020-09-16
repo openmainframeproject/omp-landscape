@@ -393,6 +393,16 @@ landscape:
         name: App Framework ZOWE V1
         items:
           - item:
+            name: CA Vantage™ Storage Resource Manager (App Framework ZOWE V1)
+            description: >-
+              CA Vantage™ Storage Resource Manager Web Client, also known as Mainframe Team Center - Management. Zowe App Framework plugin provides access to the Mainframe Team Center - Management from Zowe Desktop.
+            homepage_url: >-
+              https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0/web-client.html
+            stock_ticker: AVGO
+            logo: ca-vantage-storage-resource-manager.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+          - item:
             name: IBM® Service Management Unite (App Framework ZOWE V1)
             description: >-
               IBM® Service Management Unite is a customizable service management user interface that provides dashboards to monitor and operate IBM Z
