@@ -1,7 +1,7 @@
 #!/bin/bash
 
 logo='broadcom.svg'
-products=('CA Workload Automation CA 7®' 'CA Database Management Solutions for Db2 for z/OS' 'CA Vantage™ Storage Resource Manager' 'CA IDMS' 'CA Endevor®' 'CA JCLCheck™ Workload Automation' 'CA View®' 'CA OPS/MVS®' 'CA z/OS Extended Jobs' 'CA z/OS Extended Files' 'CA MAT Detect' 'CA MAT Analyze' 'CA SYSVIEW® Performance Management' 'CA Endevor® Bridge For Git' 'CA Secure Credential Store' 'CA File Master™ Plus' 'CA Spool™' 'CA MAT')
+products=('CA Data Content Discovery' 'CA Workload Automation CA 7®' 'CA Database Management Solutions for Db2 for z/OS' 'CA Vantage™ Storage Resource Manager' 'CA IDMS' 'CA Endevor®' 'CA JCLCheck™ Workload Automation' 'CA View®' 'CA OPS/MVS®' 'CA z/OS Extended Jobs' 'CA z/OS Extended Files' 'CA MAT Detect' 'CA MAT Analyze' 'CA SYSVIEW® Performance Management' 'CA Endevor® Bridge For Git' 'CA Secure Credential Store' 'CA File Master™ Plus' 'CA Spool™' 'CA MAT')
 
 for i in ${!products[@]};
 do
