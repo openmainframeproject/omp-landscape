@@ -338,7 +338,8 @@ landscape:
           - item:
             name: CA File Master™ Plus (API Mediation Layer ZOWE V1)
             description: >-
-              CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
+              CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
+              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
             homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0/using-the-rest-api.html'
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
@@ -359,6 +360,13 @@ landscape:
             homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-jclcheck-workload-automation/12-0.html'
             stock_ticker: AVGO
             logo: ca-jclcheck-workload-automation.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+          - item:
+            name: CA Mainframe Security Insights Platform (API Mediation Layer ZOWE V1)
+            logo: ca-mainframe-security-insights-platform.svg
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/security/ca-mainframe-security-insights-platform/1-0.html'
+            stock_ticker: AVGO
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:

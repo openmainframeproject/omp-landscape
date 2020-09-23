@@ -1,7 +1,10 @@
 #!/bin/bash
 
+cd $(dirname $BASH_SOURCE)
+cd hosted_logos
+
 logo='broadcom.svg'
-products=('CA Workload Automation CA 7®' 'CA Database Management Solutions for Db2 for z/OS' 'CA Vantage™ Storage Resource Manager' 'CA IDMS' 'CA Endevor®' 'CA JCLCheck™ Workload Automation' 'CA View®' 'CA OPS/MVS®' 'CA z/OS Extended Jobs' 'CA z/OS Extended Files' 'CA MAT Detect' 'CA MAT Analyze' 'CA SYSVIEW® Performance Management' 'CA Endevor® Bridge For Git' 'CA Secure Credential Store' 'CA File Master™ Plus' 'CA Spool™' 'CA MAT')
+products=('CA Mainframe Security Insights Platform' 'CA Workload Automation CA 7®' 'CA Database Management Solutions for Db2 for z/OS' 'CA Vantage™ Storage Resource Manager' 'CA IDMS' 'CA Endevor®' 'CA JCLCheck™ Workload Automation' 'CA View®' 'CA OPS/MVS®' 'CA z/OS Extended Jobs' 'CA z/OS Extended Files' 'CA MAT Detect' 'CA MAT Analyze' 'CA SYSVIEW® Performance Management' 'CA Endevor® Bridge For Git' 'CA Secure Credential Store' 'CA File Master™ Plus' 'CA Spool™' 'CA MAT')
 
 for i in ${!products[@]};
 do
@@ -18,3 +21,5 @@ do
   sed -i'.original' "s|</svg>|${texttoadd}|g" $filename
   inkscape $filename --export-text-to-path --export-plain-svg --export-filename=$filename
 done
+
+rm *.original
