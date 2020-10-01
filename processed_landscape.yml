@@ -430,7 +430,7 @@ landscape:
                   value: 2425
                   color: '#427819'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 1
               license: Other
               description: Library for accelerated CRC-32 checksums on the IBM z13 processor
@@ -445,7 +445,7 @@ landscape:
               start_commit_link: /linux-on-ibm-z/crc32-s390x/commit/a4d891f47e8204bc2c8a4cc4c31262ff09b842c6
               start_date: '2016-05-31T14:19:37Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: crc32-s390x.svg
@@ -454,7 +454,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: Feilong
             homepage_url: 'https://www.openmainframeproject.org/projects/feilong'
@@ -483,7 +483,7 @@ landscape:
                   value: 2540017
                   color: '#555555'
                 - name: Python
-                  value: 1769528
+                  value: 1772761
                   color: '#3572A5'
                 - name: Shell
                   value: 276446
@@ -496,20 +496,20 @@ landscape:
                 - name: C++
                   value: 952
                   color: '#f34b7d'
-              contributions: 5;0;0;3;5;7;8;6;2;0;3;1;7;4;2;2;21;3;0;7;6;39;38;31;13;13;5;11;17;18;8;22;16;8;5;2;0;5;13;11;17;6;5;6;3;4;10;0;9;11;8;4
-              firstWeek: 2019-09-29Z
-              stars: 21
+              contributions: 0;0;7;4;10;4;6;0;1;3;1;10;0;3;14;11;0;6;3;29;40;28;25;13;8;5;16;25;5;18;12;17;5;2;2;3;15;11;15;6;3;7;3;5;6;6;3;7;15;7;2;2
+              firstWeek: 2019-10-06Z
+              stars: 22
               license: Apache License 2.0
               description: >-
                 Feilong is a open source z/VM cloud connector project under the Open Mainframe Project umbrella that will accelerate the z/VM adoption,
                 extending its ecosystem and its user experience. It provides a set of APIs to operate z/VM including guest, image, network, volume etc.
-              latest_commit_date: '2020-09-18T01:45:03Z'
-              latest_commit_link: /openmainframeproject/python-zvm-sdk/commit/bdc39cc48e0ef1e961bf33c930889dd045c3dc0c
+              latest_commit_date: '2020-09-28T01:04:27Z'
+              latest_commit_link: /openmainframeproject/python-zvm-sdk/commit/50a88ade3ee885b5497b6782b80ca404af109eeb
               contributors_count: 42
               contributors_link: 'https://github.com/openmainframeproject/python-zvm-sdk/graphs/contributors'
             repos:
               - url: 'https://github.com/openmainframeproject/python-zvm-sdk'
-                stars: 21
+                stars: 22
             github_start_commit_data:
               start_commit_link: /openmainframeproject/python-zvm-sdk/commit/e3114feead46f9dc46600203626131c50cddc72f
               start_date: '2016-10-19T06:08:30Z'
@@ -519,7 +519,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: libica
             homepage_url: 'https://github.com/opencryptoki/libica'
@@ -948,8 +948,8 @@ landscape:
                 - name: Shell
                   value: 1413
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;1;6;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;2;0;0;0;0;1;3;0;0;0;0;0;0;0;0;0;1;0;0;0;0;3;2;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;1;4;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;0;1;3;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;2;2;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 4
               license: Other
               description: Crypto library for s390x.
@@ -964,7 +964,7 @@ landscape:
               start_commit_link: /opencryptoki/libica/commit/80bfa416c1369be4d8b99194e744c2f84541d934
               start_date: '2005-01-14T22:36:18Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: libica.svg
@@ -973,7 +973,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: qclib
             description: qclib provides a C API for extraction of system information for Linux on z Systems.
@@ -1401,8 +1401,8 @@ landscape:
                 - name: Shell
                   value: 1200
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0
+              firstWeek: 2019-10-06Z
               stars: 0
               license: Other
               description: Github mirror of the Linux on z Systems qclib package ('qclib' for 'Query Capacity library').
@@ -1419,7 +1419,7 @@ landscape:
               start_commit_link: /openmainframeproject/qclib/commit/eddcc19024de389173f898900cc8836fd7d3d7e1
               start_date: '2020-01-07T01:51:50Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: qclib.svg
@@ -1428,7 +1428,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: s390-tools
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/s390-tools.html'
@@ -1867,8 +1867,8 @@ landscape:
                 - name: Dockerfile
                   value: 375
                   color: '#384d54'
-              contributions: 1;4;9;0;5;5;5;5;17;4;5;9;2;0;0;1;2;2;6;3;10;5;4;5;4;7;13;4;2;1;3;1;5;4;1;0;3;0;3;3;1;3;2;3;3;2;0;3;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 10;0;2;5;7;5;17;5;5;8;3;0;0;1;2;2;2;6;10;2;7;5;2;8;12;7;2;0;3;2;3;6;1;0;0;3;2;3;1;3;3;2;4;2;0;0;3;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 37
               license: MIT License
               description: Tools for use with the s390 Linux kernel and device drivers
@@ -1885,7 +1885,7 @@ landscape:
               start_commit_link: /ibm-s390-tools/s390-tools/commit/b627b8d8e1abef0724ceac559f255fabb996b359
               start_date: '2017-08-07T14:13:17Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: s390-tools.svg
@@ -1894,7 +1894,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: SMC Tools
             homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/smc-tools.html'
@@ -2321,8 +2321,8 @@ landscape:
                 - name: Makefile
                   value: 5836
                   color: '#427819'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0
+              firstWeek: 2019-10-06Z
               stars: 0
               license: Eclipse Public License 1.0
               description: Mirror of the Linux on Z Systems Shared Memory Communication Tools (smc-tools) package
@@ -2337,7 +2337,7 @@ landscape:
               start_commit_link: /openmainframeproject/smc-tools/commit/961b9e73d7cc30b7662ca68562b813946374a051
               start_date: '2020-01-07T02:27:44Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: smc-tools.svg
@@ -2346,7 +2346,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: snIPL
             description: Linux on System z snIPL 'simple network IPL' package.
@@ -2771,8 +2771,8 @@ landscape:
                 - name: Makefile
                   value: 10477
                   color: '#427819'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 0
               license: Other
               description: Mirror of the Linux on System z snIPL 'simple network IPL' package.
@@ -2787,7 +2787,7 @@ landscape:
               start_commit_link: /openmainframeproject/snipl/commit/1d2bc6e3d61a314fa61cc431c3c337456ec71d39
               start_date: '2020-01-07T02:15:43Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: sn-ipl.svg
@@ -2796,7 +2796,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: source VIPA
             description: src_vipa is a recommended utility that provides a very flexible means of source address selection to arbitrary applications.
@@ -3221,8 +3221,8 @@ landscape:
                 - name: Makefile
                   value: 1861
                   color: '#427819'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 1
               license: Other
               description: Mirror of the Linux on z Systems src-vipa (source VIPA) package
@@ -3237,7 +3237,7 @@ landscape:
               start_commit_link: /openmainframeproject/src_vipa/commit/d976376936fcb2bbc8b37c77c286c21ee835ac67
               start_date: '2020-01-07T02:39:42Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: source-vipa.svg
@@ -3246,7 +3246,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: sysload
             description: >-
@@ -3689,8 +3689,8 @@ landscape:
                 - name: Objective-C
                   value: 1057
                   color: '#438eff'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 1
               license: GNU General Public License v2.0
               description: Mirror of the Linux on System z System Loader (sysload).
@@ -3705,7 +3705,7 @@ landscape:
               start_commit_link: /openmainframeproject/sysload/commit/666b57cf1fb696251d70b599cde138504a50456b
               start_date: '2020-01-07T02:34:26Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: sysload.svg
@@ -3714,7 +3714,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: tessia
             description: A tool to automate and simplify the installation/configuration/testing of Linux systems running on the IBM Z platform
@@ -4147,8 +4147,8 @@ landscape:
                   color: '#384d54'
                 - name: Mako
                   value: 1073
-              contributions: 1;0;0;2;4;1;0;0;0;4;0;0;0;0;0;0;2;4;1;6;1;1;3;5;0;4;2;4;2;5;1;6;0;0;4;1;5;0;5;3;5;1;7;3;2;6;5;9;17;15;7;4
-              firstWeek: 2019-09-29Z
+              contributions: 0;1;5;1;0;0;0;1;3;0;0;0;0;0;1;3;3;4;2;2;3;3;2;4;2;3;3;3;2;5;2;0;4;0;1;5;5;1;7;1;4;5;3;6;1;12;15;11;12;6;0;0
+              firstWeek: 2019-10-06Z
               stars: 2
               license: Apache License 2.0
               description: >-
@@ -4165,7 +4165,7 @@ landscape:
               start_commit_link: /tessia-project/tessia/commit/c2cb334ee65b2bde591e1790f4e754a6fdd1610b
               start_date: '2016-06-28T08:40:42Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: tessia.svg
@@ -4174,7 +4174,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: VMLINK
             homepage_url: 'https://github.com/trothr/vmlink'
@@ -4200,8 +4200,8 @@ landscape:
                 - name: Shell
                   value: 2345
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 3
               license: GNU General Public License v2.0
               description: VMLINK Automounter for Linux on z/VM
@@ -4648,8 +4648,8 @@ landscape:
                 - name: Roff
                   value: 6918
                   color: '#ecdebe'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 0
               license: Other
               description: Mirror of the Linux on IBM Z lib-zfcp-hbaapi "zfcp HBA API library" package. (HBA is short for "Host Bus Adapter".)
@@ -4664,7 +4664,7 @@ landscape:
               start_commit_link: /openmainframeproject/zfcp-hbaapi/commit/6d56db9c5d79374c01e802305b48a2b32244cbfa
               start_date: '2020-01-07T02:20:42Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: zfcp-hba-api-library.svg
@@ -4673,7 +4673,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: ZNETBOOT
             homepage_url: 'https://github.com/trothr/znetboot'
@@ -4698,8 +4698,8 @@ landscape:
               languages:
                 - name: REXX
                   value: 26164
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 4
               license: Unknown License
               description: ZNETBOOT makes it easy to bring up Linux on z/VM
@@ -4758,7 +4758,7 @@ landscape:
                   value: 902
                   color: '#6E4C13'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 0
               license: Unknown License
               description: CMS Make
@@ -4803,7 +4803,7 @@ landscape:
                 - name: REXX
                   value: 49555
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 1
               license: Unknown License
               description: CMS TAR
@@ -4855,7 +4855,7 @@ landscape:
                   value: 505
                   color: '#89e051'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 0
               license: Unknown License
               description: message formatting function and library
@@ -4906,7 +4906,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: Launcher
             homepage_url: 'https://github.com/phoenixsoftware/Launcher'
@@ -4935,8 +4935,8 @@ landscape:
                 - name: JavaScript
                   value: 550
                   color: '#f1e05a'
-              contributions: 0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 0
               license: MIT License
               description: 'Java program to launch a Node.js or other script on z/OS. '
@@ -4957,7 +4957,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-10T17:45:05.000Z
+              latest_tweet_date: 2020-09-24T16:00:27.000Z
           - item:
             name: Polycephaly
             homepage_url: 'https://www.openmainframeproject.org/projects/polycephaly'
@@ -4990,8 +4990,8 @@ landscape:
                   color: '#b07219'
                 - name: REXX
                   value: 16014
-              contributions: 0;0;0;0;0;0;13;0;0;0;0;0;0;0;2;0;0;2;78;2;0;0;0;1;1;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;11;2;0;0;0;0;0;0;2;0;0;2;0;80;0;0;0;0;1;5;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 8
               license: Apache License 2.0
               description: Groovy code to build z/OS source code files with Jenkins and Git
@@ -5011,7 +5011,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: z/OS Connector Plugin for Jenkins
             homepage_url: 'https://github.com/jenkinsci/zos-connector-plugin'
@@ -5037,8 +5037,8 @@ landscape:
                 - name: Java
                   value: 96025
                   color: '#b07219'
-              contributions: 0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 8
               license: MIT License
               description: Plugin for connection of Jenkins CI to IBM zOS including integration of IBM SCLM as SCM.
@@ -5059,7 +5059,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T09:10:42.000Z
+              latest_tweet_date: 2020-09-30T16:51:58.000Z
           - item:
             name: z/OS Node Accessor
             homepage_url: 'https://github.com/IBM/zos-node-accessor'
@@ -5480,8 +5480,8 @@ landscape:
                 - name: JavaScript
                   value: 530
                   color: '#f1e05a'
-              contributions: 0;3;0;0;0;0;0;0;0;0;0;3;4;0;1;2;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;5;2;0;0;0;0;0;0;0;0;3;3;0;2;5;2;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 3;0;0;0;0;0;0;0;0;0;5;2;0;2;1;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;5;2;0;0;0;0;0;0;0;2;3;1;0;2;5;2;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 20
               license: Eclipse Public License 1.0
               description: z/OS Node Accessor - A Node module to help Node.JS developers interacting with z/OS easily.
@@ -5498,7 +5498,7 @@ landscape:
               start_commit_link: /IBM/zos-node-accessor/commit/9cd4dab421b48f65d5e371fe8d7d239015722bb5
               start_date: '2017-10-12T08:37:34Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: z-os-node-accessor.svg
@@ -5507,7 +5507,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: z/OS Tools
             homepage_url: 'https://github.com/IBM/IBM-Z-zOS'
@@ -5953,13 +5953,13 @@ landscape:
                 - name: Shell
                   value: 2325
                   color: '#89e051'
-              contributions: 0;10;15;0;3;2;2;10;7;0;3;1;0;0;0;8;0;0;0;0;0;0;2;0;0;1;0;1;0;3;6;0;0;0;1;11;0;0;4;2;2;0;1;1;8;2;3;2;0;0;2;0
-              firstWeek: 2019-09-29Z
+              contributions: 17;0;3;0;2;5;7;7;3;1;0;0;0;8;0;0;0;0;0;0;2;0;0;1;0;1;0;3;4;2;0;0;1;11;0;0;4;0;4;0;1;1;8;0;2;5;0;0;2;0;1;0
+              firstWeek: 2019-10-06Z
               stars: 169
               license: Apache License 2.0
               description: 'The helpful and handy location for finding and sharing z/OS files, which are not included in the product.'
-              latest_commit_date: '2020-09-09T20:43:18Z'
-              latest_commit_link: /IBM/IBM-Z-zOS/commit/6b26143def5331ef25a7ba78b4a1d61a99d98d23
+              latest_commit_date: '2020-09-22T16:06:09Z'
+              latest_commit_link: /IBM/IBM-Z-zOS/commit/87e747344fbfcdec9ba18f4a47039db166f8089d
               contributors_count: 25
               contributors_link: 'https://github.com/IBM/IBM-Z-zOS/graphs/contributors'
             repos:
@@ -5969,7 +5969,7 @@ landscape:
               start_commit_link: /IBM/IBM-Z-zOS/commit/c94c49958d7a64cbf11151f8e3b5877e50d6b42c
               start_date: '2017-07-17T15:24:03Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: z-os-tools.svg
@@ -5978,7 +5978,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: zECS
             homepage_url: 'https://github.com/walmartlabs/zECS'
@@ -6046,7 +6046,7 @@ landscape:
                   value: 33238
                   color: '#6E4C13'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 13
               license: Apache License 2.0
               description: z/OS-based Enterprise Cache Service
@@ -6061,7 +6061,7 @@ landscape:
               start_commit_link: /walmartlabs/zECS/commit/9a1b04dd3d76bd4aa5b92a40c99ffd3dd33c50af
               start_date: '2016-11-22T03:15:05Z'
             yahoo_finance_data:
-              market_cap: 383378030592
+              market_cap: 396469960704
               effective_ticker: WMT
             image_data:
               fileName: z-ecs.svg
@@ -6138,7 +6138,7 @@ landscape:
                 - name: COBOL
                   value: 671050
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 19
               license: Apache License 2.0
               description: z/OS-based File Access Manager
@@ -6153,7 +6153,7 @@ landscape:
               start_commit_link: /walmartlabs/zFAM/commit/93f3ced6f001dc7a027741a19335315c0cba0b59
               start_date: '2016-11-22T03:35:49Z'
             yahoo_finance_data:
-              market_cap: 383378030592
+              market_cap: 396469960704
               effective_ticker: WMT
             image_data:
               fileName: z-fam.svg
@@ -6188,8 +6188,8 @@ landscape:
               languages:
                 - name: REXX
                   value: 1034245
-              contributions: 0;25;5;26;118;78;66;49;79;114;31;69;45;12;26;42;44;56;34;70;78;126;116;137;6;0;5;17;4;18;9;11;18;22;7;7;9;22;23;20;12;28;22;9;2;0;0;0;0;1;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 30;0;55;127;57;73;65;78;90;45;78;16;7;42;43;38;51;66;70;78;114;140;88;1;0;7;17;11;11;11;14;14;26;6;5;12;27;17;15;23;34;6;9;0;0;0;0;0;1;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 30
               license: Unknown License
               description: 'zigi: The git interface for the rest of us!'
@@ -6212,7 +6212,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T10:28:58.000Z
+              latest_tweet_date: 2020-09-24T15:37:27.000Z
           - item:
             name: Zorow
             homepage_url: 'https://www.openmainframeproject.org/projects/zorow'
@@ -6246,8 +6246,8 @@ landscape:
                   color: '#89e051'
                 - name: PLpgSQL
                   value: 814
-              contributions: 0;6;1;4;0;2;1;6;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;2;0;0;0;25;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 1;0;4;0;2;7;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;25;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 21
               license: Apache License 2.0
               description: >-
@@ -6269,7 +6269,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: Zowe
             description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
@@ -6297,10 +6297,10 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 2388613
+                  value: 2400227
                   color: '#b07219'
                 - name: JavaScript
-                  value: 180659
+                  value: 181378
                   color: '#f1e05a'
                 - name: CSS
                   value: 150536
@@ -6323,16 +6323,16 @@ landscape:
                 - name: Batchfile
                   value: 521
                   color: '#C1F12E'
-              contributions: 1;1;0;4;3;2;5;3;1;4;2;3;2;1;1;5;4;1;9;8;8;7;15;8;8;8;6;18;4;9;12;2;1;7;15;4;13;6;8;10;5;3;3;6;10;2;7;9;10;3;1;12
-              firstWeek: 2019-09-29Z
+              contributions: 0;2;5;0;5;4;2;2;4;2;3;1;1;3;2;5;1;12;11;3;16;8;8;9;6;13;11;6;7;11;1;6;6;12;9;11;9;6;7;2;5;6;5;8;4;7;9;8;1;9;5;7
+              firstWeek: 2019-10-06Z
               stars: 22
               license: Eclipse Public License 2.0
               description: The API Mediation Layer provides a single point of access for mainframe service REST APIs.
-              latest_commit_date: '2020-09-19T15:43:45Z'
-              latest_commit_link: /zowe/api-layer/commit/aa410075b31b86e3bbd59aac00997837218e0906
-              release_date: '2020-08-28T07:58:36Z'
+              latest_commit_date: '2020-09-25T16:37:50Z'
+              latest_commit_link: /zowe/api-layer/commit/8e29610f9844dcaabcb980d9cc8a3b67a401eac7
+              release_date: '2020-09-25T16:59:00Z'
               release_link: 'https://github.com/zowe/api-layer/releases'
-              contributors_count: 45
+              contributors_count: 46
               contributors_link: 'https://github.com/zowe/api-layer/graphs/contributors'
             repos:
               - url: 'https://github.com/zowe/api-layer'
@@ -6346,7 +6346,7 @@ landscape:
               badge: 2226
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: zUID
             homepage_url: 'https://github.com/walmartlabs/zUID'
@@ -6417,7 +6417,7 @@ landscape:
                   value: 1204
                   color: '#89e051'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 11
               license: Apache License 2.0
               description: z/OS-based Unique Identifier generator
@@ -6432,7 +6432,7 @@ landscape:
               start_commit_link: /walmartlabs/zUID/commit/a57d9be0acc6e1d24a7f628db14c98316a543f07
               start_date: '2016-11-16T22:30:24Z'
             yahoo_finance_data:
-              market_cap: 383378030592
+              market_cap: 396469960704
               effective_ticker: WMT
             image_data:
               fileName: z-uid.svg
@@ -6476,7 +6476,7 @@ landscape:
                   value: 305
                   color: '#563d7c'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 2
               license: Apache License 2.0
               description: Atom editor package that adds language syntax highlighting for z/VM assembler language files.
@@ -6498,7 +6498,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: COBOL Source colouriser for Visual Studio Code
             homepage_url: 'https://github.com/spgennard/vscode_cobol'
@@ -6522,7 +6522,7 @@ landscape:
             github_data:
               languages:
                 - name: TypeScript
-                  value: 347287
+                  value: 357502
                   color: '#2b7489'
                 - name: COBOL
                   value: 12584
@@ -6532,14 +6532,14 @@ landscape:
                 - name: JavaScript
                   value: 1767
                   color: '#f1e05a'
-              contributions: 2;9;8;6;5;4;16;24;20;11;10;9;3;0;5;7;3;3;6;0;3;11;0;4;4;0;0;0;4;13;9;20;14;46;17;3;18;4;2;12;12;22;29;42;24;25;36;41;19;18;57;61
-              firstWeek: 2019-09-29Z
+              contributions: 8;7;6;3;14;17;27;7;13;8;8;2;3;5;5;3;2;6;0;10;4;1;6;1;0;0;1;8;9;20;11;21;47;8;2;17;6;7;9;20;15;56;28;17;36;27;42;12;39;63;50;45
+              firstWeek: 2019-10-06Z
               stars: 46
               license: MIT License
               description: 'Visual Studio Code Extension  for COBOL, JCL and MF Directive Files'
-              latest_commit_date: '2020-09-20T20:58:43Z'
-              latest_commit_link: /spgennard/vscode_cobol/commit/d6853d219f3ced614705d57df0f236f90feecde1
-              release_date: '2020-09-20T21:00:04Z'
+              latest_commit_date: '2020-09-30T21:41:26Z'
+              latest_commit_link: /spgennard/vscode_cobol/commit/9ca3a2b870b5522069570015e917341fe2506868
+              release_date: '2020-09-30T21:43:46Z'
               release_link: 'https://github.com/spgennard/vscode_cobol/releases'
               contributors_count: 7
               contributors_link: 'https://github.com/spgennard/vscode_cobol/graphs/contributors'
@@ -6577,8 +6577,8 @@ landscape:
               stockExchange: null
             github_data:
               languages: []
-              contributions: 0;0;0;12;2;0;7;2;0;0;0;2;0;0;0;0;10;3;0;0;0;0;0;0;2;0;0;1;7;7;0;2;0;8;4;2;0;1;0;0;0;0;0;0;0;0;0;7;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;14;0;0;9;0;0;0;2;0;0;0;0;0;13;0;0;0;0;0;0;2;0;0;1;7;2;5;2;0;8;1;3;2;1;0;0;0;0;0;0;0;0;0;0;7;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 11
               license: Unknown License
               description: Che Che4z
@@ -6601,7 +6601,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T19:00:00.000Z
+              latest_tweet_date: 2020-09-30T15:04:51.000Z
           - item:
             name: zSublime
             homepage_url: 'https://github.com/vadimshchukin/zsublime'
@@ -6732,8 +6732,8 @@ landscape:
                 - name: Python
                   value: 10225
                   color: '#3572A5'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 1
               license: GNU General Public License v3.0
               description: z/OS plugins for the Sublime Text editor
@@ -6754,7 +6754,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
       - subcategory:
         name: Learning and Mentoring
         items:
@@ -6783,24 +6783,24 @@ landscape:
             github_data:
               languages:
                 - name: COBOL
-                  value: 90467
+                  value: 91298
                 - name: TeX
                   value: 4631
                   color: '#3D6117'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;15;54;58;6;13;2;15;8;8;20;17;19;11;10;1;3;2;0;0;3;0;0;0
-              firstWeek: 2019-09-29Z
-              stars: 1695
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13;5;85;30;10;5;4;19;1;14;27;15;18;9;3;3;2;0;2;3;0;0;0;11;6
+              firstWeek: 2019-10-06Z
+              stars: 1703
               license: Creative Commons Attribution 4.0 International
               description: Training materials and labs for a "Getting Started" level course on COBOL
-              latest_commit_date: '2020-08-26T14:38:06Z'
-              latest_commit_link: /openmainframeproject/cobol-programming-course/commit/3e8080851f9475ad1c264a5996e07eb28460d0d0
+              latest_commit_date: '2020-09-29T20:12:20Z'
+              latest_commit_link: /openmainframeproject/cobol-programming-course/commit/a524c7c298f05869029fbcc062eb2d423770ea68
               release_date: '2020-07-07T20:49:47Z'
               release_link: 'https://github.com/openmainframeproject/cobol-programming-course/releases'
               contributors_count: 19
               contributors_link: 'https://github.com/openmainframeproject/cobol-programming-course/graphs/contributors'
             repos:
               - url: 'https://github.com/openmainframeproject/cobol-programming-course'
-                stars: 1695
+                stars: 1703
             github_start_commit_data:
               start_commit_link: /openmainframeproject/cobol-programming-course/commit/53e022f5cf577be0d670b134db4f7bafcaa4ea23
               start_date: '2020-04-11T13:32:13Z'
@@ -6810,7 +6810,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: Mentorship
             homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
@@ -6835,9 +6835,9 @@ landscape:
               stockExchange: null
             github_data:
               languages: []
-              contributions: 0;0;4;0;0;0;1;0;0;1;0;4;60;0;0;3;0;0;0;11;0;0;0;0;0;0;0;3;0;0;0;1;0;0;0;0;0;0;0;0;0;24;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
-              stars: 31
+              contributions: 4;0;0;0;1;0;0;0;1;4;60;0;0;2;1;0;0;0;11;0;0;0;0;0;0;3;0;0;0;0;1;0;0;0;0;0;0;0;0;4;20;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
+              stars: 32
               license: Creative Commons Attribution 4.0 International
               description: Open Mainframe Project Mentorship Program resources
               latest_commit_date: '2020-07-09T18:49:51Z'
@@ -6846,7 +6846,7 @@ landscape:
               contributors_link: 'https://github.com/openmainframeproject-internship/resources/graphs/contributors'
             repos:
               - url: 'https://github.com/openmainframeproject-internship/resources'
-                stars: 31
+                stars: 32
             github_start_commit_data:
               start_commit_link: /openmainframeproject-internship/resources/commit/ed53bdf9419ee7cd904d8ec2236315ae36a35bc9
               start_date: '2018-12-13T19:41:44Z'
@@ -6856,7 +6856,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: Open Mainframe Education
             homepage_url: 'https://github.com/openmainframeproject/omp-education'
@@ -6881,8 +6881,8 @@ landscape:
               stockExchange: null
             github_data:
               languages: []
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;9;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;9;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 2
               license: Creative Commons Attribution 4.0 International
               description: Official repository for the Mainframe Open Education project
@@ -6902,7 +6902,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
       - subcategory:
         name: Other
         items:
@@ -6946,7 +6946,7 @@ landscape:
                   value: 1242
                   color: '#e34c26'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 30
               license: GNU General Public License v3.0
               description: 'ADE detects anomalous time slices and messages in Linux logs (either RFC3164 or RFC5424 format) using statistical learning. '
@@ -6966,7 +6966,7 @@ landscape:
               badge: 378
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: Ambitus
             homepage_url: 'https://github.com/ambitus'
@@ -6991,8 +6991,8 @@ landscape:
               stockExchange: null
             github_data:
               languages: []
-              contributions: 0;2;1;2;3;0;3;0;6;0;0;2;0;0;0;0;0;1;0;1;0;0;0;0;0;0;0;3;0;0;0;5;0;0;0;0;0;0;0;13;0;6;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 1;2;3;0;3;0;6;0;0;2;0;0;0;0;0;1;0;1;0;0;0;0;0;0;0;3;0;0;0;5;0;0;0;0;0;0;0;13;0;6;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 5
               license: Creative Commons Attribution 4.0 International
               description: 'A guide for mainframers to open source software '
@@ -7012,7 +7012,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: Ductwork
             homepage_url: 'https://github.com/trothr/ductwork'
@@ -7039,7 +7039,7 @@ landscape:
                   value: 2315
                   color: '#555555'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 2
               license: Unknown License
               description: a utility for flow-based programming
@@ -7085,23 +7085,23 @@ landscape:
             github_data:
               description: ''
               contributors_count: 6
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;8;13;25;7;11;5;12;18;5
-              stars: 5
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;8;7;14;20;11;6;10;6;23;8;7
+              stars: 6
               languages:
                 - name: Assembly
-                  value: 71699
+                  value: 112771
                   color: '#6E4C13'
                 - name: Shell
                   value: 47572
                   color: '#89e051'
-              latest_commit_link: /genevaers/community/commit/823a17425cd8aef7b5df9b2c2c71cd3c4d5f84b1
-              latest_commit_date: '2020-09-14T23:15:52Z'
-              firstWeek: 2019-09-29Z
+              latest_commit_link: /genevaers/community/commit/ba818fb1976c0aea5b4783cd3318bc6a64c4734f
+              latest_commit_date: '2020-09-30T11:14:23Z'
+              firstWeek: 2019-10-06Z
               license: Apache License 2.0
               contributors_link: 'https://github.com/genevaers/community/graphs/contributors'
             repos:
               - url: 'https://github.com/genevaers/community'
-                stars: 3
+                stars: 4
               - url: 'https://github.com/genevaers/spark-poc'
                 stars: 1
               - url: 'https://github.com/genevaers/gvblib'
@@ -7119,7 +7119,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: Software Discovery Tool
             homepage_url: 'https://github.com/openmainframeproject/software-discovery-tool'
@@ -7144,8 +7144,8 @@ landscape:
               stockExchange: null
             github_data:
               languages: []
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 0
               license: Apache License 2.0
               description: Software Discovery Tool
@@ -7165,7 +7165,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: TerseDecompress
             homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
@@ -7194,7 +7194,7 @@ landscape:
                   value: 43075
                   color: '#b07219'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 5
               license: Apache License 2.0
               description: >-
@@ -7216,7 +7216,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
   - category:
     name: Zowe Conformant
     subcategories:
@@ -7253,7 +7253,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-10T17:45:05.000Z
+              latest_tweet_date: 2020-09-24T16:00:27.000Z
           - item:
             logo: ca-data-content-discovery.svg
             name: CA Data Content Discovery (API Mediation Layer ZOWE V1)
@@ -7522,7 +7522,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA Endevor® (API Mediation Layer ZOWE V1)
             description: >-
@@ -7659,7 +7659,280 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
+          - item:
+            name: CA File Master™ Plus (API Mediation Layer ZOWE V1)
+            description: >-
+              CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
+              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0/using-the-rest-api.html'
+            stock_ticker: AVGO
+            logo: ca-file-master-plus.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: Symantec
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              stockExchange: nasdaq
+            image_data:
+              fileName: ca-file-master-plus-api-mediation-layer-zowe-v1.svg
+              hash: Zz3u5R1s2n8oCdrHpk/ZqQVNW9yWCmoGuEFdrXoCVoc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
+          - item:
+            name: CA File Master™ Plus (API Mediation Layer ZOWE V1)
+            description: >-
+              CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
+              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0/using-the-rest-api.html'
+            stock_ticker: AVGO
+            logo: ca-file-master-plus.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: Symantec
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              stockExchange: nasdaq
+            image_data:
+              fileName: ca-file-master-plus-api-mediation-layer-zowe-v1.svg
+              hash: Zz3u5R1s2n8oCdrHpk/ZqQVNW9yWCmoGuEFdrXoCVoc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-09-22T16:52:02.000Z
           - item:
             name: CA IDMS (API Mediation Layer ZOWE V1)
             description: 'IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.'
@@ -7794,7 +8067,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA JCLCheck™ Workload Automation (API Mediation Layer ZOWE V1)
             description: >-
@@ -7932,7 +8205,141 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
+          - item:
+            name: CA Mainframe Security Insights Platform (API Mediation Layer ZOWE V1)
+            logo: ca-mainframe-security-insights-platform.svg
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/security/ca-mainframe-security-insights-platform/1-0.html'
+            stock_ticker: AVGO
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+            crunchbase_data:
+              name: Broadcom
+              description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.broadcom.com'
+              city: San Jose
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Broadcom'
+              linkedin: 'https://www.linkedin.com/company/broadcom'
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: Symantec
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              stockExchange: nasdaq
+            image_data:
+              fileName: ca-mainframe-security-insights-platform-api-mediation-layer-zowe-v1.svg
+              hash: jDt4jTedqN+TlfQp7YpHqY+SbMTTv9Voa7wBazkex5A=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-09-22T16:52:02.000Z
           - item:
             name: CA MAT (API Mediation Layer ZOWE V1)
             description: >-
@@ -8068,7 +8475,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA SYSVIEW® Performance Management (API Mediation Layer ZOWE V1)
             description: >-
@@ -8205,7 +8612,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA Vantage™ Storage Resource Manager (API Mediation Layer ZOWE V1)
             description: 'CA Vantage™ SRM is an automated storage management system that provides comprehensive reporting, monitoring, and automation capabilities.'
@@ -8340,7 +8747,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA Workload Automation CA 7® (API Mediation Layer ZOWE V1)
             description: >-
@@ -8477,7 +8884,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: IBM® Z Netview (API Mediation Layer ZOWE V1)
             description: >-
@@ -8487,6 +8894,7 @@ landscape:
             logo: ibm-z-netview.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -8893,7 +9301,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-netview-api-mediation-layer-zowe-v1.svg
@@ -8902,7 +9310,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
       - subcategory:
         name: App Framework ZOWE V1
         items:
@@ -9042,7 +9450,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: IBM® Service Management Unite (App Framework ZOWE V1)
             description: >-
@@ -9053,6 +9461,7 @@ landscape:
             logo: service-management-unite.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -9459,7 +9868,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-service-management-unite-app-framework-zowe-v1.svg
@@ -9468,7 +9877,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: IBM® Z Netview (App Framework ZOWE V1)
             description: >-
@@ -9478,6 +9887,7 @@ landscape:
             logo: ibm-z-netview.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -9884,7 +10294,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-netview-app-framework-zowe-v1.svg
@@ -9893,7 +10303,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: Rocket™ BlueZone Web (App Framework ZOWE V1)
             description: >-
@@ -9902,6 +10312,7 @@ landscape:
             homepage_url: 'https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-web'
             logo: rocketsoftware-bluezoneweb.svg
             crunchbase: 'https://www.crunchbase.com/organization/rocket-software'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Rocket Software
               description: Rocket Software is a software development firm that offers enterprise infrastructure products and various related services.
@@ -9941,7 +10352,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T20:57:02.000Z
+              latest_tweet_date: 2020-09-30T18:00:40.000Z
           - item:
             name: SQL WorkloadExpert for Db2 z/OS (App Framework ZOWE V1)
             description: >-
@@ -9950,6 +10361,7 @@ landscape:
             homepage_url: 'https://www.seg.de/en/products/db2-zos-products/sql-workloadexpert-for-db2-zos'
             logo: sql_workloadexport_for_db2_zos.svg
             crunchbase: 'https://www.crunchbase.com/organization/software-engineering-gmbh'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: SOFTWARE ENGINEERING
               description: SOFTWARE ENGINEERING (SEG) is an IT software provider focussed on state of the art Db2 z/OS solution with outstanding customer satisfaction.
@@ -10000,18 +10412,20 @@ landscape:
             github_data:
               languages:
                 - name: TypeScript
-                  value: 58248
+                  value: 268071
                   color: '#2b7489'
                 - name: JavaScript
-                  value: 2249
+                  value: 4732
                   color: '#f1e05a'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;9;9;0;0;0;0;0;0;0;0;1;4;0;0;0;0;2;1;2
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;18;0;0;0;0;0;0;0;0;1;2;2;0;0;0;0;2;1;5;3
+              firstWeek: 2019-10-06Z
               stars: 2
               license: Other
               description: (E)JES plug-in for Zowe CLI
-              latest_commit_date: '2020-09-20T00:40:58Z'
-              latest_commit_link: /phoenixsoftware/ejes-cli/commit/0573d31fd2f0ed507677070857c110d97cdc9286
+              latest_commit_date: '2020-09-25T00:09:37Z'
+              latest_commit_link: /phoenixsoftware/ejes-cli/commit/7e558a60045d86c3d68b0202f7731edeb54755f6
+              release_date: '2020-09-30T00:18:52Z'
+              release_link: 'https://github.com/phoenixsoftware/ejes-cli/releases'
               contributors_count: 5
               contributors_link: 'https://github.com/phoenixsoftware/ejes-cli/graphs/contributors'
             repos:
@@ -10027,7 +10441,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-10T17:45:05.000Z
+              latest_tweet_date: 2020-09-24T16:00:27.000Z
           - item:
             name: CA Endevor® (CLI ZOWE V1)
             description: >-
@@ -10038,6 +10452,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -10164,7 +10579,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA Endevor® Bridge For Git (CLI ZOWE V1)
             description: CA Endevor® Bridge for Git lets you interact with CA Endevor® Bridge For Git to perform tasks through Zowe CLI
@@ -10300,7 +10715,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA File Master™ Plus (CLI ZOWE V1)
             description: CA File Master™ Plus brings advanced file management and data manipulation functionality to the CLI.
@@ -10436,7 +10851,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA IDMS (CLI ZOWE V1)
             description: >-
@@ -10446,6 +10861,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-idms.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -10572,7 +10988,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA JCLCheck™ Workload Automation (CLI ZOWE V1)
             description: >-
@@ -10711,7 +11127,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA MAT Analyze (CLI ZOWE V1)
             description: >-
@@ -10849,7 +11265,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA MAT Detect (CLI ZOWE V1)
             description: >-
@@ -10987,7 +11403,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA OPS/MVS® (CLI ZOWE V1)
             description: >-
@@ -10998,6 +11414,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-opsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -11124,7 +11541,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA Spool™ (CLI ZOWE V1)
             description: 'CA Spool™ provides you with a central point of control for managing enterprise-wide print, email and intelligence delivery services.'
@@ -11260,7 +11677,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA SYSVIEW® Performance Management (CLI ZOWE V1)
             description: >-
@@ -11398,7 +11815,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA View® (CLI ZOWE V1)
             description: >-
@@ -11409,6 +11826,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-view.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -11535,7 +11953,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA Workload Automation CA 7® (CLI ZOWE V1)
             description: >-
@@ -11672,7 +12090,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA z/OS Extended Files (CLI ZOWE V1)
             description: CA z/OS Extended Files Plug-in extends the CLI to support complex data set management functionality.
@@ -11681,6 +12099,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -11807,7 +12226,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA z/OS Extended Jobs (CLI ZOWE V1)
             description: CA z/OS Extended Jobs extends the CLI to include additional commands for interaction with z/OS jobs.
@@ -11816,6 +12235,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -11942,7 +12362,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: IBM RSE API Plug-in for Zowe CLI v.1.0.0 (CLI ZOWE V1)
             description: The IBM RSE API Plug-in for Zowe CLI allows you to interact with z/OS by using IBM Remote System Explorer API (RSE API)
@@ -12357,7 +12777,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-rse-api-plug-in-for-zowe-cli-v-1-0-0-cli-zowe-v1.svg
@@ -12366,7 +12786,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI (CLI ZOWE V1)
             description: The IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS programs and transactions
@@ -12401,8 +12821,8 @@ landscape:
                 - name: JavaScript
                   value: 5688
                   color: '#f1e05a'
-              contributions: 5;3;0;0;22;28;17;8;0;0;0;3;6;2;0;11;0;6;0;0;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;11;36;12;12;4;0;0;3;2;5;1;1;10;6;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 5
               license: Other
               description: CICS Plugin for the Zowe CLI
@@ -12423,7 +12843,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: IBM® Db2® Database Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -12460,8 +12880,8 @@ landscape:
                 - name: Shell
                   value: 3419
                   color: '#89e051'
-              contributions: 0;4;0;4;0;4;0;0;0;0;0;0;1;0;0;1;6;5;0;0;0;0;0;0;2;0;2;3;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;4;0;0;4;0;0;0;0;0;1;0;0;0;7;5;0;0;0;0;0;0;0;2;0;4;1;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 3
               license: Other
               description: DB2 Plugin for the Zowe CLI
@@ -12482,7 +12902,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: IBM® IMS™ Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -12492,6 +12912,7 @@ landscape:
             repo_url: 'https://github.com/zowe/zowe-cli-ims-plugin'
             logo: ibm-ims-for-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -12518,8 +12939,8 @@ landscape:
                 - name: Shell
                   value: 8128
                   color: '#89e051'
-              contributions: 0;4;0;0;0;0;0;0;0;0;0;0;1;0;0;1;0;0;0;8;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;8;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 0
               license: Other
               description: Zowe CLI Plug-in for IBM® Information Management System (IMS)™
@@ -12540,7 +12961,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: IBM® MQ Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -12577,8 +12998,8 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 0;4;0;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 2
               license: Other
               description: Zowe CLI plug-in for MQ that enables users to issue MQSC commands to a queue manager.
@@ -12599,7 +13020,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: IBM® Z® Workload Scheduler V 9.5.0.2 (CLI ZOWE V1)
             description: >-
@@ -12609,6 +13030,7 @@ landscape:
             logo: ibm-z-workload-scheduler.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -13015,7 +13437,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-workload-scheduler-v-9-5-0-2-cli-zowe-v1.svg
@@ -13024,7 +13446,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI (CLI ZOWE V1)
             description: A Zowe CLI Plug-in for administering z/OS Connect EE servers.
@@ -13450,8 +13872,8 @@ landscape:
                 - name: Shell
                   value: 106
                   color: '#89e051'
-              contributions: 2;1;2;0;0;0;0;0;0;0;0;1;1;1;0;1;0;2;0;0;0;1;1;0;0;0;0;1;1;0;0;4;0;2;2;0;0;3;0;0;0;0;2;4;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 1;2;0;0;0;0;0;0;0;1;1;0;1;1;0;2;0;0;0;1;1;0;0;0;0;0;2;0;0;0;4;0;3;1;0;3;0;0;0;0;0;6;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 4
               license: Eclipse Public License 2.0
               description: Zowe CLI plugin for z/OS Connect EE servers
@@ -13468,7 +13890,7 @@ landscape:
               start_commit_link: /zosconnect/zowe-cli-zosconnect-plugin/commit/f78745b741fee862dfdb689ce63dc2dece0721d4
               start_date: '2018-09-18T21:58:26Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: z-os-connect-ee-plug-in-for-zowe-cli-cli-zowe-v1.svg
@@ -13477,7 +13899,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: z/OS FTP Plug-in for Zowe CLI (CLI ZOWE V1)
             description: 'The z/OS FTP Plug-in for Zowe CLI lets you access z/OS datasets, USS files, and submit JCL, leveraging the z/OS FTP service.'
@@ -13485,6 +13907,7 @@ landscape:
             repo_url: 'https://github.com/zowe/zowe-cli-ftp-plugin'
             logo: zowe-zos-ftp-for-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -13511,8 +13934,8 @@ landscape:
                 - name: JavaScript
                   value: 2726
                   color: '#f1e05a'
-              contributions: 6;4;0;6;1;0;1;3;7;4;1;2;12;2;0;4;4;5;0;0;1;2;0;0;2;0;2;13;0;0;0;2;3;9;0;0;2;5;2;5;0;1;1;8;0;0;0;0;0;0;4;4
-              firstWeek: 2019-09-29Z
+              contributions: 4;3;4;0;1;3;3;7;2;0;9;7;0;1;7;5;0;0;1;2;0;0;0;2;0;5;10;0;0;0;2;12;0;0;2;1;5;3;3;0;2;8;0;0;0;0;0;0;1;3;4;0
+              firstWeek: 2019-10-06Z
               stars: 11
               license: Other
               description: Zowe CLI FTP Plugin
@@ -13533,7 +13956,460 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
+          - item:
+            name: Zowe CLI CICS Deploy plug-in (CLI ZOWE V1)
+            description: Deploy applications developed on a workstation to IBM CICS Transaction Server for z/OS.
+            homepage_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
+            repo_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
+            logo: zowe-cli-cics-deploy.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              acquisitions:
+                - date: '1923-01-01'
+                  acquiree: Dehomag
+                - date: '1930-01-01'
+                  acquiree: The Automatic Accounting Scale Company
+                - date: '1932-01-01'
+                  acquiree: National Counting Scale Company
+                - date: '1941-01-01'
+                  acquiree: Munitions Manufacturing Corporation
+                - date: '1964-01-01'
+                  acquiree: Science Research Associates
+                - date: '1974-01-01'
+                  acquiree: Satellite Business Systems
+                - date: '1984-09-26'
+                  acquiree: ROLM Corporation
+                - date: '1994-08-01'
+                  acquiree: Transarc
+                - date: '1995-07-06'
+                  acquiree: Lotus Development Corporation
+                  price: 3500000000
+                - date: '1996-02-01'
+                  acquiree: Tivoli Systems
+                  price: 743000000
+                - date: '1999-06-09'
+                  acquiree: Whistle Communications
+                - date: '1999-07-12'
+                  acquiree: Sequent Computer Systems Inc
+                - date: '1999-07-27'
+                  acquiree: Mylex
+                  price: 240000000
+                - date: '1999-09-22'
+                  acquiree: Dascom
+                - date: '2001-06-07'
+                  acquiree: Mainspring
+                - date: '2002-01-14'
+                  acquiree: CrossWorlds Software
+                  price: 129000000
+                - date: '2002-06-25'
+                  acquiree: Metamerge
+                - date: '2002-08-29'
+                  acquiree: TrelliSoft
+                - date: '2002-09-03'
+                  acquiree: Access360
+                - date: '2002-09-12'
+                  acquiree: HOLOSOFX
+                - date: '2002-10-02'
+                  acquiree: PwC Consulting
+                  price: 3500000000
+                - date: '2002-10-07'
+                  acquiree: EADS Matra Datavision
+                - date: '2002-11-04'
+                  acquiree: Tarian Software
+                - date: '2003-02-20'
+                  acquiree: Rational Software
+                - date: '2003-05-14'
+                  acquiree: Think Dynamics
+                - date: '2003-07-15'
+                  acquiree: Presence Online
+                - date: '2003-10-14'
+                  acquiree: CrossAccess
+                - date: '2003-11-13'
+                  acquiree: Productivity Solutions
+                - date: '2003-12-17'
+                  acquiree: Green Pasture Software
+                - date: '2004-03-09'
+                  acquiree: Trigo Technologies
+                - date: '2004-04-07'
+                  acquiree: Daksh Infosoft
+                - date: '2004-04-07'
+                  acquiree: Daksh eServices
+                - date: '2004-06-07'
+                  acquiree: Candle Corporation
+                - date: '2004-07-14'
+                  acquiree: AlphaBlox
+                - date: '2004-07-29'
+                  acquiree: Cyanea Systems
+                - date: '2004-08-17'
+                  acquiree: Maersk Data
+                - date: '2004-08-26'
+                  acquiree: Venetica
+                - date: '2004-10-12'
+                  acquiree: Systemcorp A.L.G.
+                - date: '2004-11-23'
+                  acquiree: Liberty Insurance Services
+                - date: '2004-12-13'
+                  acquiree: KeyMRO
+                - date: '2005-01-07'
+                  acquiree: SRD
+                - date: '2005-01-07'
+                  acquiree: Systems Research & Development
+                - date: '2005-01-25'
+                  acquiree: Corio
+                  price: 182000000
+                - date: '2005-02-02'
+                  acquiree: Equitant
+                - date: '2005-05-02'
+                  acquiree: Ascential Software
+                - date: '2005-05-10'
+                  acquiree: Gluecode Software
+                - date: '2005-06-23'
+                  acquiree: Meiosys
+                - date: '2005-07-27'
+                  acquiree: Isogon Corporation
+                - date: '2005-08-02'
+                  acquiree: DWL
+                - date: '2005-08-05'
+                  acquiree: PureEdge Solutions
+                - date: '2005-10-18'
+                  acquiree: DataPower Technology
+                - date: '2005-11-01'
+                  acquiree: iPhrase Technologies
+                - date: '2005-11-09'
+                  acquiree: Network Solutions Private Limited
+                - date: '2005-11-16'
+                  acquiree: Collation
+                - date: '2005-12-20'
+                  acquiree: Bowstreet
+                - date: '2005-12-21'
+                  acquiree: Micromuse
+                - date: '2006-01-25'
+                  acquiree: CIMS Lab
+                - date: '2006-01-27'
+                  acquiree: ARGUS Semiconductor Software
+                - date: '2006-02-08'
+                  acquiree: Viacore
+                - date: '2006-03-16'
+                  acquiree: Language Analysis Systems
+                - date: '2006-05-02'
+                  acquiree: BuildForge
+                - date: '2006-05-08'
+                  acquiree: Unicorn Solutions
+                - date: '2006-05-18'
+                  acquiree: Rembo Technology
+                - date: '2006-08-02'
+                  acquiree: Webify
+                - date: '2006-09-06'
+                  acquiree: Global Value Solutions
+                - date: '2006-09-30'
+                  acquiree: Valchemy
+                - date: '2006-10-05'
+                  acquiree: MRO Software
+                - date: '2006-10-12'
+                  acquiree: FileNet Corporation
+                  price: 1600000000
+                - date: '2006-10-20'
+                  acquiree: Internet Security Systems
+                - date: '2006-11-10'
+                  acquiree: Palisades Technology Partners
+                - date: '2006-12-05'
+                  acquiree: Consul Risk Management International
+                - date: '2007-02-14'
+                  acquiree: Vallent Corporation
+                - date: '2007-03-01'
+                  acquiree: Softek Storage Solutions
+                - date: '2007-04-20'
+                  acquiree: Unicible
+                - date: '2007-06-11'
+                  acquiree: Telelogic
+                  price: 745000000
+                - date: '2007-07-23'
+                  acquiree: Watchfire
+                - date: '2007-08-03'
+                  acquiree: Princeton Softech
+                - date: '2007-08-22'
+                  acquiree: Webdialogs
+                - date: '2007-09-04'
+                  acquiree: DataMirror
+                - date: '2007-10-24'
+                  acquiree: NovusCG
+                - date: '2007-12-06'
+                  acquiree: Arsenal Digital Solutions
+                - date: '2007-12-21'
+                  acquiree: Solid Information Technology
+                - date: '2008-01-02'
+                  acquiree: XIV
+                - date: '2008-01-18'
+                  acquiree: Net Integration Technologies
+                - date: '2008-01-23'
+                  acquiree: AptSoft
+                - date: '2008-01-31'
+                  acquiree: Cognos
+                - date: '2008-03-12'
+                  acquiree: Encentuate
+                - date: '2008-04-10'
+                  acquiree: FilesX
+                - date: '2008-04-22'
+                  acquiree: Diligent
+                - date: '2008-04-29'
+                  acquiree: InfoDyne Corporation
+                - date: '2008-07-02'
+                  acquiree: Platform Solutions
+                - date: '2008-07-28'
+                  acquiree: ILOG
+                - date: '2008-11-18'
+                  acquiree: Transitive
+                - date: '2009-04-16'
+                  acquiree: Outblaze
+                - date: '2009-05-05'
+                  acquiree: Exeros
+                - date: '2009-07-28'
+                  acquiree: Ounce Labs
+                - date: '2009-07-28'
+                  acquiree: SPSS
+                - date: '2009-09-22'
+                  acquiree: RedPill Solutions
+                - date: '2009-11-30'
+                  acquiree: Guardium
+                  price: 225000000
+                - date: '2009-12-16'
+                  acquiree: Lombardi Software
+                - date: '2010-01-20'
+                  acquiree: National Interest Security Company
+                - date: '2010-02-03'
+                  acquiree: Initiate Systems
+                - date: '2010-02-16'
+                  acquiree: Intelliden
+                - date: '2010-05-03'
+                  acquiree: Cast Iron Systems
+                - date: '2010-05-24'
+                  acquiree: Sterling Commerce
+                - date: '2010-06-14'
+                  acquiree: Storwize
+                  price: 140000000
+                - date: '2010-06-15'
+                  acquiree: Coremetrics
+                - date: '2010-07-01'
+                  acquiree: BigFix
+                - date: '2010-08-10'
+                  acquiree: Datacap
+                - date: '2010-08-13'
+                  acquiree: Unica
+                  price: 480000000
+                - date: '2010-09-15'
+                  acquiree: OpenPages
+                - date: '2010-09-20'
+                  acquiree: Netezza
+                  price: 1800000000
+                - date: '2010-09-27'
+                  acquiree: BLADE Network Technologies
+                - date: '2010-10-13'
+                  acquiree: PSS Systems
+                - date: '2010-10-21'
+                  acquiree: Clarity Systems
+                - date: '2011-04-14'
+                  acquiree: TRIRIGA
+                - date: '2011-08-31'
+                  acquiree: i2
+                - date: '2011-09-01'
+                  acquiree: Algorithmics
+                  price: 380200000
+                - date: '2011-10-04'
+                  acquiree: Q1 Labs
+                - date: '2011-10-11'
+                  acquiree: Platform Computing
+                - date: '2011-12-08'
+                  acquiree: DemandTec
+                  price: 440000000
+                - date: '2011-12-15'
+                  acquiree: Emptoris
+                - date: '2011-12-20'
+                  acquiree: Cúram Software
+                - date: '2012-01-04'
+                  acquiree: Green Hat
+                - date: '2012-01-31'
+                  acquiree: Worklight
+                  price: 70000000
+                - date: '2012-04-13'
+                  acquiree: Varicent Software
+                - date: '2012-04-25'
+                  acquiree: Vivisimo
+                - date: '2012-05-02'
+                  acquiree: Tealeaf
+                - date: '2012-07-01'
+                  acquiree: Cibecs
+                - date: '2012-08-16'
+                  acquiree: Texas Memory Systems
+                - date: '2012-08-28'
+                  acquiree: Kenexa
+                - date: '2012-09-24'
+                  acquiree: Butterfly Software
+                - date: '2013-02-07'
+                  acquiree: StoredIQ
+                - date: '2013-03-20'
+                  acquiree: Star Analytics
+                - date: '2013-04-22'
+                  acquiree: Urbancode
+                - date: '2013-06-04'
+                  acquiree: SoftLayer
+                  price: 2000000000
+                - date: '2013-07-10'
+                  acquiree: CSL International
+                - date: '2013-08-15'
+                  acquiree: Trusteer
+                - date: '2013-09-19'
+                  acquiree: Daeja Image Systems
+                - date: '2013-10-03'
+                  acquiree: Xtify
+                - date: '2013-10-29'
+                  acquiree: The Now Factory
+                - date: '2013-12-18'
+                  acquiree: Fiberlink
+                  price: 375000000
+                - date: '2013-12-19'
+                  acquiree: Aspera
+                - date: '2014-02-24'
+                  acquiree: Cloudant
+                - date: '2014-04-10'
+                  acquiree: Silverpop
+                  price: 270000000
+                - date: '2014-05-20'
+                  acquiree: Cognea
+                - date: '2014-07-31'
+                  acquiree: CrossIdeas
+                - date: '2015-03-04'
+                  acquiree: AlchemyAPI
+                - date: '2015-03-27'
+                  acquiree: Blekko
+                - date: '2015-04-16'
+                  acquiree: Explorys
+                - date: '2015-05-04'
+                  acquiree: Phytel
+                - date: '2015-06-03'
+                  acquiree: Blue Box
+                - date: '2015-07-23'
+                  acquiree: Compose
+                - date: '2015-08-06'
+                  acquiree: Merge Healthcare
+                  price: 1000000000
+                - date: '2015-09-10'
+                  acquiree: StrongLoop
+                - date: '2015-09-28'
+                  acquiree: Meteorix
+                - date: '2015-10-05'
+                  acquiree: Cleversafe
+                  price: 1300000000
+                - date: '2015-10-28'
+                  acquiree: The Weather Company
+                - date: '2015-11-03'
+                  acquiree: Gravitant
+                - date: '2015-12-08'
+                  acquiree: Clearleap
+                - date: '2016-01-15'
+                  acquiree: IRIS Analytics
+                - date: '2016-01-21'
+                  acquiree: Ustream
+                - date: '2016-01-28'
+                  acquiree: Resource/Ammirati
+                - date: '2016-02-02'
+                  acquiree: Aperto
+                - date: '2016-02-03'
+                  acquiree: Ecx.io
+                - date: '2016-02-18'
+                  acquiree: Truven Health Analytics
+                  price: 2600000000
+                - date: '2016-02-29'
+                  acquiree: IBM Resilient
+                - date: '2016-03-17'
+                  acquiree: Optevia
+                - date: '2016-03-30'
+                  acquiree: Bluewolf
+                  price: 200000000
+                - date: '2016-06-01'
+                  acquiree: EZSource
+                - date: '2016-09-29'
+                  acquiree: Promontory Financial Group
+                - date: '2016-10-27'
+                  acquiree: Sanovi Technologies
+                - date: '2016-11-01'
+                  acquiree: Expert Personal Shopper (XPS)
+                - date: '2017-01-23'
+                  acquiree: Agile 3 Solutions
+                - date: '2017-05-02'
+                  acquiree: Verizon - Cloud services
+                - date: '2017-09-24'
+                  acquiree: Cloudigo
+                - date: '2017-10-04'
+                  acquiree: Vivant
+                - date: '2018-05-03'
+                  acquiree: Armanta
+                - date: '2018-06-15'
+                  acquiree: Oniqua Inc.
+                - date: '2018-10-28'
+                  acquiree: Red Hat
+                  price: 34000000000
+                - date: '2019-01-14'
+                  acquiree: T-Systems - Mainframe Services business
+                - date: '2020-06-15'
+                  acquiree: Spanugo
+                - date: '2020-07-08'
+                  acquiree: WDG Automation
+              parents: []
+              ticker: IBM
+              stockExchange: nyse
+              kind: market_cap
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 440877
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 9280
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 116
+                  color: '#89e051'
+              contributions: 4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;7;3;1;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
+              stars: 8
+              license: Eclipse Public License 2.0
+              description: >-
+                Provides the cics-deploy plug-in for Zowe CLI https://github.com/zowe/zowe-cli to deploy Node.js and other applications from a workstation to
+                IBM CICS Transaction Server within a CICS bundle. Documentation is available at https://ibm.github.io/zowe-cli-cics-deploy-plugin/
+              latest_commit_date: '2020-07-17T10:28:31Z'
+              latest_commit_link: /IBM/zowe-cli-cics-deploy-plugin/commit/1cec203bd67314679cbfc83d1fe192d2b02be77a
+              contributors_count: 9
+              contributors_link: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin/graphs/contributors'
+            repos:
+              - url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
+                stars: 8
+            github_start_commit_data:
+              start_commit_link: /IBM/zowe-cli-cics-deploy-plugin/commit/3b9907cee0a7fbc37a45d2cbc659e8dd20dae6b9
+              start_date: '2019-02-11T18:11:42Z'
+            yahoo_finance_data:
+              market_cap: 108356747264
+              effective_ticker: IBM
+            image_data:
+              fileName: zowe-cli-cics-deploy-plug-in-cli-zowe-v1.svg
+              hash: pcU9XuElitRAThp2dPqiDw1ZQG1NI7XVNnxX7rvB3UY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: Zowe Secure Credential Store (CLI ZOWE V1)
             description: Zowe Secure Credential Store lets you store your credentials securely in the credential manager of your operating system.
@@ -13568,8 +14444,8 @@ landscape:
                 - name: Shell
                   value: 1674
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;11;1;0;1;0;4;0;3;12;9;24;6;1;2;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;0;4;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;1;0;0;4;1;12;10;21;4;6;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;4;0;0;4;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 6
               license: Other
               description: >-
@@ -13592,7 +14468,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
       - subcategory:
         name: API Mediation Layer 2019
         items:
@@ -13602,6 +14478,7 @@ landscape:
             homepage_url: 'https://phoenixsoftware.com/ejes.htm#zowe'
             logo: phoenix-software-international-ejes.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Phoenix Software International
               description: 'Phoenix Software International, Inc., is a systems software development company providing advanced software applications to enterprises.'
@@ -13623,13 +14500,14 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-10T17:45:05.000Z
+              latest_tweet_date: 2020-09-24T16:00:27.000Z
           - item:
             name: CA File Master™ Plus (API Mediation Layer 2019)
             homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/11-0/using-the-rest-api.html'
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -13756,7 +14634,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (API Mediation Layer 2019)
             homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
@@ -13790,8 +14668,8 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 0;4;0;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 2
               license: Other
               description: Zowe CLI plug-in for MQ that enables users to issue MQSC commands to a queue manager.
@@ -13812,7 +14690,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: IBM Z Workload Scheduler V 9.5.0.2 (API Mediation Layer 2019)
             description: >-
@@ -13822,6 +14700,7 @@ landscape:
             logo: ibm-z-workload-scheduler.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -14228,7 +15107,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-workload-scheduler-v-9-5-0-2-api-mediation-layer-2019.svg
@@ -14237,7 +15116,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS (API Mediation Layer 2019)
             description: >-
@@ -14247,6 +15126,7 @@ landscape:
             logo: db2-devops-experience-for-zos.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -14653,7 +15533,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-db2-dev-ops-experience-for-z-os-api-mediation-layer-2019.svg
@@ -14662,7 +15542,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: IBM® Z Netview (API Mediation Layer 2019)
             description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
@@ -14670,6 +15550,7 @@ landscape:
             logo: ibm-z-netview.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -15076,7 +15957,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-netview-api-mediation-layer-2019.svg
@@ -15085,7 +15966,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
       - subcategory:
         name: App Framework 2019
         items:
@@ -15122,8 +16003,8 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 0;4;0;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 2
               license: Other
               description: Zowe CLI plug-in for MQ that enables users to issue MQSC commands to a queue manager.
@@ -15144,7 +16025,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS (App Framework 2019)
             description: >-
@@ -15154,6 +16035,7 @@ landscape:
             logo: db2-devops-experience-for-zos.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -15560,7 +16442,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-db2-dev-ops-experience-for-z-os-app-framework-2019.svg
@@ -15569,7 +16451,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: IBM® Service Automation Suite (App Framework 2019)
             description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
@@ -15577,6 +16459,7 @@ landscape:
             logo: service-automation-suite.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -15983,7 +16866,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-service-automation-suite-app-framework-2019.svg
@@ -15992,7 +16875,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: IBM® Service Management Suite for z/OS (App Framework 2019)
             description: >-
@@ -16002,6 +16885,7 @@ landscape:
             logo: service-management-suite-for-zos.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -16408,7 +17292,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-service-management-suite-for-z-os-app-framework-2019.svg
@@ -16417,7 +17301,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: IBM® Service Management Unite(SMU) (App Framework 2019)
             description: >-
@@ -16427,6 +17311,7 @@ landscape:
             logo: service-management-unite.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -16833,7 +17718,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-service-management-unite-smu-app-framework-2019.svg
@@ -16842,7 +17727,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: IBM® Z Netview (App Framework 2019)
             description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
@@ -16850,6 +17735,7 @@ landscape:
             logo: ibm-z-netview.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -17256,7 +18142,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-netview-app-framework-2019.svg
@@ -17265,7 +18151,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: Rocket™ BlueZone (App Framework 2019)
             description: >-
@@ -17274,6 +18160,7 @@ landscape:
             homepage_url: 'https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-terminal-emulation'
             logo: rocketsoftware-bluezone.svg
             crunchbase: 'https://www.crunchbase.com/organization/rocket-software'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Rocket Software
               description: Rocket Software is a software development firm that offers enterprise infrastructure products and various related services.
@@ -17313,7 +18200,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T20:57:02.000Z
+              latest_tweet_date: 2020-09-30T18:00:40.000Z
       - subcategory:
         name: CLI 2019
         items:
@@ -17342,18 +18229,20 @@ landscape:
             github_data:
               languages:
                 - name: TypeScript
-                  value: 58248
+                  value: 268071
                   color: '#2b7489'
                 - name: JavaScript
-                  value: 2249
+                  value: 4732
                   color: '#f1e05a'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;9;9;0;0;0;0;0;0;0;0;1;4;0;0;0;0;2;1;2
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;18;0;0;0;0;0;0;0;0;1;2;2;0;0;0;0;2;1;5;3
+              firstWeek: 2019-10-06Z
               stars: 2
               license: Other
               description: (E)JES plug-in for Zowe CLI
-              latest_commit_date: '2020-09-20T00:40:58Z'
-              latest_commit_link: /phoenixsoftware/ejes-cli/commit/0573d31fd2f0ed507677070857c110d97cdc9286
+              latest_commit_date: '2020-09-25T00:09:37Z'
+              latest_commit_link: /phoenixsoftware/ejes-cli/commit/7e558a60045d86c3d68b0202f7731edeb54755f6
+              release_date: '2020-09-30T00:18:52Z'
+              release_link: 'https://github.com/phoenixsoftware/ejes-cli/releases'
               contributors_count: 5
               contributors_link: 'https://github.com/phoenixsoftware/ejes-cli/graphs/contributors'
             repos:
@@ -17369,7 +18258,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-10T17:45:05.000Z
+              latest_tweet_date: 2020-09-24T16:00:27.000Z
           - item:
             name: CA Endevor® (CLI 2019)
             description: >-
@@ -17380,6 +18269,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -17506,7 +18396,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA File Master™ Plus (CLI 2019)
             description: >-
@@ -17517,6 +18407,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -17643,7 +18534,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA OPS/MVS® (CLI 2019)
             description: >-
@@ -17654,6 +18545,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-opsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -17780,7 +18672,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA Secure Credential Store (CLI 2019)
             description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
@@ -17789,6 +18681,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-secure-credential-store.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -17915,7 +18808,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA z/OS Extended Files (CLI 2019)
             description: >-
@@ -17926,6 +18819,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -18052,7 +18946,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: CA z/OS Extended Jobs (CLI 2019)
             description: >-
@@ -18063,6 +18957,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: 'Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.'
@@ -18189,7 +19084,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (CLI 2019)
             homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
@@ -18223,8 +19118,8 @@ landscape:
                 - name: Shell
                   value: 635
                   color: '#89e051'
-              contributions: 0;4;0;2;0;0;0;0;0;0;0;0;1;0;0;1;3;0;0;3;0;0;0;0;3;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 3;0;2;0;0;0;0;0;0;0;1;0;0;0;4;0;0;0;3;0;0;0;2;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 2
               license: Other
               description: Zowe CLI plug-in for MQ that enables users to issue MQSC commands to a queue manager.
@@ -18245,7 +19140,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: IBM Z Workload Scheduler V 9.5.0.2 (CLI 2019)
             description: >-
@@ -18255,6 +19150,7 @@ landscape:
             logo: ibm-z-workload-scheduler.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -18661,7 +19557,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-z-workload-scheduler-v-9-5-0-2-cli-2019.svg
@@ -18670,7 +19566,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI (CLI 2019)
             description: IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS
@@ -18705,8 +19601,8 @@ landscape:
                 - name: JavaScript
                   value: 5688
                   color: '#f1e05a'
-              contributions: 5;3;0;0;22;28;17;8;0;0;0;3;6;2;0;11;0;6;0;0;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;11;36;12;12;4;0;0;3;2;5;1;1;10;6;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 5
               license: Other
               description: CICS Plugin for the Zowe CLI
@@ -18727,7 +19623,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: IBM® Db2 DevOps Experience for z/OS (CLI 2019)
             description: >-
@@ -18737,6 +19633,7 @@ landscape:
             logo: db2-devops-experience-for-zos.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -19143,7 +20040,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm-db2-dev-ops-experience-for-z-os-cli-2019.svg
@@ -19152,7 +20049,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: IBM® Db2® Database Plug-in for Zowe CLI (CLI 2019)
             description: The IBM® Db2® Database Plug-in for ZoweTM CLI lets you interact with Db2 for z/OS to perform tasks through Zowe CLI.
@@ -19187,8 +20084,8 @@ landscape:
                 - name: Shell
                   value: 3419
                   color: '#89e051'
-              contributions: 0;4;0;4;0;4;0;0;0;0;0;0;1;0;0;1;6;5;0;0;0;0;0;0;2;0;2;3;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;4;0;0;4;0;0;0;0;0;1;0;0;0;7;5;0;0;0;0;0;0;0;2;0;4;1;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 3
               license: Other
               description: DB2 Plugin for the Zowe CLI
@@ -19209,7 +20106,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI (CLI 2019)
             description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.
@@ -19635,8 +20532,8 @@ landscape:
                 - name: Shell
                   value: 106
                   color: '#89e051'
-              contributions: 2;1;2;0;0;0;0;0;0;0;0;1;1;1;0;1;0;2;0;0;0;1;1;0;0;0;0;1;1;0;0;4;0;2;2;0;0;3;0;0;0;0;2;4;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 1;2;0;0;0;0;0;0;0;1;1;0;1;1;0;2;0;0;0;1;1;0;0;0;0;0;2;0;0;0;4;0;3;1;0;3;0;0;0;0;0;6;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 4
               license: Eclipse Public License 2.0
               description: Zowe CLI plugin for z/OS Connect EE servers
@@ -19653,7 +20550,7 @@ landscape:
               start_commit_link: /zosconnect/zowe-cli-zosconnect-plugin/commit/f78745b741fee862dfdb689ce63dc2dece0721d4
               start_date: '2018-09-18T21:58:26Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: z-os-connect-ee-plug-in-for-zowe-cli-cli-2019.svg
@@ -19662,7 +20559,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: Zowe CLI CICS Deploy plug-in (CLI 2019)
             description: Deploy applications developed on a workstation to IBM CICS Transaction Server for z/OS.
@@ -19671,6 +20568,7 @@ landscape:
             logo: zowe-cli-cics-deploy.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
@@ -20087,8 +20985,8 @@ landscape:
                 - name: Shell
                   value: 116
                   color: '#89e051'
-              contributions: 0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;8;3;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;7;3;1;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 8
               license: Eclipse Public License 2.0
               description: >-
@@ -20105,7 +21003,7 @@ landscape:
               start_commit_link: /IBM/zowe-cli-cics-deploy-plugin/commit/3b9907cee0a7fbc37a45d2cbc659e8dd20dae6b9
               start_date: '2019-02-11T18:11:42Z'
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: zowe-cli-cics-deploy-plug-in-cli-2019.svg
@@ -20114,7 +21012,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: Zowe Secure Credential Store (CLI 2019)
             description: Zowe Secure Credential Store lets you store your credentials securely in the default credential manager in your computer's operating system.
@@ -20149,8 +21047,8 @@ landscape:
                 - name: Shell
                   value: 1674
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;11;1;0;1;0;4;0;3;12;9;24;6;1;2;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;0;4;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;1;0;0;4;1;12;10;21;4;6;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;4;0;0;4;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 6
               license: Other
               description: >-
@@ -20173,7 +21071,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:30:25.000Z
+              latest_tweet_date: 2020-09-30T21:00:25.000Z
   - category:
     name: Supported Projects
     subcategories:
@@ -20221,8 +21119,8 @@ landscape:
                 - name: Makefile
                   value: 3584
                   color: '#427819'
-              contributions: 0;8;1;1;2;0;15;1;0;4;4;0;3;0;1;1;2;0;3;2;2;4;3;4;3;0;7;1;1;4;0;1;0;0;0;2;1;1;1;0;3;15;0;1;0;0;0;0;0;1;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 0;1;1;2;0;16;0;3;4;1;1;2;0;2;0;2;1;2;4;1;3;7;1;2;7;1;0;4;1;0;1;0;0;0;3;0;2;0;1;17;0;1;0;0;0;0;0;0;1;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 34
               license: Unknown License
               description: '[MIRROR] Build script to build Alpine packages'
@@ -20282,7 +21180,7 @@ landscape:
                   value: 233
                   color: '#f1e05a'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 0
               license: Unknown License
               description: Docker build scripts for ClefOS 7 (s390x)
@@ -20348,8 +21246,8 @@ landscape:
                 - name: Vim script
                   value: 111
                   color: '#199f4b'
-              contributions: 16;23;11;5;23;14;16;17;16;3;11;17;22;6;0;25;16;11;6;9;6;6;5;1;2;0;1;9;6;0;0;0;0;5;3;0;1;1;9;0;0;1;1;1;0;2;3;7;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 11;5;12;22;9;17;27;5;8;17;12;18;2;18;15;14;9;8;6;4;9;2;2;0;1;2;11;2;0;0;0;4;3;1;1;1;9;0;0;1;0;2;0;2;2;7;1;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 1908
               license: Apache License 2.0
               description: >-
@@ -20359,7 +21257,7 @@ landscape:
               latest_commit_link: /cloudfoundry/bosh/commit/05e02eec51b3cd9de1482045ea6227edabfeb9e2
               release_date: '2020-08-03T17:21:09Z'
               release_link: 'https://github.com/cloudfoundry/bosh/releases'
-              contributors_count: 755
+              contributors_count: 757
               contributors_link: 'https://github.com/cloudfoundry/bosh/graphs/contributors'
             repos:
               - url: 'https://github.com/cloudfoundry/bosh'
@@ -20374,7 +21272,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T20:40:49.000Z
+              latest_tweet_date: 2020-09-30T15:44:11.000Z
           - item:
             name: Debian
             description: Debian is a free operating system (OS) for your computer.
@@ -20398,9 +21296,9 @@ landscape:
               stockExchange: null
             github_data:
               languages: []
-              contributions: 1;0;0;0;0;1;1;0;2;11;9;0;0;0;1;20;14;2;15;6;7;12;38;4;5;2;5;4;4;0;7;4;14;16;15;3;5;4;3;3;11;3;5;1;0;8;13;0;1;0;2;0
-              firstWeek: 2019-09-29Z
-              stars: 290
+              contributions: 0;0;0;1;0;1;0;12;9;1;0;0;0;19;7;11;7;12;5;13;37;4;8;1;6;1;5;3;0;11;8;13;13;13;5;1;4;4;13;3;5;0;1;8;13;0;0;1;1;1;0;0
+              firstWeek: 2019-10-06Z
+              stars: 293
               license: Unknown License
               description: Mirror of the apt git repository
               latest_commit_date: '2020-09-10T20:32:16Z'
@@ -20409,7 +21307,7 @@ landscape:
               contributors_link: 'https://github.com/Debian/apt/graphs/contributors'
             repos:
               - url: 'https://github.com/Debian/apt'
-                stars: 290
+                stars: 293
             github_start_commit_data:
               start_commit_link: /Debian/apt/commit/89eaeb446c24bbeacc5f69c170cf60104854432e
               start_date: '2005-03-23T15:46:22Z'
@@ -20420,7 +21318,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-19T13:17:02.000Z
+              latest_tweet_date: 2020-09-26T12:48:01.000Z
           - item:
             name: Eigen
             description: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
@@ -20467,9 +21365,9 @@ landscape:
                 - name: Python
                   value: 12007
                   color: '#3572A5'
-              contributions: 14;10;12;6;4;7;7;14;2;8;11;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
-              stars: 1607
+              contributions: 12;7;7;4;8;8;10;5;14;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
+              stars: 1606
               license: Other
               description: 'THIS MIRROR IS DEPRECATED -- New url: https://gitlab.com/libeigen/eigen'
               latest_commit_date: '2019-12-04T16:22:13Z'
@@ -20478,7 +21376,7 @@ landscape:
               contributors_link: 'https://github.com/eigenteam/eigen-git-mirror/graphs/contributors'
             repos:
               - url: 'https://github.com/eigenteam/eigen-git-mirror'
-                stars: 1607
+                stars: 1606
             github_start_commit_data:
               start_commit_link: /eigenteam/eigen-git-mirror/commit/3036eeca0abfee39d2a0feab4ae3ff1d28975999
               start_date: '2007-05-30T06:24:51Z'
@@ -20489,7 +21387,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-17T15:04:10.000Z
+              latest_tweet_date: 2020-09-30T17:18:23.000Z
           - item:
             name: Fedora
             description: >-
@@ -20534,7 +21432,7 @@ landscape:
                   value: 168
                   color: '#89e051'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 58
               license: GNU Affero General Public License v3.0
               description: A webapp that allows searching packages in Fedora. Written in Python using TurboGears2 and Moksha.
@@ -20555,7 +21453,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-14T16:49:41.000Z
+              latest_tweet_date: 2020-09-30T18:32:05.000Z
           - item:
             name: Gentoo
             description: >-
@@ -20582,7 +21480,7 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 4367021
+                  value: 4370518
                   color: '#3572A5'
                 - name: Shell
                   value: 308748
@@ -20593,18 +21491,18 @@ landscape:
                 - name: Roff
                   value: 15011
                   color: '#ecdebe'
-              contributions: 2;3;7;18;12;4;15;5;6;9;8;9;4;8;5;0;3;10;9;14;10;11;23;23;7;6;12;0;28;0;2;3;3;2;2;4;1;6;5;10;4;2;20;14;8;149;7;9;4;9;9;1
-              firstWeek: 2019-09-29Z
-              stars: 316
+              contributions: 2;13;21;4;7;11;8;11;3;9;6;9;5;3;0;6;9;13;12;11;9;31;12;7;16;2;21;7;1;1;4;3;2;2;3;3;7;10;3;5;4;24;10;139;14;15;2;7;10;5;4;0
+              firstWeek: 2019-10-06Z
+              stars: 315
               license: Other
               description: '[MIRROR] Package management system'
-              latest_commit_date: '2020-09-20T08:18:32Z'
-              latest_commit_link: /gentoo/portage/commit/6a7d42b66a51a6438068c685c8df37d0872e8bf2
+              latest_commit_date: '2020-09-21T05:21:54Z'
+              latest_commit_link: /gentoo/portage/commit/8c779546ab998932016e669f614e3da199a8db3b
               contributors_count: 194
               contributors_link: 'https://github.com/gentoo/portage/graphs/contributors'
             repos:
               - url: 'https://github.com/gentoo/portage'
-                stars: 316
+                stars: 315
             github_start_commit_data:
               start_commit_link: /gentoo/portage/commit/d9fc4acc572c6647a4f27b838d35d27d805d190e
               start_date: '2005-08-28T08:37:44Z'
@@ -20761,18 +21659,18 @@ landscape:
                   value: 8
                   color: '#563d7c'
               contributions: >-
-                125;215;176;163;147;162;206;258;178;141;156;230;200;27;96;196;183;195;182;167;143;162;172;157;130;177;153;150;153;144;201;149;202;217;178;209;174;149;132;125;118;108;106;118;114;128;97;85;126;75;154;113
-              firstWeek: 2019-09-29Z
-              stars: 4160
+                141;183;172;162;166;210;259;139;147;201;223;101;66;137;192;200;189;171;161;158;145;186;126;176;151;142;176;123;193;175;162;222;195;182;195;163;145;130;122;98;113;120;102;144;106;91;108;98;102;153;154;136
+              firstWeek: 2019-10-06Z
+              stars: 4231
               license: Other
               description: null
-              latest_commit_date: '2020-09-21T00:16:24Z'
-              latest_commit_link: /gcc-mirror/gcc/commit/11da31998af6d7b7d4d6fcd3f705c17d69baf58b
+              latest_commit_date: '2020-10-01T00:16:30Z'
+              latest_commit_link: /gcc-mirror/gcc/commit/660bfe61d4045c7931a7c1c3a166d0a2cd199412
               contributors_count: 3341
               contributors_link: 'https://github.com/gcc-mirror/gcc/graphs/contributors'
             repos:
               - url: 'https://github.com/gcc-mirror/gcc'
-                stars: 4160
+                stars: 4231
             github_start_commit_data:
               start_commit_link: /gcc-mirror/gcc/commit/3cf0d8938a953ef13e57239613d42686f152b4fe
               start_date: '1988-11-23T07:17:23Z'
@@ -20783,7 +21681,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-19T16:52:21.000Z
+              latest_tweet_date: 2020-10-01T01:08:05.000Z
           - item:
             name: LLVM
             description: The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.
@@ -20808,41 +21706,41 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 275027317
+                  value: 275843027
                   color: '#f34b7d'
                 - name: LLVM
-                  value: 181287344
+                  value: 181852804
                   color: '#185619'
                 - name: C
-                  value: 66261171
+                  value: 66381467
                   color: '#555555'
                 - name: Assembly
-                  value: 60509979
+                  value: 60626408
                   color: '#6E4C13'
                 - name: Python
-                  value: 8469200
+                  value: 8534189
                   color: '#3572A5'
                 - name: Objective-C
-                  value: 4038846
+                  value: 4051043
                   color: '#438eff'
                 - name: MLIR
-                  value: 3269958
+                  value: 3322067
                 - name: CMake
-                  value: 2192867
+                  value: 2200312
                 - name: HTML
-                  value: 1954383
+                  value: 1951735
                   color: '#e34c26'
                 - name: Shell
-                  value: 1319818
+                  value: 1325008
                   color: '#89e051'
                 - name: Objective-C++
                   value: 1034379
                   color: '#6866fb'
                 - name: Fortran
-                  value: 931835
+                  value: 948899
                   color: '#4d41b1'
                 - name: Cuda
-                  value: 595217
+                  value: 595509
                   color: '#3A4E3A'
                 - name: OCaml
                   value: 415486
@@ -20851,12 +21749,12 @@ landscape:
                   value: 362749
                   color: '#0298c3'
                 - name: Makefile
-                  value: 301260
+                  value: 301910
                   color: '#427819'
                 - name: Scilab
                   value: 160404
                 - name: Go
-                  value: 149832
+                  value: 149822
                   color: '#00ADD8'
                 - name: M4
                   value: 129475
@@ -20901,10 +21799,12 @@ landscape:
                   value: 23730
                   color: '#199f4b'
                 - name: Dockerfile
-                  value: 11978
+                  value: 15639
                   color: '#384d54'
                 - name: NASL
                   value: 6311
+                - name: GDB
+                  value: 5894
                 - name: PHP
                   value: 5875
                   color: '#4F5D95'
@@ -20915,8 +21815,6 @@ landscape:
                   value: 5584
                 - name: M
                   value: 5280
-                - name: GDB
-                  value: 3752
                 - name: Scala
                   value: 3666
                   color: '#c22d40'
@@ -20958,22 +21856,22 @@ landscape:
                 - name: Logos
                   value: 28
               contributions: >-
-                655;754;888;664;429;653;621;566;646;390;631;631;666;319;432;613;744;705;718;750;761;703;635;622;628;662;645;745;738;769;734;690;647;600;601;693;733;665;740;701;659;683;706;730;682;743;686;574;631;479;563;629
-              firstWeek: 2019-09-29Z
-              stars: 6004
+                764;802;546;553;619;589;656;521;478;647;647;461;303;562;756;669;742;736;777;729;657;659;566;649;637;690;771;747;755;743;646;609;640;575;722;770;689;686;739;628;693;720;713;725;724;630;585;555;551;688;657;549
+              firstWeek: 2019-10-06Z
+              stars: 6110
               license: Unknown License
               description: >-
                 The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Note: the repository does not accept github pull
                 requests at this moment. Please submit your patches at http://reviews.llvm.org.
-              latest_commit_date: '2020-09-21T00:59:57Z'
-              latest_commit_link: /llvm/llvm-project/commit/d06485685d421c944afeffc3ad59f6f6f78afd72
-              release_date: '2020-08-20T19:53:36Z'
+              latest_commit_date: '2020-10-01T01:03:37Z'
+              latest_commit_link: /llvm/llvm-project/commit/196c097bba8b0b3932f3fcdcd5310f78ebaa43a3
+              release_date: '2020-09-30T17:56:42Z'
               release_link: 'https://github.com/llvm/llvm-project/releases'
-              contributors_count: 2451
+              contributors_count: 2478
               contributors_link: 'https://github.com/llvm/llvm-project/graphs/contributors'
             repos:
               - url: 'https://github.com/llvm/llvm-project'
-                stars: 6004
+                stars: 6110
             github_start_commit_data:
               start_commit_link: /llvm/llvm-project/commit/97724f18c79c7cc81ced24239eb5e883bf1398ef
               start_date: '2001-06-06T20:29:01Z'
@@ -20984,7 +21882,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-19T00:19:54.000Z
+              latest_tweet_date: 2020-09-28T15:24:41.000Z
           - item:
             name: LuaJIT
             description: >-
@@ -21037,20 +21935,22 @@ landscape:
                 - name: Shell
                   value: 539
                   color: '#89e051'
-              contributions: 11;0;7;0;4;8;5;16;7;8;11;12;0;3;2;0;10;7;6;2;1;0;0;2;0;1;1;9;0;0;0;3;4;2;9;8;2;4;1;5;2;3;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
-              stars: 466
+              contributions: 3;4;0;5;9;4;15;11;4;23;0;0;4;1;9;5;7;4;0;1;0;0;2;0;1;7;3;0;0;2;3;2;5;14;1;1;5;4;3;0;3;0;0;0;0;0;0;0;0;0;1;0
+              firstWeek: 2019-10-06Z
+              stars: 467
               license: Other
-              description: Just-In-Time Compiler for the Lua Programming language. Fork of LuaJIT to continue development
-              latest_commit_date: '2020-07-23T05:53:32Z'
-              latest_commit_link: /moonjit/moonjit/commit/7bf0a1ee7b0a636d9fb3b8e83bdde7f6273f1382
+              description: >-
+                Just-In-Time Compiler for the Lua Programming language. Fork of LuaJIT to continue development. This project does not have an active maintainer,
+                see https://twitter.com/siddhesh_p/status/1308594269502885889?s=20 for more detail.
+              latest_commit_date: '2020-09-23T02:34:50Z'
+              latest_commit_link: /moonjit/moonjit/commit/a2a39ea7184f3c8cab9474c6e41f6541265fb362
               release_date: '2020-01-14T11:07:38Z'
               release_link: 'https://github.com/moonjit/moonjit/releases'
               contributors_count: 38
               contributors_link: 'https://github.com/moonjit/moonjit/graphs/contributors'
             repos:
               - url: 'https://github.com/moonjit/moonjit'
-                stars: 466
+                stars: 467
             github_start_commit_data:
               start_commit_link: /moonjit/moonjit/commit/55b16959717084884fd4a0cbae6d19e3786c20c7
               start_date: '2009-12-08T18:46:35Z'
@@ -21061,7 +21961,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T15:03:15.000Z
+              latest_tweet_date: 2020-09-29T10:00:57.000Z
           - item:
             name: OpenBLAS
             description: OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.
@@ -21086,13 +21986,13 @@ landscape:
             github_data:
               languages:
                 - name: Fortran
-                  value: 51727821
+                  value: 51729450
                   color: '#4d41b1'
                 - name: Assembly
                   value: 28044088
                   color: '#6E4C13'
                 - name: C
-                  value: 23449654
+                  value: 23467110
                   color: '#555555'
                 - name: Makefile
                   value: 903745
@@ -21125,20 +22025,20 @@ landscape:
                   color: '#198CE7'
                 - name: Raku
                   value: 1924
-              contributions: 7;10;9;10;16;12;8;14;14;20;10;3;7;18;29;12;10;6;3;38;43;35;37;45;28;21;7;16;13;62;23;14;19;18;13;16;34;31;9;29;5;19;27;24;32;7;22;27;12;47;20;22
-              firstWeek: 2019-09-29Z
-              stars: 3519
+              contributions: 14;5;5;18;17;3;18;15;20;5;2;14;30;17;10;9;1;14;48;41;31;46;39;19;16;11;10;39;45;23;7;29;17;5;27;27;29;9;24;9;23;24;30;20;19;27;12;37;27;24;22;10
+              firstWeek: 2019-10-06Z
+              stars: 3536
               license: BSD 3-Clause "New" or "Revised" License
               description: 'OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version. '
-              latest_commit_date: '2020-09-18T21:18:41Z'
-              latest_commit_link: /xianyi/OpenBLAS/commit/992d7ca63daf10d711bdf9ae50c0e694c101f3fe
+              latest_commit_date: '2020-09-28T05:22:54Z'
+              latest_commit_link: /xianyi/OpenBLAS/commit/0d98ce202cd504f6f591ba0d1d6d67c0cf08af75
               release_date: '2020-06-14T20:12:21Z'
               release_link: 'https://github.com/xianyi/OpenBLAS/releases'
-              contributors_count: 204
+              contributors_count: 205
               contributors_link: 'https://github.com/xianyi/OpenBLAS/graphs/contributors'
             repos:
               - url: 'https://github.com/xianyi/OpenBLAS'
-                stars: 3519
+                stars: 3536
             github_start_commit_data:
               start_commit_link: /xianyi/OpenBLAS/commit/342bbc3871d1b43f548e9d1ae9d380a1d4989cb3
               start_date: '2011-01-24T14:54:24Z'
@@ -21175,21 +22075,21 @@ landscape:
             github_data:
               languages:
                 - name: C
-                  value: 38800019
+                  value: 38818195
                   color: '#555555'
                 - name: PLpgSQL
-                  value: 2643069
+                  value: 2644086
                 - name: Perl
-                  value: 1110355
+                  value: 1117277
                   color: '#0298c3'
                 - name: C++
-                  value: 1042942
+                  value: 1043158
                   color: '#f34b7d'
                 - name: Yacc
-                  value: 622096
+                  value: 622075
                   color: '#4B6C4B'
                 - name: Makefile
-                  value: 326249
+                  value: 327148
                   color: '#427819'
                 - name: Objective-C
                   value: 236143
@@ -21228,20 +22128,20 @@ landscape:
                   value: 1231
                   color: '#64b970'
               contributions: >-
-                50;41;29;27;34;23;46;38;43;32;28;32;49;26;28;37;39;31;38;31;32;40;39;40;43;59;64;96;76;41;53;38;49;72;25;20;41;49;45;21;33;42;40;38;38;31;32;26;21;64;45;43
-              firstWeek: 2019-09-29Z
-              stars: 7264
+                38;23;33;29;34;48;31;38;35;27;44;34;16;44;39;30;37;30;42;32;37;39;51;49;60;80;92;50;45;40;54;43;61;22;20;50;57;28;30;37;37;46;31;35;29;34;26;34;62;43;34;36
+              firstWeek: 2019-10-06Z
+              stars: 7316
               license: Other
               description: >-
                 Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute,
                 please see https://wiki.postgresql.org/wiki/Submitting_a_Patch
-              latest_commit_date: '2020-09-20T21:08:49Z'
-              latest_commit_link: /postgres/postgres/commit/c2bb287025189d93c8df16b28f2a3d9d07d25655
+              latest_commit_date: '2020-10-01T01:37:34Z'
+              latest_commit_link: /postgres/postgres/commit/6b1c5cacec5e8305a3880b441526c47bd47c64cd
               contributors_count: 50
               contributors_link: 'https://github.com/postgres/postgres/graphs/contributors'
             repos:
               - url: 'https://github.com/postgres/postgres'
-                stars: 7264
+                stars: 7316
             github_start_commit_data:
               start_commit_link: /postgres/postgres/commit/d31084e9d1118b25fd16580d9d8c2924b5740dff
               start_date: '1996-07-09T06:22:35Z'
@@ -21252,7 +22152,7 @@ landscape:
               badge: 2268
               percentage: 94
             twitter_data:
-              latest_tweet_date: 2020-09-20T06:45:03.000Z
+              latest_tweet_date: 2020-09-24T13:00:03.000Z
   - category:
     name: Linux Distributions
     subcategories:
@@ -21294,7 +22194,7 @@ landscape:
                   value: 161
                   color: '#384d54'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              firstWeek: 2019-10-06Z
               stars: 4
               license: GNU General Public License v2.0
               description: ClefOS - Official Base Image
@@ -21389,7 +22289,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: red-hat-enterprise-linux.svg
@@ -21398,7 +22298,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T21:14:01.000Z
+              latest_tweet_date: 2020-09-30T22:08:12.000Z
           - item:
             name: SUSE Linux Enterprise Server
             homepage_url: 'https://www.suse.com/products/systemz/'
@@ -21427,7 +22327,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T14:00:34.000Z
+              latest_tweet_date: 2020-09-30T21:35:27.000Z
           - item:
             name: Ubuntu
             homepage_url: 'https://wiki.ubuntu.com/S390X'
@@ -21456,7 +22356,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-17T09:13:02.000Z
+              latest_tweet_date: 2020-09-30T13:40:15.000Z
       - subcategory:
         name: Community
         items:
@@ -21484,7 +22384,7 @@ landscape:
             github_data:
               languages:
                 - name: Shell
-                  value: 10529031
+                  value: 10617715
                   color: '#89e051'
                 - name: C
                   value: 230698
@@ -21493,7 +22393,7 @@ landscape:
                   value: 48717
                   color: '#000080'
                 - name: Java
-                  value: 30722
+                  value: 35842
                   color: '#b07219'
                 - name: HCL
                   value: 16448
@@ -21533,18 +22433,18 @@ landscape:
                   value: 54
                   color: '#00ADD8'
               contributions: >-
-                401;165;333;294;624;636;747;355;501;347;413;263;273;433;334;373;296;236;370;350;434;448;724;575;409;354;475;525;885;730;433;461;415;310;551;423;355;333;299;339;298;438;295;302;386;400;363;237;347;721;373;306
-              firstWeek: 2019-09-29Z
-              stars: 454
+                249;284;498;627;871;395;383;450;293;374;288;354;331;362;399;280;216;451;299;445;662;609;570;315;366;467;918;717;520;418;472;375;406;468;451;333;308;312;324;324;386;304;355;1143;367;431;269;650;452;344;263;409
+              firstWeek: 2019-10-06Z
+              stars: 455
               license: Unknown License
               description: '[MIRROR] Alpine packages build scripts'
-              latest_commit_date: '2020-09-21T01:20:35Z'
-              latest_commit_link: /alpinelinux/aports/commit/74ae0d2dfa01f202dabd64bb3eb3e7764585249f
-              contributors_count: 1003
+              latest_commit_date: '2020-10-01T01:21:17Z'
+              latest_commit_link: /alpinelinux/aports/commit/48605a01f7d000054d420364e6f20c6ebca9df7c
+              contributors_count: 1010
               contributors_link: 'https://github.com/alpinelinux/aports/graphs/contributors'
             repos:
               - url: 'https://github.com/alpinelinux/aports'
-                stars: 454
+                stars: 455
             github_start_commit_data:
               start_commit_link: /alpinelinux/aports/commit/3196418bad03f30a8a8bc833cda9a2e0fe8d18b2
               start_date: '2006-02-01T18:18:47Z'
@@ -21600,8 +22500,8 @@ landscape:
                 - name: C
                   value: 379
                   color: '#555555'
-              contributions: 5;1;3;33;10;1;0;1;2;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-09-29Z
+              contributions: 2;3;41;0;1;0;1;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-10-06Z
               stars: 22
               license: GNU General Public License v2.0
               description: 'Mirror of https://salsa.debian.org/deban/devscripts.git'
@@ -21622,7 +22522,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-19T13:17:02.000Z
+              latest_tweet_date: 2020-09-26T12:48:01.000Z
           - item:
             name: Fedora Linux
             description: >-
@@ -21649,10 +22549,10 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 2753917
+                  value: 2755446
                   color: '#3572A5'
                 - name: HTML
-                  value: 176816
+                  value: 176734
                   color: '#e34c26'
                 - name: JavaScript
                   value: 29104
@@ -21673,20 +22573,20 @@ landscape:
                 - name: Vim script
                   value: 45
                   color: '#199f4b'
-              contributions: 10;10;23;22;22;12;19;37;7;10;9;10;0;4;4;13;4;1;3;1;3;3;1;6;8;8;11;6;4;2;6;1;1;1;6;4;2;2;7;4;2;1;6;1;0;2;5;6;2;1;0;0
-              firstWeek: 2019-09-29Z
-              stars: 105
+              contributions: 18;18;28;16;11;21;31;7;11;8;6;3;5;9;8;1;1;3;1;4;3;3;7;4;15;7;7;3;5;1;1;2;4;4;3;2;4;7;1;3;0;6;1;0;6;2;6;1;1;2;1;2
+              firstWeek: 2019-10-06Z
+              stars: 106
               license: GNU General Public License v2.0
               description: Bodhi is a web-system that facilitates the process of publishing updates for a Fedora-based software distribution.
-              latest_commit_date: '2020-09-11T14:06:16Z'
-              latest_commit_link: /fedora-infra/bodhi/commit/d80e867c12433bc2901795a214bf367dcb973fb9
+              latest_commit_date: '2020-09-30T10:15:25Z'
+              latest_commit_link: /fedora-infra/bodhi/commit/0eeea79831f9cd3446cac952c3a56c0dc9ea1361
               release_date: '2020-08-11T12:10:54Z'
               release_link: 'https://github.com/fedora-infra/bodhi/releases'
-              contributors_count: 115
+              contributors_count: 116
               contributors_link: 'https://github.com/fedora-infra/bodhi/graphs/contributors'
             repos:
               - url: 'https://github.com/fedora-infra/bodhi'
-                stars: 105
+                stars: 106
             github_start_commit_data:
               start_commit_link: /fedora-infra/bodhi/commit/e26dacbb680bb65ffee0b82679e3f48a982ae4a1
               start_date: '2007-01-15T23:02:11Z'
@@ -21697,7 +22597,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-14T16:49:41.000Z
+              latest_tweet_date: 2020-09-30T18:32:05.000Z
           - item:
             name: Gentoo Linux
             description: >-
@@ -21724,10 +22624,10 @@ landscape:
             github_data:
               languages:
                 - name: Shell
-                  value: 49004263
+                  value: 48494750
                   color: '#89e051'
                 - name: Roff
-                  value: 654917
+                  value: 652608
                   color: '#ecdebe'
                 - name: M4
                   value: 83277
@@ -21735,13 +22635,13 @@ landscape:
                   value: 74813
                   color: '#4F5D95'
                 - name: Emacs Lisp
-                  value: 72816
+                  value: 72334
                   color: '#c065db'
                 - name: C
                   value: 51739
                   color: '#555555'
                 - name: Makefile
-                  value: 48175
+                  value: 47503
                   color: '#427819'
                 - name: Perl
                   value: 38111
@@ -21751,12 +22651,12 @@ landscape:
                   color: '#b07219'
                 - name: CMake
                   value: 13838
-                - name: Python
-                  value: 10158
-                  color: '#3572A5'
                 - name: Smalltalk
                   value: 9951
                   color: '#596706'
+                - name: Python
+                  value: 9889
+                  color: '#3572A5'
                 - name: Common Lisp
                   value: 9595
                   color: '#3fb68b'
@@ -21775,14 +22675,11 @@ landscape:
                 - name: Vim script
                   value: 4380
                   color: '#199f4b'
+                - name: JavaScript
+                  value: 3481
+                  color: '#f1e05a'
                 - name: M
                   value: 2533
-                - name: JavaScript
-                  value: 2445
-                  color: '#f1e05a'
-                - name: Haskell
-                  value: 1401
-                  color: '#5e5086'
                 - name: Lua
                   value: 904
                   color: '#000080'
@@ -21804,18 +22701,18 @@ landscape:
                 - name: DTrace
                   value: 39
               contributions: >-
-                1347;1105;1776;1579;902;995;1146;1567;1829;1377;3940;2251;1563;1962;1639;1277;1445;1580;1471;2461;2601;1172;1373;1560;1356;2788;3100;1410;1265;2134;2173;1951;2157;1549;2058;2102;2053;1479;1961;1382;1688;3584;2252;1568;3575;2285;1573;2413;1996;2818;2315;2429
-              firstWeek: 2019-09-29Z
-              stars: 1253
+                1112;1872;1221;810;1124;1502;1721;1585;2788;2780;1913;1711;2155;1202;1497;1285;1867;1660;2804;1811;1231;1467;1474;1895;3066;2263;1264;1981;2003;1776;2300;2025;1932;1441;2124;2172;1364;1862;1579;1820;3269;2393;2175;3444;1693;2013;2121;2234;2952;1997;2458;1435
+              firstWeek: 2019-10-06Z
+              stars: 1263
               license: Unknown License
               description: '[MIRROR] Official Gentoo ebuild repository'
-              latest_commit_date: '2020-09-20T23:41:17Z'
-              latest_commit_link: /gentoo/gentoo/commit/d063321927b0ab74a096fab2110c217f3268d497
-              contributors_count: 1237
+              latest_commit_date: '2020-10-01T01:23:58Z'
+              latest_commit_link: /gentoo/gentoo/commit/81063880672df45b811c55a524cc619117c680cb
+              contributors_count: 1244
               contributors_link: 'https://github.com/gentoo/gentoo/graphs/contributors'
             repos:
               - url: 'https://github.com/gentoo/gentoo'
-                stars: 1253
+                stars: 1263
             github_start_commit_data:
               start_commit_link: /gentoo/gentoo/commit/56bd759df1d0c750a065b8c845e93d5dfa6b549d
               start_date: '2015-08-08T20:49:04Z'
@@ -21850,7 +22747,7 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 1158952
+                  value: 1158954
                   color: '#3572A5'
                 - name: Perl
                   value: 110743
@@ -21859,7 +22756,7 @@ landscape:
                   value: 44740
                   color: '#f1e05a'
                 - name: HTML
-                  value: 39674
+                  value: 39708
                   color: '#e34c26'
                 - name: PHP
                   value: 15224
@@ -21873,16 +22770,16 @@ landscape:
                 - name: CSS
                   value: 467
                   color: '#563d7c'
-              contributions: 37;3;17;21;11;53;73;7;61;20;25;19;4;1;0;2;5;4;25;3;6;9;3;12;4;16;4;0;0;0;2;11;3;6;0;0;3;4;0;4;5;7;5;1;2;2;10;1;3;11;5;2
-              firstWeek: 2019-09-29Z
+              contributions: 15;15;17;8;78;50;37;40;17;30;4;1;1;2;3;6;5;23;4;10;3;7;9;12;9;0;0;0;0;5;11;1;5;0;1;6;0;2;2;11;2;4;3;0;12;0;4;5;11;1;7;2
+              firstWeek: 2019-10-06Z
               stars: 25
               license: GNU General Public License v2.0
               description: Tools to aid in staging and release work for openSUSE/SUSE
-              latest_commit_date: '2020-09-18T09:26:03Z'
-              latest_commit_link: /openSUSE/openSUSE-release-tools/commit/4b77ae843d1bef8c345421a6e3b857979a0d617e
+              latest_commit_date: '2020-09-30T12:50:47Z'
+              latest_commit_link: /openSUSE/openSUSE-release-tools/commit/488b0fc7c3cb9f86855f82a96422d6fff00c69df
               release_date: '2020-02-04T09:58:26Z'
               release_link: 'https://github.com/openSUSE/openSUSE-release-tools/releases'
-              contributors_count: 67
+              contributors_count: 68
               contributors_link: 'https://github.com/openSUSE/openSUSE-release-tools/graphs/contributors'
             repos:
               - url: 'https://github.com/openSUSE/openSUSE-release-tools'
@@ -21897,7 +22794,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T12:30:00.000Z
+              latest_tweet_date: 2020-09-29T00:40:10.000Z
   - category:
     name: Open Mainframe Project Member Company
     subcategories:
@@ -21993,7 +22890,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 58083971072
+              market_cap: 59959222272
               effective_ticker: ADP
             image_data:
               fileName: adp.svg
@@ -22002,7 +22899,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:42:35.000Z
+              latest_tweet_date: 2020-09-30T20:55:25.000Z
           - item:
             name: Broadcom Corporation
             homepage_url: 'https://www.broadcom.com'
@@ -22135,7 +23032,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T16:38:01.000Z
+              latest_tweet_date: 2020-09-30T16:06:07.000Z
           - item:
             name: IBM
             homepage_url: 'https://www.ibm.com/us-en/?ar=1'
@@ -22548,7 +23445,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 109327482880
+              market_cap: 108356747264
               effective_ticker: IBM
             image_data:
               fileName: ibm.svg
@@ -22557,7 +23454,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:00.000Z
+              latest_tweet_date: 2020-09-30T17:58:59.000Z
           - item:
             name: Rocket Software
             homepage_url: 'https://www.rocketsoftware.com/'
@@ -22602,7 +23499,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T20:57:02.000Z
+              latest_tweet_date: 2020-09-30T18:00:40.000Z
           - item:
             name: SUSE
             homepage_url: 'https://www.suse.com/'
@@ -22631,7 +23528,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T14:00:34.000Z
+              latest_tweet_date: 2020-09-30T21:35:27.000Z
       - subcategory:
         name: Silver
         items:
@@ -22663,7 +23560,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-17T09:13:02.000Z
+              latest_tweet_date: 2020-09-30T13:40:15.000Z
           - item:
             name: GT Software
             homepage_url: 'https://www.gtsoftware.com/'
@@ -22690,7 +23587,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-17T16:00:38.000Z
+              latest_tweet_date: 2020-09-30T18:20:03.000Z
           - item:
             name: Micro Focus
             homepage_url: 'https://www.microfocus.com/en-us/home'
@@ -22750,7 +23647,7 @@ landscape:
               stockExchange: lse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 1204490155
+              market_cap: 1065499072
               effective_ticker: MCRO.L
             image_data:
               fileName: micro-focus.svg
@@ -22758,7 +23655,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T20:59:32.000Z
+              latest_tweet_date: 2020-09-30T20:02:01.000Z
           - item:
             name: Phoenix Software International
             homepage_url: 'https://phoenixsoftware.com/'
@@ -22785,7 +23682,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-10T17:45:05.000Z
+              latest_tweet_date: 2020-09-24T16:00:27.000Z
           - item:
             name: Precisely
             description: >-
@@ -22837,7 +23734,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T19:30:15.000Z
+              latest_tweet_date: 2020-09-30T18:37:33.000Z
           - item:
             name: Sine Nomine Associates
             homepage_url: 'https://www.sinenomine.net/'
@@ -22865,7 +23762,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T19:11:58.000Z
+              latest_tweet_date: 2020-09-30T17:38:20.000Z
           - item:
             name: SOFTWARE ENGINEERING GmbH
             homepage_url: 'https://www.seg.de'
@@ -22892,7 +23789,7 @@ landscape:
               percentage: null
           - item:
             name: Vicom Infinity
-            homepage_url: 'http://www.vicominfinity.com/'
+            homepage_url: 'https://www.vicominfinity.com'
             logo: vicominfinity.svg
             crunchbase: 'https://www.crunchbase.com/organization/vicom-infinity'
             crunchbase_data:
@@ -22916,7 +23813,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-21T01:09:47.000Z
+              latest_tweet_date: 2020-09-29T14:20:47.000Z
           - item:
             name: YADRO
             homepage_url: 'https://www.yadro.com/'
@@ -23002,7 +23899,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T15:00:58.000Z
+              latest_tweet_date: 2020-09-30T20:58:43.000Z
           - item:
             name: Beijing Institute of Technology
             homepage_url: 'http://www.bit.edu.cn/'
@@ -23079,7 +23976,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T22:12:00.000Z
+              latest_tweet_date: 2020-09-30T21:45:00.000Z
           - item:
             name: EPSI
             homepage_url: 'https://www.epsi.fr/'
@@ -23161,7 +24058,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-17T10:19:02.000Z
+              latest_tweet_date: 2020-09-30T13:29:55.000Z
           - item:
             name: Marist College
             homepage_url: 'https://www.marist.edu/'
@@ -23188,7 +24085,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T18:47:02.000Z
+              latest_tweet_date: 2020-09-30T22:01:01.000Z
           - item:
             name: North Carolina A&T State
             homepage_url: 'https://www.ncat.edu/'
@@ -23217,7 +24114,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T14:24:22.000Z
+              latest_tweet_date: 2020-09-30T21:36:06.000Z
           - item:
             name: South China University of Technology
             homepage_url: 'https://www.scut.edu.cn'
@@ -23269,7 +24166,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T12:00:00.000Z
+              latest_tweet_date: 2020-09-30T12:02:45.000Z
           - item:
             name: University of Washington CIAC
             homepage_url: 'https://www.uwb.edu/ciac'
@@ -23298,7 +24195,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-19T21:12:45.000Z
+              latest_tweet_date: 2020-09-30T23:49:01.000Z
           - item:
             name: University of Wolverhampton
             homepage_url: 'https://www.wlv.ac.uk/'
@@ -23352,7 +24249,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T11:05:13.000Z
+              latest_tweet_date: 2020-09-30T11:07:58.000Z
           - item:
             name: Virginia Commonwealth University
             homepage_url: 'https://www.vcu.edu/'
@@ -23381,7 +24278,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-19T13:20:02.000Z
+              latest_tweet_date: 2020-09-30T15:42:16.000Z
           - item:
             name: Western University
             homepage_url: 'https://www.uwo.ca/'
@@ -23410,7 +24307,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-20T23:40:36.000Z
+              latest_tweet_date: 2020-10-01T01:10:48.000Z
           - item:
             name: William Patterson University
             homepage_url: 'https://www.wpunj.edu/'
@@ -23437,7 +24334,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-21T00:03:26.000Z
+              latest_tweet_date: 2020-09-30T13:49:30.000Z
           - item:
             name: Xidian University
             homepage_url: 'https://www.xidian.edu.cn/'
@@ -23544,7 +24441,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-07T14:21:03.000Z
+              latest_tweet_date: 2020-09-24T11:36:56.000Z
           - item:
             name: GSE UK
             homepage_url: 'https://www.gse.org.uk/'
@@ -23571,7 +24468,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T08:32:50.000Z
+              latest_tweet_date: 2020-09-29T13:59:13.000Z
           - item:
             name: SHARE
             homepage_url: 'https://www.share.org'
@@ -23598,8 +24495,8 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-18T14:00:16.000Z
+              latest_tweet_date: 2020-09-30T19:00:07.000Z
 twitter_options:
   count: 11
   since_id: '1303809204029927425'
-updated_at: 2020-09-21T01:46:08.108Z
+updated_at: 2020-10-01T01:46:09.435Z

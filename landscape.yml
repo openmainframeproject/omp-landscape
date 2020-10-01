@@ -345,6 +345,16 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
+            name: CA File Master™ Plus (API Mediation Layer ZOWE V1)
+            description: >-
+              CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
+              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0/using-the-rest-api.html'
+            stock_ticker: AVGO
+            logo: ca-file-master-plus.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+          - item:
             name: CA IDMS (API Mediation Layer ZOWE V1)
             description: 'IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.'
             homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html'
@@ -361,6 +371,13 @@ landscape:
             homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-jclcheck-workload-automation/12-0.html'
             stock_ticker: AVGO
             logo: ca-jclcheck-workload-automation.svg
+            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
+          - item:
+            name: CA Mainframe Security Insights Platform (API Mediation Layer ZOWE V1)
+            logo: ca-mainframe-security-insights-platform.svg
+            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/security/ca-mainframe-security-insights-platform/1-0.html'
+            stock_ticker: AVGO
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
             allow_duplicate_repo: true
           - item:
@@ -409,6 +426,7 @@ landscape:
             logo: ibm-z-netview.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
       - subcategory:
         name: App Framework ZOWE V1
         items:
@@ -432,6 +450,7 @@ landscape:
             logo: service-management-unite.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: IBM® Z Netview (App Framework ZOWE V1)
             description: >-
@@ -441,6 +460,7 @@ landscape:
             logo: ibm-z-netview.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: Rocket™ BlueZone Web (App Framework ZOWE V1)
             description: >-
@@ -449,6 +469,7 @@ landscape:
             homepage_url: 'https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-web'
             logo: rocketsoftware-bluezoneweb.svg
             crunchbase: 'https://www.crunchbase.com/organization/rocket-software'
+            allow_duplicate_repo: true
           - item:
             name: SQL WorkloadExpert for Db2 z/OS (App Framework ZOWE V1)
             description: >-
@@ -457,6 +478,7 @@ landscape:
             homepage_url: 'https://www.seg.de/en/products/db2-zos-products/sql-workloadexpert-for-db2-zos'
             logo: sql_workloadexport_for_db2_zos.svg
             crunchbase: 'https://www.crunchbase.com/organization/software-engineering-gmbh'
+            allow_duplicate_repo: true
       - subcategory:
         name: CLI ZOWE V1
         items:
@@ -480,6 +502,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: CA Endevor® Bridge For Git (CLI ZOWE V1)
             description: CA Endevor® Bridge for Git lets you interact with CA Endevor® Bridge For Git to perform tasks through Zowe CLI
@@ -507,6 +530,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-idms.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: CA JCLCheck™ Workload Automation (CLI ZOWE V1)
             description: >-
@@ -551,6 +575,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-opsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: CA Spool™ (CLI ZOWE V1)
             description: 'CA Spool™ provides you with a central point of control for managing enterprise-wide print, email and intelligence delivery services.'
@@ -581,6 +606,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-view.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: CA Workload Automation CA 7® (CLI ZOWE V1)
             description: >-
@@ -599,6 +625,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: CA z/OS Extended Jobs (CLI ZOWE V1)
             description: CA z/OS Extended Jobs extends the CLI to include additional commands for interaction with z/OS jobs.
@@ -607,6 +634,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: IBM RSE API Plug-in for Zowe CLI v.1.0.0 (CLI ZOWE V1)
             description: The IBM RSE API Plug-in for Zowe CLI allows you to interact with z/OS by using IBM Remote System Explorer API (RSE API)
@@ -642,6 +670,7 @@ landscape:
             repo_url: 'https://github.com/zowe/zowe-cli-ims-plugin'
             logo: ibm-ims-for-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
           - item:
             name: IBM® MQ Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
@@ -661,6 +690,7 @@ landscape:
             logo: ibm-z-workload-scheduler.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI (CLI ZOWE V1)
             description: A Zowe CLI Plug-in for administering z/OS Connect EE servers.
@@ -677,6 +707,16 @@ landscape:
             repo_url: 'https://github.com/zowe/zowe-cli-ftp-plugin'
             logo: zowe-zos-ftp-for-cli.svg
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            allow_duplicate_repo: true
+          - item:
+            name: Zowe CLI CICS Deploy plug-in (CLI ZOWE V1)
+            description: Deploy applications developed on a workstation to IBM CICS Transaction Server for z/OS.
+            homepage_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
+            repo_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
+            logo: zowe-cli-cics-deploy.svg
+            twitter: 'https://twitter.com/ibmz'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: Zowe Secure Credential Store (CLI ZOWE V1)
             description: Zowe Secure Credential Store lets you store your credentials securely in the credential manager of your operating system.
@@ -694,12 +734,14 @@ landscape:
             homepage_url: 'https://phoenixsoftware.com/ejes.htm#zowe'
             logo: phoenix-software-international-ejes.svg
             crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+            allow_duplicate_repo: true
           - item:
             name: CA File Master™ Plus (API Mediation Layer 2019)
             homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/11-0/using-the-rest-api.html'
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (API Mediation Layer 2019)
             homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
@@ -716,6 +758,7 @@ landscape:
             logo: ibm-z-workload-scheduler.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: IBM® Db2 DevOps Experience for z/OS (API Mediation Layer 2019)
             description: >-
@@ -725,6 +768,7 @@ landscape:
             logo: db2-devops-experience-for-zos.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: IBM® Z Netview (API Mediation Layer 2019)
             description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
@@ -732,6 +776,7 @@ landscape:
             logo: ibm-z-netview.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
       - subcategory:
         name: App Framework 2019
         items:
@@ -751,6 +796,7 @@ landscape:
             logo: db2-devops-experience-for-zos.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: IBM® Service Automation Suite (App Framework 2019)
             description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
@@ -758,6 +804,7 @@ landscape:
             logo: service-automation-suite.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: IBM® Service Management Suite for z/OS (App Framework 2019)
             description: >-
@@ -767,6 +814,7 @@ landscape:
             logo: service-management-suite-for-zos.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: IBM® Service Management Unite(SMU) (App Framework 2019)
             description: >-
@@ -776,6 +824,7 @@ landscape:
             logo: service-management-unite.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: IBM® Z Netview (App Framework 2019)
             description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
@@ -783,6 +832,7 @@ landscape:
             logo: ibm-z-netview.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: Rocket™ BlueZone (App Framework 2019)
             description: >-
@@ -791,6 +841,7 @@ landscape:
             homepage_url: 'https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-terminal-emulation'
             logo: rocketsoftware-bluezone.svg
             crunchbase: 'https://www.crunchbase.com/organization/rocket-software'
+            allow_duplicate_repo: true
       - subcategory:
         name: CLI 2019
         items:
@@ -812,6 +863,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: CA File Master™ Plus (CLI 2019)
             description: >-
@@ -822,6 +874,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: CA OPS/MVS® (CLI 2019)
             description: >-
@@ -832,6 +885,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-opsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: CA Secure Credential Store (CLI 2019)
             description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
@@ -840,6 +894,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-secure-credential-store.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: CA z/OS Extended Files (CLI 2019)
             description: >-
@@ -850,6 +905,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: CA z/OS Extended Jobs (CLI 2019)
             description: >-
@@ -860,6 +916,7 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            allow_duplicate_repo: true
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (CLI 2019)
             homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
@@ -876,6 +933,7 @@ landscape:
             logo: ibm-z-workload-scheduler.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI (CLI 2019)
             description: IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS
@@ -893,6 +951,7 @@ landscape:
             logo: db2-devops-experience-for-zos.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: IBM® Db2® Database Plug-in for Zowe CLI (CLI 2019)
             description: The IBM® Db2® Database Plug-in for ZoweTM CLI lets you interact with Db2 for z/OS to perform tasks through Zowe CLI.
@@ -918,6 +977,7 @@ landscape:
             logo: zowe-cli-cics-deploy.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            allow_duplicate_repo: true
           - item:
             name: Zowe Secure Credential Store (CLI 2019)
             description: Zowe Secure Credential Store lets you store your credentials securely in the default credential manager in your computer's operating system.
@@ -1180,7 +1240,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/software-engineering-gmbh'
           - item:
             name: Vicom Infinity
-            homepage_url: 'http://www.vicominfinity.com/'
+            homepage_url: 'https://www.vicominfinity.com'
             logo: vicominfinity.svg
             crunchbase: 'https://www.crunchbase.com/organization/vicom-infinity'
           - item:
