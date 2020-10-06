@@ -987,29 +987,68 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
             allow_duplicate_repo: true
   - category:
-    name: Supported Projects
+    name: Broad Open Source
     subcategories:
       - subcategory:
-        name: Supported Projects
+        name: Networking and Monitoring
         items:
           - item:
-            name: Alpine
-            description: 'A security-oriented, lightweight Linux distribution'
-            homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
-            repo_url: 'https://github.com/alpinelinux/abuild'
-            logo: alpine-linux.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
+            name: NGINX
+            homepage_url: 'https://www.nginx.com/'
+            repo_url: 'https://github.com/nginx/nginx'
+            logo: 'https://landscape.cncf.io/logos/nginx.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/nginx'
           - item:
-            name: ClefOS
-            description: >-
-              ClefOS is a distribution specifically for Linux on z Systems (s390x aka "the mainframe"). It is based on the CentOS source materials but is not
-              part of the CentOS organization.
-            homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
-            repo_url: 'https://github.com/alexlovesgithub/docker-images-s390x'
-            logo: clefos.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
+            name: HAProxy
+            homepage_url: 'https://www.haproxy.com/'
+            repo_url: 'https://github.com/haproxy/haproxy'
+            logo: 'https://landscape.cncf.io/logos/ha-proxy.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/haproxy-technologies'
           - item:
-            name: CloudFoundry
+            name: Apache Mesos
+            homepage_url: 'https://mesos.apache.org/'
+            repo_url: 'https://github.com/apache/mesos'
+            logo: 'https://landscape.cncf.io/logos/apache-mesos.svg'
+            twitter: 'https://twitter.com/ApacheMesos'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Prometheus
+            homepage_url: 'https://prometheus.io/'
+            repo_url: 'https://github.com/prometheus/prometheus'
+            logo: 'https://landscape.cncf.io/logos/prometheus.svg'
+            twitter: 'https://twitter.com/PrometheusIO'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+          - item:
+            name: Zabbix
+            homepage_url: 'https://www.zabbix.com/'
+            repo_url: 'https://github.com/zabbix/zabbix'
+            logo: 'https://landscape.cncf.io/logos/zabbix.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/zabbix'
+          - item:
+            name: Apache Zookeeper
+            homepage_url: 'https://zookeeper.apache.org/'
+            repo_url: 'https://github.com/apache/zookeeper'
+            logo: 'https://landscape.cncf.io/logos/apache-zookeeper.svg'
+            twitter: 'https://twitter.com/ApacheZooKeeper'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: etcd
+            homepage_url: 'https://github.com/etcd-io'
+            repo_url: 'https://github.com/etcd-io/etcd'
+            logo: 'https://landscape.cncf.io/logos/etcd.svg'
+            twitter: 'https://twitter.com/etcdio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+      - subcategory:
+        name: Cloud and Container Services
+        items:
+          - item:
+            name: lxd
+            homepage_url: 'https://linuxcontainers.org/lxd/'
+            repo_url: 'https://github.com/lxc/lxd'
+            logo: 'https://landscape.cncf.io/logos/lxd.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
+          - item:
+            name: Cloud Foundry
             description: >-
               Cloud Foundry makes it faster and easier to build, test, deploy and scale applications, providing a choice of clouds, developer frameworks, and
               application services. It is an open source project and is available through a variety of private cloud distributions and public cloud instances.
@@ -1018,37 +1057,15 @@ landscape:
             logo: cloudfoundry.svg
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
-            name: Debian
-            description: Debian is a free operating system (OS) for your computer.
-            homepage_url: 'https://www.debian.org/ports/s390/'
-            repo_url: 'https://github.com/Debian/apt'
-            logo: debian.svg
-            crunchbase: 'https://www.crunchbase.com/organization/debian'
-          - item:
             name: Eigen
             description: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
             homepage_url: 'http://eigen.tuxfamily.org/index.php?title=Main_Page'
             repo_url: 'https://github.com/eigenteam/eigen-git-mirror'
             logo: eigen.svg
             crunchbase: 'https://www.crunchbase.com/organization/inria'
-          - item:
-            name: Fedora
-            description: >-
-              Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community
-              members to build tailored solutions for their users.
-            homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
-            repo_url: 'https://github.com/fedora-infra/fedora-packages'
-            logo: fedora.svg
-            crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
-          - item:
-            name: Gentoo
-            description: >-
-              Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized and customized for just about any
-              application or need.
-            homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
-            repo_url: 'https://github.com/gentoo/portage'
-            logo: gentoo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/gentoo'
+      - subcategory:
+        name: Languages and Runtimes
+        items:
           - item:
             name: GNU Compiler Collection
             description: GCC is the system compiler for Linux.
@@ -1080,6 +1097,38 @@ landscape:
             repo_url: 'https://github.com/xianyi/OpenBLAS'
             logo: openblas.svg
             crunchbase: 'https://www.crunchbase.com/organization/openblas'
+      - subcategory:
+        name: Devops and Automation
+        items:
+          - item:
+            name: Puppet
+            homepage_url: 'https://puppet.com/'
+            repo_url: 'https://github.com/puppetlabs/puppet'
+            logo: 'https://landscape.cncf.io/logos/puppet.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/puppet-labs'
+      - subcategory:
+        name: Middleware
+        items:
+          - item:
+            name: Apache Camel K
+            homepage_url: 'https://camel.apache.org'
+            repo_url: 'https://github.com/apache/camel-k'
+            logo: 'https://svn.apache.org/repos/asf/comdev/project-logos/originals/camel-1.svg'
+            twitter: 'https://twitter.com/apachecamel'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+      - subcategory:
+        name: 'Big Data, Observability, Analytics'
+        items:
+          - item:
+            name: Apache Spark
+            homepage_url: 'https://spark.apache.org/'
+            repo_url: 'https://github.com/apache/spark'
+            logo: 'https://landscape.cncf.io/logos/apache-spark.svg'
+            twitter: 'https://twitter.com/apachespark'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+      - subcategory:
+        name: Databases
+        items:
           - item:
             name: PostgreSQL
             description: >-
@@ -1090,11 +1139,8 @@ landscape:
             url_for_bestpractices: 'https://git.postgresql.org/git/postgresql.git'
             logo: postgresql.svg
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
-  - category:
-    name: Linux Distributions
-    subcategories:
       - subcategory:
-        name: Commercial
+        name: Linux Distributions
         items:
           - item:
             name: ClefOS for System z
@@ -1120,9 +1166,6 @@ landscape:
             homepage_url: 'https://wiki.ubuntu.com/S390X'
             logo: ubuntu.svg
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
-      - subcategory:
-        name: Community
-        items:
           - item:
             name: Alpine Linux
             description: 'A security-oriented, lightweight Linux distribution'

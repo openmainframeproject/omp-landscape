@@ -20937,135 +20937,649 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-10-01T19:00:59.000Z
   - category:
-    name: Supported Projects
+    name: Broad Open Source
     subcategories:
       - subcategory:
-        name: Supported Projects
+        name: Networking and Monitoring
         items:
           - item:
-            name: Alpine
-            description: 'A security-oriented, lightweight Linux distribution'
-            homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
-            repo_url: 'https://github.com/alpinelinux/abuild'
-            logo: alpine-linux.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
+            name: NGINX
+            homepage_url: 'https://www.nginx.com/'
+            repo_url: 'https://github.com/nginx/nginx'
+            logo: 'https://landscape.cncf.io/logos/nginx.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/nginx'
             crunchbase_data:
-              name: Alpine Linux
-              description: 'Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.'
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://alpinelinux.org'
-              city: Barcelona
-              region: Catalonia
-              country: Spain
-              twitter: 'https://twitter.com/alpinelinux'
-              linkedin: null
-              acquisitions: []
+              name: NGINX
+              description: 'NGINX offers advanced internet infrastructure software to help companies deliver faster, more compelling digital experiences.'
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: 'https://www.nginx.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/nginx'
+              linkedin: 'https://www.linkedin.com/company/nginx'
+              acquisitions:
+                - date: '2016-12-01'
+                  acquiree: Zokets
               parents: []
+              funding: 84000000
               stockExchange: null
+              kind: funding
             github_data:
               languages:
-                - name: Shell
-                  value: 116992
-                  color: '#89e051'
-                - name: Perl
-                  value: 24352
-                  color: '#0298c3'
-                - name: Roff
-                  value: 22324
-                  color: '#ecdebe'
                 - name: C
-                  value: 20100
+                  value: 5266824
                   color: '#555555'
-                - name: Ruby
-                  value: 9025
-                  color: '#701516'
+                - name: Vim script
+                  value: 134377
+                  color: '#199f4b'
+                - name: XS
+                  value: 25887
+                - name: C++
+                  value: 20305
+                  color: '#f34b7d'
+                - name: Perl
+                  value: 6774
+                  color: '#0298c3'
                 - name: Makefile
-                  value: 3584
+                  value: 4274
                   color: '#427819'
-              contributions: 1;1;2;0;15;1;0;4;4;0;3;0;1;1;2;0;3;2;2;4;3;4;3;0;7;1;1;4;0;1;0;0;0;2;1;1;1;0;3;15;0;1;0;0;0;0;0;1;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;4;8;7
               firstWeek: 2019-10-13Z
-              stars: 35
+              stars: 12724
               license: Unknown License
-              description: '[MIRROR] Build script to build Alpine packages'
-              latest_commit_date: '2020-09-17T11:55:54Z'
-              latest_commit_link: /alpinelinux/abuild/commit/b3c1b65f75fad04ec09c3e6c0f8728124533738f
-              contributors_count: 68
-              contributors_link: 'https://github.com/alpinelinux/abuild/graphs/contributors'
+              description: >-
+                An official read-only mirror of http://hg.nginx.org/nginx/ which is updated hourly. Pull requests on GitHub cannot be accepted and will be
+                automatically closed. The proper way to submit changes to nginx is via the nginx development mailing list, see
+                http://nginx.org/en/docs/contributing_changes.html
+              latest_commit_date: '2020-10-03T18:04:57Z'
+              latest_commit_link: /nginx/nginx/commit/1e92a0a4cef98902aed35d7b402a6a402951aba4
+              contributors_count: 71
+              contributors_link: 'https://github.com/nginx/nginx/graphs/contributors'
             repos:
-              - url: 'https://github.com/alpinelinux/abuild'
-                stars: 35
+              - url: 'https://github.com/nginx/nginx'
+                stars: 12724
             github_start_commit_data:
-              start_commit_link: /alpinelinux/abuild/commit/fdc478bde8a2a0d76d33fcc89fa313c9f31bb79c
-              start_date: '2008-10-18T08:09:24Z'
+              start_commit_link: /nginx/nginx/commit/6de5c2cb63f8aee4bcbec3c363a72fd8e4a4e64d
+              start_date: '2002-08-06T16:39:45Z'
             image_data:
-              fileName: alpine.svg
-              hash: zcIDicWRmRIoEOGCyzF8rSjfu/0a/3dmvlTnLqUtKI0=
+              fileName: nginx.svg
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-22T19:20:59.000Z
+              latest_tweet_date: 2020-10-06T02:01:12.000Z
           - item:
-            name: ClefOS
-            description: >-
-              ClefOS is a distribution specifically for Linux on z Systems (s390x aka "the mainframe"). It is based on the CentOS source materials but is not
-              part of the CentOS organization.
-            homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
-            repo_url: 'https://github.com/alexlovesgithub/docker-images-s390x'
-            logo: clefos.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
+            name: HAProxy
+            homepage_url: 'https://www.haproxy.com/'
+            repo_url: 'https://github.com/haproxy/haproxy'
+            logo: 'https://landscape.cncf.io/logos/ha-proxy.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/haproxy-technologies'
             crunchbase_data:
-              name: Sine Nomine Associates
-              description: Sine Nomine Associates is an IT research and custom development engineering firm.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'http://www.sinenomine.net/'
-              city: Ashburn
-              region: Virginia
+              name: HAProxy Technologies
+              description: 'HAProxy Technologies is the company behind HAProxy, the world’s fastest and most widely used software load balancer.'
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: 'http://www.haproxy.com'
+              city: Waltham
+              region: Massachusetts
               country: United States
-              twitter: null
-              linkedin: null
+              twitter: 'https://twitter.com/haproxy'
+              linkedin: 'https://www.linkedin.com/company/haproxy-technologies/'
               acquisitions: []
               parents: []
               stockExchange: null
             github_data:
               languages:
-                - name: Dockerfile
-                  value: 32548
-                  color: '#384d54'
-                - name: Shell
-                  value: 27881
-                  color: '#89e051'
+                - name: C
+                  value: 7387827
+                  color: '#555555'
+                - name: C++
+                  value: 162367
+                  color: '#f34b7d'
                 - name: Makefile
-                  value: 9041
+                  value: 49030
                   color: '#427819'
-                - name: JavaScript
-                  value: 233
-                  color: '#f1e05a'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+                - name: Shell
+                  value: 45560
+                  color: '#89e051'
+                - name: Lua
+                  value: 14717
+                  color: '#000080'
+                - name: Vim script
+                  value: 7709
+                  color: '#199f4b'
+                - name: Objective-C
+                  value: 6788
+                  color: '#438eff'
+                - name: Perl
+                  value: 5554
+                  color: '#0298c3'
+                - name: Python
+                  value: 2058
+                  color: '#3572A5'
+              contributions: >-
+                52;46;39;30;26;25;40;16;17;43;44;13;4;38;58;68;31;37;44;57;64;85;50;36;40;56;36;27;44;50;66;61;24;59;126;30;50;66;87;33;13;19;29;27;12;17;38;48;33;49;12;42
               firstWeek: 2019-10-13Z
-              stars: 0
-              license: Unknown License
-              description: Docker build scripts for ClefOS 7 (s390x)
-              latest_commit_date: '2019-04-09T08:31:42Z'
-              latest_commit_link: /alexlovesgithub/docker-images-s390x/commit/7d0c8ee93d31db94a6e693e655eca1d8685e16d6
-              contributors_count: 1
-              contributors_link: 'https://github.com/alexlovesgithub/docker-images-s390x/graphs/contributors'
+              stars: 1572
+              license: Other
+              description: HAProxy Load Balancer's development branch (mirror of git.haproxy.org)
+              latest_commit_date: '2020-10-05T15:55:40Z'
+              latest_commit_link: /haproxy/haproxy/commit/27373f7f75e57187282670ea394a482326de291e
+              contributors_count: 312
+              contributors_link: 'https://github.com/haproxy/haproxy/graphs/contributors'
             repos:
-              - url: 'https://github.com/alexlovesgithub/docker-images-s390x'
-                stars: 0
+              - url: 'https://github.com/haproxy/haproxy'
+                stars: 1572
             github_start_commit_data:
-              start_commit_link: /alexlovesgithub/docker-images-s390x/commit/ea9d04276acfa69f2df1dd62f3de3e377a7bc205
-              start_date: '2019-04-09T08:27:43Z'
+              start_commit_link: /haproxy/haproxy/commit/0f7af9126525b01b82ad3f1b1cde8843de93a89d
+              start_date: '2005-12-17T11:21:26Z'
             image_data:
-              fileName: clef-os.svg
-              hash: PXyTjsSamUKekc2myhRNr3TBjkuGSdCAyGuaKnmqkmk=
+              fileName: ha-proxy.svg
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-10-05T16:51:12.000Z
           - item:
-            name: CloudFoundry
+            name: Apache Mesos
+            homepage_url: 'https://mesos.apache.org/'
+            repo_url: 'https://github.com/apache/mesos'
+            logo: 'https://landscape.cncf.io/logos/apache-mesos.svg'
+            twitter: 'https://twitter.com/ApacheMesos'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            github_data:
+              languages:
+                - name: C++
+                  value: 15356348
+                  color: '#f34b7d'
+                - name: Python
+                  value: 354609
+                  color: '#3572A5'
+                - name: M4
+                  value: 203083
+                - name: Java
+                  value: 152547
+                  color: '#b07219'
+                - name: Shell
+                  value: 146218
+                  color: '#89e051'
+                - name: Makefile
+                  value: 120855
+                  color: '#427819'
+                - name: CMake
+                  value: 110291
+                - name: HTML
+                  value: 101009
+                  color: '#e34c26'
+                - name: JavaScript
+                  value: 96892
+                  color: '#f1e05a'
+                - name: Dockerfile
+                  value: 17475
+                  color: '#384d54'
+                - name: Ruby
+                  value: 10022
+                  color: '#701516'
+                - name: CSS
+                  value: 8663
+                  color: '#563d7c'
+                - name: Batchfile
+                  value: 8107
+                  color: '#C1F12E'
+                - name: PowerShell
+                  value: 2547
+                  color: '#012456'
+                - name: Groovy
+                  value: 1459
+                  color: '#e69f56'
+              contributions: 9;10;14;9;25;2;11;9;10;2;4;0;15;22;9;11;16;1;6;5;12;14;3;6;8;9;9;12;8;6;14;5;4;14;2;1;0;1;1;3;10;3;8;4;9;10;14;12;24;7;4;1
+              firstWeek: 2019-10-13Z
+              stars: 4587
+              license: Apache License 2.0
+              description: Apache Mesos
+              latest_commit_date: '2020-10-02T13:28:12Z'
+              latest_commit_link: /apache/mesos/commit/c28fd3a93e0d9d9a868aec2380abd1dd338304ef
+              contributors_count: 383
+              contributors_link: 'https://github.com/apache/mesos/graphs/contributors'
+            repos:
+              - url: 'https://github.com/apache/mesos'
+                stars: 4587
+            github_start_commit_data:
+              start_commit_link: /apache/mesos/commit/54a6a53e5fc378aa13e75f6686202b3d427684da
+              start_date: '2011-04-27T06:59:39Z'
+            image_data:
+              fileName: apache-mesos.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-07-28T20:12:19.000Z
+          - item:
+            name: Prometheus
+            homepage_url: 'https://prometheus.io/'
+            repo_url: 'https://github.com/prometheus/prometheus'
+            logo: 'https://landscape.cncf.io/logos/prometheus.svg'
+            twitter: 'https://twitter.com/PrometheusIO'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            crunchbase_data:
+              name: Cloud Native Computing Foundation (CNCF)
+              description: CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.cncf.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/CloudNativeFdn'
+              linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
+              acquisitions:
+                - date: '2016-03-10'
+                  acquiree: Kubernetes
+                - date: '2017-02-06'
+                  acquiree: RethinkDB
+                  price: 25000
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
+            github_data:
+              languages:
+                - name: Go
+                  value: 3014107
+                  color: '#00ADD8'
+                - name: TypeScript
+                  value: 212476
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 64930
+                  color: '#f1e05a'
+                - name: HTML
+                  value: 54482
+                  color: '#e34c26'
+                - name: Yacc
+                  value: 24636
+                  color: '#4B6C4B'
+                - name: CSS
+                  value: 13714
+                  color: '#563d7c'
+                - name: Shell
+                  value: 7181
+                  color: '#89e051'
+                - name: Lex
+                  value: 5940
+                  color: '#DBCA00'
+                - name: Makefile
+                  value: 3886
+                  color: '#427819'
+                - name: Dockerfile
+                  value: 1298
+                  color: '#384d54'
+              contributions: >-
+                20;30;23;16;14;16;25;14;23;24;30;9;17;29;39;19;41;34;30;28;26;15;20;27;19;7;14;20;17;10;15;6;6;13;16;22;27;23;20;15;33;36;34;24;23;16;30;14;11;10;8;8
+              firstWeek: 2019-10-13Z
+              stars: 33218
+              license: Apache License 2.0
+              description: The Prometheus monitoring system and time series database.
+              latest_commit_date: '2020-10-05T11:34:41Z'
+              latest_commit_link: /prometheus/prometheus/commit/8dbfa14607a5cb138df43638f06c1a938c73df84
+              release_date: '2020-09-11T14:34:53Z'
+              release_link: 'https://github.com/prometheus/prometheus/releases'
+              contributors_count: 579
+              contributors_link: 'https://github.com/prometheus/prometheus/graphs/contributors'
+            repos:
+              - url: 'https://github.com/prometheus/prometheus'
+                stars: 33218
+            github_start_commit_data:
+              start_commit_link: /prometheus/prometheus/commit/734d28b515026ca9f429eba0a7d09954bceb6387
+              start_date: '2012-11-24T11:14:12Z'
+            image_data:
+              fileName: prometheus.svg
+            best_practice_data:
+              badge: 486
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2020-10-05T10:39:53.000Z
+          - item:
+            name: Zabbix
+            homepage_url: 'https://www.zabbix.com/'
+            repo_url: 'https://github.com/zabbix/zabbix'
+            logo: 'https://landscape.cncf.io/logos/zabbix.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/zabbix'
+            crunchbase_data:
+              name: Zabbix
+              description: 'ZABBIX SIA is based in Riga, Latvia.'
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'http://www.zabbix.com/'
+              city: Riga
+              region: Riga
+              country: Latvia
+              twitter: 'https://twitter.com/zabbix'
+              linkedin: 'https://www.linkedin.com/company/2476879'
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            github_data:
+              languages:
+                - name: C
+                  value: 13746488
+                  color: '#555555'
+                - name: PHP
+                  value: 13656169
+                  color: '#4F5D95'
+                - name: Go
+                  value: 1249444
+                  color: '#00ADD8'
+                - name: JavaScript
+                  value: 865067
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 757023
+                  color: '#563d7c'
+                - name: SCSS
+                  value: 207781
+                - name: M4
+                  value: 181864
+                - name: Makefile
+                  value: 116645
+                  color: '#427819'
+                - name: Java
+                  value: 64492
+                  color: '#b07219'
+                - name: C++
+                  value: 48870
+                  color: '#f34b7d'
+                - name: Shell
+                  value: 36115
+                  color: '#89e051'
+                - name: Perl
+                  value: 35247
+                  color: '#0298c3'
+                - name: Objective-C
+                  value: 9725
+                  color: '#438eff'
+                - name: PLpgSQL
+                  value: 6076
+                - name: NASL
+                  value: 2791
+                - name: XSLT
+                  value: 456
+                  color: '#EB8CEB'
+              contributions: >-
+                139;128;76;129;128;158;103;98;107;144;112;22;52;186;166;137;170;139;184;163;263;207;243;183;220;182;101;185;157;156;94;113;33;62;54;63;38;33;86;60;135;62;93;127;121;121;182;122;99;170;81;66
+              firstWeek: 2019-10-13Z
+              stars: 1137
+              license: GNU General Public License v2.0
+              description: 'Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.'
+              latest_commit_date: '2020-10-06T09:49:37Z'
+              latest_commit_link: /zabbix/zabbix/commit/b1c69de6721265b34cae9af8a0216c26f528b9c4
+              contributors_count: 105
+              contributors_link: 'https://github.com/zabbix/zabbix/graphs/contributors'
+            repos:
+              - url: 'https://github.com/zabbix/zabbix'
+                stars: 1137
+            github_start_commit_data:
+              start_commit_link: /zabbix/zabbix/commit/cedf98f7d6709022f5a7119da6323c1922bc07b6
+              start_date: '2001-03-28T06:45:24Z'
+            image_data:
+              fileName: zabbix.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-10-06T09:14:38.000Z
+          - item:
+            name: Apache Zookeeper
+            homepage_url: 'https://zookeeper.apache.org/'
+            repo_url: 'https://github.com/apache/zookeeper'
+            logo: 'https://landscape.cncf.io/logos/apache-zookeeper.svg'
+            twitter: 'https://twitter.com/ApacheZooKeeper'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            github_data:
+              languages:
+                - name: Java
+                  value: 6415787
+                  color: '#b07219'
+                - name: C++
+                  value: 713074
+                  color: '#f34b7d'
+                - name: C
+                  value: 615328
+                  color: '#555555'
+                - name: JavaScript
+                  value: 246638
+                  color: '#f1e05a'
+                - name: Python
+                  value: 161377
+                  color: '#3572A5'
+                - name: Shell
+                  value: 112594
+                  color: '#89e051'
+                - name: Perl
+                  value: 78040
+                  color: '#0298c3'
+                - name: Raku
+                  value: 76531
+                - name: XS
+                  value: 68654
+                - name: M4
+                  value: 50844
+                - name: HTML
+                  value: 41864
+                  color: '#e34c26'
+                - name: CSS
+                  value: 22915
+                  color: '#563d7c'
+                - name: Mako
+                  value: 13704
+                - name: Makefile
+                  value: 11565
+                  color: '#427819'
+                - name: CMake
+                  value: 10533
+                - name: Batchfile
+                  value: 9076
+                  color: '#C1F12E'
+                - name: XSLT
+                  value: 6024
+                  color: '#EB8CEB'
+                - name: Dockerfile
+                  value: 975
+                  color: '#384d54'
+              contributions: 6;0;1;1;4;6;7;2;4;8;6;2;3;7;5;11;6;3;5;2;5;2;3;4;7;2;8;3;1;7;3;6;3;3;3;1;2;1;1;1;1;4;6;5;2;2;1;1;1;4;3;8
+              firstWeek: 2019-10-13Z
+              stars: 8619
+              license: Apache License 2.0
+              description: Mirror of Apache Hadoop ZooKeeper
+              latest_commit_date: '2020-10-06T10:39:37Z'
+              latest_commit_link: /apache/zookeeper/commit/d3282c62ddb30a8ce265dcebca0e106c51f07ca3
+              contributors_count: 176
+              contributors_link: 'https://github.com/apache/zookeeper/graphs/contributors'
+            repos:
+              - url: 'https://github.com/apache/zookeeper'
+                stars: 8619
+            github_start_commit_data:
+              start_commit_link: /apache/zookeeper/commit/31275a67f8fa261dec38e0c5b6445d2b3d88975c
+              start_date: '2008-05-19T17:51:27Z'
+            image_data:
+              fileName: apache-zookeeper.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-10-06T11:06:38.000Z
+          - item:
+            name: etcd
+            homepage_url: 'https://github.com/etcd-io'
+            repo_url: 'https://github.com/etcd-io/etcd'
+            logo: 'https://landscape.cncf.io/logos/etcd.svg'
+            twitter: 'https://twitter.com/etcdio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            crunchbase_data:
+              name: Cloud Native Computing Foundation (CNCF)
+              description: CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.cncf.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/CloudNativeFdn'
+              linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
+              acquisitions:
+                - date: '2016-03-10'
+                  acquiree: Kubernetes
+                - date: '2017-02-06'
+                  acquiree: RethinkDB
+                  price: 25000
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
+            github_data:
+              languages:
+                - name: Go
+                  value: 4909108
+                  color: '#00ADD8'
+                - name: Shell
+                  value: 106182
+                  color: '#89e051'
+                - name: Makefile
+                  value: 19956
+                  color: '#427819'
+                - name: Dockerfile
+                  value: 6330
+                  color: '#384d54'
+                - name: PowerShell
+                  value: 2718
+                  color: '#012456'
+                - name: Batchfile
+                  value: 51
+                  color: '#C1F12E'
+              contributions: 33;25;12;11;7;4;8;18;10;11;5;2;0;3;23;8;11;25;20;15;8;10;9;17;15;23;15;11;23;17;26;35;22;12;12;21;14;15;3;12;11;8;6;9;21;16;1;9;16;23;13;13
+              firstWeek: 2019-10-13Z
+              stars: 33012
+              license: Apache License 2.0
+              description: Distributed reliable key-value store for the most critical data of a distributed system
+              latest_commit_date: '2020-10-05T18:08:12Z'
+              latest_commit_link: /etcd-io/etcd/commit/7bd956fa2bf963abfd33eac084ee90ffdf2003c7
+              release_date: '2020-08-24T19:51:40Z'
+              release_link: 'https://github.com/etcd-io/etcd/releases'
+              contributors_count: 687
+              contributors_link: 'https://github.com/etcd-io/etcd/graphs/contributors'
+            repos:
+              - url: 'https://github.com/etcd-io/etcd'
+                stars: 33012
+            github_start_commit_data:
+              start_commit_link: /etcd-io/etcd/commit/20ca21a3f7122cf7caa91cb0e9b9c69be9279950
+              start_date: '2013-06-07T00:43:32Z'
+            image_data:
+              fileName: etcd.svg
+            best_practice_data:
+              badge: 3192
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2020-10-02T13:16:22.000Z
+      - subcategory:
+        name: Cloud and Container Services
+        items:
+          - item:
+            name: lxd
+            homepage_url: 'https://linuxcontainers.org/lxd/'
+            repo_url: 'https://github.com/lxc/lxd'
+            logo: 'https://landscape.cncf.io/logos/lxd.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
+            crunchbase_data:
+              name: Canonical
+              description: Canonical is a computer software company that markets commercial support and related services for Ubuntu and related projects.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: 'http://www.canonical.com'
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: 'http://twitter.com/Canonical'
+              linkedin: 'https://www.linkedin.com/company/canonical-ltd-/'
+              acquisitions: []
+              parents: []
+              funding: 12800000
+              stockExchange: null
+              kind: funding
+            github_data:
+              languages:
+                - name: Go
+                  value: 5442051
+                  color: '#00ADD8'
+                - name: Shell
+                  value: 560891
+                  color: '#89e051'
+                - name: C
+                  value: 40712
+                  color: '#555555'
+                - name: Python
+                  value: 13894
+                  color: '#3572A5'
+                - name: Makefile
+                  value: 6087
+                  color: '#427819'
+                - name: Emacs Lisp
+                  value: 256
+                  color: '#c065db'
+              contributions: >-
+                74;40;82;133;207;107;153;124;153;132;93;2;23;162;177;88;151;98;93;102;197;133;159;130;113;105;61;93;74;156;186;80;110;137;54;59;60;61;72;53;164;99;106;109;57;119;101;49;37;101;137;95
+              firstWeek: 2019-10-13Z
+              stars: 2686
+              license: Apache License 2.0
+              description: Daemon based on liblxc offering a REST API to manage containers
+              latest_commit_date: '2020-10-06T05:40:16Z'
+              latest_commit_link: /lxc/lxd/commit/d77b1e8a568e638066e2847dfe1cbf7a6d78dfc5
+              release_date: '2020-09-18T23:31:42Z'
+              release_link: 'https://github.com/lxc/lxd/releases'
+              contributors_count: 236
+              contributors_link: 'https://github.com/lxc/lxd/graphs/contributors'
+            repos:
+              - url: 'https://github.com/lxc/lxd'
+                stars: 2686
+            github_start_commit_data:
+              start_commit_link: /lxc/lxd/commit/3153b57369b7cf3e96979897c335a5c1d69e7f07
+              start_date: '2014-11-05T15:09:28Z'
+            image_data:
+              fileName: lxd.svg
+            best_practice_data:
+              badge: 1086
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2020-10-02T14:53:02.000Z
+          - item:
+            name: Cloud Foundry
             description: >-
               Cloud Foundry makes it faster and easier to build, test, deploy and scale applications, providing a choice of clouds, developer frameworks, and
               application services. It is an open source project and is available through a variety of private cloud distributions and public cloud instances.
@@ -21138,52 +21652,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-10-02T15:44:48.000Z
           - item:
-            name: Debian
-            description: Debian is a free operating system (OS) for your computer.
-            homepage_url: 'https://www.debian.org/ports/s390/'
-            repo_url: 'https://github.com/Debian/apt'
-            logo: debian.svg
-            crunchbase: 'https://www.crunchbase.com/organization/debian'
-            crunchbase_data:
-              name: Debian
-              description: Debian An operating system is the set of basic programs and utilities that make your computer run.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: 'http://www.debian.org'
-              city: Hauppauge
-              region: New York
-              country: United States
-              twitter: 'http://twitter.com/debian'
-              linkedin: 'https://www.linkedin.com/company/163400'
-              acquisitions: []
-              parents: []
-              stockExchange: null
-            github_data:
-              languages: []
-              contributions: 0;0;0;1;1;0;2;11;9;0;0;0;1;20;14;2;15;6;7;12;38;4;5;2;5;4;4;0;7;4;14;16;15;3;5;4;3;3;11;3;5;1;0;8;13;0;1;0;2;0;0;0
-              firstWeek: 2019-10-13Z
-              stars: 292
-              license: Unknown License
-              description: Mirror of the apt git repository
-              latest_commit_date: '2020-09-10T20:32:16Z'
-              latest_commit_link: /Debian/apt/commit/766b24b7f7484751950c76bc66d3d6cdeaf949a5
-              contributors_count: 190
-              contributors_link: 'https://github.com/Debian/apt/graphs/contributors'
-            repos:
-              - url: 'https://github.com/Debian/apt'
-                stars: 292
-            github_start_commit_data:
-              start_commit_link: /Debian/apt/commit/89eaeb446c24bbeacc5f69c170cf60104854432e
-              start_date: '2005-03-23T15:46:22Z'
-            image_data:
-              fileName: debian.svg
-              hash: TKgzrRIo+zxWGWFmcbxvdSbj0hvpj8iuvIrh6sKQNpY=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-10-02T19:31:02.000Z
-          - item:
             name: Eigen
             description: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
             homepage_url: 'http://eigen.tuxfamily.org/index.php?title=Main_Page'
@@ -21252,132 +21720,9 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-10-04T07:14:00.000Z
-          - item:
-            name: Fedora
-            description: >-
-              Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community
-              members to build tailored solutions for their users.
-            homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
-            repo_url: 'https://github.com/fedora-infra/fedora-packages'
-            logo: fedora.svg
-            crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
-            crunchbase_data:
-              name: The Fedora Project
-              description: The Fedora Project is a partnership of free software community members from around the globe.
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'https://getfedora.org/'
-              city: Raleigh
-              region: North Carolina
-              country: United States
-              twitter: 'https://www.twitter.com/fedora'
-              linkedin: null
-              acquisitions: []
-              parents: []
-              stockExchange: null
-            github_data:
-              languages:
-                - name: JavaScript
-                  value: 274519
-                  color: '#f1e05a'
-                - name: Python
-                  value: 228539
-                  color: '#3572A5'
-                - name: CSS
-                  value: 79059
-                  color: '#563d7c'
-                - name: Makefile
-                  value: 65849
-                  color: '#427819'
-                - name: HTML
-                  value: 48400
-                  color: '#e34c26'
-                - name: Shell
-                  value: 168
-                  color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-10-13Z
-              stars: 58
-              license: GNU Affero General Public License v3.0
-              description: A webapp that allows searching packages in Fedora. Written in Python using TurboGears2 and Moksha.
-              latest_commit_date: '2019-05-26T16:08:53Z'
-              latest_commit_link: /fedora-infra/fedora-packages/commit/f8c9f386c3318475a19d7e0668c0f90105c69500
-              contributors_count: 44
-              contributors_link: 'https://github.com/fedora-infra/fedora-packages/graphs/contributors'
-            repos:
-              - url: 'https://github.com/fedora-infra/fedora-packages'
-                stars: 58
-            github_start_commit_data:
-              start_commit_link: /fedora-infra/fedora-packages/commit/43ade441ab5857d71eeac40b8a509fd936a243a2
-              start_date: '2008-01-08T19:34:41Z'
-            image_data:
-              fileName: fedora.svg
-              hash: 57BoU9mfSqVzm22uXiL4pIfcEltXGy7bMuhPXZNS0MU=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-10-01T22:38:00.000Z
-          - item:
-            name: Gentoo
-            description: >-
-              Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized and customized for just about any
-              application or need.
-            homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
-            repo_url: 'https://github.com/gentoo/portage'
-            logo: gentoo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/gentoo'
-            crunchbase_data:
-              name: Gentoo
-              description: Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized.
-              num_employees_min: 251
-              num_employees_max: 500
-              homepage: 'https://www.gentoo.org'
-              city: Albuquerque
-              region: New Mexico
-              country: United States
-              twitter: 'https://twitter.com/gentoo'
-              linkedin: 'https://www.linkedin.com/company/gentoo-linux/'
-              acquisitions: []
-              parents: []
-              stockExchange: null
-            github_data:
-              languages:
-                - name: Python
-                  value: 4370518
-                  color: '#3572A5'
-                - name: Shell
-                  value: 308748
-                  color: '#89e051'
-                - name: C
-                  value: 15212
-                  color: '#555555'
-                - name: Roff
-                  value: 15011
-                  color: '#ecdebe'
-              contributions: 7;18;12;4;15;5;6;9;8;9;4;8;5;0;3;10;9;14;10;11;23;23;7;6;12;0;28;0;2;3;3;2;2;4;1;6;5;10;4;2;20;14;8;149;7;9;4;9;9;5;0;0
-              firstWeek: 2019-10-13Z
-              stars: 315
-              license: Other
-              description: '[MIRROR] Package management system'
-              latest_commit_date: '2020-09-21T05:21:54Z'
-              latest_commit_link: /gentoo/portage/commit/8c779546ab998932016e669f614e3da199a8db3b
-              contributors_count: 194
-              contributors_link: 'https://github.com/gentoo/portage/graphs/contributors'
-            repos:
-              - url: 'https://github.com/gentoo/portage'
-                stars: 315
-            github_start_commit_data:
-              start_commit_link: /gentoo/portage/commit/d9fc4acc572c6647a4f27b838d35d27d805d190e
-              start_date: '2005-08-28T08:37:44Z'
-            image_data:
-              fileName: gentoo.svg
-              hash: eSO1GMqbRejQYUXA6OA74e26hF0d7zQqmSx2k28tLFc=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-08-15T13:54:48.000Z
+      - subcategory:
+        name: Languages and Runtimes
+        items:
           - item:
             name: GNU Compiler Collection
             description: GCC is the system compiler for Linux.
@@ -21913,6 +22258,281 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+      - subcategory:
+        name: Devops and Automation
+        items:
+          - item:
+            name: Puppet
+            homepage_url: 'https://puppet.com/'
+            repo_url: 'https://github.com/puppetlabs/puppet'
+            logo: 'https://landscape.cncf.io/logos/puppet.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/puppet-labs'
+            crunchbase_data:
+              name: Puppet
+              description: Puppet is an information technology automation software company designed for system administrators.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: 'https://puppet.com/'
+              city: Portland
+              region: Oregon
+              country: United States
+              twitter: 'https://twitter.com/puppetize'
+              linkedin: 'https://www.linkedin.com/company/puppet/'
+              acquisitions:
+                - date: '2010-10-07'
+                  acquiree: The Marionette Collective
+                - date: '2013-07-17'
+                  acquiree: Cloudsmith
+                - date: '2017-09-20'
+                  acquiree: Distelli
+                - date: '2018-06-07'
+                  acquiree: Reflect
+              parents: []
+              funding: 189500000
+              stockExchange: null
+              kind: funding
+            github_data:
+              languages:
+                - name: Ruby
+                  value: 12346434
+                  color: '#701516'
+                - name: HTML
+                  value: 99106
+                  color: '#e34c26'
+                - name: Shell
+                  value: 49671
+                  color: '#89e051'
+                - name: Puppet
+                  value: 18359
+                  color: '#302B6D'
+                - name: C#
+                  value: 5195
+                  color: '#178600'
+                - name: Makefile
+                  value: 5192
+                  color: '#427819'
+                - name: Pascal
+                  value: 2758
+                  color: '#E3F171'
+                - name: Batchfile
+                  value: 594
+                  color: '#C1F12E'
+                - name: Emacs Lisp
+                  value: 229
+                  color: '#c065db'
+              contributions: >-
+                24;15;23;57;35;69;26;19;51;32;16;1;25;39;36;28;36;57;34;23;43;42;22;32;22;67;36;42;38;33;42;49;26;33;12;25;31;16;22;18;26;53;31;61;28;41;36;64;25;18;9;23
+              firstWeek: 2019-10-13Z
+              stars: 5914
+              license: Apache License 2.0
+              description: Server automation framework and application
+              latest_commit_date: '2020-10-03T00:37:58Z'
+              latest_commit_link: /puppetlabs/puppet/commit/22a787b6c7d5533fe9bb2704417286ad898b103d
+              contributors_count: 769
+              contributors_link: 'https://github.com/puppetlabs/puppet/graphs/contributors'
+            repos:
+              - url: 'https://github.com/puppetlabs/puppet'
+                stars: 5914
+            github_start_commit_data:
+              start_commit_link: /puppetlabs/puppet/commit/54e9b5e3561977ea063417da12c46aad2a4c1332
+              start_date: '2005-04-13T15:18:05Z'
+            image_data:
+              fileName: puppet.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-10-06T09:41:01.000Z
+      - subcategory:
+        name: Middleware
+        items:
+          - item:
+            name: Apache Camel K
+            homepage_url: 'https://camel.apache.org'
+            repo_url: 'https://github.com/apache/camel-k'
+            logo: 'https://svn.apache.org/repos/asf/comdev/project-logos/originals/camel-1.svg'
+            twitter: 'https://twitter.com/apachecamel'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            github_data:
+              languages:
+                - name: Go
+                  value: 1545475
+                  color: '#00ADD8'
+                - name: Shell
+                  value: 43738
+                  color: '#89e051'
+                - name: Groovy
+                  value: 22768
+                  color: '#e69f56'
+                - name: Java
+                  value: 10836
+                  color: '#b07219'
+                - name: Makefile
+                  value: 10539
+                  color: '#427819'
+                - name: Gherkin
+                  value: 2764
+                  color: '#5B2063'
+                - name: JavaScript
+                  value: 1916
+                  color: '#f1e05a'
+                - name: HTML
+                  value: 1706
+                  color: '#e34c26'
+                - name: Dockerfile
+                  value: 1590
+                  color: '#384d54'
+                - name: Kotlin
+                  value: 972
+                  color: '#F18E33'
+              contributions: 23;13;30;16;12;9;32;26;18;36;34;0;3;8;22;29;19;32;44;37;29;14;12;19;13;8;5;16;11;22;15;2;6;26;32;34;4;28;11;23;36;13;1;8;9;5;1;23;20;13;9;38
+              firstWeek: 2019-10-13Z
+              stars: 505
+              license: Apache License 2.0
+              description: 'Apache Camel K is a lightweight integration platform, born on Kubernetes, with serverless superpowers'
+              latest_commit_date: '2020-10-06T10:59:41Z'
+              latest_commit_link: /apache/camel-k/commit/51da7cb224399c6ddab25e04601faef013f03d6c
+              release_date: '2020-09-15T10:27:14Z'
+              release_link: 'https://github.com/apache/camel-k/releases'
+              contributors_count: 48
+              contributors_link: 'https://github.com/apache/camel-k/graphs/contributors'
+            repos:
+              - url: 'https://github.com/apache/camel-k'
+                stars: 505
+            github_start_commit_data:
+              start_commit_link: /apache/camel-k/commit/55fca8ee59ca67450bd114065872b0849917f132
+              start_date: '2018-08-31T08:46:30Z'
+            image_data:
+              fileName: apache-camel-k.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-10-02T14:04:54.000Z
+      - subcategory:
+        name: 'Big Data, Observability, Analytics'
+        items:
+          - item:
+            name: Apache Spark
+            homepage_url: 'https://spark.apache.org/'
+            repo_url: 'https://github.com/apache/spark'
+            logo: 'https://landscape.cncf.io/logos/apache-spark.svg'
+            twitter: 'https://twitter.com/apachespark'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            github_data:
+              languages:
+                - name: Scala
+                  value: 34711924
+                  color: '#c22d40'
+                - name: Python
+                  value: 3849120
+                  color: '#3572A5'
+                - name: Java
+                  value: 3797502
+                  color: '#b07219'
+                - name: HiveQL
+                  value: 1890746
+                  color: '#dce200'
+                - name: R
+                  value: 1241432
+                  color: '#198CE7'
+                - name: PLpgSQL
+                  value: 352018
+                - name: Shell
+                  value: 219814
+                  color: '#89e051'
+                - name: JavaScript
+                  value: 218549
+                  color: '#f1e05a'
+                - name: q
+                  value: 79845
+                  color: '#0040cd'
+                - name: ANTLR
+                  value: 50609
+                  color: '#9DC3FF'
+                - name: Roff
+                  value: 40895
+                  color: '#ecdebe'
+                - name: HTML
+                  value: 40561
+                  color: '#e34c26'
+                - name: Thrift
+                  value: 36008
+                - name: Jupyter Notebook
+                  value: 31860
+                  color: '#DA5B0B'
+                - name: Batchfile
+                  value: 25766
+                  color: '#C1F12E'
+                - name: CSS
+                  value: 24294
+                  color: '#563d7c'
+                - name: Dockerfile
+                  value: 9212
+                  color: '#384d54'
+                - name: PowerShell
+                  value: 3879
+                  color: '#012456'
+                - name: Makefile
+                  value: 1591
+                  color: '#427819'
+                - name: C
+                  value: 1493
+                  color: '#555555'
+              contributions: >-
+                50;56;70;72;61;70;70;48;58;70;42;42;41;70;71;69;58;49;69;56;64;62;56;49;61;54;49;51;72;50;48;48;45;47;41;62;41;35;31;59;52;65;58;52;32;54;47;41;59;53;42;47
+              firstWeek: 2019-10-13Z
+              stars: 27620
+              license: Apache License 2.0
+              description: Apache Spark - A unified analytics engine for large-scale data processing
+              latest_commit_date: '2020-10-06T09:11:24Z'
+              latest_commit_link: /apache/spark/commit/0812d6c17cc4876bb87a9d1fec35ec8c7b2365f0
+              contributors_count: 2322
+              contributors_link: 'https://github.com/apache/spark/graphs/contributors'
+            repos:
+              - url: 'https://github.com/apache/spark'
+                stars: 27620
+            github_start_commit_data:
+              start_commit_link: /apache/spark/commit/df29d0ea4c8b7137fdd1844219c7d489e3b0d9c9
+              start_date: '2010-03-29T23:17:55Z'
+            image_data:
+              fileName: apache-spark.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-09-11T03:21:50.000Z
+      - subcategory:
+        name: Databases
+        items:
           - item:
             name: PostgreSQL
             description: >-
@@ -22018,11 +22638,8 @@ landscape:
               percentage: 94
             twitter_data:
               latest_tweet_date: 2020-10-04T10:30:03.000Z
-  - category:
-    name: Linux Distributions
-    subcategories:
       - subcategory:
-        name: Commercial
+        name: Linux Distributions
         items:
           - item:
             name: ClefOS for System z
@@ -22222,9 +22839,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-10-02T14:53:02.000Z
-      - subcategory:
-        name: Community
-        items:
           - item:
             name: Alpine Linux
             description: 'A security-oriented, lightweight Linux distribution'
