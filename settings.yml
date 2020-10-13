@@ -24,7 +24,7 @@ twitter:
   text: Open Mainframe Project Landscape from @OpenMFProject
 relation:
   label: Open Mainframe Project Relation
-  url: aswf
+  url: omp 
   values:
     - id: hosted
       label: Open Mainframe Project Projects
@@ -52,9 +52,19 @@ relation:
     - id: member
       label: Open Mainframe Project Member Products/Projects
       tag: Open Mainframe Project Member
+      # children:
+        # - id: supported
+          # label: Open Mainframe Project Supported
+          # prefix: OMP
+          # tag: Supported
+            # # color: '#3570af'
+          # big_picture_order: 4
+          # big_picture_label: OMP Supported
+         # big_picture_color: 'rgb(24,54,114)'
     - id: false
       label: Non-Open Mainframe Project Member Products/Projects
       url: 'no'
+
 membership:
   Platinum:
     name: Open Mainframe Project
@@ -121,75 +131,60 @@ big_picture:
         left: 0
         color: 'rgb(37,81,209)'
         fit_width: false
-  third:
-    tab_index: 1
-    url: zowe-conformant
-    name: Zowe Conformant
-    title: Zowe Conformant
-    fullscreen_header: Learn more about Zowe Conformance at www.openmainframeproject.com/projects/zowe/conformance 
-    elements:
-      - type: VerticalCategory
-        category: API Mediation Layer ZOWE V1
-        rows: 4 
-        width: 300
-        top: 0
+      - type: HorizontalCategory
+        category: Zowe Conformant
+        rows: 6
+        width: 1100
+        top: 245
         height: 200
         left: 0
         color: 'rgb(79,121,13)'
         fit_width: true
-      - type: VerticalCategory
-        category: App Framework ZOWE V1
-        rows: 4
-        width: 300
+      - type: LandscapeInfo
+        width: 345
+        height: 200
         top: 0
-        height: 200
-        left: 310
-        color: 'rgb(79,121,13)'
-        fit_width: true
-      - type: VerticalCategory
-        category: CLI ZOWE V1
-        rows: 4
-        width: 300
-        top: 0
-        height: 200
-        left: 620
-        color: 'rgb(79,121,13)'
-        fit_width: true
-      - type: VerticalCategory
-        category: API Mediation Layer 2019
-        rows: 4
-        width: 300
-        top: 210
-        height: 200
-        left: 0
-        color: 'rgb(79,121,13)'
-        fit_width: true
-      - type: VerticalCategory
-        category: App Framework 2019
-        rows: 4
-        width: 300
-        top: 210
-        height: 200
-        left: 310
-        color: 'rgb(79,121,13)'
-        fit_width: true
-      - type: VerticalCategory
-        category: CLI 2019
-        rows: 4
-        width: 300
-        top: 210
-        height: 200
-        left: 620
-        color: 'rgb(79,121,13)'
-        fit_width: true
-    category: Zowe Conformant
+        left: 765
+        children:
+          - type: text
+            text: >
+              This landscape is intended as a map to explore open source projects within the mainframe industry, and also shows the member companies of the Open
+              Mainframe Project.
+            top: 80
+            left: 180
+            right: 20
+            font_size: 10
+          - type: image
+            image: qr.svg
+            top: 70
+            left: 40
+            width: 90
+            height: 90
+            title: QR Code
+          - type: title
+            title: l.openmainframeproject.org
+            top: 150
+            left: 9
+            font_size: 12
+          - type: image
+            image: left-logo.svg
+            width: 150
+            right: 180
+            top: 20
+            title: Landscape Logo
+          - type: image
+            image: right-logo.svg
+            width: 150
+            right: 10
+            top: 20
+            title: Open Mainframe Project Logo
   fourth:
     tab_index: 2
     url: open-source
     name: Open Source Ecosystem
     title: Broad open source projects supporting s390x
     elements:
-      - type: VerticalCategory
+      - type: HorizontalCategory
         category: Linux Distributions
         rows: 6
         width: 200
@@ -198,7 +193,7 @@ big_picture:
         left: 0
         color: 'rgb(29,119,164)'
         fit_width: true
-      - type: VerticalCategory
+      - type: HorizontalCategory
         category: Networking and Monitoring
         rows: 3
         width: 200
@@ -207,7 +202,7 @@ big_picture:
         left: 0
         color: 'rgb(19,105,73)'
         fit_width: true
-      - type: VerticalCategory
+      - type: HorizontalCategory
         category: Cloud and Container Services
         rows: 9
         width: 200
@@ -216,7 +211,7 @@ big_picture:
         left: 210
         color: 'rgb(19,105,73)'
         fit_width: true
-      - type: VerticalCategory
+      - type: HorizontalCategory
         category: Languages and Runtimes
         rows: 9
         width: 200
@@ -225,16 +220,16 @@ big_picture:
         left: 420
         color: 'rgb(19,105,73)'
         fit_width: true
-      - type: VerticalCategory
+      - type: HorizontalCategory
         category: Devops and Automation
-        rows: 6
+        cols: 3
         width: 200
         height: 300
         top: 0
         left: 630
         color: 'rgb(19,105,73)'
         fit_width: true
-      - type: VerticalCategory
+      - type: HorizontalCategory
         category: Middleware
         rows: 3
         width: 200
@@ -243,7 +238,7 @@ big_picture:
         left: 630
         color: 'rgb(19,105,73)'
         fit_width: true
-      - type: VerticalCategory
+      - type: HorizontalCategory
         category: 'Big Data, Observability, Analytics'
         rows: 6
         width: 200
@@ -252,7 +247,7 @@ big_picture:
         left: 840
         color: 'rgb(19,105,73)'
         fit_width: true
-      - type: VerticalCategory
+      - type: HorizontalCategory
         category: Databases
         rows: 3
         width: 200
@@ -304,44 +299,6 @@ big_picture:
         left: 0
         color: 'rgb(126,115,14)'
         fit_width: true
-      - type: LandscapeInfo
-        width: 345
-        height: 200
-        top: 0
-        left: 765
-        children:
-          - type: text
-            text: >
-              This landscape is intended as a map to explore open source projects within the mainframe industry, and also shows the member companies of the Open
-              Mainframe Project.
-            top: 80
-            left: 180
-            right: 20
-            font_size: 10
-          - type: image
-            image: qr.svg
-            top: 70
-            left: 40
-            width: 90
-            height: 90
-            title: QR Code
-          - type: title
-            title: l.openmainframeproject.org
-            top: 150
-            left: 9
-            font_size: 12
-          - type: image
-            image: left-logo.svg
-            width: 150
-            right: 180
-            top: 20
-            title: Landscape Logo
-          - type: image
-            image: right-logo.svg
-            width: 150
-            right: 10
-            top: 20
-            title: Open Mainframe Project Logo
     category: Open Mainframe Project Member Company
 test:
   header: Open Mainframe Project Interactive Landscape
