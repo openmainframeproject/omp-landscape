@@ -638,7 +638,7 @@ landscape:
           - item:
             name: IBM RSE API Plug-in for Zowe CLI v.1.0.0 (CLI ZOWE V1)
             description: The IBM RSE API Plug-in for Zowe CLI allows you to interact with z/OS by using IBM Remote System Explorer API (RSE API)
-            homepage_url: 'https://developer.ibm.com/mainframe/2020/04/10/20994/'
+            homepage_url: 'https://www.ibm.com/links'
             logo: remote-system-explorer-api.svg
             twitter: 'https://twitter.com/ibmz'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -993,37 +993,12 @@ landscape:
         name: Networking and Monitoring
         items:
           - item:
-            name: NGINX
-            homepage_url: 'https://www.nginx.com/'
-            repo_url: 'https://github.com/nginx/nginx'
-            logo: 'https://landscape.cncf.io/logos/nginx.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/nginx'
-          - item:
-            name: HAProxy
-            homepage_url: 'https://www.haproxy.com/'
-            repo_url: 'https://github.com/haproxy/haproxy'
-            logo: 'https://landscape.cncf.io/logos/ha-proxy.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/haproxy-technologies'
-          - item:
             name: Apache Mesos
             homepage_url: 'https://mesos.apache.org/'
             repo_url: 'https://github.com/apache/mesos'
             logo: 'https://landscape.cncf.io/logos/apache-mesos.svg'
             twitter: 'https://twitter.com/ApacheMesos'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
-            name: Prometheus
-            homepage_url: 'https://prometheus.io/'
-            repo_url: 'https://github.com/prometheus/prometheus'
-            logo: 'https://landscape.cncf.io/logos/prometheus.svg'
-            twitter: 'https://twitter.com/PrometheusIO'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
-          - item:
-            name: Zabbix
-            homepage_url: 'https://www.zabbix.com/'
-            repo_url: 'https://github.com/zabbix/zabbix'
-            logo: 'https://landscape.cncf.io/logos/zabbix.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/zabbix'
           - item:
             name: Apache Zookeeper
             homepage_url: 'https://zookeeper.apache.org/'
@@ -1038,9 +1013,53 @@ landscape:
             logo: 'https://landscape.cncf.io/logos/etcd.svg'
             twitter: 'https://twitter.com/etcdio'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+          - item:
+            name: HAProxy
+            homepage_url: 'https://www.haproxy.com/'
+            repo_url: 'https://github.com/haproxy/haproxy'
+            logo: 'https://landscape.cncf.io/logos/ha-proxy.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/haproxy-technologies'
+          - item:
+            name: NGINX
+            homepage_url: 'https://www.nginx.com/'
+            repo_url: 'https://github.com/nginx/nginx'
+            logo: 'https://landscape.cncf.io/logos/nginx.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/nginx'
+          - item:
+            name: Prometheus
+            homepage_url: 'https://prometheus.io/'
+            repo_url: 'https://github.com/prometheus/prometheus'
+            logo: 'https://landscape.cncf.io/logos/prometheus.svg'
+            twitter: 'https://twitter.com/PrometheusIO'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+          - item:
+            name: Zabbix
+            homepage_url: 'https://www.zabbix.com/'
+            repo_url: 'https://github.com/zabbix/zabbix'
+            logo: 'https://landscape.cncf.io/logos/zabbix.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/zabbix'
       - subcategory:
         name: Cloud and Container Services
         items:
+          - item:
+            name: Apache HTTP Server Project
+            description: >-
+              The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and
+              Windows. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current
+              HTTP standards.
+            homepage_url: 'https://httpd.apache.org/'
+            repo_url: 'https://github.com/apache/httpd'
+            logo: Apache_HTTP_server_logo_(2016).svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Cloud Foundry
+            description: >-
+              Cloud Foundry makes it faster and easier to build, test, deploy and scale applications, providing a choice of clouds, developer frameworks, and
+              application services. It is an open source project and is available through a variety of private cloud distributions and public cloud instances.
+            homepage_url: 'https://www.cloudfoundry.org/'
+            repo_url: 'https://github.com/cloudfoundry/bosh'
+            logo: cloudfoundry.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
             name: Docker
             homepage_url: 'https://www.docker.com/products/container-runtime'
@@ -1049,33 +1068,19 @@ landscape:
             twitter: 'https://twitter.com/moby'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
           - item:
-            name: OpenStack
-            homepage_url: 'https://www.openstack.org/'
-            repo_url: 'https://github.com/openstack/openstack'
-            url_for_bestpractices: 'https://github.com/openstack'
-            logo: 'https://landscape.cncf.io/logos/open-stack.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/openstack'
+            name: Docker Compose
+            homepage_url: 'https://docs.docker.com/compose/'
+            repo_url: 'https://github.com/docker/compose'
+            logo: 'https://landscape.cncf.io/logos/docker-compose.svg'
+            twitter: 'https://twitter.com/moby'
+            crunchbase: 'https://www.crunchbase.com/organization/docker'
           - item:
-            name: lxd
-            homepage_url: 'https://linuxcontainers.org/lxd/'
-            repo_url: 'https://github.com/lxc/lxd'
-            logo: 'https://landscape.cncf.io/logos/lxd.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
-          - item:
-            name: Kubernetes
-            description: 'Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications'
-            homepage_url: 'https://kubernetes.io/'
-            repo_url: 'https://github.com/kubernetes/kubernetes'
-            logo: 'https://landscape.cncf.io/logos/kubernetes.svg'
-            twitter: 'https://twitter.com/kubernetesio'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
-          - item:
-            name: minikube
-            homepage_url: 'https://minikube.sigs.k8s.io/'
-            repo_url: 'https://github.com/kubernetes/minikube'
-            logo: minikube.svg
-            twitter: 'https://twitter.com/kubernetesio'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            name: Eigen
+            description: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
+            homepage_url: 'http://eigen.tuxfamily.org/index.php?title=Main_Page'
+            repo_url: 'https://github.com/eigenteam/eigen-git-mirror'
+            logo: eigen.svg
+            crunchbase: 'https://www.crunchbase.com/organization/inria'
           - item:
             name: Helm
             homepage_url: 'https://helm.sh/'
@@ -1090,27 +1095,52 @@ landscape:
             logo: istio.svg
             crunchbase: 'https://www.crunchbase.com/organization/istio'
           - item:
+            name: Kata Containers
+            homepage_url: 'https://katacontainers.io/'
+            repo_url: 'https://github.com/kata-containers/runtime'
+            logo: 'https://landscape.cncf.io/logos/kata-containers.svg'
+            twitter: 'https://twitter.com/KataContainers'
+            crunchbase: 'https://www.crunchbase.com/organization/openstack'
+          - item:
+            name: Kubernetes
+            description: 'Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications'
+            homepage_url: 'https://kubernetes.io/'
+            repo_url: 'https://github.com/kubernetes/kubernetes'
+            logo: 'https://landscape.cncf.io/logos/kubernetes.svg'
+            twitter: 'https://twitter.com/kubernetesio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+          - item:
+            name: lxd
+            homepage_url: 'https://linuxcontainers.org/lxd/'
+            repo_url: 'https://github.com/lxc/lxd'
+            logo: 'https://landscape.cncf.io/logos/lxd.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
+          - item:
+            name: minikube
+            homepage_url: 'https://minikube.sigs.k8s.io/'
+            repo_url: 'https://github.com/kubernetes/minikube'
+            logo: minikube.svg
+            twitter: 'https://twitter.com/kubernetesio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+          - item:
             name: OKD
             homepage_url: 'https://www.okd.io/'
             repo_url: 'https://github.com/openshift/okd'
             logo: okd.svg
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
-            name: Cloud Foundry
-            description: >-
-              Cloud Foundry makes it faster and easier to build, test, deploy and scale applications, providing a choice of clouds, developer frameworks, and
-              application services. It is an open source project and is available through a variety of private cloud distributions and public cloud instances.
-            homepage_url: 'https://www.cloudfoundry.org/'
-            repo_url: 'https://github.com/cloudfoundry/bosh'
-            logo: cloudfoundry.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
+            name: OpenStack
+            homepage_url: 'https://www.openstack.org/'
+            repo_url: 'https://github.com/openstack/openstack'
+            url_for_bestpractices: 'https://github.com/openstack'
+            logo: 'https://landscape.cncf.io/logos/open-stack.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/openstack'
           - item:
-            name: Eigen
-            description: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
-            homepage_url: 'http://eigen.tuxfamily.org/index.php?title=Main_Page'
-            repo_url: 'https://github.com/eigenteam/eigen-git-mirror'
-            logo: eigen.svg
-            crunchbase: 'https://www.crunchbase.com/organization/inria'
+            name: Podman
+            homepage_url: 'https://podman.io/'
+            repo_url: 'https://github.com/containers/podman'
+            logo: 'https://landscape.cncf.io/logos/podman.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
             name: Red Hat OpenShift
             description: Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise.
@@ -1119,23 +1149,6 @@ landscape:
             logo: 'https://landscape.cncf.io/logos/red-hat-open-shift.svg'
             twitter: 'https://twitter.com/openshift'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
-          - item:
-            name: Apache HTTP Server Project
-            description: >-
-              The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and
-              Windows. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current
-              HTTP standards.
-            homepage_url: 'https://httpd.apache.org/'
-            repo_url: 'https://github.com/apache/httpd'
-            logo: Apache_HTTP_server_logo_(2016).svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
-            name: Docker Compose
-            homepage_url: 'https://docs.docker.com/compose/'
-            repo_url: 'https://github.com/docker/compose'
-            logo: 'https://landscape.cncf.io/logos/docker-compose.svg'
-            twitter: 'https://twitter.com/moby'
-            crunchbase: 'https://www.crunchbase.com/organization/docker'
           - item:
             name: sysdig
             description: 'sysdig is a simple tool with deep system visibility for exploration and troubleshooting, with native support for containers.'
@@ -1149,143 +1162,39 @@ landscape:
             repo_url: 'https://github.com/hashicorp/terraform'
             logo: 'https://landscape.cncf.io/logos/terraform.svg'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
-          - item:
-            name: Kata Containers
-            homepage_url: 'https://katacontainers.io/'
-            repo_url: 'https://github.com/kata-containers/runtime'
-            logo: 'https://landscape.cncf.io/logos/kata-containers.svg'
-            twitter: 'https://twitter.com/KataContainers'
-            crunchbase: 'https://www.crunchbase.com/organization/openstack'
-          - item:
-            name: Podman
-            homepage_url: 'https://podman.io/'
-            repo_url: 'https://github.com/containers/podman'
-            logo: 'https://landscape.cncf.io/logos/podman.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
       - subcategory:
         name: Languages and Runtimes
         items:
           - item:
-            name: OpenJDK
-            homepage_url: 'https://jdk.java.net/'
-            repo_url: 'https://github.com/openjdk/jdk'
-            logo: openjdk.svg
-            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+            name: Apache Groovy
+            homepage_url: 'https://groovy-lang.org/'
+            repo_url: 'https://github.com/apache/groovy'
+            logo: groovy.svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
-            name: R
-            homepage_url: 'https://www.r-project.org/'
-            repo_url: 'https://github.com/wch/r-source'
-            logo: r.svg
-            crunchbase: 'https://www.crunchbase.com/organization/the-r-foundation'
+            name: Apache Tomcat
+            homepage_url: 'https://tomcat.apache.org/'
+            repo_url: 'https://github.com/apache/tomcat'
+            logo: tomcat.svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
-            name: Python
-            repo_url: 'https://github.com/python/cpython'
-            homepage_url: 'https://www.python.org/'
-            logo: python.svg
-            crunchbase: 'https://www.crunchbase.com/organization/python-software-foundation'
+            name: Clojure
+            homepage_url: 'https://clojure.org/'
+            repo_url: 'https://github.com/clojure/clojure'
+            logo: clojure.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cognitect-inc'
           - item:
-            name: Open Liberty
-            homepage_url: 'http://openliberty.io/'
-            repo_url: 'https://github.com/OpenLiberty/open-liberty'
-            logo: open-liberty.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
-          - item:
-            name: Ruby
-            homepage_url: 'https://www.ruby-lang.org/'
-            repo_url: 'https://github.com/ruby/ruby'
-            logo: ruby.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ruby'
-          - item:
-            name: Scala
-            repo_url: 'https://github.com/scala/scala'
-            homepage_url: 'https://www.scala-lang.org/'
-            logo: scala.svg
-            crunchbase: 'https://www.crunchbase.com/organization/scala-2'
-          - item:
-            name: Go
-            homepage_url: 'https://golang.org/'
-            repo_url: 'https://github.com/golang/go'
-            logo: go.svg
-            crunchbase: 'https://www.crunchbase.com/organization/the-go-programming-language'
-          - item:
-            name: Node.js
-            homepage_url: 'https://nodejs.org/en/'
-            repo_url: 'https://github.com/nodejs/node'
-            logo: 'https://raw.githubusercontent.com/openjs-foundation/artwork/master/projects/nodejs/nodejs-logo-color.svg'
-            twitter: 'https://twitter.com/nodejs'
-            crunchbase: 'https://www.crunchbase.com/organization/open-js-foundation'
-          - item:
-            name: PyPy
-            homepage_url: 'https://www.pypy.org/'
-            repo_url: 'https://github.com/mozillazg/pypy'
-            logo: pypy.svg
-            crunchbase: 'https://www.crunchbase.com/organization/university-of-applied-sciences-dusseldorf'
+            name: Eclipse OpenJ9
+            homepage_url: 'http://www.eclipse.org/openj9'
+            repo_url: 'https://github.com/eclipse/openj9'
+            logo: openj9.svg
+            crunchbase: 'https://www.crunchbase.com/organization/eclipse-foundation'
           - item:
             name: Erlang
             homepage_url: 'https://www.erlang.org/'
             repo_url: 'https://github.com/erlang/otp'
             logo: erlang.svg
             crunchbase: 'https://www.crunchbase.com/organization/erlang'
-          - item:
-            name: PHP
-            homepage_url: 'https://www.php.net/'
-            repo_url: 'https://github.com/php/php-src'
-            logo: php.svg
-            crunchbase: 'https://www.crunchbase.com/organization/php'
-          - item:
-            name: Ruby on Rails
-            crunchbase: 'https://www.crunchbase.com/organization/ruby-on-rails'
-            homepage_url: 'https://rubyonrails.org/'
-            repo_url: 'https://github.com/rails/rails'
-            logo: rails.svg
-          - item:
-            name: OCaml
-            repo_url: 'https://github.com/ocaml/ocaml'
-            homepage_url: 'https://ocaml.org/'
-            crunchbase: 'https://www.crunchbase.com/organization/ocaml'
-            logo: 'http://ocaml.org/logo/Colour/SVG/colour-logo.svg'
-          - item:
-            name: Eclipse OpenJ9
-            repo_url: 'https://github.com/eclipse/openj9'
-            homepage_url: 'http://www.eclipse.org/openj9'
-            logo: openj9.svg
-            crunchbase: 'https://www.crunchbase.com/organization/eclipse-foundation'
-          - item:
-            name: Apache Tomcat
-            repo_url: 'https://github.com/apache/tomcat'
-            homepage_url: 'https://tomcat.apache.org/'
-            logo: tomcat.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
-            name: Apache Groovy
-            repo_url: 'https://github.com/apache/groovy'
-            homepage_url: 'https://groovy-lang.org/'
-            logo: groovy.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
-            name: Clojure
-            repo_url: 'https://github.com/clojure/clojure'
-            homepage_url: 'https://clojure.org/'
-            logo: clojure.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cognitect-inc'
-          - item:
-            name: Hyperledger Fabric
-            homepage_url: 'https://www.hyperledger.org/use/fabric'
-            repo_url: 'https://github.com/hyperledger/fabric'
-            logo: hyperledger-fabric.svg
-            crunchbase: 'https://www.crunchbase.com/organization/hyperledger-2'
-          - item:
-            name: TensorFlow
-            repo_url: 'https://github.com/tensorflow/tensorflow'
-            homepage_url: 'https://www.tensorflow.org/'
-            logo: tensorflow.svg
-            crunchbase: 'https://www.crunchbase.com/organization/tensorflow'
-          - item:
-            name: WildFly
-            repo_url: 'https://github.com/wildfly/wildfly'
-            homepage_url: 'https://www.wildfly.org/'
-            logo: wildfly.svg
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
             name: GNU Compiler Collection
             description: GCC is the system compiler for Linux.
@@ -1294,6 +1203,18 @@ landscape:
             logo: GCC.svg
             twitter: 'https://twitter.com/gnutools'
             crunchbase: 'https://www.crunchbase.com/organization/free-software-foundation'
+          - item:
+            name: Go
+            homepage_url: 'https://golang.org/'
+            repo_url: 'https://github.com/golang/go'
+            logo: go.svg
+            crunchbase: 'https://www.crunchbase.com/organization/the-go-programming-language'
+          - item:
+            name: Hyperledger Fabric
+            homepage_url: 'https://www.hyperledger.org/use/fabric'
+            repo_url: 'https://github.com/hyperledger/fabric'
+            logo: hyperledger-fabric.svg
+            crunchbase: 'https://www.crunchbase.com/organization/hyperledger-2'
           - item:
             name: LLVM
             description: The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.
@@ -1311,12 +1232,91 @@ landscape:
             logo: luajit.svg
             crunchbase: 'https://www.crunchbase.com/organization/linaro'
           - item:
+            name: Node.js
+            homepage_url: 'https://nodejs.org/en/'
+            repo_url: 'https://github.com/nodejs/node'
+            logo: 'https://raw.githubusercontent.com/openjs-foundation/artwork/master/projects/nodejs/nodejs-logo-color.svg'
+            twitter: 'https://twitter.com/nodejs'
+            crunchbase: 'https://www.crunchbase.com/organization/open-js-foundation'
+          - item:
+            name: OCaml
+            homepage_url: 'https://ocaml.org/'
+            repo_url: 'https://github.com/ocaml/ocaml'
+            logo: 'http://ocaml.org/logo/Colour/SVG/colour-logo.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/ocaml'
+          - item:
+            name: Open Liberty
+            homepage_url: 'https://openliberty.io'
+            repo_url: 'https://github.com/OpenLiberty/open-liberty'
+            logo: open-liberty.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+          - item:
             name: OpenBLAS
             description: OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.
             homepage_url: 'https://www.openblas.net/'
             repo_url: 'https://github.com/xianyi/OpenBLAS'
             logo: openblas.svg
             crunchbase: 'https://www.crunchbase.com/organization/openblas'
+          - item:
+            name: OpenJDK
+            homepage_url: 'https://jdk.java.net/'
+            repo_url: 'https://github.com/openjdk/jdk'
+            logo: openjdk.svg
+            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+          - item:
+            name: PHP
+            homepage_url: 'https://www.php.net/'
+            repo_url: 'https://github.com/php/php-src'
+            logo: php.svg
+            crunchbase: 'https://www.crunchbase.com/organization/php'
+          - item:
+            name: PyPy
+            homepage_url: 'https://www.pypy.org/'
+            repo_url: 'https://github.com/mozillazg/pypy'
+            logo: pypy.svg
+            crunchbase: 'https://www.crunchbase.com/organization/university-of-applied-sciences-dusseldorf'
+          - item:
+            name: Python
+            homepage_url: 'https://www.python.org/'
+            repo_url: 'https://github.com/python/cpython'
+            logo: python.svg
+            crunchbase: 'https://www.crunchbase.com/organization/python-software-foundation'
+          - item:
+            name: R
+            homepage_url: 'https://www.r-project.org/'
+            repo_url: 'https://github.com/wch/r-source'
+            logo: r.svg
+            crunchbase: 'https://www.crunchbase.com/organization/the-r-foundation'
+          - item:
+            name: Ruby
+            homepage_url: 'https://www.ruby-lang.org/'
+            repo_url: 'https://github.com/ruby/ruby'
+            logo: ruby.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ruby'
+          - item:
+            name: Ruby on Rails
+            homepage_url: 'https://rubyonrails.org/'
+            repo_url: 'https://github.com/rails/rails'
+            logo: rails.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ruby-on-rails'
+          - item:
+            name: Scala
+            homepage_url: 'https://www.scala-lang.org/'
+            repo_url: 'https://github.com/scala/scala'
+            logo: scala.svg
+            crunchbase: 'https://www.crunchbase.com/organization/scala-2'
+          - item:
+            name: TensorFlow
+            homepage_url: 'https://www.tensorflow.org/'
+            repo_url: 'https://github.com/tensorflow/tensorflow'
+            logo: tensorflow.svg
+            crunchbase: 'https://www.crunchbase.com/organization/tensorflow'
+          - item:
+            name: WildFly
+            homepage_url: 'https://www.wildfly.org/'
+            repo_url: 'https://github.com/wildfly/wildfly'
+            logo: wildfly.svg
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
       - subcategory:
         name: Devops and Automation
         items:
@@ -1328,17 +1328,61 @@ landscape:
             twitter: 'https://twitter.com/ansible'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
+            name: ANTLR
+            homepage_url: 'https://www.antlr.org/'
+            repo_url: 'https://github.com/antlr/antlr4'
+            logo: antlr.svg
+            crunchbase: 'https://www.crunchbase.com/organization/university-of-san-francisco'
+          - item:
+            name: Apache JMeter
+            homepage_url: 'https://jmeter.apache.org/'
+            repo_url: 'https://github.com/apache/jmeter'
+            logo: jmeter.svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Apache Maven
+            homepage_url: 'https://maven.apache.org/'
+            repo_url: 'https://github.com/apache/maven'
+            logo: maven.svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
             name: Chef
             homepage_url: 'https://www.chef.io/'
             repo_url: 'https://github.com/chef/chef'
             logo: 'https://landscape.cd.foundation/logos/chef.svg'
             crunchbase: 'https://www.crunchbase.com/organization/chef'
           - item:
+            name: GitLab
+            homepage_url: 'https://about.gitlab.com/'
+            repo_url: 'https://github.com/gitlabhq/gitlabhq'
+            url_for_bestpractices: 'https://gitlab.com/gitlab-org/gitlab-ce'
+            logo: 'https://landscape.cncf.io/logos/git-lab.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
+          - item:
+            name: Gradle
+            homepage_url: 'https://gradle.org/'
+            repo_url: 'https://github.com/gradle/gradle'
+            logo: gradle.svg
+            crunchbase: 'https://www.crunchbase.com/organization/gradle'
+          - item:
+            name: Jenkins
+            homepage_url: 'https://jenkins.io/'
+            repo_url: 'https://github.com/jenkinsci/jenkins'
+            logo: 'https://landscape.cd.foundation/logos/jenkins.svg'
+            twitter: 'https://twitter.com/jenkinsci'
+            crunchbase: 'https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf'
+          - item:
             name: Puppet
             homepage_url: 'https://puppet.com/'
             repo_url: 'https://github.com/puppetlabs/puppet'
             logo: 'https://landscape.cncf.io/logos/puppet.svg'
             crunchbase: 'https://www.crunchbase.com/organization/puppet-labs'
+          - item:
+            name: SaltStack
+            homepage_url: 'https://www.saltstack.com/'
+            repo_url: 'https://github.com/saltstack/salt'
+            logo: 'https://landscape.cncf.io/logos/salt-stack.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/saltstack'
           - item:
             name: SonarCube
             homepage_url: 'https://www.sonarqube.org/'
@@ -1350,66 +1394,15 @@ landscape:
             homepage_url: 'https://travis-ci.org/'
             logo: 'https://landscape.cd.foundation/logos/travis-ci.svg'
             crunchbase: 'https://www.crunchbase.com/organization/travis-ci'
-          - item:
-            name: GitLab
-            homepage_url: 'https://about.gitlab.com/'
-            repo_url: 'https://github.com/gitlabhq/gitlabhq'
-            url_for_bestpractices: 'https://gitlab.com/gitlab-org/gitlab-ce'
-            logo: 'https://landscape.cncf.io/logos/git-lab.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
-          - item:
-            name: Jenkins
-            homepage_url: 'https://jenkins.io/'
-            repo_url: 'https://github.com/jenkinsci/jenkins'
-            logo: 'https://landscape.cd.foundation/logos/jenkins.svg'
-            twitter: 'https://twitter.com/jenkinsci'
-            crunchbase: 'https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf'
-          - item:
-            name: Apache Maven
-            homepage_url: 'https://maven.apache.org/'
-            repo_url: 'https://github.com/apache/maven'
-            logo: maven.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
-            name: ANTLR
-            homepage_url: 'https://www.antlr.org/'
-            repo_url: 'https://github.com/antlr/antlr4'
-            logo: antlr.svg
-            crunchbase: 'https://www.crunchbase.com/organization/university-of-san-francisco'
-          - item:
-            name: Gradle
-            homepage_url: 'https://gradle.org/'
-            repo_url: 'https://github.com/gradle/gradle'
-            logo: gradle.svg
-            crunchbase: 'https://www.crunchbase.com/organization/gradle'
-          - item:
-            name: Apache JMeter
-            homepage_url: 'https://jmeter.apache.org/'
-            repo_url: 'https://github.com/apache/jmeter'
-            logo: jmeter.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
-            name: SaltStack
-            homepage_url: 'https://www.saltstack.com/'
-            repo_url: 'https://github.com/saltstack/salt'
-            logo: 'https://landscape.cncf.io/logos/salt-stack.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/saltstack'
       - subcategory:
         name: Middleware
         items:
           - item:
             name: Apache ActiveMQ
-            repo_url: 'https://github.com/apache/activemq'
             homepage_url: 'https://activemq.apache.org/'
+            repo_url: 'https://github.com/apache/activemq'
             logo: activemq.svg
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
-            name: MuleSoft
-            homepage_url: 'https://www.mulesoft.com/'
-            repo_url: 'https://github.com/mulesoft/mule'
-            logo: 'https://landscape.cncf.io/logos/mule-soft.svg'
-            twitter: 'https://twitter.com/mulesoft'
-            crunchbase: 'https://www.crunchbase.com/organization/salesforce'
           - item:
             name: Apache Camel K
             homepage_url: 'https://camel.apache.org'
@@ -1418,11 +1411,11 @@ landscape:
             twitter: 'https://twitter.com/apachecamel'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
-            name: RabbitMQ
-            homepage_url: 'https://www.rabbitmq.com/'
-            repo_url: 'https://github.com/rabbitmq/rabbitmq-server'
-            logo: 'https://landscape.cncf.io/logos/rabbit-mq.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/rabbit-technologies'
+            name: Apache Geode
+            homepage_url: 'https://geode.apache.org/'
+            repo_url: 'https://github.com/apache/geode'
+            logo: geode.svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: Eclipse Mosquitto™
             homepage_url: 'https://mosquitto.org/'
@@ -1430,17 +1423,24 @@ landscape:
             logo: 'https://raw.githubusercontent.com/eclipse/mosquitto/master/logo/mosquitto-text-below.svg'
             crunchbase: 'https://www.crunchbase.com/organization/eclipse-foundation'
           - item:
-            name: Apache Geode
-            homepage_url: 'https://geode.apache.org/'
-            repo_url: 'https://github.com/apache/geode'
-            logo: geode.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
             name: Hibernate
             homepage_url: 'http://hibernate.org/'
             repo_url: 'https://github.com/hibernate/hibernate-orm'
             logo: hibernate.svg
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+          - item:
+            name: MuleSoft
+            homepage_url: 'https://www.mulesoft.com/'
+            repo_url: 'https://github.com/mulesoft/mule'
+            logo: 'https://landscape.cncf.io/logos/mule-soft.svg'
+            twitter: 'https://twitter.com/mulesoft'
+            crunchbase: 'https://www.crunchbase.com/organization/salesforce'
+          - item:
+            name: RabbitMQ
+            homepage_url: 'https://www.rabbitmq.com/'
+            repo_url: 'https://github.com/rabbitmq/rabbitmq-server'
+            logo: 'https://landscape.cncf.io/logos/rabbit-mq.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/rabbit-technologies'
       - subcategory:
         name: 'Big Data, Observability, Analytics'
         items:
@@ -1450,25 +1450,6 @@ landscape:
             repo_url: 'https://github.com/apache/flink'
             logo: 'https://landscape.lfai.foundation/logos/flink.svg'
             twitter: 'https://twitter.com/ApacheFlink'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
-            name: Splunk
-            homepage_url: 'https://www.splunk.com/'
-            logo: 'https://landscape.cncf.io/logos/splunk.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/splunk'
-          - item:
-            name: Apache Spark
-            homepage_url: 'https://spark.apache.org'
-            repo_url: 'https://github.com/apache/spark'
-            logo: spark.svg
-            twitter: null
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
-            name: Lucene
-            homepage_url: 'https://lucene.apache.org/'
-            repo_url: 'https://github.com/apache/lucene-solr'
-            logo: lucenesolr.svg
-            twitter: null
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: Apache Ignite
@@ -1485,6 +1466,19 @@ landscape:
             twitter: 'https://twitter.com/apachekafka'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
+            name: Apache Spark
+            homepage_url: 'https://spark.apache.org'
+            repo_url: 'https://github.com/apache/spark'
+            logo: spark.svg
+            twitter: null
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Elastic
+            homepage_url: 'https://www.elastic.co/'
+            repo_url: 'https://github.com/elastic/elasticsearch'
+            logo: 'https://landscape.cncf.io/logos/elastic.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/elasticsearch'
+          - item:
             name: Fluentd
             homepage_url: 'https://www.fluentd.org/'
             repo_url: 'https://github.com/fluent/fluentd'
@@ -1498,26 +1492,45 @@ landscape:
             logo: 'https://landscape.cncf.io/logos/grafana.svg'
             crunchbase: 'https://www.crunchbase.com/organization/raintank'
           - item:
+            name: Kibana
+            homepage_url: 'https://www.elastic.co/kibana'
+            repo_url: 'https://github.com/elastic/kibana'
+            logo: kibana.svg
+            crunchbase: 'https://www.crunchbase.com/organization/elasticsearch'
+          - item:
             name: Logstash
             homepage_url: 'https://www.elastic.co/logstash'
             repo_url: 'https://github.com/elastic/logstash'
             logo: 'https://landscape.cncf.io/logos/logstash.svg'
             crunchbase: 'https://www.crunchbase.com/organization/elasticsearch'
           - item:
-            name: Elastic
-            homepage_url: 'https://www.elastic.co/'
-            repo_url: 'https://github.com/elastic/elasticsearch'
-            logo: 'https://landscape.cncf.io/logos/elastic.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/elasticsearch'
+            name: Lucene
+            homepage_url: 'https://lucene.apache.org/'
+            repo_url: 'https://github.com/apache/lucene-solr'
+            logo: lucenesolr.svg
+            twitter: null
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
-            name: Kibana
-            homepage_url: 'https://www.elastic.co/products/kibana'
-            repo_url: 'https://github.com/elastic/kibana'
-            logo: kibana.svg
-            crunchbase: 'https://www.crunchbase.com/organization/elasticsearch'
+            name: Splunk
+            homepage_url: 'https://www.splunk.com/'
+            logo: 'https://landscape.cncf.io/logos/splunk.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/splunk'
       - subcategory:
         name: Databases
         items:
+          - item:
+            name: Apache CouchDB
+            homepage_url: 'https://couchdb.apache.org/'
+            repo_url: 'https://github.com/apache/couchdb'
+            logo: couchdb.svg
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Cassandra
+            homepage_url: 'https://cassandra.apache.org/'
+            repo_url: 'https://github.com/apache/cassandra'
+            logo: 'https://landscape.cncf.io/logos/cassandra.svg'
+            twitter: 'https://twitter.com/cassandra'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: Couchbase
             homepage_url: 'https://www.couchbase.com/'
@@ -1537,6 +1550,13 @@ landscape:
             logo: 'https://landscape.cncf.io/logos/mongo-db.svg'
             open_source: false
             crunchbase: 'https://www.crunchbase.com/organization/mongodb-inc'
+          - item:
+            name: MySQL
+            homepage_url: 'https://www.oracle.com/mysql/'
+            repo_url: 'https://github.com/mysql/mysql-server'
+            logo: 'https://landscape.cncf.io/logos/my-sql.svg'
+            twitter: 'https://twitter.com/mysql'
+            crunchbase: 'https://www.crunchbase.com/organization/oracle'
           - item:
             name: PostgreSQL
             description: >-
@@ -1567,29 +1587,16 @@ landscape:
             logo: 'https://landscape.cncf.io/logos/scylla.svg'
             twitter: 'https://twitter.com/ScyllaDB'
             crunchbase: 'https://www.crunchbase.com/organization/scylladb'
-          - item:
-            name: MySQL
-            homepage_url: 'https://www.oracle.com/mysql/'
-            repo_url: 'https://github.com/mysql/mysql-server'
-            logo: 'https://landscape.cncf.io/logos/my-sql.svg'
-            twitter: 'https://twitter.com/mysql'
-            crunchbase: 'https://www.crunchbase.com/organization/oracle'
-          - item:
-            name: Apache CouchDB
-            homepage_url: 'https://couchdb.apache.org/'
-            repo_url: 'https://github.com/apache/couchdb'
-            logo: couchdb.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
-            name: Cassandra
-            homepage_url: 'https://cassandra.apache.org/'
-            repo_url: 'https://github.com/apache/cassandra'
-            logo: 'https://landscape.cncf.io/logos/cassandra.svg'
-            twitter: 'https://twitter.com/cassandra'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
       - subcategory:
         name: Linux Distributions
         items:
+          - item:
+            name: Alpine Linux
+            description: 'A security-oriented, lightweight Linux distribution'
+            homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
+            repo_url: 'https://github.com/alpinelinux/aports'
+            logo: alpine-linux.svg
+            crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
           - item:
             name: ClefOS for System z
             description: >-
@@ -1599,28 +1606,6 @@ landscape:
             repo_url: 'https://github.com/nealef/clefos'
             logo: clefos.svg
             crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
-          - item:
-            name: Red Hat Enterprise Linux
-            homepage_url: 'https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux'
-            logo: rhel.svg
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
-          - item:
-            name: SUSE Linux Enterprise Server
-            homepage_url: 'https://www.suse.com/products/systemz/'
-            logo: suse.svg
-            crunchbase: 'https://www.crunchbase.com/organization/suse'
-          - item:
-            name: Ubuntu
-            homepage_url: 'https://wiki.ubuntu.com/S390X'
-            logo: ubuntu.svg
-            crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
-          - item:
-            name: Alpine Linux
-            description: 'A security-oriented, lightweight Linux distribution'
-            homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
-            repo_url: 'https://github.com/alpinelinux/aports'
-            logo: alpine-linux.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
           - item:
             name: Debian Linux
             description: Debian is a free operating system (OS) for your computer.
@@ -1652,6 +1637,21 @@ landscape:
             repo_url: 'https://github.com/openSUSE/openSUSE-release-tools'
             logo: opensuse.svg
             crunchbase: 'https://www.crunchbase.com/organization/opensuse'
+          - item:
+            name: Red Hat Enterprise Linux
+            homepage_url: 'https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux'
+            logo: rhel.svg
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+          - item:
+            name: SUSE Linux Enterprise Server
+            homepage_url: 'https://www.suse.com/products/systemz/'
+            logo: suse.svg
+            crunchbase: 'https://www.crunchbase.com/organization/suse'
+          - item:
+            name: Ubuntu
+            homepage_url: 'https://wiki.ubuntu.com/S390X'
+            logo: ubuntu.svg
+            crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
   - category:
     name: Open Mainframe Project Member Company
     subcategories:

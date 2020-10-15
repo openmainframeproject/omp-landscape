@@ -24,7 +24,7 @@ twitter:
   text: Open Mainframe Project Landscape from @OpenMFProject
 relation:
   label: Open Mainframe Project Relation
-  url: omp 
+  url: omp
   values:
     - id: hosted
       label: Open Mainframe Project Projects
@@ -52,19 +52,9 @@ relation:
     - id: member
       label: Open Mainframe Project Member Products/Projects
       tag: Open Mainframe Project Member
-      # children:
-        # - id: supported
-          # label: Open Mainframe Project Supported
-          # prefix: OMP
-          # tag: Supported
-            # # color: '#3570af'
-          # big_picture_order: 4
-          # big_picture_label: OMP Supported
-         # big_picture_color: 'rgb(24,54,114)'
     - id: false
       label: Non-Open Mainframe Project Member Products/Projects
       url: 'no'
-
 membership:
   Platinum:
     name: Open Mainframe Project
@@ -256,7 +246,7 @@ big_picture:
         left: 840
         color: 'rgb(19,105,73)'
         fit_width: true
-    category: Broad Open Source 
+    category: Broad Open Source
   fifth:
     tab_index: 3
     url: members
@@ -264,7 +254,7 @@ big_picture:
     title: Become an OMP member at www.openmainframeproject.org/about/join
     elements:
       - type: HorizontalCategory
-        category: Platinum 
+        category: Platinum
         rows: 2
         width: 750
         height: 120
@@ -274,7 +264,7 @@ big_picture:
         fit_width: true
       - type: HorizontalCategory
         category: Silver
-        rows: 4 
+        rows: 4
         width: 750
         height: 220
         top: 110
@@ -283,7 +273,7 @@ big_picture:
         fit_width: true
       - type: HorizontalCategory
         category: Academic Institution
-        rows: 4 
+        rows: 4
         width: 750
         height: 220
         top: 320
@@ -291,7 +281,7 @@ big_picture:
         color: 'rgb(126,115,14)'
         fit_width: true
       - type: HorizontalCategory
-        category: Associate 
+        category: Associate
         rows: 2
         width: 750
         height: 100
