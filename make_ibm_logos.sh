@@ -1,7 +1,7 @@
 #!/bin/bash
 
 logo='ibm.svg'
-products=('crc32-s390x' 'IBM Z Workload Scheduler' 'Db2 DevOps Experience for z/OS' 'Service Automation Suite' 'Service Management Suite for z/OS' 'Service Management Unite' 'IBM® Z Netview' 'libica' 'qclib' 's390-tools' 'Shared Memory Communication Tools' 'snIPL' 'source VIPA' 'System Loader (sysload)' 'z/OS Connect EE' 'z/OS Node Accessor' 'z/OS Tools' 'zfcp HBA API library' 'Remote System Explorer API' 'Zowe CLI CICS Deploy')
+products=('crc32-s390x' 'IBM Z Service Management Explorer' 'IBM Z Workload Scheduler' 'Db2 DevOps Experience for z/OS' 'Service Automation Suite' 'Service Management Suite for z/OS' 'Service Management Unite' 'IBM® Z Netview' 'libica' 'qclib' 's390-tools' 'Shared Memory Communication Tools' 'snIPL' 'source VIPA' 'System Loader (sysload)' 'z/OS Connect EE' 'z/OS Node Accessor' 'z/OS Tools' 'zfcp HBA API library' 'Remote System Explorer API' 'Zowe CLI CICS Deploy')
 
 for i in ${!products[@]};
 do
