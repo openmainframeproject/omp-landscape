@@ -861,7 +861,7 @@ landscape:
               CA Endevor® lets you interact with CA Endevor through a local command-line interface. You can control CA Endevor application lifecycle actions,
               allowing easy scripting from off-platform CI/CD pipelines.
             homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-endevor-scm.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-endevor-scm-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -872,7 +872,7 @@ landscape:
               CA File Master™ Plus brings advanced file management and data manipulation functionality to the CLI. Control functions that CLI can invoke include
               copying, renaming and deleting files, and populating files with data.
             homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-file-master-plus.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -883,7 +883,7 @@ landscape:
               CA OPS/MVS® lets you to interact with CA OPS/MVS automation elements. The features in the plug-in enable efficient automation and resource
               management from the CLI.
             homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
             stock_ticker: AVGO
             logo: ca-opsmvs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -892,7 +892,7 @@ landscape:
             name: CA Secure Credential Store (CLI 2019)
             description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
             homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-secure-credential-store.html
+              https://github.com/zowe/zowe-cli-scs-plugin#readme
             stock_ticker: AVGO
             logo: ca-secure-credential-store.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -903,7 +903,7 @@ landscape:
               CA z/OS Extended Files lets application developers extend the CLI to support data set management functionality. For example, copying the contents
               of a data set and downloading data sets that match a DSLEVEL pattern.
             homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
@@ -914,7 +914,7 @@ landscape:
               CA z/OS Extended Jobs lets application developers extend the CLI to support additional z/OS job creation and job management functionality. For
               example, viewing all spool content and deleting multiple jobs in the OUTPUT status.
             homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/ca-brightside-command-line-interface-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: 'https://www.crunchbase.com/organization/broadcom'
