@@ -7,311 +7,311 @@ landscape:
         items:
           - item:
             name: crc32-s390x
-            homepage_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
-            repo_url: 'https://github.com/linux-on-ibm-z/crc32-s390x'
+            homepage_url: https://github.com/linux-on-ibm-z/crc32-s390x
+            repo_url: https://github.com/linux-on-ibm-z/crc32-s390x
             logo: crc32-s390x.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Feilong
-            homepage_url: 'https://www.openmainframeproject.org/projects/feilong'
+            homepage_url: https://www.openmainframeproject.org/projects/feilong
             project: incubating
-            repo_url: 'https://github.com/openmainframeproject/feilong'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/feilong/feilong-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/openmainframeproject/feilong
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/feilong/feilong-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: libica
-            homepage_url: 'https://github.com/opencryptoki/libica'
-            repo_url: 'https://github.com/opencryptoki/libica'
+            homepage_url: https://github.com/opencryptoki/libica
+            repo_url: https://github.com/opencryptoki/libica
             logo: libica.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: qclib
             description: qclib provides a C API for extraction of system information for Linux on z Systems.
-            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/qclib.html'
-            repo_url: 'https://github.com/openmainframeproject/qclib'
+            homepage_url: https://www.ibm.com/developerworks/linux/linux390/qclib.html
+            repo_url: https://github.com/openmainframeproject/qclib
             logo: qclib.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: s390-tools
-            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/s390-tools.html'
-            repo_url: 'https://github.com/ibm-s390-tools/s390-tools'
+            homepage_url: https://www.ibm.com/developerworks/linux/linux390/s390-tools.html
+            repo_url: https://github.com/ibm-s390-tools/s390-tools
             logo: s390-tools.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: SMC Tools
-            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/smc-tools.html'
-            repo_url: 'https://github.com/openmainframeproject/smc-tools'
+            homepage_url: https://www.ibm.com/developerworks/linux/linux390/smc-tools.html
+            repo_url: https://github.com/openmainframeproject/smc-tools
             logo: shared-memory-communication-tools.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: snIPL
             description: Linux on System z snIPL 'simple network IPL' package.
-            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/snipl.html'
-            repo_url: 'https://github.com/openmainframeproject/snipl'
+            homepage_url: https://www.ibm.com/developerworks/linux/linux390/snipl.html
+            repo_url: https://github.com/openmainframeproject/snipl
             logo: snipl.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: source VIPA
             description: src_vipa is a recommended utility that provides a very flexible means of source address selection to arbitrary applications.
-            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/useful_add-ons_vipa.html'
-            repo_url: 'https://github.com/openmainframeproject/src_vipa'
+            homepage_url: https://www.ibm.com/developerworks/linux/linux390/useful_add-ons_vipa.html
+            repo_url: https://github.com/openmainframeproject/src_vipa
             logo: source-vipa.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: sysload
             description: >-
               System Loader uses a minimal RAM disk based Linux system to run a boot loader application and kexec to boot the final Linux system. Within the
               boot loader application all capabilities provided by the kernel can be used to select and access a kernel image and other boot files or to start a
               shell and use it as a rescue system.
-            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/sysload.html'
-            repo_url: 'https://github.com/openmainframeproject/sysload'
+            homepage_url: https://www.ibm.com/developerworks/linux/linux390/sysload.html
+            repo_url: https://github.com/openmainframeproject/sysload
             logo: system-loader-sysload.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: tessia
             description: A tool to automate and simplify the installation/configuration/testing of Linux systems running on the IBM Z platform
-            homepage_url: 'https://github.com/tessia-project'
+            homepage_url: https://github.com/tessia-project
             project: incubating
-            repo_url: 'https://github.com/tessia-project/tessia'
-            project_org: 'https://github.com/tessia-project'
-            logo: 'https://artwork.openmainframeproject.org/projects/tessia/horizontal/color/tessia-horizontal-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/tessia-project/tessia
+            project_org: https://github.com/tessia-project
+            logo: https://artwork.openmainframeproject.org/projects/tessia/horizontal/color/tessia-horizontal-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: VMLINK
-            homepage_url: 'https://github.com/trothr/vmlink'
-            repo_url: 'https://github.com/trothr/vmlink'
+            homepage_url: https://github.com/trothr/vmlink
+            repo_url: https://github.com/trothr/vmlink
             logo: vmlink.svg
-            crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+            crunchbase: https://www.crunchbase.com/organization/la-casita
           - item:
             name: zfcp HBA API library
-            description: 'zfcp HBA API library, Version 2, is part of an implementation of FC-HBA for the ZFCP device driver to be used with the Linux on Z distributions.'
-            homepage_url: 'https://www.ibm.com/developerworks/linux/linux390/zfcp-hbaapi.html'
-            repo_url: 'https://github.com/openmainframeproject/zfcp-hbaapi'
+            description: zfcp HBA API library, Version 2, is part of an implementation of FC-HBA for the ZFCP device driver to be used with the Linux on Z distributions.
+            homepage_url: https://www.ibm.com/developerworks/linux/linux390/zfcp-hbaapi.html
+            repo_url: https://github.com/openmainframeproject/zfcp-hbaapi
             logo: zfcp-hba-api-library.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: ZNETBOOT
-            homepage_url: 'https://github.com/trothr/znetboot'
-            repo_url: 'https://github.com/trothr/znetboot'
+            homepage_url: https://github.com/trothr/znetboot
+            repo_url: https://github.com/trothr/znetboot
             logo: znetboot.svg
-            crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+            crunchbase: https://www.crunchbase.com/organization/la-casita
       - subcategory:
         name: z/VM
         items:
           - item:
             name: CMS Make
-            homepage_url: 'https://github.com/trothr/cmsmake'
-            repo_url: 'https://github.com/trothr/cmsmake'
+            homepage_url: https://github.com/trothr/cmsmake
+            repo_url: https://github.com/trothr/cmsmake
             logo: cmsmake.svg
-            crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+            crunchbase: https://www.crunchbase.com/organization/la-casita
           - item:
             name: CMS TAR
-            homepage_url: 'https://github.com/trothr/cmstar'
-            repo_url: 'https://github.com/trothr/cmstar'
+            homepage_url: https://github.com/trothr/cmstar
+            repo_url: https://github.com/trothr/cmstar
             logo: cmstar.svg
-            crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+            crunchbase: https://www.crunchbase.com/organization/la-casita
           - item:
             name: xmitmsgx
-            homepage_url: 'https://github.com/trothr/xmitmsgx'
-            repo_url: 'https://github.com/trothr/xmitmsgx'
+            homepage_url: https://github.com/trothr/xmitmsgx
+            repo_url: https://github.com/trothr/xmitmsgx
             logo: xmitmsgx.svg
-            crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+            crunchbase: https://www.crunchbase.com/organization/la-casita
       - subcategory:
         name: z/OS
         items:
           - item:
             name: CBT Tape
-            homepage_url: 'http://www.cbttape.org/'
+            homepage_url: http://www.cbttape.org/
             project: incubating
             logo: cbttape.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: Launcher
-            homepage_url: 'https://github.com/phoenixsoftware/Launcher'
-            repo_url: 'https://github.com/phoenixsoftware/Launcher'
+            homepage_url: https://github.com/phoenixsoftware/Launcher
+            repo_url: https://github.com/phoenixsoftware/Launcher
             logo: phoenix-software-international-launcher.svg
-            crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
             name: Polycephaly
-            homepage_url: 'https://www.openmainframeproject.org/projects/polycephaly'
+            homepage_url: https://www.openmainframeproject.org/projects/polycephaly
             project: incubating
-            repo_url: 'https://github.com/openmainframeproject/polycephaly'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/polycephaly/polycephaly-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/openmainframeproject/polycephaly
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/polycephaly/polycephaly-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: z/OS Connector Plugin for Jenkins
-            homepage_url: 'https://github.com/jenkinsci/zos-connector-plugin'
-            repo_url: 'https://github.com/jenkinsci/zos-connector-plugin'
+            homepage_url: https://github.com/jenkinsci/zos-connector-plugin
+            repo_url: https://github.com/jenkinsci/zos-connector-plugin
             logo: jenkins-zos-plugin.svg
-            crunchbase: 'https://www.crunchbase.com/organization/jenkins-ci'
+            crunchbase: https://www.crunchbase.com/organization/jenkins-ci
           - item:
             name: z/OS Node Accessor
-            homepage_url: 'https://github.com/IBM/zos-node-accessor'
-            repo_url: 'https://github.com/IBM/zos-node-accessor'
+            homepage_url: https://github.com/IBM/zos-node-accessor
+            repo_url: https://github.com/IBM/zos-node-accessor
             logo: zos-node-accessor.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: z/OS Tools
-            homepage_url: 'https://github.com/IBM/IBM-Z-zOS'
-            repo_url: 'https://github.com/IBM/IBM-Z-zOS'
+            homepage_url: https://github.com/IBM/IBM-Z-zOS
+            repo_url: https://github.com/IBM/IBM-Z-zOS
             logo: zos-tools.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: zECS
-            homepage_url: 'https://github.com/walmartlabs/zECS'
-            repo_url: 'https://github.com/walmartlabs/zECS'
+            homepage_url: https://github.com/walmartlabs/zECS
+            repo_url: https://github.com/walmartlabs/zECS
             logo: zecs.svg
-            crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
+            crunchbase: https://www.crunchbase.com/organization/walmart-labs
           - item:
             name: zFAM
-            homepage_url: 'https://github.com/walmartlabs/zFAM'
-            repo_url: 'https://github.com/walmartlabs/zFAM'
+            homepage_url: https://github.com/walmartlabs/zFAM
+            repo_url: https://github.com/walmartlabs/zFAM
             logo: zfam.svg
-            crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
+            crunchbase: https://www.crunchbase.com/organization/walmart-labs
           - item:
             name: zigi
-            homepage_url: 'https://zigi.rocks/'
-            repo_url: 'https://github.com/wizardofzos/zigi'
+            homepage_url: https://zigi.rocks/
+            repo_url: https://github.com/wizardofzos/zigi
             logo: zigi.svg
-            twitter: 'https://twitter.com/ispfgit'
-            crunchbase: 'https://www.crunchbase.com/organization/zdevops'
+            twitter: https://twitter.com/ispfgit
+            crunchbase: https://www.crunchbase.com/organization/zdevops
           - item:
             name: Zorow
-            homepage_url: 'https://www.openmainframeproject.org/projects/zorow'
+            homepage_url: https://www.openmainframeproject.org/projects/zorow
             project: incubating
-            repo_url: 'https://github.com/openmainframeproject/zorow'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/zorow/zorow-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/openmainframeproject/zorow
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/zorow/zorow-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: Zowe
             description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
-            homepage_url: 'https://www.zowe.org'
+            homepage_url: https://www.zowe.org
             project: graduated
-            repo_url: 'https://github.com/zowe/api-layer'
-            url_for_bestpractices: 'https://github.com/zowe/zlc'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/zowe/zowe-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/zowe/api-layer
+            url_for_bestpractices: https://github.com/zowe/zlc
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/zowe/zowe-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: zUID
-            homepage_url: 'https://github.com/walmartlabs/zUID'
-            repo_url: 'https://github.com/walmartlabs/zUID'
+            homepage_url: https://github.com/walmartlabs/zUID
+            repo_url: https://github.com/walmartlabs/zUID
             logo: zuid.svg
-            crunchbase: 'https://www.crunchbase.com/organization/walmart-labs'
+            crunchbase: https://www.crunchbase.com/organization/walmart-labs
       - subcategory:
         name: Development Tools
         items:
           - item:
             name: Atom language syntax highlighting for z/VM
-            homepage_url: 'https://atom.io/users/openmainframeproject'
+            homepage_url: https://atom.io/users/openmainframeproject
             project: incubating
-            repo_url: 'https://github.com/openmainframeproject/atompkg-language-zvm-asm'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/atom/atom-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/openmainframeproject/atompkg-language-zvm-asm
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/atom/atom-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: COBOL Source colouriser for Visual Studio Code
-            homepage_url: 'https://github.com/spgennard/vscode_cobol'
-            repo_url: 'https://github.com/spgennard/vscode_cobol'
+            homepage_url: https://github.com/spgennard/vscode_cobol
+            repo_url: https://github.com/spgennard/vscode_cobol
             logo: cobol_source_colouriser_vscode.svg
-            crunchbase: 'https://www.crunchbase.com/organization/bitlang-development'
+            crunchbase: https://www.crunchbase.com/organization/bitlang-development
           - item:
             name: Eclipse Che4z
-            homepage_url: 'https://projects.eclipse.org/projects/ecd.che.che4z'
-            repo_url: 'https://github.com/eclipse/che-che4z'
+            homepage_url: https://projects.eclipse.org/projects/ecd.che.che4z
+            repo_url: https://github.com/eclipse/che-che4z
             logo: che4z.svg
-            crunchbase: 'https://www.crunchbase.com/organization/eclipse-foundation'
+            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
           - item:
             name: zSublime
-            homepage_url: 'https://github.com/vadimshchukin/zsublime'
-            repo_url: 'https://github.com/vadimshchukin/zsublime'
+            homepage_url: https://github.com/vadimshchukin/zsublime
+            repo_url: https://github.com/vadimshchukin/zsublime
             logo: zsublime.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Learning and Mentoring
         items:
           - item:
             name: COBOL Programming Course
-            homepage_url: 'https://www.openmainframeproject.org/projects/coboltrainingcourse'
+            homepage_url: https://www.openmainframeproject.org/projects/coboltrainingcourse
             project: incubating
-            repo_url: 'https://github.com/openmainframeproject/cobol-programming-course'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/openmainframeproject/cobol-programming-course
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/cobol-programming-course/cobol-programming-course-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: COBOL Working Group
-            homepage_url: 'https://www.openmainframeproject.org/projects/cobol-working-group'
+            homepage_url: https://www.openmainframeproject.org/projects/cobol-working-group
             project: workinggroup
-            repo_url: 'https://github.com/openmainframeproject/wg-cobol'
-            logo: 'https://artwork.openmainframeproject.org/working-groups/cobol-wg/color/cobol-wg-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/openmainframeproject/wg-cobol
+            logo: https://artwork.openmainframeproject.org/working-groups/cobol-wg/color/cobol-wg-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: Mentorship
-            homepage_url: 'https://www.openmainframeproject.org/projects/mentorship-program'
+            homepage_url: https://www.openmainframeproject.org/projects/mentorship-program
             project: graduated
-            repo_url: 'https://github.com/openmainframeproject-internship/resources'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/openmainframeproject-internship/resources
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/mentorship/mentorship-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: Open Mainframe Education
-            homepage_url: 'https://github.com/openmainframeproject/omp-education'
+            homepage_url: https://github.com/openmainframeproject/omp-education
             project: incubating
-            repo_url: 'https://github.com/openmainframeproject/omp-education'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/education/education-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/openmainframeproject/omp-education
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/education/education-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
       - subcategory:
         name: Other
         items:
           - item:
             name: ADE
-            homepage_url: 'https://openmainframeproject.github.io/ade/'
+            homepage_url: https://openmainframeproject.github.io/ade/
             project: graduated
-            repo_url: 'https://github.com/openmainframeproject/ade'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/ade/ade-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/openmainframeproject/ade
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/ade/ade-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: Ambitus
-            homepage_url: 'https://github.com/ambitus'
+            homepage_url: https://github.com/ambitus
             project: incubating
-            repo_url: 'https://github.com/ambitus/ambitus'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/ambitus/ambitus-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/ambitus/ambitus
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/ambitus/ambitus-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: Ductwork
-            homepage_url: 'https://github.com/trothr/ductwork'
-            repo_url: 'https://github.com/trothr/ductwork'
+            homepage_url: https://github.com/trothr/ductwork
+            repo_url: https://github.com/trothr/ductwork
             logo: ductwork.svg
-            crunchbase: 'https://www.crunchbase.com/organization/la-casita'
+            crunchbase: https://www.crunchbase.com/organization/la-casita
           - item:
             name: GenevaERS
-            homepage_url: 'https://genevaers.org'
+            homepage_url: https://genevaers.org
             project: incubating
-            repo_url: 'https://github.com/genevaers/community'
-            project_org: 'https://github.com/genevaers'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/genevaers/genevaers-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/genevaers/community
+            project_org: https://github.com/genevaers
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/genevaers/genevaers-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: Software Discovery Tool
-            homepage_url: 'https://github.com/openmainframeproject/software-discovery-tool'
+            homepage_url: https://github.com/openmainframeproject/software-discovery-tool
             project: incubating
-            repo_url: 'https://github.com/openmainframeproject/software-discovery-tool'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/softwarediscoverytool/softwarediscoverytool-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/openmainframeproject/software-discovery-tool
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/softwarediscoverytool/softwarediscoverytool-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: TerseDecompress
-            homepage_url: 'https://www.openmainframeproject.org/projects/tersedecompress'
+            homepage_url: https://www.openmainframeproject.org/projects/tersedecompress
             project: incubating
-            repo_url: 'https://github.com/openmainframeproject/tersedecompress'
-            logo: 'https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/tersedecompress/tersedecompress-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            repo_url: https://github.com/openmainframeproject/tersedecompress
+            logo: https://raw.githubusercontent.com/openmainframeproject/artwork/master/projects/tersedecompress/tersedecompress-color.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
   - category:
     name: Zowe Conformant
     subcategories:
@@ -323,52 +323,52 @@ landscape:
             description: >-
               (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
               running JES2 or JES3
-            homepage_url: 'https://phoenixsoftware.com/ejes.htm'
+            homepage_url: https://phoenixsoftware.com/ejes.htm
             logo: phoenix-software-international-ejes.svg
-            crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
             allow_duplicate_repo: true
           - item:
             name: CA Data Content Discovery (API Mediation Layer ZOWE V1)
             description: CA Data Content Discovery helps you identify data exposure risks and institute effective measures for enterprise data protection.
-            homepage_url: 'https://www.broadcom.com/products/mainframe/compliance-data-protection/data-content-discovery'
+            homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/data-content-discovery
             logo: ca-data-content-discovery.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA Database Management Solutions for Db2 for z/OS (API Mediation Layer ZOWE V1)
             description: RESTful APIs for Db2 for z/OS data access and management
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html'
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html
             stock_ticker: AVGO
             logo: ca-database-management-solutions-for-db2-for-zos.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA Endevor® (API Mediation Layer ZOWE V1)
             description: >-
               CA Endevor® provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
               development process, CA Endevor governs software change from the very first line of modified code through deployment with change tracking.
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0.html'
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0.html
             stock_ticker: AVGO
             logo: ca-endevor.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA File Master™ Plus (API Mediation Layer ZOWE V1)
             description: >-
               CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
               VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0/using-the-rest-api.html'
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0/using-the-rest-api.html
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA IDMS (API Mediation Layer ZOWE V1)
-            description: 'IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.'
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html'
+            description: IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html
             stock_ticker: AVGO
             logo: ca-idms.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA JCLCheck™ Workload Automation (API Mediation Layer ZOWE V1)
@@ -376,64 +376,64 @@ landscape:
               CA JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
               plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
               production cycles
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-jclcheck-workload-automation/12-0.html'
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-jclcheck-workload-automation/12-0.html
             stock_ticker: AVGO
             logo: ca-jclcheck-workload-automation.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA Mainframe Security Insights Platform (API Mediation Layer ZOWE V1)
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/security/ca-mainframe-security-insights-platform/1-0.html'
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/security/ca-mainframe-security-insights-platform/1-0.html
             stock_ticker: AVGO
             logo: ca-mainframe-security-insights-platform.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA MAT (API Mediation Layer ZOWE V1)
             description: >-
               This API enables accessing CA Mainframe Application Tuner via modern tools by providing end-points to enable customers to automate and script a
               MAT request in their CI/CD pipeline
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html'
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
             logo: ca-mat.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA SYSVIEW® Performance Management (API Mediation Layer ZOWE V1)
             description: >-
               CA SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access CA SYSVIEW actions and
               data using a modern API.
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html'
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html
             stock_ticker: AVGO
             logo: ca-sysview-performance-management.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA Vantage™ Storage Resource Manager (API Mediation Layer ZOWE V1)
-            description: 'CA Vantage™ SRM is an automated storage management system that provides comprehensive reporting, monitoring, and automation capabilities.'
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0.html'
+            description: CA Vantage™ SRM is an automated storage management system that provides comprehensive reporting, monitoring, and automation capabilities.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0.html
             stock_ticker: AVGO
             logo: ca-vantage-storage-resource-manager.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA Workload Automation CA 7® (API Mediation Layer ZOWE V1)
             description: >-
               CA Workload Automation CA7 Edition (WLA CA 7) supports an agile and business–centric IT environment by automating many of the labor-intensive
               tasks associated with workload automation and monitoring for z Systems.
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-ca-7-edition/12-1.html'
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-ca-7-edition/12-1.html
             stock_ticker: AVGO
             logo: ca-workload-automation-ca-7.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: IBM® Z Netview (API Mediation Layer ZOWE V1)
             description: >-
               IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
               systems management to address your requirements for business agility on IBM Z systems.
-            homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en'
+            homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en
             logo: ibm-z-netview.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
       - subcategory:
         name: App Framework ZOWE V1
@@ -443,10 +443,10 @@ landscape:
             description: >-
               CA Vantage™ Storage Resource Manager Web Client, also known as Mainframe Team Center - Management. Zowe App Framework plugin provides access to
               the Mainframe Team Center - Management from Zowe Desktop.
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0/web-client.html'
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0/web-client.html
             stock_ticker: AVGO
             logo: ca-vantage-storage-resource-manager.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: IBM® Service Management Unite (App Framework ZOWE V1)
@@ -454,38 +454,38 @@ landscape:
               IBM® Service Management Unite is a customizable service management user interface that provides dashboards to monitor and operate IBM Z
               environments. Zowe application plugin for Service Management Unite is provided to allow user to use Service Management Unite directly on Zowe
               Desktop.
-            homepage_url: 'https://www.ibm.com/products/service-management-unite'
+            homepage_url: https://www.ibm.com/products/service-management-unite
             logo: service-management-unite.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: IBM® Z Netview (App Framework ZOWE V1)
             description: >-
               IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
               systems management to address your requirements for business agility on IBM Z systems.
-            homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en'
+            homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en
             logo: ibm-z-netview.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: Rocket™ BlueZone Web (App Framework ZOWE V1)
             description: >-
               Rocket BlueZone Web simplifies the mainframe by making it easy for your users to access host-based applications and data anytime, anywhere and on
               any device.
-            homepage_url: 'https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-web'
+            homepage_url: https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-web
             logo: rocketsoftware-bluezoneweb.svg
-            crunchbase: 'https://www.crunchbase.com/organization/rocket-software'
+            crunchbase: https://www.crunchbase.com/organization/rocket-software
             allow_duplicate_repo: true
           - item:
             name: SQL WorkloadExpert for Db2 z/OS (App Framework ZOWE V1)
             description: >-
               SQL WorkloadExpert (WLX) is a highly efficient SQL workload capture and warehouse solution and was specifically designed to provide modern
               analytics as a basis for educated decisions on a variety of metrics. WLX Zowe App is provided to use WLX directly on the Zowe Desktop.
-            homepage_url: 'https://www.seg.de/en/products/db2-zos-products/sql-workloadexpert-for-db2-zos'
+            homepage_url: https://www.seg.de/en/products/db2-zos-products/sql-workloadexpert-for-db2-zos
             logo: sql_workloadexport_for_db2_zos.svg
-            crunchbase: 'https://www.crunchbase.com/organization/software-engineering-gmbh'
+            crunchbase: https://www.crunchbase.com/organization/software-engineering-gmbh
             allow_duplicate_repo: true
       - subcategory:
         name: CLI ZOWE V1
@@ -495,10 +495,10 @@ landscape:
             description: >-
               (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
               running JES2 or JES3
-            homepage_url: 'https://phoenixsoftware.com/ejes.htm'
-            repo_url: 'https://github.com/phoenixsoftware/ejes-cli'
+            homepage_url: https://phoenixsoftware.com/ejes.htm
+            repo_url: https://github.com/phoenixsoftware/ejes-cli
             logo: phoenix-software-international-ejes.svg
-            crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
             allow_duplicate_repo: true
           - item:
             name: CA Endevor® (CLI ZOWE V1)
@@ -509,7 +509,7 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-endevor-scm-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-endevor.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA Endevor® Bridge For Git (CLI ZOWE V1)
@@ -518,7 +518,7 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-endevor-bridge-for-git-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-endevor-bridge-for-git.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA File Master™ Plus (CLI ZOWE V1)
@@ -527,17 +527,17 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA IDMS (CLI ZOWE V1)
             description: >-
               The CA IDMS Plug-in for Zowe CLI lets you interact with CA IDMS by providing the ability to list real-time performance statistics, view DC Log
               records, and issue DCMT and DCUF commands. The plug-in requires the CA IDMS REST API.
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html'
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html
             stock_ticker: AVGO
             logo: ca-idms.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA JCLCheck™ Workload Automation (CLI ZOWE V1)
@@ -549,7 +549,7 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-jclcheck-workload-automation-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-jclcheck-workload-automation.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA MAT Analyze (CLI ZOWE V1)
@@ -560,7 +560,7 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-mat-analyze-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-mat-analyze.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA MAT Detect (CLI ZOWE V1)
@@ -571,7 +571,7 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-mat-detect-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-mat-detect.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA OPS/MVS® (CLI ZOWE V1)
@@ -582,16 +582,16 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
             stock_ticker: AVGO
             logo: ca-opsmvs.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA Spool™ (CLI ZOWE V1)
-            description: 'CA Spool™ provides you with a central point of control for managing enterprise-wide print, email and intelligence delivery services.'
+            description: CA Spool™ provides you with a central point of control for managing enterprise-wide print, email and intelligence delivery services.
             homepage_url: >-
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-spool-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-spool.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA SYSVIEW® Performance Management (CLI ZOWE V1)
@@ -602,7 +602,7 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-sysview-performance-management-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-sysview-performance-management.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA View® (CLI ZOWE V1)
@@ -613,7 +613,7 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/CA-View-Plug-in-for-Zowe-CLI.html
             stock_ticker: AVGO
             logo: ca-view.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA Workload Automation CA 7® (CLI ZOWE V1)
@@ -624,7 +624,7 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-workload-automation-ca-7-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-workload-automation-ca-7.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA z/OS Extended Files (CLI ZOWE V1)
@@ -633,7 +633,7 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA z/OS Extended Jobs (CLI ZOWE V1)
@@ -642,97 +642,97 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: IBM RSE API Plug-in for Zowe CLI v.1.0.0 (CLI ZOWE V1)
             description: The IBM RSE API Plug-in for Zowe CLI allows you to interact with z/OS by using IBM Remote System Explorer API (RSE API)
-            homepage_url: 'https://www.ibm.com/links'
+            homepage_url: https://www.ibm.com/links
             logo: remote-system-explorer-api.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI (CLI ZOWE V1)
             description: The IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS programs and transactions
-            homepage_url: 'https://github.com/zowe/zowe-cli-cics-plugin#readme'
-            repo_url: 'https://github.com/zowe/zowe-cli-cics-plugin'
+            homepage_url: https://github.com/zowe/zowe-cli-cics-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-cics-plugin
             logo: ibm-cics-for-cli.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
           - item:
             name: IBM® Db2® Database Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
               The IBM® Db2® Database Plug-in for Zowe CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development tools to
               automate typical workloads more efficiently.
-            homepage_url: 'https://github.com/zowe/zowe-cli-db2-plugin#readme'
-            repo_url: 'https://github.com/zowe/zowe-cli-db2-plugin'
+            homepage_url: https://github.com/zowe/zowe-cli-db2-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-db2-plugin
             logo: ibm-db2-for-cli.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
           - item:
             name: IBM® IMS™ Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
               The IBM® IMS™ Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions). You
               can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
-            homepage_url: 'https://github.com/zowe/zowe-cli-ims-plugin#readme'
-            repo_url: 'https://github.com/zowe/zowe-cli-ims-plugin'
+            homepage_url: https://github.com/zowe/zowe-cli-ims-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-ims-plugin
             logo: ibm-ims-for-cli.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
           - item:
             name: IBM® MQ Plug-in for Zowe CLI (CLI ZOWE V1)
             description: >-
               The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks, such
               as defining, altering, and deleting local queue objects.
-            homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin#readme'
-            repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            homepage_url: https://github.com/zowe/zowe-cli-mq-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-mq-plugin
             logo: ibm-mq-for-cli.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
           - item:
             name: IBM® Z® Workload Scheduler V 9.5.0.2 (CLI ZOWE V1)
             description: >-
               IBM® Z® Workload Scheduler is a workload automation solution that enables organizations to automate, plan and control the processing of complex
               systems’ workloads.
-            homepage_url: 'https://www.ibm.com/products/z-workload-scheduler'
+            homepage_url: https://www.ibm.com/products/z-workload-scheduler
             logo: ibm-z-workload-scheduler.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI (CLI ZOWE V1)
             description: A Zowe CLI Plug-in for administering z/OS Connect EE servers.
-            homepage_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin/tree/lts-incremental'
-            repo_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
+            homepage_url: https://github.com/zosconnect/zowe-cli-zosconnect-plugin/tree/lts-incremental
+            repo_url: https://github.com/zosconnect/zowe-cli-zosconnect-plugin
             logo: zos-connect-ee.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: z/OS FTP Plug-in for Zowe CLI (CLI ZOWE V1)
-            description: 'The z/OS FTP Plug-in for Zowe CLI lets you access z/OS datasets, USS files, and submit JCL, leveraging the z/OS FTP service.'
-            homepage_url: 'https://github.com/zowe/zowe-cli-ftp-plugin#readme'
-            repo_url: 'https://github.com/zowe/zowe-cli-ftp-plugin'
+            description: The z/OS FTP Plug-in for Zowe CLI lets you access z/OS datasets, USS files, and submit JCL, leveraging the z/OS FTP service.
+            homepage_url: https://github.com/zowe/zowe-cli-ftp-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-ftp-plugin
             logo: zowe-zos-ftp-for-cli.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
           - item:
             name: Zowe CLI CICS Deploy plug-in (CLI ZOWE V1)
             description: Deploy applications developed on a workstation to IBM CICS Transaction Server for z/OS.
-            homepage_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
-            repo_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
+            homepage_url: https://github.com/IBM/zowe-cli-cics-deploy-plugin
+            repo_url: https://github.com/IBM/zowe-cli-cics-deploy-plugin
             logo: zowe-cli-cics-deploy.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: Zowe Secure Credential Store (CLI ZOWE V1)
             description: Zowe Secure Credential Store lets you store your credentials securely in the credential manager of your operating system.
-            homepage_url: 'https://github.com/zowe/zowe-cli-scs-plugin#readme'
-            repo_url: 'https://github.com/zowe/zowe-cli-scs-plugin'
+            homepage_url: https://github.com/zowe/zowe-cli-scs-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-scs-plugin
             logo: zowe-secure-credential-store.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
       - subcategory:
         name: API Mediation Layer 2019
@@ -740,116 +740,116 @@ landscape:
           - item:
             name: (E)JES Zowe REST API (API Mediation Layer 2019)
             description: The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer.
-            homepage_url: 'https://phoenixsoftware.com/ejes.htm#zowe'
+            homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
             logo: phoenix-software-international-ejes.svg
-            crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
             allow_duplicate_repo: true
           - item:
             name: CA File Master™ Plus (API Mediation Layer 2019)
-            homepage_url: 'https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/11-0/using-the-rest-api.html'
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/11-0/using-the-rest-api.html
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (API Mediation Layer 2019)
-            homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
-            repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            homepage_url: https://github.com/zowe/zowe-cli-mq-plugin
+            repo_url: https://github.com/zowe/zowe-cli-mq-plugin
             logo: ibm-mq-for-cli.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
           - item:
             name: IBM Z Workload Scheduler V 9.5.0.2 (API Mediation Layer 2019)
             description: >-
               Simplifies schedulers' and system administrators' tasks with new advanced automation features, enables integration of workload automation in
               hybrid cloud application through REST API and command line that can easily integrated in applications and scripting.
-            homepage_url: 'https://www.ibm.com/products/z-workload-scheduler'
+            homepage_url: https://www.ibm.com/products/z-workload-scheduler
             logo: ibm-z-workload-scheduler.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: IBM® Db2 DevOps Experience for z/OS (API Mediation Layer 2019)
             description: >-
               Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
               practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
-            homepage_url: 'https://www.ibm.com/products/db2-devops-experience'
+            homepage_url: https://www.ibm.com/products/db2-devops-experience
             logo: db2-devops-experience-for-zos.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: IBM® Z Netview (API Mediation Layer 2019)
-            description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
-            homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en'
+            description: A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control
+            homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en
             logo: ibm-z-netview.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
       - subcategory:
         name: App Framework 2019
         items:
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (App Framework 2019)
-            homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
-            repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            homepage_url: https://github.com/zowe/zowe-cli-mq-plugin
+            repo_url: https://github.com/zowe/zowe-cli-mq-plugin
             logo: ibm-mq-for-cli.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
           - item:
             name: IBM® Db2 DevOps Experience for z/OS (App Framework 2019)
             description: >-
               Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
               practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
-            homepage_url: 'https://www.ibm.com/products/db2-devops-experience'
+            homepage_url: https://www.ibm.com/products/db2-devops-experience
             logo: db2-devops-experience-for-zos.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: IBM® Service Automation Suite (App Framework 2019)
             description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
-            homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/5/897/ENUS219-085/index.html&request_locale=en'
+            homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/5/897/ENUS219-085/index.html&request_locale=en
             logo: service-automation-suite.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: IBM® Service Management Suite for z/OS (App Framework 2019)
             description: >-
               IBM® Service Management Suite is focused on delivering comprehensive management of your z/OS enterprise, encompassing monitoring, automation,
               network management, and asset discovery.
-            homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/897/ENUS217-270/index.html&request_locale=en'
+            homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/897/ENUS217-270/index.html&request_locale=en
             logo: service-management-suite-for-zos.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: IBM® Service Management Unite(SMU) (App Framework 2019)
             description: >-
               IBM® Service Management Unite(SMU) is a customizable service management user interface that provides dashboards to monitor and operate IBM Z
               environments. Zowe application plugin for SMU is provided to allow user to use SMU directly on Zowe Desktop.
-            homepage_url: 'https://www.ibm.com/products/service-management-unite'
+            homepage_url: https://www.ibm.com/products/service-management-unite
             logo: service-management-unite.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: IBM® Z Netview (App Framework 2019)
-            description: 'A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control'
-            homepage_url: 'https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en'
+            description: A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control
+            homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en
             logo: ibm-z-netview.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: Rocket™ BlueZone (App Framework 2019)
             description: >-
               Rocket BlueZone Web is a zero-footprint terminal emulator that delivers real-time access to enterprise applications. You can combine the
               capabilities in BlueZone with the power of the Zowe open source development framework using our BlueZone Web plug-in for Zowe.
-            homepage_url: 'https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-terminal-emulation'
+            homepage_url: https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-terminal-emulation
             logo: rocketsoftware-bluezone.svg
-            crunchbase: 'https://www.crunchbase.com/organization/rocket-software'
+            crunchbase: https://www.crunchbase.com/organization/rocket-software
             allow_duplicate_repo: true
       - subcategory:
         name: CLI 2019
@@ -857,10 +857,10 @@ landscape:
           - item:
             name: (E)JES Plug-in for Zowe CLI (CLI 2019)
             description: 'The (E)JES Plug-in for Zowe CLI uses the (E)JES Zowe REST API to provide command line functions to stream or search the mainframe system logs. '
-            homepage_url: 'https://phoenixsoftware.com/ejes.htm#zowe'
-            repo_url: 'https://github.com/phoenixsoftware/ejes-cli'
+            homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
+            repo_url: https://github.com/phoenixsoftware/ejes-cli
             logo: phoenix-software-international-ejes.svg
-            crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
             allow_duplicate_repo: true
           - item:
             name: CA Endevor® (CLI 2019)
@@ -871,7 +871,7 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-endevor-scm-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-endevor.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA File Master™ Plus (CLI 2019)
@@ -882,7 +882,7 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-file-master-plus.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA OPS/MVS® (CLI 2019)
@@ -893,15 +893,15 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-ca-ops-mvs.html
             stock_ticker: AVGO
             logo: ca-opsmvs.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA Secure Credential Store (CLI 2019)
             description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
-            homepage_url: 'https://github.com/zowe/zowe-cli-scs-plugin#readme'
+            homepage_url: https://github.com/zowe/zowe-cli-scs-plugin#readme
             stock_ticker: AVGO
             logo: ca-secure-credential-store.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA z/OS Extended Files (CLI 2019)
@@ -912,7 +912,7 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: CA z/OS Extended Jobs (CLI 2019)
@@ -923,76 +923,76 @@ landscape:
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: IBM MQ for z/OS Plug-in for Zowe CLI (CLI 2019)
-            homepage_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
-            repo_url: 'https://github.com/zowe/zowe-cli-mq-plugin'
+            homepage_url: https://github.com/zowe/zowe-cli-mq-plugin
+            repo_url: https://github.com/zowe/zowe-cli-mq-plugin
             logo: ibm-mq-for-cli.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
           - item:
             name: IBM Z Workload Scheduler V 9.5.0.2 (CLI 2019)
             description: >-
               Simplifies schedulers' and system administrators' tasks with new advanced automation features, enables integration of workload automation in
               hybrid cloud application through REST API and command line that can easily integrated in applications and scripting.
-            homepage_url: 'https://www.ibm.com/products/z-workload-scheduler'
+            homepage_url: https://www.ibm.com/products/z-workload-scheduler
             logo: ibm-z-workload-scheduler.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI (CLI 2019)
             description: IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS
-            homepage_url: 'https://github.com/zowe/zowe-cli-cics-plugin'
-            repo_url: 'https://github.com/zowe/zowe-cli-cics-plugin'
+            homepage_url: https://github.com/zowe/zowe-cli-cics-plugin
+            repo_url: https://github.com/zowe/zowe-cli-cics-plugin
             logo: ibm-cics-for-cli.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
           - item:
             name: IBM® Db2 DevOps Experience for z/OS (CLI 2019)
             description: >-
               Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
               practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
-            homepage_url: 'https://www.ibm.com/products/db2-devops-experience'
+            homepage_url: https://www.ibm.com/products/db2-devops-experience
             logo: db2-devops-experience-for-zos.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: IBM® Db2® Database Plug-in for Zowe CLI (CLI 2019)
             description: The IBM® Db2® Database Plug-in for ZoweTM CLI lets you interact with Db2 for z/OS to perform tasks through Zowe CLI.
-            homepage_url: 'https://github.com/zowe/zowe-cli-db2-plugin'
-            repo_url: 'https://github.com/zowe/zowe-cli-db2-plugin'
+            homepage_url: https://github.com/zowe/zowe-cli-db2-plugin
+            repo_url: https://github.com/zowe/zowe-cli-db2-plugin
             logo: ibm-db2-for-cli.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI (CLI 2019)
             description: A Zowe CLI Plug-in for administering z/OS Connect EE artifacts.
-            homepage_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
-            repo_url: 'https://github.com/zosconnect/zowe-cli-zosconnect-plugin'
+            homepage_url: https://github.com/zosconnect/zowe-cli-zosconnect-plugin
+            repo_url: https://github.com/zosconnect/zowe-cli-zosconnect-plugin
             logo: zos-connect-ee.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: Zowe CLI CICS Deploy plug-in (CLI 2019)
             description: Deploy applications developed on a workstation to IBM CICS Transaction Server for z/OS.
-            homepage_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
-            repo_url: 'https://github.com/IBM/zowe-cli-cics-deploy-plugin'
+            homepage_url: https://github.com/IBM/zowe-cli-cics-deploy-plugin
+            repo_url: https://github.com/IBM/zowe-cli-cics-deploy-plugin
             logo: zowe-cli-cics-deploy.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
           - item:
             name: Zowe Secure Credential Store (CLI 2019)
             description: Zowe Secure Credential Store lets you store your credentials securely in the default credential manager in your computer's operating system.
-            homepage_url: 'https://github.com/zowe/zowe-cli-scs-plugin#readme'
-            repo_url: 'https://github.com/zowe/zowe-cli-scs-plugin'
+            homepage_url: https://github.com/zowe/zowe-cli-scs-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-scs-plugin
             logo: zowe-secure-credential-store.svg
-            crunchbase: 'https://www.crunchbase.com/organization/open-mainframe-project'
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
   - category:
     name: Broad Open Source
@@ -1002,50 +1002,50 @@ landscape:
         items:
           - item:
             name: Apache Mesos
-            homepage_url: 'https://mesos.apache.org/'
-            repo_url: 'https://github.com/apache/mesos'
-            logo: 'https://landscape.cncf.io/logos/apache-mesos.svg'
-            twitter: 'https://twitter.com/ApacheMesos'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            homepage_url: https://mesos.apache.org/
+            repo_url: https://github.com/apache/mesos
+            logo: https://landscape.cncf.io/logos/apache-mesos.svg
+            twitter: https://twitter.com/ApacheMesos
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Apache Zookeeper
-            homepage_url: 'https://zookeeper.apache.org/'
-            repo_url: 'https://github.com/apache/zookeeper'
-            logo: 'https://landscape.cncf.io/logos/apache-zookeeper.svg'
-            twitter: 'https://twitter.com/ApacheZooKeeper'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            homepage_url: https://zookeeper.apache.org/
+            repo_url: https://github.com/apache/zookeeper
+            logo: https://landscape.cncf.io/logos/apache-zookeeper.svg
+            twitter: https://twitter.com/ApacheZooKeeper
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: etcd
-            homepage_url: 'https://github.com/etcd-io'
-            repo_url: 'https://github.com/etcd-io/etcd'
-            logo: 'https://landscape.cncf.io/logos/etcd.svg'
-            twitter: 'https://twitter.com/etcdio'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            homepage_url: https://github.com/etcd-io
+            repo_url: https://github.com/etcd-io/etcd
+            logo: https://landscape.cncf.io/logos/etcd.svg
+            twitter: https://twitter.com/etcdio
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: HAProxy
-            homepage_url: 'https://www.haproxy.com/'
-            repo_url: 'https://github.com/haproxy/haproxy'
-            logo: 'https://landscape.cncf.io/logos/ha-proxy.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/haproxy-technologies'
+            homepage_url: https://www.haproxy.com/
+            repo_url: https://github.com/haproxy/haproxy
+            logo: https://landscape.cncf.io/logos/ha-proxy.svg
+            crunchbase: https://www.crunchbase.com/organization/haproxy-technologies
           - item:
             name: NGINX
-            homepage_url: 'https://www.nginx.com/'
-            repo_url: 'https://github.com/nginx/nginx'
-            logo: 'https://landscape.cncf.io/logos/nginx.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/nginx'
+            homepage_url: https://www.nginx.com/
+            repo_url: https://github.com/nginx/nginx
+            logo: https://landscape.cncf.io/logos/nginx.svg
+            crunchbase: https://www.crunchbase.com/organization/nginx
           - item:
             name: Prometheus
-            homepage_url: 'https://prometheus.io/'
-            repo_url: 'https://github.com/prometheus/prometheus'
-            logo: 'https://landscape.cncf.io/logos/prometheus.svg'
-            twitter: 'https://twitter.com/PrometheusIO'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            homepage_url: https://prometheus.io/
+            repo_url: https://github.com/prometheus/prometheus
+            logo: https://landscape.cncf.io/logos/prometheus.svg
+            twitter: https://twitter.com/PrometheusIO
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: Zabbix
-            homepage_url: 'https://www.zabbix.com/'
-            repo_url: 'https://github.com/zabbix/zabbix'
-            logo: 'https://landscape.cncf.io/logos/zabbix.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/zabbix'
+            homepage_url: https://www.zabbix.com/
+            repo_url: https://github.com/zabbix/zabbix
+            logo: https://landscape.cncf.io/logos/zabbix.svg
+            crunchbase: https://www.crunchbase.com/organization/zabbix
       - subcategory:
         name: Cloud and Container Services
         items:
@@ -1055,611 +1055,611 @@ landscape:
               The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and
               Windows. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current
               HTTP standards.
-            homepage_url: 'https://httpd.apache.org/'
-            repo_url: 'https://github.com/apache/httpd'
+            homepage_url: https://httpd.apache.org/
+            repo_url: https://github.com/apache/httpd
             logo: Apache_HTTP_server_logo_(2016).svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Cloud Foundry
             description: >-
               Cloud Foundry makes it faster and easier to build, test, deploy and scale applications, providing a choice of clouds, developer frameworks, and
               application services. It is an open source project and is available through a variety of private cloud distributions and public cloud instances.
-            homepage_url: 'https://www.cloudfoundry.org/'
-            repo_url: 'https://github.com/cloudfoundry/bosh'
+            homepage_url: https://www.cloudfoundry.org/
+            repo_url: https://github.com/cloudfoundry/bosh
             logo: cloudfoundry.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
+            crunchbase: https://www.crunchbase.com/organization/cloud-foundry
           - item:
             name: Docker
-            homepage_url: 'https://www.docker.com/products/container-runtime'
-            repo_url: 'https://github.com/docker/docker-ce'
-            logo: 'https://landscape.cncf.io/logos/docker-member.svg'
-            twitter: 'https://twitter.com/moby'
-            crunchbase: 'https://www.crunchbase.com/organization/docker'
+            homepage_url: https://www.docker.com/products/container-runtime
+            repo_url: https://github.com/docker/docker-ce
+            logo: https://landscape.cncf.io/logos/docker-member.svg
+            twitter: https://twitter.com/moby
+            crunchbase: https://www.crunchbase.com/organization/docker
           - item:
             name: Docker Compose
-            homepage_url: 'https://docs.docker.com/compose/'
-            repo_url: 'https://github.com/docker/compose'
-            logo: 'https://landscape.cncf.io/logos/docker-compose.svg'
-            twitter: 'https://twitter.com/moby'
-            crunchbase: 'https://www.crunchbase.com/organization/docker'
+            homepage_url: https://docs.docker.com/compose/
+            repo_url: https://github.com/docker/compose
+            logo: https://landscape.cncf.io/logos/docker-compose.svg
+            twitter: https://twitter.com/moby
+            crunchbase: https://www.crunchbase.com/organization/docker
           - item:
             name: Eigen
             description: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
-            homepage_url: 'http://eigen.tuxfamily.org/index.php?title=Main_Page'
-            repo_url: 'https://github.com/eigenteam/eigen-git-mirror'
+            homepage_url: http://eigen.tuxfamily.org/index.php?title=Main_Page
+            repo_url: https://github.com/eigenteam/eigen-git-mirror
             logo: eigen.svg
-            crunchbase: 'https://www.crunchbase.com/organization/inria'
+            crunchbase: https://www.crunchbase.com/organization/inria
           - item:
             name: Helm
-            homepage_url: 'https://helm.sh/'
-            repo_url: 'https://github.com/helm/helm'
-            logo: 'https://landscape.cncf.io/logos/helm.svg'
-            twitter: 'https://twitter.com/helmpack'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            homepage_url: https://helm.sh/
+            repo_url: https://github.com/helm/helm
+            logo: https://landscape.cncf.io/logos/helm.svg
+            twitter: https://twitter.com/helmpack
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: istio
-            homepage_url: 'https://istio.io/'
-            repo_url: 'https://github.com/istio/istio'
+            homepage_url: https://istio.io/
+            repo_url: https://github.com/istio/istio
             logo: istio.svg
-            crunchbase: 'https://www.crunchbase.com/organization/istio'
+            crunchbase: https://www.crunchbase.com/organization/istio
           - item:
             name: Kata Containers
-            homepage_url: 'https://katacontainers.io/'
-            repo_url: 'https://github.com/kata-containers/runtime'
-            logo: 'https://landscape.cncf.io/logos/kata-containers.svg'
-            twitter: 'https://twitter.com/KataContainers'
-            crunchbase: 'https://www.crunchbase.com/organization/openstack'
+            homepage_url: https://katacontainers.io/
+            repo_url: https://github.com/kata-containers/runtime
+            logo: https://landscape.cncf.io/logos/kata-containers.svg
+            twitter: https://twitter.com/KataContainers
+            crunchbase: https://www.crunchbase.com/organization/openstack
           - item:
             name: Kubernetes
-            description: 'Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications'
-            homepage_url: 'https://kubernetes.io/'
-            repo_url: 'https://github.com/kubernetes/kubernetes'
-            logo: 'https://landscape.cncf.io/logos/kubernetes.svg'
-            twitter: 'https://twitter.com/kubernetesio'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            description: Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications
+            homepage_url: https://kubernetes.io/
+            repo_url: https://github.com/kubernetes/kubernetes
+            logo: https://landscape.cncf.io/logos/kubernetes.svg
+            twitter: https://twitter.com/kubernetesio
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: lxd
-            homepage_url: 'https://linuxcontainers.org/lxd/'
-            repo_url: 'https://github.com/lxc/lxd'
-            logo: 'https://landscape.cncf.io/logos/lxd.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
+            homepage_url: https://linuxcontainers.org/lxd/
+            repo_url: https://github.com/lxc/lxd
+            logo: https://landscape.cncf.io/logos/lxd.svg
+            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
           - item:
             name: minikube
-            homepage_url: 'https://minikube.sigs.k8s.io/'
-            repo_url: 'https://github.com/kubernetes/minikube'
+            homepage_url: https://minikube.sigs.k8s.io/
+            repo_url: https://github.com/kubernetes/minikube
             logo: minikube.svg
-            twitter: 'https://twitter.com/kubernetesio'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            twitter: https://twitter.com/kubernetesio
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: OKD
-            homepage_url: 'https://www.okd.io/'
-            repo_url: 'https://github.com/openshift/okd'
+            homepage_url: https://www.okd.io/
+            repo_url: https://github.com/openshift/okd
             logo: okd.svg
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            crunchbase: https://www.crunchbase.com/organization/red-hat
           - item:
             name: OpenStack
-            homepage_url: 'https://www.openstack.org/'
-            repo_url: 'https://github.com/openstack/openstack'
-            url_for_bestpractices: 'https://github.com/openstack'
-            logo: 'https://landscape.cncf.io/logos/open-stack.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/openstack'
+            homepage_url: https://www.openstack.org/
+            repo_url: https://github.com/openstack/openstack
+            url_for_bestpractices: https://github.com/openstack
+            logo: https://landscape.cncf.io/logos/open-stack.svg
+            crunchbase: https://www.crunchbase.com/organization/openstack
           - item:
             name: Podman
-            homepage_url: 'https://podman.io/'
-            repo_url: 'https://github.com/containers/podman'
-            logo: 'https://landscape.cncf.io/logos/podman.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            homepage_url: https://podman.io/
+            repo_url: https://github.com/containers/podman
+            logo: https://landscape.cncf.io/logos/podman.svg
+            crunchbase: https://www.crunchbase.com/organization/red-hat
           - item:
             name: Red Hat OpenShift
             description: Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise.
-            homepage_url: 'https://www.openshift.com/'
-            repo_url: 'https://github.com/openshift/origin'
-            logo: 'https://landscape.cncf.io/logos/red-hat-open-shift.svg'
-            twitter: 'https://twitter.com/openshift'
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            homepage_url: https://www.openshift.com/
+            repo_url: https://github.com/openshift/origin
+            logo: https://landscape.cncf.io/logos/red-hat-open-shift.svg
+            twitter: https://twitter.com/openshift
+            crunchbase: https://www.crunchbase.com/organization/red-hat
           - item:
             name: sysdig
-            description: 'sysdig is a simple tool with deep system visibility for exploration and troubleshooting, with native support for containers.'
-            homepage_url: 'https://sysdig.com/opensource/'
-            repo_url: 'https://github.com/draios/sysdig'
-            logo: 'https://landscape.cncf.io/logos/sysdig.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/sysdig'
+            description: sysdig is a simple tool with deep system visibility for exploration and troubleshooting, with native support for containers.
+            homepage_url: https://sysdig.com/opensource/
+            repo_url: https://github.com/draios/sysdig
+            logo: https://landscape.cncf.io/logos/sysdig.svg
+            crunchbase: https://www.crunchbase.com/organization/sysdig
           - item:
             name: Terraform
-            homepage_url: 'https://www.terraform.io/'
-            repo_url: 'https://github.com/hashicorp/terraform'
-            logo: 'https://landscape.cncf.io/logos/terraform.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
+            homepage_url: https://www.terraform.io/
+            repo_url: https://github.com/hashicorp/terraform
+            logo: https://landscape.cncf.io/logos/terraform.svg
+            crunchbase: https://www.crunchbase.com/organization/hashicorp
       - subcategory:
         name: Languages and Runtimes
         items:
           - item:
             name: Apache Groovy
-            homepage_url: 'https://groovy-lang.org/'
-            repo_url: 'https://github.com/apache/groovy'
+            homepage_url: https://groovy-lang.org/
+            repo_url: https://github.com/apache/groovy
             logo: groovy.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Apache Tomcat
-            homepage_url: 'https://tomcat.apache.org/'
-            repo_url: 'https://github.com/apache/tomcat'
+            homepage_url: https://tomcat.apache.org/
+            repo_url: https://github.com/apache/tomcat
             logo: tomcat.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Clojure
-            homepage_url: 'https://clojure.org/'
-            repo_url: 'https://github.com/clojure/clojure'
+            homepage_url: https://clojure.org/
+            repo_url: https://github.com/clojure/clojure
             logo: clojure.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cognitect-inc'
+            crunchbase: https://www.crunchbase.com/organization/cognitect-inc
           - item:
             name: Eclipse OpenJ9
-            homepage_url: 'http://www.eclipse.org/openj9'
-            repo_url: 'https://github.com/eclipse/openj9'
+            homepage_url: http://www.eclipse.org/openj9
+            repo_url: https://github.com/eclipse/openj9
             logo: openj9.svg
-            crunchbase: 'https://www.crunchbase.com/organization/eclipse-foundation'
+            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
           - item:
             name: Erlang
-            homepage_url: 'https://www.erlang.org/'
-            repo_url: 'https://github.com/erlang/otp'
+            homepage_url: https://www.erlang.org/
+            repo_url: https://github.com/erlang/otp
             logo: erlang.svg
-            crunchbase: 'https://www.crunchbase.com/organization/erlang'
+            crunchbase: https://www.crunchbase.com/organization/erlang
           - item:
             name: GNU Compiler Collection
             description: GCC is the system compiler for Linux.
-            homepage_url: 'https://gcc.gnu.org/'
-            repo_url: 'https://github.com/gcc-mirror/gcc'
+            homepage_url: https://gcc.gnu.org/
+            repo_url: https://github.com/gcc-mirror/gcc
             logo: GCC.svg
-            twitter: 'https://twitter.com/gnutools'
-            crunchbase: 'https://www.crunchbase.com/organization/free-software-foundation'
+            twitter: https://twitter.com/gnutools
+            crunchbase: https://www.crunchbase.com/organization/free-software-foundation
           - item:
             name: Go
-            homepage_url: 'https://golang.org/'
-            repo_url: 'https://github.com/golang/go'
+            homepage_url: https://golang.org/
+            repo_url: https://github.com/golang/go
             logo: go.svg
-            crunchbase: 'https://www.crunchbase.com/organization/the-go-programming-language'
+            crunchbase: https://www.crunchbase.com/organization/the-go-programming-language
           - item:
             name: Hyperledger Fabric
-            homepage_url: 'https://www.hyperledger.org/use/fabric'
-            repo_url: 'https://github.com/hyperledger/fabric'
+            homepage_url: https://www.hyperledger.org/use/fabric
+            repo_url: https://github.com/hyperledger/fabric
             logo: hyperledger-fabric.svg
-            crunchbase: 'https://www.crunchbase.com/organization/hyperledger-2'
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
             name: LLVM
             description: The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.
-            homepage_url: 'https://llvm.org/'
-            repo_url: 'https://github.com/llvm/llvm-project'
+            homepage_url: https://llvm.org/
+            repo_url: https://github.com/llvm/llvm-project
             logo: LLVM.svg
-            crunchbase: 'https://www.crunchbase.com/organization/llvm-foundation'
+            crunchbase: https://www.crunchbase.com/organization/llvm-foundation
           - item:
             name: LuaJIT
             description: >-
               LuaJIT is a Just-In-Time Compiler (JIT) for the Lua programming language. Lua is a powerful, dynamic and light-weight programming language. It may
               be embedded or used as a general-purpose, stand-alone language.
-            homepage_url: 'http://luajit.org/'
-            repo_url: 'https://github.com/moonjit/moonjit'
+            homepage_url: http://luajit.org/
+            repo_url: https://github.com/moonjit/moonjit
             logo: luajit.svg
-            crunchbase: 'https://www.crunchbase.com/organization/linaro'
+            crunchbase: https://www.crunchbase.com/organization/linaro
           - item:
             name: Node.js
-            homepage_url: 'https://nodejs.org/en/'
-            repo_url: 'https://github.com/nodejs/node'
-            logo: 'https://raw.githubusercontent.com/openjs-foundation/artwork/master/projects/nodejs/nodejs-logo-color.svg'
-            twitter: 'https://twitter.com/nodejs'
-            crunchbase: 'https://www.crunchbase.com/organization/open-js-foundation'
+            homepage_url: https://nodejs.org/en/
+            repo_url: https://github.com/nodejs/node
+            logo: https://raw.githubusercontent.com/openjs-foundation/artwork/master/projects/nodejs/nodejs-logo-color.svg
+            twitter: https://twitter.com/nodejs
+            crunchbase: https://www.crunchbase.com/organization/open-js-foundation
           - item:
             name: OCaml
-            homepage_url: 'https://ocaml.org/'
-            repo_url: 'https://github.com/ocaml/ocaml'
-            logo: 'http://ocaml.org/logo/Colour/SVG/colour-logo.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/ocaml'
+            homepage_url: https://ocaml.org/
+            repo_url: https://github.com/ocaml/ocaml
+            logo: http://ocaml.org/logo/Colour/SVG/colour-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/ocaml
           - item:
             name: Open Liberty
-            homepage_url: 'https://openliberty.io'
-            repo_url: 'https://github.com/OpenLiberty/open-liberty'
+            homepage_url: https://openliberty.io
+            repo_url: https://github.com/OpenLiberty/open-liberty
             logo: open-liberty.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: OpenBLAS
             description: OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.
-            homepage_url: 'https://www.openblas.net/'
-            repo_url: 'https://github.com/xianyi/OpenBLAS'
+            homepage_url: https://www.openblas.net/
+            repo_url: https://github.com/xianyi/OpenBLAS
             logo: openblas.svg
-            crunchbase: 'https://www.crunchbase.com/organization/openblas'
+            crunchbase: https://www.crunchbase.com/organization/openblas
           - item:
             name: OpenJDK
-            homepage_url: 'https://jdk.java.net/'
-            repo_url: 'https://github.com/openjdk/jdk'
+            homepage_url: https://jdk.java.net/
+            repo_url: https://github.com/openjdk/jdk
             logo: openjdk.svg
-            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+            crunchbase: https://www.crunchbase.com/organization/oracle
           - item:
             name: PHP
-            homepage_url: 'https://www.php.net/'
-            repo_url: 'https://github.com/php/php-src'
+            homepage_url: https://www.php.net/
+            repo_url: https://github.com/php/php-src
             logo: php.svg
-            crunchbase: 'https://www.crunchbase.com/organization/php'
+            crunchbase: https://www.crunchbase.com/organization/php
           - item:
             name: PyPy
-            homepage_url: 'https://www.pypy.org/'
-            repo_url: 'https://github.com/mozillazg/pypy'
+            homepage_url: https://www.pypy.org/
+            repo_url: https://github.com/mozillazg/pypy
             logo: pypy.svg
-            crunchbase: 'https://www.crunchbase.com/organization/university-of-applied-sciences-dusseldorf'
+            crunchbase: https://www.crunchbase.com/organization/university-of-applied-sciences-dusseldorf
           - item:
             name: Python
-            homepage_url: 'https://www.python.org/'
-            repo_url: 'https://github.com/python/cpython'
+            homepage_url: https://www.python.org/
+            repo_url: https://github.com/python/cpython
             logo: python.svg
-            crunchbase: 'https://www.crunchbase.com/organization/python-software-foundation'
+            crunchbase: https://www.crunchbase.com/organization/python-software-foundation
           - item:
             name: R
-            homepage_url: 'https://www.r-project.org/'
-            repo_url: 'https://github.com/wch/r-source'
+            homepage_url: https://www.r-project.org/
+            repo_url: https://github.com/wch/r-source
             logo: r.svg
-            crunchbase: 'https://www.crunchbase.com/organization/the-r-foundation'
+            crunchbase: https://www.crunchbase.com/organization/the-r-foundation
           - item:
             name: Ruby
-            homepage_url: 'https://www.ruby-lang.org/'
-            repo_url: 'https://github.com/ruby/ruby'
+            homepage_url: https://www.ruby-lang.org/
+            repo_url: https://github.com/ruby/ruby
             logo: ruby.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ruby'
+            crunchbase: https://www.crunchbase.com/organization/ruby
           - item:
             name: Ruby on Rails
-            homepage_url: 'https://rubyonrails.org/'
-            repo_url: 'https://github.com/rails/rails'
+            homepage_url: https://rubyonrails.org/
+            repo_url: https://github.com/rails/rails
             logo: rails.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ruby-on-rails'
+            crunchbase: https://www.crunchbase.com/organization/ruby-on-rails
           - item:
             name: Scala
-            homepage_url: 'https://www.scala-lang.org/'
-            repo_url: 'https://github.com/scala/scala'
+            homepage_url: https://www.scala-lang.org/
+            repo_url: https://github.com/scala/scala
             logo: scala.svg
-            crunchbase: 'https://www.crunchbase.com/organization/scala-2'
+            crunchbase: https://www.crunchbase.com/organization/scala-2
           - item:
             name: TensorFlow
-            homepage_url: 'https://www.tensorflow.org/'
-            repo_url: 'https://github.com/tensorflow/tensorflow'
+            homepage_url: https://www.tensorflow.org/
+            repo_url: https://github.com/tensorflow/tensorflow
             logo: tensorflow.svg
-            crunchbase: 'https://www.crunchbase.com/organization/tensorflow'
+            crunchbase: https://www.crunchbase.com/organization/tensorflow
           - item:
             name: WildFly
-            homepage_url: 'https://www.wildfly.org/'
-            repo_url: 'https://github.com/wildfly/wildfly'
+            homepage_url: https://www.wildfly.org/
+            repo_url: https://github.com/wildfly/wildfly
             logo: wildfly.svg
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            crunchbase: https://www.crunchbase.com/organization/red-hat
       - subcategory:
         name: Devops and Automation
         items:
           - item:
             name: Ansible
-            homepage_url: 'https://www.ansible.com/'
-            repo_url: 'https://github.com/ansible/ansible'
-            logo: 'https://landscape.cd.foundation/logos/ansible.svg'
-            twitter: 'https://twitter.com/ansible'
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            homepage_url: https://www.ansible.com/
+            repo_url: https://github.com/ansible/ansible
+            logo: https://landscape.cd.foundation/logos/ansible.svg
+            twitter: https://twitter.com/ansible
+            crunchbase: https://www.crunchbase.com/organization/red-hat
           - item:
             name: ANTLR
-            homepage_url: 'https://www.antlr.org/'
-            repo_url: 'https://github.com/antlr/antlr4'
+            homepage_url: https://www.antlr.org/
+            repo_url: https://github.com/antlr/antlr4
             logo: antlr.svg
-            crunchbase: 'https://www.crunchbase.com/organization/university-of-san-francisco'
+            crunchbase: https://www.crunchbase.com/organization/university-of-san-francisco
           - item:
             name: Apache JMeter
-            homepage_url: 'https://jmeter.apache.org/'
-            repo_url: 'https://github.com/apache/jmeter'
+            homepage_url: https://jmeter.apache.org/
+            repo_url: https://github.com/apache/jmeter
             logo: jmeter.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Apache Maven
-            homepage_url: 'https://maven.apache.org/'
-            repo_url: 'https://github.com/apache/maven'
+            homepage_url: https://maven.apache.org/
+            repo_url: https://github.com/apache/maven
             logo: maven.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Chef
-            homepage_url: 'https://www.chef.io/'
-            repo_url: 'https://github.com/chef/chef'
-            logo: 'https://landscape.cd.foundation/logos/chef.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/chef'
+            homepage_url: https://www.chef.io/
+            repo_url: https://github.com/chef/chef
+            logo: https://landscape.cd.foundation/logos/chef.svg
+            crunchbase: https://www.crunchbase.com/organization/chef
           - item:
             name: GitLab
-            homepage_url: 'https://about.gitlab.com/'
-            repo_url: 'https://github.com/gitlabhq/gitlabhq'
-            url_for_bestpractices: 'https://gitlab.com/gitlab-org/gitlab-ce'
-            logo: 'https://landscape.cncf.io/logos/git-lab.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
+            homepage_url: https://about.gitlab.com/
+            repo_url: https://github.com/gitlabhq/gitlabhq
+            url_for_bestpractices: https://gitlab.com/gitlab-org/gitlab-ce
+            logo: https://landscape.cncf.io/logos/git-lab.svg
+            crunchbase: https://www.crunchbase.com/organization/gitlab-com
           - item:
             name: Gradle
-            homepage_url: 'https://gradle.org/'
-            repo_url: 'https://github.com/gradle/gradle'
+            homepage_url: https://gradle.org/
+            repo_url: https://github.com/gradle/gradle
             logo: gradle.svg
-            crunchbase: 'https://www.crunchbase.com/organization/gradle'
+            crunchbase: https://www.crunchbase.com/organization/gradle
           - item:
             name: Jenkins
-            homepage_url: 'https://jenkins.io/'
-            repo_url: 'https://github.com/jenkinsci/jenkins'
-            logo: 'https://landscape.cd.foundation/logos/jenkins.svg'
-            twitter: 'https://twitter.com/jenkinsci'
-            crunchbase: 'https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf'
+            homepage_url: https://jenkins.io/
+            repo_url: https://github.com/jenkinsci/jenkins
+            logo: https://landscape.cd.foundation/logos/jenkins.svg
+            twitter: https://twitter.com/jenkinsci
+            crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
           - item:
             name: Puppet
-            homepage_url: 'https://puppet.com/'
-            repo_url: 'https://github.com/puppetlabs/puppet'
-            logo: 'https://landscape.cncf.io/logos/puppet.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/puppet-labs'
+            homepage_url: https://puppet.com/
+            repo_url: https://github.com/puppetlabs/puppet
+            logo: https://landscape.cncf.io/logos/puppet.svg
+            crunchbase: https://www.crunchbase.com/organization/puppet-labs
           - item:
             name: SaltStack
-            homepage_url: 'https://www.saltstack.com/'
-            repo_url: 'https://github.com/saltstack/salt'
-            logo: 'https://landscape.cncf.io/logos/salt-stack.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/saltstack'
+            homepage_url: https://www.saltstack.com/
+            repo_url: https://github.com/saltstack/salt
+            logo: https://landscape.cncf.io/logos/salt-stack.svg
+            crunchbase: https://www.crunchbase.com/organization/saltstack
           - item:
             name: SonarCube
-            homepage_url: 'https://www.sonarqube.org/'
-            repo_url: 'https://github.com/SonarSource/sonarqube'
+            homepage_url: https://www.sonarqube.org/
+            repo_url: https://github.com/SonarSource/sonarqube
             logo: sonarcube.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sonarsource'
+            crunchbase: https://www.crunchbase.com/organization/sonarsource
           - item:
             name: Travis CI
-            homepage_url: 'https://travis-ci.org/'
-            logo: 'https://landscape.cd.foundation/logos/travis-ci.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/travis-ci'
+            homepage_url: https://travis-ci.org/
+            logo: https://landscape.cd.foundation/logos/travis-ci.svg
+            crunchbase: https://www.crunchbase.com/organization/travis-ci
       - subcategory:
         name: Middleware
         items:
           - item:
             name: Apache ActiveMQ
-            homepage_url: 'https://activemq.apache.org/'
-            repo_url: 'https://github.com/apache/activemq'
+            homepage_url: https://activemq.apache.org/
+            repo_url: https://github.com/apache/activemq
             logo: activemq.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Apache Camel K
-            homepage_url: 'https://camel.apache.org'
-            repo_url: 'https://github.com/apache/camel-k'
-            logo: 'https://svn.apache.org/repos/asf/comdev/project-logos/originals/camel-1.svg'
-            twitter: 'https://twitter.com/apachecamel'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            homepage_url: https://camel.apache.org
+            repo_url: https://github.com/apache/camel-k
+            logo: https://svn.apache.org/repos/asf/comdev/project-logos/originals/camel-1.svg
+            twitter: https://twitter.com/apachecamel
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Apache Geode
-            homepage_url: 'https://geode.apache.org/'
-            repo_url: 'https://github.com/apache/geode'
+            homepage_url: https://geode.apache.org/
+            repo_url: https://github.com/apache/geode
             logo: geode.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Eclipse Mosquitto™
-            homepage_url: 'https://mosquitto.org/'
-            repo_url: 'https://github.com/eclipse/mosquitto'
-            logo: 'https://raw.githubusercontent.com/eclipse/mosquitto/master/logo/mosquitto-text-below.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/eclipse-foundation'
+            homepage_url: https://mosquitto.org/
+            repo_url: https://github.com/eclipse/mosquitto
+            logo: https://raw.githubusercontent.com/eclipse/mosquitto/master/logo/mosquitto-text-below.svg
+            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
           - item:
             name: Hibernate
-            homepage_url: 'http://hibernate.org/'
-            repo_url: 'https://github.com/hibernate/hibernate-orm'
+            homepage_url: http://hibernate.org/
+            repo_url: https://github.com/hibernate/hibernate-orm
             logo: hibernate.svg
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            crunchbase: https://www.crunchbase.com/organization/red-hat
           - item:
             name: MuleSoft
-            homepage_url: 'https://www.mulesoft.com/'
-            repo_url: 'https://github.com/mulesoft/mule'
-            logo: 'https://landscape.cncf.io/logos/mule-soft.svg'
-            twitter: 'https://twitter.com/mulesoft'
-            crunchbase: 'https://www.crunchbase.com/organization/salesforce'
+            homepage_url: https://www.mulesoft.com/
+            repo_url: https://github.com/mulesoft/mule
+            logo: https://landscape.cncf.io/logos/mule-soft.svg
+            twitter: https://twitter.com/mulesoft
+            crunchbase: https://www.crunchbase.com/organization/salesforce
           - item:
             name: RabbitMQ
-            homepage_url: 'https://www.rabbitmq.com/'
-            repo_url: 'https://github.com/rabbitmq/rabbitmq-server'
-            logo: 'https://landscape.cncf.io/logos/rabbit-mq.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/rabbit-technologies'
+            homepage_url: https://www.rabbitmq.com/
+            repo_url: https://github.com/rabbitmq/rabbitmq-server
+            logo: https://landscape.cncf.io/logos/rabbit-mq.svg
+            crunchbase: https://www.crunchbase.com/organization/rabbit-technologies
       - subcategory:
-        name: 'Big Data, Observability, Analytics'
+        name: Big Data, Observability, Analytics
         items:
           - item:
             name: Apache Flink
-            homepage_url: 'https://flink.apache.org/'
-            repo_url: 'https://github.com/apache/flink'
-            logo: 'https://landscape.lfai.foundation/logos/flink.svg'
-            twitter: 'https://twitter.com/ApacheFlink'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            homepage_url: https://flink.apache.org/
+            repo_url: https://github.com/apache/flink
+            logo: https://landscape.lfai.foundation/logos/flink.svg
+            twitter: https://twitter.com/ApacheFlink
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Apache Ignite
-            homepage_url: 'https://ignite.apache.org'
-            repo_url: 'https://github.com/apache/ignite'
-            logo: 'https://landscape.cncf.io/logos/apache-ignite.svg'
-            twitter: 'https://twitter.com/ApacheIgnite'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            homepage_url: https://ignite.apache.org
+            repo_url: https://github.com/apache/ignite
+            logo: https://landscape.cncf.io/logos/apache-ignite.svg
+            twitter: https://twitter.com/ApacheIgnite
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Apache Kafka
-            homepage_url: 'https://kafka.apache.org/'
-            repo_url: 'https://github.com/apache/kafka'
-            logo: 'https://landscape.cncf.io/logos/kafka.svg'
-            twitter: 'https://twitter.com/apachekafka'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            homepage_url: https://kafka.apache.org/
+            repo_url: https://github.com/apache/kafka
+            logo: https://landscape.cncf.io/logos/kafka.svg
+            twitter: https://twitter.com/apachekafka
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Apache Spark
-            homepage_url: 'https://spark.apache.org'
-            repo_url: 'https://github.com/apache/spark'
+            homepage_url: https://spark.apache.org
+            repo_url: https://github.com/apache/spark
             logo: spark.svg
             twitter: null
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Elastic
-            homepage_url: 'https://www.elastic.co/'
-            repo_url: 'https://github.com/elastic/elasticsearch'
-            logo: 'https://landscape.cncf.io/logos/elastic.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/elasticsearch'
+            homepage_url: https://www.elastic.co/
+            repo_url: https://github.com/elastic/elasticsearch
+            logo: https://landscape.cncf.io/logos/elastic.svg
+            crunchbase: https://www.crunchbase.com/organization/elasticsearch
           - item:
             name: Fluentd
-            homepage_url: 'https://www.fluentd.org/'
-            repo_url: 'https://github.com/fluent/fluentd'
-            logo: 'https://landscape.cncf.io/logos/fluentd.svg'
-            twitter: 'https://twitter.com/fluentd'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+            homepage_url: https://www.fluentd.org/
+            repo_url: https://github.com/fluent/fluentd
+            logo: https://landscape.cncf.io/logos/fluentd.svg
+            twitter: https://twitter.com/fluentd
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: Grafana
-            homepage_url: 'https://grafana.com/'
-            repo_url: 'https://github.com/grafana/grafana'
-            logo: 'https://landscape.cncf.io/logos/grafana.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/raintank'
+            homepage_url: https://grafana.com/
+            repo_url: https://github.com/grafana/grafana
+            logo: https://landscape.cncf.io/logos/grafana.svg
+            crunchbase: https://www.crunchbase.com/organization/raintank
           - item:
             name: Kibana
-            homepage_url: 'https://www.elastic.co/kibana'
-            repo_url: 'https://github.com/elastic/kibana'
+            homepage_url: https://www.elastic.co/kibana
+            repo_url: https://github.com/elastic/kibana
             logo: kibana.svg
-            crunchbase: 'https://www.crunchbase.com/organization/elasticsearch'
+            crunchbase: https://www.crunchbase.com/organization/elasticsearch
           - item:
             name: Logstash
-            homepage_url: 'https://www.elastic.co/logstash'
-            repo_url: 'https://github.com/elastic/logstash'
-            logo: 'https://landscape.cncf.io/logos/logstash.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/elasticsearch'
+            homepage_url: https://www.elastic.co/logstash
+            repo_url: https://github.com/elastic/logstash
+            logo: https://landscape.cncf.io/logos/logstash.svg
+            crunchbase: https://www.crunchbase.com/organization/elasticsearch
           - item:
             name: Lucene
-            homepage_url: 'https://lucene.apache.org/'
-            repo_url: 'https://github.com/apache/lucene-solr'
+            homepage_url: https://lucene.apache.org/
+            repo_url: https://github.com/apache/lucene-solr
             logo: lucenesolr.svg
             twitter: null
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Splunk
-            homepage_url: 'https://www.splunk.com/'
-            logo: 'https://landscape.cncf.io/logos/splunk.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/splunk'
+            homepage_url: https://www.splunk.com/
+            logo: https://landscape.cncf.io/logos/splunk.svg
+            crunchbase: https://www.crunchbase.com/organization/splunk
       - subcategory:
         name: Databases
         items:
           - item:
             name: Apache CouchDB
-            homepage_url: 'https://couchdb.apache.org/'
-            repo_url: 'https://github.com/apache/couchdb'
+            homepage_url: https://couchdb.apache.org/
+            repo_url: https://github.com/apache/couchdb
             logo: couchdb.svg
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Cassandra
-            homepage_url: 'https://cassandra.apache.org/'
-            repo_url: 'https://github.com/apache/cassandra'
-            logo: 'https://landscape.cncf.io/logos/cassandra.svg'
-            twitter: 'https://twitter.com/cassandra'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            homepage_url: https://cassandra.apache.org/
+            repo_url: https://github.com/apache/cassandra
+            logo: https://landscape.cncf.io/logos/cassandra.svg
+            twitter: https://twitter.com/cassandra
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Couchbase
-            homepage_url: 'https://www.couchbase.com/'
-            repo_url: 'https://github.com/couchbase/manifest'
-            logo: 'https://landscape.cncf.io/logos/couchbase.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/couchbase'
+            homepage_url: https://www.couchbase.com/
+            repo_url: https://github.com/couchbase/manifest
+            logo: https://landscape.cncf.io/logos/couchbase.svg
+            crunchbase: https://www.crunchbase.com/organization/couchbase
           - item:
             name: MariaDB
-            homepage_url: 'https://mariadb.com/'
-            repo_url: 'https://github.com/MariaDB/server'
-            logo: 'https://landscape.cncf.io/logos/maria-db.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/mariadb-2'
+            homepage_url: https://mariadb.com/
+            repo_url: https://github.com/MariaDB/server
+            logo: https://landscape.cncf.io/logos/maria-db.svg
+            crunchbase: https://www.crunchbase.com/organization/mariadb-2
           - item:
             name: MongoDB
-            homepage_url: 'https://www.mongodb.com/'
-            repo_url: 'https://github.com/mongodb/mongo'
-            logo: 'https://landscape.cncf.io/logos/mongo-db.svg'
+            homepage_url: https://www.mongodb.com/
+            repo_url: https://github.com/mongodb/mongo
+            logo: https://landscape.cncf.io/logos/mongo-db.svg
             open_source: false
-            crunchbase: 'https://www.crunchbase.com/organization/mongodb-inc'
+            crunchbase: https://www.crunchbase.com/organization/mongodb-inc
           - item:
             name: MySQL
-            homepage_url: 'https://www.oracle.com/mysql/'
-            repo_url: 'https://github.com/mysql/mysql-server'
-            logo: 'https://landscape.cncf.io/logos/my-sql.svg'
-            twitter: 'https://twitter.com/mysql'
-            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+            homepage_url: https://www.oracle.com/mysql/
+            repo_url: https://github.com/mysql/mysql-server
+            logo: https://landscape.cncf.io/logos/my-sql.svg
+            twitter: https://twitter.com/mysql
+            crunchbase: https://www.crunchbase.com/organization/oracle
           - item:
             name: PostgreSQL
             description: >-
               PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong
               reputation for reliability, feature robustness, and performance.
-            homepage_url: 'https://www.postgresql.org/'
-            repo_url: 'https://github.com/postgres/postgres'
-            url_for_bestpractices: 'https://git.postgresql.org/git/postgresql.git'
+            homepage_url: https://www.postgresql.org/
+            repo_url: https://github.com/postgres/postgres
+            url_for_bestpractices: https://git.postgresql.org/git/postgresql.git
             logo: postgresql.svg
-            crunchbase: 'https://www.crunchbase.com/organization/postgresql'
+            crunchbase: https://www.crunchbase.com/organization/postgresql
           - item:
             name: Redis
-            homepage_url: 'https://redis.io/'
-            repo_url: 'https://github.com/redis/redis'
-            logo: 'https://landscape.cncf.io/logos/redis.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/redis-labs'
+            homepage_url: https://redis.io/
+            repo_url: https://github.com/redis/redis
+            logo: https://landscape.cncf.io/logos/redis.svg
+            crunchbase: https://www.crunchbase.com/organization/redis-labs
           - item:
             name: RethinkDB
-            homepage_url: 'https://rethinkdb.com/'
-            repo_url: 'https://github.com/rethinkdb/rethinkdb'
-            logo: 'https://landscape.cncf.io/logos/rethink-db.svg'
-            twitter: 'https://twitter.com/rethinkdb'
-            crunchbase: 'https://www.crunchbase.com/organization/linux-foundation'
+            homepage_url: https://rethinkdb.com/
+            repo_url: https://github.com/rethinkdb/rethinkdb
+            logo: https://landscape.cncf.io/logos/rethink-db.svg
+            twitter: https://twitter.com/rethinkdb
+            crunchbase: https://www.crunchbase.com/organization/linux-foundation
           - item:
             name: Scylla
-            homepage_url: 'https://www.scylladb.com/'
-            repo_url: 'https://github.com/scylladb/scylla'
-            logo: 'https://landscape.cncf.io/logos/scylla.svg'
-            twitter: 'https://twitter.com/ScyllaDB'
-            crunchbase: 'https://www.crunchbase.com/organization/scylladb'
+            homepage_url: https://www.scylladb.com/
+            repo_url: https://github.com/scylladb/scylla
+            logo: https://landscape.cncf.io/logos/scylla.svg
+            twitter: https://twitter.com/ScyllaDB
+            crunchbase: https://www.crunchbase.com/organization/scylladb
       - subcategory:
         name: Linux Distributions
         items:
           - item:
             name: Alpine Linux
-            description: 'A security-oriented, lightweight Linux distribution'
-            homepage_url: 'https://wiki.alpinelinux.org/wiki/S390x'
-            repo_url: 'https://github.com/alpinelinux/aports'
+            description: A security-oriented, lightweight Linux distribution
+            homepage_url: https://wiki.alpinelinux.org/wiki/S390x
+            repo_url: https://github.com/alpinelinux/aports
             logo: alpine-linux.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alpine-linux'
+            crunchbase: https://www.crunchbase.com/organization/alpine-linux
           - item:
             name: ClefOS for System z
             description: >-
               ClefOS is a distribution specifically for Linux on z Systems (s390x aka "the mainframe"). It is based on the CentOS source materials but is not
               part of the CentOS organization.
-            homepage_url: 'https://www.sinenomine.net/products/linux/clefos'
-            repo_url: 'https://github.com/nealef/clefos'
+            homepage_url: https://www.sinenomine.net/products/linux/clefos
+            repo_url: https://github.com/nealef/clefos
             logo: clefos.svg
-            crunchbase: 'https://www.crunchbase.com/organization/sine-nomine-associates'
+            crunchbase: https://www.crunchbase.com/organization/sine-nomine-associates
           - item:
             name: Debian Linux
             description: Debian is a free operating system (OS) for your computer.
-            homepage_url: 'https://www.debian.org/ports/s390/'
-            repo_url: 'https://github.com/Debian/devscripts'
+            homepage_url: https://www.debian.org/ports/s390/
+            repo_url: https://github.com/Debian/devscripts
             logo: debian.svg
-            crunchbase: 'https://www.crunchbase.com/organization/debian'
+            crunchbase: https://www.crunchbase.com/organization/debian
           - item:
             name: Fedora Linux
             description: >-
               Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community
               members to build tailored solutions for their users.
-            homepage_url: 'https://fedoraproject.org/wiki/Architectures/s390x'
-            repo_url: 'https://github.com/fedora-infra/bodhi'
+            homepage_url: https://fedoraproject.org/wiki/Architectures/s390x
+            repo_url: https://github.com/fedora-infra/bodhi
             logo: fedora.svg
-            crunchbase: 'https://www.crunchbase.com/organization/the-fedora-project'
+            crunchbase: https://www.crunchbase.com/organization/the-fedora-project
           - item:
             name: Gentoo Linux
             description: >-
               Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized and customized for just about any
               application or need.
-            homepage_url: 'https://wiki.gentoo.org/wiki/Project:S390'
-            repo_url: 'https://github.com/gentoo/gentoo'
+            homepage_url: https://wiki.gentoo.org/wiki/Project:S390
+            repo_url: https://github.com/gentoo/gentoo
             logo: gentoo.svg
-            crunchbase: 'https://www.crunchbase.com/organization/gentoo'
+            crunchbase: https://www.crunchbase.com/organization/gentoo
           - item:
             name: OpenSUSE
-            homepage_url: 'https://en.opensuse.org/ZSystems'
-            repo_url: 'https://github.com/openSUSE/openSUSE-release-tools'
+            homepage_url: https://en.opensuse.org/ZSystems
+            repo_url: https://github.com/openSUSE/openSUSE-release-tools
             logo: opensuse.svg
-            crunchbase: 'https://www.crunchbase.com/organization/opensuse'
+            crunchbase: https://www.crunchbase.com/organization/opensuse
           - item:
             name: Red Hat Enterprise Linux
-            homepage_url: 'https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux'
+            homepage_url: https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
             logo: rhel.svg
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            crunchbase: https://www.crunchbase.com/organization/red-hat
           - item:
             name: SUSE Linux Enterprise Server
-            homepage_url: 'https://www.suse.com/products/systemz/'
+            homepage_url: https://www.suse.com/products/systemz/
             logo: suse.svg
-            crunchbase: 'https://www.crunchbase.com/organization/suse'
+            crunchbase: https://www.crunchbase.com/organization/suse
           - item:
             name: Ubuntu
-            homepage_url: 'https://wiki.ubuntu.com/S390X'
+            homepage_url: https://wiki.ubuntu.com/S390X
             logo: ubuntu.svg
-            crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
+            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
   - category:
     name: Open Mainframe Project Member Company
     subcategories:
@@ -1668,219 +1668,219 @@ landscape:
         items:
           - item:
             name: ADP
-            homepage_url: 'https://www.adp.com/'
+            homepage_url: https://www.adp.com/
             logo: adp.svg
-            twitter: 'https://twitter.com/ADP'
-            crunchbase: 'https://www.crunchbase.com/organization/adp'
+            twitter: https://twitter.com/ADP
+            crunchbase: https://www.crunchbase.com/organization/adp
           - item:
             name: Broadcom Corporation
-            homepage_url: 'https://www.broadcom.com'
+            homepage_url: https://www.broadcom.com
             stock_ticker: AVGO
             logo: broadcom.svg
-            crunchbase: 'https://www.crunchbase.com/organization/broadcom'
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: IBM
-            homepage_url: 'https://www.ibm.com/us-en/?ar=1'
+            homepage_url: https://www.ibm.com/us-en/?ar=1
             logo: ibm.svg
-            twitter: 'https://twitter.com/ibmz'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Rocket Software
-            homepage_url: 'https://www.rocketsoftware.com/'
+            homepage_url: https://www.rocketsoftware.com/
             logo: rocketsoftware.svg
-            crunchbase: 'https://www.crunchbase.com/organization/rocket-software'
+            crunchbase: https://www.crunchbase.com/organization/rocket-software
           - item:
             name: SUSE
-            homepage_url: 'https://www.suse.com/'
+            homepage_url: https://www.suse.com/
             logo: suse.svg
-            crunchbase: 'https://www.crunchbase.com/organization/suse'
+            crunchbase: https://www.crunchbase.com/organization/suse
       - subcategory:
         name: Silver
         items:
           - item:
             name: Canonical
-            homepage_url: 'https://canonical.com/'
+            homepage_url: https://canonical.com/
             logo: canonical.svg
-            crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
+            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
           - item:
             name: GT Software
-            homepage_url: 'https://www.gtsoftware.com/'
+            homepage_url: https://www.gtsoftware.com/
             logo: gt-software.svg
-            crunchbase: 'https://www.crunchbase.com/organization/gt-software'
+            crunchbase: https://www.crunchbase.com/organization/gt-software
           - item:
             name: HCL Software
-            homepage_url: 'https://www.hcltechsw.com/'
+            homepage_url: https://www.hcltechsw.com/
             logo: hcl.svg
-            crunchbase: 'https://www.crunchbase.com/organization/hcl-software'
+            crunchbase: https://www.crunchbase.com/organization/hcl-software
           - item:
             name: Micro Focus
-            homepage_url: 'https://www.microfocus.com/en-us/home'
-            logo: 'https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/micro-focus.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/micro-focus'
+            homepage_url: https://www.microfocus.com/en-us/home
+            logo: https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/micro-focus.svg
+            crunchbase: https://www.crunchbase.com/organization/micro-focus
           - item:
             name: Phoenix Software International
-            homepage_url: 'https://phoenixsoftware.com/'
+            homepage_url: https://phoenixsoftware.com/
             logo: phoenix-software-international.svg
-            crunchbase: 'https://www.crunchbase.com/organization/phoenix-software-international'
+            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
             name: Precisely
             description: >-
               Precisely's data integration, data quality, location intelligence, and data enrichment products power better business decisions to create better
               outcomes.
-            homepage_url: 'https://www.precisely.com'
+            homepage_url: https://www.precisely.com
             logo: precisely.svg
-            twitter: 'https://twitter.com/preciselydata'
-            crunchbase: 'https://www.crunchbase.com/organization/syncsort'
+            twitter: https://twitter.com/preciselydata
+            crunchbase: https://www.crunchbase.com/organization/syncsort
           - item:
             name: Red Hat
-            homepage_url: 'https://www.redhat.com/en'
-            logo: 'https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/red-hat-inc.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            homepage_url: https://www.redhat.com/en
+            logo: https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/red-hat-inc.svg
+            crunchbase: https://www.crunchbase.com/organization/red-hat
           - item:
             name: SOFTWARE ENGINEERING GmbH
-            homepage_url: 'https://www.seg.de'
-            logo: 'https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/software-engineering-gmbh.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/software-engineering-gmbh'
+            homepage_url: https://www.seg.de
+            logo: https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/software-engineering-gmbh.svg
+            crunchbase: https://www.crunchbase.com/organization/software-engineering-gmbh
           - item:
             name: Vicom Infinity
-            homepage_url: 'https://www.vicominfinity.com'
+            homepage_url: https://www.vicominfinity.com
             logo: vicominfinity.svg
-            crunchbase: 'https://www.crunchbase.com/organization/vicom-infinity'
+            crunchbase: https://www.crunchbase.com/organization/vicom-infinity
           - item:
             name: YADRO
-            homepage_url: 'https://www.yadro.com/'
+            homepage_url: https://www.yadro.com/
             logo: yadro.svg
-            crunchbase: 'https://www.crunchbase.com/organization/yadro'
+            crunchbase: https://www.crunchbase.com/organization/yadro
           - item:
             name: Zoss Team LLC
-            homepage_url: 'https://www.bizapedia.com/ma/zoss-team-llc.html'
+            homepage_url: https://www.bizapedia.com/ma/zoss-team-llc.html
             logo: zossteam-llc.svg
-            crunchbase: 'https://www.crunchbase.com/organization/zoss-team-llc'
+            crunchbase: https://www.crunchbase.com/organization/zoss-team-llc
       - subcategory:
         name: Academic Institution
         items:
           - item:
             name: Albany State University
-            homepage_url: 'https://www.asurams.edu/'
+            homepage_url: https://www.asurams.edu/
             logo: albany_state_university.svg
-            crunchbase: 'https://www.crunchbase.com/organization/albany-state-university'
+            crunchbase: https://www.crunchbase.com/organization/albany-state-university
           - item:
             name: Beijing Institute of Technology
-            homepage_url: 'https://www.bit.edu.cn'
+            homepage_url: https://www.bit.edu.cn
             logo: beijing_institute_of_technology.svg
-            crunchbase: 'https://www.crunchbase.com/organization/beijing-institute-of-technology'
+            crunchbase: https://www.crunchbase.com/organization/beijing-institute-of-technology
           - item:
             name: Coburg University of Applied Sciences and Arts
-            homepage_url: 'https://www.coburg-university.de/'
+            homepage_url: https://www.coburg-university.de/
             logo: coburg.svg
-            crunchbase: 'https://www.crunchbase.com/organization/coburg-university-of-applied-sciences-and-arts'
+            crunchbase: https://www.crunchbase.com/organization/coburg-university-of-applied-sciences-and-arts
           - item:
             name: East Carolina University
-            homepage_url: 'https://www.ecu.edu/'
+            homepage_url: https://www.ecu.edu/
             logo: east-carolina-university.svg
-            crunchbase: 'https://www.crunchbase.com/organization/east-carolina-university'
+            crunchbase: https://www.crunchbase.com/organization/east-carolina-university
           - item:
             name: EPSI
-            homepage_url: 'https://www.epsi.fr/'
+            homepage_url: https://www.epsi.fr/
             logo: epsi.svg
-            crunchbase: 'https://www.crunchbase.com/organization/epsi'
+            crunchbase: https://www.crunchbase.com/organization/epsi
           - item:
             name: HoGent
-            homepage_url: 'https://hogent.be/'
+            homepage_url: https://hogent.be/
             logo: hogent.svg
-            crunchbase: 'https://www.crunchbase.com/organization/hogeschool-gent'
+            crunchbase: https://www.crunchbase.com/organization/hogeschool-gent
           - item:
             name: HTL Donaustadt
-            homepage_url: 'https://www.htl-donaustadt.at/'
+            homepage_url: https://www.htl-donaustadt.at/
             logo: htl-donaustadt.svg
-            crunchbase: 'https://www.crunchbase.com/organization/htl-donaustadt'
+            crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
           - item:
             name: Johann Wolfgang Goethe University
-            homepage_url: 'https://www.goethe-university-frankfurt.de/en'
+            homepage_url: https://www.goethe-university-frankfurt.de/en
             logo: goethe-university-frankfurt.svg
-            twitter: 'https://twitter.com/goetheuni'
-            crunchbase: 'https://www.crunchbase.com/organization/goethe-university-frankfurt'
+            twitter: https://twitter.com/goetheuni
+            crunchbase: https://www.crunchbase.com/organization/goethe-university-frankfurt
           - item:
             name: Marist College
-            homepage_url: 'https://www.marist.edu/'
+            homepage_url: https://www.marist.edu/
             logo: marist_college.svg
-            crunchbase: 'https://www.crunchbase.com/organization/marist-college'
+            crunchbase: https://www.crunchbase.com/organization/marist-college
           - item:
             name: North Carolina A&T State
-            homepage_url: 'https://www.ncat.edu/'
+            homepage_url: https://www.ncat.edu/
             logo: north-carolina-a-t-state-university.svg
-            crunchbase: 'https://www.crunchbase.com/organization/north-carolina-a-t-state-university'
+            crunchbase: https://www.crunchbase.com/organization/north-carolina-a-t-state-university
           - item:
             name: South China University of Technology
-            homepage_url: 'https://www.scut.edu.cn'
+            homepage_url: https://www.scut.edu.cn
             logo: South_China_University.svg
-            crunchbase: 'https://www.crunchbase.com/organization/south-china-university-of-technology'
+            crunchbase: https://www.crunchbase.com/organization/south-china-university-of-technology
           - item:
             name: University of Bedfordshire
-            homepage_url: 'https://www.beds.ac.uk/'
+            homepage_url: https://www.beds.ac.uk/
             logo: university-of-bedfordshire.svg
-            crunchbase: 'https://www.crunchbase.com/organization/university-of-bedfordshire'
+            crunchbase: https://www.crunchbase.com/organization/university-of-bedfordshire
           - item:
             name: University of Washington CIAC
-            homepage_url: 'https://www.uwb.edu/ciac'
+            homepage_url: https://www.uwb.edu/ciac
             logo: ciac.svg
-            crunchbase: 'https://www.crunchbase.com/organization/university-of-washington'
+            crunchbase: https://www.crunchbase.com/organization/university-of-washington
           - item:
             name: University of Wolverhampton
-            homepage_url: 'https://www.wlv.ac.uk/'
+            homepage_url: https://www.wlv.ac.uk/
             logo: university-of-wolverhampton.svg
-            twitter: 'https://twitter.com/wlv_mcs'
-            crunchbase: 'https://www.crunchbase.com/organization/university-of-wolverhampton'
+            twitter: https://twitter.com/wlv_mcs
+            crunchbase: https://www.crunchbase.com/organization/university-of-wolverhampton
           - item:
             name: Universität Leipzig
-            homepage_url: 'https://www.uni-leipzig.de/'
-            logo: 'https://www.uni-leipzig.de/typo3conf/ext/mkunileipzig/Resources/Public/Images/Icons/uni_leipzig_logo_v2.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/leipzig-university'
+            homepage_url: https://www.uni-leipzig.de/
+            logo: https://www.uni-leipzig.de/typo3conf/ext/mkunileipzig/Resources/Public/Images/Icons/uni_leipzig_logo_v2.svg
+            crunchbase: https://www.crunchbase.com/organization/leipzig-university
           - item:
             name: Virginia Commonwealth University
-            homepage_url: 'https://www.vcu.edu/'
+            homepage_url: https://www.vcu.edu/
             logo: vcu.svg
-            crunchbase: 'https://www.crunchbase.com/organization/virginia-commonwealth-university'
+            crunchbase: https://www.crunchbase.com/organization/virginia-commonwealth-university
           - item:
             name: Western University
-            homepage_url: 'https://www.uwo.ca/'
+            homepage_url: https://www.uwo.ca/
             logo: university-of-western-ontario.svg
-            crunchbase: 'https://www.crunchbase.com/organization/university-of-western-ontario'
+            crunchbase: https://www.crunchbase.com/organization/university-of-western-ontario
           - item:
             name: William Patterson University
-            homepage_url: 'https://www.wpunj.edu/'
+            homepage_url: https://www.wpunj.edu/
             logo: william-paterson-university-of-new-jersey.svg
-            crunchbase: 'https://www.crunchbase.com/organization/william-paterson-university-of-new-jersey'
+            crunchbase: https://www.crunchbase.com/organization/william-paterson-university-of-new-jersey
           - item:
             name: Xidian University
-            homepage_url: 'https://www.xidian.edu.cn/'
+            homepage_url: https://www.xidian.edu.cn/
             logo: xidian.svg
-            crunchbase: 'https://www.crunchbase.com/organization/xidian-university'
+            crunchbase: https://www.crunchbase.com/organization/xidian-university
       - subcategory:
         name: Associate
         items:
           - item:
             name: Academic Mainframe Consortium
-            homepage_url: 'https://amc-ev.org'
+            homepage_url: https://amc-ev.org
             logo: amc.svg
-            crunchbase: 'https://www.crunchbase.com/organization/academic-mainframe-consortium'
+            crunchbase: https://www.crunchbase.com/organization/academic-mainframe-consortium
           - item:
             name: European Mainframe Academy
-            homepage_url: 'https://mainframe-academy.de'
+            homepage_url: https://mainframe-academy.de
             logo: ema.svg
-            crunchbase: 'https://www.crunchbase.com/organization/european-mainframe-academy'
+            crunchbase: https://www.crunchbase.com/organization/european-mainframe-academy
           - item:
             name: GSE
-            homepage_url: 'https://www.gse.org'
+            homepage_url: https://www.gse.org
             logo: gse.svg
-            crunchbase: 'https://www.crunchbase.com/organization/guide-share-europe'
+            crunchbase: https://www.crunchbase.com/organization/guide-share-europe
           - item:
             name: GSE UK
-            homepage_url: 'https://www.gse.org.uk/'
+            homepage_url: https://www.gse.org.uk/
             logo: gse-uk.svg
-            crunchbase: 'https://www.crunchbase.com/organization/guide-share-europe-uk-region'
+            crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
           - item:
             name: SHARE
-            homepage_url: 'https://www.share.org/page/events'
+            homepage_url: https://www.share.org/page/events
             logo: share.svg
-            crunchbase: 'https://www.crunchbase.com/organization/share-8c77'
+            crunchbase: https://www.crunchbase.com/organization/share-8c77
