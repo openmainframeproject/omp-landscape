@@ -7092,6 +7092,140 @@ landscape:
         name: API Mediation Layer ZOWE V1
         items:
           - item:
+            name: Datacom DST API (API Mediation Layer ZOWE V1)
+            description: Restful API for accessing CA Datacom Dynamic System Tables
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-datacom-tools/15-1.html
+            logo: datacom-dst-api.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a leading designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              stockExchange: nasdaq
+            image_data:
+              fileName: datacom-dst-api-api-mediation-layer-zowe-v1.svg
+              hash: Niixa8nTQ4QNQi34gh7/zdV57IeikTZ74Fdlv+1ygH8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-02-01T15:30:07.000Z
+          - item:
             name: (E)JES (API Mediation Layer ZOWE V1)
             description: >-
               (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
@@ -7250,7 +7384,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-data-content-discovery-api-mediation-layer-zowe-v1.svg
-              hash: 7BA9v1HjXw6Xy1Ivp0fP8jnbg7xCQV8Atnvbt8eFpRs=
+              hash: 4xALh317fv8dJ7EW3KLhgbjGjwahuz5dldKFYCDH8Zs=
             best_practice_data:
               badge: false
               percentage: null
@@ -7385,7 +7519,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-database-management-solutions-for-db2-for-z-os-api-mediation-layer-zowe-v1.svg
-              hash: C0s6yiGXvCFbgbuZUCRTHioy78BIsm/Ae/qqauWXqG4=
+              hash: IhXG6GihZrA1qTfDxdtNEjKYJARoPAm6eQOq40K7TwY=
             best_practice_data:
               badge: false
               percentage: null
@@ -7522,7 +7656,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-endevor-api-mediation-layer-zowe-v1.svg
-              hash: q7mQFd4YDMDtY45Bgz8dP5ASpyS5xfdrPoHJTqVCRw4=
+              hash: EgE+v+CqovV5CFpIUsgcTjYByIPp6QuvPU/VQJPnkdg=
             best_practice_data:
               badge: false
               percentage: null
@@ -7659,7 +7793,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-file-master-plus-api-mediation-layer-zowe-v1.svg
-              hash: Zz3u5R1s2n8oCdrHpk/ZqQVNW9yWCmoGuEFdrXoCVoc=
+              hash: Neto0lvz62whx7aOfYbH1ecBxtyhM497mi5kb1gPjSY=
             best_practice_data:
               badge: false
               percentage: null
@@ -7794,7 +7928,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-idms-api-mediation-layer-zowe-v1.svg
-              hash: ndO6mKuQp6ocXsm2K/+Uo0pM76E3pgVbWqUtz+InvrY=
+              hash: P8FnqhGwqiOTnsGtntccQJEgRNeH/CLQQIw+A/oZ3ZI=
             best_practice_data:
               badge: false
               percentage: null
@@ -7932,7 +8066,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-jcl-check-workload-automation-api-mediation-layer-zowe-v1.svg
-              hash: zOnyL4WGGlrRwdOVqoXIyGC9BtQb8wwba0FGYWplaWQ=
+              hash: vHCncKEJQjfY5ehOEJjAopi0Cnd6T+0w4lk4dto1fx4=
             best_practice_data:
               badge: false
               percentage: null
@@ -8066,7 +8200,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-mainframe-security-insights-platform-api-mediation-layer-zowe-v1.svg
-              hash: jDt4jTedqN+TlfQp7YpHqY+SbMTTv9Voa7wBazkex5A=
+              hash: qh6d23EokdrTepxpD4NBTyqix0zZcqYc/FJUn3F/CXI=
             best_practice_data:
               badge: false
               percentage: null
@@ -8202,7 +8336,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-mat-api-mediation-layer-zowe-v1.svg
-              hash: 8TU8cImI1TpMHDZ7VCA5GlLXBj+6lSahFGQDRbcgwos=
+              hash: QRNT1q8Wv2DHzlOtOtlcYGdQCUufBCbLc3oqT3g1gk8=
             best_practice_data:
               badge: false
               percentage: null
@@ -8339,7 +8473,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-sysview-performance-management-api-mediation-layer-zowe-v1.svg
-              hash: TEn6Cei3I3xZb1v/qIqPsmnq8EdI4O8ndG27VoNs410=
+              hash: 2WTynzGvnk1hneYhPzslcpHiBJhshVHijbheyCJCSOg=
             best_practice_data:
               badge: false
               percentage: null
@@ -8474,7 +8608,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-vantage-storage-resource-manager-api-mediation-layer-zowe-v1.svg
-              hash: 49J7fiDJKLzFpwKo8xS1lqtRvPBXqv8NcG7EqNxJnp4=
+              hash: 2udPLfAZQH1sZAVJex8MN6bnknonOY0nMAZEYA97M7c=
             best_practice_data:
               badge: false
               percentage: null
@@ -8611,7 +8745,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-workload-automation-ca-7-api-mediation-layer-zowe-v1.svg
-              hash: XnsM6rrMo3C5ZX83O7k9FGcfn0xW6Js9WGHits7MMuw=
+              hash: RmPw++DAq+VT8bm1lV3C4+SHp03feocoSZiQOEyP4/k=
             best_practice_data:
               badge: false
               percentage: null
@@ -9195,7 +9329,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-vantage-storage-resource-manager-app-framework-zowe-v1.svg
-              hash: 49J7fiDJKLzFpwKo8xS1lqtRvPBXqv8NcG7EqNxJnp4=
+              hash: 2udPLfAZQH1sZAVJex8MN6bnknonOY0nMAZEYA97M7c=
             best_practice_data:
               badge: false
               percentage: null
@@ -10804,7 +10938,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-endevor-cli-zowe-v1.svg
-              hash: q7mQFd4YDMDtY45Bgz8dP5ASpyS5xfdrPoHJTqVCRw4=
+              hash: EgE+v+CqovV5CFpIUsgcTjYByIPp6QuvPU/VQJPnkdg=
             best_practice_data:
               badge: false
               percentage: null
@@ -10940,7 +11074,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-endevor-bridge-for-git-cli-zowe-v1.svg
-              hash: chxtoDAGD+wPcb/rTwJFkjXbceKePZ9tILE2RmQhLm8=
+              hash: Qc1F7hn4eo/da36zIOhZ9zNI+J+MARAfEyPrhFl5G5w=
             best_practice_data:
               badge: false
               percentage: null
@@ -11076,7 +11210,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-file-master-plus-cli-zowe-v1.svg
-              hash: Zz3u5R1s2n8oCdrHpk/ZqQVNW9yWCmoGuEFdrXoCVoc=
+              hash: Neto0lvz62whx7aOfYbH1ecBxtyhM497mi5kb1gPjSY=
             best_practice_data:
               badge: false
               percentage: null
@@ -11213,7 +11347,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-idms-cli-zowe-v1.svg
-              hash: ndO6mKuQp6ocXsm2K/+Uo0pM76E3pgVbWqUtz+InvrY=
+              hash: P8FnqhGwqiOTnsGtntccQJEgRNeH/CLQQIw+A/oZ3ZI=
             best_practice_data:
               badge: false
               percentage: null
@@ -11352,7 +11486,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-jcl-check-workload-automation-cli-zowe-v1.svg
-              hash: zOnyL4WGGlrRwdOVqoXIyGC9BtQb8wwba0FGYWplaWQ=
+              hash: vHCncKEJQjfY5ehOEJjAopi0Cnd6T+0w4lk4dto1fx4=
             best_practice_data:
               badge: false
               percentage: null
@@ -11490,7 +11624,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-mat-analyze-cli-zowe-v1.svg
-              hash: qZbFEG7VQZFBRw+M2rcj0RDkFSwo08ooi9aFWTai+jk=
+              hash: SE7YDtW7yiLyxIugf+FTNMfHPAme+9dyaG5sCPohrt8=
             best_practice_data:
               badge: false
               percentage: null
@@ -11628,7 +11762,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-mat-detect-cli-zowe-v1.svg
-              hash: BwxJ1mUGDRqmFPir21lzv5RNBm5evMUFOxHcZyLH4hA=
+              hash: AIGYVnZZS11AR7jYnY3dPQKQMS7TORrSkfPEhRSZDbM=
             best_practice_data:
               badge: false
               percentage: null
@@ -11766,7 +11900,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-ops-mvs-cli-zowe-v1.svg
-              hash: 08amm1nuCvbecY67FSURpK3UxrdL+uYtZwL7tvFPv/o=
+              hash: irLLU+VMNqiodJw7xSygugncdMAZYmseT69VQxf82Eo=
             best_practice_data:
               badge: false
               percentage: null
@@ -11902,7 +12036,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-spool-cli-zowe-v1.svg
-              hash: vOHYfj1Po0EU+9D4USC786lkByDRoI40Us0TBhLx+B8=
+              hash: dvMl8Ch75gfkoULJRSkORQQMQRMu7jxX39kg4TmgjX0=
             best_practice_data:
               badge: false
               percentage: null
@@ -12040,7 +12174,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-sysview-performance-management-cli-zowe-v1.svg
-              hash: TEn6Cei3I3xZb1v/qIqPsmnq8EdI4O8ndG27VoNs410=
+              hash: 2WTynzGvnk1hneYhPzslcpHiBJhshVHijbheyCJCSOg=
             best_practice_data:
               badge: false
               percentage: null
@@ -12178,7 +12312,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-view-cli-zowe-v1.svg
-              hash: Ka5gZZaHnZJPePvCuZ9K1/AKaMKjsTjDnck84UTvu8U=
+              hash: mRRCrvshrDKH5LJjuPC6B1miZ1l7Up8nQG/H0rpUYbM=
             best_practice_data:
               badge: false
               percentage: null
@@ -12316,7 +12450,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-workload-automation-ca-7-cli-zowe-v1.svg
-              hash: XnsM6rrMo3C5ZX83O7k9FGcfn0xW6Js9WGHits7MMuw=
+              hash: RmPw++DAq+VT8bm1lV3C4+SHp03feocoSZiQOEyP4/k=
             best_practice_data:
               badge: false
               percentage: null
@@ -12452,7 +12586,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-z-os-extended-files-cli-zowe-v1.svg
-              hash: G0hGDKqThOOoFb7dM3gJGksJRmRZ4AOCInNwbvoPJtg=
+              hash: s56STVVvORDVWVGM9ULGH7tnuYkMyz8yUW3vAFHV2R0=
             best_practice_data:
               badge: false
               percentage: null
@@ -12588,7 +12722,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-z-os-extended-jobs-cli-zowe-v1.svg
-              hash: XlW/Gbf7CdGkiZJdsrQaat6q+crv1d7QCGyPf04fiak=
+              hash: yin4NWeZ0uR4LCG6Zu+4LYz0gfxDuVOxYsNxezqQOaU=
             best_practice_data:
               badge: false
               percentage: null
@@ -14932,7 +15066,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-file-master-plus-api-mediation-layer-2019.svg
-              hash: Zz3u5R1s2n8oCdrHpk/ZqQVNW9yWCmoGuEFdrXoCVoc=
+              hash: Neto0lvz62whx7aOfYbH1ecBxtyhM497mi5kb1gPjSY=
             best_practice_data:
               badge: false
               percentage: null
@@ -18838,7 +18972,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-endevor-cli-2019.svg
-              hash: q7mQFd4YDMDtY45Bgz8dP5ASpyS5xfdrPoHJTqVCRw4=
+              hash: EgE+v+CqovV5CFpIUsgcTjYByIPp6QuvPU/VQJPnkdg=
             best_practice_data:
               badge: false
               percentage: null
@@ -18976,7 +19110,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-file-master-plus-cli-2019.svg
-              hash: Zz3u5R1s2n8oCdrHpk/ZqQVNW9yWCmoGuEFdrXoCVoc=
+              hash: Neto0lvz62whx7aOfYbH1ecBxtyhM497mi5kb1gPjSY=
             best_practice_data:
               badge: false
               percentage: null
@@ -19114,7 +19248,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-ops-mvs-cli-2019.svg
-              hash: 08amm1nuCvbecY67FSURpK3UxrdL+uYtZwL7tvFPv/o=
+              hash: irLLU+VMNqiodJw7xSygugncdMAZYmseT69VQxf82Eo=
             best_practice_data:
               badge: false
               percentage: null
@@ -19249,7 +19383,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-secure-credential-store-cli-2019.svg
-              hash: Avdgqu/v5SOeayWbnXoLkB9YytD7IxzHnLFwnolP4LU=
+              hash: mDxB7osuanOJ1+Age0fdUU2G7w0Fv4FuZeEFV4AHZd8=
             best_practice_data:
               badge: false
               percentage: null
@@ -19387,7 +19521,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-z-os-extended-files-cli-2019.svg
-              hash: G0hGDKqThOOoFb7dM3gJGksJRmRZ4AOCInNwbvoPJtg=
+              hash: s56STVVvORDVWVGM9ULGH7tnuYkMyz8yUW3vAFHV2R0=
             best_practice_data:
               badge: false
               percentage: null
@@ -19525,7 +19659,7 @@ landscape:
               stockExchange: nasdaq
             image_data:
               fileName: ca-z-os-extended-jobs-cli-2019.svg
-              hash: XlW/Gbf7CdGkiZJdsrQaat6q+crv1d7QCGyPf04fiak=
+              hash: yin4NWeZ0uR4LCG6Zu+4LYz0gfxDuVOxYsNxezqQOaU=
             best_practice_data:
               badge: false
               percentage: null
