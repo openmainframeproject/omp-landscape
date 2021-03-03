@@ -326,6 +326,13 @@ landscape:
         name: API Mediation Layer ZOWE V1
         items:
           - item:
+            name: Datacom DST API (API Mediation Layer ZOWE V1)
+            description: Restful API for accessing CA Datacom Dynamic System Tables
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-datacom-tools/15-1.html
+            logo: datacom-dst-api.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
+          - item:
             name: (E)JES (API Mediation Layer ZOWE V1)
             description: >-
               (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
