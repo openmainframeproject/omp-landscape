@@ -1025,6 +1025,20 @@ landscape:
             twitter: https://twitter.com/ApacheZooKeeper
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
+            name: Caddy
+            homepage_url: https://caddyserver.com
+            repo_url: https://github.com/caddyserver/caddy
+            logo: caddy-2.svg
+            twitter: https://twitter.com/caddyserver
+            crunchbase: https://www.crunchbase.com/organization/ardan-labs
+          - item:
+            name: CoreDNS
+            homepage_url: https://coredns.io
+            repo_url: https://github.com/coredns/coredns
+            logo: coreDNS-2.svg
+            twitter: https://twitter.com/corednsio
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+          - item:
             name: etcd
             homepage_url: https://github.com/etcd-io
             repo_url: https://github.com/etcd-io/etcd
@@ -1119,6 +1133,20 @@ landscape:
             logo: https://landscape.cncf.io/logos/kata-containers.svg
             twitter: https://twitter.com/KataContainers
             crunchbase: https://www.crunchbase.com/organization/openstack
+         - item:
+            name: Knative
+            homepage_url: https://knative.dev
+            repo_url: https://github.com/knative
+            logo: knative-2.svg
+            twitter: https://twitter.com/KnativeProject
+            crunchbase: https://www.crunchbase.com/organization/knative
+          - item:
+            name: Kong
+            homepage_url: https://konghq.com
+            repo_url: https://github.com/Kong/kong
+            logo: kong-2.svg
+            twitter: https://twitter.com/thekonginc
+            crunchbase: https://www.crunchbase.com/organization/konghq
           - item:
             name: Kubernetes
             description: Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications
@@ -1133,6 +1161,12 @@ landscape:
             repo_url: https://github.com/lxc/lxd
             logo: https://landscape.cncf.io/logos/lxd.svg
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+          - item:
+            name: Marathon
+            homepage_url: https://mesosphere.github.io/marathon/
+            repo_url: https://github.com/mesosphere/marathon
+            logo: mesosphere-marathon-2.svg
+            crunchbase: https://www.crunchbase.com/organization/D2iQ
           - item:
             name: minikube
             homepage_url: https://minikube.sigs.k8s.io/
@@ -1435,6 +1469,19 @@ landscape:
             logo: geode.svg
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
+            name: Doxygen
+            homepage_url: https://www.doxygen.nl/index.html
+            repo_url: https://github.com/doxygen/doxygen
+            logo: doxygen-2.svg
+            twitter: https://twitter.com/doxygen
+          - item:
+            name: Drupal
+            homepage_url: https://www.drupal.org
+            repo_url: https://github.com/drupal/drupal
+            logo: drupal-2.svg
+            twitter: https://twitter.com/drupal
+            crunchbase: https://www.crunchbase.com/organization/drupal
+          - item:
             name: Eclipse Mosquitto™
             homepage_url: https://mosquitto.org/
             repo_url: https://github.com/eclipse/mosquitto
@@ -1459,6 +1506,13 @@ landscape:
             repo_url: https://github.com/rabbitmq/rabbitmq-server
             logo: https://landscape.cncf.io/logos/rabbit-mq.svg
             crunchbase: https://www.crunchbase.com/organization/rabbit-technologies
+          - item:
+            name: WordPress
+            homepage_url: https://wordpress.com
+            repo_url: https://github.com/WordPress/WordPress
+            logo: wordpress-blue-2.svg
+            twitter: https://twitter.com/WordPress
+            crunchbase: https://www.crunchbase.com/organization/wordpress
       - subcategory:
         name: Big Data, Observability, Analytics
         items:
@@ -1550,17 +1604,38 @@ landscape:
             twitter: https://twitter.com/cassandra
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
+            name: CockroachDB
+            homepage_url: https://www.cockroachlabs.com
+            repo_url: https://github.com/cockroachdb/cockroach
+            logo: cockroachdb-2.svg
+            twitter: https://twitter.com/CockroachDB
+            crunchbase: https://www.crunchbase.com/organization/cockroach-labs
+          - item:
             name: Couchbase
             homepage_url: https://www.couchbase.com/
             repo_url: https://github.com/couchbase/manifest
             logo: https://landscape.cncf.io/logos/couchbase.svg
             crunchbase: https://www.crunchbase.com/organization/couchbase
           - item:
+            name: InfluxDB
+            homepage_url: https://www.influxdata.com
+            repo_url: https://github.com/influxdata/influxdb
+            logo: influxdb-2.svg
+            twitter: https://twitter.com/InfluxDB
+            crunchbase: https://www.crunchbase.com/organization/influxdb
+          - item:
             name: MariaDB
             homepage_url: https://mariadb.com/
             repo_url: https://github.com/MariaDB/server
             logo: https://landscape.cncf.io/logos/maria-db.svg
             crunchbase: https://www.crunchbase.com/organization/mariadb-2
+          - item:
+            name: Memcached
+            homepage_url: http://memcached.org
+            repo_url: https://github.com/memcached/memcached
+            logo: memcached-2.svg
+            twitter: https://twitter.com/memcached
+            crunchbase: https://www.crunchbase.com/organization/memcached
           - item:
             name: MongoDB
             homepage_url: https://www.mongodb.com/
