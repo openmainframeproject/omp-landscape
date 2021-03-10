@@ -449,6 +449,16 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
+            name: IBM® Z System Automation (API Mediation Layer ZOWE V1)
+            description: >-
+              IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
+              and applications.
+            homepage_url: https://www.ibm.com/products/z-system-automation
+            logo: ibm-z-netview.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+            allow_duplicate_repo: true
+          - item:
             name: IBM® Z Netview (API Mediation Layer ZOWE V1)
             description: >-
               IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
@@ -1913,7 +1923,7 @@ landscape:
           - item:
             name: École privée des sciences informatiques (EPSI)
             homepage_url: https://epsi.fr/
-            logo: école_privée_des_sciences_informatiques_epsi.svg
+            logo: ecole_privee_des_sciences_informatiques_epsi.svg
             twitter: https://twitter.com/EPSI_Ecoles
             crunchbase: https://www.crunchbase.com/organization/epsi
       - subcategory:
