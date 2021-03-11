@@ -6,13 +6,6 @@ landscape:
         name: Linux
         items:
           - item:
-            name: Consolez
-            homepage_url: https://www.openmainframeproject.org/projects/consolez
-            project: incubating
-            repo_url: https://github.com/openmainframeproject/consolez
-            logo: https://artwork.openmainframeproject.org/projects/consolez/horizontal/color/consolez-horizontal-color.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
             name: crc32-s390x
             homepage_url: https://github.com/linux-on-ibm-z/crc32-s390x
             repo_url: https://github.com/linux-on-ibm-z/crc32-s390x
@@ -44,7 +37,7 @@ landscape:
           - item:
             name: s390-tools
             homepage_url: https://www.ibm.com/developerworks/linux/linux390/s390-tools.html
-            repo_url: https://github.com/ibm-s390-linux/s390-tools
+            repo_url: https://github.com/ibm-s390-tools/s390-tools
             logo: s390-tools.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -405,15 +398,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
-            name: CA NetMaster
-            description: >-
-              CA NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers
-              with an open and standard interface to network management data collected by NetMaster.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-netmaster-network-management
-            logo: ca-netmaster.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-          - item:
             name: CA SYSVIEW® Performance Management (API Mediation Layer ZOWE V1)
             description: >-
               CA SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access CA SYSVIEW actions and
@@ -439,13 +423,6 @@ landscape:
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-ca-7-edition/12-1.html
             stock_ticker: AVGO
             logo: ca-workload-automation-ca-7.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-          - item:
-            name: Datacom DST API (API Mediation Layer ZOWE V1)
-            description: Restful API for accessing CA Datacom Dynamic System Tables
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-datacom-tools/15-1.html
-            logo: datacom-dst-api.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
@@ -1048,6 +1025,20 @@ landscape:
             twitter: https://twitter.com/ApacheZooKeeper
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
+            name: Caddy
+            homepage_url: https://caddyserver.com
+            repo_url: https://github.com/caddyserver/caddy
+            logo: caddy-2.svg
+            twitter: https://twitter.com/caddyserver
+            crunchbase: https://www.crunchbase.com/organization/ardan-labs
+          - item:
+            name: CoreDNS
+            homepage_url: https://coredns.io
+            repo_url: https://github.com/coredns/coredns
+            logo: coreDNS-2.svg
+            twitter: https://twitter.com/corednsio
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+          - item:
             name: etcd
             homepage_url: https://github.com/etcd-io
             repo_url: https://github.com/etcd-io/etcd
@@ -1143,6 +1134,21 @@ landscape:
             twitter: https://twitter.com/KataContainers
             crunchbase: https://www.crunchbase.com/organization/openstack
           - item:
+            name: Knative
+            homepage_url: https://knative.dev
+            repo_url: https://github.com/knative/serving
+            project_org: https://github.com/knative
+            logo: knative-2.svg
+            twitter: https://twitter.com/KnativeProject
+            crunchbase: https://www.crunchbase.com/organization/knative
+          - item:
+            name: Kong
+            homepage_url: https://konghq.com
+            repo_url: https://github.com/Kong/kong
+            logo: kong-2.svg
+            twitter: https://twitter.com/thekonginc
+            crunchbase: https://www.crunchbase.com/organization/konghq
+          - item:
             name: Kubernetes
             description: Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications
             homepage_url: https://kubernetes.io/
@@ -1156,6 +1162,12 @@ landscape:
             repo_url: https://github.com/lxc/lxd
             logo: https://landscape.cncf.io/logos/lxd.svg
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+          - item:
+            name: Marathon
+            homepage_url: https://mesosphere.github.io/marathon/
+            repo_url: https://github.com/mesosphere/marathon
+            logo: mesosphere-marathon-2.svg
+            crunchbase: https://www.crunchbase.com/organization/D2iQ
           - item:
             name: minikube
             homepage_url: https://minikube.sigs.k8s.io/
@@ -1458,6 +1470,19 @@ landscape:
             logo: geode.svg
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
+            name: Doxygen
+            homepage_url: https://www.doxygen.nl/index.html
+            repo_url: https://github.com/doxygen/doxygen
+            logo: doxygen-2.svg
+            twitter: https://twitter.com/doxygen
+          - item:
+            name: Drupal
+            homepage_url: https://www.drupal.org
+            repo_url: https://github.com/drupal/drupal
+            logo: drupal-2.svg
+            twitter: https://twitter.com/drupal
+            crunchbase: https://www.crunchbase.com/organization/drupal
+          - item:
             name: Eclipse Mosquitto™
             homepage_url: https://mosquitto.org/
             repo_url: https://github.com/eclipse/mosquitto
@@ -1482,6 +1507,13 @@ landscape:
             repo_url: https://github.com/rabbitmq/rabbitmq-server
             logo: https://landscape.cncf.io/logos/rabbit-mq.svg
             crunchbase: https://www.crunchbase.com/organization/rabbit-technologies
+          - item:
+            name: WordPress
+            homepage_url: https://wordpress.com
+            repo_url: https://github.com/WordPress/WordPress
+            logo: wordpress-blue-2.svg
+            twitter: https://twitter.com/WordPress
+            crunchbase: https://www.crunchbase.com/organization/wordpress
       - subcategory:
         name: Big Data, Observability, Analytics
         items:
@@ -1512,13 +1544,6 @@ landscape:
             repo_url: https://github.com/apache/spark
             logo: spark.svg
             twitter: null
-            crunchbase: https://www.crunchbase.com/organization/apache
-          - item:
-            name: Apache Storm
-            homepage_url: https://storm.apache.org
-            repo_url: https://github.com/apache/storm
-            logo: https://svn.apache.org/repos/asf/comdev/project-logos/originals/storm.svg
-            twitter: https://twitter.com/stormprocessor
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Elastic
@@ -1580,17 +1605,38 @@ landscape:
             twitter: https://twitter.com/cassandra
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
+            name: CockroachDB
+            homepage_url: https://www.cockroachlabs.com
+            repo_url: https://github.com/cockroachdb/cockroach
+            logo: cockroachdb-2.svg
+            twitter: https://twitter.com/CockroachDB
+            crunchbase: https://www.crunchbase.com/organization/cockroach-labs
+          - item:
             name: Couchbase
             homepage_url: https://www.couchbase.com/
             repo_url: https://github.com/couchbase/manifest
             logo: https://landscape.cncf.io/logos/couchbase.svg
             crunchbase: https://www.crunchbase.com/organization/couchbase
           - item:
+            name: InfluxDB
+            homepage_url: https://www.influxdata.com
+            repo_url: https://github.com/influxdata/influxdb
+            logo: influxdb-2.svg
+            twitter: https://twitter.com/InfluxDB
+            crunchbase: https://www.crunchbase.com/organization/influxdb
+          - item:
             name: MariaDB
             homepage_url: https://mariadb.com/
             repo_url: https://github.com/MariaDB/server
             logo: https://landscape.cncf.io/logos/maria-db.svg
             crunchbase: https://www.crunchbase.com/organization/mariadb-2
+          - item:
+            name: Memcached
+            homepage_url: http://memcached.org
+            repo_url: https://github.com/memcached/memcached
+            logo: memcached-2.svg
+            twitter: https://twitter.com/memcached
+            crunchbase: https://www.crunchbase.com/organization/memcached
           - item:
             name: MongoDB
             homepage_url: https://www.mongodb.com/
@@ -1707,134 +1753,123 @@ landscape:
         name: Platinum
         items:
           - item:
-            name: Automatic Data Processing, Inc. (ADP)
-            homepage_url: https://adp.com/
-            logo: automatic_data_processing_inc_adp.svg
+            name: ADP
+            homepage_url: https://www.adp.com/
+            logo: adp.svg
             twitter: https://twitter.com/ADP
             crunchbase: https://www.crunchbase.com/organization/adp
           - item:
             name: Broadcom Corporation
-            homepage_url: https://broadcom.com/
-            stock_ticker: null
-            logo: broadcom_corporation.svg
-            twitter: https://twitter.com/Broadcom
-            crunchbase: https://www.crunchbase.com/organization/ca
+            homepage_url: https://www.broadcom.com
+            stock_ticker: AVGO
+            logo: broadcom.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: International Business Machines Corporation (IBM)
-            homepage_url: https://www.ibm.com/us-en
-            logo: international_business_machines_corporation_ibm.svg
+            name: IBM
+            homepage_url: https://www.ibm.com/us-en/?ar=1
+            logo: ibm.svg
+            twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
-            name: Rocket Software, Inc.
-            homepage_url: https://rocketsoftware.com/
-            logo: rocket_software_inc.svg
+            name: Rocket Software
+            homepage_url: https://www.rocketsoftware.com/
+            logo: rocketsoftware.svg
             crunchbase: https://www.crunchbase.com/organization/rocket-software
           - item:
-            name: SUSE LLC
-            homepage_url: https://suse.com/
-            logo: suse_llc.svg
+            name: SUSE
+            homepage_url: https://www.suse.com/
+            logo: suse.svg
             crunchbase: https://www.crunchbase.com/organization/suse
       - subcategory:
         name: Silver
         items:
           - item:
-            name: ASG Technologies Group, Inc.
-            homepage_url: https://asg.com/
-            logo: asg_technologies_group_inc.svg
-            twitter: https://twitter.com/ASGTec
-            crunchbase: https://www.crunchbase.com/organization/asg
-          - item:
-            name: BMC Software Inc.
-            homepage_url: https://bmc.com/
-            logo: bmc_software_inc.svg
-            twitter: https://twitter.com/BMCSoftware
-            crunchbase: https://www.crunchbase.com/organization/bmc
-          - item:
-            name: Canonical Group Limited
+            name: Canonical
             homepage_url: https://canonical.com/
-            logo: canonical_group_limited.svg
+            logo: canonical.svg
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
           - item:
-            name: GT Software, Inc.
-            homepage_url: https://gtsoftware.com/
-            logo: gt_software_inc.svg
-            twitter: https://twitter.com/GTSoftware
+            name: GT Software
+            homepage_url: https://www.gtsoftware.com/
+            logo: gt-software.svg
             crunchbase: https://www.crunchbase.com/organization/gt-software
           - item:
-            name: HCL Technologies Ltd.
-            homepage_url: https://hcltech.com/
-            logo: hcl_technologies_ltd.svg
-            crunchbase: https://www.crunchbase.com/organization/hcl-technologies
-          - item:
-            name: KNS Group LLC (trademark YADRO)
-            homepage_url: https://yadro.com/
-            logo: kns_group_llc_trademark_yadro.svg
-            crunchbase: https://www.crunchbase.com/organization/yadro
+            name: HCL Software
+            homepage_url: https://www.hcltechsw.com/
+            logo: hcl.svg
+            crunchbase: https://www.crunchbase.com/organization/hcl-software
           - item:
             name: Micro Focus
             homepage_url: https://www.microfocus.com/en-us/home
-            logo: micro_focus.svg
-            twitter: https://twitter.com/MicroFocusSec
+            logo: https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/micro-focus.svg
             crunchbase: https://www.crunchbase.com/organization/micro-focus
           - item:
             name: Phoenix Software International
             homepage_url: https://phoenixsoftware.com/
-            logo: phoenix_software_international.svg
+            logo: phoenix-software-international.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
-            name: Precisely Holdings, LLC
-            homepage_url: https://precisely.com/
-            logo: precisely_holdings_llc.svg
-            twitter: https://twitter.com/PreciselyData
-            crunchbase: https://www.crunchbase.com/organization/precisely
+            name: Precisely
+            description: >-
+              Precisely's data integration, data quality, location intelligence, and data enrichment products power better business decisions to create better
+              outcomes.
+            homepage_url: https://www.precisely.com
+            logo: precisely.svg
+            twitter: https://twitter.com/preciselydata
+            crunchbase: https://www.crunchbase.com/organization/syncsort
           - item:
-            name: Red Hat Inc.
+            name: Red Hat
             homepage_url: https://www.redhat.com/en
-            logo: red_hat_inc.svg
-            twitter: https://twitter.com/RedHat
+            logo: https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/red-hat-inc.svg
             crunchbase: https://www.crunchbase.com/organization/red-hat
           - item:
             name: SOFTWARE ENGINEERING GmbH
-            homepage_url: https://seg.de/
-            logo: software_engineering_gmbh.svg
+            homepage_url: https://www.seg.de
+            logo: https://lf-master-organization-logos-prod.s3.us-east-2.amazonaws.com/software-engineering-gmbh.svg
             crunchbase: https://www.crunchbase.com/organization/software-engineering-gmbh
           - item:
-            name: Vicom Infinity, Inc.
-            homepage_url: https://vicominfinity.com/
-            logo: vicom_infinity_inc.svg
-            twitter: https://twitter.com/Vicom_Infinity
+            name: Vicom Infinity
+            homepage_url: https://www.vicominfinity.com
+            logo: vicominfinity.svg
             crunchbase: https://www.crunchbase.com/organization/vicom-infinity
           - item:
-            name: Zoss Team, LLC
-            homepage_url: https://bizapedia.com/
-            logo: zoss_team_llc.svg
+            name: YADRO
+            homepage_url: https://www.yadro.com/
+            logo: yadro.svg
+            crunchbase: https://www.crunchbase.com/organization/yadro
+          - item:
+            name: Zoss Team LLC
+            homepage_url: https://www.bizapedia.com/ma/zoss-team-llc.html
+            logo: zossteam-llc.svg
             crunchbase: https://www.crunchbase.com/organization/zoss-team-llc
       - subcategory:
         name: Academic Institution
         items:
           - item:
             name: Albany State University
-            homepage_url: https://asurams.edu/
+            homepage_url: https://www.asurams.edu/
             logo: albany_state_university.svg
-            twitter: https://twitter.com/AlbanyStateUniv
             crunchbase: https://www.crunchbase.com/organization/albany-state-university
           - item:
             name: Beijing Institute of Technology
-            homepage_url: https://bit.edu.cn/
+            homepage_url: https://www.bit.edu.cn
             logo: beijing_institute_of_technology.svg
-            twitter: https://twitter.com/dnx
             crunchbase: https://www.crunchbase.com/organization/beijing-institute-of-technology
           - item:
             name: Coburg University of Applied Sciences and Arts
-            homepage_url: https://hs-coburg.de/
-            logo: coburg_university_of_applied_sciences_and_arts.svg
-            twitter: https://twitter.com/hs_coburg
+            homepage_url: https://www.coburg-university.de/
+            logo: coburg.svg
             crunchbase: https://www.crunchbase.com/organization/coburg-university-of-applied-sciences-and-arts
           - item:
             name: East Carolina University
-            homepage_url: https://ecu.edu/
-            logo: east_carolina_university.svg
+            homepage_url: https://www.ecu.edu/
+            logo: east-carolina-university.svg
             crunchbase: https://www.crunchbase.com/organization/east-carolina-university
+          - item:
+            name: EPSI
+            homepage_url: https://www.epsi.fr/
+            logo: epsi.svg
+            crunchbase: https://www.crunchbase.com/organization/epsi
           - item:
             name: HoGent
             homepage_url: https://hogent.be/
@@ -1842,112 +1877,96 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/hogeschool-gent
           - item:
             name: HTL Donaustadt
-            homepage_url: https://htl-donaustadt.at/
-            logo: htl_donaustadt.svg
+            homepage_url: https://www.htl-donaustadt.at/
+            logo: htl-donaustadt.svg
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
           - item:
             name: Johann Wolfgang Goethe University
-            homepage_url: https://goethe-university-frankfurt.de/
-            logo: johann_wolfgang_goethe_university.svg
+            homepage_url: https://www.goethe-university-frankfurt.de/en
+            logo: goethe-university-frankfurt.svg
             twitter: https://twitter.com/goetheuni
             crunchbase: https://www.crunchbase.com/organization/goethe-university-frankfurt
           - item:
-            name: Leipzig University
-            homepage_url: https://uni-leipzig.de/
-            logo: leipzig_university.svg
-            twitter: https://twitter.com/UniLeipzig
-            crunchbase: https://www.crunchbase.com/organization/leipzig-university
-          - item:
             name: Marist College
-            homepage_url: https://marist.edu/
+            homepage_url: https://www.marist.edu/
             logo: marist_college.svg
-            twitter: https://twitter.com/Marist
             crunchbase: https://www.crunchbase.com/organization/marist-college
           - item:
-            name: North Carolina A&T State University
-            homepage_url: https://ncat.edu/
-            logo: north_carolina_at_state_university.svg
+            name: North Carolina A&T State
+            homepage_url: https://www.ncat.edu/
+            logo: north-carolina-a-t-state-university.svg
             crunchbase: https://www.crunchbase.com/organization/north-carolina-a-t-state-university
           - item:
             name: South China University of Technology
-            homepage_url: https://scut.edu.cn/
-            logo: south_china_university_of_technology.svg
+            homepage_url: https://www.scut.edu.cn
+            logo: South_China_University.svg
             crunchbase: https://www.crunchbase.com/organization/south-china-university-of-technology
           - item:
             name: University of Bedfordshire
-            homepage_url: https://beds.ac.uk/
-            logo: university_of_bedfordshire.svg
+            homepage_url: https://www.beds.ac.uk/
+            logo: university-of-bedfordshire.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-bedfordshire
           - item:
-            name: University of Washington CIAC (Center for Information Assurance and Cybersecurity)
-            homepage_url: https://washington.edu/
-            logo: university_of_washington_ciac_center_for_information_assurance_and_cybersecurity.svg
+            name: University of Washington CIAC
+            homepage_url: https://www.uwb.edu/ciac
+            logo: ciac.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-washington
           - item:
             name: University of Wolverhampton
-            homepage_url: https://wlv.ac.uk/
-            logo: university_of_wolverhampton.svg
+            homepage_url: https://www.wlv.ac.uk/
+            logo: university-of-wolverhampton.svg
+            twitter: https://twitter.com/wlv_mcs
             crunchbase: https://www.crunchbase.com/organization/university-of-wolverhampton
           - item:
+            name: Universität Leipzig
+            homepage_url: https://www.uni-leipzig.de/
+            logo: https://www.uni-leipzig.de/typo3conf/ext/mkunileipzig/Resources/Public/Images/Icons/uni_leipzig_logo_v2.svg
+            crunchbase: https://www.crunchbase.com/organization/leipzig-university
+          - item:
             name: Virginia Commonwealth University
-            homepage_url: https://vcu.edu/
-            logo: virginia_commonwealth_university.svg
+            homepage_url: https://www.vcu.edu/
+            logo: vcu.svg
             crunchbase: https://www.crunchbase.com/organization/virginia-commonwealth-university
           - item:
             name: Western University
-            homepage_url: https://uwo.ca/
-            logo: western_university.svg
-            twitter: https://twitter.com/WesternU
+            homepage_url: https://www.uwo.ca/
+            logo: university-of-western-ontario.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-western-ontario
           - item:
             name: William Patterson University
-            homepage_url: https://wpunj.edu/
-            logo: william_patterson_university.svg
-            twitter: https://twitter.com/wpunj_edu
+            homepage_url: https://www.wpunj.edu/
+            logo: william-paterson-university-of-new-jersey.svg
             crunchbase: https://www.crunchbase.com/organization/william-paterson-university-of-new-jersey
           - item:
             name: Xidian University
-            homepage_url: https://xidian.edu.cn/
-            logo: xidian_university.svg
+            homepage_url: https://www.xidian.edu.cn/
+            logo: xidian.svg
             crunchbase: https://www.crunchbase.com/organization/xidian-university
-          - item:
-            name: École privée des sciences informatiques (EPSI)
-            homepage_url: https://epsi.fr/
-            logo: école_privée_des_sciences_informatiques_epsi.svg
-            twitter: https://twitter.com/EPSI_Ecoles
-            crunchbase: https://www.crunchbase.com/organization/epsi
       - subcategory:
         name: Associate
         items:
           - item:
             name: Academic Mainframe Consortium
-            homepage_url: https://amc-ev.org/
-            logo: academic_mainframe_consortium.svg
+            homepage_url: https://amc-ev.org
+            logo: amc.svg
             crunchbase: https://www.crunchbase.com/organization/academic-mainframe-consortium
           - item:
             name: European Mainframe Academy
-            homepage_url: https://mainframe-academy.eu/
-            logo: european_mainframe_academy.svg
+            homepage_url: https://mainframe-academy.de
+            logo: ema.svg
             crunchbase: https://www.crunchbase.com/organization/european-mainframe-academy
           - item:
-            name: GSE UK Region
-            homepage_url: https://gse.org.uk/
-            logo: gse_uk_region.svg
-            crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
-          - item:
-            name: Guide Share Europe (GSE)
-            homepage_url: https://gse.org/
-            logo: guide_share_europe_gse.svg
+            name: GSE
+            homepage_url: https://www.gse.org
+            logo: gse.svg
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe
           - item:
-            name: High School Technology Services
-            homepage_url: https://myhsts.org/
-            logo: high_school_technology_services.svg
-            twitter: https://twitter.com/MyHSTS
-            crunchbase: https://www.crunchbase.com/organization/high-school-technical-services
+            name: GSE UK
+            homepage_url: https://www.gse.org.uk/
+            logo: gse-uk.svg
+            crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
           - item:
             name: SHARE
-            homepage_url: https://share.org/
+            homepage_url: https://www.share.org/page/events
             logo: share.svg
-            twitter: https://twitter.com/SHAREhq
             crunchbase: https://www.crunchbase.com/organization/share-8c77
