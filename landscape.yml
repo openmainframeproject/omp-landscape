@@ -426,6 +426,23 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
+            name: Datacom DST API (API Mediation Layer ZOWE V1)
+            description: Restful API for accessing CA Datacom Dynamic System Tables
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-datacom-tools/15-1.html
+            logo: datacom-dst-api.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
+          - item:
+            name: IBM® Z System Automation (API Mediation Layer ZOWE V1)
+            description: >-
+              IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
+              and applications.
+            homepage_url: https://www.ibm.com/products/z-system-automation
+            logo: ibm-z-system-automation.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+            allow_duplicate_repo: true
+          - item:
             name: IBM® Z Netview (API Mediation Layer ZOWE V1)
             description: >-
               IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
@@ -1432,7 +1449,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/puppet-labs
           - item:
             name: SaltStack
-            homepage_url: https://www.saltstack.com/
+            homepage_url: https://www.vmware.com/support/acquisitions/saltstack.html
             repo_url: https://github.com/saltstack/salt
             logo: https://landscape.cncf.io/logos/salt-stack.svg
             crunchbase: https://www.crunchbase.com/organization/saltstack
@@ -1866,11 +1883,6 @@ landscape:
             logo: east-carolina-university.svg
             crunchbase: https://www.crunchbase.com/organization/east-carolina-university
           - item:
-            name: EPSI
-            homepage_url: https://www.epsi.fr/
-            logo: epsi.svg
-            crunchbase: https://www.crunchbase.com/organization/epsi
-          - item:
             name: HoGent
             homepage_url: https://hogent.be/
             logo: hogent.svg
@@ -1942,6 +1954,12 @@ landscape:
             homepage_url: https://www.xidian.edu.cn/
             logo: xidian.svg
             crunchbase: https://www.crunchbase.com/organization/xidian-university
+          - item:
+            name: École privée des sciences informatiques (EPSI)
+            homepage_url: https://epsi.fr/
+            logo: ecole_privee_des_sciences_informatiques_epsi.svg
+            twitter: https://twitter.com/EPSI_Ecoles
+            crunchbase: https://www.crunchbase.com/organization/epsi
       - subcategory:
         name: Associate
         items:
