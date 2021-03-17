@@ -807,7 +807,8 @@ landscape:
             allow_duplicate_repo: true
           - item:
             name: IBM® Z Netview (API Mediation Layer 2019)
-            description: A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control
+            description: A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of
+              control
             homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en
             logo: ibm-z-netview.svg
             twitter: https://twitter.com/ibmz
@@ -863,7 +864,8 @@ landscape:
             allow_duplicate_repo: true
           - item:
             name: IBM® Z Netview (App Framework 2019)
-            description: A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control
+            description: A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of
+              control
             homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en
             logo: ibm-z-netview.svg
             twitter: https://twitter.com/ibmz
@@ -883,7 +885,8 @@ landscape:
         items:
           - item:
             name: (E)JES Plug-in for Zowe CLI (CLI 2019)
-            description: 'The (E)JES Plug-in for Zowe CLI uses the (E)JES Zowe REST API to provide command line functions to stream or search the mainframe system logs. '
+            description: 'The (E)JES Plug-in for Zowe CLI uses the (E)JES Zowe REST API to provide command line functions to stream or search the mainframe system
+              logs. '
             homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
             repo_url: https://github.com/phoenixsoftware/ejes-cli
             logo: phoenix-software-international-ejes.svg
@@ -1557,7 +1560,7 @@ landscape:
             homepage_url: https://spark.apache.org
             repo_url: https://github.com/apache/spark
             logo: spark.svg
-            twitter: null
+            twitter:
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Elastic
@@ -1595,7 +1598,7 @@ landscape:
             homepage_url: https://lucene.apache.org/
             repo_url: https://github.com/apache/lucene-solr
             logo: lucenesolr.svg
-            twitter: null
+            twitter:
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Splunk
@@ -1777,7 +1780,8 @@ landscape:
             homepage_url: https://broadcom.com/
             logo: broadcom_corporation.svg
             twitter: https://twitter.com/Broadcom
-            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase: https://www.crunchbase.com/organization/ca
+            stock_ticker:
           - item:
             name: International Business Machines Corporation (IBM)
             homepage_url: https://ibm.com/
