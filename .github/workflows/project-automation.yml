@@ -1,16 +1,24 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Move new requests to the general Open Mainframe Project Kanban Board
+name: Move new requests to the correct Open Mainframe Project Kanban Boards
 
-on: [issues, pull_request_target]
+on:
+  issues:
+    types: [opened, labeled, closed]
+  pull_request_target:
+    types: [opened, labeled, closed]
+
 jobs:
-  add-new-issues-to-project-column:
+  automate-project-columns:
     runs-on: ubuntu-latest
     steps:
-    - name: add-new-issues-to-organization-based-project-column
-      uses: takanabe/github-actions-automate-projects@v0.0.2
-      if: ( github.event_name == 'issues' || github.event_name == 'pull_request' ) && github.event.action == 'opened' && !contains(github.event.issue.labels.*.name,'zowe-blog') && !contains(github.event.issue.labels.*.name,'podcast')
-      env:
-        GITHUB_TOKEN: ${{ secrets.YOUR_NEW_PERSONAL_TOKEN }}
-        GITHUB_PROJECT_URL: https://github.com/orgs/openmainframeproject/projects/7 # update each quarter
-        GITHUB_PROJECT_COLUMN_NAME: To Do
+    - name: Add to general kanban board
+      uses: alex-page/github-project-automation-plus@v0.3.0
+      if: |
+        github.event.action == 'opened' && 
+        ( github.event_name == 'issues' || 
+        github.event_name == 'pull_request_target' )
+      with:
+        project: OMP 2021 Q1
+        column: To Do
+        repo-token: ${{ secrets.YOUR_NEW_PERSONAL_TOKEN }}
