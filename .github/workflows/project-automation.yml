@@ -16,10 +16,9 @@ jobs:
       uses: alex-page/github-project-automation-plus@v0.3.0
       if: |
         github.event.action == 'opened' && 
-        ( github.event_name == 'issues' || 
-        github.event_name == 'pull_request_target' ) &&
+        ( github.event_name == 'issues' || github.event_name == 'pull_request_target' ) &&
         !contains(github.event.issue.labels.*.name,'automated-build')
       with:
-        project: OMP 2021 Q2
+        project: OMP 2021 Q3
         column: To Do
         repo-token: ${{ secrets.YOUR_NEW_PERSONAL_TOKEN }}
