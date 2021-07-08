@@ -22,10 +22,13 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/feilong-discussion
               slack_channel: "#feilong"
-              lfx_insights: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ffeilong
-              tsc_meeting_cadence: Monthly on the second Wednesday of the month at 9:00am US Eastern Time
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ffeilong
+              meeting_cadence: Monthly on the second Wednesday of the month at 9:00am US Eastern Time
               good_first_issues: https://github.com/openmainframeproject/feilong/issues?q=is%3Aopen+is%3Aissue+label%3Agood+first+issue
-              tsc_chairperson: Mike Friesenegger and James Vincent
+              leads: Mike Friesenegger and James Vincent
+              date_accepted: 2019-08-20	
+              last_review_date: 2021-02-11
+              next_review_date: 2021-12-09
           - item:
             name: libica
             homepage_url: https://github.com/opencryptoki/libica
