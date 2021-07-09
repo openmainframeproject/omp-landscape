@@ -19,6 +19,15 @@ landscape:
             repo_url: https://github.com/openmainframeproject/feilong
             logo: feilong.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/feilong-discussion
+              slack_channel: "#feilong"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ffeilong
+              meeting_cadence: Monthly on the second Wednesday of the month at 9:00am US Eastern Time
+              leads: Mike Friesenegger and James Vincent
+              date_accepted: 2019-08-20	
+              last_review_date: 2021-02-11
+              next_review_date: 2021-12-09
           - item:
             name: libica
             homepage_url: https://github.com/opencryptoki/libica
@@ -84,6 +93,16 @@ landscape:
             project_org: https://github.com/tessia-project
             logo: tessia.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              user_mailing_list_url: https://lists.openmainframeproject.org/g/tessia-user 
+              dev_mailing_list_url: https://lists.openmainframeproject.org/g/tessia-dev 
+              slack_channel: "#tessia"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftessia
+              leads: Alexey Machikhin and Alexander Efremkin
+              meeting_cadence: none
+              date_accepted: 2020-10-23
+              last_review_date: none
+              next_review_date: 2021-10-14
           - item:
             name: VMLINK
             homepage_url: https://github.com/trothr/vmlink
@@ -120,12 +139,21 @@ landscape:
             logo: cmstar.svg
             crunchbase: https://www.crunchbase.com/organization/la-casita
           - item:
-            name: ComsoleZ
+            name: ConsoleZ
             homepage_url: https://www.openmainframeproject.org/projects/consolez
             project: incubating
             repo_url: https://github.com/openmainframeproject/consolez
             logo: comsole-z.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/consolez-discussion 
+              slack_channel: "#consolez"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fconsolez
+              leads: Michael MacIssac
+              meeting_cadence: Every other Tuesday at 1:00pm US Eastern Time
+              date_accepted: 2021-02-16
+              last_review_date: none
+              next_review_date: 2022-01-27
           - item:
             name: xmitmsgx
             homepage_url: https://github.com/trothr/xmitmsgx
@@ -143,6 +171,15 @@ landscape:
             project_org: https://github.com/CBTTape
             logo: cbttape.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: none
+              slack_channel: "#cbt-tape"
+              lfx_insights_url: none
+              leads: Sam Golab
+              meeting_cadence: none
+              date_accepted: 2020-10-23
+              last_review_date: none
+              next_review_date: 2021-10-14
           - item:
             name: GenevaERS
             homepage_url: https://genevaers.org
@@ -151,6 +188,15 @@ landscape:
             project_org: https://github.com/genevaers
             logo: geneva-ers.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/genevaers-discussion 
+              slack_channel: "#genevaers"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fgenevaers
+              leads: Kip Twitchell 
+              meeting_cadence: none
+              date_accepted: 2020-08-13
+              last_review_date: none
+              next_review_date: 2021-08-12
           - item:
             name: Launcher
             homepage_url: https://github.com/phoenixsoftware/Launcher
@@ -164,6 +210,14 @@ landscape:
             repo_url: https://github.com/openmainframeproject/wg-open-zos-enablement
             logo: open-z-os-enablement-working-group.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/wg-open-zos-enablement 
+              slack_channel: "#wg-open-zos-enablement"
+              leads: Kip Twitchell 
+              meeting_cadence: Monthly on second Tuesday at 9:00pm US Eastern Time
+              date_accepted: 2020-08-13
+              last_review_date: none
+              next_review_date: 2021-08-12
           - item:
             name: Polycephaly
             homepage_url: https://www.openmainframeproject.org/projects/polycephaly
@@ -171,6 +225,15 @@ landscape:
             repo_url: https://github.com/openmainframeproject/polycephaly
             logo: polycephaly.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/polycephaly-discussion 
+              slack_channel: "#polycephaly"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%polycephaly
+              leads: Jerry Edgington
+              meeting_cadence: Every other Monday at 2:00pm US Eastern Time
+              date_accepted: 2019-12-19
+              last_review_date: 2020-10-15
+              next_review_date: 2021-10-28	
           - item:
             name: z/OS Connector Plugin for Jenkins
             homepage_url: https://github.com/jenkinsci/zos-connector-plugin
@@ -217,6 +280,15 @@ landscape:
             repo_url: https://github.com/openmainframeproject/zorow
             logo: zorow.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/zorow-discussion 
+              slack_channel: "#zorow"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%zorow
+              leads: Hiren Shah
+              meeting_cadence: Every other Thursday at 2:00pm US Eastern
+              date_accepted: 2019-08-20	
+              last_review_date: 2020-07-09
+              next_review_date: 2021-08-26	
           - item:
             name: Zowe
             description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
@@ -227,6 +299,15 @@ landscape:
             url_for_bestpractices: https://github.com/zowe/zlc
             logo: zowe.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/zowe-dev 
+              slack_channel: "#zowe-onboarding"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%zowe
+              leads: Jakub Balhar, Sean Grady, Mike Bauer
+              meeting_cadence: https://lists.openmainframeproject.org/g/zowe-dev/calendar
+              date_accepted: 2019-08-20	
+              last_review_date: 2020-07-09
+              next_review_date: 2021-08-26	
           - item:
             name: zUID
             homepage_url: https://github.com/walmartlabs/zUID
@@ -243,6 +324,15 @@ landscape:
             repo_url: https://github.com/openmainframeproject/atompkg-language-zvm-asm
             logo: atom-language-syntax-highlighting-for-z-vm.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: none
+              slack_channel: "#atomplugins"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%atom-plugins
+              leads: Walter Church
+              meeting_cadence: none
+              date_accepted: 2017-09-13		
+              last_review_date: 2020-08-06
+              next_review_date: 2021-08-26	
           - item:
             name: COBOL Check
             homepage_url: https://www.openmainframeproject.org/projects/cobol-check
@@ -250,6 +340,15 @@ landscape:
             repo_url: https://github.com/openmainframeproject/cobol-check
             logo: cobol-check.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/cobol-check-discussion	
+              slack_channel: "#cobol-check"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%cobol-check
+              leads: Dave Nicolette 
+              meeting_cadence: Weekly on Thursdays at 9:00am US Eastern Time
+              date_accepted: 2021-02-16		
+              last_review_date: none
+              next_review_date: 2022-01-13	
           - item:
             name: COBOL Source colouriser for Visual Studio Code
             homepage_url: https://github.com/spgennard/vscode_cobol
@@ -278,13 +377,31 @@ landscape:
             repo_url: https://github.com/openmainframeproject/cobol-programming-course
             logo: cobol-programming-course.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/cobol-check-discussion	
+              slack_channel: "#cobol-programming-course"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fcobol-programming-course
+              meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
+              leads: Sudharsana Srinivasan 
+              date_accepted: 2020-04-17	
+              last_review_date: 2021-04-08	
+              next_review_date: 2022-04-14	
           - item:
             name: COBOL Working Group
             homepage_url: https://www.openmainframeproject.org/projects/cobol-working-group
             project: workinggroup
             repo_url: https://github.com/openmainframeproject/wg-cobol
             logo: cobol-working-group.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project  
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/cobol-check-discussion	
+              slack_channel: "#cobol-programming-course"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fcobol-programming-course
+              meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
+              leads: Sudharsana Srinivasan 
+              date_accepted: 2020-04-17	
+              last_review_date: 2021-04-08	
+              next_review_date: 2022-04-14	
           - item:
             name: Mentorship
             homepage_url: https://www.openmainframeproject.org/projects/mentorship-program
@@ -293,6 +410,15 @@ landscape:
             project_org: https://github.com/openmainframeproject-internship
             logo: mentorship.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: none	
+              slack_channel: "#mentorship"
+              lfx_insights_url: none
+              meeting_cadence: none
+              leads: Bob Dahlberg
+              date_accepted: 2015-08-23	
+              last_review_date: none
+              next_review_date: 2021-11-04	
           - item:
             name: Open Mainframe Education
             homepage_url: https://github.com/openmainframeproject/omp-education
@@ -300,6 +426,15 @@ landscape:
             repo_url: https://github.com/openmainframeproject/omp-education
             logo: open-mainframe-education.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/omp-education-discussion			
+              slack_channel: "#omp-education-project"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Feducation
+              meeting_cadence: none
+              leads: Lauren Valenti 
+              date_accepted: 2020-09-09	
+              last_review_date: 2021-05-27
+              next_review_date: 2022-05-26	
       - subcategory:
         name: Other
         items:
@@ -310,6 +445,15 @@ landscape:
             repo_url: https://github.com/openmainframeproject/ade
             logo: ade.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: none
+              slack_channel: "#ade"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fade
+              meeting_cadence: none
+              leads: James Caffrey
+              date_accepted: 2016-02-15	
+              last_review_date: none	
+              next_review_date: 2022-01-13	
           - item:
             name: Ambitus
             homepage_url: https://github.com/ambitus
@@ -318,6 +462,15 @@ landscape:
             project_org: https://github.com/ambitus
             logo: ambitus.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/ambitus-discussion	
+              slack_channel: "#ambitus"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fambitus
+              meeting_cadence: Every other Monday at 10am US Eastern Time
+              leads: Sudharsana Srinivasan 
+              date_accepted: 2020-02-24	
+              last_review_date: 2021-06-17	
+              next_review_date: 2022-06-09
           - item:
             name: Ductwork
             homepage_url: https://github.com/trothr/ductwork
@@ -331,6 +484,15 @@ landscape:
             repo_url: https://github.com/openmainframeproject/software-discovery-tool
             logo: software-discovery-tool.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/software-discovery-tool
+              slack_channel: "#software-discovery-tool"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fsoftware-discovery-tool
+              meeting_cadence: none
+              leads: Elizabeth Joseph
+              date_accepted: 2020-04-09	
+              last_review_date: 2021-05-13
+              next_review_date: 2022-04-21	
           - item:
             name: TerseDecompress
             homepage_url: https://www.openmainframeproject.org/projects/tersedecompress
@@ -338,6 +500,15 @@ landscape:
             repo_url: https://github.com/openmainframeproject/tersedecompress
             logo: terse-decompress.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: none
+              slack_channel: "#tersedecompress"
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftersedecompress
+              meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
+              leads: Andrew Rowley 
+              date_accepted: 2019-08-20	
+              last_review_date: none	
+              next_review_date: 2021-09-09	
   - category:
     name: Zowe Conformant
     subcategories:
