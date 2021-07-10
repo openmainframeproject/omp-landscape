@@ -36874,10 +36874,10 @@ landscape:
           - item:
             name: Broadcom Corporation
             homepage_url: https://broadcom.com/
-            stock_ticker: null
             logo: broadcom_corporation.svg
             twitter: https://twitter.com/Broadcom
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            stock_ticker: null
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -37013,7 +37013,7 @@ landscape:
               latest_tweet_date: 2021-07-09T16:03:01.000Z
           - item:
             name: International Business Machines Corporation
-            homepage_url: https://www.ibm.com/us-en
+            homepage_url: https://ibm.com/
             logo: international_business_machines_corporation.svg
             twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -37531,6 +37531,7 @@ landscape:
             logo: suse_llc.svg
             twitter: https://twitter.com/SUSE
             crunchbase: https://www.crunchbase.com/organization/suse
+            stock_ticker: null
             crunchbase_data:
               name: SUSE
               description: SUSE provides reliable and interoperable Linux and cloud infrastructure solutions that give enterprises greater control and flexibility.
@@ -37771,7 +37772,7 @@ landscape:
               latest_tweet_date: 2021-07-09T18:00:07.000Z
           - item:
             name: GT Software, Inc. d/b/a Adaptigent
-            homepage_url: https://www.adaptigent.com
+            homepage_url: https://gtsoftware.com/
             logo: gt_software_inc_dba_adaptigent.svg
             twitter: https://twitter.com/GTSoftware
             crunchbase: https://www.crunchbase.com/organization/gt-software
@@ -37920,7 +37921,7 @@ landscape:
               latest_tweet_date: 2020-09-10T15:18:30.000Z
           - item:
             name: Micro Focus International plc
-            homepage_url: https://www.microfocus.com/en-us/home
+            homepage_url: https://microfocus.com/
             logo: micro_focus_international_plc.svg
             twitter: https://twitter.com/MicroFocus
             crunchbase: https://www.crunchbase.com/organization/micro-focus
@@ -38066,7 +38067,7 @@ landscape:
               latest_tweet_date: 2021-07-09T14:30:06.000Z
           - item:
             name: Red Hat, Inc.
-            homepage_url: https://www.redhat.com/en
+            homepage_url: https://redhat.com/
             logo: red_hat_inc.svg
             twitter: https://twitter.com/RedHat
             crunchbase: https://www.crunchbase.com/organization/red-hat
@@ -38376,6 +38377,36 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-07-09T21:09:03.000Z
           - item:
+            name: École privée des sciences informatiques (EPSI)
+            homepage_url: https://epsi.fr/
+            logo: ecole_privee_des_sciences_informatiques_epsi.svg
+            twitter: https://twitter.com/EPSI_Ecoles
+            crunchbase: https://www.crunchbase.com/organization/epsi
+            crunchbase_data:
+              name: EPSI
+              description: École Privée des Sciences Informatiques, a French IT School based in many french cities
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: http://www.epsi.fr
+              city: Lyon
+              region: Rhone-Alpes
+              country: France
+              twitter: https://www.twitter.com/epsilyon
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
+            image_data:
+              fileName: cole-priv-e-des-sciences-informatiques-epsi.svg
+              hash: 0w30swBPqz7lzNBJdm4lJQX10pskwDdXBm/cNIx3KE0=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-07-09T13:53:53.000Z
+          - item:
             name: HoGent
             homepage_url: https://hogent.be/
             logo: hogent.svg
@@ -38408,7 +38439,7 @@ landscape:
               latest_tweet_date: 2021-07-02T12:00:29.000Z
           - item:
             name: HTL Donaustadt
-            homepage_url: https://www.htl-donaustadt.at/home
+            homepage_url: https://htl-donaustadt.at/
             logo: htl_donaustadt.svg
             twitter: https://twitter.com/htldonaustadt
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
@@ -38468,7 +38499,7 @@ landscape:
               latest_tweet_date: 2021-07-09T10:19:14.000Z
           - item:
             name: Leipzig University
-            homepage_url: https://www.mathcs.uni-leipzig.de/ifi
+            homepage_url: https://informatik.uni-leipzig.de/
             logo: leipzig_university.svg
             twitter: https://twitter.com/UniLeipzig
             crunchbase: https://www.crunchbase.com/organization/leipzig-university
@@ -38821,36 +38852,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2013-02-20T06:06:58.000Z
-          - item:
-            name: École privée des sciences informatiques (EPSI)
-            homepage_url: https://epsi.fr/
-            logo: ecole_privee_des_sciences_informatiques_epsi.svg
-            twitter: https://twitter.com/EPSI_Ecoles
-            crunchbase: https://www.crunchbase.com/organization/epsi
-            crunchbase_data:
-              name: EPSI
-              description: École Privée des Sciences Informatiques, a French IT School based in many french cities
-              num_employees_min: 101
-              num_employees_max: 250
-              homepage: http://www.epsi.fr
-              city: Lyon
-              region: Rhone-Alpes
-              country: France
-              twitter: https://www.twitter.com/epsilyon
-              linkedin: null
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: ''
-              industries: []
-            image_data:
-              fileName: cole-priv-e-des-sciences-informatiques-epsi.svg
-              hash: 0w30swBPqz7lzNBJdm4lJQX10pskwDdXBm/cNIx3KE0=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2021-07-09T13:53:53.000Z
       - subcategory:
         name: Associate
         items:

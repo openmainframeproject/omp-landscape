@@ -2029,22 +2029,28 @@ landscape:
             name: Broadcom Corporation
             homepage_url: https://broadcom.com/
             logo: broadcom_corporation.svg
+            twitter: https://twitter.com/Broadcom
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            stock_ticker: null
           - item:
             name: International Business Machines Corporation
-            homepage_url: https://www.ibm.com/us-en
+            homepage_url: https://ibm.com/
             logo: international_business_machines_corporation.svg
+            twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Rocket Software, Inc.
             homepage_url: https://rocketsoftware.com/
             logo: rocket_software_inc.svg
+            twitter: https://twitter.com/Rocket
             crunchbase: https://www.crunchbase.com/organization/rocket-software
           - item:
             name: SUSE LLC
             homepage_url: https://suse.com/
             logo: suse_llc.svg
+            twitter: https://twitter.com/SUSE
             crunchbase: https://www.crunchbase.com/organization/suse
+            stock_ticker: null
       - subcategory:
         name: Silver
         items:
@@ -2064,15 +2070,17 @@ landscape:
             name: Canonical Ltd.
             homepage_url: https://canonical.com/
             logo: canonical_ltd.svg
+            twitter: https://twitter.com/Canonical
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
           - item:
             name: EPAM Systems, Inc
             homepage_url: https://epam.com/
             logo: epam_systems_inc.svg
+            twitter: https://twitter.com/EPAMSYSTEMS
             crunchbase: https://www.crunchbase.com/organization/epam-systems
           - item:
             name: GT Software, Inc. d/b/a Adaptigent
-            homepage_url: https://www.adaptigent.com
+            homepage_url: https://gtsoftware.com/
             logo: gt_software_inc_dba_adaptigent.svg
             twitter: https://twitter.com/GTSoftware
             crunchbase: https://www.crunchbase.com/organization/gt-software
@@ -2080,6 +2088,7 @@ landscape:
             name: HCL Technologies Ltd.
             homepage_url: https://hcltech.com/
             logo: hcl_technologies_ltd.svg
+            twitter: https://twitter.com/hcltech
             crunchbase: https://www.crunchbase.com/organization/hcl-technologies
           - item:
             name: KNS Group LLC (trademark YADRO)
@@ -2088,7 +2097,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/yadro
           - item:
             name: Micro Focus International plc
-            homepage_url: https://www.microfocus.com/en-us/home
+            homepage_url: https://microfocus.com/
             logo: micro_focus_international_plc.svg
             twitter: https://twitter.com/MicroFocus
             crunchbase: https://www.crunchbase.com/organization/micro-focus
@@ -2096,6 +2105,7 @@ landscape:
             name: Phoenix Software International
             homepage_url: https://phoenixsoftware.com/
             logo: phoenix_software_international.svg
+            twitter: https://twitter.com/PhnxSoftware
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
             name: Precisely Holdings, LLC
@@ -2105,7 +2115,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/precisely
           - item:
             name: Red Hat, Inc.
-            homepage_url: https://www.redhat.com/en
+            homepage_url: https://redhat.com/
             logo: red_hat_inc.svg
             twitter: https://twitter.com/RedHat
             crunchbase: https://www.crunchbase.com/organization/red-hat
@@ -2150,7 +2160,14 @@ landscape:
             name: East Carolina University
             homepage_url: https://ecu.edu/
             logo: east_carolina_university.svg
+            twitter: https://twitter.com/EastCarolina
             crunchbase: https://www.crunchbase.com/organization/east-carolina-university
+          - item:
+            name: École privée des sciences informatiques (EPSI)
+            homepage_url: https://epsi.fr/
+            logo: ecole_privee_des_sciences_informatiques_epsi.svg
+            twitter: https://twitter.com/EPSI_Ecoles
+            crunchbase: https://www.crunchbase.com/organization/epsi
           - item:
             name: HoGent
             homepage_url: https://hogent.be/
@@ -2158,8 +2175,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/hogeschool-gent
           - item:
             name: HTL Donaustadt
-            homepage_url: https://www.htl-donaustadt.at/home
+            homepage_url: https://htl-donaustadt.at/
             logo: htl_donaustadt.svg
+            twitter: https://twitter.com/htldonaustadt
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
           - item:
             name: Johann Wolfgang Goethe University
@@ -2169,7 +2187,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/goethe-university-frankfurt
           - item:
             name: Leipzig University
-            homepage_url: https://www.mathcs.uni-leipzig.de/ifi
+            homepage_url: https://informatik.uni-leipzig.de/
             logo: leipzig_university.svg
             twitter: https://twitter.com/UniLeipzig
             crunchbase: https://www.crunchbase.com/organization/leipzig-university
@@ -2183,6 +2201,7 @@ landscape:
             name: North Carolina A&T State University
             homepage_url: https://ncat.edu/
             logo: north_carolina_at_state_university.svg
+            twitter: https://twitter.com/ncatsuaggies
             crunchbase: https://www.crunchbase.com/organization/north-carolina-a-t-state-university
           - item:
             name: South China University of Technology
@@ -2193,21 +2212,25 @@ landscape:
             name: University of Bedfordshire
             homepage_url: https://beds.ac.uk/
             logo: university_of_bedfordshire.svg
+            twitter: https://twitter.com/uniofbeds
             crunchbase: https://www.crunchbase.com/organization/university-of-bedfordshire
           - item:
             name: University of Washington CIAC (Center for Information Assurance and Cybersecurity)
             homepage_url: https://washington.edu/
             logo: university_of_washington_ciac_center_for_information_assurance_and_cybersecurity.svg
+            twitter: https://twitter.com/UW
             crunchbase: https://www.crunchbase.com/organization/university-of-washington
           - item:
             name: University of Wolverhampton
             homepage_url: https://wlv.ac.uk/
             logo: university_of_wolverhampton.svg
+            twitter: https://twitter.com/wlv_uni
             crunchbase: https://www.crunchbase.com/organization/university-of-wolverhampton
           - item:
             name: Virginia Commonwealth University
             homepage_url: https://vcu.edu/
             logo: virginia_commonwealth_university.svg
+            twitter: https://twitter.com/VCU
             crunchbase: https://www.crunchbase.com/organization/virginia-commonwealth-university
           - item:
             name: Western University
@@ -2226,12 +2249,6 @@ landscape:
             homepage_url: https://xidian.edu.cn/
             logo: xidian_university.svg
             crunchbase: https://www.crunchbase.com/organization/xidian-university
-          - item:
-            name: École privée des sciences informatiques (EPSI)
-            homepage_url: https://epsi.fr/
-            logo: ecole_privee_des_sciences_informatiques_epsi.svg
-            twitter: https://twitter.com/EPSI_Ecoles
-            crunchbase: https://www.crunchbase.com/organization/epsi
       - subcategory:
         name: Associate
         items:
@@ -2249,11 +2266,13 @@ landscape:
             name: GSE UK Region
             homepage_url: https://gse.org.uk/
             logo: gse_uk_region.svg
+            twitter: https://twitter.com/gseukc
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
           - item:
             name: Guide Share Europe (GSE)
             homepage_url: https://gse.org/
             logo: guide_share_europe_gse.svg
+            twitter: https://twitter.com/GuideShareEurop
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe
           - item:
             name: High School Technology Services
