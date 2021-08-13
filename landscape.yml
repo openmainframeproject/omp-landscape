@@ -669,6 +669,13 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
+          - item:
+            name: IMS Operations API (API Mediation Layer ZOWE V1)
+            repo_url: https://github.com/zowe/ims-operations-api
+            homepage_url: https://github.com/zowe/ims-operations-api#readme
+            logo: zowe-ims-operations-api.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            allow_duplicate_repo: true
       - subcategory:
         name: App Framework ZOWE V1
         items:
