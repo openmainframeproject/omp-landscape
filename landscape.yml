@@ -186,15 +186,16 @@ landscape:
               slack_channel: '#genevaers'
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fgenevaers
               leads: Kip Twitchell
-              meeting_cadence: none
+              meeting_cadence: Monthly on second Tuesday at 9:00pm US Eastern Time
               date_accepted: 2020-08-13T00:00:00.000Z
-              last_review_date: none
-              next_review_date: 2021-08-12T00:00:00.000Z
+              last_review_date: 2021-08-12T00:00:00.000Z
+              next_review_date: 2022-08-11T00:00:00.000Z
             name: GenevaERS
             homepage_url: https://genevaers.org
-            project: incubating
+            project: graduated
             repo_url: https://github.com/genevaers/community
             project_org: https://github.com/genevaers
+            url_for_bestpractices: https://github.com/genevaers
             logo: geneva-ers.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
@@ -208,10 +209,10 @@ landscape:
               mailing_list_url: https://lists.openmainframeproject.org/g/wg-open-zos-enablement
               slack_channel: '#wg-open-zos-enablement'
               leads: Kip Twitchell
-              meeting_cadence: Monthly on second Tuesday at 9:00pm US Eastern Time
-              date_accepted: 2020-08-13T00:00:00.000Z
+              meeting_cadence: First and third Thursdays of the month at 4:00pm US Eastern Time
+              date_accepted: 2021-02-11T00:00:00.000Z
               last_review_date: none
-              next_review_date: 2021-08-12T00:00:00.000Z
+              next_review_date: 2022-02-10T00:00:00.000Z
             name: Open z/OS Enablement Working Group
             homepage_url: https://github.com/openmainframeproject/wg-open-zos-enablement
             project: workinggroup
@@ -297,8 +298,8 @@ landscape:
               leads: Jakub Balhar, Sean Grady, Mike Bauer
               meeting_cadence: https://lists.openmainframeproject.org/g/zowe-dev/calendar
               date_accepted: 2019-08-20T00:00:00.000Z
-              last_review_date: 2020-07-09T00:00:00.000Z
-              next_review_date: 2021-08-26T00:00:00.000Z
+              last_review_date: 2021-07-22T00:00:00.000Z
+              next_review_date: 2022-07-21T00:00:00.000Z
             name: Zowe
             description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
             homepage_url: https://www.zowe.org
@@ -653,7 +654,7 @@ landscape:
             description: >-
               IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
               systems management to address your requirements for business agility on IBM Z systems.
-            homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en
+            homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
             logo: ibm-z-netview.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -727,7 +728,7 @@ landscape:
             description: >-
               IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
               systems management to address your requirements for business agility on IBM Z systems.
-            homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en
+            homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
             logo: ibm-z-netview.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -1070,7 +1071,7 @@ landscape:
           - item:
             name: IBM® Z Netview (API Mediation Layer 2019)
             description: A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control
-            homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en
+            homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
             logo: ibm-z-netview.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -1098,7 +1099,7 @@ landscape:
           - item:
             name: IBM® Service Automation Suite (App Framework 2019)
             description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
-            homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/5/897/ENUS219-085/index.html&request_locale=en
+            homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
             logo: service-automation-suite.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -1108,7 +1109,7 @@ landscape:
             description: >-
               IBM® Service Management Suite is focused on delivering comprehensive management of your z/OS enterprise, encompassing monitoring, automation,
               network management, and asset discovery.
-            homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/897/ENUS217-270/index.html&request_locale=en
+            homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
             logo: service-management-suite-for-zos.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -1126,7 +1127,7 @@ landscape:
           - item:
             name: IBM® Z Netview (App Framework 2019)
             description: A comprehensive platform for maintaining and automating complex, multi-vendor, multi-platform networks and systems from a single point of control
-            homepage_url: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS219-484/index.html&request_locale=en
+            homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
             logo: ibm-z-netview.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -2071,9 +2072,9 @@ landscape:
             twitter: https://twitter.com/BMCSoftware
             crunchbase: https://www.crunchbase.com/organization/bmc
           - item:
-            name: Canonical Ltd.
+            name: Canonical Group Limited
             homepage_url: https://canonical.com/
-            logo: canonical_ltd.svg
+            logo: canonical_group_limited.svg
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
           - item:
             name: EPAM Systems, Inc
