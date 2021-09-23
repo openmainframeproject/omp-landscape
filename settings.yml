@@ -392,7 +392,8 @@ prerender:
   members: /card-mode?category=open-mainframe-project-member-company&grouping=category&embed=yes&style=borderless
   members-non-grouped: /card-mode?category=open-mainframe-project-member-company&grouping=no&embed=yes&style=borderless
   hosted-projects: /card-mode?project=hosted&embed=yes&style=borderless
-  zowe-conformant-support-vendor: /card-mode?category=support-provider-comprehensive-zowe-v1,support-provider-api-mediation-layer-zowe-v1,support-provider-app-framework-zowe-v1,support-provider-cli-zowe-v1,support-provider-explorer-for-vs-code-zowe-v1&grouping=category&embed=yes
+  zowe-conformant-support-vendor: >-
+    /card-mode?category=support-provider-comprehensive-zowe-v1,support-provider-api-mediation-layer-zowe-v1,support-provider-app-framework-zowe-v1,support-provider-cli-zowe-v1,support-provider-explorer-for-vs-code-zowe-v1&grouping=category&embed=yes
   zowe-conformant: /card-mode?category=api-mediation-layer-zowe-v1%2Capp-framework-zowe-v1%2Ccli-zowe-v1&grouping=category&embed=yes&style=logo
   zowe-conformant-2019: /card-mode?category=api-mediation-layer-2019%2Capp-framework-2019%2Ccli-2019&grouping=category&embed=yes&style=logo
 export:
