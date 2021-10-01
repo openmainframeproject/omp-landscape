@@ -13,6 +13,21 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
+            name: Debian s390x Working Group
+            homepage_url: https://wiki.openmainframeproject.org/display/DEB/Debian+Working+Group
+            project: workinggroup
+            logo: debian-s390x-working-group.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/wg-debian-s390x/
+              slack_channel: '#wg-debian-s390x'
+              lfx_insights_url: none
+              meeting_cadence: none
+              leads: Elizabeth Joseph
+              date_accepted: 2021-06-10T00:00:00.000Z
+              last_review_date: none
+              next_review_date: 2022-06-09T00:00:00.000Z
+          - item:
             name: Feilong
             homepage_url: https://www.openmainframeproject.org/projects/feilong
             project: incubating
@@ -160,6 +175,22 @@ landscape:
             repo_url: https://github.com/trothr/xmitmsgx
             logo: xmitmsgx.svg
             crunchbase: https://www.crunchbase.com/organization/la-casita
+          - item:
+            name: z/VM Community Tools
+            homepage_url: https://github.com/openmainframeproject/zvm-community-tools
+            project: sandbox
+            repo_url: https://github.com/openmainframeproject/zvm-community-tools
+            logo: zvm-community-tools.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: none
+              slack_channel: none
+              lfx_insights_url: none
+              leads: Bill Bitner
+              meeting_cadence: none
+              date_accepted: 2021-05-13T00:00:00.000Z
+              last_review_date: none
+              next_review_date: 2022-05-12T00:00:00.000Z
       - subcategory:
         name: z/OS
         items:
