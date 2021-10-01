@@ -498,6 +498,50 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-30T23:49:34.000Z
           - item:
+            name: Debian s390x Working Group
+            homepage_url: https://wiki.openmainframeproject.org/display/DEB/Debian+Working+Group
+            project: workinggroup
+            logo: debian-s390x-working-group.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/wg-debian-s390x/
+              slack_channel: '#wg-debian-s390x'
+              lfx_insights_url: none
+              meeting_cadence: none
+              leads: Elizabeth Joseph
+              date_accepted: 2021-06-10T00:00:00.000Z
+              last_review_date: none
+              next_review_date: 2022-06-09T00:00:00.000Z
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.openmainframeproject.org/
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/OpenMFProject
+              linkedin: null
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Association
+                - Communities
+                - Education
+                - Robotics
+            image_data:
+              fileName: debian-s390x-working-group.svg
+              hash: QCg2IetyeqLK+ahOfJX4mae7FAWOqMWIHpzoI7Y8Hnw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-09-30T20:00:00.000Z
+          - item:
             name: Feilong
             homepage_url: https://www.openmainframeproject.org/projects/feilong
             project: incubating
@@ -4974,6 +5018,68 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: z/VM Community Tools
+            homepage_url: https://github.com/openmainframeproject/zvm-community-tools
+            project: sandbox
+            repo_url: https://github.com/openmainframeproject/zvm-community-tools
+            logo: zvm-community-tools.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: none
+              slack_channel: none
+              lfx_insights_url: none
+              leads: Bill Bitner
+              meeting_cadence: none
+              date_accepted: 2021-05-13T00:00:00.000Z
+              last_review_date: none
+              next_review_date: 2022-05-12T00:00:00.000Z
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.openmainframeproject.org/
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/OpenMFProject
+              linkedin: null
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Association
+                - Communities
+                - Education
+                - Robotics
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2020-10-04Z
+              stars: 0
+              license: Apache License 2.0
+              description: null
+              latest_commit_date: '2021-10-01T13:04:26Z'
+              latest_commit_link: /openmainframeproject/zvm-community-tools/commit/43660c98edebf48295a14fff42f8dc7951521d63
+              contributors_count: 1
+              contributors_link: https://github.com/openmainframeproject/zvm-community-tools/graphs/contributors
+            repos:
+              - url: https://github.com/openmainframeproject/zvm-community-tools
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/zvm-community-tools/commit/43660c98edebf48295a14fff42f8dc7951521d63
+              start_date: '2021-10-01T13:04:26Z'
+            image_data:
+              fileName: z-vm-community-tools.svg
+              hash: EnC2JihzDnEf/njS4eidkzumMC30J8JpHfmrVlDSeAs=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-09-30T20:00:00.000Z
       - subcategory:
         name: z/OS
         items:
@@ -41045,9 +41151,7 @@ landscape:
           - item:
             name: Broadcom Corporation
             homepage_url: https://broadcom.com/
-            stock_ticker: null
             logo: broadcom_corporation.svg
-            twitter: https://twitter.com/Broadcom
             crunchbase: https://www.crunchbase.com/organization/broadcom
             crunchbase_data:
               name: Broadcom
@@ -41186,7 +41290,6 @@ landscape:
             name: International Business Machines Corporation
             homepage_url: https://www.ibm.com/us-en
             logo: international_business_machines_corporation.svg
-            twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
             crunchbase_data:
               name: IBM
@@ -41650,7 +41753,6 @@ landscape:
             name: Rocket Software, Inc.
             homepage_url: https://rocketsoftware.com/
             logo: rocket_software_inc.svg
-            twitter: https://twitter.com/Rocket
             crunchbase: https://www.crunchbase.com/organization/rocket-software
             crunchbase_data:
               name: Rocket Software
@@ -41723,7 +41825,6 @@ landscape:
             name: SUSE LLC
             homepage_url: https://suse.com/
             logo: suse_llc.svg
-            twitter: https://twitter.com/SUSE
             crunchbase: https://www.crunchbase.com/organization/suse
             crunchbase_data:
               name: SUSE
@@ -41850,7 +41951,6 @@ landscape:
             name: Canonical Group Limited
             homepage_url: https://canonical.com/
             logo: canonical_group_limited.svg
-            twitter: https://twitter.com/Canonical
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
             crunchbase_data:
               name: Canonical
@@ -41887,7 +41987,6 @@ landscape:
             name: EPAM Systems, Inc
             homepage_url: https://epam.com/
             logo: epam_systems_inc.svg
-            twitter: https://twitter.com/EPAMSYSTEMS
             crunchbase: https://www.crunchbase.com/organization/epam-systems
             crunchbase_data:
               name: EPAM Systems
@@ -42008,7 +42107,6 @@ landscape:
             name: HCL Technologies Ltd.
             homepage_url: https://hcltech.com/
             logo: hcl_technologies_ltd.svg
-            twitter: https://twitter.com/hcltech
             crunchbase: https://www.crunchbase.com/organization/hcl-technologies
             crunchbase_data:
               name: HCL Technologies
@@ -42158,7 +42256,6 @@ landscape:
             name: Phoenix Software International
             homepage_url: https://phoenixsoftware.com/
             logo: phoenix_software_international.svg
-            twitter: https://twitter.com/PhnxSoftware
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
             crunchbase_data:
               name: Phoenix Software International
@@ -42508,7 +42605,6 @@ landscape:
             name: East Carolina University
             homepage_url: https://ecu.edu/
             logo: east_carolina_university.svg
-            twitter: https://twitter.com/EastCarolina
             crunchbase: https://www.crunchbase.com/organization/east-carolina-university
             crunchbase_data:
               name: East Carolina University
@@ -42573,7 +42669,6 @@ landscape:
             name: HTL Donaustadt
             homepage_url: https://www.htl-donaustadt.at/home
             logo: htl_donaustadt.svg
-            twitter: https://twitter.com/htldonaustadt
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
             crunchbase_data:
               name: HTL Donaustadt
@@ -42697,7 +42792,6 @@ landscape:
             name: North Carolina A&T State University
             homepage_url: https://ncat.edu/
             logo: north_carolina_at_state_university.svg
-            twitter: https://twitter.com/ncatsuaggies
             crunchbase: https://www.crunchbase.com/organization/north-carolina-a-t-state-university
             crunchbase_data:
               name: North Carolina Agricultural and Technical State University
@@ -42759,7 +42853,6 @@ landscape:
             name: University of Bedfordshire
             homepage_url: https://beds.ac.uk/
             logo: university_of_bedfordshire.svg
-            twitter: https://twitter.com/uniofbeds
             crunchbase: https://www.crunchbase.com/organization/university-of-bedfordshire
             crunchbase_data:
               name: University of Bedfordshire
@@ -42789,7 +42882,6 @@ landscape:
             name: University of Washington CIAC (Center for Information Assurance and Cybersecurity)
             homepage_url: https://washington.edu/
             logo: university_of_washington_ciac_center_for_information_assurance_and_cybersecurity.svg
-            twitter: https://twitter.com/UW
             crunchbase: https://www.crunchbase.com/organization/university-of-washington
             crunchbase_data:
               name: University of Washington
@@ -42829,7 +42921,6 @@ landscape:
             name: University of Wolverhampton
             homepage_url: https://wlv.ac.uk/
             logo: university_of_wolverhampton.svg
-            twitter: https://twitter.com/wlv_uni
             crunchbase: https://www.crunchbase.com/organization/university-of-wolverhampton
             crunchbase_data:
               name: University of Wolverhampton
@@ -42859,7 +42950,6 @@ landscape:
             name: Virginia Commonwealth University
             homepage_url: https://vcu.edu/
             logo: virginia_commonwealth_university.svg
-            twitter: https://twitter.com/VCU
             crunchbase: https://www.crunchbase.com/organization/virginia-commonwealth-university
             crunchbase_data:
               name: Virginia Commonwealth University
@@ -43075,7 +43165,6 @@ landscape:
             name: GSE UK Region
             homepage_url: https://gse.org.uk/
             logo: gse_uk_region.svg
-            twitter: https://twitter.com/gseukc
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
             crunchbase_data:
               name: Guide Share Europe - UK Region
@@ -43105,7 +43194,6 @@ landscape:
             name: Guide Share Europe (GSE)
             homepage_url: https://gse.org/
             logo: guide_share_europe_gse.svg
-            twitter: https://twitter.com/GuideShareEurop
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe
             crunchbase_data:
               name: Guide Share Europe
