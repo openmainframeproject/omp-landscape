@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Add to general kanban board
-      uses: alex-page/github-project-automation-plus@v0.3.0
+      uses: alex-page/github-project-automation-plus@v0.8.1
       if: |
         github.event.action == 'opened' && 
         ( github.event_name == 'issues' || github.event_name == 'pull_request_target' ) &&
