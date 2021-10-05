@@ -17,3 +17,10 @@ jobs:
           MERGE_LABELS: "automerge"
           MERGE_RETRY_SLEEP: 300000
           MERGE_METHOD: "squash"
+      - name: Remove from general kanban board
+        uses: alex-page/github-project-automation-plus@v0.8.1
+        with:
+          project: OMP 2021 Q4
+          column: To Do
+          repo-token: ${{ secrets.YOUR_NEW_PERSONAL_TOKEN }}
+          action: delete

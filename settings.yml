@@ -45,6 +45,14 @@ relation:
           big_picture_order: 2
           big_picture_label: OMP Incubating
           big_picture_color: rgb(83, 113, 189)
+        - id: sandbox
+          label: Sandbox Open Mainframe Projects
+          prefix: OMP
+          tag: Sandbox
+          color: '#00cbff'
+          big_picture_order: 2
+          big_picture_label: OMP Sandbox
+          big_picture_color: rgb(83, 113, 189)
         - id: workinggroup
           label: Open Mainframe Project Working Group
           prefix: OMP
@@ -129,15 +137,6 @@ big_picture:
         left: 0
         color: rgb(37,81,209)
         fit_width: false
-      - type: HorizontalCategory
-        category: Zowe Conformant
-        rows: 6
-        width: 1200
-        top: 325
-        height: 200
-        left: 0
-        color: rgb(79,121,13)
-        fit_width: true
       - type: LandscapeInfo
         width: 345
         height: 200
@@ -298,6 +297,101 @@ big_picture:
         color: rgb(126,115,14)
         fit_width: true
     category: Open Mainframe Project Member Company
+  sixth:
+    tab_index: 4
+    url: zowe-conformant
+    name: Zowe Conformant
+    title: Ecosystem of vendors and solutions for Zowe
+    elements:
+      - type: HorizontalCategory
+        category: API Mediation Layer ZOWE V1
+        rows: 2
+        width: 700
+        height: 200
+        top: 0
+        left: 0
+        color: rgb(79,121,13)
+      - type: HorizontalCategory
+        category: App Framework ZOWE V1
+        rows: 2
+        width: 700
+        height: 200
+        top: 250
+        left: 0
+        color: rgb(79,121,13)
+      - type: HorizontalCategory
+        category: CLI ZOWE V1
+        rows: 2
+        width: 700
+        height: 200
+        top: 500
+        left: 0
+        color: rgb(79,121,13)
+      - type: HorizontalCategory
+        category: API Mediation Layer 2019
+        rows: 2
+        width: 700
+        height: 200
+        top: 750
+        left: 0
+        color: rgb(79,121,13)
+      - type: HorizontalCategory
+        category: App Framework 2019
+        rows: 2
+        width: 700
+        height: 200
+        top: 1000
+        left: 0
+        color: rgb(79,121,13)
+      - type: HorizontalCategory
+        category: CLI 2019
+        rows: 2
+        width: 700
+        height: 200
+        top: 1250
+        left: 0
+        color: rgb(79,121,13)
+      - type: HorizontalCategory
+        category: Support Provider Comprehensive ZOWE V1
+        rows: 2
+        width: 700
+        height: 200
+        top: 0
+        left: 750
+        color: rgb(79,121,13)
+      - type: HorizontalCategory
+        category: Support Provider App Framework ZOWE V1
+        rows: 2
+        width: 700
+        height: 200
+        top: 250
+        left: 750
+        color: rgb(79,121,13)
+      - type: HorizontalCategory
+        category: Support Provider API Mediation Layer ZOWE V1
+        rows: 2
+        width: 700
+        height: 200
+        top: 500
+        left: 750
+        color: rgb(79,121,13)
+      - type: HorizontalCategory
+        category: Support Provider CLI ZOWE V1
+        rows: 2
+        width: 700
+        height: 200
+        top: 750
+        left: 750
+        color: rgb(79,121,13)
+      - type: HorizontalCategory
+        category: Support Provider Explorer for VS Code ZOWE V1
+        rows: 2
+        width: 700
+        height: 200
+        top: 1000
+        left: 750
+        color: rgb(79,121,13)
+    category: Zowe Conformant
 test:
   header: Open Mainframe Project Interactive Landscape
   section: Graduated Open Mainframe Projects
@@ -306,7 +400,10 @@ prerender:
   members: /card-mode?category=open-mainframe-project-member-company&grouping=category&embed=yes&style=borderless
   members-non-grouped: /card-mode?category=open-mainframe-project-member-company&grouping=no&embed=yes&style=borderless
   hosted-projects: /card-mode?project=hosted&embed=yes&style=borderless
+  zowe-conformant-support-vendor: >-
+    /card-mode?category=support-provider-comprehensive-zowe-v1,support-provider-api-mediation-layer-zowe-v1,support-provider-app-framework-zowe-v1,support-provider-cli-zowe-v1,support-provider-explorer-for-vs-code-zowe-v1&grouping=category&embed=yes
   zowe-conformant: /card-mode?category=api-mediation-layer-zowe-v1%2Capp-framework-zowe-v1%2Ccli-zowe-v1&grouping=category&embed=yes&style=logo
   zowe-conformant-2019: /card-mode?category=api-mediation-layer-2019%2Capp-framework-2019%2Ccli-2019&grouping=category&embed=yes&style=logo
 export:
-  projects-hosted: card-mode?category=projects&project=hosted
+  projects-hosted: card-mode?grouping=no&category=projects&project=hosted
+  projects-hosted-by-stage: card-mode?category=projects&project=hosted
