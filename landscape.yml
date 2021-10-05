@@ -21,7 +21,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/wg-debian-s390x/
               slack_channel: '#wg-debian-s390x'
-              lfx_insights_url: none
+              LFX_insights_url: none
               meeting_cadence: none
               leads: Elizabeth Joseph
               date_accepted: 2021-06-10T00:00:00.000Z
@@ -37,12 +37,13 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/feilong-discussion
               slack_channel: '#feilong'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ffeilong
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ffeilong
               meeting_cadence: Monthly on the second Wednesday of the month at 9:00am US Eastern Time
               leads: Mike Friesenegger and James Vincent
               date_accepted: 2019-08-20T00:00:00.000Z
               last_review_date: 2021-02-11T00:00:00.000Z
               next_review_date: 2021-12-09T00:00:00.000Z
+              SBOM: https://github.com/lfscanning/spdx-omp/tree/master/feilong
           - item:
             name: libica
             homepage_url: https://github.com/opencryptoki/libica
@@ -112,7 +113,7 @@ landscape:
               user_mailing_list_url: https://lists.openmainframeproject.org/g/tessia-user
               dev_mailing_list_url: https://lists.openmainframeproject.org/g/tessia-dev
               slack_channel: '#tessia'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftessia
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftessia
               leads: Alexey Machikhin and Alexander Efremkin
               meeting_cadence: none
               date_accepted: 2020-10-23T00:00:00.000Z
@@ -163,7 +164,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/consolez-discussion
               slack_channel: '#consolez'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fconsolez
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fconsolez
               leads: Michael MacIssac
               meeting_cadence: Every other Tuesday at 1:00pm US Eastern Time
               date_accepted: 2021-02-16T00:00:00.000Z
@@ -185,7 +186,7 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: none
-              lfx_insights_url: none
+              LFX_insights_url: none
               leads: Bill Bitner
               meeting_cadence: none
               date_accepted: 2021-05-13T00:00:00.000Z
@@ -205,7 +206,7 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: '#cbt-tape'
-              lfx_insights_url: none
+              LFX_insights_url: none
               leads: Sam Golab
               meeting_cadence: none
               date_accepted: 2020-10-23T00:00:00.000Z
@@ -223,12 +224,13 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/genevaers-discussion
               slack_channel: '#genevaers'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fgenevaers
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fgenevaers
               leads: Kip Twitchell
               meeting_cadence: Monthly on second Tuesday at 9:00pm US Eastern Time
               date_accepted: 2020-08-13T00:00:00.000Z
               last_review_date: 2021-08-12T00:00:00.000Z
               next_review_date: 2022-08-11T00:00:00.000Z
+              SBOM: https://github.com/lfscanning/spdx-omp/tree/master/genevaers/
           - item:
             name: Launcher
             homepage_url: https://github.com/phoenixsoftware/Launcher
@@ -260,12 +262,13 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/polycephaly-discussion
               slack_channel: '#polycephaly'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%polycephaly
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%polycephaly
               leads: Jerry Edgington
               meeting_cadence: Every other Monday at 2:00pm US Eastern Time
               date_accepted: 2019-12-19T00:00:00.000Z
               last_review_date: 2020-10-15T00:00:00.000Z
               next_review_date: 2021-10-28T00:00:00.000Z
+              SBOM: https://github.com/lfscanning/spdx-omp/tree/master/polycephaly
           - item:
             name: z/OS Connector Plugin for Jenkins
             homepage_url: https://github.com/jenkinsci/zos-connector-plugin
@@ -315,12 +318,13 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/zorow-discussion
               slack_channel: '#zorow'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%zorow
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%zorow
               leads: Hiren Shah
               meeting_cadence: Every other Thursday at 2:00pm US Eastern
               date_accepted: 2019-08-20T00:00:00.000Z
               last_review_date: 2021-08-26T00:00:00.000Z
               next_review_date: 2022-08-25T00:00:00.000Z
+              SBOM: https://github.com/lfscanning/spdx-omp/tree/master/zorow
           - item:
             name: Zowe
             description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
@@ -334,12 +338,13 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/zowe-dev
               slack_channel: '#zowe-onboarding'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%zowe
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%zowe
               leads: Jakub Balhar, Sean Grady, Mike Bauer
               meeting_cadence: https://lists.openmainframeproject.org/g/zowe-dev/calendar
               date_accepted: 2019-08-20T00:00:00.000Z
               last_review_date: 2021-07-22T00:00:00.000Z
               next_review_date: 2022-07-21T00:00:00.000Z
+              SBOM: https://github.com/lfscanning/spdx-omp/tree/master/zowe
           - item:
             name: zUID
             homepage_url: https://github.com/walmartlabs/zUID
@@ -359,12 +364,13 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: '#atomplugins'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%atom-plugins
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%atom-plugins
               leads: Walter Church
               meeting_cadence: none
               date_accepted: 2017-09-13T00:00:00.000Z
               last_review_date: 2021-09-09T00:00:00.000Z
               next_review_date: 2022-09-08T00:00:00.000Z
+              SBOM: https://github.com/lfscanning/spdx-omp/tree/master/atom
           - item:
             name: COBOL Check
             homepage_url: https://www.openmainframeproject.org/projects/cobol-check
@@ -375,7 +381,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/cobol-check-discussion
               slack_channel: '#cobol-check'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%cobol-check
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%cobol-check
               leads: Dave Nicolette
               meeting_cadence: Weekly on Thursdays at 9:00am US Eastern Time
               date_accepted: 2021-02-16T00:00:00.000Z
@@ -412,12 +418,13 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/cobol-check-discussion
               slack_channel: '#cobol-programming-course'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fcobol-programming-course
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fcobol-programming-course
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
               leads: Sudharsana Srinivasan
               date_accepted: 2020-04-17T00:00:00.000Z
               last_review_date: 2021-04-08T00:00:00.000Z
               next_review_date: 2022-04-14T00:00:00.000Z
+              SBOM: https://github.com/lfscanning/spdx-omp/tree/master/cobol-programming-course
           - item:
             name: COBOL Working Group
             homepage_url: https://www.openmainframeproject.org/projects/cobol-working-group
@@ -428,7 +435,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/cobol-check-discussion
               slack_channel: '#cobol-programming-course'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fcobol-programming-course
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fcobol-programming-course
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
               leads: Sudharsana Srinivasan
               date_accepted: 2020-04-17T00:00:00.000Z
@@ -445,7 +452,7 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: '#mentorship'
-              lfx_insights_url: none
+              LFX_insights_url: none
               meeting_cadence: none
               leads: Bob Dahlberg
               date_accepted: 2015-08-23T00:00:00.000Z
@@ -461,7 +468,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/omp-education-discussion
               slack_channel: '#omp-education-project'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Feducation
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Feducation
               meeting_cadence: none
               leads: Lauren Valenti
               date_accepted: 2020-09-09T00:00:00.000Z
@@ -480,12 +487,13 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: '#ade'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fade
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fade
               meeting_cadence: none
               leads: James Caffrey
               date_accepted: 2016-02-15T00:00:00.000Z
               last_review_date: none
               next_review_date: 2022-01-13T00:00:00.000Z
+              SBOM: https://github.com/lfscanning/spdx-omp/tree/master/ade
           - item:
             name: Ambitus
             homepage_url: https://github.com/ambitus
@@ -497,7 +505,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/ambitus-discussion
               slack_channel: '#ambitus'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fambitus
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fambitus
               meeting_cadence: Every other Monday at 10am US Eastern Time
               leads: Sudharsana Srinivasan
               date_accepted: 2020-02-24T00:00:00.000Z
@@ -519,28 +527,32 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/software-discovery-tool
               slack_channel: '#software-discovery-tool'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fsoftware-discovery-tool
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fsoftware-discovery-tool
               meeting_cadence: none
               leads: Elizabeth Joseph
               date_accepted: 2020-04-09T00:00:00.000Z
               last_review_date: 2021-05-13T00:00:00.000Z
               next_review_date: 2022-04-21T00:00:00.000Z
+              SBOM: https://github.com/lfscanning/spdx-omp/tree/master/software-discovery-tool
           - item:
             name: TerseDecompress
             homepage_url: https://www.openmainframeproject.org/projects/tersedecompress
             project: incubating
             repo_url: https://github.com/openmainframeproject/tersedecompress
+            additional_repos:
+              - repo_url: https://github.com/openmainframeproject/tersedecompress-testdata
             logo: terse-decompress.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               mailing_list_url: none
               slack_channel: '#tersedecompress'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftersedecompress
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftersedecompress
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
               leads: Andrew Rowley
               date_accepted: 2019-08-20T00:00:00.000Z
               last_review_date: none
               next_review_date: 2021-09-09T00:00:00.000Z
+              SBOM: https://github.com/lfscanning/spdx-omp/tree/master/tersedecompress
   - category:
     name: Zowe Conformant
     subcategories:
