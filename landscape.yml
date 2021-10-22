@@ -24,9 +24,9 @@ landscape:
               LFX_insights_url: none
               meeting_cadence: none
               leads: Elizabeth Joseph
-              date_accepted: 2021-06-10T00:00:00.000Z
+              date_accepted: ^2021-06-10
               last_review_date: none
-              next_review_date: 2022-06-09T00:00:00.000Z
+              next_review_date: ^2022-06-09
           - item:
             name: Feilong
             homepage_url: https://www.openmainframeproject.org/projects/feilong
@@ -40,9 +40,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ffeilong
               meeting_cadence: Monthly on the second Wednesday of the month at 9:00am US Eastern Time
               leads: Mike Friesenegger and James Vincent
-              date_accepted: 2019-08-20T00:00:00.000Z
-              last_review_date: 2021-02-11T00:00:00.000Z
-              next_review_date: 2021-12-09T00:00:00.000Z
+              date_accepted: ^2019-08-20
+              last_review_date: ^2021-02-11
+              next_review_date: ^2021-12-09
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/feilong
           - item:
             name: libica
@@ -107,6 +107,7 @@ landscape:
             project: incubating
             repo_url: https://github.com/tessia-project/tessia
             project_org: https://github.com/tessia-project
+            url_for_bestpractices: https://gitlab.com/tessia-project/tessia
             logo: tessia.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
@@ -116,9 +117,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftessia
               leads: Alexey Machikhin and Alexander Efremkin
               meeting_cadence: none
-              date_accepted: 2020-10-23T00:00:00.000Z
-              last_review_date: none
-              next_review_date: 2021-10-14T00:00:00.000Z
+              date_accepted: ^2020-10-22
+              last_review_date: ^2021-10-14
+              next_review_date: ^2022-10-13
           - item:
             name: VMLINK
             homepage_url: https://github.com/trothr/vmlink
@@ -167,9 +168,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fconsolez
               leads: Michael MacIssac
               meeting_cadence: Every other Tuesday at 1:00pm US Eastern Time
-              date_accepted: 2021-02-16T00:00:00.000Z
+              date_accepted: ^2021-01-14
               last_review_date: none
-              next_review_date: 2022-01-27T00:00:00.000Z
+              next_review_date: ^2022-01-27
           - item:
             name: xmitmsgx
             homepage_url: https://github.com/trothr/xmitmsgx
@@ -189,9 +190,9 @@ landscape:
               LFX_insights_url: none
               leads: Bill Bitner
               meeting_cadence: none
-              date_accepted: 2021-05-13T00:00:00.000Z
+              date_accepted: ^2021-05-13
               last_review_date: none
-              next_review_date: 2022-05-12T00:00:00.000Z
+              next_review_date: ^2022-05-12
       - subcategory:
         name: z/OS
         items:
@@ -209,9 +210,9 @@ landscape:
               LFX_insights_url: none
               leads: Sam Golab
               meeting_cadence: none
-              date_accepted: 2020-10-23T00:00:00.000Z
-              last_review_date: none
-              next_review_date: 2021-10-14T00:00:00.000Z
+              date_accepted: ^2020-09-10
+              last_review_date: ^2021-10-14
+              next_review_date: ^2022-10-13
           - item:
             name: GenevaERS
             homepage_url: https://genevaers.org
@@ -227,9 +228,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fgenevaers
               leads: Kip Twitchell
               meeting_cadence: Monthly on second Tuesday at 9:00pm US Eastern Time
-              date_accepted: 2020-08-13T00:00:00.000Z
-              last_review_date: 2021-08-12T00:00:00.000Z
-              next_review_date: 2022-08-11T00:00:00.000Z
+              date_accepted: ^2020-08-13
+              last_review_date: ^2021-08-12
+              next_review_date: ^2022-08-11
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/genevaers/
           - item:
             name: Launcher
@@ -249,9 +250,9 @@ landscape:
               slack_channel: '#wg-open-zos-enablement'
               leads: Kip Twitchell
               meeting_cadence: First and third Thursdays of the month at 4:00pm US Eastern Time
-              date_accepted: 2021-02-11T00:00:00.000Z
+              date_accepted: ^2021-02-11
               last_review_date: none
-              next_review_date: 2022-02-10T00:00:00.000Z
+              next_review_date: ^2022-02-10
           - item:
             name: Polycephaly
             homepage_url: https://www.openmainframeproject.org/projects/polycephaly
@@ -265,9 +266,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%polycephaly
               leads: Jerry Edgington
               meeting_cadence: Every other Monday at 2:00pm US Eastern Time
-              date_accepted: 2019-12-19T00:00:00.000Z
-              last_review_date: 2020-10-15T00:00:00.000Z
-              next_review_date: 2021-10-28T00:00:00.000Z
+              date_accepted: ^2019-12-19
+              last_review_date: ^2020-10-15
+              next_review_date: ^2021-10-28
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/polycephaly
           - item:
             name: z/OS Connector Plugin for Jenkins
@@ -321,9 +322,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%zorow
               leads: Hiren Shah
               meeting_cadence: Every other Thursday at 2:00pm US Eastern
-              date_accepted: 2019-08-20T00:00:00.000Z
-              last_review_date: 2021-08-26T00:00:00.000Z
-              next_review_date: 2022-08-25T00:00:00.000Z
+              date_accepted: ^2019-08-20
+              last_review_date: ^2021-08-26
+              next_review_date: ^2022-08-25
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/zorow
           - item:
             name: Zowe
@@ -341,9 +342,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%zowe
               leads: Jakub Balhar, Sean Grady, Mike Bauer
               meeting_cadence: https://lists.openmainframeproject.org/g/zowe-dev/calendar
-              date_accepted: 2019-08-20T00:00:00.000Z
-              last_review_date: 2021-07-22T00:00:00.000Z
-              next_review_date: 2022-07-21T00:00:00.000Z
+              date_accepted: ^2019-08-20
+              last_review_date: ^2021-07-22
+              next_review_date: ^2022-07-21
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/zowe
           - item:
             name: zUID
@@ -367,9 +368,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%atom-plugins
               leads: Walter Church
               meeting_cadence: none
-              date_accepted: 2017-09-13T00:00:00.000Z
-              last_review_date: 2021-09-09T00:00:00.000Z
-              next_review_date: 2022-09-08T00:00:00.000Z
+              date_accepted: ^2017-09-13
+              last_review_date: ^2021-09-09
+              next_review_date: ^2022-09-08
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/atom
           - item:
             name: COBOL Check
@@ -384,9 +385,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%cobol-check
               leads: Dave Nicolette
               meeting_cadence: Weekly on Thursdays at 9:00am US Eastern Time
-              date_accepted: 2021-02-16T00:00:00.000Z
+              date_accepted: ^2021-01-14
               last_review_date: none
-              next_review_date: 2022-01-13T00:00:00.000Z
+              next_review_date: ^2022-01-13
           - item:
             name: COBOL Source colouriser for Visual Studio Code
             homepage_url: https://github.com/spgennard/vscode_cobol
@@ -421,9 +422,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fcobol-programming-course
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
               leads: Sudharsana Srinivasan
-              date_accepted: 2020-04-17T00:00:00.000Z
-              last_review_date: 2021-04-08T00:00:00.000Z
-              next_review_date: 2022-04-14T00:00:00.000Z
+              date_accepted: ^2020-04-09
+              last_review_date: ^2021-04-08
+              next_review_date: ^2022-04-14
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/cobol-programming-course
           - item:
             name: COBOL Working Group
@@ -437,10 +438,10 @@ landscape:
               slack_channel: '#cobol-programming-course'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fcobol-programming-course
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
-              leads: Sudharsana Srinivasan
-              date_accepted: 2020-04-17T00:00:00.000Z
-              last_review_date: 2021-04-08T00:00:00.000Z
-              next_review_date: 2022-04-14T00:00:00.000Z
+              leads: Derek Britton and Cameron Seay
+              date_accepted: ^2020-06-11
+              last_review_date: ^2021-07-08
+              next_review_date: ^2022-07-09
           - item:
             name: Global Repository for Mainframe Developers
             homepage_url: https://github.com/IBA-mainframe-dev/Global-Repository-for-Mainframe-Developers
@@ -461,9 +462,9 @@ landscape:
               LFX_insights_url: none
               meeting_cadence: none
               leads: Bob Dahlberg
-              date_accepted: 2015-08-23T00:00:00.000Z
+              date_accepted: ^2015-08-23
               last_review_date: none
-              next_review_date: 2021-11-04T00:00:00.000Z
+              next_review_date: ^2021-11-04
           - item:
             name: Open Mainframe Education
             homepage_url: https://github.com/openmainframeproject/omp-education
@@ -477,15 +478,15 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Feducation
               meeting_cadence: none
               leads: Lauren Valenti
-              date_accepted: 2020-09-09T00:00:00.000Z
-              last_review_date: 2021-05-27T00:00:00.000Z
-              next_review_date: 2022-05-26T00:00:00.000Z
+              date_accepted: ^2020-05-14
+              last_review_date: ^2021-05-27
+              next_review_date: ^2022-05-26
       - subcategory:
         name: Other
         items:
           - item:
             name: ADE
-            homepage_url: https://openmainframeproject.github.io/ade/
+            homepage_url: http://ade.openmainframeproject.org
             project: graduated
             repo_url: https://github.com/openmainframeproject/ade
             logo: ade.svg
@@ -496,9 +497,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fade
               meeting_cadence: none
               leads: James Caffrey
-              date_accepted: 2016-02-15T00:00:00.000Z
+              date_accepted: ^2016-02-15
               last_review_date: none
-              next_review_date: 2022-01-13T00:00:00.000Z
+              next_review_date: ^2022-01-13
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/ade
           - item:
             name: Ambitus
@@ -513,10 +514,10 @@ landscape:
               slack_channel: '#ambitus'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fambitus
               meeting_cadence: Every other Monday at 10am US Eastern Time
-              leads: Sudharsana Srinivasan
-              date_accepted: 2020-02-24T00:00:00.000Z
-              last_review_date: 2021-06-17T00:00:00.000Z
-              next_review_date: 2022-06-09T00:00:00.000Z
+              leads: Joe Bostian
+              date_accepted: ^2020-02-24
+              last_review_date: ^2021-06-17
+              next_review_date: ^2022-06-09
           - item:
             name: Ductwork
             homepage_url: https://github.com/trothr/ductwork
@@ -536,9 +537,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fsoftware-discovery-tool
               meeting_cadence: none
               leads: Elizabeth Joseph
-              date_accepted: 2020-04-09T00:00:00.000Z
-              last_review_date: 2021-05-13T00:00:00.000Z
-              next_review_date: 2022-04-21T00:00:00.000Z
+              date_accepted: ^2020-04-09
+              last_review_date: ^2021-05-13
+              next_review_date: ^2022-04-21
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/software-discovery-tool
           - item:
             name: TerseDecompress
@@ -555,9 +556,9 @@ landscape:
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftersedecompress
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
               leads: Andrew Rowley
-              date_accepted: 2019-08-20T00:00:00.000Z
+              date_accepted: ^2018-12-14
               last_review_date: none
-              next_review_date: 2021-09-09T00:00:00.000Z
+              next_review_date: ^2021-09-09
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/tersedecompress
   - category:
     name: Zowe Conformant
@@ -1920,7 +1921,7 @@ landscape:
             homepage_url: https://maintenance.vmware.com/maintenance.html
             repo_url: https://github.com/saltstack/salt
             logo: salt-stack.svg
-            twitter:
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/saltstack
           - item:
             name: SonarCube
@@ -2028,7 +2029,7 @@ landscape:
             homepage_url: https://spark.apache.org
             repo_url: https://github.com/apache/spark
             logo: spark.svg
-            twitter:
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Elastic
@@ -2066,7 +2067,7 @@ landscape:
             homepage_url: https://lucene.apache.org/
             repo_url: https://github.com/apache/lucene-solr
             logo: lucenesolr.svg
-            twitter:
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Splunk
@@ -2247,26 +2248,21 @@ landscape:
             name: Broadcom Corporation
             homepage_url: https://broadcom.com/
             logo: broadcom_corporation.svg
-            twitter: https://twitter.com/Broadcom
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            stock_ticker:
           - item:
             name: International Business Machines Corporation
-            homepage_url: https://ibm.com/
+            homepage_url: https://www.ibm.com/us-en
             logo: international_business_machines_corporation.svg
-            twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Rocket Software, Inc.
             homepage_url: https://rocketsoftware.com/
             logo: rocket_software_inc.svg
-            twitter: https://twitter.com/Rocket
             crunchbase: https://www.crunchbase.com/organization/rocket-software
           - item:
             name: SUSE LLC
             homepage_url: https://suse.com/
             logo: suse_llc.svg
-            twitter: https://twitter.com/SUSE
             crunchbase: https://www.crunchbase.com/organization/suse
       - subcategory:
         name: Silver
@@ -2287,17 +2283,15 @@ landscape:
             name: Canonical Group Limited
             homepage_url: https://canonical.com/
             logo: canonical_group_limited.svg
-            twitter: https://twitter.com/Canonical
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
           - item:
             name: EPAM Systems, Inc
             homepage_url: https://epam.com/
             logo: epam_systems_inc.svg
-            twitter: https://twitter.com/EPAMSYSTEMS
             crunchbase: https://www.crunchbase.com/organization/epam-systems
           - item:
             name: GT Software, Inc. d/b/a Adaptigent
-            homepage_url: https://gtsoftware.com/
+            homepage_url: https://www.adaptigent.com
             logo: gt_software_inc_dba_adaptigent.svg
             twitter: https://twitter.com/Adaptigent
             crunchbase: https://www.crunchbase.com/organization/gt-software
@@ -2305,7 +2299,6 @@ landscape:
             name: HCL Technologies Ltd.
             homepage_url: https://hcltech.com/
             logo: hcl_technologies_ltd.svg
-            twitter: https://twitter.com/hcltech
             crunchbase: https://www.crunchbase.com/organization/hcl-technologies
           - item:
             name: IN-COM Data Systems
@@ -2320,7 +2313,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/yadro
           - item:
             name: Micro Focus International plc
-            homepage_url: https://microfocus.com/
+            homepage_url: https://www.microfocus.com/en-us/home
             logo: micro_focus_international_plc.svg
             twitter: https://twitter.com/MicroFocus
             crunchbase: https://www.crunchbase.com/organization/micro-focus
@@ -2328,7 +2321,6 @@ landscape:
             name: Phoenix Software International
             homepage_url: https://phoenixsoftware.com/
             logo: phoenix_software_international.svg
-            twitter: https://twitter.com/PhnxSoftware
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
             name: Precisely Holdings, LLC
@@ -2338,7 +2330,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/precisely
           - item:
             name: Red Hat, Inc.
-            homepage_url: https://redhat.com/
+            homepage_url: https://www.redhat.com/en
             logo: red_hat_inc.svg
             twitter: https://twitter.com/RedHat
             crunchbase: https://www.crunchbase.com/organization/red-hat
@@ -2355,7 +2347,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/vicom-infinity
           - item:
             name: Zoss Team, LLC
-            homepage_url: https://bizapedia.com/
+            homepage_url: https://bizapedia.com/ma/zoss-team-llc.html
             logo: zoss_team_llc.svg
             crunchbase: https://www.crunchbase.com/organization/zoss-team-llc
       - subcategory:
@@ -2383,14 +2375,7 @@ landscape:
             name: East Carolina University
             homepage_url: https://ecu.edu/
             logo: east_carolina_university.svg
-            twitter: https://twitter.com/EastCarolina
             crunchbase: https://www.crunchbase.com/organization/east-carolina-university
-          - item:
-            name: École privée des sciences informatiques (EPSI)
-            homepage_url: https://epsi.fr/
-            logo: ecole_privee_des_sciences_informatiques_epsi.svg
-            twitter: https://twitter.com/EPSI_Ecoles
-            crunchbase: https://www.crunchbase.com/organization/epsi
           - item:
             name: HoGent
             homepage_url: https://hogent.be/
@@ -2399,9 +2384,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/hogeschool-gent
           - item:
             name: HTL Donaustadt
-            homepage_url: https://htl-donaustadt.at/
+            homepage_url: https://www.htl-donaustadt.at/home
             logo: htl_donaustadt.svg
-            twitter: https://twitter.com/htldonaustadt
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
           - item:
             name: Johann Wolfgang Goethe University
@@ -2411,7 +2395,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/goethe-university-frankfurt
           - item:
             name: Leipzig University
-            homepage_url: https://informatik.uni-leipzig.de/
+            homepage_url: https://www.mathcs.uni-leipzig.de/ifi
             logo: leipzig_university.svg
             twitter: https://twitter.com/UniLeipzig
             crunchbase: https://www.crunchbase.com/organization/leipzig-university
@@ -2425,7 +2409,6 @@ landscape:
             name: North Carolina A&T State University
             homepage_url: https://ncat.edu/
             logo: north_carolina_at_state_university.svg
-            twitter: https://twitter.com/ncatsuaggies
             crunchbase: https://www.crunchbase.com/organization/north-carolina-a-t-state-university
           - item:
             name: South China University of Technology
@@ -2436,25 +2419,21 @@ landscape:
             name: University of Bedfordshire
             homepage_url: https://beds.ac.uk/
             logo: university_of_bedfordshire.svg
-            twitter: https://twitter.com/uniofbeds
             crunchbase: https://www.crunchbase.com/organization/university-of-bedfordshire
           - item:
             name: University of Washington CIAC (Center for Information Assurance and Cybersecurity)
             homepage_url: https://washington.edu/
             logo: university_of_washington_ciac_center_for_information_assurance_and_cybersecurity.svg
-            twitter: https://twitter.com/UW
             crunchbase: https://www.crunchbase.com/organization/university-of-washington
           - item:
             name: University of Wolverhampton
             homepage_url: https://wlv.ac.uk/
             logo: university_of_wolverhampton.svg
-            twitter: https://twitter.com/wlv_uni
             crunchbase: https://www.crunchbase.com/organization/university-of-wolverhampton
           - item:
             name: Virginia Commonwealth University
             homepage_url: https://vcu.edu/
             logo: virginia_commonwealth_university.svg
-            twitter: https://twitter.com/VCU
             crunchbase: https://www.crunchbase.com/organization/virginia-commonwealth-university
           - item:
             name: Western University
@@ -2473,6 +2452,12 @@ landscape:
             homepage_url: https://xidian.edu.cn/
             logo: xidian_university.svg
             crunchbase: https://www.crunchbase.com/organization/xidian-university
+          - item:
+            name: École privée des sciences informatiques (EPSI)
+            homepage_url: https://epsi.fr/
+            logo: ecole_privee_des_sciences_informatiques_epsi.svg
+            twitter: https://twitter.com/EPSI_Ecoles
+            crunchbase: https://www.crunchbase.com/organization/epsi
       - subcategory:
         name: Associate
         items:
@@ -2490,13 +2475,11 @@ landscape:
             name: GSE UK Region
             homepage_url: https://gse.org.uk/
             logo: gse_uk_region.svg
-            twitter: https://twitter.com/gseukc
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
           - item:
             name: Guide Share Europe (GSE)
             homepage_url: https://gse.org/
             logo: guide_share_europe_gse.svg
-            twitter: https://twitter.com/GuideShareEurop
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe
           - item:
             name: High School Technology Services
