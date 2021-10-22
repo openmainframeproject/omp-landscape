@@ -1096,6 +1096,17 @@ landscape:
             logo: zowe-secure-credential-store.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
+          - item:
+            name: IBM Z System Automation (CLI ZOWE V1)
+            description: >
+              IBM Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
+              and applications. A Zowe CLI add-on that include a set of commands to retrieve information about automated resources as well as create and delete
+              dynamic resources was made available since October 22, 2021 on top of IBM Z System Automation v 4.2 (already available since November 2020).
+            homepage_url: https://www.ibm.com/products/z-system-automation
+            logo: ibm-z-system-automation.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+            allow_duplicate_repo: true
       - subcategory:
         name: API Mediation Layer 2019
         items:
