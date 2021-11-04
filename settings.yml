@@ -30,17 +30,17 @@ relation:
       label: Open Mainframe Project Projects
       children:
         - id: graduated
-          label: Graduated Open Mainframe Projects
+          label: Active Open Mainframe Projects
           prefix: OMP
-          tag: Graduated
+          tag: Active
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: OMP Graduated
           big_picture_color: rgb(24,54,114)
         - id: incubating
-          label: Incubating Open Mainframe Projects
+          label: Incubation Open Mainframe Projects
           prefix: OMP
-          tag: Incubating
+          tag: Incubation
           color: '#00cbff'
           big_picture_order: 2
           big_picture_label: OMP Incubating
