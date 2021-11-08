@@ -1107,6 +1107,19 @@ landscape:
             logo: zowe-secure-credential-store.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
+          - item:
+            name: IBM RSE API Plug-in (CLI ZOWE V1)
+            description: >-
+              Extends Zowe CLI and Zowe Explorer APIs to let you interact with z/OS resources. The RSE plug-in
+
+              interacts with z/OS by using IBM Remote System Explorer API (RSE API) instead of using z/OSMF. This solution is a great alternative if you have
+              already used the Remote System Explorer with other IBM
+
+              offerings such as IBM Developer for z/OS or IBM Explorer for z/OS. It is also a good option if you have not configured z/OSMF on your z/OS.
+            homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
+            repo_url: https://github.com/https://ibm.github.io/mainframe-downloads/downloads.html
+            logo: IBM RSE API Plug-in.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
       - subcategory:
         name: API Mediation Layer 2019
         items:
