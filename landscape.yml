@@ -1492,15 +1492,6 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
-          - item:
-            name: Debugger Mainframe (Zowe Explorer for Visual Studio Code - Zowe v1)
-            description: |-
-              This extension provides a modern debugging experience for CICS
-              and Batch programs written in COBOL leveraging Intertest Batch and on z/OS.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe
-            repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
-            logo: Debugger for Mainframe.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V1
         items:
@@ -1512,6 +1503,15 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.abend-analyzer
             project: null
             logo: Abend Analyzer.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: Debugger for Mainframe (Explorer for Visual Studio Code ZOWE V1)
+            description: |-
+              This extension provides a modern debugging experience for CICS
+              and Batch programs written in COBOL leveraging Intertest Batch and z/OS
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe
+            repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
+            logo: Debugger for Mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
   - category:
     name: Broad Open Source
