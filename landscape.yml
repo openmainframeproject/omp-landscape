@@ -1492,6 +1492,14 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
+          - item:
+            name: Debugger Mainframe (Zowe Explorer for Visual Studio Code - Zowe v1)
+            description: |-
+              This extension provides a modern debugging experience for CICS
+              and Batch programs written in COBOL leveraging Intertest Batch and on z/OS.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe
+            repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
+            logo: Debugger for Mainframe.svg
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V1
         items:
