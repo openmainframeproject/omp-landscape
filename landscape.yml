@@ -1492,6 +1492,16 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
+      - subcategory:
+        name: Explorer for Visual Studio Code ZOWE V1
+        items:
+          - item:
+            name: Zowe Explorer for IBM CICS
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
+            project: null
+            repo_url: https://github.com/zowe/vscode-extension-for-cics
+            logo: IBM Zowe Explorer.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
   - category:
     name: Broad Open Source
     subcategories:
