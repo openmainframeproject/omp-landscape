@@ -1537,6 +1537,15 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.data-editor-for-mainframe
             logo: Data Editor in Mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: JCL Language Support (Explorer for Visual Studio Code ZOWE V1)
+            description: >-
+              Extension provides an interface in VS Code for developers and system administrators to interact with Job Control Language (JCL) on IBM z/OS
+              mainframes. Edit JCL in a local environment complete with syntax highlighting, linting, and access to a library of sample job snippets.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.jcl-language-support
+            repo_url: https://github.com/BroadcomMFD/jcl-language-support
+            logo: JCL Language Support.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
   - category:
     name: Broad Open Source
     subcategories:
