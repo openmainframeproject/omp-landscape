@@ -1546,6 +1546,15 @@ landscape:
             repo_url: https://github.com/BroadcomMFD/jcl-language-support
             logo: JCL Language Support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: HLASM Language Support (Explorer for Visual Studio Code ZOWE V1)
+            description: >-
+              An extension that supports the High Level Assembler language. It provides code completion, highlighting and navigation features, shows mistakes in
+              the source, and lets you trace how the conditional assembly is evaluated with a modern debugging experience.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.hlasm-language-support
+            repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
+            logo: HLASM Language Support.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
   - category:
     name: Broad Open Source
     subcategories:
