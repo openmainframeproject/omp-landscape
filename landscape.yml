@@ -1119,6 +1119,13 @@ landscape:
             homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
             logo: IBM RSE API Plug-in.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: Cobol Language Support (CLI ZOWE V1)
+            description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support
+            repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
+            logo: Cobol Language Support.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: API Mediation Layer 2019
         items:
