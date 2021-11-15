@@ -6841,271 +6841,47 @@ landscape:
                 - Robotics
             github_data:
               description: Zowe, a top level project of Open Mainframe Project
-              contributors_count: 199
-              contributions: >-
-                217;203;165;251;212;78;28;153;315;204;266;194;189;96;151;225;284;209;224;265;205;236;218;272;162;244;128;178;182;161;100;133;134;89;230;215;258;162;195;148;246;191;135;282;194;187;213;191;110;140;69;57
-              stars: 643
+              contributors_count: 1
+              contributions: 0;3;6;3;24;0;3;2;0;0;6;3;15;0;0;5;0;3;6;1;8;6;5;22;3;2;0;6;0;0;0;5;5;1;9;8;30;3;41;8;18;8;0;2;10;13;0;7;0;0;0;0
+              stars: 35
               languages:
                 - name: TypeScript
-                  value: 13932729
+                  value: 1999688
                   color: '#2b7489'
                 - name: Java
-                  value: 6200036
+                  value: 980736
                   color: '#b07219'
                 - name: JavaScript
-                  value: 5191617
+                  value: 54412
                   color: '#f1e05a'
-                - name: C
-                  value: 3459404
-                  color: '#555555'
                 - name: Shell
-                  value: 1811814
+                  value: 48186
                   color: '#89e051'
-                - name: Groovy
-                  value: 1055199
-                  color: '#e69f56'
-                - name: CSS
-                  value: 542616
-                  color: '#563d7c'
-                - name: Ruby
-                  value: 502623
-                  color: '#701516'
                 - name: HTML
-                  value: 470058
+                  value: 3765
                   color: '#e34c26'
-                - name: REXX
-                  value: 185621
-                - name: SCSS
-                  value: 176074
                 - name: Dockerfile
-                  value: 105849
+                  value: 1448
                   color: '#384d54'
-                - name: Python
-                  value: 98199
-                  color: '#3572A5'
-                - name: Lua
-                  value: 73967
-                  color: '#000080'
-                - name: Assembly
-                  value: 45137
-                  color: '#6E4C13'
-                - name: Kotlin
-                  value: 18608
-                  color: '#F18E33'
-                - name: Batchfile
-                  value: 18303
-                  color: '#C1F12E'
-                - name: Makefile
-                  value: 11182
-                  color: '#427819'
-                - name: Elixir
-                  value: 5870
-                  color: '#6e4a7e'
-                - name: PowerShell
-                  value: 2779
-                  color: '#012456'
-                - name: C++
-                  value: 2609
-                  color: '#f34b7d'
-                - name: Handlebars
-                  value: 1411
-                - name: COBOL
-                  value: 1296
-                - name: sed
-                  value: 542
-                  color: '#64b970'
-                - name: Go
-                  value: 502
-                  color: '#00ADD8'
-                - name: Scala
-                  value: 384
-                  color: '#c22d40'
-                - name: Erlang
-                  value: 317
-                  color: '#B83998'
-                - name: Jinja
-                  value: 188
-              latest_commit_link: /zowe/api-layer/commit/a0a7f9e93d9eafd6205a3a2a03cb0485abc54266
-              latest_commit_date: '2021-11-12T00:34:49Z'
+              latest_commit_link: /zowe/zowe-cli-ftp-plugin/commit/585b273bbfd336b11138d56e6a6dd57bef5c5090
+              latest_commit_date: '2021-10-12T18:17:18Z'
               firstWeek: 2020-11-22Z
-              license: Eclipse Public License 2.0
-              contributors_link: https://github.com/zowe/api-layer/graphs/contributors
+              license: Other
+              contributors_link: https://github.com/zowe/zowe-cli-ftp-plugin/graphs/contributors
             repos:
-              - url: https://github.com/zowe/api-layer
-                stars: 31
-              - url: https://github.com/zowe/vscode-extension-for-zowe
-                stars: 130
-              - url: https://github.com/zowe/zowe-cli
-                stars: 71
-              - url: https://github.com/zowe/sample-node-api
-                stars: 42
-              - url: https://github.com/zowe/jenkins-library
-                stars: 39
-              - url: https://github.com/zowe/community
-                stars: 37
-              - url: https://github.com/zowe/zlux
-                stars: 31
-              - url: https://github.com/zowe/imperative
-                stars: 21
-              - url: https://github.com/zowe/sample-spring-boot-api-service
-                stars: 21
-              - url: https://github.com/zowe/zowe-install-packaging
-                stars: 20
-              - url: https://github.com/zowe/zowe-client-python-sdk
-                stars: 15
               - url: https://github.com/zowe/zowe-cli-ftp-plugin
                 stars: 12
-              - url: https://github.com/zowe/tn3270-ng2
-                stars: 11
-              - url: https://github.com/zowe/zowe-cli-sample-scripts
-                stars: 11
-              - url: https://github.com/zowe/zowe.github.io
-                stars: 9
-              - url: https://github.com/zowe/zowe-cli-sample-plugin
-                stars: 9
-              - url: https://github.com/zowe/zlux-app-server
-                stars: 8
-              - url: https://github.com/zowe/zowe-common-c
-                stars: 8
-              - url: https://github.com/zowe/zlux-app-manager
-                stars: 7
-              - url: https://github.com/zowe/zss
-                stars: 7
-              - url: https://github.com/zowe/zowe-on-the-go
-                stars: 7
-              - url: https://github.com/zowe/zowe-cli-tasks-plugin
-                stars: 6
               - url: https://github.com/zowe/zowe-cli-scs-plugin
                 stars: 6
-              - url: https://github.com/zowe/workshop-user-browser-app
-                stars: 5
-              - url: https://github.com/zowe/zlux-server-framework
-                stars: 5
-              - url: https://github.com/zowe/zlux-editor
-                stars: 5
               - url: https://github.com/zowe/zowe-cli-cics-plugin
-                stars: 5
-              - url: https://github.com/zowe/perf-timing
-                stars: 5
-              - url: https://github.com/zowe/data-sets
                 stars: 5
               - url: https://github.com/zowe/ims-operations-api
                 stars: 5
-              - url: https://github.com/zowe/zowe-cli-zos-make-plugin
-                stars: 5
-              - url: https://github.com/zowe/zowe-install-test
-                stars: 4
               - url: https://github.com/zowe/zowe-cli-db2-plugin
                 stars: 4
-              - url: https://github.com/zowe/jenkins-slave-images
-                stars: 4
-              - url: https://github.com/zowe/explorer-api-common
-                stars: 3
-              - url: https://github.com/zowe/cpu_usage_sample
-                stars: 3
               - url: https://github.com/zowe/zowe-cli-mq-plugin
                 stars: 3
-              - url: https://github.com/zowe/sample-trial-app
-                stars: 2
-              - url: https://github.com/zowe/zowe-smpe-packaging
-                stars: 2
-              - url: https://github.com/zowe/zowe-dependency-scan-pipeline
-                stars: 2
-              - url: https://github.com/zowe/zowe-dockerfiles
-                stars: 2
-              - url: https://github.com/zowe/sample-angular-app
-                stars: 1
-              - url: https://github.com/zowe/vt-ng2
-                stars: 1
-              - url: https://github.com/zowe/zlux-build
-                stars: 1
-              - url: https://github.com/zowe/zlux-platform
-                stars: 1
-              - url: https://github.com/zowe/zlux-shared
-                stars: 1
-              - url: https://github.com/zowe/zss-auth
-                stars: 1
-              - url: https://github.com/zowe/zowe-promote-publish
-                stars: 1
-              - url: https://github.com/zowe/explorer-injector
-                stars: 1
-              - url: https://github.com/zowe/zowe-cli-standalone-package
-                stars: 1
-              - url: https://github.com/zowe/jobs
-                stars: 1
-              - url: https://github.com/zowe/spring-boot-jzos-sample
-                stars: 1
-              - url: https://github.com/zowe/jupyter-app
-                stars: 1
-              - url: https://github.com/zowe/zowe-cli-version-controller
-                stars: 1
-              - url: https://github.com/zowe/jenkins-library-fvt-gradle
-                stars: 1
-              - url: https://github.com/zowe/keyring-utilities
-                stars: 1
-              - url: https://github.com/zowe/explorer-uss
-                stars: 0
-              - url: https://github.com/zowe/orion-editor-component
-                stars: 0
-              - url: https://github.com/zowe/sample-iframe-app
-                stars: 0
-              - url: https://github.com/zowe/workshop-starter-app
-                stars: 0
-              - url: https://github.com/zowe/zlux-charts
-                stars: 0
-              - url: https://github.com/zowe/zlux-file-explorer
-                stars: 0
-              - url: https://github.com/zowe/zlux-file-properties
-                stars: 0
-              - url: https://github.com/zowe/zlux-grid
-                stars: 0
-              - url: https://github.com/zowe/zlux-ng2
-                stars: 0
-              - url: https://github.com/zowe/zlux-widgets
-                stars: 0
-              - url: https://github.com/zowe/zlux-workflow
-                stars: 0
-              - url: https://github.com/zowe/zos-subsystems
-                stars: 0
-              - url: https://github.com/zowe/zosmf-auth
-                stars: 0
-              - url: https://github.com/zowe/webui-scenarios
-                stars: 0
-              - url: https://github.com/zowe/file-transfer-app
-                stars: 0
-              - url: https://github.com/zowe/sample-react-app
-                stars: 0
-              - url: https://github.com/zowe/blog
-                stars: 0
-              - url: https://github.com/zowe/explorer-wlp-packaging
-                stars: 0
-              - url: https://github.com/zowe/zowe-cli-profile-migration
-                stars: 0
-              - url: https://github.com/zowe/db-browser
-                stars: 0
-              - url: https://github.com/zowe/db-browser-db2
-                stars: 0
-              - url: https://github.com/zowe/Onboarding-scripts
-                stars: 0
-              - url: https://github.com/zowe/explorer-jes-fvt
-                stars: 0
-              - url: https://github.com/zowe/explorer-ui-server
-                stars: 0
-              - url: https://github.com/zowe/ztrial-sample-cli-plugin
-                stars: 0
-              - url: https://github.com/zowe/vscode-uss-extension-for-zowe
-                stars: 0
-              - url: https://github.com/zowe/jenkins-library-fvt-nodejs
-                stars: 0
               - url: https://github.com/zowe/zowe-cli-ims-plugin
-                stars: 0
-              - url: https://github.com/zowe/ci-management
-                stars: 0
-              - url: https://github.com/zowe/vtl-cli
-                stars: 0
-              - url: https://github.com/zowe/explorer-fvt-utilities
-                stars: 0
-              - url: https://github.com/zowe/apiml-legacy-samples
                 stars: 0
             github_start_commit_data:
               start_commit_link: /zowe/zlc/commit/1d1ba0ed8f7be99c0558363e862fa5139607be3a
@@ -7878,182 +7654,7 @@ landscape:
                 - Robotics
             github_data:
               description: Open Mainframe Project Mentorship Program resource and collaboration
-              contributors_count: 126
-              contributions: 51;22;5;26;10;2;1;4;12;1;5;11;2;6;10;5;9;1;1;3;2;1;3;25;33;37;7;9;43;41;10;1;31;13;14;55;18;23;11;19;38;41;15;2;0;0;0;0;1;0;0;0
-              stars: 106
-              languages:
-                - name: C
-                  value: 6428202
-                  color: '#555555'
-                - name: C++
-                  value: 3802163
-                  color: '#f34b7d'
-                - name: JavaScript
-                  value: 2942851
-                  color: '#f1e05a'
-                - name: Perl
-                  value: 2033732
-                  color: '#0298c3'
-                - name: Go
-                  value: 1831796
-                  color: '#00ADD8'
-                - name: Jupyter Notebook
-                  value: 1342879
-                  color: '#DA5B0B'
-                - name: HTML
-                  value: 750080
-                  color: '#e34c26'
-                - name: Kotlin
-                  value: 553561
-                  color: '#F18E33'
-                - name: Assembly
-                  value: 447958
-                  color: '#6E4C13'
-                - name: Shell
-                  value: 306789
-                  color: '#89e051'
-                - name: COBOL
-                  value: 275779
-                - name: Makefile
-                  value: 252016
-                  color: '#427819'
-                - name: Dockerfile
-                  value: 215407
-                  color: '#384d54'
-                - name: CSS
-                  value: 193918
-                  color: '#563d7c'
-                - name: Python
-                  value: 176886
-                  color: '#3572A5'
-                - name: TypeScript
-                  value: 60298
-                  color: '#2b7489'
-                - name: CMake
-                  value: 59163
-                - name: Java
-                  value: 44888
-                  color: '#b07219'
-                - name: Pug
-                  value: 44836
-                - name: Vue
-                  value: 31060
-                  color: '#2c3e50'
-                - name: PowerShell
-                  value: 22389
-                  color: '#012456'
-                - name: Roff
-                  value: 17658
-                  color: '#ecdebe'
-                - name: Smarty
-                  value: 15476
-                - name: Ruby
-                  value: 13481
-                  color: '#701516'
-                - name: PHP
-                  value: 11910
-                  color: '#4F5D95'
-                - name: Perl 6
-                  value: 9275
-                  color: '#0000fb'
-                - name: Groovy
-                  value: 6993
-                  color: '#e69f56'
-                - name: Logos
-                  value: 6400
-                - name: M4
-                  value: 3526
-                - name: Rust
-                  value: 3310
-                  color: '#dea584'
-              latest_commit_link: /openmainframeproject-internship/resources/commit/600a4f693abf2c1c6ecccbec595048e3764fba65
-              latest_commit_date: '2021-09-09T17:29:44Z'
-              firstWeek: 2020-11-22Z
-              license: Creative Commons Attribution 4.0 International
-              contributors_link: https://github.com/openmainframeproject-internship/resources/graphs/contributors
-            repos:
-              - url: https://github.com/openmainframeproject-internship/resources
-                stars: 82
-              - url: https://github.com/openmainframeproject-internship/immunichain
-                stars: 4
-              - url: https://github.com/openmainframeproject-internship/LinuxOne_Kubernetes_SLES_Deployment_Documentation
-                stars: 2
-              - url: https://github.com/openmainframeproject-internship/k8s_s390x_linux_docs
-                stars: 2
-              - url: https://github.com/openmainframeproject-internship/Enabling-IBM-Z-in-MLModelScope
-                stars: 2
-              - url: https://github.com/openmainframeproject-internship/Zowe-Parsing-Engine-for-SMF-or-RMF-PP-Reports
-                stars: 2
-              - url: https://github.com/openmainframeproject-internship/RHEL-documentation
-                stars: 1
-              - url: https://github.com/openmainframeproject-internship/Kube-CF---Endgame-Platform-on-Z
-                stars: 1
-              - url: https://github.com/openmainframeproject-internship/Zowe-Desktop-Application-State-Persistence-Mechanism
-                stars: 1
-              - url: https://github.com/openmainframeproject-internship/Feilong---Ansible-Module
-                stars: 1
-              - url: https://github.com/openmainframeproject-internship/CS-21-316-MIPS-Bot-AMA-Ask-Me-Anything
-                stars: 1
-              - url: https://github.com/openmainframeproject-internship/ATOM-Syntax-Highlighting
-                stars: 1
-              - url: https://github.com/openmainframeproject-internship/COBOL-Modernization
-                stars: 1
-              - url: https://github.com/openmainframeproject-internship/Zowe-Metrics-Dashboard-for-ML-services
-                stars: 1
-              - url: https://github.com/openmainframeproject-internship/Zowe-toolkit-plugin-for-Intellij
-                stars: 1
-              - url: https://github.com/openmainframeproject-internship/Zowe-Client-Java-SDK
-                stars: 1
-              - url: https://github.com/openmainframeproject-internship/Zowe-explorer-extension-templates
-                stars: 1
-              - url: https://github.com/openmainframeproject-internship/Zowe-Improve-Doc-site-generator-and-UI
-                stars: 1
-              - url: https://github.com/openmainframeproject-internship/docker-service-broker
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/LinuxOne_Kubernetes_Canonical_Deployment_Documentation
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/docker
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/Compliance-Engine-2019
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/DockerHub-Development-Stacks
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/Big-Endian-Support-for-BoringSSL
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/Boost-Context-Module-Implementation-for-s390x
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/Cloud-Foundry-Operator-for-Kubernetes-on-Z
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/Zowe-Feature-Addition
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/opensuse-images
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/InZpect
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/Enhance-zvm-Prometheus-exporter
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/Zowe-App-Framework---File-Transfer-Application
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/ADE---Add-additional-log-support
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/Zowe-App-Framework-App-Generator
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/Zowe-Desktop-Documentation-Viewer
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/OMP-Template-Repository
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/COBOL-Programming-Course
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/CICS-and-Laptop-Option-for-COBOL-Programming-Course
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/Mainframe-Open-Education-Core-Team
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/2021-Polycephaly-Project
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/Software-Discovery-Tool-Add-z-OS-support
-                stars: 0
-              - url: https://github.com/openmainframeproject-internship/Zowe-to-Slack-integration
-                stars: 0
+            repos: []
             github_start_commit_data:
               start_commit_link: /openmainframeproject-internship/docker/commit/b22f0a17df8400067846525b3843ae8da12ac05d
               start_date: '2015-11-02T23:37:26Z'
@@ -8251,232 +7852,7 @@ landscape:
                 - Robotics
             github_data:
               description: Ambitus project, hosted by the Open Mainframe Project at the Linux Foundation
-              contributors_count: 399
-              contributions: 4;4;1;2;4;2;0;1;3;2;1;2;3;2;2;5;6;1;1;0;0;3;0;0;0;0;0;3;0;0;0;2;0;0;0;0;0;3;0;0;0;0;0;0;0;1;0;0;0;1;0;2
-              stars: 19
-              languages:
-                - name: C
-                  value: 301769417
-                  color: '#555555'
-                - name: Assembly
-                  value: 51708799
-                  color: '#6E4C13'
-                - name: Ada
-                  value: 50721074
-                  color: '#02f88c'
-                - name: C++
-                  value: 49693169
-                  color: '#f34b7d'
-                - name: Makefile
-                  value: 32549041
-                  color: '#427819'
-                - name: Go
-                  value: 21092422
-                  color: '#00ADD8'
-                - name: D
-                  value: 17175768
-                  color: '#ba595e'
-                - name: GCC Machine Description
-                  value: 13379289
-                - name: DTrace
-                  value: 10432392
-                - name: Fortran
-                  value: 6867570
-                  color: '#4d41b1'
-                - name: Roff
-                  value: 3749230
-                  color: '#ecdebe'
-                - name: M4
-                  value: 2911681
-                - name: Shell
-                  value: 2694396
-                  color: '#89e051'
-                - name: HTML
-                  value: 2353865
-                  color: '#e34c26'
-                - name: Scheme
-                  value: 2255839
-                  color: '#1e4aec'
-                - name: Python
-                  value: 1207691
-                  color: '#3572A5'
-                - name: TeX
-                  value: 1041059
-                  color: '#3D6117'
-                - name: Yacc
-                  value: 863087
-                  color: '#4B6C4B'
-                - name: Objective-C
-                  value: 803753
-                  color: '#438eff'
-                - name: SourcePawn
-                  value: 556977
-                  color: '#5c7611'
-                - name: Scala
-                  value: 513946
-                  color: '#c22d40'
-                - name: R
-                  value: 498459
-                  color: '#198CE7'
-                - name: Perl
-                  value: 473286
-                  color: '#0298c3'
-                - name: Objective-C++
-                  value: 445202
-                  color: '#6866fb'
-                - name: RPC
-                  value: 424985
-                - name: Lex
-                  value: 380492
-                  color: '#DBCA00'
-                - name: Scilab
-                  value: 258457
-                - name: Awk
-                  value: 230491
-                - name: Pascal
-                  value: 155968
-                  color: '#E3F171'
-                - name: Logos
-                  value: 121657
-                - name: C#
-                  value: 111254
-                  color: '#178600'
-                - name: DIGITAL Command Language
-                  value: 86473
-                - name: GDB
-                  value: 61363
-                - name: GDScript
-                  value: 51035
-                  color: '#355570'
-                - name: PHP
-                  value: 50863
-                  color: '#4F5D95'
-                - name: Pawn
-                  value: 36348
-                  color: '#dbb284'
-                - name: POV-Ray SDL
-                  value: 34977
-                - name: Emacs Lisp
-                  value: 34697
-                  color: '#c065db'
-                - name: CWeb
-                  value: 33903
-                - name: Raku
-                  value: 28910
-                - name: Common Lisp
-                  value: 27851
-                  color: '#3fb68b'
-                - name: Java
-                  value: 26409
-                  color: '#b07219'
-                - name: Terra
-                  value: 21880
-                  color: '#00004c'
-                - name: CMake
-                  value: 16198
-                - name: GAP
-                  value: 15283
-                - name: OCaml
-                  value: 14065
-                  color: '#3be133'
-                - name: Rust
-                  value: 13818
-                  color: '#dea584'
-                - name: sed
-                  value: 12590
-                  color: '#64b970'
-                - name: NASL
-                  value: 9864
-                - name: Standard ML
-                  value: 9680
-                  color: '#dc566d'
-                - name: MATLAB
-                  value: 8432
-                  color: '#e16737'
-                - name: Groovy
-                  value: 7965
-                  color: '#e69f56'
-                - name: Vim script
-                  value: 7000
-                  color: '#199f4b'
-                - name: XSLT
-                  value: 5078
-                  color: '#EB8CEB'
-                - name: Smarty
-                  value: 3992
-                - name: SAS
-                  value: 3694
-                  color: '#B34936'
-                - name: Haskell
-                  value: 3475
-                  color: '#5e5086'
-                - name: Module Management System
-                  value: 3090
-                - name: Rebol
-                  value: 2844
-                  color: '#358a5b'
-                - name: Dockerfile
-                  value: 2836
-                  color: '#384d54'
-                - name: Batchfile
-                  value: 2231
-                  color: '#C1F12E'
-                - name: E
-                  value: 2230
-                  color: '#ccce35'
-                - name: Jupyter Notebook
-                  value: 2183
-                  color: '#DA5B0B'
-                - name: SuperCollider
-                  value: 1284
-                  color: '#46390b'
-                - name: Eiffel
-                  value: 933
-                  color: '#946d57'
-                - name: SWIG
-                  value: 598
-                - name: Mathematica
-                  value: 450
-                - name: Brainfuck
-                  value: 251
-                  color: '#2F2530'
-                - name: Tcl
-                  value: 236
-                  color: '#e4cc98'
-                - name: Ruby
-                  value: 194
-                  color: '#701516'
-                - name: Elixir
-                  value: 157
-                  color: '#6e4a7e'
-                - name: PicoLisp
-                  value: 100
-              latest_commit_link: /ambitus/ambitus/commit/227a9514c41ec333510328ab2ed698203671d451
-              latest_commit_date: '2021-03-05T13:25:22Z'
-              firstWeek: 2020-11-22Z
-              license: Creative Commons Attribution 4.0 International
-              contributors_link: https://github.com/ambitus/ambitus/graphs/contributors
-            repos:
-              - url: https://github.com/ambitus/ambitus
-                stars: 7
-              - url: https://github.com/ambitus/linux-containers
-                stars: 4
-              - url: https://github.com/ambitus/zml
-                stars: 4
-              - url: https://github.com/ambitus/zos-native
-                stars: 2
-              - url: https://github.com/ambitus/gcc
-                stars: 1
-              - url: https://github.com/ambitus/glibc
-                stars: 1
-              - url: https://github.com/ambitus/binutils
-                stars: 0
-              - url: https://github.com/ambitus/zTron
-                stars: 0
-              - url: https://github.com/ambitus/pyzkiln
-                stars: 0
-              - url: https://github.com/ambitus/artifactory-vault
-                stars: 0
+            repos: []
             github_start_commit_data:
               start_commit_link: /ambitus/binutils/commit/7b4ac7e1ed2c4616bce56d1760807798be87ac9e
               start_date: '1988-01-16T04:39:57Z'
@@ -17148,7 +16524,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 1819261640
+              market_cap: 1821167432
               effective_ticker: MCRO.L
             image_data:
               fileName: change-man-zmf-plug-in-for-zowe-cli-cli-zowe-v1.svg
@@ -17157,7 +16533,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-12T14:11:01.000Z
+              latest_tweet_date: 2021-11-14T13:00:00.000Z
           - item:
             name: IBM RSE API Plug-in for Zowe CLI v.1.0.0 (CLI ZOWE V1)
             description: The IBM RSE API Plug-in for Zowe CLI allows you to interact with z/OS by using IBM Remote System Explorer API (RSE API)
@@ -30547,7 +29923,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-12T16:22:02.000Z
+              latest_tweet_date: 2021-11-15T04:59:29.000Z
           - item:
             name: Caddy
             homepage_url: https://caddyserver.com
@@ -30920,7 +30296,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-12T19:29:31.000Z
+              latest_tweet_date: 2021-11-15T04:30:09.000Z
           - item:
             name: Prometheus
             homepage_url: https://prometheus.io/
@@ -31107,7 +30483,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-12T13:50:48.000Z
+              latest_tweet_date: 2021-11-15T06:58:11.000Z
       - subcategory:
         name: Cloud and Container Services
         items:
@@ -31800,125 +31176,7 @@ landscape:
                 - Software
             github_data:
               description: Kubernetes-based platform to build, deploy, and manage modern serverless workloads
-              contributors_count: 635
-              contributions: >-
-                137;108;109;100;126;58;27;89;111;99;88;100;121;119;95;121;142;118;92;94;80;92;113;97;58;107;114;94;134;133;99;102;98;87;97;66;73;76;50;72;118;96;100;128;96;81;72;80;75;150;120;103
-              stars: 10257
-              languages:
-                - name: Go
-                  value: 14492506
-                  color: '#00ADD8'
-                - name: Shell
-                  value: 788357
-                  color: '#89e051'
-                - name: HTML
-                  value: 110952
-                  color: '#e34c26'
-                - name: Elixir
-                  value: 22303
-                  color: '#6e4a7e'
-                - name: Dockerfile
-                  value: 20486
-                  color: '#384d54'
-                - name: Makefile
-                  value: 15603
-                  color: '#427819'
-                - name: SCSS
-                  value: 15266
-                - name: JavaScript
-                  value: 11180
-                  color: '#f1e05a'
-                - name: Ruby
-                  value: 7585
-                  color: '#701516'
-                - name: CSS
-                  value: 5395
-                  color: '#563d7c'
-                - name: Python
-                  value: 3917
-                  color: '#3572A5'
-                - name: Java
-                  value: 3483
-                  color: '#b07219'
-                - name: Starlark
-                  value: 1892
-                - name: Rust
-                  value: 1227
-                  color: '#dea584'
-                - name: Swift
-                  value: 977
-                  color: '#ffac45'
-                - name: Clojure
-                  value: 728
-                  color: '#db5855'
-                - name: Dart
-                  value: 662
-                  color: '#00B4AB'
-                - name: Haskell
-                  value: 622
-                  color: '#5e5086'
-                - name: R
-                  value: 522
-                  color: '#198CE7'
-                - name: TypeScript
-                  value: 387
-                  color: '#2b7489'
-              latest_commit_link: /knative/serving/commit/eb83774a11af2d6ae1f461f255dd5779e6285b91
-              latest_commit_date: '2021-11-12T19:30:36Z'
-              firstWeek: 2020-11-22Z
-              license: Apache License 2.0
-              contributors_link: https://github.com/knative/serving/graphs/contributors
-            repos:
-              - url: https://github.com/knative/serving
-                stars: 4175
-              - url: https://github.com/knative/docs
-                stars: 3031
-              - url: https://github.com/knative/eventing
-                stars: 1088
-              - url: https://github.com/knative/build
-                stars: 579
-              - url: https://github.com/knative/client
-                stars: 235
-              - url: https://github.com/knative/eventing-contrib
-                stars: 224
-              - url: https://github.com/knative/pkg
-                stars: 191
-              - url: https://github.com/knative/build-templates
-                stars: 183
-              - url: https://github.com/knative/community
-                stars: 144
-              - url: https://github.com/knative/operator
-                stars: 95
-              - url: https://github.com/knative/test-infra
-                stars: 69
-              - url: https://github.com/knative/networking
-                stars: 46
-              - url: https://github.com/knative/serving-operator
-                stars: 39
-              - url: https://github.com/knative/caching
-                stars: 37
-              - url: https://github.com/knative/observability
-                stars: 26
-              - url: https://github.com/knative/website
-                stars: 25
-              - url: https://github.com/knative/eventing-operator
-                stars: 20
-              - url: https://github.com/knative/specs
-                stars: 13
-              - url: https://github.com/knative/client-contrib
-                stars: 11
-              - url: https://github.com/knative/homebrew-client
-                stars: 10
-              - url: https://github.com/knative/hack
-                stars: 6
-              - url: https://github.com/knative/.github
-                stars: 4
-              - url: https://github.com/knative/release
-                stars: 3
-              - url: https://github.com/knative/ux
-                stars: 2
-              - url: https://github.com/knative/client-pkg
-                stars: 1
+            repos: []
             github_start_commit_data:
               start_commit_link: /knative/serving/commit/7f5da0b7438f562ea4a45c7021a674e2f90a5ddf
               start_date: '2018-01-30T17:45:35Z'
@@ -32563,7 +31821,7 @@ landscape:
               badge: 246
               percentage: 99
             twitter_data:
-              latest_tweet_date: 2021-11-13T14:00:53.000Z
+              latest_tweet_date: 2021-11-14T14:01:21.000Z
           - item:
             name: Podman
             homepage_url: https://podman.io/
@@ -33801,7 +33059,7 @@ landscape:
               badge: 955
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2021-11-12T21:42:00.000Z
+              latest_tweet_date: 2021-11-14T15:42:00.000Z
           - item:
             name: LLVM
             description: The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.
@@ -34668,7 +33926,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-14T05:33:23.000Z
+              latest_tweet_date: 2021-11-14T21:06:16.000Z
           - item:
             name: OpenBLAS
             description: OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.
@@ -35204,7 +34462,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-13T17:00:35.000Z
+              latest_tweet_date: 2021-11-15T06:30:23.000Z
           - item:
             name: PHP
             homepage_url: https://www.php.net/
@@ -36754,7 +36012,7 @@ landscape:
               badge: 42
               percentage: 99
             twitter_data:
-              latest_tweet_date: 2021-11-13T21:24:00.000Z
+              latest_tweet_date: 2021-11-14T18:59:00.000Z
           - item:
             name: Gradle
             homepage_url: https://gradle.org/
@@ -37050,7 +36308,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-14T01:18:01.000Z
+              latest_tweet_date: 2021-11-15T07:27:01.000Z
           - item:
             name: SaltStack
             homepage_url: https://maintenance.vmware.com/maintenance.html
@@ -38503,7 +37761,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-13T17:01:13.000Z
+              latest_tweet_date: 2021-11-14T17:00:58.000Z
           - item:
             name: Apache Kafka
             homepage_url: https://kafka.apache.org/
@@ -39365,7 +38623,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-13T19:00:00.000Z
+              latest_tweet_date: 2021-11-14T19:00:00.000Z
       - subcategory:
         name: Databases
         items:
@@ -39642,7 +38900,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-13T19:21:00.000Z
+              latest_tweet_date: 2021-11-14T17:45:01.000Z
           - item:
             name: Couchbase
             homepage_url: https://www.couchbase.com/
@@ -39776,7 +39034,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-13T23:01:00.000Z
+              latest_tweet_date: 2021-11-14T23:17:00.000Z
           - item:
             name: MariaDB
             homepage_url: https://mariadb.com/
@@ -39904,7 +39162,7 @@ landscape:
               badge: 4597
               percentage: 66
             twitter_data:
-              latest_tweet_date: 2021-11-13T19:09:00.000Z
+              latest_tweet_date: 2021-11-14T18:09:00.000Z
           - item:
             name: Memcached
             homepage_url: http://memcached.org
@@ -41490,7 +40748,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-12T14:44:05.000Z
+              latest_tweet_date: 2021-11-15T07:04:24.000Z
           - item:
             name: Red Hat Enterprise Linux
             homepage_url: https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
@@ -41620,7 +40878,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 7601688052
+              market_cap: 7741953789
               effective_ticker: SUSE.F
             image_data:
               fileName: suse-linux-enterprise-server.svg
@@ -42385,7 +41643,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-14T05:33:23.000Z
+              latest_tweet_date: 2021-11-14T21:06:16.000Z
           - item:
             name: Rocket Software, Inc.
             homepage_url: https://rocketsoftware.com/
@@ -42496,7 +41754,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 7601688052
+              market_cap: 7741953789
               effective_ticker: SUSE.F
             image_data:
               fileName: suse-llc.svg
@@ -42718,7 +41976,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-13T16:15:04.000Z
+              latest_tweet_date: 2021-11-14T15:05:19.000Z
           - item:
             name: GT Software, Inc. d/b/a Adaptigent
             homepage_url: https://www.adaptigent.com
@@ -42825,7 +42083,7 @@ landscape:
                 - Telecommunications
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 42734514517
+              market_cap: 42615490830
               effective_ticker: HCLTECH.NS
             image_data:
               fileName: hcl-technologies-ltd.svg
@@ -42834,7 +42092,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-13T12:30:50.000Z
+              latest_tweet_date: 2021-11-15T05:52:55.000Z
           - item:
             name: IN-COM Data Systems
             homepage_url: https://in-com.com/
@@ -42966,7 +42224,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 1819261640
+              market_cap: 1821167432
               effective_ticker: MCRO.L
             image_data:
               fileName: micro-focus-international-plc.svg
@@ -42975,7 +42233,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-12T14:11:01.000Z
+              latest_tweet_date: 2021-11-14T13:00:00.000Z
           - item:
             name: Phoenix Software International
             homepage_url: https://phoenixsoftware.com/
@@ -43109,7 +42367,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-12T15:22:46.000Z
+              latest_tweet_date: 2021-11-14T21:21:59.000Z
           - item:
             name: Zoss Team, LLC
             homepage_url: https://bizapedia.com/ma/zoss-team-llc.html
@@ -43169,7 +42427,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-13T23:46:55.000Z
+              latest_tweet_date: 2021-11-15T00:43:21.000Z
           - item:
             name: Beijing Institute of Technology
             homepage_url: https://bit.edu.cn/
@@ -43262,7 +42520,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-13T23:54:05.000Z
+              latest_tweet_date: 2021-11-14T18:35:00.000Z
           - item:
             name: HoGent
             homepage_url: https://hogent.be/
@@ -43418,7 +42676,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-13T20:03:40.000Z
+              latest_tweet_date: 2021-11-15T00:53:16.000Z
           - item:
             name: North Carolina A&T State University
             homepage_url: https://ncat.edu/
@@ -43451,7 +42709,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-12T17:56:09.000Z
+              latest_tweet_date: 2021-11-14T16:36:18.000Z
           - item:
             name: South China University of Technology
             homepage_url: https://scut.edu.cn/
@@ -43510,7 +42768,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-13T13:00:02.000Z
+              latest_tweet_date: 2021-11-14T09:00:01.000Z
           - item:
             name: University of Washington CIAC (Center for Information Assurance and Cybersecurity)
             homepage_url: https://washington.edu/
@@ -43550,7 +42808,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-13T01:12:01.000Z
+              latest_tweet_date: 2021-11-15T01:21:02.000Z
           - item:
             name: University of Wolverhampton
             homepage_url: https://wlv.ac.uk/
@@ -43615,7 +42873,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-12T20:50:02.000Z
+              latest_tweet_date: 2021-11-14T15:20:02.000Z
           - item:
             name: Western University
             homepage_url: https://uwo.ca/
@@ -43650,7 +42908,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-14T01:47:52.000Z
+              latest_tweet_date: 2021-11-15T01:00:00.000Z
           - item:
             name: William Patterson University
             homepage_url: https://wpunj.edu/
@@ -43680,7 +42938,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-11-12T15:58:21.000Z
+              latest_tweet_date: 2021-11-14T19:21:43.000Z
           - item:
             name: Xidian University
             homepage_url: https://xidian.edu.cn/
@@ -43921,4 +43179,4 @@ landscape:
 twitter_options:
   count: 5
   since_id: '1438122236846620672'
-updated_at: 2021-11-14T07:52:00.009Z
+updated_at: 2021-11-15T07:53:20.395Z
