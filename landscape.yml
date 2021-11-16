@@ -1502,46 +1502,6 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
-      - subcategory:
-        name: Explorer for Visual Studio Code ZOWE V1
-        items:
-          - item:
-            name: Zowe Explorer for IBM CICS
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
-            project: null
-            repo_url: https://github.com/zowe/vscode-extension-for-cics
-            logo: IBM Zowe Explorer.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: Data Editor for Mainframe (Explorer for Visual Studio Code- ZOWE V1)
-            description: |-
-              Data Editor for Mainframe
-
-              - enhances the functionality of Zowe Explorer to allow you to apply
-               record layouts to VSAM data sets and interactively filter records using selection criteria
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.data-editor-for-mainframe
-            project: null
-            logo: Data Editor for Mainframe.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: Alert Central
-            description: |-
-              Alert Central provides a single, secure, rich interface for
-              messages and alerts from Mainframe and other platforms.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/alert-central/1-0.html
-            logo: Alert central.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: IBM z Open Editor
-            description: >-
-              An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
-              interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and
-
-              utilizes its APIs for various operations such as resolving and parsing program include files directly from MVS, running personal builds,
-              submitting jobs and many more.
-            homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
-            logo: ibm z open editor.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
   - category:
     name: Broad Open Source
     subcategories:
