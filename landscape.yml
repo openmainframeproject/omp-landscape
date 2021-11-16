@@ -1521,7 +1521,7 @@ landscape:
               and symbolic data in a modern IDE environment.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.abend-analyzer
             project: null
-            logo: Abend Analyzer.svg
+            logo: abend-analyzer-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Debugger for Mainframe (Explorer for Visual Studio Code ZOWE V1)
@@ -1530,7 +1530,7 @@ landscape:
               and Batch programs written in COBOL leveraging Intertest Batch and z/OS
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe
             repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
-            logo: Debugger for Mainframe.svg
+            logo: debugger-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: IBM RSE API Plug-in (Explorer for Visual Studio Code ZOWE V1)
@@ -1542,7 +1542,7 @@ landscape:
             name: Data Editor in Mainframe (Explorer for Visual Studio Code ZOWE V1)
             description: Eenhances the functionality of Zowe Explorer to allow you to apply record layouts to VSAM data sets and interactively filter records
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.data-editor-for-mainframe
-            logo: Data Editor in Mainframe.svg
+            logo: data-editor-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: JCL Language Support (Explorer for Visual Studio Code ZOWE V1)
@@ -1551,8 +1551,15 @@ landscape:
               mainframes. Edit JCL in a local environment complete with syntax highlighting, linting, and access to a library of sample job snippets.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.jcl-language-support
             repo_url: https://github.com/BroadcomMFD/jcl-language-support
-            logo: JCL Language Support.svg
+            logo: jcl-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: Zowe Explorer for IBM CICS (Explorer for Visual Studio Code ZOWE V1)
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
+            project: null
+            repo_url: https://github.com/zowe/vscode-extension-for-cics
+            logo: zowe-explorer-for-ibm-cics.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: HLASM Language Support (Explorer for Visual Studio Code ZOWE V1)
             description: >-
@@ -1560,14 +1567,14 @@ landscape:
               the source, and lets you trace how the conditional assembly is evaluated with a modern debugging experience.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.hlasm-language-support
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
-            logo: HLASM Language Support.svg
+            logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Explorer for Endevor (Explorer for Visual Studio Code ZOWE V1)
             description: Modernizes the way you interact with Endevor, offering a user-friendly and convenient way to work with elements elements and inventory locations.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.explorer-for-endevor
             repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
-            logo: Explorer for Endevor.svg
+            logo: explorer-for-endevor.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: code4z (Explorer for Visual Studio Code ZOWE V1)
@@ -1582,7 +1589,7 @@ landscape:
               comprehend and debug COBOL programs with which they might not be familiar.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.ccf
             project: null
-            logo: COBOL Control Flow.svg
+            logo: cobol-control-flow.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
   - category:
     name: Broad Open Source
