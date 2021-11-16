@@ -1007,14 +1007,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/micro-focus
             allow_duplicate_repo: true
           - item:
-            name: IBM RSE API Plug-in for Zowe CLI v.1.0.0 (CLI ZOWE V1)
-            description: The IBM RSE API Plug-in for Zowe CLI allows you to interact with z/OS by using IBM Remote System Explorer API (RSE API)
-            homepage_url: https://www.ibm.com/links
-            logo: remote-system-explorer-api.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
-          - item:
             name: IBM Z System Automation (CLI ZOWE V1)
             description: >
               IBM Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
@@ -1117,7 +1109,7 @@ landscape:
 
               offerings such as IBM Developer for z/OS or IBM Explorer for z/OS. It is also a good option if you have not configured z/OSMF on your z/OS.
             homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
-            logo: IBM RSE API Plug-in.svg
+            logo: ibm-rse-api-plug-in.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Cobol Language Support (CLI ZOWE V1)
@@ -1544,7 +1536,7 @@ landscape:
             name: IBM RSE API Plug-in (Explorer for Visual Studio Code ZOWE V1)
             description: It is a Zowe CLI plugin and not a VS Code extension that utilizes the Zowe Explorer APIs
             homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
-            logo: IBM RSE API Plug-In.svg
+            logo: ibm-rse-api-plug-in.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Data Editor for Mainframe (Explorer for Visual Studio Code ZOWE V1)
