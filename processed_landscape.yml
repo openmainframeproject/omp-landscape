@@ -8649,9 +8649,45 @@ landscape:
                 - Communities
                 - Education
                 - Robotics
+            github_data:
+              languages:
+                - name: HTML
+                  value: 282150
+                  color: '#e34c26'
+                - name: C
+                  value: 91709
+                  color: '#555555'
+                - name: Java
+                  value: 46970
+                  color: '#b07219'
+                - name: Roff
+                  value: 17526
+                  color: '#ecdebe'
+                - name: Common Lisp
+                  value: 15059
+                  color: '#3fb68b'
+                - name: NewLisp
+                  value: 7520
+                  color: '#87AED7'
+              contributions: 0;0;0;1;0;0;0;1;0;1;0;0;1;0;0;0;7;6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2020-11-22Z
+              stars: 9
+              license: Apache License 2.0
+              description: >-
+                TerseDecompress is a java program that can be used to decompress files which have been previously compressed on an IBM Mainframe using the TERSE
+                / AMATERSE program (on IBM z/OS or IBM z/VM).
+              latest_commit_date: '2021-03-16T21:33:36Z'
+              latest_commit_link: /openmainframeproject/tersedecompress/commit/e5fa9a25e789277823f838e0e1044b3021a4bcef
+              contributors_count: 3
+              contributors_link: https://github.com/openmainframeproject/tersedecompress/graphs/contributors
             repos:
               - url: https://github.com/openmainframeproject/tersedecompress
+                stars: 7
               - url: https://github.com/openmainframeproject/tersedecompress-testdata
+                stars: 2
+            github_start_commit_data:
+              start_commit_link: /openmainframeproject/tersedecompress/commit/9d879bd2d6d3bc7717b33014646710a012a0e420
+              start_date: '2019-02-07T13:14:55Z'
             image_data:
               fileName: terse-decompress.svg
               hash: OvrtyShYQU4ea7FDOZzbluzLMGEDcj+3QgYhCmUFfhg=
@@ -12314,6 +12350,199 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-11-16T21:00:10.000Z
+          - item:
+            name: Alert Central (API Mediation Layer ZOWE V1)
+            description: |-
+              Alert Central provides a single, secure, rich interface for
+              messages and alerts from Mainframe and other platforms.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/alert-central/1-0.html
+            logo: alert-central.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            image_data:
+              fileName: alert-central-api-mediation-layer-zowe-v1.svg
+              hash: kYtgsu04/a40Vgn2vtyP/ncR0EIH1EN/XSQpS0ZysU8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-16T21:00:10.000Z
+          - item:
+            name: PRO/JCL Plug-in (API Mediation Layer ZOWE V1)
+            description: >-
+              PRO/JCL Plug-in is an Eclipse plug-in that strategically integrates the mainframe capabilities of ASG-PRO/JCL into a developer’s DevOps user
+              interface. The plug-in provides JCL management tasks with mainframe application workflow in an intuitive user interface The simple interface
+              provides developers to seamlessly initiate JCL integrity, verification, and reporting.
+            homepage_url: https://www.asg.com/en/Products/IT-Systems-Management/Operations-Management/JCL-Management/ASG-PRO-JCL.aspx
+            project: null
+            logo: projcl.svg
+            crunchbase: https://www.crunchbase.com/organization/asg
+            crunchbase_data:
+              name: ASG Technologies
+              description: ASG Technologies provides Information Management and IT Systems management solutions that enable companies to leverage their data.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://www.asg.com/
+              city: Naples
+              region: Florida
+              country: United States
+              twitter: https://twitter.com/asgtec
+              linkedin: https://www.linkedin.com/company/asg
+              acquisitions:
+                - date: '2004-02-23'
+                  acquiree: Dirig Software
+                - date: '2007-06-15'
+                  acquiree: Mobius Management Systems
+                  price: 211000000
+                - date: '2011-03-14'
+                  acquiree: PS'Soft
+                - date: '2011-10-12'
+                  acquiree: RiverGlass
+                - date: '2011-12-13'
+                  acquiree: Atempo
+                - date: '2012-04-23'
+                  acquiree: NTRglobal
+                - date: '2018-03-07'
+                  acquiree: Mowbly
+              parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Enterprise Software
+                - Software
+            image_data:
+              fileName: pro-jcl-plug-in-api-mediation-layer-zowe-v1.svg
+              hash: iaVfH5DkgC9TNMheFPbY19RyRITHblbNH6i0bzgtrkg=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-17T19:11:56.000Z
       - subcategory:
         name: App Framework ZOWE V1
         items:
@@ -17155,477 +17384,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-11-16T23:40:01.000Z
           - item:
-            name: IBM RSE API Plug-in for Zowe CLI v.1.0.0 (CLI ZOWE V1)
-            description: The IBM RSE API Plug-in for Zowe CLI allows you to interact with z/OS by using IBM Remote System Explorer API (RSE API)
-            homepage_url: https://www.ibm.com/links
-            logo: remote-system-explorer-api.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
-            crunchbase_data:
-              name: IBM
-              description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.ibm.com/
-              city: Armonk
-              region: New York
-              country: United States
-              twitter: http://twitter.com/IBM
-              linkedin: https://www.linkedin.com/company/ibm/
-              acquisitions:
-                - date: '1923-01-01'
-                  acquiree: Dehomag
-                - date: '1930-01-01'
-                  acquiree: The Automatic Accounting Scale Company
-                - date: '1932-01-01'
-                  acquiree: National Counting Scale Company
-                - date: '1941-01-01'
-                  acquiree: Munitions Manufacturing Corporation
-                - date: '1964-01-01'
-                  acquiree: Science Research Associates
-                - date: '1974-01-01'
-                  acquiree: Satellite Business Systems
-                - date: '1984-09-26'
-                  acquiree: ROLM Corporation
-                - date: '1994-08-01'
-                  acquiree: Transarc
-                - date: '1995-07-06'
-                  acquiree: Lotus Development Corporation
-                  price: 3500000000
-                - date: '1996-02-01'
-                  acquiree: Tivoli Systems
-                  price: 743000000
-                - date: '1997-03-19'
-                  acquiree: NetObjects
-                - date: '1998-04-30'
-                  acquiree: CommQuest Services
-                  price: 200000000
-                - date: '1999-06-09'
-                  acquiree: Whistle Communications
-                - date: '1999-07-12'
-                  acquiree: Sequent Computer Systems Inc
-                - date: '1999-07-27'
-                  acquiree: Mylex
-                  price: 240000000
-                - date: '1999-09-22'
-                  acquiree: Dascom
-                - date: '2001-06-07'
-                  acquiree: Mainspring
-                - date: '2002-01-14'
-                  acquiree: CrossWorlds Software
-                  price: 129000000
-                - date: '2002-06-25'
-                  acquiree: Metamerge
-                - date: '2002-08-29'
-                  acquiree: TrelliSoft
-                - date: '2002-09-03'
-                  acquiree: Access360
-                - date: '2002-09-12'
-                  acquiree: HOLOSOFX
-                - date: '2002-10-02'
-                  acquiree: PwC Consulting
-                  price: 3500000000
-                - date: '2002-10-07'
-                  acquiree: EADS Matra Datavision
-                - date: '2002-11-04'
-                  acquiree: Tarian Software
-                - date: '2003-02-20'
-                  acquiree: Rational Software
-                - date: '2003-05-14'
-                  acquiree: Think Dynamics
-                - date: '2003-07-15'
-                  acquiree: Presence Online
-                - date: '2003-10-14'
-                  acquiree: CrossAccess
-                - date: '2003-11-13'
-                  acquiree: Productivity Solutions
-                - date: '2003-12-17'
-                  acquiree: Green Pasture Software
-                - date: '2004-03-09'
-                  acquiree: Trigo Technologies
-                - date: '2004-04-07'
-                  acquiree: Daksh Infosoft
-                - date: '2004-04-07'
-                  acquiree: Daksh eServices
-                - date: '2004-06-07'
-                  acquiree: Candle Corporation
-                - date: '2004-07-14'
-                  acquiree: AlphaBlox
-                - date: '2004-07-29'
-                  acquiree: Cyanea Systems
-                - date: '2004-08-17'
-                  acquiree: Maersk Data
-                - date: '2004-08-26'
-                  acquiree: Venetica
-                - date: '2004-10-12'
-                  acquiree: Systemcorp A.L.G.
-                - date: '2004-11-23'
-                  acquiree: Liberty Insurance Services
-                - date: '2004-12-13'
-                  acquiree: KeyMRO
-                - date: '2005-01-07'
-                  acquiree: SRD
-                - date: '2005-01-07'
-                  acquiree: Systems Research & Development
-                - date: '2005-01-25'
-                  acquiree: Corio
-                  price: 182000000
-                - date: '2005-02-02'
-                  acquiree: Equitant
-                - date: '2005-05-02'
-                  acquiree: Ascential Software
-                - date: '2005-05-10'
-                  acquiree: Gluecode Software
-                - date: '2005-06-15'
-                  acquiree: Healthlink
-                - date: '2005-06-23'
-                  acquiree: Meiosys
-                - date: '2005-07-27'
-                  acquiree: Isogon Corporation
-                - date: '2005-08-02'
-                  acquiree: DWL
-                - date: '2005-08-05'
-                  acquiree: PureEdge Solutions
-                - date: '2005-10-18'
-                  acquiree: DataPower Technology
-                - date: '2005-11-01'
-                  acquiree: iPhrase Technologies
-                - date: '2005-11-09'
-                  acquiree: Network Solutions Private Limited
-                - date: '2005-11-16'
-                  acquiree: Collation
-                - date: '2005-12-20'
-                  acquiree: Bowstreet
-                - date: '2005-12-21'
-                  acquiree: Micromuse
-                  price: 865000000
-                - date: '2006-01-25'
-                  acquiree: CIMS Lab
-                - date: '2006-01-27'
-                  acquiree: ARGUS Semiconductor Software
-                - date: '2006-02-08'
-                  acquiree: Viacore
-                - date: '2006-03-16'
-                  acquiree: Language Analysis Systems
-                - date: '2006-05-02'
-                  acquiree: BuildForge
-                - date: '2006-05-08'
-                  acquiree: Unicorn Solutions
-                - date: '2006-05-18'
-                  acquiree: Rembo Technology
-                - date: '2006-08-02'
-                  acquiree: Webify
-                - date: '2006-09-06'
-                  acquiree: Global Value Solutions
-                - date: '2006-09-30'
-                  acquiree: Valchemy
-                - date: '2006-10-05'
-                  acquiree: MRO Software
-                - date: '2006-10-12'
-                  acquiree: FileNet Corporation
-                  price: 1600000000
-                - date: '2006-10-20'
-                  acquiree: Internet Security Systems
-                - date: '2006-11-10'
-                  acquiree: Palisades Technology Partners
-                - date: '2006-12-05'
-                  acquiree: Consul Risk Management International
-                - date: '2007-02-14'
-                  acquiree: Vallent Corporation
-                - date: '2007-03-01'
-                  acquiree: Softek Storage Solutions
-                - date: '2007-04-20'
-                  acquiree: Unicible
-                - date: '2007-06-11'
-                  acquiree: Telelogic
-                  price: 745000000
-                - date: '2007-07-23'
-                  acquiree: Watchfire
-                - date: '2007-08-03'
-                  acquiree: Princeton Softech
-                - date: '2007-08-22'
-                  acquiree: Webdialogs
-                - date: '2007-09-04'
-                  acquiree: DataMirror
-                - date: '2007-10-24'
-                  acquiree: NovusCG
-                - date: '2007-12-06'
-                  acquiree: Arsenal Digital Solutions
-                - date: '2007-12-21'
-                  acquiree: Solid Information Technology
-                - date: '2008-01-02'
-                  acquiree: XIV
-                - date: '2008-01-18'
-                  acquiree: Net Integration Technologies
-                - date: '2008-01-23'
-                  acquiree: AptSoft
-                - date: '2008-01-31'
-                  acquiree: Cognos
-                - date: '2008-03-12'
-                  acquiree: Encentuate
-                - date: '2008-04-10'
-                  acquiree: FilesX
-                - date: '2008-04-22'
-                  acquiree: Diligent
-                - date: '2008-04-29'
-                  acquiree: InfoDyne Corporation
-                - date: '2008-07-02'
-                  acquiree: Platform Solutions
-                - date: '2008-07-28'
-                  acquiree: ILOG
-                - date: '2008-11-18'
-                  acquiree: Transitive
-                - date: '2009-04-16'
-                  acquiree: Outblaze
-                - date: '2009-05-05'
-                  acquiree: Exeros
-                - date: '2009-07-28'
-                  acquiree: Ounce Labs
-                - date: '2009-07-28'
-                  acquiree: SPSS
-                - date: '2009-09-22'
-                  acquiree: RedPill Solutions
-                - date: '2009-11-30'
-                  acquiree: Guardium
-                  price: 225000000
-                - date: '2009-12-16'
-                  acquiree: Lombardi Software
-                - date: '2010-01-20'
-                  acquiree: National Interest Security Company
-                - date: '2010-02-03'
-                  acquiree: Initiate Systems
-                - date: '2010-02-16'
-                  acquiree: Intelliden
-                - date: '2010-05-03'
-                  acquiree: Cast Iron Systems
-                - date: '2010-05-24'
-                  acquiree: Sterling Commerce
-                - date: '2010-06-14'
-                  acquiree: Storwize
-                  price: 140000000
-                - date: '2010-06-15'
-                  acquiree: Coremetrics
-                - date: '2010-07-01'
-                  acquiree: BigFix
-                - date: '2010-08-10'
-                  acquiree: Datacap
-                - date: '2010-08-13'
-                  acquiree: Unica
-                  price: 480000000
-                - date: '2010-09-15'
-                  acquiree: OpenPages
-                - date: '2010-09-20'
-                  acquiree: Netezza
-                  price: 1800000000
-                - date: '2010-09-27'
-                  acquiree: BLADE Network Technologies
-                - date: '2010-10-13'
-                  acquiree: PSS Systems
-                - date: '2010-10-21'
-                  acquiree: Clarity Systems
-                - date: '2011-04-14'
-                  acquiree: TRIRIGA
-                - date: '2011-08-31'
-                  acquiree: i2
-                - date: '2011-09-01'
-                  acquiree: Algorithmics
-                  price: 380200000
-                - date: '2011-10-04'
-                  acquiree: Q1 Labs
-                - date: '2011-10-11'
-                  acquiree: Platform Computing
-                - date: '2011-12-08'
-                  acquiree: DemandTec
-                  price: 440000000
-                - date: '2011-12-15'
-                  acquiree: Emptoris
-                - date: '2011-12-20'
-                  acquiree: Cúram Software
-                - date: '2012-01-04'
-                  acquiree: Green Hat
-                - date: '2012-01-31'
-                  acquiree: Worklight
-                  price: 70000000
-                - date: '2012-04-13'
-                  acquiree: Varicent Software
-                - date: '2012-04-25'
-                  acquiree: Vivisimo
-                - date: '2012-05-02'
-                  acquiree: Tealeaf
-                - date: '2012-07-01'
-                  acquiree: Cibecs
-                - date: '2012-08-16'
-                  acquiree: Texas Memory Systems
-                - date: '2012-08-28'
-                  acquiree: Kenexa
-                - date: '2012-09-24'
-                  acquiree: Butterfly Software
-                - date: '2013-02-07'
-                  acquiree: StoredIQ
-                - date: '2013-03-20'
-                  acquiree: Star Analytics
-                - date: '2013-04-22'
-                  acquiree: Urbancode
-                - date: '2013-06-04'
-                  acquiree: SoftLayer
-                  price: 2000000000
-                - date: '2013-07-10'
-                  acquiree: CSL International
-                - date: '2013-08-15'
-                  acquiree: Trusteer
-                - date: '2013-09-19'
-                  acquiree: Daeja Image Systems
-                - date: '2013-10-03'
-                  acquiree: Xtify
-                - date: '2013-10-29'
-                  acquiree: The Now Factory
-                - date: '2013-12-18'
-                  acquiree: Fiberlink
-                  price: 375000000
-                - date: '2013-12-19'
-                  acquiree: Aspera
-                - date: '2014-02-24'
-                  acquiree: Cloudant
-                - date: '2014-02-24'
-                  acquiree: Cloudant
-                - date: '2014-04-10'
-                  acquiree: Silverpop
-                  price: 270000000
-                - date: '2014-05-20'
-                  acquiree: Cognea
-                - date: '2014-07-31'
-                  acquiree: CrossIdeas
-                - date: '2015-03-04'
-                  acquiree: AlchemyAPI
-                - date: '2015-03-27'
-                  acquiree: Blekko
-                - date: '2015-04-16'
-                  acquiree: Explorys
-                - date: '2015-05-04'
-                  acquiree: Phytel
-                - date: '2015-06-03'
-                  acquiree: Blue Box
-                - date: '2015-07-23'
-                  acquiree: Compose
-                - date: '2015-08-06'
-                  acquiree: Merge Healthcare
-                  price: 1000000000
-                - date: '2015-09-10'
-                  acquiree: StrongLoop
-                - date: '2015-09-28'
-                  acquiree: Meteorix
-                - date: '2015-10-05'
-                  acquiree: Cleversafe
-                  price: 1300000000
-                - date: '2015-10-28'
-                  acquiree: The Weather Company
-                - date: '2015-11-03'
-                  acquiree: Gravitant
-                - date: '2015-12-08'
-                  acquiree: Clearleap
-                - date: '2016-01-15'
-                  acquiree: IRIS Analytics
-                - date: '2016-01-21'
-                  acquiree: Ustream
-                - date: '2016-01-28'
-                  acquiree: Resource/Ammirati
-                - date: '2016-02-02'
-                  acquiree: Aperto
-                - date: '2016-02-03'
-                  acquiree: Ecx.io
-                - date: '2016-02-18'
-                  acquiree: Truven Health Analytics
-                  price: 2600000000
-                - date: '2016-02-29'
-                  acquiree: IBM Resilient
-                - date: '2016-03-17'
-                  acquiree: Optevia
-                - date: '2016-03-30'
-                  acquiree: Bluewolf
-                  price: 200000000
-                - date: '2016-06-01'
-                  acquiree: EZSource
-                - date: '2016-09-29'
-                  acquiree: Promontory Financial Group
-                - date: '2016-10-27'
-                  acquiree: Sanovi Technologies
-                - date: '2016-11-01'
-                  acquiree: Expert Personal Shopper (XPS)
-                - date: '2017-01-23'
-                  acquiree: Agile 3 Solutions
-                - date: '2017-05-02'
-                  acquiree: Verizon - Cloud services
-                - date: '2017-09-24'
-                  acquiree: Cloudigo
-                - date: '2017-10-04'
-                  acquiree: Vivant
-                - date: '2018-05-03'
-                  acquiree: Armanta
-                - date: '2018-06-15'
-                  acquiree: Oniqua Inc.
-                - date: '2018-10-28'
-                  acquiree: Red Hat
-                  price: 34000000000
-                - date: '2019-01-14'
-                  acquiree: T-Systems - Mainframe Services business
-                - date: '2019-06-01'
-                  acquiree: Red Hat
-                - date: '2020-06-15'
-                  acquiree: Spanugo
-                - date: '2020-07-08'
-                  acquiree: WDG Automation
-                - date: '2020-11-16'
-                  acquiree: TruQua
-                - date: '2020-11-18'
-                  acquiree: Instana
-                - date: '2020-12-15'
-                  acquiree: Expertus Technologies
-                - date: '2020-12-21'
-                  acquiree: Nordcloud
-                - date: '2021-01-11'
-                  acquiree: 7Summits
-                - date: '2021-01-14'
-                  acquiree: Taos Mountain
-                - date: '2021-04-15'
-                  acquiree: myInvenio, an IBM Company
-                - date: '2021-04-29'
-                  acquiree: Turbonomic
-                  price: 2000000000
-                - date: '2021-05-18'
-                  acquiree: Waeg
-                - date: '2021-05-25'
-                  acquiree: Catalogic ECX
-                - date: '2021-07-08'
-                  acquiree: BoxBoat Technologies
-                - date: '2021-07-15'
-                  acquiree: Bluetab
-                - date: '2021-10-28'
-                  acquiree: McD Tech Labs
-                - date: '2021-11-02'
-                  acquiree: ReaQta
-              parents: []
-              ticker: IBM
-              stockExchange: nyse
-              company_type: For Profit
-              industries:
-                - Business Development
-                - Business Information Systems
-                - CRM
-                - Software
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 106178068480
-              effective_ticker: IBM
-            image_data:
-              fileName: ibm-rse-api-plug-in-for-zowe-cli-v-1-0-0-cli-zowe-v1.svg
-              hash: AhR1VkHin63Ft7ShOeu04RdasDodgS4LRO+btttbbbM=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2021-11-12T18:09:43.000Z
-          - item:
             name: IBM Z System Automation (CLI ZOWE V1)
             description: >
               IBM Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
@@ -19958,6 +19716,657 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-11-16T19:31:52.000Z
+          - item:
+            name: IBM RSE API Plug-in (CLI ZOWE V1)
+            description: >-
+              Extends Zowe CLI and Zowe Explorer APIs to let you interact with z/OS resources. The RSE plug-in
+
+              interacts with z/OS by using IBM Remote System Explorer API (RSE API) instead of using z/OSMF. This solution is a great alternative if you have
+              already used the Remote System Explorer with other IBM
+
+              offerings such as IBM Developer for z/OS or IBM Explorer for z/OS. It is also a good option if you have not configured z/OSMF on your z/OS.
+            homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
+            logo: ibm-rse-api-plug-in.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+            crunchbase_data:
+              name: IBM
+              description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.ibm.com/
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: http://twitter.com/IBM
+              linkedin: https://www.linkedin.com/company/ibm/
+              acquisitions:
+                - date: '1923-01-01'
+                  acquiree: Dehomag
+                - date: '1930-01-01'
+                  acquiree: The Automatic Accounting Scale Company
+                - date: '1932-01-01'
+                  acquiree: National Counting Scale Company
+                - date: '1941-01-01'
+                  acquiree: Munitions Manufacturing Corporation
+                - date: '1964-01-01'
+                  acquiree: Science Research Associates
+                - date: '1974-01-01'
+                  acquiree: Satellite Business Systems
+                - date: '1984-09-26'
+                  acquiree: ROLM Corporation
+                - date: '1994-08-01'
+                  acquiree: Transarc
+                - date: '1995-07-06'
+                  acquiree: Lotus Development Corporation
+                  price: 3500000000
+                - date: '1996-02-01'
+                  acquiree: Tivoli Systems
+                  price: 743000000
+                - date: '1997-03-19'
+                  acquiree: NetObjects
+                - date: '1998-04-30'
+                  acquiree: CommQuest Services
+                  price: 200000000
+                - date: '1999-06-09'
+                  acquiree: Whistle Communications
+                - date: '1999-07-12'
+                  acquiree: Sequent Computer Systems Inc
+                - date: '1999-07-27'
+                  acquiree: Mylex
+                  price: 240000000
+                - date: '1999-09-22'
+                  acquiree: Dascom
+                - date: '2001-06-07'
+                  acquiree: Mainspring
+                - date: '2002-01-14'
+                  acquiree: CrossWorlds Software
+                  price: 129000000
+                - date: '2002-06-25'
+                  acquiree: Metamerge
+                - date: '2002-08-29'
+                  acquiree: TrelliSoft
+                - date: '2002-09-03'
+                  acquiree: Access360
+                - date: '2002-09-12'
+                  acquiree: HOLOSOFX
+                - date: '2002-10-02'
+                  acquiree: PwC Consulting
+                  price: 3500000000
+                - date: '2002-10-07'
+                  acquiree: EADS Matra Datavision
+                - date: '2002-11-04'
+                  acquiree: Tarian Software
+                - date: '2003-02-20'
+                  acquiree: Rational Software
+                - date: '2003-05-14'
+                  acquiree: Think Dynamics
+                - date: '2003-07-15'
+                  acquiree: Presence Online
+                - date: '2003-10-14'
+                  acquiree: CrossAccess
+                - date: '2003-11-13'
+                  acquiree: Productivity Solutions
+                - date: '2003-12-17'
+                  acquiree: Green Pasture Software
+                - date: '2004-03-09'
+                  acquiree: Trigo Technologies
+                - date: '2004-04-07'
+                  acquiree: Daksh Infosoft
+                - date: '2004-04-07'
+                  acquiree: Daksh eServices
+                - date: '2004-06-07'
+                  acquiree: Candle Corporation
+                - date: '2004-07-14'
+                  acquiree: AlphaBlox
+                - date: '2004-07-29'
+                  acquiree: Cyanea Systems
+                - date: '2004-08-17'
+                  acquiree: Maersk Data
+                - date: '2004-08-26'
+                  acquiree: Venetica
+                - date: '2004-10-12'
+                  acquiree: Systemcorp A.L.G.
+                - date: '2004-11-23'
+                  acquiree: Liberty Insurance Services
+                - date: '2004-12-13'
+                  acquiree: KeyMRO
+                - date: '2005-01-07'
+                  acquiree: SRD
+                - date: '2005-01-07'
+                  acquiree: Systems Research & Development
+                - date: '2005-01-25'
+                  acquiree: Corio
+                  price: 182000000
+                - date: '2005-02-02'
+                  acquiree: Equitant
+                - date: '2005-05-02'
+                  acquiree: Ascential Software
+                - date: '2005-05-10'
+                  acquiree: Gluecode Software
+                - date: '2005-06-15'
+                  acquiree: Healthlink
+                - date: '2005-06-23'
+                  acquiree: Meiosys
+                - date: '2005-07-27'
+                  acquiree: Isogon Corporation
+                - date: '2005-08-02'
+                  acquiree: DWL
+                - date: '2005-08-05'
+                  acquiree: PureEdge Solutions
+                - date: '2005-10-18'
+                  acquiree: DataPower Technology
+                - date: '2005-11-01'
+                  acquiree: iPhrase Technologies
+                - date: '2005-11-09'
+                  acquiree: Network Solutions Private Limited
+                - date: '2005-11-16'
+                  acquiree: Collation
+                - date: '2005-12-20'
+                  acquiree: Bowstreet
+                - date: '2005-12-21'
+                  acquiree: Micromuse
+                  price: 865000000
+                - date: '2006-01-25'
+                  acquiree: CIMS Lab
+                - date: '2006-01-27'
+                  acquiree: ARGUS Semiconductor Software
+                - date: '2006-02-08'
+                  acquiree: Viacore
+                - date: '2006-03-16'
+                  acquiree: Language Analysis Systems
+                - date: '2006-05-02'
+                  acquiree: BuildForge
+                - date: '2006-05-08'
+                  acquiree: Unicorn Solutions
+                - date: '2006-05-18'
+                  acquiree: Rembo Technology
+                - date: '2006-08-02'
+                  acquiree: Webify
+                - date: '2006-09-06'
+                  acquiree: Global Value Solutions
+                - date: '2006-09-30'
+                  acquiree: Valchemy
+                - date: '2006-10-05'
+                  acquiree: MRO Software
+                - date: '2006-10-12'
+                  acquiree: FileNet Corporation
+                  price: 1600000000
+                - date: '2006-10-20'
+                  acquiree: Internet Security Systems
+                - date: '2006-11-10'
+                  acquiree: Palisades Technology Partners
+                - date: '2006-12-05'
+                  acquiree: Consul Risk Management International
+                - date: '2007-02-14'
+                  acquiree: Vallent Corporation
+                - date: '2007-03-01'
+                  acquiree: Softek Storage Solutions
+                - date: '2007-04-20'
+                  acquiree: Unicible
+                - date: '2007-06-11'
+                  acquiree: Telelogic
+                  price: 745000000
+                - date: '2007-07-23'
+                  acquiree: Watchfire
+                - date: '2007-08-03'
+                  acquiree: Princeton Softech
+                - date: '2007-08-22'
+                  acquiree: Webdialogs
+                - date: '2007-09-04'
+                  acquiree: DataMirror
+                - date: '2007-10-24'
+                  acquiree: NovusCG
+                - date: '2007-12-06'
+                  acquiree: Arsenal Digital Solutions
+                - date: '2007-12-21'
+                  acquiree: Solid Information Technology
+                - date: '2008-01-02'
+                  acquiree: XIV
+                - date: '2008-01-18'
+                  acquiree: Net Integration Technologies
+                - date: '2008-01-23'
+                  acquiree: AptSoft
+                - date: '2008-01-31'
+                  acquiree: Cognos
+                - date: '2008-03-12'
+                  acquiree: Encentuate
+                - date: '2008-04-10'
+                  acquiree: FilesX
+                - date: '2008-04-22'
+                  acquiree: Diligent
+                - date: '2008-04-29'
+                  acquiree: InfoDyne Corporation
+                - date: '2008-07-02'
+                  acquiree: Platform Solutions
+                - date: '2008-07-28'
+                  acquiree: ILOG
+                - date: '2008-11-18'
+                  acquiree: Transitive
+                - date: '2009-04-16'
+                  acquiree: Outblaze
+                - date: '2009-05-05'
+                  acquiree: Exeros
+                - date: '2009-07-28'
+                  acquiree: Ounce Labs
+                - date: '2009-07-28'
+                  acquiree: SPSS
+                - date: '2009-09-22'
+                  acquiree: RedPill Solutions
+                - date: '2009-11-30'
+                  acquiree: Guardium
+                  price: 225000000
+                - date: '2009-12-16'
+                  acquiree: Lombardi Software
+                - date: '2010-01-20'
+                  acquiree: National Interest Security Company
+                - date: '2010-02-03'
+                  acquiree: Initiate Systems
+                - date: '2010-02-16'
+                  acquiree: Intelliden
+                - date: '2010-05-03'
+                  acquiree: Cast Iron Systems
+                - date: '2010-05-24'
+                  acquiree: Sterling Commerce
+                - date: '2010-06-14'
+                  acquiree: Storwize
+                  price: 140000000
+                - date: '2010-06-15'
+                  acquiree: Coremetrics
+                - date: '2010-07-01'
+                  acquiree: BigFix
+                - date: '2010-08-10'
+                  acquiree: Datacap
+                - date: '2010-08-13'
+                  acquiree: Unica
+                  price: 480000000
+                - date: '2010-09-15'
+                  acquiree: OpenPages
+                - date: '2010-09-20'
+                  acquiree: Netezza
+                  price: 1800000000
+                - date: '2010-09-27'
+                  acquiree: BLADE Network Technologies
+                - date: '2010-10-13'
+                  acquiree: PSS Systems
+                - date: '2010-10-21'
+                  acquiree: Clarity Systems
+                - date: '2011-04-14'
+                  acquiree: TRIRIGA
+                - date: '2011-08-31'
+                  acquiree: i2
+                - date: '2011-09-01'
+                  acquiree: Algorithmics
+                  price: 380200000
+                - date: '2011-10-04'
+                  acquiree: Q1 Labs
+                - date: '2011-10-11'
+                  acquiree: Platform Computing
+                - date: '2011-12-08'
+                  acquiree: DemandTec
+                  price: 440000000
+                - date: '2011-12-15'
+                  acquiree: Emptoris
+                - date: '2011-12-20'
+                  acquiree: Cúram Software
+                - date: '2012-01-04'
+                  acquiree: Green Hat
+                - date: '2012-01-31'
+                  acquiree: Worklight
+                  price: 70000000
+                - date: '2012-04-13'
+                  acquiree: Varicent Software
+                - date: '2012-04-25'
+                  acquiree: Vivisimo
+                - date: '2012-05-02'
+                  acquiree: Tealeaf
+                - date: '2012-07-01'
+                  acquiree: Cibecs
+                - date: '2012-08-16'
+                  acquiree: Texas Memory Systems
+                - date: '2012-08-28'
+                  acquiree: Kenexa
+                - date: '2012-09-24'
+                  acquiree: Butterfly Software
+                - date: '2013-02-07'
+                  acquiree: StoredIQ
+                - date: '2013-03-20'
+                  acquiree: Star Analytics
+                - date: '2013-04-22'
+                  acquiree: Urbancode
+                - date: '2013-06-04'
+                  acquiree: SoftLayer
+                  price: 2000000000
+                - date: '2013-07-10'
+                  acquiree: CSL International
+                - date: '2013-08-15'
+                  acquiree: Trusteer
+                - date: '2013-09-19'
+                  acquiree: Daeja Image Systems
+                - date: '2013-10-03'
+                  acquiree: Xtify
+                - date: '2013-10-29'
+                  acquiree: The Now Factory
+                - date: '2013-12-18'
+                  acquiree: Fiberlink
+                  price: 375000000
+                - date: '2013-12-19'
+                  acquiree: Aspera
+                - date: '2014-02-24'
+                  acquiree: Cloudant
+                - date: '2014-02-24'
+                  acquiree: Cloudant
+                - date: '2014-04-10'
+                  acquiree: Silverpop
+                  price: 270000000
+                - date: '2014-05-20'
+                  acquiree: Cognea
+                - date: '2014-07-31'
+                  acquiree: CrossIdeas
+                - date: '2015-03-04'
+                  acquiree: AlchemyAPI
+                - date: '2015-03-27'
+                  acquiree: Blekko
+                - date: '2015-04-16'
+                  acquiree: Explorys
+                - date: '2015-05-04'
+                  acquiree: Phytel
+                - date: '2015-06-03'
+                  acquiree: Blue Box
+                - date: '2015-07-23'
+                  acquiree: Compose
+                - date: '2015-08-06'
+                  acquiree: Merge Healthcare
+                  price: 1000000000
+                - date: '2015-09-10'
+                  acquiree: StrongLoop
+                - date: '2015-09-28'
+                  acquiree: Meteorix
+                - date: '2015-10-05'
+                  acquiree: Cleversafe
+                  price: 1300000000
+                - date: '2015-10-28'
+                  acquiree: The Weather Company
+                - date: '2015-11-03'
+                  acquiree: Gravitant
+                - date: '2015-12-08'
+                  acquiree: Clearleap
+                - date: '2016-01-15'
+                  acquiree: IRIS Analytics
+                - date: '2016-01-21'
+                  acquiree: Ustream
+                - date: '2016-01-28'
+                  acquiree: Resource/Ammirati
+                - date: '2016-02-02'
+                  acquiree: Aperto
+                - date: '2016-02-03'
+                  acquiree: Ecx.io
+                - date: '2016-02-18'
+                  acquiree: Truven Health Analytics
+                  price: 2600000000
+                - date: '2016-02-29'
+                  acquiree: IBM Resilient
+                - date: '2016-03-17'
+                  acquiree: Optevia
+                - date: '2016-03-30'
+                  acquiree: Bluewolf
+                  price: 200000000
+                - date: '2016-06-01'
+                  acquiree: EZSource
+                - date: '2016-09-29'
+                  acquiree: Promontory Financial Group
+                - date: '2016-10-27'
+                  acquiree: Sanovi Technologies
+                - date: '2016-11-01'
+                  acquiree: Expert Personal Shopper (XPS)
+                - date: '2017-01-23'
+                  acquiree: Agile 3 Solutions
+                - date: '2017-05-02'
+                  acquiree: Verizon - Cloud services
+                - date: '2017-09-24'
+                  acquiree: Cloudigo
+                - date: '2017-10-04'
+                  acquiree: Vivant
+                - date: '2018-05-03'
+                  acquiree: Armanta
+                - date: '2018-06-15'
+                  acquiree: Oniqua Inc.
+                - date: '2018-10-28'
+                  acquiree: Red Hat
+                  price: 34000000000
+                - date: '2019-01-14'
+                  acquiree: T-Systems - Mainframe Services business
+                - date: '2019-06-01'
+                  acquiree: Red Hat
+                - date: '2020-06-15'
+                  acquiree: Spanugo
+                - date: '2020-07-08'
+                  acquiree: WDG Automation
+                - date: '2020-11-16'
+                  acquiree: TruQua
+                - date: '2020-11-18'
+                  acquiree: Instana
+                - date: '2020-12-15'
+                  acquiree: Expertus Technologies
+                - date: '2020-12-21'
+                  acquiree: Nordcloud
+                - date: '2021-01-11'
+                  acquiree: 7Summits
+                - date: '2021-01-14'
+                  acquiree: Taos Mountain
+                - date: '2021-04-15'
+                  acquiree: myInvenio, an IBM Company
+                - date: '2021-04-29'
+                  acquiree: Turbonomic
+                  price: 2000000000
+                - date: '2021-05-18'
+                  acquiree: Waeg
+                - date: '2021-05-25'
+                  acquiree: Catalogic ECX
+                - date: '2021-07-08'
+                  acquiree: BoxBoat Technologies
+                - date: '2021-07-15'
+                  acquiree: Bluetab
+                - date: '2021-10-28'
+                  acquiree: McD Tech Labs
+                - date: '2021-11-02'
+                  acquiree: ReaQta
+              parents: []
+              ticker: IBM
+              stockExchange: nyse
+              company_type: For Profit
+              industries:
+                - Business Development
+                - Business Information Systems
+                - CRM
+                - Software
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 106178068480
+              effective_ticker: IBM
+            image_data:
+              fileName: ibm-rse-api-plug-in-cli-zowe-v1.svg
+              hash: IIGgmu0jaAHR3PaWvv7U/8phvbKnnnVdVDu55aJeFiQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-17T05:59:18.000Z
+          - item:
+            name: Cobol Language Support (CLI ZOWE V1)
+            description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support
+            repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
+            logo: Cobol Language Support.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            github_data:
+              languages:
+                - name: Java
+                  value: 1836871
+                  color: '#b07219'
+                - name: ANTLR
+                  value: 378294
+                  color: '#9DC3FF'
+                - name: TypeScript
+                  value: 168225
+                  color: '#2b7489'
+                - name: COBOL
+                  value: 128454
+                - name: JavaScript
+                  value: 90261
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 4178
+                  color: '#89e051'
+              contributions: 33;17;18;3;6;0;3;27;23;24;34;22;8;10;15;25;28;15;24;13;15;27;28;6;12;8;5;9;23;9;29;21;3;10;23;14;6;4;6;21;30;46;22;9;3;22;13;3;7;5;13;2
+              firstWeek: 2020-11-22Z
+              stars: 32
+              license: Other
+              description: null
+              latest_commit_date: '2021-11-11T11:26:46Z'
+              latest_commit_link: /eclipse/che-che4z-lsp-for-cobol/commit/312ca2c16e1ea240da259dba9a04d37673ef175a
+              release_date: '2021-09-09T08:51:52Z'
+              release_link: https://github.com/eclipse/che-che4z-lsp-for-cobol/releases
+              contributors_count: 30
+              contributors_link: https://github.com/eclipse/che-che4z-lsp-for-cobol/graphs/contributors
+            repos:
+              - url: https://github.com/eclipse/che-che4z-lsp-for-cobol
+                stars: 32
+            github_start_commit_data:
+              start_commit_link: /eclipse/che-che4z-lsp-for-cobol/commit/bb98467e9929cae1470d8131e7c68dce2042ba44
+              start_date: '2019-08-05T12:26:17Z'
+            image_data:
+              fileName: cobol-language-support-cli-zowe-v1.svg
+              hash: zc9oNLzudQd8iL9zHOKZ+GFKdB5uP3nAfNyWcyV//Ag=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-16T21:00:10.000Z
       - subcategory:
         name: API Mediation Layer 2019
         items:
@@ -29726,7 +30135,7 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-11-12T18:09:43.000Z
       - subcategory:
-        name: Support Provider Explorer for VS Code ZOWE V1
+        name: Support Provider Explorer for Visual Studio Code ZOWE V1
         items:
           - item:
             name: Brightside (Support Provider Explorer for VS Code ZOWE V1)
@@ -30346,6 +30755,2685 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-11-12T18:09:43.000Z
+      - subcategory:
+        name: Explorer for Visual Studio Code ZOWE V1
+        items:
+          - item:
+            name: Abend Analyzer for Mainframe (Explorer for Visual Studio Code ZOWE V1)
+            description: >-
+              Abend Analyzer for Mainframe provides an interface to SymDump® Batch. This extension allows you to browse, manage and view formatted abend reports
+              and symbolic data in a modern IDE environment.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.abend-analyzer
+            project: null
+            logo: abend-analyzer-for-mainframe.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            image_data:
+              fileName: abend-analyzer-for-mainframe-explorer-for-visual-studio-code-zowe-v1.svg
+              hash: YBj37WyTyXcc+fjtyf/dp6dJKV6ta0LL89Z5N4t/upw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-16T21:00:10.000Z
+          - item:
+            name: Debugger for Mainframe (Explorer for Visual Studio Code ZOWE V1)
+            description: |-
+              This extension provides a modern debugging experience for CICS
+              and Batch programs written in COBOL leveraging Intertest Batch and z/OS
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe
+            repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
+            logo: debugger-for-mainframe.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0
+              firstWeek: 2020-11-22Z
+              stars: 4
+              license: Unknown License
+              description: null
+              latest_commit_date: '2021-09-17T11:31:12Z'
+              latest_commit_link: /BroadcomMFD/debugger-for-mainframe/commit/0e22956385863dd4f1ff8b96ea64b576edd017b0
+              release_date: '2020-11-18T09:58:16Z'
+              release_link: https://github.com/BroadcomMFD/debugger-for-mainframe/releases
+              contributors_count: 4
+              contributors_link: https://github.com/BroadcomMFD/debugger-for-mainframe/graphs/contributors
+            repos:
+              - url: https://github.com/BroadcomMFD/debugger-for-mainframe
+                stars: 4
+            github_start_commit_data:
+              start_commit_link: /BroadcomMFD/debugger-for-mainframe/commit/b3fe7f755bc3681df99b735336cb0748c7c1ba1e
+              start_date: '2020-01-09T13:19:34Z'
+            image_data:
+              fileName: debugger-for-mainframe-explorer-for-visual-studio-code-zowe-v1.svg
+              hash: pO/bla9zegKk/YOctP9+BUrMIY8GnrdBZcWlz3w3Z4w=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-16T21:00:10.000Z
+          - item:
+            name: IBM RSE API Plug-in (Explorer for Visual Studio Code ZOWE V1)
+            description: It is a Zowe CLI plugin and not a VS Code extension that utilizes the Zowe Explorer APIs
+            homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
+            logo: ibm-rse-api-plug-in.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+            crunchbase_data:
+              name: IBM
+              description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.ibm.com/
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: http://twitter.com/IBM
+              linkedin: https://www.linkedin.com/company/ibm/
+              acquisitions:
+                - date: '1923-01-01'
+                  acquiree: Dehomag
+                - date: '1930-01-01'
+                  acquiree: The Automatic Accounting Scale Company
+                - date: '1932-01-01'
+                  acquiree: National Counting Scale Company
+                - date: '1941-01-01'
+                  acquiree: Munitions Manufacturing Corporation
+                - date: '1964-01-01'
+                  acquiree: Science Research Associates
+                - date: '1974-01-01'
+                  acquiree: Satellite Business Systems
+                - date: '1984-09-26'
+                  acquiree: ROLM Corporation
+                - date: '1994-08-01'
+                  acquiree: Transarc
+                - date: '1995-07-06'
+                  acquiree: Lotus Development Corporation
+                  price: 3500000000
+                - date: '1996-02-01'
+                  acquiree: Tivoli Systems
+                  price: 743000000
+                - date: '1997-03-19'
+                  acquiree: NetObjects
+                - date: '1998-04-30'
+                  acquiree: CommQuest Services
+                  price: 200000000
+                - date: '1999-06-09'
+                  acquiree: Whistle Communications
+                - date: '1999-07-12'
+                  acquiree: Sequent Computer Systems Inc
+                - date: '1999-07-27'
+                  acquiree: Mylex
+                  price: 240000000
+                - date: '1999-09-22'
+                  acquiree: Dascom
+                - date: '2001-06-07'
+                  acquiree: Mainspring
+                - date: '2002-01-14'
+                  acquiree: CrossWorlds Software
+                  price: 129000000
+                - date: '2002-06-25'
+                  acquiree: Metamerge
+                - date: '2002-08-29'
+                  acquiree: TrelliSoft
+                - date: '2002-09-03'
+                  acquiree: Access360
+                - date: '2002-09-12'
+                  acquiree: HOLOSOFX
+                - date: '2002-10-02'
+                  acquiree: PwC Consulting
+                  price: 3500000000
+                - date: '2002-10-07'
+                  acquiree: EADS Matra Datavision
+                - date: '2002-11-04'
+                  acquiree: Tarian Software
+                - date: '2003-02-20'
+                  acquiree: Rational Software
+                - date: '2003-05-14'
+                  acquiree: Think Dynamics
+                - date: '2003-07-15'
+                  acquiree: Presence Online
+                - date: '2003-10-14'
+                  acquiree: CrossAccess
+                - date: '2003-11-13'
+                  acquiree: Productivity Solutions
+                - date: '2003-12-17'
+                  acquiree: Green Pasture Software
+                - date: '2004-03-09'
+                  acquiree: Trigo Technologies
+                - date: '2004-04-07'
+                  acquiree: Daksh Infosoft
+                - date: '2004-04-07'
+                  acquiree: Daksh eServices
+                - date: '2004-06-07'
+                  acquiree: Candle Corporation
+                - date: '2004-07-14'
+                  acquiree: AlphaBlox
+                - date: '2004-07-29'
+                  acquiree: Cyanea Systems
+                - date: '2004-08-17'
+                  acquiree: Maersk Data
+                - date: '2004-08-26'
+                  acquiree: Venetica
+                - date: '2004-10-12'
+                  acquiree: Systemcorp A.L.G.
+                - date: '2004-11-23'
+                  acquiree: Liberty Insurance Services
+                - date: '2004-12-13'
+                  acquiree: KeyMRO
+                - date: '2005-01-07'
+                  acquiree: SRD
+                - date: '2005-01-07'
+                  acquiree: Systems Research & Development
+                - date: '2005-01-25'
+                  acquiree: Corio
+                  price: 182000000
+                - date: '2005-02-02'
+                  acquiree: Equitant
+                - date: '2005-05-02'
+                  acquiree: Ascential Software
+                - date: '2005-05-10'
+                  acquiree: Gluecode Software
+                - date: '2005-06-15'
+                  acquiree: Healthlink
+                - date: '2005-06-23'
+                  acquiree: Meiosys
+                - date: '2005-07-27'
+                  acquiree: Isogon Corporation
+                - date: '2005-08-02'
+                  acquiree: DWL
+                - date: '2005-08-05'
+                  acquiree: PureEdge Solutions
+                - date: '2005-10-18'
+                  acquiree: DataPower Technology
+                - date: '2005-11-01'
+                  acquiree: iPhrase Technologies
+                - date: '2005-11-09'
+                  acquiree: Network Solutions Private Limited
+                - date: '2005-11-16'
+                  acquiree: Collation
+                - date: '2005-12-20'
+                  acquiree: Bowstreet
+                - date: '2005-12-21'
+                  acquiree: Micromuse
+                  price: 865000000
+                - date: '2006-01-25'
+                  acquiree: CIMS Lab
+                - date: '2006-01-27'
+                  acquiree: ARGUS Semiconductor Software
+                - date: '2006-02-08'
+                  acquiree: Viacore
+                - date: '2006-03-16'
+                  acquiree: Language Analysis Systems
+                - date: '2006-05-02'
+                  acquiree: BuildForge
+                - date: '2006-05-08'
+                  acquiree: Unicorn Solutions
+                - date: '2006-05-18'
+                  acquiree: Rembo Technology
+                - date: '2006-08-02'
+                  acquiree: Webify
+                - date: '2006-09-06'
+                  acquiree: Global Value Solutions
+                - date: '2006-09-30'
+                  acquiree: Valchemy
+                - date: '2006-10-05'
+                  acquiree: MRO Software
+                - date: '2006-10-12'
+                  acquiree: FileNet Corporation
+                  price: 1600000000
+                - date: '2006-10-20'
+                  acquiree: Internet Security Systems
+                - date: '2006-11-10'
+                  acquiree: Palisades Technology Partners
+                - date: '2006-12-05'
+                  acquiree: Consul Risk Management International
+                - date: '2007-02-14'
+                  acquiree: Vallent Corporation
+                - date: '2007-03-01'
+                  acquiree: Softek Storage Solutions
+                - date: '2007-04-20'
+                  acquiree: Unicible
+                - date: '2007-06-11'
+                  acquiree: Telelogic
+                  price: 745000000
+                - date: '2007-07-23'
+                  acquiree: Watchfire
+                - date: '2007-08-03'
+                  acquiree: Princeton Softech
+                - date: '2007-08-22'
+                  acquiree: Webdialogs
+                - date: '2007-09-04'
+                  acquiree: DataMirror
+                - date: '2007-10-24'
+                  acquiree: NovusCG
+                - date: '2007-12-06'
+                  acquiree: Arsenal Digital Solutions
+                - date: '2007-12-21'
+                  acquiree: Solid Information Technology
+                - date: '2008-01-02'
+                  acquiree: XIV
+                - date: '2008-01-18'
+                  acquiree: Net Integration Technologies
+                - date: '2008-01-23'
+                  acquiree: AptSoft
+                - date: '2008-01-31'
+                  acquiree: Cognos
+                - date: '2008-03-12'
+                  acquiree: Encentuate
+                - date: '2008-04-10'
+                  acquiree: FilesX
+                - date: '2008-04-22'
+                  acquiree: Diligent
+                - date: '2008-04-29'
+                  acquiree: InfoDyne Corporation
+                - date: '2008-07-02'
+                  acquiree: Platform Solutions
+                - date: '2008-07-28'
+                  acquiree: ILOG
+                - date: '2008-11-18'
+                  acquiree: Transitive
+                - date: '2009-04-16'
+                  acquiree: Outblaze
+                - date: '2009-05-05'
+                  acquiree: Exeros
+                - date: '2009-07-28'
+                  acquiree: Ounce Labs
+                - date: '2009-07-28'
+                  acquiree: SPSS
+                - date: '2009-09-22'
+                  acquiree: RedPill Solutions
+                - date: '2009-11-30'
+                  acquiree: Guardium
+                  price: 225000000
+                - date: '2009-12-16'
+                  acquiree: Lombardi Software
+                - date: '2010-01-20'
+                  acquiree: National Interest Security Company
+                - date: '2010-02-03'
+                  acquiree: Initiate Systems
+                - date: '2010-02-16'
+                  acquiree: Intelliden
+                - date: '2010-05-03'
+                  acquiree: Cast Iron Systems
+                - date: '2010-05-24'
+                  acquiree: Sterling Commerce
+                - date: '2010-06-14'
+                  acquiree: Storwize
+                  price: 140000000
+                - date: '2010-06-15'
+                  acquiree: Coremetrics
+                - date: '2010-07-01'
+                  acquiree: BigFix
+                - date: '2010-08-10'
+                  acquiree: Datacap
+                - date: '2010-08-13'
+                  acquiree: Unica
+                  price: 480000000
+                - date: '2010-09-15'
+                  acquiree: OpenPages
+                - date: '2010-09-20'
+                  acquiree: Netezza
+                  price: 1800000000
+                - date: '2010-09-27'
+                  acquiree: BLADE Network Technologies
+                - date: '2010-10-13'
+                  acquiree: PSS Systems
+                - date: '2010-10-21'
+                  acquiree: Clarity Systems
+                - date: '2011-04-14'
+                  acquiree: TRIRIGA
+                - date: '2011-08-31'
+                  acquiree: i2
+                - date: '2011-09-01'
+                  acquiree: Algorithmics
+                  price: 380200000
+                - date: '2011-10-04'
+                  acquiree: Q1 Labs
+                - date: '2011-10-11'
+                  acquiree: Platform Computing
+                - date: '2011-12-08'
+                  acquiree: DemandTec
+                  price: 440000000
+                - date: '2011-12-15'
+                  acquiree: Emptoris
+                - date: '2011-12-20'
+                  acquiree: Cúram Software
+                - date: '2012-01-04'
+                  acquiree: Green Hat
+                - date: '2012-01-31'
+                  acquiree: Worklight
+                  price: 70000000
+                - date: '2012-04-13'
+                  acquiree: Varicent Software
+                - date: '2012-04-25'
+                  acquiree: Vivisimo
+                - date: '2012-05-02'
+                  acquiree: Tealeaf
+                - date: '2012-07-01'
+                  acquiree: Cibecs
+                - date: '2012-08-16'
+                  acquiree: Texas Memory Systems
+                - date: '2012-08-28'
+                  acquiree: Kenexa
+                - date: '2012-09-24'
+                  acquiree: Butterfly Software
+                - date: '2013-02-07'
+                  acquiree: StoredIQ
+                - date: '2013-03-20'
+                  acquiree: Star Analytics
+                - date: '2013-04-22'
+                  acquiree: Urbancode
+                - date: '2013-06-04'
+                  acquiree: SoftLayer
+                  price: 2000000000
+                - date: '2013-07-10'
+                  acquiree: CSL International
+                - date: '2013-08-15'
+                  acquiree: Trusteer
+                - date: '2013-09-19'
+                  acquiree: Daeja Image Systems
+                - date: '2013-10-03'
+                  acquiree: Xtify
+                - date: '2013-10-29'
+                  acquiree: The Now Factory
+                - date: '2013-12-18'
+                  acquiree: Fiberlink
+                  price: 375000000
+                - date: '2013-12-19'
+                  acquiree: Aspera
+                - date: '2014-02-24'
+                  acquiree: Cloudant
+                - date: '2014-02-24'
+                  acquiree: Cloudant
+                - date: '2014-04-10'
+                  acquiree: Silverpop
+                  price: 270000000
+                - date: '2014-05-20'
+                  acquiree: Cognea
+                - date: '2014-07-31'
+                  acquiree: CrossIdeas
+                - date: '2015-03-04'
+                  acquiree: AlchemyAPI
+                - date: '2015-03-27'
+                  acquiree: Blekko
+                - date: '2015-04-16'
+                  acquiree: Explorys
+                - date: '2015-05-04'
+                  acquiree: Phytel
+                - date: '2015-06-03'
+                  acquiree: Blue Box
+                - date: '2015-07-23'
+                  acquiree: Compose
+                - date: '2015-08-06'
+                  acquiree: Merge Healthcare
+                  price: 1000000000
+                - date: '2015-09-10'
+                  acquiree: StrongLoop
+                - date: '2015-09-28'
+                  acquiree: Meteorix
+                - date: '2015-10-05'
+                  acquiree: Cleversafe
+                  price: 1300000000
+                - date: '2015-10-28'
+                  acquiree: The Weather Company
+                - date: '2015-11-03'
+                  acquiree: Gravitant
+                - date: '2015-12-08'
+                  acquiree: Clearleap
+                - date: '2016-01-15'
+                  acquiree: IRIS Analytics
+                - date: '2016-01-21'
+                  acquiree: Ustream
+                - date: '2016-01-28'
+                  acquiree: Resource/Ammirati
+                - date: '2016-02-02'
+                  acquiree: Aperto
+                - date: '2016-02-03'
+                  acquiree: Ecx.io
+                - date: '2016-02-18'
+                  acquiree: Truven Health Analytics
+                  price: 2600000000
+                - date: '2016-02-29'
+                  acquiree: IBM Resilient
+                - date: '2016-03-17'
+                  acquiree: Optevia
+                - date: '2016-03-30'
+                  acquiree: Bluewolf
+                  price: 200000000
+                - date: '2016-06-01'
+                  acquiree: EZSource
+                - date: '2016-09-29'
+                  acquiree: Promontory Financial Group
+                - date: '2016-10-27'
+                  acquiree: Sanovi Technologies
+                - date: '2016-11-01'
+                  acquiree: Expert Personal Shopper (XPS)
+                - date: '2017-01-23'
+                  acquiree: Agile 3 Solutions
+                - date: '2017-05-02'
+                  acquiree: Verizon - Cloud services
+                - date: '2017-09-24'
+                  acquiree: Cloudigo
+                - date: '2017-10-04'
+                  acquiree: Vivant
+                - date: '2018-05-03'
+                  acquiree: Armanta
+                - date: '2018-06-15'
+                  acquiree: Oniqua Inc.
+                - date: '2018-10-28'
+                  acquiree: Red Hat
+                  price: 34000000000
+                - date: '2019-01-14'
+                  acquiree: T-Systems - Mainframe Services business
+                - date: '2019-06-01'
+                  acquiree: Red Hat
+                - date: '2020-06-15'
+                  acquiree: Spanugo
+                - date: '2020-07-08'
+                  acquiree: WDG Automation
+                - date: '2020-11-16'
+                  acquiree: TruQua
+                - date: '2020-11-18'
+                  acquiree: Instana
+                - date: '2020-12-15'
+                  acquiree: Expertus Technologies
+                - date: '2020-12-21'
+                  acquiree: Nordcloud
+                - date: '2021-01-11'
+                  acquiree: 7Summits
+                - date: '2021-01-14'
+                  acquiree: Taos Mountain
+                - date: '2021-04-15'
+                  acquiree: myInvenio, an IBM Company
+                - date: '2021-04-29'
+                  acquiree: Turbonomic
+                  price: 2000000000
+                - date: '2021-05-18'
+                  acquiree: Waeg
+                - date: '2021-05-25'
+                  acquiree: Catalogic ECX
+                - date: '2021-07-08'
+                  acquiree: BoxBoat Technologies
+                - date: '2021-07-15'
+                  acquiree: Bluetab
+                - date: '2021-10-28'
+                  acquiree: McD Tech Labs
+                - date: '2021-11-02'
+                  acquiree: ReaQta
+              parents: []
+              ticker: IBM
+              stockExchange: nyse
+              company_type: For Profit
+              industries:
+                - Business Development
+                - Business Information Systems
+                - CRM
+                - Software
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 106178068480
+              effective_ticker: IBM
+            image_data:
+              fileName: ibm-rse-api-plug-in-explorer-for-visual-studio-code-zowe-v1.svg
+              hash: IIGgmu0jaAHR3PaWvv7U/8phvbKnnnVdVDu55aJeFiQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-17T05:59:18.000Z
+          - item:
+            name: Data Editor for Mainframe (Explorer for Visual Studio Code ZOWE V1)
+            description: >-
+              Enhances the functionality of Zowe Explorer to allow you to apply record layouts to VSAM data sets and interactively filter records using
+              selection criteria.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.data-editor-for-mainframe
+            logo: data-editor-for-mainframe.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            image_data:
+              fileName: data-editor-for-mainframe-explorer-for-visual-studio-code-zowe-v1.svg
+              hash: LjXe2zIo8tDWZYoqopb63L2dwCl/3V95/uNAM+2laVc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-16T21:00:10.000Z
+          - item:
+            name: JCL Language Support (Explorer for Visual Studio Code ZOWE V1)
+            description: >-
+              Extension provides an interface in VS Code for developers and system administrators to interact with Job Control Language (JCL) on IBM z/OS
+              mainframes. Edit JCL in a local environment complete with syntax highlighting, linting, and access to a library of sample job snippets.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.jcl-language-support
+            repo_url: https://github.com/BroadcomMFD/jcl-language-support
+            logo: jcl-language-support.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0
+              firstWeek: 2020-11-22Z
+              stars: 2
+              license: Other
+              description: null
+              latest_commit_date: '2021-09-22T13:00:49Z'
+              latest_commit_link: /BroadcomMFD/jcl-language-support/commit/0e8032c6fa255da89d336b276431a422ab267fd1
+              release_date: '2021-09-22T13:07:43Z'
+              release_link: https://github.com/BroadcomMFD/jcl-language-support/releases
+              contributors_count: 3
+              contributors_link: https://github.com/BroadcomMFD/jcl-language-support/graphs/contributors
+            repos:
+              - url: https://github.com/BroadcomMFD/jcl-language-support
+                stars: 2
+            github_start_commit_data:
+              start_commit_link: /BroadcomMFD/jcl-language-support/commit/9e13f1e6c7939ec7518a5d7a2d4a788cacd6daf4
+              start_date: '2020-06-22T14:10:24Z'
+            image_data:
+              fileName: jcl-language-support-explorer-for-visual-studio-code-zowe-v1.svg
+              hash: Qa/GKfo/vBWF7j+UqwsYWe2vKF8UoGNzsKNo3jCQV5Y=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-16T21:00:10.000Z
+          - item:
+            name: IBM z Open Editor (Explorer for Visual Studio Code ZOWE V1)
+            description: >-
+              An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
+              interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and utilizes its APIs for
+              various operations such as resolving and parsing program include files directly from MVS, running personal builds, submitting jobs and many more.
+            homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
+            logo: ibm-z-open-editor.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+            crunchbase_data:
+              name: IBM
+              description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.ibm.com/
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: http://twitter.com/IBM
+              linkedin: https://www.linkedin.com/company/ibm/
+              acquisitions:
+                - date: '1923-01-01'
+                  acquiree: Dehomag
+                - date: '1930-01-01'
+                  acquiree: The Automatic Accounting Scale Company
+                - date: '1932-01-01'
+                  acquiree: National Counting Scale Company
+                - date: '1941-01-01'
+                  acquiree: Munitions Manufacturing Corporation
+                - date: '1964-01-01'
+                  acquiree: Science Research Associates
+                - date: '1974-01-01'
+                  acquiree: Satellite Business Systems
+                - date: '1984-09-26'
+                  acquiree: ROLM Corporation
+                - date: '1994-08-01'
+                  acquiree: Transarc
+                - date: '1995-07-06'
+                  acquiree: Lotus Development Corporation
+                  price: 3500000000
+                - date: '1996-02-01'
+                  acquiree: Tivoli Systems
+                  price: 743000000
+                - date: '1997-03-19'
+                  acquiree: NetObjects
+                - date: '1998-04-30'
+                  acquiree: CommQuest Services
+                  price: 200000000
+                - date: '1999-06-09'
+                  acquiree: Whistle Communications
+                - date: '1999-07-12'
+                  acquiree: Sequent Computer Systems Inc
+                - date: '1999-07-27'
+                  acquiree: Mylex
+                  price: 240000000
+                - date: '1999-09-22'
+                  acquiree: Dascom
+                - date: '2001-06-07'
+                  acquiree: Mainspring
+                - date: '2002-01-14'
+                  acquiree: CrossWorlds Software
+                  price: 129000000
+                - date: '2002-06-25'
+                  acquiree: Metamerge
+                - date: '2002-08-29'
+                  acquiree: TrelliSoft
+                - date: '2002-09-03'
+                  acquiree: Access360
+                - date: '2002-09-12'
+                  acquiree: HOLOSOFX
+                - date: '2002-10-02'
+                  acquiree: PwC Consulting
+                  price: 3500000000
+                - date: '2002-10-07'
+                  acquiree: EADS Matra Datavision
+                - date: '2002-11-04'
+                  acquiree: Tarian Software
+                - date: '2003-02-20'
+                  acquiree: Rational Software
+                - date: '2003-05-14'
+                  acquiree: Think Dynamics
+                - date: '2003-07-15'
+                  acquiree: Presence Online
+                - date: '2003-10-14'
+                  acquiree: CrossAccess
+                - date: '2003-11-13'
+                  acquiree: Productivity Solutions
+                - date: '2003-12-17'
+                  acquiree: Green Pasture Software
+                - date: '2004-03-09'
+                  acquiree: Trigo Technologies
+                - date: '2004-04-07'
+                  acquiree: Daksh Infosoft
+                - date: '2004-04-07'
+                  acquiree: Daksh eServices
+                - date: '2004-06-07'
+                  acquiree: Candle Corporation
+                - date: '2004-07-14'
+                  acquiree: AlphaBlox
+                - date: '2004-07-29'
+                  acquiree: Cyanea Systems
+                - date: '2004-08-17'
+                  acquiree: Maersk Data
+                - date: '2004-08-26'
+                  acquiree: Venetica
+                - date: '2004-10-12'
+                  acquiree: Systemcorp A.L.G.
+                - date: '2004-11-23'
+                  acquiree: Liberty Insurance Services
+                - date: '2004-12-13'
+                  acquiree: KeyMRO
+                - date: '2005-01-07'
+                  acquiree: SRD
+                - date: '2005-01-07'
+                  acquiree: Systems Research & Development
+                - date: '2005-01-25'
+                  acquiree: Corio
+                  price: 182000000
+                - date: '2005-02-02'
+                  acquiree: Equitant
+                - date: '2005-05-02'
+                  acquiree: Ascential Software
+                - date: '2005-05-10'
+                  acquiree: Gluecode Software
+                - date: '2005-06-15'
+                  acquiree: Healthlink
+                - date: '2005-06-23'
+                  acquiree: Meiosys
+                - date: '2005-07-27'
+                  acquiree: Isogon Corporation
+                - date: '2005-08-02'
+                  acquiree: DWL
+                - date: '2005-08-05'
+                  acquiree: PureEdge Solutions
+                - date: '2005-10-18'
+                  acquiree: DataPower Technology
+                - date: '2005-11-01'
+                  acquiree: iPhrase Technologies
+                - date: '2005-11-09'
+                  acquiree: Network Solutions Private Limited
+                - date: '2005-11-16'
+                  acquiree: Collation
+                - date: '2005-12-20'
+                  acquiree: Bowstreet
+                - date: '2005-12-21'
+                  acquiree: Micromuse
+                  price: 865000000
+                - date: '2006-01-25'
+                  acquiree: CIMS Lab
+                - date: '2006-01-27'
+                  acquiree: ARGUS Semiconductor Software
+                - date: '2006-02-08'
+                  acquiree: Viacore
+                - date: '2006-03-16'
+                  acquiree: Language Analysis Systems
+                - date: '2006-05-02'
+                  acquiree: BuildForge
+                - date: '2006-05-08'
+                  acquiree: Unicorn Solutions
+                - date: '2006-05-18'
+                  acquiree: Rembo Technology
+                - date: '2006-08-02'
+                  acquiree: Webify
+                - date: '2006-09-06'
+                  acquiree: Global Value Solutions
+                - date: '2006-09-30'
+                  acquiree: Valchemy
+                - date: '2006-10-05'
+                  acquiree: MRO Software
+                - date: '2006-10-12'
+                  acquiree: FileNet Corporation
+                  price: 1600000000
+                - date: '2006-10-20'
+                  acquiree: Internet Security Systems
+                - date: '2006-11-10'
+                  acquiree: Palisades Technology Partners
+                - date: '2006-12-05'
+                  acquiree: Consul Risk Management International
+                - date: '2007-02-14'
+                  acquiree: Vallent Corporation
+                - date: '2007-03-01'
+                  acquiree: Softek Storage Solutions
+                - date: '2007-04-20'
+                  acquiree: Unicible
+                - date: '2007-06-11'
+                  acquiree: Telelogic
+                  price: 745000000
+                - date: '2007-07-23'
+                  acquiree: Watchfire
+                - date: '2007-08-03'
+                  acquiree: Princeton Softech
+                - date: '2007-08-22'
+                  acquiree: Webdialogs
+                - date: '2007-09-04'
+                  acquiree: DataMirror
+                - date: '2007-10-24'
+                  acquiree: NovusCG
+                - date: '2007-12-06'
+                  acquiree: Arsenal Digital Solutions
+                - date: '2007-12-21'
+                  acquiree: Solid Information Technology
+                - date: '2008-01-02'
+                  acquiree: XIV
+                - date: '2008-01-18'
+                  acquiree: Net Integration Technologies
+                - date: '2008-01-23'
+                  acquiree: AptSoft
+                - date: '2008-01-31'
+                  acquiree: Cognos
+                - date: '2008-03-12'
+                  acquiree: Encentuate
+                - date: '2008-04-10'
+                  acquiree: FilesX
+                - date: '2008-04-22'
+                  acquiree: Diligent
+                - date: '2008-04-29'
+                  acquiree: InfoDyne Corporation
+                - date: '2008-07-02'
+                  acquiree: Platform Solutions
+                - date: '2008-07-28'
+                  acquiree: ILOG
+                - date: '2008-11-18'
+                  acquiree: Transitive
+                - date: '2009-04-16'
+                  acquiree: Outblaze
+                - date: '2009-05-05'
+                  acquiree: Exeros
+                - date: '2009-07-28'
+                  acquiree: Ounce Labs
+                - date: '2009-07-28'
+                  acquiree: SPSS
+                - date: '2009-09-22'
+                  acquiree: RedPill Solutions
+                - date: '2009-11-30'
+                  acquiree: Guardium
+                  price: 225000000
+                - date: '2009-12-16'
+                  acquiree: Lombardi Software
+                - date: '2010-01-20'
+                  acquiree: National Interest Security Company
+                - date: '2010-02-03'
+                  acquiree: Initiate Systems
+                - date: '2010-02-16'
+                  acquiree: Intelliden
+                - date: '2010-05-03'
+                  acquiree: Cast Iron Systems
+                - date: '2010-05-24'
+                  acquiree: Sterling Commerce
+                - date: '2010-06-14'
+                  acquiree: Storwize
+                  price: 140000000
+                - date: '2010-06-15'
+                  acquiree: Coremetrics
+                - date: '2010-07-01'
+                  acquiree: BigFix
+                - date: '2010-08-10'
+                  acquiree: Datacap
+                - date: '2010-08-13'
+                  acquiree: Unica
+                  price: 480000000
+                - date: '2010-09-15'
+                  acquiree: OpenPages
+                - date: '2010-09-20'
+                  acquiree: Netezza
+                  price: 1800000000
+                - date: '2010-09-27'
+                  acquiree: BLADE Network Technologies
+                - date: '2010-10-13'
+                  acquiree: PSS Systems
+                - date: '2010-10-21'
+                  acquiree: Clarity Systems
+                - date: '2011-04-14'
+                  acquiree: TRIRIGA
+                - date: '2011-08-31'
+                  acquiree: i2
+                - date: '2011-09-01'
+                  acquiree: Algorithmics
+                  price: 380200000
+                - date: '2011-10-04'
+                  acquiree: Q1 Labs
+                - date: '2011-10-11'
+                  acquiree: Platform Computing
+                - date: '2011-12-08'
+                  acquiree: DemandTec
+                  price: 440000000
+                - date: '2011-12-15'
+                  acquiree: Emptoris
+                - date: '2011-12-20'
+                  acquiree: Cúram Software
+                - date: '2012-01-04'
+                  acquiree: Green Hat
+                - date: '2012-01-31'
+                  acquiree: Worklight
+                  price: 70000000
+                - date: '2012-04-13'
+                  acquiree: Varicent Software
+                - date: '2012-04-25'
+                  acquiree: Vivisimo
+                - date: '2012-05-02'
+                  acquiree: Tealeaf
+                - date: '2012-07-01'
+                  acquiree: Cibecs
+                - date: '2012-08-16'
+                  acquiree: Texas Memory Systems
+                - date: '2012-08-28'
+                  acquiree: Kenexa
+                - date: '2012-09-24'
+                  acquiree: Butterfly Software
+                - date: '2013-02-07'
+                  acquiree: StoredIQ
+                - date: '2013-03-20'
+                  acquiree: Star Analytics
+                - date: '2013-04-22'
+                  acquiree: Urbancode
+                - date: '2013-06-04'
+                  acquiree: SoftLayer
+                  price: 2000000000
+                - date: '2013-07-10'
+                  acquiree: CSL International
+                - date: '2013-08-15'
+                  acquiree: Trusteer
+                - date: '2013-09-19'
+                  acquiree: Daeja Image Systems
+                - date: '2013-10-03'
+                  acquiree: Xtify
+                - date: '2013-10-29'
+                  acquiree: The Now Factory
+                - date: '2013-12-18'
+                  acquiree: Fiberlink
+                  price: 375000000
+                - date: '2013-12-19'
+                  acquiree: Aspera
+                - date: '2014-02-24'
+                  acquiree: Cloudant
+                - date: '2014-02-24'
+                  acquiree: Cloudant
+                - date: '2014-04-10'
+                  acquiree: Silverpop
+                  price: 270000000
+                - date: '2014-05-20'
+                  acquiree: Cognea
+                - date: '2014-07-31'
+                  acquiree: CrossIdeas
+                - date: '2015-03-04'
+                  acquiree: AlchemyAPI
+                - date: '2015-03-27'
+                  acquiree: Blekko
+                - date: '2015-04-16'
+                  acquiree: Explorys
+                - date: '2015-05-04'
+                  acquiree: Phytel
+                - date: '2015-06-03'
+                  acquiree: Blue Box
+                - date: '2015-07-23'
+                  acquiree: Compose
+                - date: '2015-08-06'
+                  acquiree: Merge Healthcare
+                  price: 1000000000
+                - date: '2015-09-10'
+                  acquiree: StrongLoop
+                - date: '2015-09-28'
+                  acquiree: Meteorix
+                - date: '2015-10-05'
+                  acquiree: Cleversafe
+                  price: 1300000000
+                - date: '2015-10-28'
+                  acquiree: The Weather Company
+                - date: '2015-11-03'
+                  acquiree: Gravitant
+                - date: '2015-12-08'
+                  acquiree: Clearleap
+                - date: '2016-01-15'
+                  acquiree: IRIS Analytics
+                - date: '2016-01-21'
+                  acquiree: Ustream
+                - date: '2016-01-28'
+                  acquiree: Resource/Ammirati
+                - date: '2016-02-02'
+                  acquiree: Aperto
+                - date: '2016-02-03'
+                  acquiree: Ecx.io
+                - date: '2016-02-18'
+                  acquiree: Truven Health Analytics
+                  price: 2600000000
+                - date: '2016-02-29'
+                  acquiree: IBM Resilient
+                - date: '2016-03-17'
+                  acquiree: Optevia
+                - date: '2016-03-30'
+                  acquiree: Bluewolf
+                  price: 200000000
+                - date: '2016-06-01'
+                  acquiree: EZSource
+                - date: '2016-09-29'
+                  acquiree: Promontory Financial Group
+                - date: '2016-10-27'
+                  acquiree: Sanovi Technologies
+                - date: '2016-11-01'
+                  acquiree: Expert Personal Shopper (XPS)
+                - date: '2017-01-23'
+                  acquiree: Agile 3 Solutions
+                - date: '2017-05-02'
+                  acquiree: Verizon - Cloud services
+                - date: '2017-09-24'
+                  acquiree: Cloudigo
+                - date: '2017-10-04'
+                  acquiree: Vivant
+                - date: '2018-05-03'
+                  acquiree: Armanta
+                - date: '2018-06-15'
+                  acquiree: Oniqua Inc.
+                - date: '2018-10-28'
+                  acquiree: Red Hat
+                  price: 34000000000
+                - date: '2019-01-14'
+                  acquiree: T-Systems - Mainframe Services business
+                - date: '2019-06-01'
+                  acquiree: Red Hat
+                - date: '2020-06-15'
+                  acquiree: Spanugo
+                - date: '2020-07-08'
+                  acquiree: WDG Automation
+                - date: '2020-11-16'
+                  acquiree: TruQua
+                - date: '2020-11-18'
+                  acquiree: Instana
+                - date: '2020-12-15'
+                  acquiree: Expertus Technologies
+                - date: '2020-12-21'
+                  acquiree: Nordcloud
+                - date: '2021-01-11'
+                  acquiree: 7Summits
+                - date: '2021-01-14'
+                  acquiree: Taos Mountain
+                - date: '2021-04-15'
+                  acquiree: myInvenio, an IBM Company
+                - date: '2021-04-29'
+                  acquiree: Turbonomic
+                  price: 2000000000
+                - date: '2021-05-18'
+                  acquiree: Waeg
+                - date: '2021-05-25'
+                  acquiree: Catalogic ECX
+                - date: '2021-07-08'
+                  acquiree: BoxBoat Technologies
+                - date: '2021-07-15'
+                  acquiree: Bluetab
+                - date: '2021-10-28'
+                  acquiree: McD Tech Labs
+                - date: '2021-11-02'
+                  acquiree: ReaQta
+              parents: []
+              ticker: IBM
+              stockExchange: nyse
+              company_type: For Profit
+              industries:
+                - Business Development
+                - Business Information Systems
+                - CRM
+                - Software
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 106178068480
+              effective_ticker: IBM
+            image_data:
+              fileName: ibm-z-open-editor-explorer-for-visual-studio-code-zowe-v1.svg
+              hash: sePtDiiiNRIjiQE7EIqCGUvAZQ5lXj2sCEehOrsFqao=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-17T05:59:18.000Z
+          - item:
+            name: Zowe Explorer for IBM CICS (Explorer for Visual Studio Code ZOWE V1)
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
+            project: null
+            repo_url: https://github.com/zowe/vscode-extension-for-cics
+            logo: zowe-explorer-for-ibm-cics.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+            crunchbase_data:
+              name: IBM
+              description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.ibm.com/
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: http://twitter.com/IBM
+              linkedin: https://www.linkedin.com/company/ibm/
+              acquisitions:
+                - date: '1923-01-01'
+                  acquiree: Dehomag
+                - date: '1930-01-01'
+                  acquiree: The Automatic Accounting Scale Company
+                - date: '1932-01-01'
+                  acquiree: National Counting Scale Company
+                - date: '1941-01-01'
+                  acquiree: Munitions Manufacturing Corporation
+                - date: '1964-01-01'
+                  acquiree: Science Research Associates
+                - date: '1974-01-01'
+                  acquiree: Satellite Business Systems
+                - date: '1984-09-26'
+                  acquiree: ROLM Corporation
+                - date: '1994-08-01'
+                  acquiree: Transarc
+                - date: '1995-07-06'
+                  acquiree: Lotus Development Corporation
+                  price: 3500000000
+                - date: '1996-02-01'
+                  acquiree: Tivoli Systems
+                  price: 743000000
+                - date: '1997-03-19'
+                  acquiree: NetObjects
+                - date: '1998-04-30'
+                  acquiree: CommQuest Services
+                  price: 200000000
+                - date: '1999-06-09'
+                  acquiree: Whistle Communications
+                - date: '1999-07-12'
+                  acquiree: Sequent Computer Systems Inc
+                - date: '1999-07-27'
+                  acquiree: Mylex
+                  price: 240000000
+                - date: '1999-09-22'
+                  acquiree: Dascom
+                - date: '2001-06-07'
+                  acquiree: Mainspring
+                - date: '2002-01-14'
+                  acquiree: CrossWorlds Software
+                  price: 129000000
+                - date: '2002-06-25'
+                  acquiree: Metamerge
+                - date: '2002-08-29'
+                  acquiree: TrelliSoft
+                - date: '2002-09-03'
+                  acquiree: Access360
+                - date: '2002-09-12'
+                  acquiree: HOLOSOFX
+                - date: '2002-10-02'
+                  acquiree: PwC Consulting
+                  price: 3500000000
+                - date: '2002-10-07'
+                  acquiree: EADS Matra Datavision
+                - date: '2002-11-04'
+                  acquiree: Tarian Software
+                - date: '2003-02-20'
+                  acquiree: Rational Software
+                - date: '2003-05-14'
+                  acquiree: Think Dynamics
+                - date: '2003-07-15'
+                  acquiree: Presence Online
+                - date: '2003-10-14'
+                  acquiree: CrossAccess
+                - date: '2003-11-13'
+                  acquiree: Productivity Solutions
+                - date: '2003-12-17'
+                  acquiree: Green Pasture Software
+                - date: '2004-03-09'
+                  acquiree: Trigo Technologies
+                - date: '2004-04-07'
+                  acquiree: Daksh Infosoft
+                - date: '2004-04-07'
+                  acquiree: Daksh eServices
+                - date: '2004-06-07'
+                  acquiree: Candle Corporation
+                - date: '2004-07-14'
+                  acquiree: AlphaBlox
+                - date: '2004-07-29'
+                  acquiree: Cyanea Systems
+                - date: '2004-08-17'
+                  acquiree: Maersk Data
+                - date: '2004-08-26'
+                  acquiree: Venetica
+                - date: '2004-10-12'
+                  acquiree: Systemcorp A.L.G.
+                - date: '2004-11-23'
+                  acquiree: Liberty Insurance Services
+                - date: '2004-12-13'
+                  acquiree: KeyMRO
+                - date: '2005-01-07'
+                  acquiree: SRD
+                - date: '2005-01-07'
+                  acquiree: Systems Research & Development
+                - date: '2005-01-25'
+                  acquiree: Corio
+                  price: 182000000
+                - date: '2005-02-02'
+                  acquiree: Equitant
+                - date: '2005-05-02'
+                  acquiree: Ascential Software
+                - date: '2005-05-10'
+                  acquiree: Gluecode Software
+                - date: '2005-06-15'
+                  acquiree: Healthlink
+                - date: '2005-06-23'
+                  acquiree: Meiosys
+                - date: '2005-07-27'
+                  acquiree: Isogon Corporation
+                - date: '2005-08-02'
+                  acquiree: DWL
+                - date: '2005-08-05'
+                  acquiree: PureEdge Solutions
+                - date: '2005-10-18'
+                  acquiree: DataPower Technology
+                - date: '2005-11-01'
+                  acquiree: iPhrase Technologies
+                - date: '2005-11-09'
+                  acquiree: Network Solutions Private Limited
+                - date: '2005-11-16'
+                  acquiree: Collation
+                - date: '2005-12-20'
+                  acquiree: Bowstreet
+                - date: '2005-12-21'
+                  acquiree: Micromuse
+                  price: 865000000
+                - date: '2006-01-25'
+                  acquiree: CIMS Lab
+                - date: '2006-01-27'
+                  acquiree: ARGUS Semiconductor Software
+                - date: '2006-02-08'
+                  acquiree: Viacore
+                - date: '2006-03-16'
+                  acquiree: Language Analysis Systems
+                - date: '2006-05-02'
+                  acquiree: BuildForge
+                - date: '2006-05-08'
+                  acquiree: Unicorn Solutions
+                - date: '2006-05-18'
+                  acquiree: Rembo Technology
+                - date: '2006-08-02'
+                  acquiree: Webify
+                - date: '2006-09-06'
+                  acquiree: Global Value Solutions
+                - date: '2006-09-30'
+                  acquiree: Valchemy
+                - date: '2006-10-05'
+                  acquiree: MRO Software
+                - date: '2006-10-12'
+                  acquiree: FileNet Corporation
+                  price: 1600000000
+                - date: '2006-10-20'
+                  acquiree: Internet Security Systems
+                - date: '2006-11-10'
+                  acquiree: Palisades Technology Partners
+                - date: '2006-12-05'
+                  acquiree: Consul Risk Management International
+                - date: '2007-02-14'
+                  acquiree: Vallent Corporation
+                - date: '2007-03-01'
+                  acquiree: Softek Storage Solutions
+                - date: '2007-04-20'
+                  acquiree: Unicible
+                - date: '2007-06-11'
+                  acquiree: Telelogic
+                  price: 745000000
+                - date: '2007-07-23'
+                  acquiree: Watchfire
+                - date: '2007-08-03'
+                  acquiree: Princeton Softech
+                - date: '2007-08-22'
+                  acquiree: Webdialogs
+                - date: '2007-09-04'
+                  acquiree: DataMirror
+                - date: '2007-10-24'
+                  acquiree: NovusCG
+                - date: '2007-12-06'
+                  acquiree: Arsenal Digital Solutions
+                - date: '2007-12-21'
+                  acquiree: Solid Information Technology
+                - date: '2008-01-02'
+                  acquiree: XIV
+                - date: '2008-01-18'
+                  acquiree: Net Integration Technologies
+                - date: '2008-01-23'
+                  acquiree: AptSoft
+                - date: '2008-01-31'
+                  acquiree: Cognos
+                - date: '2008-03-12'
+                  acquiree: Encentuate
+                - date: '2008-04-10'
+                  acquiree: FilesX
+                - date: '2008-04-22'
+                  acquiree: Diligent
+                - date: '2008-04-29'
+                  acquiree: InfoDyne Corporation
+                - date: '2008-07-02'
+                  acquiree: Platform Solutions
+                - date: '2008-07-28'
+                  acquiree: ILOG
+                - date: '2008-11-18'
+                  acquiree: Transitive
+                - date: '2009-04-16'
+                  acquiree: Outblaze
+                - date: '2009-05-05'
+                  acquiree: Exeros
+                - date: '2009-07-28'
+                  acquiree: Ounce Labs
+                - date: '2009-07-28'
+                  acquiree: SPSS
+                - date: '2009-09-22'
+                  acquiree: RedPill Solutions
+                - date: '2009-11-30'
+                  acquiree: Guardium
+                  price: 225000000
+                - date: '2009-12-16'
+                  acquiree: Lombardi Software
+                - date: '2010-01-20'
+                  acquiree: National Interest Security Company
+                - date: '2010-02-03'
+                  acquiree: Initiate Systems
+                - date: '2010-02-16'
+                  acquiree: Intelliden
+                - date: '2010-05-03'
+                  acquiree: Cast Iron Systems
+                - date: '2010-05-24'
+                  acquiree: Sterling Commerce
+                - date: '2010-06-14'
+                  acquiree: Storwize
+                  price: 140000000
+                - date: '2010-06-15'
+                  acquiree: Coremetrics
+                - date: '2010-07-01'
+                  acquiree: BigFix
+                - date: '2010-08-10'
+                  acquiree: Datacap
+                - date: '2010-08-13'
+                  acquiree: Unica
+                  price: 480000000
+                - date: '2010-09-15'
+                  acquiree: OpenPages
+                - date: '2010-09-20'
+                  acquiree: Netezza
+                  price: 1800000000
+                - date: '2010-09-27'
+                  acquiree: BLADE Network Technologies
+                - date: '2010-10-13'
+                  acquiree: PSS Systems
+                - date: '2010-10-21'
+                  acquiree: Clarity Systems
+                - date: '2011-04-14'
+                  acquiree: TRIRIGA
+                - date: '2011-08-31'
+                  acquiree: i2
+                - date: '2011-09-01'
+                  acquiree: Algorithmics
+                  price: 380200000
+                - date: '2011-10-04'
+                  acquiree: Q1 Labs
+                - date: '2011-10-11'
+                  acquiree: Platform Computing
+                - date: '2011-12-08'
+                  acquiree: DemandTec
+                  price: 440000000
+                - date: '2011-12-15'
+                  acquiree: Emptoris
+                - date: '2011-12-20'
+                  acquiree: Cúram Software
+                - date: '2012-01-04'
+                  acquiree: Green Hat
+                - date: '2012-01-31'
+                  acquiree: Worklight
+                  price: 70000000
+                - date: '2012-04-13'
+                  acquiree: Varicent Software
+                - date: '2012-04-25'
+                  acquiree: Vivisimo
+                - date: '2012-05-02'
+                  acquiree: Tealeaf
+                - date: '2012-07-01'
+                  acquiree: Cibecs
+                - date: '2012-08-16'
+                  acquiree: Texas Memory Systems
+                - date: '2012-08-28'
+                  acquiree: Kenexa
+                - date: '2012-09-24'
+                  acquiree: Butterfly Software
+                - date: '2013-02-07'
+                  acquiree: StoredIQ
+                - date: '2013-03-20'
+                  acquiree: Star Analytics
+                - date: '2013-04-22'
+                  acquiree: Urbancode
+                - date: '2013-06-04'
+                  acquiree: SoftLayer
+                  price: 2000000000
+                - date: '2013-07-10'
+                  acquiree: CSL International
+                - date: '2013-08-15'
+                  acquiree: Trusteer
+                - date: '2013-09-19'
+                  acquiree: Daeja Image Systems
+                - date: '2013-10-03'
+                  acquiree: Xtify
+                - date: '2013-10-29'
+                  acquiree: The Now Factory
+                - date: '2013-12-18'
+                  acquiree: Fiberlink
+                  price: 375000000
+                - date: '2013-12-19'
+                  acquiree: Aspera
+                - date: '2014-02-24'
+                  acquiree: Cloudant
+                - date: '2014-02-24'
+                  acquiree: Cloudant
+                - date: '2014-04-10'
+                  acquiree: Silverpop
+                  price: 270000000
+                - date: '2014-05-20'
+                  acquiree: Cognea
+                - date: '2014-07-31'
+                  acquiree: CrossIdeas
+                - date: '2015-03-04'
+                  acquiree: AlchemyAPI
+                - date: '2015-03-27'
+                  acquiree: Blekko
+                - date: '2015-04-16'
+                  acquiree: Explorys
+                - date: '2015-05-04'
+                  acquiree: Phytel
+                - date: '2015-06-03'
+                  acquiree: Blue Box
+                - date: '2015-07-23'
+                  acquiree: Compose
+                - date: '2015-08-06'
+                  acquiree: Merge Healthcare
+                  price: 1000000000
+                - date: '2015-09-10'
+                  acquiree: StrongLoop
+                - date: '2015-09-28'
+                  acquiree: Meteorix
+                - date: '2015-10-05'
+                  acquiree: Cleversafe
+                  price: 1300000000
+                - date: '2015-10-28'
+                  acquiree: The Weather Company
+                - date: '2015-11-03'
+                  acquiree: Gravitant
+                - date: '2015-12-08'
+                  acquiree: Clearleap
+                - date: '2016-01-15'
+                  acquiree: IRIS Analytics
+                - date: '2016-01-21'
+                  acquiree: Ustream
+                - date: '2016-01-28'
+                  acquiree: Resource/Ammirati
+                - date: '2016-02-02'
+                  acquiree: Aperto
+                - date: '2016-02-03'
+                  acquiree: Ecx.io
+                - date: '2016-02-18'
+                  acquiree: Truven Health Analytics
+                  price: 2600000000
+                - date: '2016-02-29'
+                  acquiree: IBM Resilient
+                - date: '2016-03-17'
+                  acquiree: Optevia
+                - date: '2016-03-30'
+                  acquiree: Bluewolf
+                  price: 200000000
+                - date: '2016-06-01'
+                  acquiree: EZSource
+                - date: '2016-09-29'
+                  acquiree: Promontory Financial Group
+                - date: '2016-10-27'
+                  acquiree: Sanovi Technologies
+                - date: '2016-11-01'
+                  acquiree: Expert Personal Shopper (XPS)
+                - date: '2017-01-23'
+                  acquiree: Agile 3 Solutions
+                - date: '2017-05-02'
+                  acquiree: Verizon - Cloud services
+                - date: '2017-09-24'
+                  acquiree: Cloudigo
+                - date: '2017-10-04'
+                  acquiree: Vivant
+                - date: '2018-05-03'
+                  acquiree: Armanta
+                - date: '2018-06-15'
+                  acquiree: Oniqua Inc.
+                - date: '2018-10-28'
+                  acquiree: Red Hat
+                  price: 34000000000
+                - date: '2019-01-14'
+                  acquiree: T-Systems - Mainframe Services business
+                - date: '2019-06-01'
+                  acquiree: Red Hat
+                - date: '2020-06-15'
+                  acquiree: Spanugo
+                - date: '2020-07-08'
+                  acquiree: WDG Automation
+                - date: '2020-11-16'
+                  acquiree: TruQua
+                - date: '2020-11-18'
+                  acquiree: Instana
+                - date: '2020-12-15'
+                  acquiree: Expertus Technologies
+                - date: '2020-12-21'
+                  acquiree: Nordcloud
+                - date: '2021-01-11'
+                  acquiree: 7Summits
+                - date: '2021-01-14'
+                  acquiree: Taos Mountain
+                - date: '2021-04-15'
+                  acquiree: myInvenio, an IBM Company
+                - date: '2021-04-29'
+                  acquiree: Turbonomic
+                  price: 2000000000
+                - date: '2021-05-18'
+                  acquiree: Waeg
+                - date: '2021-05-25'
+                  acquiree: Catalogic ECX
+                - date: '2021-07-08'
+                  acquiree: BoxBoat Technologies
+                - date: '2021-07-15'
+                  acquiree: Bluetab
+                - date: '2021-10-28'
+                  acquiree: McD Tech Labs
+                - date: '2021-11-02'
+                  acquiree: ReaQta
+              parents: []
+              ticker: IBM
+              stockExchange: nyse
+              company_type: For Profit
+              industries:
+                - Business Development
+                - Business Information Systems
+                - CRM
+                - Software
+              kind: market_cap
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 180121
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 2033
+                  color: '#f1e05a'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;2;15;25;4;42;4;0;0;0;0;0;5;6;18;5;21;52;18;12;13;23;9;3;6;2;6;0;15;6;12;9;12
+              firstWeek: 2020-11-22Z
+              stars: 7
+              license: Other
+              description: >-
+                Extension to the Visual Studio Code Plugin, Zowe Explorer; a Z/OS interaction tool within VS Code. This allows for the viewing and manipulation
+                of CICS Resources from within Zowe Explorer. Powered by Zowe CLI.
+              latest_commit_date: '2021-11-17T17:14:35Z'
+              latest_commit_link: /zowe/vscode-extension-for-cics/commit/ffa1abc15aaa174cdf794f96c6711e0ae9cdb787
+              release_date: '2021-11-05T13:40:31Z'
+              release_link: https://github.com/zowe/vscode-extension-for-cics/releases
+              contributors_count: 5
+              contributors_link: https://github.com/zowe/vscode-extension-for-cics/graphs/contributors
+            repos:
+              - url: https://github.com/zowe/vscode-extension-for-cics
+                stars: 7
+            github_start_commit_data:
+              start_commit_link: /zowe/vscode-extension-for-cics/commit/9721512f26ea278a537fe2f50680dfd3374d4077
+              start_date: '2021-03-22T17:40:59Z'
+            yahoo_finance_data:
+              market_cap: 106178068480
+              effective_ticker: IBM
+            image_data:
+              fileName: zowe-explorer-for-ibm-cics-explorer-for-visual-studio-code-zowe-v1.svg
+              hash: l1syHH6W3uAjc6actcrs5AnaUY99WUvot5m53ugSfBI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-17T05:59:18.000Z
+          - item:
+            name: HLASM Language Support (Explorer for Visual Studio Code ZOWE V1)
+            description: >-
+              An extension that supports the High Level Assembler language. It provides code completion, highlighting and navigation features, shows mistakes in
+              the source, and lets you trace how the conditional assembly is evaluated with a modern debugging experience.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.hlasm-language-support
+            repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
+            logo: hlasm-language-support.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            github_data:
+              languages:
+                - name: C++
+                  value: 2823640
+                  color: '#f34b7d'
+                - name: TypeScript
+                  value: 102308
+                  color: '#2b7489'
+                - name: ANTLR
+                  value: 84554
+                  color: '#9DC3FF'
+                - name: CMake
+                  value: 65232
+                - name: JavaScript
+                  value: 5697
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 1724
+                  color: '#89e051'
+                - name: C
+                  value: 585
+                  color: '#555555'
+                - name: Assembly
+                  value: 71
+                  color: '#6E4C13'
+              contributions: 0;0;1;1;9;0;0;0;0;1;0;2;2;1;0;0;1;0;4;1;2;2;1;1;0;1;2;5;2;2;1;1;0;3;3;0;2;2;8;4;1;0;3;4;0;4;0;3;0;4;6;5
+              firstWeek: 2020-11-22Z
+              stars: 12
+              license: Eclipse Public License 2.0
+              description: LSP server that adds support for the High Level Assembler (HLASM) language to IDEs
+              latest_commit_date: '2021-11-16T09:29:37Z'
+              latest_commit_link: /eclipse/che-che4z-lsp-for-hlasm/commit/c949784a87fb4b48dfdd6c37e54c4e205711da9d
+              release_date: '2021-11-11T17:23:34Z'
+              release_link: https://github.com/eclipse/che-che4z-lsp-for-hlasm/releases
+              contributors_count: 14
+              contributors_link: https://github.com/eclipse/che-che4z-lsp-for-hlasm/graphs/contributors
+            repos:
+              - url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
+                stars: 12
+            github_start_commit_data:
+              start_commit_link: /eclipse/che-che4z-lsp-for-hlasm/commit/c43328791857a33f7dbad2ca08278285975d3455
+              start_date: '2019-11-14T10:48:56Z'
+            image_data:
+              fileName: hlasm-language-support-explorer-for-visual-studio-code-zowe-v1.svg
+              hash: mWXIOrMAy+YPq5TV5a/KXwXSoeCeJaRp6Gj61Fk1HIg=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-16T21:00:10.000Z
+          - item:
+            name: Explorer for Endevor (Explorer for Visual Studio Code ZOWE V1)
+            description: Modernizes the way you interact with Endevor, offering a user-friendly and convenient way to work with elements and inventory locations.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.explorer-for-endevor
+            repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
+            logo: explorer-for-endevor.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 396020
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 19267
+                  color: '#f1e05a'
+                - name: Gherkin
+                  value: 5855
+                  color: '#5B2063'
+              contributions: 23;4;1;11;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;11;14;0;2;0;0;0;0;0;2;2;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;7
+              firstWeek: 2020-11-22Z
+              stars: 7
+              license: Other
+              description: null
+              latest_commit_date: '2021-11-12T14:12:17Z'
+              latest_commit_link: /eclipse/che-che4z-explorer-for-endevor/commit/368df119d94b3cca8e71111bc23a2ef741195507
+              release_date: '2021-11-12T14:33:01Z'
+              release_link: https://github.com/eclipse/che-che4z-explorer-for-endevor/releases
+              contributors_count: 20
+              contributors_link: https://github.com/eclipse/che-che4z-explorer-for-endevor/graphs/contributors
+            repos:
+              - url: https://github.com/eclipse/che-che4z-explorer-for-endevor
+                stars: 7
+            github_start_commit_data:
+              start_commit_link: /eclipse/che-che4z-explorer-for-endevor/commit/34c7a088467ff9bbf9583be355956dfd388d0f2f
+              start_date: '2019-10-21T09:33:53Z'
+            image_data:
+              fileName: explorer-for-endevor-explorer-for-visual-studio-code-zowe-v1.svg
+              hash: 9TXLjwD5gotIbjbwn1wW4p4rV5GRj8Lb0VnxxsjtyI8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-16T21:00:10.000Z
+          - item:
+            name: code4z (Explorer for Visual Studio Code ZOWE V1)
+            description: Extension pack for MF users working with z/OS applications and tools. Simplify user experience for new Mainframe developers.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack
+            logo: code4z.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            image_data:
+              fileName: code4z-explorer-for-visual-studio-code-zowe-v1.svg
+              hash: cH6OwwBvu9ves85PanoR4ThUycZfdx3r4EPmu3lKbro=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-16T21:00:10.000Z
+          - item:
+            name: COBOL Control Flow (Explorer for Visual Studio Code ZOWE V1)
+            description: >-
+              Provides graphical visualization of program flow for programs written in COBOL. The extension is designed to help COBOL developers to quickly
+              comprehend and debug COBOL programs with which they might not be familiar.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.ccf
+            project: null
+            logo: cobol-control-flow.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            image_data:
+              fileName: cobol-control-flow-explorer-for-visual-studio-code-zowe-v1.svg
+              hash: UFcY4IMpSSalE6EcaHu5qpy9rHORTsiMajSbA/BReOw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-16T21:00:10.000Z
   - category:
     name: Broad Open Source
     subcategories:
@@ -41917,7 +45005,7 @@ landscape:
               latest_tweet_date: 2021-11-16T21:00:10.000Z
           - item:
             name: International Business Machines Corporation
-            homepage_url: https://www.ibm.com/us-en
+            homepage_url: https://ibm.com/
             logo: international_business_machines_corporation.svg
             twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -42719,7 +45807,7 @@ landscape:
               latest_tweet_date: 2021-11-16T16:15:13.000Z
           - item:
             name: GT Software, Inc. d/b/a Adaptigent
-            homepage_url: https://www.adaptigent.com
+            homepage_url: https://gtsoftware.com/
             logo: gt_software_inc_dba_adaptigent.svg
             twitter: https://twitter.com/Adaptigent
             crunchbase: https://www.crunchbase.com/organization/gt-software
@@ -42901,7 +45989,7 @@ landscape:
               latest_tweet_date: 2020-09-10T15:18:30.000Z
           - item:
             name: Micro Focus International plc
-            homepage_url: https://www.microfocus.com/en-us/home
+            homepage_url: https://microfocus.com/
             logo: micro_focus_international_plc.svg
             twitter: https://twitter.com/MicroFocus
             crunchbase: https://www.crunchbase.com/organization/micro-focus
@@ -43262,6 +46350,36 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-11-17T01:33:01.000Z
           - item:
+            name: École privée des sciences informatiques (EPSI)
+            homepage_url: https://epsi.fr/
+            logo: ecole_privee_des_sciences_informatiques_epsi.svg
+            twitter: https://twitter.com/EPSI_Ecoles
+            crunchbase: https://www.crunchbase.com/organization/epsi
+            crunchbase_data:
+              name: EPSI
+              description: École Privée des Sciences Informatiques, a French IT School based in many french cities
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: http://www.epsi.fr
+              city: Lyon
+              region: Rhone-Alpes
+              country: France
+              twitter: https://www.twitter.com/epsilyon
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
+            image_data:
+              fileName: cole-priv-e-des-sciences-informatiques-epsi.svg
+              hash: 0w30swBPqz7lzNBJdm4lJQX10pskwDdXBm/cNIx3KE0=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-09T10:30:00.000Z
+          - item:
             name: HoGent
             homepage_url: https://hogent.be/
             logo: hogent.svg
@@ -43295,7 +46413,7 @@ landscape:
               latest_tweet_date: 2021-11-17T06:55:24.000Z
           - item:
             name: HTL Donaustadt
-            homepage_url: https://www.htl-donaustadt.at/home
+            homepage_url: https://htl-donaustadt.at/
             logo: htl_donaustadt.svg
             twitter: https://twitter.com/htldonaustadt
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
@@ -43355,7 +46473,7 @@ landscape:
               latest_tweet_date: 2021-11-16T14:20:43.000Z
           - item:
             name: Leipzig University
-            homepage_url: https://www.mathcs.uni-leipzig.de/ifi
+            homepage_url: https://informatik.uni-leipzig.de/
             logo: leipzig_university.svg
             twitter: https://twitter.com/UniLeipzig
             crunchbase: https://www.crunchbase.com/organization/leipzig-university
@@ -43708,36 +46826,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2013-02-20T06:06:58.000Z
-          - item:
-            name: École privée des sciences informatiques (EPSI)
-            homepage_url: https://epsi.fr/
-            logo: ecole_privee_des_sciences_informatiques_epsi.svg
-            twitter: https://twitter.com/EPSI_Ecoles
-            crunchbase: https://www.crunchbase.com/organization/epsi
-            crunchbase_data:
-              name: EPSI
-              description: École Privée des Sciences Informatiques, a French IT School based in many french cities
-              num_employees_min: 101
-              num_employees_max: 250
-              homepage: http://www.epsi.fr
-              city: Lyon
-              region: Rhone-Alpes
-              country: France
-              twitter: https://www.twitter.com/epsilyon
-              linkedin: null
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: ''
-              industries: []
-            image_data:
-              fileName: cole-priv-e-des-sciences-informatiques-epsi.svg
-              hash: 0w30swBPqz7lzNBJdm4lJQX10pskwDdXBm/cNIx3KE0=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2021-11-09T10:30:00.000Z
       - subcategory:
         name: Associate
         items:
