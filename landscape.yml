@@ -741,6 +741,14 @@ landscape:
             logo: test4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
+          - item:
+            name: Alert Central (API Mediation Layer ZOWE V1)
+            description: |-
+              Alert Central provides a single, secure, rich interface for
+              messages and alerts from Mainframe and other platforms.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/alert-central/1-0.html
+            logo: alert-central.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: App Framework ZOWE V1
         items:
@@ -1516,14 +1524,6 @@ landscape:
             logo: abend-analyzer-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: Alert Central (Explorer for Visual Studio Code ZOWE V1) 
-            description: |-
-              Alert Central provides a single, secure, rich interface for
-              messages and alerts from Mainframe and other platforms.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/alert-central/1-0.html
-            logo: alert-central.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
             name: Debugger for Mainframe (Explorer for Visual Studio Code ZOWE V1)
             description: |-
               This extension provides a modern debugging experience for CICS
@@ -1557,9 +1557,8 @@ landscape:
             name: IBM z Open Editor
             description: >-
               An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
-              interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and
-              utilizes its APIs for various operations such as resolving and parsing program include files directly from MVS, running personal builds,
-              submitting jobs and many more.
+              interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and utilizes its APIs for
+              various operations such as resolving and parsing program include files directly from MVS, running personal builds, submitting jobs and many more.
             homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
             logo: ibm-z-open-editor.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
