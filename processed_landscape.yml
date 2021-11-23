@@ -33272,6 +33272,183 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-11-22T17:47:44.000Z
           - item:
+            name: COBOL Language Support (Explorer for Visual Studio Code ZOWE V1)
+            description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support
+            repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
+            logo: cobol-language-support.svg
+            allow_duplicate_repo: true
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            github_data:
+              languages:
+                - name: Java
+                  value: 1836871
+                  color: '#b07219'
+                - name: ANTLR
+                  value: 378294
+                  color: '#9DC3FF'
+                - name: TypeScript
+                  value: 168225
+                  color: '#2b7489'
+                - name: COBOL
+                  value: 128454
+                - name: JavaScript
+                  value: 90261
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 4178
+                  color: '#89e051'
+              contributions: 21;21;5;5;1;1;23;18;28;29;18;17;17;6;19;37;16;23;11;18;26;23;16;9;10;4;7;21;14;12;36;7;2;26;13;9;6;1;16;27;44;27;18;5;17;16;2;7;7;8;8;0
+              firstWeek: 2020-11-29Z
+              stars: 32
+              license: Other
+              description: null
+              latest_commit_date: '2021-11-11T11:26:46Z'
+              latest_commit_link: /eclipse/che-che4z-lsp-for-cobol/commit/312ca2c16e1ea240da259dba9a04d37673ef175a
+              release_date: '2021-09-09T08:51:52Z'
+              release_link: https://github.com/eclipse/che-che4z-lsp-for-cobol/releases
+              contributors_count: 30
+              contributors_link: https://github.com/eclipse/che-che4z-lsp-for-cobol/graphs/contributors
+            repos:
+              - url: https://github.com/eclipse/che-che4z-lsp-for-cobol
+                stars: 32
+            github_start_commit_data:
+              start_commit_link: /eclipse/che-che4z-lsp-for-cobol/commit/bb98467e9929cae1470d8131e7c68dce2042ba44
+              start_date: '2019-08-05T12:26:17Z'
+            image_data:
+              fileName: cobol-language-support-explorer-for-visual-studio-code-zowe-v1.svg
+              hash: 2mic4Zw9RUSDK42Amp3/nkBsXIuV/a8mkfi8SIUZLIE=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-11-23T01:07:00.000Z
+          - item:
             name: Zowe Explorer Extension for FTP (Explorer for Visual Studio Code ZOWE V1)
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.zowe-explorer-ftp-extension
             project: null

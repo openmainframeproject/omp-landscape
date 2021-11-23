@@ -1624,6 +1624,14 @@ landscape:
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
+            name: COBOL Language Support (Explorer for Visual Studio Code ZOWE V1)
+            description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support
+            repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
+            logo: cobol-language-support.svg
+            allow_duplicate_repo: true
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
             name: Zowe Explorer Extension for FTP (Explorer for Visual Studio Code ZOWE V1)
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.zowe-explorer-ftp-extension
             project: null
