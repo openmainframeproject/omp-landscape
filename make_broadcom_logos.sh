@@ -4,7 +4,7 @@ cd $(dirname $BASH_SOURCE)
 cd hosted_logos
 
 logo='broadcom_corporation.svg'
-products=('COBOL Language Support' 'Abend Analyzer for Mainframe' 'Debugger for Mainframe' 'Data Editor for Mainframe' 'HLASM Language Support'  'Explorer for Endevor' 'Code4z' 'COBOL Control Flow' 'Alert Central' 'JCL Language Support' 'Test4z' 'Brightside' 'CA SymDump' 'CA NetMaster' 'Datacom DST API' 'CA Data Content Discovery' 'CA Mainframe Security Insights Platform' 'CA Workload Automation CA 7®' 'CA Database Management Solutions for Db2 for z/OS' 'CA Vantage™ Storage Resource Manager' 'CA IDMS' 'CA Endevor®' 'CA JCLCheck™ Workload Automation' 'CA View®' 'CA OPS/MVS®' 'CA z/OS Extended Jobs' 'CA z/OS Extended Files' 'CA MAT Detect' 'CA MAT Analyze' 'CA SYSVIEW® Performance Management' 'CA Endevor® Bridge For Git' 'CA Secure Credential Store' 'CA File Master™ Plus' 'CA Spool™' 'CA MAT')
+products=('Zowe Explorer Extension for FTP' 'CA Compliance Event Manager' 'COBOL Language Support' 'Abend Analyzer for Mainframe' 'Debugger for Mainframe' 'Data Editor for Mainframe' 'HLASM Language Support'  'Explorer for Endevor' 'Code4z' 'COBOL Control Flow' 'Alert Central' 'JCL Language Support' 'Test4z' 'Brightside' 'CA SymDump' 'CA NetMaster' 'Datacom DST API' 'CA Data Content Discovery' 'CA Mainframe Security Insights Platform' 'CA Workload Automation CA 7®' 'CA Database Management Solutions for Db2 for z/OS' 'CA Vantage™ Storage Resource Manager' 'CA IDMS' 'CA Endevor®' 'CA JCLCheck™ Workload Automation' 'CA View®' 'CA OPS/MVS®' 'CA z/OS Extended Jobs' 'CA z/OS Extended Files' 'CA MAT Detect' 'CA MAT Analyze' 'CA SYSVIEW® Performance Management' 'CA Endevor® Bridge For Git' 'CA Secure Credential Store' 'CA File Master™ Plus' 'CA Spool™' 'CA MAT')
 
 for i in ${!products[@]};
 do

@@ -576,6 +576,13 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
             allow_duplicate_repo: true
           - item:
+            name: CA Compliance Event Manager (API Mediation Layer ZOWE V1)
+            description: CA Compliance Event Manager helps you establish continuous data security and compliance.
+            homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/compliance-event-manager
+            logo: ca-compliance-event-manager.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
+          - item:
             name: CA Data Content Discovery (API Mediation Layer ZOWE V1)
             description: CA Data Content Discovery helps you identify data exposure risks and institute effective measures for enterprise data protection.
             homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/data-content-discovery
@@ -1577,7 +1584,6 @@ landscape:
           - item:
             name: Zowe Explorer for IBM CICS (Explorer for Visual Studio Code ZOWE V1)
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
-            project: null
             repo_url: https://github.com/zowe/vscode-extension-for-cics
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -1611,6 +1617,12 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.ccf
             project: null
             logo: cobol-control-flow.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: Zowe Explorer Extension for FTP (Explorer for Visual Studio Code ZOWE V1)
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.zowe-explorer-ftp-extension
+            project: null
+            logo: zowe-explorer-extension-for-ftp.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
   - category:
     name: Broad Open Source
