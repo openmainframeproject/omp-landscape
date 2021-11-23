@@ -410,7 +410,8 @@ prerender:
   hosted-projects: /card-mode?project=hosted&embed=yes&style=borderless
   zowe-conformant-support-vendor: >-
     /card-mode?category=support-provider-comprehensive-zowe-v1,support-provider-api-mediation-layer-zowe-v1,support-provider-app-framework-zowe-v1,support-provider-cli-zowe-v1,support-provider-explorer-for-visual-studio-code-zowe-v1&grouping=category&embed=yes
-  zowe-conformant: /card-mode?category=api-mediation-layer-zowe-v1%2Capp-framework-zowe-v1%2Ccli-zowe-v1,explorer-for-visual-studio-code-zowe-v1&grouping=category&embed=yes&style=logo
+  zowe-conformant: >-
+    /card-mode?category=api-mediation-layer-zowe-v1%2Capp-framework-zowe-v1%2Ccli-zowe-v1,explorer-for-visual-studio-code-zowe-v1&grouping=category&embed=yes&style=logo
   zowe-conformant-2019: /card-mode?category=api-mediation-layer-2019%2Capp-framework-2019%2Ccli-2019&grouping=category&embed=yes&style=logo
 export:
   projects-hosted: card-mode?grouping=no&category=projects&project=hosted
