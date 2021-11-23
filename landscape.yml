@@ -576,6 +576,14 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
             allow_duplicate_repo: true
           - item:
+            name: Alert Central (API Mediation Layer ZOWE V1)
+            description: |-
+              Alert Central provides a single, secure, rich interface for
+              messages and alerts from Mainframe and other platforms.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/alert-central/1-0.html
+            logo: alert-central.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
             name: CA Compliance Event Manager (API Mediation Layer ZOWE V1)
             description: CA Compliance Event Manager helps you establish continuous data security and compliance.
             homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/compliance-event-manager
@@ -742,21 +750,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
           - item:
-            name: Test4z (API Mediation Layer ZOWE V1)
-            description: Mainframe Batch Testing
-            homepage_url: https://broadcom.com
-            logo: test4z.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-          - item:
-            name: Alert Central (API Mediation Layer ZOWE V1)
-            description: |-
-              Alert Central provides a single, secure, rich interface for
-              messages and alerts from Mainframe and other platforms.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/alert-central/1-0.html
-            logo: alert-central.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
             name: PRO/JCL Plug-in (API Mediation Layer ZOWE V1)
             description: >-
               PRO/JCL Plug-in is an Eclipse plug-in that strategically integrates the mainframe capabilities of ASG-PRO/JCL into a developer’s DevOps user
@@ -766,6 +759,13 @@ landscape:
             project: null
             logo: projcl.svg
             crunchbase: https://www.crunchbase.com/organization/asg
+          - item:
+            name: Test4z (API Mediation Layer ZOWE V1)
+            description: Mainframe Batch Testing
+            homepage_url: https://broadcom.com
+            logo: test4z.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
       - subcategory:
         name: App Framework ZOWE V1
         items:
@@ -1032,6 +1032,18 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/micro-focus
             allow_duplicate_repo: true
           - item:
+            name: IBM RSE API Plug-in (CLI ZOWE V1)
+            description: >-
+              Extends Zowe CLI and Zowe Explorer APIs to let you interact with z/OS resources. The RSE plug-in
+
+              interacts with z/OS by using IBM Remote System Explorer API (RSE API) instead of using z/OSMF. This solution is a great alternative if you have
+              already used the Remote System Explorer with other IBM
+
+              offerings such as IBM Developer for z/OS or IBM Explorer for z/OS. It is also a good option if you have not configured z/OSMF on your z/OS.
+            homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
+            logo: ibm-rse-api-plug-in.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
             name: IBM Z System Automation (CLI ZOWE V1)
             description: >
               IBM Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
@@ -1125,23 +1137,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
           - item:
-            name: IBM RSE API Plug-in (CLI ZOWE V1)
-            description: >-
-              Extends Zowe CLI and Zowe Explorer APIs to let you interact with z/OS resources. The RSE plug-in
-
-              interacts with z/OS by using IBM Remote System Explorer API (RSE API) instead of using z/OSMF. This solution is a great alternative if you have
-              already used the Remote System Explorer with other IBM
-
-              offerings such as IBM Developer for z/OS or IBM Explorer for z/OS. It is also a good option if you have not configured z/OSMF on your z/OS.
-            homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
-            logo: ibm-rse-api-plug-in.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: Cobol Language Support (CLI ZOWE V1)
+            name: COBOL Language Support (CLI ZOWE V1)
             description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
-            logo: Cobol Language Support.svg
+            logo: cobol-language-support.svg
+            allow_duplicate_repo: true
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: API Mediation Layer 2019
@@ -1541,20 +1542,20 @@ landscape:
             logo: abend-analyzer-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: Debugger for Mainframe (Explorer for Visual Studio Code ZOWE V1)
-            description: |-
-              This extension provides a modern debugging experience for CICS
-              and Batch programs written in COBOL leveraging Intertest Batch and z/OS
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe
-            repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
-            logo: debugger-for-mainframe.svg
+            name: COBOL Control Flow (Explorer for Visual Studio Code ZOWE V1)
+            description: >-
+              Provides graphical visualization of program flow for programs written in COBOL. The extension is designed to help COBOL developers to quickly
+              comprehend and debug COBOL programs with which they might not be familiar.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.ccf
+            project: null
+            logo: cobol-control-flow.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: IBM RSE API Plug-in (Explorer for Visual Studio Code ZOWE V1)
-            description: It is a Zowe CLI plugin and not a VS Code extension that utilizes the Zowe Explorer APIs
-            homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
-            logo: ibm-rse-api-plug-in.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
+            name: Code4z (Explorer for Visual Studio Code ZOWE V1)
+            description: Extension pack for MF users working with z/OS applications and tools. Simplify user experience for new Mainframe developers.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack
+            logo: code4z.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Data Editor for Mainframe (Explorer for Visual Studio Code ZOWE V1)
             description: >-
@@ -1564,29 +1565,22 @@ landscape:
             logo: data-editor-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: JCL Language Support (Explorer for Visual Studio Code ZOWE V1)
-            description: >-
-              Extension provides an interface in VS Code for developers and system administrators to interact with Job Control Language (JCL) on IBM z/OS
-              mainframes. Edit JCL in a local environment complete with syntax highlighting, linting, and access to a library of sample job snippets.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.jcl-language-support
-            repo_url: https://github.com/BroadcomMFD/jcl-language-support
-            logo: jcl-language-support.svg
+            name: Debugger for Mainframe (Explorer for Visual Studio Code ZOWE V1)
+            description: |-
+              This extension provides a modern debugging experience for CICS
+              and Batch programs written in COBOL leveraging Intertest Batch and z/OS
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe
+            repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
+            open_source: false
+            logo: debugger-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: IBM z Open Editor (Explorer for Visual Studio Code ZOWE V1)
-            description: >-
-              An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
-              interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and utilizes its APIs for
-              various operations such as resolving and parsing program include files directly from MVS, running personal builds, submitting jobs and many more.
-            homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
-            logo: ibm-z-open-editor.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: Zowe Explorer for IBM CICS (Explorer for Visual Studio Code ZOWE V1)
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
-            repo_url: https://github.com/zowe/vscode-extension-for-cics
-            logo: zowe-explorer-for-ibm-cics.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
+            name: Explorer for Endevor (Explorer for Visual Studio Code ZOWE V1)
+            description: Modernizes the way you interact with Endevor, offering a user-friendly and convenient way to work with elements and inventory locations.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.explorer-for-endevor
+            repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
+            logo: explorer-for-endevor.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: HLASM Language Support (Explorer for Visual Studio Code ZOWE V1)
             description: >-
@@ -1597,27 +1591,38 @@ landscape:
             logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: Explorer for Endevor (Explorer for Visual Studio Code ZOWE V1)
-            description: Modernizes the way you interact with Endevor, offering a user-friendly and convenient way to work with elements and inventory locations.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.explorer-for-endevor
-            repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
-            logo: explorer-for-endevor.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
+            name: IBM RSE API Plug-in (Explorer for Visual Studio Code ZOWE V1)
+            description: It is a Zowe CLI plugin and not a VS Code extension that utilizes the Zowe Explorer APIs
+            homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
+            logo: ibm-rse-api-plug-in.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
-            name: Code4z (Explorer for Visual Studio Code ZOWE V1)
-            description: Extension pack for MF users working with z/OS applications and tools. Simplify user experience for new Mainframe developers.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack
-            logo: code4z.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: COBOL Control Flow (Explorer for Visual Studio Code ZOWE V1)
+            name: IBM z Open Editor (Explorer for Visual Studio Code ZOWE V1)
             description: >-
-              Provides graphical visualization of program flow for programs written in COBOL. The extension is designed to help COBOL developers to quickly
-              comprehend and debug COBOL programs with which they might not be familiar.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.ccf
-            project: null
-            logo: cobol-control-flow.svg
+              An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
+              interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and utilizes its APIs for
+              various operations such as resolving and parsing program include files directly from MVS, running personal builds, submitting jobs and many more.
+            homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
+            logo: ibm-z-open-editor.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: JCL Language Support (Explorer for Visual Studio Code ZOWE V1)
+            description: >-
+              Extension provides an interface in VS Code for developers and system administrators to interact with Job Control Language (JCL) on IBM z/OS
+              mainframes. Edit JCL in a local environment complete with syntax highlighting, linting, and access to a library of sample job snippets.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.jcl-language-support
+            open_source: false
+            repo_url: https://github.com/BroadcomMFD/jcl-language-support
+            allow_duplicate_repo: true
+            logo: jcl-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: Zowe Explorer for IBM CICS (Explorer for Visual Studio Code ZOWE V1)
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
+            project: null
+            repo_url: https://github.com/zowe/vscode-extension-for-cics
+            logo: zowe-explorer-for-ibm-cics.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: Zowe Explorer Extension for FTP (Explorer for Visual Studio Code ZOWE V1)
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.zowe-explorer-ftp-extension
@@ -1876,7 +1881,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/free-software-foundation
           - item:
             name: Go
-            homepage_url: https://golang.org/
+            homepage_url: https://go.dev
             repo_url: https://github.com/golang/go
             logo: go.svg
             crunchbase: https://www.crunchbase.com/organization/the-go-programming-language
@@ -2380,25 +2385,21 @@ landscape:
             name: Broadcom Corporation
             homepage_url: https://broadcom.com/
             logo: broadcom_corporation.svg
-            twitter: https://twitter.com/Broadcom
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: International Business Machines Corporation
-            homepage_url: https://ibm.com/
+            homepage_url: https://www.ibm.com/us-en
             logo: international_business_machines_corporation.svg
-            twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Rocket Software, Inc.
             homepage_url: https://rocketsoftware.com/
             logo: rocket_software_inc.svg
-            twitter: https://twitter.com/Rocket
             crunchbase: https://www.crunchbase.com/organization/rocket-software
           - item:
             name: SUSE LLC
             homepage_url: https://suse.com/
             logo: suse_llc.svg
-            twitter: https://twitter.com/SUSE
             crunchbase: https://www.crunchbase.com/organization/suse
       - subcategory:
         name: Silver
@@ -2419,17 +2420,15 @@ landscape:
             name: Canonical Group Limited
             homepage_url: https://canonical.com/
             logo: canonical_group_limited.svg
-            twitter: https://twitter.com/Canonical
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
           - item:
             name: EPAM Systems, Inc
             homepage_url: https://epam.com/
             logo: epam_systems_inc.svg
-            twitter: https://twitter.com/EPAMSYSTEMS
             crunchbase: https://www.crunchbase.com/organization/epam-systems
           - item:
             name: GT Software, Inc. d/b/a Adaptigent
-            homepage_url: https://gtsoftware.com/
+            homepage_url: https://www.adaptigent.com
             logo: gt_software_inc_dba_adaptigent.svg
             twitter: https://twitter.com/Adaptigent
             crunchbase: https://www.crunchbase.com/organization/gt-software
@@ -2437,7 +2436,6 @@ landscape:
             name: HCL Technologies Ltd.
             homepage_url: https://hcltech.com/
             logo: hcl_technologies_ltd.svg
-            twitter: https://twitter.com/hcltech
             crunchbase: https://www.crunchbase.com/organization/hcl-technologies
           - item:
             name: IN-COM Data Systems
@@ -2452,7 +2450,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/yadro
           - item:
             name: Micro Focus International plc
-            homepage_url: https://microfocus.com/
+            homepage_url: https://www.microfocus.com/en-us/home
             logo: micro_focus_international_plc.svg
             twitter: https://twitter.com/MicroFocus
             crunchbase: https://www.crunchbase.com/organization/micro-focus
@@ -2460,7 +2458,6 @@ landscape:
             name: Phoenix Software International
             homepage_url: https://phoenixsoftware.com/
             logo: phoenix_software_international.svg
-            twitter: https://twitter.com/PhnxSoftware
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
             name: Precisely Holdings, LLC
@@ -2509,14 +2506,7 @@ landscape:
             name: East Carolina University
             homepage_url: https://ecu.edu/
             logo: east_carolina_university.svg
-            twitter: https://twitter.com/EastCarolina
             crunchbase: https://www.crunchbase.com/organization/east-carolina-university
-          - item:
-            name: École privée des sciences informatiques (EPSI)
-            homepage_url: https://epsi.fr/
-            logo: ecole_privee_des_sciences_informatiques_epsi.svg
-            twitter: https://twitter.com/EPSI_Ecoles
-            crunchbase: https://www.crunchbase.com/organization/epsi
           - item:
             name: HoGent
             homepage_url: https://hogent.be/
@@ -2525,9 +2515,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/hogeschool-gent
           - item:
             name: HTL Donaustadt
-            homepage_url: https://htl-donaustadt.at/
+            homepage_url: https://www.htl-donaustadt.at/home
             logo: htl_donaustadt.svg
-            twitter: https://twitter.com/htldonaustadt
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
           - item:
             name: Johann Wolfgang Goethe University
@@ -2551,7 +2540,6 @@ landscape:
             name: North Carolina A&T State University
             homepage_url: https://ncat.edu/
             logo: north_carolina_at_state_university.svg
-            twitter: https://twitter.com/ncatsuaggies
             crunchbase: https://www.crunchbase.com/organization/north-carolina-a-t-state-university
           - item:
             name: South China University of Technology
@@ -2562,25 +2550,21 @@ landscape:
             name: University of Bedfordshire
             homepage_url: https://beds.ac.uk/
             logo: university_of_bedfordshire.svg
-            twitter: https://twitter.com/uniofbeds
             crunchbase: https://www.crunchbase.com/organization/university-of-bedfordshire
           - item:
             name: University of Washington CIAC (Center for Information Assurance and Cybersecurity)
             homepage_url: https://washington.edu/
             logo: university_of_washington_ciac_center_for_information_assurance_and_cybersecurity.svg
-            twitter: https://twitter.com/UW
             crunchbase: https://www.crunchbase.com/organization/university-of-washington
           - item:
             name: University of Wolverhampton
             homepage_url: https://wlv.ac.uk/
             logo: university_of_wolverhampton.svg
-            twitter: https://twitter.com/wlv_uni
             crunchbase: https://www.crunchbase.com/organization/university-of-wolverhampton
           - item:
             name: Virginia Commonwealth University
             homepage_url: https://vcu.edu/
             logo: virginia_commonwealth_university.svg
-            twitter: https://twitter.com/VCU
             crunchbase: https://www.crunchbase.com/organization/virginia-commonwealth-university
           - item:
             name: Western University
@@ -2599,6 +2583,12 @@ landscape:
             homepage_url: https://xidian.edu.cn/
             logo: xidian_university.svg
             crunchbase: https://www.crunchbase.com/organization/xidian-university
+          - item:
+            name: École privée des sciences informatiques (EPSI)
+            homepage_url: https://epsi.fr/
+            logo: ecole_privee_des_sciences_informatiques_epsi.svg
+            twitter: https://twitter.com/EPSI_Ecoles
+            crunchbase: https://www.crunchbase.com/organization/epsi
       - subcategory:
         name: Associate
         items:
@@ -2616,13 +2606,11 @@ landscape:
             name: GSE UK Region
             homepage_url: https://gse.org.uk/
             logo: gse_uk_region.svg
-            twitter: https://twitter.com/gseukc
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
           - item:
             name: Guide Share Europe (GSE)
             homepage_url: https://gse.org/
             logo: guide_share_europe_gse.svg
-            twitter: https://twitter.com/GuideShareEurop
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe
           - item:
             name: High School Technology Services
