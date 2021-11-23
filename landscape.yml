@@ -1032,13 +1032,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/micro-focus
             allow_duplicate_repo: true
           - item:
-            name: Cobol Language Support (CLI ZOWE V1)
-            description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support
-            repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
-            logo: Cobol Language Support.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
             name: IBM RSE API Plug-in (CLI ZOWE V1)
             description: >-
               Extends Zowe CLI and Zowe Explorer APIs to let you interact with z/OS resources. The RSE plug-in
@@ -1143,6 +1136,14 @@ landscape:
             logo: zowe-secure-credential-store.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
+          - item:
+            name: COBOL Language Support (CLI ZOWE V1)
+            description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support
+            repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
+            logo: cobol-language-support.svg
+            allow_duplicate_repo: true
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: API Mediation Layer 2019
         items:
@@ -1570,6 +1571,7 @@ landscape:
               and Batch programs written in COBOL leveraging Intertest Batch and z/OS
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe
             repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
+            open_source: false
             logo: debugger-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
@@ -1609,7 +1611,9 @@ landscape:
               Extension provides an interface in VS Code for developers and system administrators to interact with Job Control Language (JCL) on IBM z/OS
               mainframes. Edit JCL in a local environment complete with syntax highlighting, linting, and access to a library of sample job snippets.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.jcl-language-support
+            open_source: false
             repo_url: https://github.com/BroadcomMFD/jcl-language-support
+            allow_duplicate_repo: true
             logo: jcl-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
@@ -1619,6 +1623,14 @@ landscape:
             repo_url: https://github.com/zowe/vscode-extension-for-cics
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: COBOL Language Support (Explorer for Visual Studio Code ZOWE V1)
+            description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support
+            repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
+            logo: cobol-language-support.svg
+            allow_duplicate_repo: true
+            crunchbase: https://www.crunchbase.com/organization/broadcom
   - category:
     name: Broad Open Source
     subcategories:
