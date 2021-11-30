@@ -157,8 +157,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/la-casita
           - item:
             name: ConsoleZ
-            homepage_url: https://www.openmainframeproject.org/projects/consolez
-            project: incubating
+            homepage_url: https://github.com/openmainframeproject/consolez
+            project: emeritus
             repo_url: https://github.com/openmainframeproject/consolez
             logo: comsole-z.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -167,10 +167,10 @@ landscape:
               slack_channel: '#consolez'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fconsolez
               leads: Michael MacIssac
-              meeting_cadence: Every other Tuesday at 1:00pm US Eastern Time
+              meeting_cadence: none
               date_accepted: ^2021-01-14
               last_review_date: none
-              next_review_date: ^2022-01-27
+              next_review_date: none
           - item:
             name: xmitmsgx
             homepage_url: https://github.com/trothr/xmitmsgx
