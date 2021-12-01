@@ -13,18 +13,18 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
-            name: Debian s390x Working Group
-            homepage_url: https://wiki.openmainframeproject.org/display/DEB/Debian+Working+Group
+            name: Linux Distributions Working Group
+            homepage_url: https://wiki.openmainframeproject.org/display/LinuxDistrosWG
             project: workinggroup
-            logo: debian-s390x-working-group.svg
+            logo: linux-distributions-working-group.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
-              mailing_list_url: https://lists.openmainframeproject.org/g/wg-debian-s390x/
-              slack_channel: '#wg-debian-s390x'
+              mailing_list_url: https://lists.openmainframeproject.org/g/wg-linux-distros
+              slack_channel: '#linux-distros-wg'
               LFX_insights_url: none
               meeting_cadence: none
               leads: Elizabeth Joseph
-              date_accepted: ^2021-06-10
+              date_accepted: ^2021-10-14
               last_review_date: none
               next_review_date: ^2022-06-09
           - item:
