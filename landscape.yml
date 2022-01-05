@@ -773,6 +773,19 @@ landscape:
             logo: test4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
+          - item:
+            name: IBM Z ChatOps (Zowe API Mediation Layer - ZOWE v1)
+            description: >-
+              IBM Z ChatOps V1.1.2 provides ChatOps capabilities for an IBM Z environment by providing a chatbot that gives users in a supported enterprise chat
+              tool access to information from IBM Z systems management tools.
+
+              IBM Z ChatOps also provides an incident web hook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident to enable other products to
+              send their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data model.
+            homepage_url: https://www.ibm.com/docs/en/z-chatops
+            project: null
+            logo: IBM Z ChatOps.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
       - subcategory:
         name: App Framework ZOWE V1
         items:
