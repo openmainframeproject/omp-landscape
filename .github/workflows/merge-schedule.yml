@@ -21,4 +21,4 @@ jobs:
           #  Time zone to use. Default is UTC.
           time_zone: "America/Los_Angeles"
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
