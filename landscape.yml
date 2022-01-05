@@ -779,7 +779,7 @@ landscape:
               IBM Z ChatOps V1.1.2 provides ChatOps capabilities for an IBM Z environment by providing a chatbot that gives users in a supported enterprise chat
               tool access to information from IBM Z systems management tools.
 
-              IBM Z ChatOps also provides an incident web hook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident to enable other products to
+              IBM Z ChatOps also provides an incident webhook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident to enable other products to
               send their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data model.
             homepage_url: https://www.ibm.com/docs/en/z-chatops
             project: null
