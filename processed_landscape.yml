@@ -31151,9 +31151,9 @@ landscape:
               Abend Analyzer for Mainframe provides an interface to SymDump® Batch. This extension allows you to browse, manage and view formatted abend reports
               and symbolic data in a modern IDE environment.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.abend-analyzer
-            project: null
             logo: abend-analyzer-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -31295,9 +31295,9 @@ landscape:
               Provides graphical visualization of program flow for programs written in COBOL. The extension is designed to help COBOL developers to quickly
               comprehend and debug COBOL programs with which they might not be familiar.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.ccf
-            project: null
             logo: cobol-control-flow.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -31618,6 +31618,7 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack
             logo: code4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -31761,6 +31762,7 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.data-editor-for-mainframe
             logo: data-editor-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -31906,6 +31908,7 @@ landscape:
             logo: debugger-for-mainframe.svg
             open_source: false
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -32067,6 +32070,7 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
             logo: explorer-for-endevor.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -32239,6 +32243,7 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
             logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -32422,6 +32427,7 @@ landscape:
             homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
             logo: ibm-rse-api-plug-in.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -32896,6 +32902,7 @@ landscape:
             homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
             logo: ibm-z-open-editor.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
+            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -33529,144 +33536,65 @@ landscape:
           - item:
             name: Zowe Explorer Extension for FTP (Explorer for Visual Studio Code ZOWE V1)
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.zowe-explorer-ftp-extension
-            project: null
+            repo_url: https://github.com/zowe/vscode-extension-for-zowe
             logo: zowe-explorer-extension-for-ftp.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            allow_duplicate_repo: true
             crunchbase_data:
-              name: Broadcom
-              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.broadcom.com
-              city: San Jose
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.openmainframeproject.org/
+              city: San Francisco
               region: California
               country: United States
-              twitter: http://twitter.com/Broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '1999-01-27'
-                  acquiree: Maverick Networks
-                  price: 111900000
-                - date: '1999-08-12'
-                  acquiree: Altocom
-                  price: 180000000
-                - date: '2000-08-07'
-                  acquiree: Silicon Spice
-                  price: 1230000000
-                - date: '2000-08-15'
-                  acquiree: NewPort Communications
-                  price: 1320000000
-                - date: '2000-10-17'
-                  acquiree: Allayer Technologies
-                  price: 276000000
-                - date: '2000-11-01'
-                  acquiree: Element 14 Inc
-                  price: 600000000
-                - date: '2000-11-07'
-                  acquiree: SiByte
-                  price: 2040000000
-                - date: '2001-01-06'
-                  acquiree: VisionTech
-                  price: 250000000
-                - date: '2001-01-08'
-                  acquiree: ServerWorks
-                  price: 957000000
-                - date: '2003-03-03'
-                  acquiree: Gadzoox Network
-                - date: '2004-02-02'
-                  acquiree: RAIDCore
-                - date: '2004-04-07'
-                  acquiree: Sand Video
-                  price: 77500000
-                - date: '2004-04-20'
-                  acquiree: WIDCOMM
-                - date: '2004-06-16'
-                  acquiree: Zyray Wireless
-                  price: 96000000
-                - date: '2004-09-22'
-                  acquiree: Alphamosaic
-                  price: 123000000
-                - date: '2004-10-05'
-                  acquiree: Agere Systems
-                - date: '2005-03-07'
-                  acquiree: Zeevo
-                - date: '2005-07-19'
-                  acquiree: Siliquent Technologies
-                  price: 84000000
-                - date: '2005-10-06'
-                  acquiree: Athena Semiconductors
-                - date: '2006-01-23'
-                  acquiree: Sandburst Corporation
-                - date: '2006-11-29'
-                  acquiree: LVL7 Systems
-                  price: 62000000
-                - date: '2007-05-03'
-                  acquiree: Octalica
-                  price: 31000000
-                - date: '2007-07-12'
-                  acquiree: Global Locate
-                  price: 146000000
-                - date: '2009-11-30'
-                  acquiree: DuneNetworks
-                  price: 178000000
-                - date: '2010-02-03'
-                  acquiree: Teknovus
-                  price: 123000000
-                - date: '2010-06-17'
-                  acquiree: Innovision Research & Technology
-                  price: 47500000
-                - date: '2010-10-13'
-                  acquiree: Beceem Communications
-                  price: 316000000
-                - date: '2010-10-26'
-                  acquiree: Percello
-                  price: 86000000
-                - date: '2010-11-22'
-                  acquiree: Gigle Networks
-                  price: 75000000
-                - date: '2011-03-21'
-                  acquiree: Provigent
-                  price: 314000000
-                - date: '2011-05-09'
-                  acquiree: SCsquare
-                  price: 42000000
-                - date: '2011-09-12'
-                  acquiree: NetLogic Microsystems
-                  price: 3700000000
-                - date: '2012-03-21'
-                  acquiree: BroadLight
-                  price: 230000000
-                - date: '2013-01-30'
-                  acquiree: BroadLogic Network Technologies
-                - date: '2016-05-17'
-                  acquiree: MagnaCom
-                  price: 50000000
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                  price: 5900000000
-                - date: '2019-11-01'
-                  acquiree: NortonLifeLock
-                  price: 10700000000
-                - date: '2019-12-31'
-                  acquiree: Bay Dynamics
-                - date: '2021-12-07'
-                  acquiree: AppNeta
-              parents: []
-              funding: 0
-              stockExchange: nasdaq
-              company_type: For Profit
+              twitter: https://twitter.com/OpenMFProject
+              linkedin: null
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: ''
               industries:
-                - Mobile
-                - Semiconductor
-                - Wireless
+                - Association
+                - Communities
+                - Education
+                - Robotics
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 1919547
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 25193
+                  color: '#f1e05a'
+              contributions: >-
+                24;47;50;32;25;20;13;25;24;41;17;19;17;26;32;16;13;62;41;21;16;67;50;26;44;8;45;54;16;29;29;19;32;46;12;51;19;18;14;17;8;27;26;4;22;30;35;29;10;3;0;0
+              firstWeek: 2021-01-10Z
+              stars: 133
+              license: Other
+              description: Visual Studio Code Plug-in for Zowe, which lets users interact with z/OS data sets on a remote mainframe instance. Powered by Zowe CLI.
+              latest_commit_date: '2021-12-22T14:50:36Z'
+              latest_commit_link: /zowe/vscode-extension-for-zowe/commit/556654df183104668a4e97146a879895550cdf17
+              release_date: '2021-12-16T16:08:36Z'
+              release_link: https://github.com/zowe/vscode-extension-for-zowe/releases
+              contributors_count: 59
+              contributors_link: https://github.com/zowe/vscode-extension-for-zowe/graphs/contributors
+            repos:
+              - url: https://github.com/zowe/vscode-extension-for-zowe
+                stars: 133
+            github_start_commit_data:
+              start_commit_link: /zowe/vscode-extension-for-zowe/commit/5c622e395ddf5671be01a7f3ac60d01ae47afb1c
+              start_date: '2018-09-24T12:39:59Z'
             image_data:
               fileName: zowe-explorer-extension-for-ftp-explorer-for-visual-studio-code-zowe-v1.svg
-              hash: gStFCuSN9mB2ACFsRyWp3iykBAbSjPFA3uuIMVHf4q4=
+              hash: N2bxJwAfOuDpj7YsGoUhTX7Nck7z/OYZVi24PAkjaWc=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-01-05T16:20:01.000Z
+              latest_tweet_date: 2022-01-05T17:45:00.000Z
           - item:
             name: Zowe Explorer for IBM CICS (Explorer for Visual Studio Code ZOWE V1)
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
@@ -33674,6 +33602,7 @@ landscape:
             repo_url: https://github.com/zowe/vscode-extension-for-cics
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            allow_duplicate_repo: true
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -45227,7 +45156,6 @@ landscape:
             name: Broadcom Corporation
             homepage_url: https://broadcom.com/
             logo: broadcom_corporation.svg
-            twitter: https://twitter.com/Broadcom
             crunchbase: https://www.crunchbase.com/organization/broadcom
             crunchbase_data:
               name: Broadcom
@@ -45368,7 +45296,6 @@ landscape:
             name: International Business Machines Corporation
             homepage_url: https://www.ibm.com/us-en
             logo: international_business_machines_corporation.svg
-            twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
             crunchbase_data:
               name: IBM
@@ -45839,7 +45766,6 @@ landscape:
             name: Rocket Software, Inc.
             homepage_url: https://rocketsoftware.com/
             logo: rocket_software_inc.svg
-            twitter: https://twitter.com/Rocket
             crunchbase: https://www.crunchbase.com/organization/rocket-software
             crunchbase_data:
               name: Rocket Software
@@ -45914,7 +45840,6 @@ landscape:
             name: SUSE LLC
             homepage_url: https://suse.com/
             logo: suse_llc.svg
-            twitter: https://twitter.com/SUSE
             crunchbase: https://www.crunchbase.com/organization/suse
             crunchbase_data:
               name: SUSE
@@ -46044,7 +45969,6 @@ landscape:
             name: Canonical Group Limited
             homepage_url: https://canonical.com/
             logo: canonical_group_limited.svg
-            twitter: https://twitter.com/Canonical
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
             crunchbase_data:
               name: Canonical
@@ -46081,7 +46005,6 @@ landscape:
             name: EPAM Systems, Inc
             homepage_url: https://epam.com/
             logo: epam_systems_inc.svg
-            twitter: https://twitter.com/EPAMSYSTEMS
             crunchbase: https://www.crunchbase.com/organization/epam-systems
             crunchbase_data:
               name: EPAM Systems
@@ -46347,7 +46270,6 @@ landscape:
             name: Phoenix Software International
             homepage_url: https://phoenixsoftware.com/
             logo: phoenix_software_international.svg
-            twitter: https://twitter.com/PhnxSoftware
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
             crunchbase_data:
               name: Phoenix Software International
@@ -46571,7 +46493,6 @@ landscape:
             name: East Carolina University
             homepage_url: https://ecu.edu/
             logo: east_carolina_university.svg
-            twitter: https://twitter.com/EastCarolina
             crunchbase: https://www.crunchbase.com/organization/east-carolina-university
             crunchbase_data:
               name: East Carolina University
@@ -46636,7 +46557,6 @@ landscape:
             name: HTL Donaustadt
             homepage_url: https://www.htl-donaustadt.at/home
             logo: htl_donaustadt.svg
-            twitter: https://twitter.com/htldonaustadt
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
             crunchbase_data:
               name: HTL Donaustadt
@@ -46760,7 +46680,6 @@ landscape:
             name: North Carolina A&T State University
             homepage_url: https://ncat.edu/
             logo: north_carolina_at_state_university.svg
-            twitter: https://twitter.com/ncatsuaggies
             crunchbase: https://www.crunchbase.com/organization/north-carolina-a-t-state-university
             crunchbase_data:
               name: North Carolina Agricultural and Technical State University
@@ -46822,7 +46741,6 @@ landscape:
             name: University of Bedfordshire
             homepage_url: https://beds.ac.uk/
             logo: university_of_bedfordshire.svg
-            twitter: https://twitter.com/uniofbeds
             crunchbase: https://www.crunchbase.com/organization/university-of-bedfordshire
             crunchbase_data:
               name: University of Bedfordshire
@@ -46852,7 +46770,6 @@ landscape:
             name: University of Washington CIAC (Center for Information Assurance and Cybersecurity)
             homepage_url: https://washington.edu/
             logo: university_of_washington_ciac_center_for_information_assurance_and_cybersecurity.svg
-            twitter: https://twitter.com/UW
             crunchbase: https://www.crunchbase.com/organization/university-of-washington
             crunchbase_data:
               name: University of Washington
@@ -46892,7 +46809,6 @@ landscape:
             name: University of Wolverhampton
             homepage_url: https://wlv.ac.uk/
             logo: university_of_wolverhampton.svg
-            twitter: https://twitter.com/wlv_uni
             crunchbase: https://www.crunchbase.com/organization/university-of-wolverhampton
             crunchbase_data:
               name: University of Wolverhampton
@@ -46922,7 +46838,6 @@ landscape:
             name: Virginia Commonwealth University
             homepage_url: https://vcu.edu/
             logo: virginia_commonwealth_university.svg
-            twitter: https://twitter.com/VCU
             crunchbase: https://www.crunchbase.com/organization/virginia-commonwealth-university
             crunchbase_data:
               name: Virginia Commonwealth University
@@ -47138,7 +47053,6 @@ landscape:
             name: GSE UK Region
             homepage_url: https://gse.org.uk/
             logo: gse_uk_region.svg
-            twitter: https://twitter.com/gseukc
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
             crunchbase_data:
               name: Guide Share Europe - UK Region
@@ -47168,7 +47082,6 @@ landscape:
             name: Guide Share Europe (GSE)
             homepage_url: https://gse.org/
             logo: guide_share_europe_gse.svg
-            twitter: https://twitter.com/GuideShareEurop
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe
             crunchbase_data:
               name: Guide Share Europe
