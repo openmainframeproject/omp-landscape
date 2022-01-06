@@ -757,6 +757,20 @@ landscape:
             logo: test4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
+          - item:
+            name: BMC Common REST API (Zowe API Mediation layer - Zowe v1)
+            description: >-
+              The Common REST API (CRA) enables you to retrieve data collected by BMC mainframe monitoring products. Currently, the API works with BMC AMI Ops
+              products.
+
+
+              The BMC Common REST API provides open APIs to retrieve data where those APIs can be used also through the Zowe interface and a user-friendly
+              interface to experiment with the REST API calls, known as the Swagger UI.
+            homepage_url: https://docs.bmc.com/docs/commonmainframe/2021/administering-976814066.html
+            project: null
+            logo: commonrestapi.svg
+            crunchbase: https://www.crunchbase.com/organization/bmc
+            allow_duplicate_repo: true
       - subcategory:
         name: App Framework ZOWE V1
         items:
