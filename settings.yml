@@ -315,7 +315,7 @@ big_picture:
         url: https://www.openmainframeproject.org/projects/zowe/conformance
         image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev1/apimediation/color/zowe-conformant-zowev1-apimediation-color.svg
         width: 200
-        left: -30
+        left: 0
         top: 50
         layout: subcategory
       - type: VerticalCategory
@@ -324,13 +324,13 @@ big_picture:
         width: 500
         height: 150
         top: 0
-        left: 180
+        left: 210
         color: rgb(43,125,225)
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformance
         image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev1/appframework/color/zowe-conformant-zowev1-appframework-color.svg
         width: 200
-        left: -30
+        left: 0
         top: 220
         layout: subcategory
       - type: VerticalCategory
@@ -339,13 +339,13 @@ big_picture:
         width: 500
         height: 150
         top: 170
-        left: 180
+        left: 210
         color: rgb(43,125,225)
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformance
         image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev1/cli/color/zowe-conformant-zowev1-cli-color.svg
         width: 200
-        left: -30
+        left: 0
         top: 390
         layout: subcategory
       - type: VerticalCategory
@@ -354,13 +354,13 @@ big_picture:
         width: 500
         height: 150
         top: 340
-        left: 180
+        left: 210
         color: rgb(43,125,225)
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformance
         image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev1/explorer/color/zowe-conformant-zowev1-explorer-color.svg
         width: 200
-        left: -30
+        left: 0
         top: 560
         layout: subcategory
       - type: VerticalCategory
@@ -369,7 +369,7 @@ big_picture:
         width: 500
         height: 150
         top: 510
-        left: 180
+        left: 210
         color: rgb(43,125,225)
       - type: VerticalCategory
         category: API Mediation Layer 2019
@@ -399,7 +399,7 @@ big_picture:
         url: https://www.openmainframeproject.org/projects/zowe/conformant-support-provider
         image: https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev1/comprehensive/color/zowe-conformant-support-provider-zowev1-comprehensive-color.svg
         width: 200
-        left: 680
+        left: 710
         top: 50
         layout: subcategory
       - type: VerticalCategory
@@ -408,13 +408,13 @@ big_picture:
         width: 200
         height: 150
         top: 0
-        left: 890
+        left: 920
         color: rgb(43,125,225)
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformant-support-provider
         image: https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev1/apimediation/color/zowe-conformant-support-provider-zowev1-apimediation-color.svg
         width: 200
-        left: 680
+        left: 710
         top: 220
         layout: subcategory
       - type: VerticalCategory
@@ -423,13 +423,13 @@ big_picture:
         width: 200
         height: 150
         top: 170
-        left: 890
+        left: 920
         color: rgb(43,125,225)
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformant-support-provider
         image: https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev1/appframework/color/zowe-conformant-support-provider-zowev1-appframework-color.svg
         width: 200
-        left: 680
+        left: 710
         top: 390
         layout: subcategory
       - type: VerticalCategory
@@ -438,13 +438,13 @@ big_picture:
         width: 200
         height: 150
         top: 340
-        left: 890
+        left: 920
         color: rgb(43,125,225)
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformant-support-provider
         image: https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev1/cli/color/zowe-conformant-support-provider-zowev1-cli-color.svg
         width: 200
-        left: 680
+        left: 710
         top: 560
         layout: subcategory
       - type: VerticalCategory
@@ -453,13 +453,13 @@ big_picture:
         width: 200
         height: 150
         top: 510
-        left: 890
+        left: 920
         color: rgb(43,125,225)
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformant-support-provider
         image: https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev1/explorer/color/zowe-conformant-support-provider-zowev1-explorer-color.svg
         width: 200
-        left: 680
+        left: 710
         top: 750
         layout: subcategory
       - type: VerticalCategory
@@ -468,7 +468,7 @@ big_picture:
         width: 200
         height: 150
         top: 700
-        left: 890
+        left: 920
         color: rgb(43,125,225)
     category: Zowe Conformant
 test:
