@@ -787,8 +787,11 @@ landscape:
             logo: test4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
+      - subcategory:
+        name: App Framework ZOWE V1
+        items:
           - item:
-            name: IBM z/OS Workload Interaction Navigator (API Mediation Layer ZOWE V1)
+            name: IBM z/OS Workload Interaction Navigator (AP Framework ZOWE V1)
             description: >-
               IBM z/OS Workload Interaction Navigator analyzes
 
@@ -799,9 +802,6 @@ landscape:
             homepage_url: https://www.ibm.com/products/zos-workload-interaction-navigator
             logo: IBM zOS Workload Interaction Navigator.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
-      - subcategory:
-        name: App Framework ZOWE V1
-        items:
           - item:
             name: CA Vantage™ Storage Resource Manager (App Framework ZOWE V1)
             description: >-
