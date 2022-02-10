@@ -275,6 +275,14 @@ landscape:
               next_review_date: ^2022-10-27
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/polycephaly
           - item:
+            name: TSTerm
+            homepage_url: https://github.com/TSTerminal
+            project: sandbox
+            repo_url: https://github.com/TSTerminal/TSTerm
+            project_org: https://github.com/TSTerminal
+            logo: TSTerm.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+          - item:
             name: z/OS Connector Plugin for Jenkins
             homepage_url: https://github.com/jenkinsci/zos-connector-plugin
             repo_url: https://github.com/jenkinsci/zos-connector-plugin
@@ -356,14 +364,6 @@ landscape:
             repo_url: https://github.com/walmartlabs/zUID
             logo: zuid.svg
             crunchbase: https://www.crunchbase.com/organization/walmart-labs
-          - item:
-            name: TSTerm
-            homepage_url: https://github.com/TSTerminal
-            project: sandbox
-            repo_url: https://github.com/TSTerminal/TSTerm
-            project_org: https://github.com/TSTerminal
-            logo: TSTerm.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
       - subcategory:
         name: Development Tools
         items:
@@ -742,6 +742,15 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
+            name: IBM Z JCL Expert (API Mediation Layer ZOWE V1)
+            description: >-
+              IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
+              costly delays through mass JCL checking.
+            homepage_url: https://www.ibm.com/products
+            project: null
+            logo: ibm-z-jcl-expert.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
             name: IBM® Remote System Explorer API (API Mediation Layer ZOWE V1)
             description: >-
               REST APIs for working with various components on the z/OS host system, including MVS data sets, z/OS UNIX files and commands, JES jobs, TSO
@@ -795,15 +804,6 @@ landscape:
             logo: test4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
-          - item:
-            name: IBM Z JCL Expert (API Mediation Layer ZOWE V1)
-            description: >-
-              IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
-              costly delays through mass JCL checking.
-            homepage_url: http://www.ibm.com/products/z-jcl-expert
-            project: null
-            logo: ibm-z-jcl-expert.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
       - subcategory:
         name: App Framework ZOWE V1
         items:
