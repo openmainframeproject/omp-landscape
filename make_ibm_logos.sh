@@ -16,7 +16,7 @@ do
   filename="${filename//(/}"
   filename="${filename//)/}"
   filename="${filename//™/}.svg"
-  texttoadd="<text x=\"50%\" y=\"240\" style=\"font: 22px sans-serif;alignment-baseline: middle; text-anchor:middle;\">${product}</text></svg>"
+  texttoadd="<text x=\"50%\" y=\"240\" style=\"font: 16px sans-serif;alignment-baseline: middle; text-anchor:middle;\">${product}</text></svg>"
   echo "Creating ${filename} for ${product}"
   cp $logo $filename
   sed -i'.original' 's/viewBox="0 0 400 245"/viewBox="0 0 400 300"/g' $filename
