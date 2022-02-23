@@ -742,11 +742,25 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
+            name: IBM Z ChatOps (Zowe API Mediation Layer - ZOWE v1)
+            description: >-
+              IBM Z ChatOps V1.1.2 provides ChatOps capabilities for an IBM Z environment by providing a chatbot that gives users in a supported enterprise chat
+              tool access to information from IBM Z systems management tools.
+
+              IBM Z ChatOps also provides an incident webhook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident to enable other products to
+              send their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data model.
+            homepage_url: https://www.ibm.com/docs/en/z-chatops
+            project: null
+            logo: IBM Z ChatOps.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+            allow_duplicate_repo: true
+          - item:
             name: IBM Z JCL Expert (API Mediation Layer ZOWE V1)
             description: >-
               IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
               costly delays through mass JCL checking.
-            homepage_url: https://www.ibm.com/products
+            homepage_url: https://www.ibm.com/products/z-jcl-expert
             project: null
             logo: ibm-z-jcl-expert.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
