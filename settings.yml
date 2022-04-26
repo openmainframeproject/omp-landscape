@@ -311,17 +311,17 @@ big_picture:
     title: Ecosystem of vendors and solutions for Zowe
     elements:
       - type: LandscapeInfo
-        width: 200
-        height: 200
-        left: 10
-        top: 10
+        width: 170
+        height: 160
+        left: 0
+        top: -20
         children:
           - type: image
             title: t1
-            width: 200
-            height: 200
-            top: 0
-            left: 0
+            width: 150
+            height: 160
+            top: -10
+            left: 10
             image: poster1.svg
       - type: VerticalCategory
         category: API Mediation Layer ZOWE V1
@@ -334,9 +334,9 @@ big_picture:
         url: https://www.openmainframeproject.org/projects/zowe/conformance
         image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev1/appframework/color/zowe-conformant-zowev1-appframework-color.svg
         width: 200
-        height: 200
+        height: 170
         left: -30
-        top: 220
+        top: 150
         layout: subcategory
       - type: VerticalCategory
         category: App Framework ZOWE V1
