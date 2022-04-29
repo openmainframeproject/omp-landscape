@@ -1691,6 +1691,19 @@ landscape:
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
+      - subcategory:
+        name: Zowe API Mediation Layer- ZOWE V2
+        items:
+          - item:
+            name: NetMaster (Zowe API Mediation Layer- ZOWE V2)
+            description: >-
+              NetMaster includes a microservice that leverages the Open Mainframe Project Zowe Spring Boot REST API SDK. It provides NetMaster customers with an
+              open and standard interface to network management
+               data collected by NetMaster.
+            homepage_url: https://www.broadcom.com/netmasters
+            project: null
+            logo: netmaster-broadcom.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
   - category:
     name: Broad Open Source
     subcategories:
