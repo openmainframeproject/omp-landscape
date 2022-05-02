@@ -445,8 +445,8 @@ landscape:
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
               leads: Sudharsana Srinivasan
               date_accepted: ^2020-04-09
-              last_review_date: ^2021-04-08
-              next_review_date: ^2022-04-14
+              last_review_date: ^2022-04-14
+              next_review_date: ^2023-04-24
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/cobol-programming-course
           - item:
             name: COBOL Working Group
@@ -564,7 +564,7 @@ landscape:
               leads: Elizabeth Joseph
               date_accepted: ^2020-04-09
               last_review_date: ^2021-05-13
-              next_review_date: ^2022-04-28
+              next_review_date: ^2022-05-12
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/software-discovery-tool
           - item:
             name: TerseDecompress
@@ -1692,10 +1692,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
       - subcategory:
-        name: Zowe CLI- Zowe v2
+        name: CLI ZOWE v2
         items:
           - item:
-            name: File Master Plus Plug-in (Zowe CLI- Zowe v2)
+            name: File Master Plus Plug-in (CLI ZOWE v2)
             description: File Master Plus Plug-in for Zowe CLI brings advanced file management and data manipulation functionality to the CLI.
             homepage_url: >-
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca
@@ -1703,18 +1703,31 @@ landscape:
             project: null
             logo: File-Master-Plus-Plug-in.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
           - item:
-            name: MAT Detect Plug-in (Zowe CLI- Zowe v2)
+            name: MAT Detect Plug-in (CLI ZOWE v2)
             description: >-
               The MAT Detect plug-in for Zowe CLI enables you to detect performance issues and access performance data supplied by the Performance Management
-              Assistant component (PMA) of Mainframe
-
-              Application Tuner. The plug-in ensures interaction of your jobs with the Performance Management Assistant and provides access to PMA
+              Assistant component (PMA) of Mainframe Application Tuner. The plug-in ensures interaction of your jobs with the Performance Management Assistant and provides access to PMA
               functionality.
             logo: MAT-detect-plugin.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             homepage_url: https://www.npmjs.com/package/@broadcom/mat-detect-for-zowe-cli
+            allow_duplicate_repo: true
           - item:
+      - subcategory:
+        name: API Mediation Layer ZOWE V2
+        items:
+          - item:
+            name: NetMaster (API Mediation Layer ZOWE V2)
+            description: >-
+              NetMaster includes a microservice that leverages the Open Mainframe Project Zowe Spring Boot REST API SDK. It provides NetMaster customers with an
+              open and standard interface to network management data collected by NetMaster.
+            homepage_url: https://broadcom.com/netmasters
+            project: null
+            logo: netmaster-broadcom.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
   - category:
     name: Broad Open Source
     subcategories:
@@ -2471,21 +2484,25 @@ landscape:
             name: Broadcom Corporation
             homepage_url: https://broadcom.com/
             logo: broadcom_corporation.svg
+            twitter: https://twitter.com/Broadcom
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: International Business Machines Corporation
-            homepage_url: https://www.ibm.com/us-en
+            homepage_url: https://ibm.com/
             logo: international_business_machines_corporation.svg
+            twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Rocket Software, Inc.
             homepage_url: https://rocketsoftware.com/
             logo: rocket_software_inc.svg
+            twitter: https://twitter.com/Rocket
             crunchbase: https://www.crunchbase.com/organization/rocket-software
           - item:
             name: SUSE LLC
             homepage_url: https://suse.com/
             logo: suse_llc.svg
+            twitter: https://twitter.com/SUSE
             crunchbase: https://www.crunchbase.com/organization/suse
       - subcategory:
         name: Silver
@@ -2500,11 +2517,13 @@ landscape:
             name: Canonical Group Limited
             homepage_url: https://canonical.com/
             logo: canonical_group_limited.svg
+            twitter: https://twitter.com/Canonical
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
           - item:
             name: EPAM Systems, Inc
             homepage_url: https://epam.com/
             logo: epam_systems_inc.svg
+            twitter: https://twitter.com/EPAMSYSTEMS
             crunchbase: https://www.crunchbase.com/organization/epam-systems
           - item:
             name: IN-COM Data Systems
@@ -2519,7 +2538,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/yadro
           - item:
             name: Micro Focus International plc
-            homepage_url: https://www.microfocus.com/en-us/home
+            homepage_url: https://microfocus.com/
             logo: micro_focus_international_plc.svg
             twitter: https://twitter.com/MicroFocus
             crunchbase: https://www.crunchbase.com/organization/micro-focus
@@ -2527,6 +2546,7 @@ landscape:
             name: Phoenix Software International
             homepage_url: https://phoenixsoftware.com/
             logo: phoenix_software_international.svg
+            twitter: https://twitter.com/PhnxSoftware
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
             name: Precisely Holdings, LLC
@@ -2570,7 +2590,14 @@ landscape:
             name: East Carolina University
             homepage_url: https://ecu.edu/
             logo: east_carolina_university.svg
+            twitter: https://twitter.com/EastCarolina
             crunchbase: https://www.crunchbase.com/organization/east-carolina-university
+          - item:
+            name: École privée des sciences informatiques (EPSI)
+            homepage_url: https://epsi.fr/
+            logo: ecole_privee_des_sciences_informatiques_epsi.svg
+            twitter: https://twitter.com/EPSI_Ecoles
+            crunchbase: https://www.crunchbase.com/organization/epsi
           - item:
             name: HoGent
             homepage_url: https://hogent.be/
@@ -2579,8 +2606,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/hogeschool-gent
           - item:
             name: HTL Donaustadt
-            homepage_url: https://www.htl-donaustadt.at/home
+            homepage_url: https://htl-donaustadt.at/
             logo: htl_donaustadt.svg
+            twitter: https://twitter.com/htldonaustadt
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
           - item:
             name: Johann Wolfgang Goethe University
@@ -2590,7 +2618,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/goethe-university-frankfurt
           - item:
             name: Leipzig University
-            homepage_url: https://www.mathcs.uni-leipzig.de/ifi
+            homepage_url: https://informatik.uni-leipzig.de/
             logo: leipzig_university.svg
             twitter: https://twitter.com/UniLeipzig
             crunchbase: https://www.crunchbase.com/organization/leipzig-university
@@ -2604,6 +2632,7 @@ landscape:
             name: North Carolina A&T State University
             homepage_url: https://ncat.edu/
             logo: north_carolina_at_state_university.svg
+            twitter: https://twitter.com/ncatsuaggies
             crunchbase: https://www.crunchbase.com/organization/north-carolina-a-t-state-university
           - item:
             name: South China University of Technology
@@ -2620,16 +2649,19 @@ landscape:
             name: University of Washington CIAC (Center for Information Assurance and Cybersecurity)
             homepage_url: https://washington.edu/
             logo: university_of_washington_ciac_center_for_information_assurance_and_cybersecurity.svg
+            twitter: https://twitter.com/UW
             crunchbase: https://www.crunchbase.com/organization/university-of-washington
           - item:
             name: University of Wolverhampton
             homepage_url: https://wlv.ac.uk/
             logo: university_of_wolverhampton.svg
+            twitter: https://twitter.com/wlv_uni
             crunchbase: https://www.crunchbase.com/organization/university-of-wolverhampton
           - item:
             name: Virginia Commonwealth University
             homepage_url: https://vcu.edu/
             logo: virginia_commonwealth_university.svg
+            twitter: https://twitter.com/VCU
             crunchbase: https://www.crunchbase.com/organization/virginia-commonwealth-university
           - item:
             name: Western University
@@ -2648,12 +2680,6 @@ landscape:
             homepage_url: https://xidian.edu.cn/
             logo: xidian_university.svg
             crunchbase: https://www.crunchbase.com/organization/xidian-university
-          - item:
-            name: École privée des sciences informatiques (EPSI)
-            homepage_url: https://epsi.fr/
-            logo: ecole_privee_des_sciences_informatiques_epsi.svg
-            twitter: https://twitter.com/EPSI_Ecoles
-            crunchbase: https://www.crunchbase.com/organization/epsi
       - subcategory:
         name: Associate
         items:
@@ -2677,11 +2703,13 @@ landscape:
             name: GSE UK Region
             homepage_url: https://gse.org.uk/
             logo: gse_uk_region.svg
+            twitter: https://twitter.com/gseukc
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
           - item:
             name: Guide Share Europe (GSE)
             homepage_url: https://gse.org/
             logo: guide_share_europe_gse.svg
+            twitter: https://twitter.com/GuideShareEurop
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe
           - item:
             name: High School Technology Services
