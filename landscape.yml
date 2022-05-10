@@ -1741,6 +1741,14 @@ landscape:
             homepage_url: http://github.com/zowe/zowe-cli-db2-plugin#readme
             logo: ibm-db2-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+          - item:
+            name: CA IDMS (CLI ZOWE V2)
+            description: >-
+              The IBM® IMSTM Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions).
+              You can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
+            homepage_url: http://github.com/zowe/zowe-cli-ims-plugin#readme
+            logo: ca-idms.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
