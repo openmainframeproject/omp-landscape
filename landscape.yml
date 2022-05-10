@@ -1721,6 +1721,12 @@ landscape:
             homepage_url: https://github.com/zowe/zowe-cli-mq-plugin#readme
             logo: ibm-mq-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: z/OS FTP Plug-in for Zowe CLI (CLI ZOWE V2)
+            description: The z/OS FTP Plug-in for Zowe CLI lets you access z/OS datasets, USS files, and submit JCL, leveraging the z/OS FTP service.
+            homepage_url: https://github.com/zowe/zowe-cli-ftp-plugin#readme
+            logo: zowe-zos-ftp-for-cli.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
