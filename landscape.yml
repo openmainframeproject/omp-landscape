@@ -1707,8 +1707,8 @@ landscape:
             name: MAT Detect Plug-in (CLI ZOWE v2)
             description: >-
               The MAT Detect plug-in for Zowe CLI enables you to detect performance issues and access performance data supplied by the Performance Management
-              Assistant component (PMA) of Mainframe Application Tuner. The plug-in ensures interaction of your jobs with the Performance Management Assistant and provides access to PMA
-              functionality.
+              Assistant component (PMA) of Mainframe Application Tuner. The plug-in ensures interaction of your jobs with the Performance Management Assistant
+              and provides access to PMA functionality.
             logo: ca-mat-detect.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             homepage_url: https://www.npmjs.com/package/@broadcom/mat-detect-for-zowe-cli
@@ -1726,6 +1726,11 @@ landscape:
             logo: ca-netmaster.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
+          - item:
+            name: SymDump (API Mediation Layer ZOWE V2)
+            description: SymDump is a fault management tool designed to identify and resolve dumps. The tool provides multitude of user interfaces including REST API.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-intertest-and-ca-symdump/11-0/using.html
+            crunchbase: https://www.crunchbase.com/organization/broadcom
   - category:
     name: Broad Open Source
     subcategories:
