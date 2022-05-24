@@ -1771,13 +1771,14 @@ landscape:
             logo: ca-workload-automation-ca-7.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: OPS/MVS®
+            name: OPS/MVS® (CLI ZOWE V2)
             description: |-
               Extend the Zowe CLI to include OPS/MVS commands
               NPM Registry Date: Will be released immediately following Zowe v2.
             homepage_url: https://www.npmjs.com/package/@broadcom/ops-for-zowe-cli
             project: null
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            logo: OPS-MVS.svg
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
@@ -1788,7 +1789,7 @@ landscape:
               open and standard interface to network management data collected by NetMaster.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-netmaster-network-management
             project: null
-            logo: ca-netmaster.svg
+            logo: netmaster.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
