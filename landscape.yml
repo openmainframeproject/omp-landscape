@@ -1742,7 +1742,7 @@ landscape:
             logo: ibm-db2-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
-            name: CA IDMS (CLI ZOWE V2)
+            name: IDMS (CLI ZOWE V2)
             description: >-
               The IBM® IMSTM Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions).
               You can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
@@ -1750,13 +1750,13 @@ landscape:
             logo: ca-idms.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: CA Spool™ (CLI ZOWE V2)
+            name: Spool™ (CLI ZOWE V2)
             description: Spool Plug-in for Zowe CLI allows issuing Spool native commands from Zowe CLI.
             homepage_url: https://www.npmjs.com/package/@broadcom/caspool-for-zowe-cli
             logo: ca-spool.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: CA MAT Analyze (CLI ZOWE V2)
+            name: MAT Analyze (CLI ZOWE V2)
             description: >-
               The MAT Analyze plug-in for Zowe CLI provides access to Mainframe Application Tuner (MAT) functionality. The plug-in ensures interaction with MAT
               and enables you to measure your mainframe applications and get the analysis data in the form of MAT analysis views using Zowe command-line
@@ -1765,10 +1765,18 @@ landscape:
             logo: ca-mat-analyze.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: CA Workload Automation CA 7® (CLI ZOWE V2)
+            name: Workload Automation CA 7® (CLI ZOWE V2)
             description: Zowe CLI plugins for CA 7
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-ca-7-edition/12-1.html
             logo: ca-workload-automation-ca-7.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: OPS/MVS®
+            description: |-
+              Extend the Zowe CLI to include OPS/MVS commands
+              NPM Registry Date: Will be released immediately following Zowe v2.
+            homepage_url: https://www.npmjs.com/package/@broadcom/ops-for-zowe-cli
+            project: null
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: API Mediation Layer ZOWE V2
@@ -1796,7 +1804,7 @@ landscape:
             logo: test4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: CA Workload Automation CA 7® (API Mediation Layer ZOWE V2)
+            name: Workload Automation CA 7® (API Mediation Layer ZOWE V2)
             description: |
               Zowe Cli plugins for CA 7
               Planned Release Date : 05/18/2022
@@ -1853,7 +1861,7 @@ landscape:
         name: App Framework ZOWE V2
         items:
           - item:
-            name: CA Vantage™ Storage Resource Manager (App Framework ZOWE V2)
+            name: Vantage™ Storage Resource Manager (App Framework ZOWE V2)
             description: >-
               CA Vantage™ Storage Resource Manager Web Client, also known as Mainframe Team Center - Management. Zowe App Framework plugin provides access to
               the Mainframe Team Center - Management from Zowe Desktop.
