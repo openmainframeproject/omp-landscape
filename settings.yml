@@ -317,9 +317,9 @@ big_picture:
         layout: subcategory
         top: -20
         url: https://www.openmainframeproject.org/projects/zowe/conformance
-        image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev1/appframework/color/zowe-conformant-zowev1-appframework-color.svg
+        image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev2/appframework/color/zowe-conformant-zowev2-appframework-color.svg
       - type: VerticalCategory
-        category: API Mediation Layer ZOWE V1
+        category: API Mediation Layer ZOWE V2
         width: 500
         height: 150
         top: 0
@@ -327,14 +327,14 @@ big_picture:
         color: rgb(43,125,225)
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformance
-        image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev1/appframework/color/zowe-conformant-zowev1-appframework-color.svg
+        image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev2/appframework/color/zowe-conformant-zowev2-appframework-color.svg
         width: 200
         height: 170
         left: -30
         top: 150
         layout: subcategory
       - type: VerticalCategory
-        category: App Framework ZOWE V1
+        category: App Framework ZOWE V2
         width: 500
         height: 150
         top: 170
@@ -342,14 +342,14 @@ big_picture:
         color: rgb(43,125,225)
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformance
-        image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev1/cli/color/zowe-conformant-zowev1-cli-color.svg
+        image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev2/cli/color/zowe-conformant-zowev2-cli-color.svg
         width: 200
         height: 170
         left: -30
         top: 320
         layout: subcategory
       - type: VerticalCategory
-        category: CLI ZOWE V1
+        category: CLI ZOWE V2
         width: 500
         height: 150
         top: 340
@@ -357,51 +357,30 @@ big_picture:
         color: rgb(43,125,225)
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformance
-        image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev1/explorer/color/zowe-conformant-zowev1-explorer-color.svg
+        image: https://artwork.openmainframeproject.org/other/zowe-conformant/zowev2/explorer/color/zowe-conformant-zowev2-explorer-color.svg
         width: 200
         height: 170
         left: -30
         top: 490
         layout: subcategory
       - type: VerticalCategory
-        category: Explorer for Visual Studio Code ZOWE V1
+        category: Explorer for Visual Studio Code ZOWE V2
         width: 500
         height: 150
         top: 510
         left: 180
         color: rgb(43,125,225)
-      - type: VerticalCategory
-        category: API Mediation Layer 2019
-        width: 220
-        height: 150
-        top: 700
-        left: 0
-        color: rgb(43,125,225)
-      - type: VerticalCategory
-        category: App Framework 2019
-        width: 220
-        height: 150
-        top: 700
-        left: 230
-        color: rgb(43,125,225)
-      - type: VerticalCategory
-        category: CLI 2019
-        width: 220
-        height: 150
-        top: 700
-        left: 460
-        color: rgb(43,125,225)
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformant-support-provider
         image: >-
-          https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev1/comprehensive/color/zowe-conformant-support-provider-zowev1-comprehensive-color.svg
+          https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev2/comprehensive/color/zowe-conformant-support-provider-zowev2-comprehensive-color.svg
         width: 200
         height: 170
         left: 680
         top: -20
         layout: subcategory
       - type: VerticalCategory
-        category: Support Provider Comprehensive ZOWE V1
+        category: Support Provider Comprehensive ZOWE V2
         width: 200
         height: 150
         top: 0
@@ -410,14 +389,14 @@ big_picture:
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformant-support-provider
         image: >-
-          https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev1/apimediation/color/zowe-conformant-support-provider-zowev1-apimediation-color.svg
+          https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev2/apimediation/color/zowe-conformant-support-provider-zowev2-apimediation-color.svg
         width: 200
         height: 170
         left: 680
         top: 150
         layout: subcategory
       - type: VerticalCategory
-        category: Support Provider API Mediation Layer ZOWE V1
+        category: Support Provider API Mediation Layer ZOWE V2
         width: 200
         height: 150
         top: 170
@@ -426,14 +405,14 @@ big_picture:
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformant-support-provider
         image: >-
-          https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev1/appframework/color/zowe-conformant-support-provider-zowev1-appframework-color.svg
+          https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev2/appframework/color/zowe-conformant-support-provider-zowev2-appframework-color.svg
         width: 200
         height: 170
         left: 680
         top: 320
         layout: subcategory
       - type: VerticalCategory
-        category: Support Provider App Framework ZOWE V1
+        category: Support Provider App Framework ZOWE V2
         width: 200
         height: 150
         top: 340
@@ -441,14 +420,14 @@ big_picture:
         color: rgb(43,125,225)
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformant-support-provider
-        image: https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev1/cli/color/zowe-conformant-support-provider-zowev1-cli-color.svg
+        image: https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev2/cli/color/zowe-conformant-support-provider-zowev2-cli-color.svg
         width: 200
         height: 170
         left: 680
         top: 490
         layout: subcategory
       - type: VerticalCategory
-        category: Support Provider CLI ZOWE V1
+        category: Support Provider CLI ZOWE V2
         width: 200
         height: 150
         top: 510
@@ -457,14 +436,14 @@ big_picture:
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformant-support-provider
         image: >-
-          https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev1/explorer/color/zowe-conformant-support-provider-zowev1-explorer-color.svg
+          https://artwork.openmainframeproject.org/other/zowe-conformant-support-provider/zowev2/explorer/color/zowe-conformant-support-provider-zowev2-explorer-color.svg
         width: 200
         height: 170
         left: 680
         top: 680
         layout: subcategory
       - type: VerticalCategory
-        category: Support Provider Explorer for Visual Studio Code ZOWE V1
+        category: Support Provider Explorer for Visual Studio Code ZOWE V2
         width: 200
         height: 150
         top: 700
@@ -480,8 +459,12 @@ prerender:
   members-non-grouped: /card-mode?category=open-mainframe-project-member-company&grouping=no&embed=yes&style=borderless
   hosted-projects: /card-mode?project=hosted&embed=yes&style=borderless
   zowe-conformant-support-vendor: >-
+    /card-mode?category=support-provider-comprehensive-zowe-v2,support-provider-api-mediation-layer-zowe-v2,support-provider-app-framework-zowe-v2,support-provider-cli-zowe-v2,support-provider-explorer-for-visual-studio-code-zowe-v2&grouping=category&embed=yes
+  zowe-conformant-support-vendor-v1: >-
     /card-mode?category=support-provider-comprehensive-zowe-v1,support-provider-api-mediation-layer-zowe-v1,support-provider-app-framework-zowe-v1,support-provider-cli-zowe-v1,support-provider-explorer-for-visual-studio-code-zowe-v1&grouping=category&embed=yes
   zowe-conformant: >-
+    /card-mode?category=api-mediation-layer-zowe-v2%2Capp-framework-zowe-v2%2Ccli-zowe-v2,explorer-for-visual-studio-code-zowe-v2&grouping=category&embed=yes&style=logo
+  zowe-conformant-v1: >-
     /card-mode?category=api-mediation-layer-zowe-v1%2Capp-framework-zowe-v1%2Ccli-zowe-v1,explorer-for-visual-studio-code-zowe-v1&grouping=category&embed=yes&style=logo
   zowe-conformant-2019: /card-mode?category=api-mediation-layer-2019%2Capp-framework-2019%2Ccli-2019&grouping=category&embed=yes&style=logo
 export:
