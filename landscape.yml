@@ -1692,10 +1692,21 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             allow_duplicate_repo: true
       - subcategory:
-        name: CLI ZOWE v2
+        name: Explorer for Visual Studio Code ZOWE V2
         items:
           - item:
-            name: File Master Plus Plug-in (CLI ZOWE v2)
+            name: Zowe Explorer for IBM CICS (Explorer for Visual Studio Code ZOWE V2)
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
+            project: null
+            repo_url: https://github.com/zowe/vscode-extension-for-cics
+            logo: zowe-explorer-for-ibm-cics.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            allow_duplicate_repo: true
+      - subcategory:
+        name: CLI ZOWE V2
+        items:
+          - item:
+            name: File Master Plus Plug-in (CLI ZOWE V2)
             description: File Master Plus Plug-in for Zowe CLI brings advanced file management and data manipulation functionality to the CLI.
             homepage_url: >-
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
@@ -1704,7 +1715,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
-            name: MAT Detect Plug-in (CLI ZOWE v2)
+            name: MAT Detect Plug-in (CLI ZOWE V2)
             description: >-
               The MAT Detect plug-in for Zowe CLI enables you to detect performance issues and access performance data supplied by the Performance Management
               Assistant component (PMA) of Mainframe Application Tuner. The plug-in ensures interaction of your jobs with the Performance Management Assistant
@@ -1810,6 +1821,19 @@ landscape:
               Zowe CLI plugins for CA 7
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-ca-7-edition/12-1.html
             logo: workload-automation-ca-7.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+      - subcategory:
+        name: Support Provider Comprehensive ZOWE V2
+        items:
+          - item:
+            name: Brightside (Support Provider Comprehensive ZOWE V2)
+            description: >-
+              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.
+              Brightside subscribers also have access to exclusive
+
+              innovations.
+            homepage_url: https://broadcom.com/products/mainframe/application-development/brightside
+            logo: brightside.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Support Provider Explorer for Visual Studio Code ZOWE V2

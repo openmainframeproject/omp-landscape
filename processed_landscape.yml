@@ -35586,10 +35586,77 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-04-29T16:44:56.000Z
       - subcategory:
-        name: CLI ZOWE v2
+        name: Explorer for Visual Studio Code ZOWE V2
         items:
           - item:
-            name: File Master Plus Plug-in (CLI ZOWE v2)
+            name: Zowe Explorer for IBM CICS (Explorer for Visual Studio Code ZOWE V2)
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
+            project: null
+            repo_url: https://github.com/zowe/vscode-extension-for-cics
+            logo: zowe-explorer-for-ibm-cics.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            allow_duplicate_repo: true
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.openmainframeproject.org/
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/OpenMFProject
+              linkedin: null
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Association
+                - Communities
+                - Education
+                - Robotics
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 252037
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 2033
+                  color: '#f1e05a'
+              contributions: 25;19;4;0;0;0;0;0;8;9;17;0;60;14;19;16;30;4;6;2;6;5;3;1;17;9;14;7;6;5;29;42;9;14;5;1;5;7;52;7;0;9;10;21;0;16;2;0;18;1;28;5
+              firstWeek: 2021-05-09Z
+              stars: 8
+              license: Other
+              description: >-
+                Extension to the Visual Studio Code Plugin, Zowe Explorer; a Z/OS interaction tool within VS Code. This allows for the viewing and manipulation
+                of CICS Resources from within Zowe Explorer. Powered by Zowe CLI.
+              latest_commit_date: '2022-04-27T14:57:59Z'
+              latest_commit_link: /zowe/vscode-extension-for-cics/commit/ce006633ddcd087232fa782913466bac897f057d
+              release_date: '2022-04-28T10:24:49Z'
+              release_link: https://github.com/zowe/vscode-extension-for-cics/releases
+              contributors_count: 5
+              contributors_link: https://github.com/zowe/vscode-extension-for-cics/graphs/contributors
+            repos:
+              - url: https://github.com/zowe/vscode-extension-for-cics
+                stars: 8
+            github_start_commit_data:
+              start_commit_link: /zowe/vscode-extension-for-cics/commit/9721512f26ea278a537fe2f50680dfd3374d4077
+              start_date: '2021-03-22T17:40:59Z'
+            image_data:
+              fileName: zowe-explorer-for-ibm-cics-explorer-for-visual-studio-code-zowe-v2.svg
+              hash: l1syHH6W3uAjc6actcrs5AnaUY99WUvot5m53ugSfBI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-04-29T16:44:56.000Z
+      - subcategory:
+        name: CLI ZOWE V2
+        items:
+          - item:
+            name: File Master Plus Plug-in (CLI ZOWE V2)
             description: File Master Plus Plug-in for Zowe CLI brings advanced file management and data manipulation functionality to the CLI.
             homepage_url: >-
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
@@ -35733,7 +35800,7 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-04-30T00:05:01.000Z
           - item:
-            name: MAT Detect Plug-in (CLI ZOWE v2)
+            name: MAT Detect Plug-in (CLI ZOWE V2)
             description: >-
               The MAT Detect plug-in for Zowe CLI enables you to detect performance issues and access performance data supplied by the Performance Management
               Assistant component (PMA) of Mainframe Application Tuner. The plug-in ensures interaction of your jobs with the Performance Management Assistant
@@ -37195,6 +37262,154 @@ landscape:
             image_data:
               fileName: workload-automation-ca-7-api-mediation-layer-zowe-v2.svg
               hash: yRIbrCz58XrMx2megeDmVLbmqCe9Dg6BJL6aTjgL+DQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-04-30T00:05:01.000Z
+      - subcategory:
+        name: Support Provider Comprehensive ZOWE V2
+        items:
+          - item:
+            name: Brightside (Support Provider Comprehensive ZOWE V2)
+            description: >-
+              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.
+              Brightside subscribers also have access to exclusive
+
+              innovations.
+            homepage_url: https://broadcom.com/products/mainframe/application-development/brightside
+            logo: brightside.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+                - date: '2021-12-07'
+                  acquiree: AppNeta
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            image_data:
+              fileName: brightside-support-provider-comprehensive-zowe-v2.svg
+              hash: 9tmo5mK78z3J5etVWMizIi0l5FqFg+yWEFe5TsyF7Qw=
             best_practice_data:
               badge: false
               percentage: null
