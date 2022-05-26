@@ -994,7 +994,7 @@ landscape:
             homepage_url: >-
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-mat-detect-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
-            logo: ca-mat-detect.svg
+            logo: mat-detect.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
@@ -1744,8 +1744,8 @@ landscape:
           - item:
             name: IBM® IMS™ Plug-in (CLI ZOWE V2)
             description: >-
-              The IBM® IMS™ Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions).
-              You can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
+              The IBM® IMS™ Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions). You
+              can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
             homepage_url: http://github.com/zowe/zowe-cli-ims-plugin#readme
             logo: idms.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -1778,7 +1778,7 @@ landscape:
             homepage_url: https://www.npmjs.com/package/@broadcom/ops-for-zowe-cli
             project: null
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            logo: OPS-MVS.svg
+            logo: opsmvs.svg
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
@@ -1807,8 +1807,7 @@ landscape:
           - item:
             name: Workload Automation CA 7® (API Mediation Layer ZOWE V2)
             description: |
-              Zowe Cli plugins for CA 7
-              Planned Release Date : 05/18/2022
+              Zowe CLI plugins for CA 7
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-ca-7-edition/12-1.html
             logo: workload-automation-ca-7.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -1826,7 +1825,7 @@ landscape:
             logo: brightside.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
-        name: Support Provider- API Mediation Layer ZOWE V2
+        name: Support Provider API Mediation Layer ZOWE V2
         items:
           - item:
             name: Brightside (Support Provider- API Mediation Layer ZOWE V2)
