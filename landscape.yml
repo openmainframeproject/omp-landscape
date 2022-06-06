@@ -638,11 +638,13 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
-            name: CA Database Management Solutions for Db2 for z/OS
+            name: Database Management Solutions for Db2 for z/OS
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
             description: RESTful APIs for Db2 for z/OS data access and management
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html
             stock_ticker: AVGO
-            logo: ca-database-management-solutions-for-db2-for-zos.svg
+            logo: database-management-solutions-for-db2-for-zos.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
@@ -665,6 +667,7 @@ landscape:
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI ZOWE V2
               - Zowe Conformant / API Mediation Layer 2019
+              - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
               VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
@@ -723,7 +726,9 @@ landscape:
             allow_duplicate_repo: true
           - item:
             name: CA SYSVIEW® Performance Management
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               CA SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access CA SYSVIEW actions and
               data using a modern API.
@@ -778,6 +783,7 @@ landscape:
               - Zowe Conformant / API Mediation Layer 2019
               - Zowe Conformant / App Framework 2019
               - Zowe Conformant / App Framework ZOWE V1
+              - Zowe Conformant / CLI ZOWE V1
             description: >-
               IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
               systems management to address your requirements for business agility on IBM Z systems.
@@ -1111,6 +1117,11 @@ landscape:
               - Zowe Conformant / Support Provider App Framework ZOWE V1
               - Zowe Conformant / Support Provider CLI ZOWE V1
               - Zowe Conformant / Support Provider Explorer for Visual Studio Code ZOWE V1
+              - Zowe Conformant / Support Provider Comprehensive ZOWE V2
+              - Zowe Conformant / Support Provider API Mediation Layer ZOWE V2
+              - Zowe Conformant / Support Provider App Framework ZOWE V2
+              - Zowe Conformant / Support Provider CLI ZOWE V2
+              - Zowe Conformant / Support Provider Explorer for Visual Studio Code ZOWE V2
             description: >-
               IBM Z® Distribution for Zowe provides IBM delivery of Zowe open source software in executable form to extend and enhance z/OS products and
               services, includes an entitlement to IBM SDK for Node.js - z/OS, V12.0 as a supporting program of IBM Z Distribution for Zowe, is delivered in
@@ -1242,6 +1253,8 @@ landscape:
           - item:
             name: IBM® MQ Plug-in for Zowe CLI
             second_path:
+              - Zowe Conformant / App Framework 2019
+              - Zowe Conformant / API Mediation Layer 2019
               - Zowe Conformant / CLI 2019
               - Zowe Conformant / CLI ZOWE V1
             description: >-
@@ -1316,9 +1329,8 @@ landscape:
               Extend the Zowe CLI to include OPS/MVS commands
               NPM Registry Date: Will be released immediately following Zowe v2.
             homepage_url: https://www.npmjs.com/package/@broadcom/ops-for-zowe-cli
-            project: null
-            crunchbase: https://www.crunchbase.com/organization/broadcom
             logo: opsmvs.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
@@ -2151,12 +2163,6 @@ landscape:
             logo: canonical_group_limited.svg
             twitter: https://twitter.com/Canonical
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
-          - item:
-            name: EPAM Systems, Inc
-            homepage_url: https://epam.com/
-            logo: epam_systems_inc.svg
-            twitter: https://twitter.com/EPAMSYSTEMS
-            crunchbase: https://www.crunchbase.com/organization/epam-systems
           - item:
             name: IN-COM Data Systems
             homepage_url: https://in-com.com/
