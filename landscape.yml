@@ -1722,7 +1722,8 @@ landscape:
           - item:
             name: File Master Plus Plug-in (CLI ZOWE V2)
             description: File Master Plus Plug-in for Zowe CLI brings advanced file management and data manipulation functionality to the CLI.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
+            homepage_url: >-
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
             project:
             logo: file-master-plus.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -1735,45 +1736,52 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: IBM® Db2® Database Plug-in (CLI ZOWE V2)
-            description: The IBM® Db2® Database Plug-in for Zowe CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development
-              tools to automate typical workloads more efficiently.
+            description: >-
+              The IBM® Db2® Database Plug-in for Zowe CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development tools to
+              automate typical workloads more efficiently.
             homepage_url: http://github.com/zowe/zowe-cli-db2-plugin#readme
             logo: ibm-db2-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: IBM® IMS™ Plug-in (CLI ZOWE V2)
-            description: The IBM® IMS™ Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions).
-              You can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
+            description: >-
+              The IBM® IMS™ Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions). You
+              can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
             homepage_url: http://github.com/zowe/zowe-cli-ims-plugin#readme
             logo: idms.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: IBM® MQ Plug-in for Zowe CLI (CLI ZOWE V2)
-            description: The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks,
-              such as defining, altering, and deleting local queue objects.
+            description: >-
+              The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks, such
+              as defining, altering, and deleting local queue objects.
             homepage_url: https://github.com/zowe/zowe-cli-mq-plugin#readme
             logo: ibm-mq-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: MAT Analyze (CLI ZOWE V2)
-            description: The MAT Analyze plug-in for Zowe CLI provides access to Mainframe Application Tuner (MAT) functionality. The plug-in ensures interaction
-              with MAT and enables you to measure your mainframe applications and get the analysis data in the form of MAT analysis views using Zowe command-line
+            description: >-
+              The MAT Analyze plug-in for Zowe CLI provides access to Mainframe Application Tuner (MAT) functionality. The plug-in ensures interaction with MAT
+              and enables you to measure your mainframe applications and get the analysis data in the form of MAT analysis views using Zowe command-line
               interface.
             homepage_url: https://www.npmjs.com/package/@broadcom/mat-analyze-for-zowe-cli
             logo: mat-analyze.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: MAT Detect Plug-in (CLI ZOWE V2)
-            description: The MAT Detect plug-in for Zowe CLI enables you to detect performance issues and access performance data supplied by the Performance Management
-              Assistant component (PMA) of Mainframe Application Tuner. The plug-in ensures interaction of your jobs with the Performance Management Assistant and
-              provides access to PMA functionality.
+            description: >-
+              The MAT Detect plug-in for Zowe CLI enables you to detect performance issues and access performance data supplied by the Performance Management
+              Assistant component (PMA) of Mainframe Application Tuner. The plug-in ensures interaction of your jobs with the Performance Management Assistant
+              and provides access to PMA functionality.
             homepage_url: https://www.npmjs.com/package/@broadcom/mat-detect-for-zowe-cli
             logo: mat-detect.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: OPS/MVS® (CLI ZOWE V2)
-            description: "Extend the Zowe CLI to include OPS/MVS commands\nNPM Registry Date: Will be released immediately following Zowe v2."
+            description: |-
+              Extend the Zowe CLI to include OPS/MVS commands
+              NPM Registry Date: Will be released immediately following Zowe v2.
             homepage_url: https://www.npmjs.com/package/@broadcom/ops-for-zowe-cli
             project:
             logo: opsmvs.svg
@@ -1796,13 +1804,24 @@ landscape:
             homepage_url: https://github.com/zowe/zowe-cli-ftp-plugin#readme
             logo: zowe-zos-ftp-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+          - item:
+            name: Endevor Bridge for Git Plug-in (CLI ZOWE V2)
+            description: >-
+              The Endevor Bridge for Git Plug-in for Zowe CLI allows you to work with and manage Git-Endevor mappings of your Bridge for Git server. Also, as a
+              developer, you can build the changed files from the local working directory of your mapping in an Endevor work area.
+            homepage_url: >-
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-endevor-bridge-for-git-plug-in-for-zowe-cli.html
+            project: null
+            logo: endevor-bridge-git-plugin.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
           - item:
             name: NetMaster (API Mediation Layer ZOWE V2)
-            description: NetMaster includes a microservice that leverages the Open Mainframe Project Zowe Spring Boot REST API SDK. It provides NetMaster customers
-              with an open and standard interface to network management data collected by NetMaster.
+            description: >-
+              NetMaster includes a microservice that leverages the Open Mainframe Project Zowe Spring Boot REST API SDK. It provides NetMaster customers with an
+              open and standard interface to network management data collected by NetMaster.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-netmaster-network-management
             project:
             logo: netmaster.svg
@@ -1810,8 +1829,7 @@ landscape:
             allow_duplicate_repo: true
           - item:
             name: SymDump (API Mediation Layer ZOWE V2)
-            description: SymDump is a fault management tool designed to identify and resolve dumps. The tool provides multitude of user interfaces including REST
-              API.
+            description: SymDump is a fault management tool designed to identify and resolve dumps. The tool provides multitude of user interfaces including REST API.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-intertest-and-ca-symdump/11-0/using.html
             logo: symdump.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -1823,17 +1841,29 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Workload Automation CA 7® (API Mediation Layer ZOWE V2)
-            description: "Zowe CLI plugins for CA 7\n"
+            description: |
+              Zowe CLI plugins for CA 7
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-ca-7-edition/12-1.html
             logo: workload-automation-ca-7.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: File Master Plus (API Mediation Layer ZOWE V2)
+            description: >-
+              File Master Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
+              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0/using/using-the-rest-api.html
+            logo: file-master-plus.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Support Provider Comprehensive ZOWE V2
         items:
           - item:
             name: Brightside (Support Provider Comprehensive ZOWE V2)
-            description: "24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.\
-              \ Brightside subscribers also have access to exclusive\ninnovations."
+            description: >-
+              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.
+              Brightside subscribers also have access to exclusive
+
+              innovations.
             homepage_url: https://broadcom.com/products/mainframe/application-development/brightside
             logo: brightside.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -1842,8 +1872,11 @@ landscape:
         items:
           - item:
             name: Brightside (Support Provider Explorer for Visual Studio Code ZOWE V2)
-            description: "24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.\
-              \ Brightside subscribers also have access to exclusive\ninnovations."
+            description: >-
+              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.
+              Brightside subscribers also have access to exclusive
+
+              innovations.
             homepage_url: https://broadcom.com/products/mainframe/application-development/brightside
             logo: brightside.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -1852,7 +1885,8 @@ landscape:
         items:
           - item:
             name: Brightside (Support Provider- API Mediation Layer ZOWE V2)
-            description: 24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.
+            description: >-
+              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.
               Brightside subscribers also have access to exclusive innovations.
             homepage_url: https://broadcom.com/products/mainframe/application-development/brightside
             logo: brightside.svg
@@ -1871,7 +1905,8 @@ landscape:
         items:
           - item:
             name: Brightside (Support Provider App Framework ZOWE V2)
-            description: 24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.
+            description: >-
+              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.
               Brightside subscribers also have access to exclusive innovations.
             homepage_url: http://broadcom.com/products/mainframe/application-development/brightside
             logo: brightside.svg
@@ -1881,7 +1916,8 @@ landscape:
         items:
           - item:
             name: Brightside (Support Provider CLI ZOWE V2)
-            description: 24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.
+            description: >-
+              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.
               Brightside subscribers also have access to exclusive innovations.
             homepage_url: http://broadcom.com/products/mainframe/application-development/brightside
             logo: brightside.svg
@@ -1891,8 +1927,9 @@ landscape:
         items:
           - item:
             name: Vantage™ Storage Resource Manager (App Framework ZOWE V2)
-            description: CA Vantage™ Storage Resource Manager Web Client, also known as Mainframe Team Center - Management. Zowe App Framework plugin provides access
-              to the Mainframe Team Center - Management from Zowe Desktop.
+            description: >-
+              CA Vantage™ Storage Resource Manager Web Client, also known as Mainframe Team Center - Management. Zowe App Framework plugin provides access to
+              the Mainframe Team Center - Management from Zowe Desktop.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0/web-client.html
             logo: vantage-storage-resource-manager.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
