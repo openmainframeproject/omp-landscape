@@ -1116,7 +1116,7 @@ landscape:
               leads: Elizabeth Joseph
               date_accepted: ^2021-10-14
               last_review_date: none
-              next_review_date: ^2022-06-09
+              next_review_date: ^2022-10-27
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -7105,7 +7105,7 @@ landscape:
               meeting_cadence: https://lists.openmainframeproject.org/g/zowe-dev/calendar
               date_accepted: ^2019-08-20
               last_review_date: ^2021-07-22
-              next_review_date: ^2022-07-21
+              next_review_date: ^2022-07-28
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/zowe
             crunchbase_data:
               name: Open Mainframe Project
@@ -8059,7 +8059,7 @@ landscape:
               leads: Derek Britton and Cameron Seay
               date_accepted: ^2020-06-11
               last_review_date: ^2021-07-08
-              next_review_date: ^2022-07-09
+              next_review_date: ^2022-07-14
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -8408,8 +8408,8 @@ landscape:
               meeting_cadence: none
               leads: Lauren Valenti
               date_accepted: ^2020-05-14
-              last_review_date: ^2021-05-27
-              next_review_date: ^2022-05-26
+              last_review_date: ^2022-05-26
+              next_review_date: ^2023-05-25
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -8556,7 +8556,7 @@ landscape:
               leads: Joe Bostian
               date_accepted: ^2020-02-24
               last_review_date: ^2021-06-17
-              next_review_date: ^2022-06-09
+              next_review_date: ^2022-07-14
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -8962,10 +8962,10 @@ landscape:
               slack_channel: '#tersedecompress'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftersedecompress
               meeting_cadence: none
-              leads: Andrew Rowley
+              leads: none
               date_accepted: ^2018-12-14
               last_review_date: none
-              next_review_date: ^2021-09-09
+              next_review_date: none
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/tersedecompress
             crunchbase_data:
               name: Open Mainframe Project
@@ -9974,8 +9974,7 @@ landscape:
             description: >-
               CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
               VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0/using/using-the-rest-api.html
             stock_ticker: AVGO
             logo: file-master-plus.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -11645,6 +11644,7 @@ landscape:
             project: null
             logo: ibm-z-jcl-expert.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
+            second_path: API Mediation Layer ZOWE V2
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -16183,13 +16183,16 @@ landscape:
         items:
           - item:
             name: CA Endevor® Bridge For Git
-            description: CA Endevor® Bridge for Git lets you interact with CA Endevor® Bridge For Git to perform tasks through Zowe CLI
+            description: >-
+              The Endevor Bridge for Git Plug-in for Zowe CLI allows you to work with and manage Git-Endevor mappings of your Bridge for Git server. Also, as a
+              developer, you can build the changed files from the local working directory of your mapping in an Endevor work area.
             homepage_url: >-
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-endevor-bridge-for-git-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-endevor-bridge-for-git.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
+            second_path: Zowe Conformant / CLI ZOWE V2
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -21734,12 +21737,16 @@ landscape:
               latest_tweet_date: 2022-06-01T16:36:26.000Z
       - subcategory:
         name: Support Provider API Mediation Layer ZOWE V1
+        items: []
       - subcategory:
         name: Support Provider App Framework ZOWE V1
+        items: []
       - subcategory:
         name: Support Provider CLI ZOWE V1
+        items: []
       - subcategory:
         name: Support Provider Explorer for Visual Studio Code ZOWE V1
+        items: []
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V1
         items:
@@ -24682,14 +24689,19 @@ landscape:
               latest_tweet_date: 2022-06-02T18:33:11.000Z
       - subcategory:
         name: Support Provider Comprehensive ZOWE V2
+        items: []
       - subcategory:
         name: Support Provider Explorer for Visual Studio Code ZOWE V2
+        items: []
       - subcategory:
         name: Support Provider API Mediation Layer ZOWE V2
+        items: []
       - subcategory:
         name: Support Provider App Framework ZOWE V2
+        items: []
       - subcategory:
         name: Support Provider CLI ZOWE V2
+        items: []
       - subcategory:
         name: App Framework ZOWE V2
         items:

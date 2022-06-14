@@ -619,7 +619,7 @@ landscape:
               The BMC Common REST API provides open APIs to retrieve data where those APIs can be used also through the Zowe interface and a user-friendly
               interface to experiment with the REST API calls, known as the Swagger UI.
             homepage_url: https://docs.bmc.com/docs/commonmainframe/2021/administering-976814066.html
-            project:
+            project: null
             logo: commonrestapi.svg
             crunchbase: https://www.crunchbase.com/organization/bmc-software
             allow_duplicate_repo: true
@@ -752,7 +752,7 @@ landscape:
               IBM Z ChatOps also provides an incident webhook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident to enable other products to
               send their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data model.
             homepage_url: https://www.ibm.com/docs/en/z-chatops
-            project:
+            project: null
             logo: IBM Z ChatOps.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -763,7 +763,7 @@ landscape:
               IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
               costly delays through mass JCL checking.
             homepage_url: https://www.ibm.com/products/z-jcl-expert
-            project:
+            project: null
             logo: ibm-z-jcl-expert.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
             second_path: API Mediation Layer ZOWE V2
@@ -815,7 +815,7 @@ landscape:
               ASG-PRO/JCL is a JCL management solution that helps mainframe data centers achieve and operate a production Job Control Language (JCL) environment
               that is error free, standardized and optimized with a DevOps-enabled Eclipse plugin.
             homepage_url: https://www.asg.com/en/Products/IT-Systems-Management/Operations-Management/JCL-Management/ASG-PRO-JCL.aspx
-            project:
+            project: null
             logo: projcl.svg
             crunchbase: https://www.crunchbase.com/organization/asg
       - subcategory:
@@ -1249,7 +1249,7 @@ landscape:
             second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
             name: Zowe Explorer for IBM CICS
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
-            project:
+            project: null
             repo_url: https://github.com/zowe/vscode-extension-for-cics
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -1813,7 +1813,7 @@ landscape:
             homepage_url: https://maintenance.vmware.com/maintenance.html
             repo_url: https://github.com/saltstack/salt
             logo: salt-stack.svg
-            twitter:
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/saltstack
           - item:
             name: SonarCube
@@ -1921,7 +1921,7 @@ landscape:
             homepage_url: https://spark.apache.org
             repo_url: https://github.com/apache/spark
             logo: spark.svg
-            twitter:
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Elastic
@@ -1959,7 +1959,7 @@ landscape:
             homepage_url: https://lucene.apache.org/
             repo_url: https://github.com/apache/lucene-solr
             logo: lucenesolr.svg
-            twitter:
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Splunk
