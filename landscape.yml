@@ -639,8 +639,7 @@ landscape:
             allow_duplicate_repo: true
           - item:
             name: Database Management Solutions for Db2 for z/OS
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
+            second_path: Zowe Conformant / CLI ZOWE V1
             description: RESTful APIs for Db2 for z/OS data access and management
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html
             stock_ticker: AVGO
@@ -1223,6 +1222,7 @@ landscape:
             logo: ibm-z-open-editor.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
             allow_duplicate_repo: true
+            second_path: Zowe Explorer for Visual Studio Code - ZOWE V2
           - item:
             name: JCL Language Support
             description: >-
