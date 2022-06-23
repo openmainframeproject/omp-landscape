@@ -736,10 +736,37 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
+            name: Database Management Solutions for Db2 for z/OS
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+            description: RESTful APIs for Db2 for z/OS data access and management
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html
+            stock_ticker: AVGO
+            logo: database-management-solutions-for-db2-for-zos.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
+          - item:
             name: Datacom DST API
             description: Restful API for accessing CA Datacom Dynamic System Tables
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-datacom-tools/15-1.html
             logo: datacom-dst-api.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
+          - item:
+            name: File Master™ Plus
+            second_path:
+              - Zowe Conformant / CLI 2019
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / API Mediation Layer 2019
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
+              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
+            homepage_url: >-
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
+            stock_ticker: AVGO
+            logo: file-master-plus.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
@@ -808,6 +835,16 @@ landscape:
             repo_url: https://github.com/zowe/ims-operations-api
             logo: zowe-ims-operations-api.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            allow_duplicate_repo: true
+          - item:
+            name: NetMaster
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers with
+              an open and standard interface to network management data collected by NetMaster.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-netmaster-network-management
+            logo: netmaster.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: PRO/JCL Plug-in
@@ -1011,6 +1048,30 @@ landscape:
             logo: ibm-z-workload-scheduler.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
+            allow_duplicate_repo: true
+          - item:
+            name: MAT Analyze
+            second_path: Zowe Conformant / CLI ZOWE V2
+            description: >-
+              MAT Analyze ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data in the form of CA MAT
+              analysis views using Zowe CLI.
+            homepage_url: >-
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-mat-analyze-plug-in-for-zowe-cli.html
+            stock_ticker: AVGO
+            logo: mat-analyze.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            allow_duplicate_repo: true
+          - item:
+            name: MAT Detect
+            second_path: Zowe Conformant / CLI ZOWE V2
+            description: >-
+              MAT Detect provides utilities to access performance data supplied by the CA Mainframe Application Tuner component Performance Management Assistant
+              (PMA).
+            homepage_url: >-
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-mat-detect-plug-in-for-zowe-cli.html
+            stock_ticker: AVGO
+            logo: mat-detect.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
             allow_duplicate_repo: true
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI
@@ -1247,8 +1308,8 @@ landscape:
         name: Explorer for Visual Studio Code ZOWE V2
         items:
           - item:
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
             name: Zowe Explorer for IBM CICS
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
             project: null
             repo_url: https://github.com/zowe/vscode-extension-for-cics
@@ -1258,28 +1319,6 @@ landscape:
       - subcategory:
         name: CLI ZOWE V2
         items:
-          - item:
-            name: IBM® MQ Plug-in for Zowe CLI
-            second_path:
-              - Zowe Conformant / App Framework 2019
-              - Zowe Conformant / API Mediation Layer 2019
-              - Zowe Conformant / CLI 2019
-              - Zowe Conformant / CLI ZOWE V1
-            description: >-
-              The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks, such
-              as defining, altering, and deleting local queue objects.
-            homepage_url: https://github.com/zowe/zowe-cli-mq-plugin#readme
-            repo_url: https://github.com/zowe/zowe-cli-mq-plugin
-            logo: ibm-mq-for-cli.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
-            name: z/OS FTP Plug-in for Zowe CLI
-            second_path: Zowe Conformant / CLI ZOWE V1
-            description: The z/OS FTP Plug-in for Zowe CLI lets you access z/OS datasets, USS files, and submit JCL, leveraging the z/OS FTP service.
-            repo_url: https://github.com/zowe/zowe-cli-ftp-plugin
-            homepage_url: https://github.com/zowe/zowe-cli-ftp-plugin#readme
-            logo: zowe-zos-ftp-for-cli.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI
             second_path:
@@ -1297,8 +1336,8 @@ landscape:
             description: >-
               The IBM® Db2® Database Plug-in for Zowe CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development tools to
               automate typical workloads more efficiently.
-            repo_url: https://github.com/zowe/zowe-cli-db2-plugin
             homepage_url: http://github.com/zowe/zowe-cli-db2-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-db2-plugin
             logo: ibm-db2-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
@@ -1311,6 +1350,31 @@ landscape:
             repo_url: https://github.com/zowe/zowe-cli-ims-plugin
             logo: ibm-ims-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+          - item:
+            name: IBM® MQ Plug-in for Zowe CLI
+            second_path:
+              - Zowe Conformant / App Framework 2019
+              - Zowe Conformant / API Mediation Layer 2019
+              - Zowe Conformant / CLI 2019
+              - Zowe Conformant / CLI ZOWE V1
+            description: >-
+              The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks, such
+              as defining, altering, and deleting local queue objects.
+            homepage_url: https://github.com/zowe/zowe-cli-mq-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-mq-plugin
+            logo: ibm-mq-for-cli.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+          - item:
+            name: OPS/MVS®
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI 2019
+            description: |-
+              Extend the Zowe CLI to include OPS/MVS commands
+              NPM Registry Date: Will be released immediately following Zowe v2.
+            homepage_url: https://www.npmjs.com/package/@broadcom/ops-for-zowe-cli
+            logo: opsmvs.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Spool™
             second_path: Zowe Conformant / CLI ZOWE V1
@@ -1329,16 +1393,13 @@ landscape:
             logo: workload-automation-ca-7.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: OPS/MVS®
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI 2019
-            description: |-
-              Extend the Zowe CLI to include OPS/MVS commands
-              NPM Registry Date: Will be released immediately following Zowe v2.
-            homepage_url: https://www.npmjs.com/package/@broadcom/ops-for-zowe-cli
-            logo: opsmvs.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
+            name: z/OS FTP Plug-in for Zowe CLI
+            second_path: Zowe Conformant / CLI ZOWE V1
+            description: The z/OS FTP Plug-in for Zowe CLI lets you access z/OS datasets, USS files, and submit JCL, leveraging the z/OS FTP service.
+            homepage_url: https://github.com/zowe/zowe-cli-ftp-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-ftp-plugin
+            logo: zowe-zos-ftp-for-cli.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
