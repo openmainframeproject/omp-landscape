@@ -9072,7 +9072,6 @@ landscape:
             homepage_url: https://phoenixsoftware.com/ejes.htm
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Phoenix Software International
               description: Phoenix Software International, Inc., is a systems software development company providing advanced software applications to enterprises.
@@ -9259,7 +9258,6 @@ landscape:
             project: null
             logo: commonrestapi.svg
             crunchbase: https://www.crunchbase.com/organization/bmc-software
-            allow_duplicate_repo: true
             crunchbase_data:
               name: BMC Software
               description: BMC Software is a business service management platform offering cloud and IT management solutions for businesses.
@@ -9402,7 +9400,6 @@ landscape:
             homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/compliance-event-manager
             logo: ca-compliance-event-manager.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -9547,7 +9544,6 @@ landscape:
             homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/data-content-discovery
             logo: ca-data-content-discovery.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -9694,7 +9690,6 @@ landscape:
             stock_ticker: AVGO
             logo: database-management-solutions-for-db2-for-zos.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -9845,7 +9840,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -9999,7 +9993,6 @@ landscape:
             stock_ticker: AVGO
             logo: file-master-plus.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -10146,7 +10139,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-idms.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -10296,7 +10288,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-jclcheck-workload-automation.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -10441,7 +10432,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-mainframe-security-insights-platform.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -10588,7 +10578,6 @@ landscape:
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
             logo: ca-mat.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -10736,7 +10725,6 @@ landscape:
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-netmaster-network-management
             logo: netmaster.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -10887,7 +10875,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-sysview-performance-management.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -11027,160 +11014,11 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-06-22T14:11:45.000Z
           - item:
-            name: Database Management Solutions for Db2 for z/OS
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-            description: RESTful APIs for Db2 for z/OS data access and management
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html
-            stock_ticker: AVGO
-            logo: database-management-solutions-for-db2-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-            crunchbase_data:
-              name: Broadcom
-              description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/Broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '1999-01-27'
-                  acquiree: Maverick Networks
-                  price: 111900000
-                - date: '1999-08-12'
-                  acquiree: Altocom
-                  price: 180000000
-                - date: '2000-08-07'
-                  acquiree: Silicon Spice
-                  price: 1230000000
-                - date: '2000-08-15'
-                  acquiree: NewPort Communications
-                  price: 1320000000
-                - date: '2000-10-17'
-                  acquiree: Allayer Technologies
-                  price: 276000000
-                - date: '2000-11-01'
-                  acquiree: Element 14 Inc
-                  price: 600000000
-                - date: '2000-11-07'
-                  acquiree: SiByte
-                  price: 2040000000
-                - date: '2001-01-06'
-                  acquiree: VisionTech
-                  price: 250000000
-                - date: '2001-01-08'
-                  acquiree: ServerWorks
-                  price: 957000000
-                - date: '2003-03-03'
-                  acquiree: Gadzoox Network
-                - date: '2004-02-02'
-                  acquiree: RAIDCore
-                - date: '2004-04-07'
-                  acquiree: Sand Video
-                  price: 77500000
-                - date: '2004-04-20'
-                  acquiree: WIDCOMM
-                - date: '2004-06-16'
-                  acquiree: Zyray Wireless
-                  price: 96000000
-                - date: '2004-09-22'
-                  acquiree: Alphamosaic
-                  price: 123000000
-                - date: '2004-10-05'
-                  acquiree: Agere Systems
-                - date: '2005-03-07'
-                  acquiree: Zeevo
-                - date: '2005-07-19'
-                  acquiree: Siliquent Technologies
-                  price: 84000000
-                - date: '2005-10-06'
-                  acquiree: Athena Semiconductors
-                - date: '2006-01-23'
-                  acquiree: Sandburst Corporation
-                - date: '2006-11-29'
-                  acquiree: LVL7 Systems
-                  price: 62000000
-                - date: '2007-05-03'
-                  acquiree: Octalica
-                  price: 31000000
-                - date: '2007-07-12'
-                  acquiree: Global Locate
-                  price: 146000000
-                - date: '2009-11-30'
-                  acquiree: DuneNetworks
-                  price: 178000000
-                - date: '2010-02-03'
-                  acquiree: Teknovus
-                  price: 123000000
-                - date: '2010-06-17'
-                  acquiree: Innovision Research & Technology
-                  price: 47500000
-                - date: '2010-10-13'
-                  acquiree: Beceem Communications
-                  price: 316000000
-                - date: '2010-10-26'
-                  acquiree: Percello
-                  price: 86000000
-                - date: '2010-11-22'
-                  acquiree: Gigle Networks
-                  price: 75000000
-                - date: '2011-03-21'
-                  acquiree: Provigent
-                  price: 314000000
-                - date: '2011-05-09'
-                  acquiree: SCsquare
-                  price: 42000000
-                - date: '2011-09-12'
-                  acquiree: NetLogic Microsystems
-                  price: 3700000000
-                - date: '2012-03-21'
-                  acquiree: BroadLight
-                  price: 230000000
-                - date: '2013-01-30'
-                  acquiree: BroadLogic Network Technologies
-                - date: '2016-05-17'
-                  acquiree: MagnaCom
-                  price: 50000000
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                  price: 5900000000
-                - date: '2019-11-01'
-                  acquiree: NortonLifeLock
-                  price: 10700000000
-                - date: '2019-12-31'
-                  acquiree: Bay Dynamics
-                - date: '2021-12-07'
-                  acquiree: AppNeta
-                - date: '2022-05-26'
-                  acquiree: VMware
-                  price: 61000000000
-              parents: []
-              funding: 0
-              stockExchange: nasdaq
-              company_type: For Profit
-              industries:
-                - Mobile
-                - Semiconductor
-                - Wireless
-            image_data:
-              fileName: database-management-solutions-for-db2-for-z-os.svg
-              hash: bI+ChshTZwoZp8DqrAAML7z/xOesd6G8ai8f5zVeMWU=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-06-22T14:11:45.000Z
-          - item:
             name: Datacom DST API
             description: Restful API for accessing CA Datacom Dynamic System Tables
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-datacom-tools/15-1.html
             logo: datacom-dst-api.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -11320,161 +11158,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-06-22T14:11:45.000Z
           - item:
-            name: File Master™ Plus
-            second_path:
-              - Zowe Conformant / CLI 2019
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / API Mediation Layer 2019
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
-              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
-            stock_ticker: AVGO
-            logo: file-master-plus.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-            crunchbase_data:
-              name: Broadcom
-              description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/Broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '1999-01-27'
-                  acquiree: Maverick Networks
-                  price: 111900000
-                - date: '1999-08-12'
-                  acquiree: Altocom
-                  price: 180000000
-                - date: '2000-08-07'
-                  acquiree: Silicon Spice
-                  price: 1230000000
-                - date: '2000-08-15'
-                  acquiree: NewPort Communications
-                  price: 1320000000
-                - date: '2000-10-17'
-                  acquiree: Allayer Technologies
-                  price: 276000000
-                - date: '2000-11-01'
-                  acquiree: Element 14 Inc
-                  price: 600000000
-                - date: '2000-11-07'
-                  acquiree: SiByte
-                  price: 2040000000
-                - date: '2001-01-06'
-                  acquiree: VisionTech
-                  price: 250000000
-                - date: '2001-01-08'
-                  acquiree: ServerWorks
-                  price: 957000000
-                - date: '2003-03-03'
-                  acquiree: Gadzoox Network
-                - date: '2004-02-02'
-                  acquiree: RAIDCore
-                - date: '2004-04-07'
-                  acquiree: Sand Video
-                  price: 77500000
-                - date: '2004-04-20'
-                  acquiree: WIDCOMM
-                - date: '2004-06-16'
-                  acquiree: Zyray Wireless
-                  price: 96000000
-                - date: '2004-09-22'
-                  acquiree: Alphamosaic
-                  price: 123000000
-                - date: '2004-10-05'
-                  acquiree: Agere Systems
-                - date: '2005-03-07'
-                  acquiree: Zeevo
-                - date: '2005-07-19'
-                  acquiree: Siliquent Technologies
-                  price: 84000000
-                - date: '2005-10-06'
-                  acquiree: Athena Semiconductors
-                - date: '2006-01-23'
-                  acquiree: Sandburst Corporation
-                - date: '2006-11-29'
-                  acquiree: LVL7 Systems
-                  price: 62000000
-                - date: '2007-05-03'
-                  acquiree: Octalica
-                  price: 31000000
-                - date: '2007-07-12'
-                  acquiree: Global Locate
-                  price: 146000000
-                - date: '2009-11-30'
-                  acquiree: DuneNetworks
-                  price: 178000000
-                - date: '2010-02-03'
-                  acquiree: Teknovus
-                  price: 123000000
-                - date: '2010-06-17'
-                  acquiree: Innovision Research & Technology
-                  price: 47500000
-                - date: '2010-10-13'
-                  acquiree: Beceem Communications
-                  price: 316000000
-                - date: '2010-10-26'
-                  acquiree: Percello
-                  price: 86000000
-                - date: '2010-11-22'
-                  acquiree: Gigle Networks
-                  price: 75000000
-                - date: '2011-03-21'
-                  acquiree: Provigent
-                  price: 314000000
-                - date: '2011-05-09'
-                  acquiree: SCsquare
-                  price: 42000000
-                - date: '2011-09-12'
-                  acquiree: NetLogic Microsystems
-                  price: 3700000000
-                - date: '2012-03-21'
-                  acquiree: BroadLight
-                  price: 230000000
-                - date: '2013-01-30'
-                  acquiree: BroadLogic Network Technologies
-                - date: '2016-05-17'
-                  acquiree: MagnaCom
-                  price: 50000000
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                  price: 5900000000
-                - date: '2019-11-01'
-                  acquiree: NortonLifeLock
-                  price: 10700000000
-                - date: '2019-12-31'
-                  acquiree: Bay Dynamics
-                - date: '2021-12-07'
-                  acquiree: AppNeta
-                - date: '2022-05-26'
-                  acquiree: VMware
-                  price: 61000000000
-              parents: []
-              funding: 0
-              stockExchange: nasdaq
-              company_type: For Profit
-              industries:
-                - Mobile
-                - Semiconductor
-                - Wireless
-            image_data:
-              fileName: file-master-plus.svg
-              hash: RSiCxan7iGAa5kSjy1D+Dq12Bgock7/E9I8OSmGv7ss=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-06-22T14:11:45.000Z
-          - item:
             name: IBM Z ChatOps
             description: >-
               IBM Z ChatOps V1.1.2 provides ChatOps capabilities for an IBM Z environment by providing a chatbot that gives users in a supported enterprise chat
@@ -11487,7 +11170,6 @@ landscape:
             logo: IBM Z ChatOps.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -12453,7 +12135,6 @@ landscape:
             logo: ibm-remote-system-explorer-api.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             second_path: Zowe Conformant / CLI ZOWE V2
             crunchbase_data:
               name: IBM
@@ -12942,7 +12623,6 @@ landscape:
             logo: ibm-z-netview.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -13425,7 +13105,6 @@ landscape:
             logo: ibm-z-system-automation.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -13905,7 +13584,6 @@ landscape:
             repo_url: https://github.com/zowe/ims-operations-api
             logo: zowe-ims-operations-api.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -13969,154 +13647,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-06-22T17:45:00.000Z
           - item:
-            name: NetMaster
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers with
-              an open and standard interface to network management data collected by NetMaster.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-netmaster-network-management
-            logo: netmaster.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-            crunchbase_data:
-              name: Broadcom
-              description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/Broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '1999-01-27'
-                  acquiree: Maverick Networks
-                  price: 111900000
-                - date: '1999-08-12'
-                  acquiree: Altocom
-                  price: 180000000
-                - date: '2000-08-07'
-                  acquiree: Silicon Spice
-                  price: 1230000000
-                - date: '2000-08-15'
-                  acquiree: NewPort Communications
-                  price: 1320000000
-                - date: '2000-10-17'
-                  acquiree: Allayer Technologies
-                  price: 276000000
-                - date: '2000-11-01'
-                  acquiree: Element 14 Inc
-                  price: 600000000
-                - date: '2000-11-07'
-                  acquiree: SiByte
-                  price: 2040000000
-                - date: '2001-01-06'
-                  acquiree: VisionTech
-                  price: 250000000
-                - date: '2001-01-08'
-                  acquiree: ServerWorks
-                  price: 957000000
-                - date: '2003-03-03'
-                  acquiree: Gadzoox Network
-                - date: '2004-02-02'
-                  acquiree: RAIDCore
-                - date: '2004-04-07'
-                  acquiree: Sand Video
-                  price: 77500000
-                - date: '2004-04-20'
-                  acquiree: WIDCOMM
-                - date: '2004-06-16'
-                  acquiree: Zyray Wireless
-                  price: 96000000
-                - date: '2004-09-22'
-                  acquiree: Alphamosaic
-                  price: 123000000
-                - date: '2004-10-05'
-                  acquiree: Agere Systems
-                - date: '2005-03-07'
-                  acquiree: Zeevo
-                - date: '2005-07-19'
-                  acquiree: Siliquent Technologies
-                  price: 84000000
-                - date: '2005-10-06'
-                  acquiree: Athena Semiconductors
-                - date: '2006-01-23'
-                  acquiree: Sandburst Corporation
-                - date: '2006-11-29'
-                  acquiree: LVL7 Systems
-                  price: 62000000
-                - date: '2007-05-03'
-                  acquiree: Octalica
-                  price: 31000000
-                - date: '2007-07-12'
-                  acquiree: Global Locate
-                  price: 146000000
-                - date: '2009-11-30'
-                  acquiree: DuneNetworks
-                  price: 178000000
-                - date: '2010-02-03'
-                  acquiree: Teknovus
-                  price: 123000000
-                - date: '2010-06-17'
-                  acquiree: Innovision Research & Technology
-                  price: 47500000
-                - date: '2010-10-13'
-                  acquiree: Beceem Communications
-                  price: 316000000
-                - date: '2010-10-26'
-                  acquiree: Percello
-                  price: 86000000
-                - date: '2010-11-22'
-                  acquiree: Gigle Networks
-                  price: 75000000
-                - date: '2011-03-21'
-                  acquiree: Provigent
-                  price: 314000000
-                - date: '2011-05-09'
-                  acquiree: SCsquare
-                  price: 42000000
-                - date: '2011-09-12'
-                  acquiree: NetLogic Microsystems
-                  price: 3700000000
-                - date: '2012-03-21'
-                  acquiree: BroadLight
-                  price: 230000000
-                - date: '2013-01-30'
-                  acquiree: BroadLogic Network Technologies
-                - date: '2016-05-17'
-                  acquiree: MagnaCom
-                  price: 50000000
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                  price: 5900000000
-                - date: '2019-11-01'
-                  acquiree: NortonLifeLock
-                  price: 10700000000
-                - date: '2019-12-31'
-                  acquiree: Bay Dynamics
-                - date: '2021-12-07'
-                  acquiree: AppNeta
-                - date: '2022-05-26'
-                  acquiree: VMware
-                  price: 61000000000
-              parents: []
-              funding: 0
-              stockExchange: nasdaq
-              company_type: For Profit
-              industries:
-                - Mobile
-                - Semiconductor
-                - Wireless
-            image_data:
-              fileName: net-master.svg
-              hash: IKAD4P7DD3bgSv/nc3gk/J1YZ7Wz2enGtYvBQ9vGF8Y=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-06-22T14:11:45.000Z
-          - item:
             name: PRO/JCL Plug-in
             description: >-
               ASG-PRO/JCL is a JCL management solution that helps mainframe data centers achieve and operate a production Job Control Language (JCL) environment
@@ -14179,7 +13709,6 @@ landscape:
             logo: ibm-z-service-management-explorer.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -15146,7 +14675,6 @@ landscape:
             logo: ibm-db2-administration-foundation-for-zos.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -15633,7 +15161,6 @@ landscape:
             logo: db2-devops-experience-for-zos.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -16118,7 +15645,6 @@ landscape:
             logo: service-management-unite.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -16601,7 +16127,6 @@ landscape:
             homepage_url: https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-web
             logo: rocketsoftware-bluezoneweb.svg
             crunchbase: https://www.crunchbase.com/organization/rocket-software
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Rocket Software
               description: Rocket Software is a software development firm that offers enterprise infrastructure products and various related services.
@@ -16684,7 +16209,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-endevor-bridge-for-git.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             second_path: Zowe Conformant / CLI ZOWE V2
             crunchbase_data:
               name: Broadcom
@@ -16834,7 +16358,6 @@ landscape:
             stock_ticker: AVGO
             logo: mat-analyze.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -16983,7 +16506,6 @@ landscape:
             stock_ticker: AVGO
             logo: mat-detect.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -17132,7 +16654,6 @@ landscape:
             stock_ticker: AVGO
             logo: view.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             second_path: Zowe Conformant / CLI ZOWE V2
             crunchbase_data:
               name: Broadcom
@@ -17281,7 +16802,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -17429,7 +16949,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -17575,7 +17094,6 @@ landscape:
             logo: changeman-zmf-zowe-cli.svg
             twitter: https://twitter.com/MicroFocus
             crunchbase: https://www.crunchbase.com/organization/micro-focus
-            allow_duplicate_repo: true
             second_path: Zowe Conformant / CLI ZOWE V2
             crunchbase_data:
               name: Micro Focus
@@ -17654,7 +17172,6 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
             logo: cobol-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -18330,7 +17847,6 @@ landscape:
             logo: ibm-z-system-automation.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -18816,7 +18332,6 @@ landscape:
             logo: ibm-z-workload-scheduler.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -19291,306 +18806,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-06-21T14:00:14.000Z
           - item:
-            name: MAT Analyze
-            second_path: Zowe Conformant / CLI ZOWE V2
-            description: >-
-              MAT Analyze ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data in the form of CA MAT
-              analysis views using Zowe CLI.
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-mat-analyze-plug-in-for-zowe-cli.html
-            stock_ticker: AVGO
-            logo: mat-analyze.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-            crunchbase_data:
-              name: Broadcom
-              description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/Broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '1999-01-27'
-                  acquiree: Maverick Networks
-                  price: 111900000
-                - date: '1999-08-12'
-                  acquiree: Altocom
-                  price: 180000000
-                - date: '2000-08-07'
-                  acquiree: Silicon Spice
-                  price: 1230000000
-                - date: '2000-08-15'
-                  acquiree: NewPort Communications
-                  price: 1320000000
-                - date: '2000-10-17'
-                  acquiree: Allayer Technologies
-                  price: 276000000
-                - date: '2000-11-01'
-                  acquiree: Element 14 Inc
-                  price: 600000000
-                - date: '2000-11-07'
-                  acquiree: SiByte
-                  price: 2040000000
-                - date: '2001-01-06'
-                  acquiree: VisionTech
-                  price: 250000000
-                - date: '2001-01-08'
-                  acquiree: ServerWorks
-                  price: 957000000
-                - date: '2003-03-03'
-                  acquiree: Gadzoox Network
-                - date: '2004-02-02'
-                  acquiree: RAIDCore
-                - date: '2004-04-07'
-                  acquiree: Sand Video
-                  price: 77500000
-                - date: '2004-04-20'
-                  acquiree: WIDCOMM
-                - date: '2004-06-16'
-                  acquiree: Zyray Wireless
-                  price: 96000000
-                - date: '2004-09-22'
-                  acquiree: Alphamosaic
-                  price: 123000000
-                - date: '2004-10-05'
-                  acquiree: Agere Systems
-                - date: '2005-03-07'
-                  acquiree: Zeevo
-                - date: '2005-07-19'
-                  acquiree: Siliquent Technologies
-                  price: 84000000
-                - date: '2005-10-06'
-                  acquiree: Athena Semiconductors
-                - date: '2006-01-23'
-                  acquiree: Sandburst Corporation
-                - date: '2006-11-29'
-                  acquiree: LVL7 Systems
-                  price: 62000000
-                - date: '2007-05-03'
-                  acquiree: Octalica
-                  price: 31000000
-                - date: '2007-07-12'
-                  acquiree: Global Locate
-                  price: 146000000
-                - date: '2009-11-30'
-                  acquiree: DuneNetworks
-                  price: 178000000
-                - date: '2010-02-03'
-                  acquiree: Teknovus
-                  price: 123000000
-                - date: '2010-06-17'
-                  acquiree: Innovision Research & Technology
-                  price: 47500000
-                - date: '2010-10-13'
-                  acquiree: Beceem Communications
-                  price: 316000000
-                - date: '2010-10-26'
-                  acquiree: Percello
-                  price: 86000000
-                - date: '2010-11-22'
-                  acquiree: Gigle Networks
-                  price: 75000000
-                - date: '2011-03-21'
-                  acquiree: Provigent
-                  price: 314000000
-                - date: '2011-05-09'
-                  acquiree: SCsquare
-                  price: 42000000
-                - date: '2011-09-12'
-                  acquiree: NetLogic Microsystems
-                  price: 3700000000
-                - date: '2012-03-21'
-                  acquiree: BroadLight
-                  price: 230000000
-                - date: '2013-01-30'
-                  acquiree: BroadLogic Network Technologies
-                - date: '2016-05-17'
-                  acquiree: MagnaCom
-                  price: 50000000
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                  price: 5900000000
-                - date: '2019-11-01'
-                  acquiree: NortonLifeLock
-                  price: 10700000000
-                - date: '2019-12-31'
-                  acquiree: Bay Dynamics
-                - date: '2021-12-07'
-                  acquiree: AppNeta
-                - date: '2022-05-26'
-                  acquiree: VMware
-                  price: 61000000000
-              parents: []
-              funding: 0
-              stockExchange: nasdaq
-              company_type: For Profit
-              industries:
-                - Mobile
-                - Semiconductor
-                - Wireless
-            image_data:
-              fileName: mat-analyze.svg
-              hash: 9Pft165fLWXU1Hre+i60po5GnmxX1U4ooSZBlnLXXB0=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-06-22T14:11:45.000Z
-          - item:
-            name: MAT Detect
-            second_path: Zowe Conformant / CLI ZOWE V2
-            description: >-
-              MAT Detect provides utilities to access performance data supplied by the CA Mainframe Application Tuner component Performance Management Assistant
-              (PMA).
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-mat-detect-plug-in-for-zowe-cli.html
-            stock_ticker: AVGO
-            logo: mat-detect.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-            crunchbase_data:
-              name: Broadcom
-              description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/Broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '1999-01-27'
-                  acquiree: Maverick Networks
-                  price: 111900000
-                - date: '1999-08-12'
-                  acquiree: Altocom
-                  price: 180000000
-                - date: '2000-08-07'
-                  acquiree: Silicon Spice
-                  price: 1230000000
-                - date: '2000-08-15'
-                  acquiree: NewPort Communications
-                  price: 1320000000
-                - date: '2000-10-17'
-                  acquiree: Allayer Technologies
-                  price: 276000000
-                - date: '2000-11-01'
-                  acquiree: Element 14 Inc
-                  price: 600000000
-                - date: '2000-11-07'
-                  acquiree: SiByte
-                  price: 2040000000
-                - date: '2001-01-06'
-                  acquiree: VisionTech
-                  price: 250000000
-                - date: '2001-01-08'
-                  acquiree: ServerWorks
-                  price: 957000000
-                - date: '2003-03-03'
-                  acquiree: Gadzoox Network
-                - date: '2004-02-02'
-                  acquiree: RAIDCore
-                - date: '2004-04-07'
-                  acquiree: Sand Video
-                  price: 77500000
-                - date: '2004-04-20'
-                  acquiree: WIDCOMM
-                - date: '2004-06-16'
-                  acquiree: Zyray Wireless
-                  price: 96000000
-                - date: '2004-09-22'
-                  acquiree: Alphamosaic
-                  price: 123000000
-                - date: '2004-10-05'
-                  acquiree: Agere Systems
-                - date: '2005-03-07'
-                  acquiree: Zeevo
-                - date: '2005-07-19'
-                  acquiree: Siliquent Technologies
-                  price: 84000000
-                - date: '2005-10-06'
-                  acquiree: Athena Semiconductors
-                - date: '2006-01-23'
-                  acquiree: Sandburst Corporation
-                - date: '2006-11-29'
-                  acquiree: LVL7 Systems
-                  price: 62000000
-                - date: '2007-05-03'
-                  acquiree: Octalica
-                  price: 31000000
-                - date: '2007-07-12'
-                  acquiree: Global Locate
-                  price: 146000000
-                - date: '2009-11-30'
-                  acquiree: DuneNetworks
-                  price: 178000000
-                - date: '2010-02-03'
-                  acquiree: Teknovus
-                  price: 123000000
-                - date: '2010-06-17'
-                  acquiree: Innovision Research & Technology
-                  price: 47500000
-                - date: '2010-10-13'
-                  acquiree: Beceem Communications
-                  price: 316000000
-                - date: '2010-10-26'
-                  acquiree: Percello
-                  price: 86000000
-                - date: '2010-11-22'
-                  acquiree: Gigle Networks
-                  price: 75000000
-                - date: '2011-03-21'
-                  acquiree: Provigent
-                  price: 314000000
-                - date: '2011-05-09'
-                  acquiree: SCsquare
-                  price: 42000000
-                - date: '2011-09-12'
-                  acquiree: NetLogic Microsystems
-                  price: 3700000000
-                - date: '2012-03-21'
-                  acquiree: BroadLight
-                  price: 230000000
-                - date: '2013-01-30'
-                  acquiree: BroadLogic Network Technologies
-                - date: '2016-05-17'
-                  acquiree: MagnaCom
-                  price: 50000000
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                  price: 5900000000
-                - date: '2019-11-01'
-                  acquiree: NortonLifeLock
-                  price: 10700000000
-                - date: '2019-12-31'
-                  acquiree: Bay Dynamics
-                - date: '2021-12-07'
-                  acquiree: AppNeta
-                - date: '2022-05-26'
-                  acquiree: VMware
-                  price: 61000000000
-              parents: []
-              funding: 0
-              stockExchange: nasdaq
-              company_type: For Profit
-              industries:
-                - Mobile
-                - Semiconductor
-                - Wireless
-            image_data:
-              fileName: mat-detect.svg
-              hash: 4YxkguZuldCae22TgI1hseU9t4keMwaJc3AbtPcKims=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-06-22T14:11:45.000Z
-          - item:
             name: z/OS Connect EE Plug-in for Zowe CLI
             second_path: Zowe Conformant / CLI 2019
             description: A Zowe CLI Plug-in for administering z/OS Connect EE servers.
@@ -19599,7 +18814,6 @@ landscape:
             logo: zos-connect-ee.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -20110,7 +19324,6 @@ landscape:
             logo: zowe-cli-cics-deploy.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -20620,7 +19833,6 @@ landscape:
             repo_url: https://github.com/zowe/zowe-cli-scs-plugin
             logo: zowe-secure-credential-store.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -20687,7 +19899,6 @@ landscape:
             homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Phoenix Software International
               description: Phoenix Software International, Inc., is a systems software development company providing advanced software applications to enterprises.
@@ -20725,7 +19936,6 @@ landscape:
             logo: service-automation-suite.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -21208,7 +20418,6 @@ landscape:
             logo: service-management-suite-for-zos.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -21692,7 +20901,6 @@ landscape:
             repo_url: https://github.com/phoenixsoftware/ejes-cli
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Phoenix Software International
               description: Phoenix Software International, Inc., is a systems software development company providing advanced software applications to enterprises.
@@ -21752,7 +20960,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-secure-credential-store.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -21912,7 +21119,6 @@ landscape:
             homepage_url: https://www.broadcom.com/products/mainframe/application-development/brightside
             logo: brightside.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -22073,7 +21279,6 @@ landscape:
             logo: ibm-z-distribution-for-zowe.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             crunchbase_data:
               name: IBM
               description: IBM is an IT technology and consulting firm providing computer hardware, software, infrastructure, and hosting services.
@@ -22570,7 +21775,6 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.abend-analyzer
             logo: abend-analyzer-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -22717,7 +21921,6 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.ccf
             logo: cobol-control-flow.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -22862,7 +22065,6 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack
             logo: code4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -23009,7 +22211,6 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.data-editor-for-mainframe
             logo: data-editor-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -23158,7 +22359,6 @@ landscape:
             logo: debugger-for-mainframe.svg
             open_source: false
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -23323,7 +22523,6 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
             logo: explorer-for-endevor.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -23499,7 +22698,6 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
             logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -23689,7 +22887,6 @@ landscape:
             homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
             logo: ibm-z-open-editor.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             crunchbase_data:
               name: IBM
@@ -24174,7 +23371,6 @@ landscape:
             logo: jcl-language-support.svg
             open_source: false
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Broadcom
               description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
@@ -24338,7 +23534,6 @@ landscape:
             repo_url: https://github.com/zowe/vscode-extension-for-zowe
             logo: zowe-explorer-extension-for-ftp.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -24405,7 +23600,6 @@ landscape:
             repo_url: https://github.com/zowe/vscode-extension-for-cics
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            allow_duplicate_repo: true
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.

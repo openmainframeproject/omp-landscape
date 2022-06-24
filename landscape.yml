@@ -600,7 +600,6 @@ landscape:
             homepage_url: https://phoenixsoftware.com/ejes.htm
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-            allow_duplicate_repo: true
           - item:
             name: Alert Central
             description: |-
@@ -622,21 +621,18 @@ landscape:
             project: null
             logo: commonrestapi.svg
             crunchbase: https://www.crunchbase.com/organization/bmc-software
-            allow_duplicate_repo: true
           - item:
             name: CA Compliance Event Manager
             description: CA Compliance Event Manager helps you establish continuous data security and compliance.
             homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/compliance-event-manager
             logo: ca-compliance-event-manager.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA Data Content Discovery
             description: CA Data Content Discovery helps you identify data exposure risks and institute effective measures for enterprise data protection.
             homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/data-content-discovery
             logo: ca-data-content-discovery.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Database Management Solutions for Db2 for z/OS
             second_path: Zowe Conformant / CLI ZOWE V1
@@ -645,7 +641,6 @@ landscape:
             stock_ticker: AVGO
             logo: database-management-solutions-for-db2-for-zos.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA Endevor®
             second_path:
@@ -658,7 +653,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: File Master™ Plus
             second_path:
@@ -674,7 +668,6 @@ landscape:
             stock_ticker: AVGO
             logo: file-master-plus.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA IDMS
             second_path: Zowe Conformant / CLI ZOWE V1
@@ -683,7 +676,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-idms.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA JCLCheck™ Workload Automation
             second_path: Zowe Conformant / CLI ZOWE V1
@@ -695,14 +687,12 @@ landscape:
             stock_ticker: AVGO
             logo: ca-jclcheck-workload-automation.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA Mainframe Security Insights Platform
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/security/ca-mainframe-security-insights-platform/1-0.html
             stock_ticker: AVGO
             logo: ca-mainframe-security-insights-platform.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA MAT
             description: >-
@@ -711,7 +701,6 @@ landscape:
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
             logo: ca-mat.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: NetMaster
             second_path: Zowe Conformant / API Mediation Layer ZOWE V2
@@ -721,7 +710,6 @@ landscape:
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-netmaster-network-management
             logo: netmaster.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA SYSVIEW® Performance Management
             second_path:
@@ -734,41 +722,12 @@ landscape:
             stock_ticker: AVGO
             logo: ca-sysview-performance-management.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-          - item:
-            name: Database Management Solutions for Db2 for z/OS
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-            description: RESTful APIs for Db2 for z/OS data access and management
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html
-            stock_ticker: AVGO
-            logo: database-management-solutions-for-db2-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Datacom DST API
             description: Restful API for accessing CA Datacom Dynamic System Tables
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-datacom-tools/15-1.html
             logo: datacom-dst-api.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-          - item:
-            name: File Master™ Plus
-            second_path:
-              - Zowe Conformant / CLI 2019
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / API Mediation Layer 2019
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
-              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
-            stock_ticker: AVGO
-            logo: file-master-plus.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: IBM Z ChatOps
             description: >-
@@ -782,7 +741,6 @@ landscape:
             logo: IBM Z ChatOps.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM Z JCL Expert
             description: >-
@@ -802,7 +760,6 @@ landscape:
             logo: ibm-remote-system-explorer-api.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             second_path: Zowe Conformant / CLI ZOWE V2
           - item:
             name: IBM® Z Netview
@@ -818,7 +775,6 @@ landscape:
             logo: ibm-z-netview.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM® Z System Automation
             description: >-
@@ -828,24 +784,12 @@ landscape:
             logo: ibm-z-system-automation.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IMS Operations API
             homepage_url: https://github.com/zowe/ims-operations-api#readme
             repo_url: https://github.com/zowe/ims-operations-api
             logo: zowe-ims-operations-api.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            allow_duplicate_repo: true
-          - item:
-            name: NetMaster
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers with
-              an open and standard interface to network management data collected by NetMaster.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-netmaster-network-management
-            logo: netmaster.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: PRO/JCL Plug-in
             description: >-
@@ -867,7 +811,6 @@ landscape:
             logo: ibm-z-service-management-explorer.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM z/OS Workload Interaction Navigator
             description: >-
@@ -888,7 +831,6 @@ landscape:
             logo: ibm-db2-administration-foundation-for-zos.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM® Db2 DevOps Experience for z/OS
             second_path:
@@ -902,7 +844,6 @@ landscape:
             logo: db2-devops-experience-for-zos.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM® Service Management Unite
             second_path: Zowe Conformant / App Framework 2019
@@ -914,7 +855,6 @@ landscape:
             logo: service-management-unite.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: Rocket™ BlueZone Web
             second_path: Zowe Conformant / App Framework 2019
@@ -924,7 +864,6 @@ landscape:
             homepage_url: https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-web
             logo: rocketsoftware-bluezoneweb.svg
             crunchbase: https://www.crunchbase.com/organization/rocket-software
-            allow_duplicate_repo: true
       - subcategory:
         name: CLI ZOWE V1
         items:
@@ -938,7 +877,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-endevor-bridge-for-git.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             second_path: Zowe Conformant / CLI ZOWE V2
           - item:
             name: MAT Analyze
@@ -950,7 +888,6 @@ landscape:
             stock_ticker: AVGO
             logo: mat-analyze.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: MAT Detect
             second_path: Zowe Conformant / CLI ZOWE V2
@@ -961,7 +898,6 @@ landscape:
             stock_ticker: AVGO
             logo: mat-detect.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: View®
             description: >-
@@ -972,7 +908,6 @@ landscape:
             stock_ticker: AVGO
             logo: view.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
             second_path: Zowe Conformant / CLI ZOWE V2
           - item:
             name: CA z/OS Extended Files
@@ -983,7 +918,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA z/OS Extended Jobs
             second_path: Zowe Conformant / CLI 2019
@@ -993,7 +927,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: ChangeMan® ZMF® Plug-in for Zowe CLI
             description: The ChangeMan® ZMF® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with ZMF packages and components
@@ -1001,7 +934,6 @@ landscape:
             logo: changeman-zmf-zowe-cli.svg
             twitter: https://twitter.com/MicroFocus
             crunchbase: https://www.crunchbase.com/organization/micro-focus
-            allow_duplicate_repo: true
             second_path: Zowe Conformant / CLI ZOWE V2
           - item:
             name: COBOL Language Support
@@ -1011,7 +943,6 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
             logo: cobol-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: IBM RSE API Plug-in
             second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
@@ -1035,7 +966,6 @@ landscape:
             logo: ibm-z-system-automation.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM® Z® Workload Scheduler V 9.5.0.2
             second_path:
@@ -1048,31 +978,6 @@ landscape:
             logo: ibm-z-workload-scheduler.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
-          - item:
-            name: MAT Analyze
-            second_path: Zowe Conformant / CLI ZOWE V2
-            description: >-
-              MAT Analyze ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data in the form of CA MAT
-              analysis views using Zowe CLI.
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-mat-analyze-plug-in-for-zowe-cli.html
-            stock_ticker: AVGO
-            logo: mat-analyze.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-          - item:
-            name: MAT Detect
-            second_path: Zowe Conformant / CLI ZOWE V2
-            description: >-
-              MAT Detect provides utilities to access performance data supplied by the CA Mainframe Application Tuner component Performance Management Assistant
-              (PMA).
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-mat-detect-plug-in-for-zowe-cli.html
-            stock_ticker: AVGO
-            logo: mat-detect.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI
             second_path: Zowe Conformant / CLI 2019
@@ -1082,7 +987,6 @@ landscape:
             logo: zos-connect-ee.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: Zowe CLI CICS Deploy plug-in
             second_path: Zowe Conformant / CLI 2019
@@ -1092,7 +996,6 @@ landscape:
             logo: zowe-cli-cics-deploy.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: Zowe Secure Credential Store
             second_path: Zowe Conformant / CLI 2019
@@ -1101,7 +1004,6 @@ landscape:
             repo_url: https://github.com/zowe/zowe-cli-scs-plugin
             logo: zowe-secure-credential-store.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            allow_duplicate_repo: true
       - subcategory:
         name: API Mediation Layer 2019
         items:
@@ -1111,7 +1013,6 @@ landscape:
             homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-            allow_duplicate_repo: true
       - subcategory:
         name: App Framework 2019
         items:
@@ -1122,7 +1023,6 @@ landscape:
             logo: service-automation-suite.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM® Service Management Suite for z/OS
             description: >-
@@ -1132,7 +1032,6 @@ landscape:
             logo: service-management-suite-for-zos.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
       - subcategory:
         name: CLI 2019
         items:
@@ -1143,7 +1042,6 @@ landscape:
             repo_url: https://github.com/phoenixsoftware/ejes-cli
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-            allow_duplicate_repo: true
           - item:
             name: CA Secure Credential Store
             description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
@@ -1151,7 +1049,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-secure-credential-store.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
       - subcategory:
         name: Support Provider Comprehensive ZOWE V1
         items:
@@ -1173,7 +1070,6 @@ landscape:
             homepage_url: https://www.broadcom.com/products/mainframe/application-development/brightside
             logo: brightside.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: IBM Z Distribution for Zowe
             second_path:
@@ -1196,7 +1092,6 @@ landscape:
             logo: ibm-z-distribution-for-zowe.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
       - subcategory:
         name: Support Provider API Mediation Layer ZOWE V1
         items: []
@@ -1220,7 +1115,6 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.abend-analyzer
             logo: abend-analyzer-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: COBOL Control Flow
             description: >-
@@ -1229,14 +1123,12 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.ccf
             logo: cobol-control-flow.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Code4z
             description: Extension pack for MF users working with z/OS applications and tools. Simplify user experience for new Mainframe developers.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack
             logo: code4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Data Editor for Mainframe
             description: >-
@@ -1245,7 +1137,6 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.data-editor-for-mainframe
             logo: data-editor-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Debugger for Mainframe
             description: |-
@@ -1256,7 +1147,6 @@ landscape:
             logo: debugger-for-mainframe.svg
             open_source: false
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Explorer for Endevor
             description: Modernizes the way you interact with Endevor, offering a user-friendly and convenient way to work with elements and inventory locations.
@@ -1264,7 +1154,6 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
             logo: explorer-for-endevor.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: HLASM Language Support
             description: >-
@@ -1274,7 +1163,6 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
             logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: IBM z Open Editor
             description: >-
@@ -1284,7 +1172,6 @@ landscape:
             homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
             logo: ibm-z-open-editor.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
             second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
           - item:
             name: JCL Language Support
@@ -1296,14 +1183,12 @@ landscape:
             logo: jcl-language-support.svg
             open_source: false
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Zowe Explorer Extension for FTP
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.zowe-explorer-ftp-extension
             repo_url: https://github.com/zowe/vscode-extension-for-zowe
             logo: zowe-explorer-extension-for-ftp.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            allow_duplicate_repo: true
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V2
         items:
@@ -1315,7 +1200,6 @@ landscape:
             repo_url: https://github.com/zowe/vscode-extension-for-cics
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            allow_duplicate_repo: true
       - subcategory:
         name: CLI ZOWE V2
         items:
