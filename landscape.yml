@@ -1301,6 +1301,18 @@ landscape:
             homepage_url: https://broadcom.com
             logo: test4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: API State Monitor for Zowe API ML
+            description: >-
+              The API State Monitor for Zowe API ML monitors the state of standard API services that flow through the Zowe ecosystem and reports that state back
+              to the System Log (SYSLOG) in the form of a Write To Operator (WTO) message. Specifically, the API State
+
+              Monitor posts information on whether services are registering or de-registering from the API Mediation Layer Discovery Service (EUREKA), or shut
+              down ungracefully.
+            homepage_url: >-
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-api-ml/ca-brightside-extensions-for-zowe-api-mediation-layer.html
+            logo: API_State_Monitor.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Support Provider Comprehensive ZOWE V2
         items: []
