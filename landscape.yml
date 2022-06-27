@@ -599,15 +599,21 @@ landscape:
             allow_duplicate_repo: true
           - item:
             name: Alert Central
-            description: "Alert Central provides a single, secure, rich interface for\nmessages and alerts from Mainframe and other platforms."
+            description: >-
+              Alert Central provides a single, secure, rich interface for
+
+              messages and alerts from Mainframe and other platforms.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/alert-central/1-0.html
             logo: alert-central.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: BMC Common REST API
-            description: "The Common REST API (CRA) enables you to retrieve data collected by BMC mainframe monitoring products. Currently, the API works with BMC\
-              \ AMI Ops products.\n\nThe BMC Common REST API provides open APIs to retrieve data where those APIs can be used also through the Zowe interface and\
-              \ a user-friendly interface to experiment with the REST API calls, known as the Swagger UI."
+            description: >-
+              The Common REST API (CRA) enables you to retrieve data collected by BMC mainframe monitoring products. Currently, the API works with BMC AMI Ops products.
+
+
+              The BMC Common REST API provides open APIs to retrieve data where those APIs can be used also through the Zowe interface and a user-friendly interface
+              to experiment with the REST API calls, known as the Swagger UI.
             homepage_url: https://docs.bmc.com/docs/commonmainframe/2021/administering-976814066.html
             project:
             logo: commonrestapi.svg
@@ -720,10 +726,12 @@ landscape:
             allow_duplicate_repo: true
           - item:
             name: IBM Z ChatOps
-            description: "IBM Z ChatOps V1.1.2 provides ChatOps capabilities for an IBM Z environment by providing a chatbot that gives users in a supported enterprise\
-              \ chat tool access to information from IBM Z systems management tools.\nIBM Z ChatOps also provides an incident webhook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident\
-              \ to enable other products to send their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data\
-              \ model."
+            description: >-
+              IBM Z ChatOps V1.1.2 provides ChatOps capabilities for an IBM Z environment by providing a chatbot that gives users in a supported enterprise chat tool
+              access to information from IBM Z systems management tools.
+
+              IBM Z ChatOps also provides an incident webhook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident to enable other products to send
+              their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data model.
             homepage_url: https://www.ibm.com/docs/en/z-chatops
             project:
             logo: IBM Z ChatOps.svg
@@ -808,9 +816,12 @@ landscape:
             allow_duplicate_repo: true
           - item:
             name: IBM z/OS Workload Interaction Navigator
-            description: "IBM z/OS Workload Interaction Navigator analyzes\nhigh frequency IBM z/OS Workload Interaction Correlator data to identify, correlate and\
-              \ contextually prioritize short term anomalous activities across your entire IBM Z workload to provide deep insight into the inter-dependencies in IBM\
-              \ Z workloads to quickly identify the root cause of operational issues."
+            description: >-
+              IBM z/OS Workload Interaction Navigator analyzes
+
+              high frequency IBM z/OS Workload Interaction Correlator data to identify, correlate and contextually prioritize short term anomalous activities across
+              your entire IBM Z workload to provide deep insight into the inter-dependencies in IBM Z workloads to quickly identify the root cause of operational
+              issues.
             homepage_url: https://www.ibm.com/products/zos-workload-interaction-navigator
             logo: ibm-zos-workload-interaction-navigator.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -913,9 +924,13 @@ landscape:
           - item:
             name: IBM RSE API Plug-in
             second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
-            description: "Extends Zowe CLI and Zowe Explorer APIs to let you interact with z/OS resources. The RSE plug-in\ninteracts with z/OS by using IBM Remote\
-              \ System Explorer API (RSE API) instead of using z/OSMF. This solution is a great alternative if you have already used the Remote System Explorer with\
-              \ other IBM\nofferings such as IBM Developer for z/OS or IBM Explorer for z/OS. It is also a good option if you have not configured z/OSMF on your z/OS."
+            description: >-
+              Extends Zowe CLI and Zowe Explorer APIs to let you interact with z/OS resources. The RSE plug-in
+
+              interacts with z/OS by using IBM Remote System Explorer API (RSE API) instead of using z/OSMF. This solution is a great alternative if you have already
+              used the Remote System Explorer with other IBM
+
+              offerings such as IBM Developer for z/OS or IBM Explorer for z/OS. It is also a good option if you have not configured z/OSMF on your z/OS.
             homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
             logo: ibm-rse-api-plug-in.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -1131,7 +1146,10 @@ landscape:
             allow_duplicate_repo: true
           - item:
             name: Debugger for Mainframe
-            description: "This extension provides a modern debugging experience for CICS\nand Batch programs written in COBOL leveraging Intertest Batch and z/OS"
+            description: >-
+              This extension provides a modern debugging experience for CICS
+
+              and Batch programs written in COBOL leveraging Intertest Batch and z/OS
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe
             repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
             logo: debugger-for-mainframe.svg
@@ -1243,7 +1261,10 @@ landscape:
             second_path:
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI 2019
-            description: "Extend the Zowe CLI to include OPS/MVS commands\nNPM Registry Date: Will be released immediately following Zowe v2."
+            description: >-
+              Extend the Zowe CLI to include OPS/MVS commands
+
+              NPM Registry Date: Will be released immediately following Zowe v2.
             homepage_url: https://www.npmjs.com/package/@broadcom/ops-for-zowe-cli
             logo: opsmvs.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
