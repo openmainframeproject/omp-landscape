@@ -593,49 +593,48 @@ landscape:
         items:
           - item:
             name: (E)JES
-            second_path: Zowe Conformant / CLI ZOWE V1
             description: >-
               (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
               running JES2 or JES3
+            second_path: Zowe Conformant / CLI ZOWE V1
             homepage_url: https://phoenixsoftware.com/ejes.htm
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-            allow_duplicate_repo: true
           - item:
             name: Alert Central
-            description: >-
-              Alert Central provides a single, secure, rich interface for
-              messages and alerts from Mainframe and other platforms.
+            description: "Alert Central provides a single, secure, rich interface for\nmessages and alerts from Mainframe and other platforms."
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/alert-central/1-0.html
             logo: alert-central.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: BMC Common REST API
-            description: >-
-              The Common REST API (CRA) enables you to retrieve data collected by BMC mainframe monitoring products. Currently, the API works with BMC AMI Ops products.
-
-
-              The BMC Common REST API provides open APIs to retrieve data where those APIs can be used also through the Zowe interface and a user-friendly interface
-              to experiment with the REST API calls, known as the Swagger UI.
+            description: "The Common REST API (CRA) enables you to retrieve data collected by BMC mainframe monitoring products. Currently, the API works with BMC\
+              \ AMI Ops products.\n\nThe BMC Common REST API provides open APIs to retrieve data where those APIs can be used also through the Zowe interface and\
+              \ a user-friendly interface to experiment with the REST API calls, known as the Swagger UI."
             homepage_url: https://docs.bmc.com/docs/commonmainframe/2021/administering-976814066.html
-            project:
+            project: null
             logo: commonrestapi.svg
             crunchbase: https://www.crunchbase.com/organization/bmc-software
-            allow_duplicate_repo: true
           - item:
             name: CA Compliance Event Manager
             description: CA Compliance Event Manager helps you establish continuous data security and compliance.
             homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/compliance-event-manager
             logo: ca-compliance-event-manager.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA Data Content Discovery
             description: CA Data Content Discovery helps you identify data exposure risks and institute effective measures for enterprise data protection.
             homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/data-content-discovery
             logo: ca-data-content-discovery.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
+          - item:
+            name: Database Management Solutions for Db2 for z/OS
+            second_path: Zowe Conformant / CLI ZOWE V1
+            description: RESTful APIs for Db2 for z/OS data access and management
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html
+            stock_ticker: AVGO
+            logo: database-management-solutions-for-db2-for-zos.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: CA Endevor®
             second_path:
@@ -648,7 +647,21 @@ landscape:
             stock_ticker: AVGO
             logo: ca-endevor.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
+          - item:
+            name: File Master™ Plus
+            second_path:
+              - Zowe Conformant / CLI 2019
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / API Mediation Layer 2019
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
+              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0.html
+            stock_ticker: AVGO
+            logo: file-master-plus.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: CA IDMS
             second_path: Zowe Conformant / CLI ZOWE V1
@@ -657,7 +670,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-idms.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA JCLCheck™ Workload Automation
             second_path: Zowe Conformant / CLI ZOWE V1
@@ -669,14 +681,12 @@ landscape:
             stock_ticker: AVGO
             logo: ca-jclcheck-workload-automation.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA Mainframe Security Insights Platform
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/security/ca-mainframe-security-insights-platform/1-0.html
             stock_ticker: AVGO
             logo: ca-mainframe-security-insights-platform.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA MAT
             description: >-
@@ -685,7 +695,15 @@ landscape:
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
             logo: ca-mat.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
+          - item:
+            name: NetMaster
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers with
+              an open and standard interface to network management data collected by NetMaster.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-netmaster-network-management
+            logo: netmaster.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: CA SYSVIEW® Performance Management
             second_path:
@@ -698,64 +716,33 @@ landscape:
             stock_ticker: AVGO
             logo: ca-sysview-performance-management.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-          - item:
-            name: Database Management Solutions for Db2 for z/OS
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-            description: RESTful APIs for Db2 for z/OS data access and management
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html
-            stock_ticker: AVGO
-            logo: database-management-solutions-for-db2-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Datacom DST API
             description: Restful API for accessing CA Datacom Dynamic System Tables
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-datacom-tools/15-1.html
             logo: datacom-dst-api.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-          - item:
-            name: File Master™ Plus
-            second_path:
-              - Zowe Conformant / CLI 2019
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / API Mediation Layer 2019
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
-              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
-            stock_ticker: AVGO
-            logo: file-master-plus.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: IBM Z ChatOps
-            description: >-
-              IBM Z ChatOps V1.1.2 provides ChatOps capabilities for an IBM Z environment by providing a chatbot that gives users in a supported enterprise chat tool
-              access to information from IBM Z systems management tools.
-
-              IBM Z ChatOps also provides an incident webhook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident to enable other products to send
-              their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data model.
+            description: "IBM Z ChatOps V1.1.2 provides ChatOps capabilities for an IBM Z environment by providing a chatbot that gives users in a supported enterprise\
+              \ chat tool access to information from IBM Z systems management tools.\nIBM Z ChatOps also provides an incident webhook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident\
+              \ to enable other products to send their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data\
+              \ model."
             homepage_url: https://www.ibm.com/docs/en/z-chatops
-            project:
+            project: null
             logo: IBM Z ChatOps.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM Z JCL Expert
             description: >-
               IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
               costly delays through mass JCL checking.
             homepage_url: https://www.ibm.com/products/z-jcl-expert
-            project:
+            project: null
             logo: ibm-z-jcl-expert.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
           - item:
             name: IBM® Remote System Explorer API
             description: >-
@@ -765,7 +752,7 @@ landscape:
             logo: ibm-remote-system-explorer-api.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
+            second_path: Zowe Conformant / CLI ZOWE V2
           - item:
             name: IBM® Z Netview
             second_path:
@@ -780,7 +767,6 @@ landscape:
             logo: ibm-z-netview.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM® Z System Automation
             description: >-
@@ -790,31 +776,19 @@ landscape:
             logo: ibm-z-system-automation.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IMS Operations API
             homepage_url: https://github.com/zowe/ims-operations-api#readme
             repo_url: https://github.com/zowe/ims-operations-api
             logo: zowe-ims-operations-api.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            allow_duplicate_repo: true
-          - item:
-            name: NetMaster
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers with
-              an open and standard interface to network management data collected by NetMaster.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-netmaster-network-management
-            logo: netmaster.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: PRO/JCL Plug-in
             description: >-
               ASG-PRO/JCL is a JCL management solution that helps mainframe data centers achieve and operate a production Job Control Language (JCL) environment
               that is error free, standardized and optimized with a DevOps-enabled Eclipse plugin.
             homepage_url: https://www.asg.com/en/Products/IT-Systems-Management/Operations-Management/JCL-Management/ASG-PRO-JCL.aspx
-            project:
+            project: null
             logo: projcl.svg
             crunchbase: https://www.crunchbase.com/organization/asg
       - subcategory:
@@ -829,15 +803,11 @@ landscape:
             logo: ibm-z-service-management-explorer.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM z/OS Workload Interaction Navigator
-            description: >-
-              IBM z/OS Workload Interaction Navigator analyzes
-
-              high frequency IBM z/OS Workload Interaction Correlator data to identify, correlate and contextually prioritize short term anomalous activities across
-              your entire IBM Z workload to provide deep insight into the inter-dependencies in IBM Z workloads to quickly identify the root cause of operational
-              issues.
+            description: "IBM z/OS Workload Interaction Navigator analyzes\nhigh frequency IBM z/OS Workload Interaction Correlator data to identify, correlate and\
+              \ contextually prioritize short term anomalous activities across your entire IBM Z workload to provide deep insight into the inter-dependencies in IBM\
+              \ Z workloads to quickly identify the root cause of operational issues."
             homepage_url: https://www.ibm.com/products/zos-workload-interaction-navigator
             logo: ibm-zos-workload-interaction-navigator.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -850,7 +820,6 @@ landscape:
             logo: ibm-db2-administration-foundation-for-zos.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM® Db2 DevOps Experience for z/OS
             second_path:
@@ -864,7 +833,6 @@ landscape:
             logo: db2-devops-experience-for-zos.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM® Service Management Unite
             second_path: Zowe Conformant / App Framework 2019
@@ -876,7 +844,6 @@ landscape:
             logo: service-management-unite.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: Rocket™ BlueZone Web
             second_path: Zowe Conformant / App Framework 2019
@@ -886,30 +853,51 @@ landscape:
             homepage_url: https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-web
             logo: rocketsoftware-bluezoneweb.svg
             crunchbase: https://www.crunchbase.com/organization/rocket-software
-            allow_duplicate_repo: true
       - subcategory:
         name: CLI ZOWE V1
         items:
           - item:
             name: CA Endevor® Bridge For Git
-            description: CA Endevor® Bridge for Git lets you interact with CA Endevor® Bridge For Git to perform tasks through Zowe CLI
+            description: >-
+              The Endevor Bridge for Git Plug-in for Zowe CLI allows you to work with and manage Git-Endevor mappings of your Bridge for Git server. Also, as a
+              developer, you can build the changed files from the local working directory of your mapping in an Endevor work area.
             homepage_url: >-
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-endevor-bridge-for-git-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-endevor-bridge-for-git.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
+            second_path: Zowe Conformant / CLI ZOWE V2
           - item:
-            name: CA View®
+            name: MAT Analyze
+            second_path: Zowe Conformant / CLI ZOWE V2
+            description: >-
+              MAT Analyze ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data in the form of CA MAT
+              analysis views using Zowe CLI.
+            homepage_url: https://www.npmjs.com/package/@broadcom/mat-analyze-for-zowe-cli
+            stock_ticker: AVGO
+            logo: mat-analyze.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: MAT Detect
+            second_path: Zowe Conformant / CLI ZOWE V2
+            description: >-
+              MAT Detect provides utilities to access performance data supplied by the CA Mainframe Application Tuner component Performance Management Assistant
+              (PMA).
+            homepage_url: https://www.npmjs.com/package/@broadcom/mat-detect-for-zowe-cli
+            stock_ticker: AVGO
+            logo: mat-detect.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: View®
             description: >-
               CA View® lets you access report data, list repositories, and search cross-report index names or values in a repository. You can also use the
               plug-in to automate report data exports using rules, and to manage user settings.
             homepage_url: >-
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-view-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
-            logo: ca-view.svg
+            logo: view.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
+            second_path: Zowe Conformant / CLI ZOWE V2
           - item:
             name: CA z/OS Extended Files
             second_path: Zowe Conformant / CLI 2019
@@ -919,7 +907,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: CA z/OS Extended Jobs
             second_path: Zowe Conformant / CLI 2019
@@ -929,7 +916,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: ChangeMan® ZMF® Plug-in for Zowe CLI
             description: The ChangeMan® ZMF® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with ZMF packages and components
@@ -937,7 +923,7 @@ landscape:
             logo: changeman-zmf-zowe-cli.svg
             twitter: https://twitter.com/MicroFocus
             crunchbase: https://www.crunchbase.com/organization/micro-focus
-            allow_duplicate_repo: true
+            second_path: Zowe Conformant / CLI ZOWE V2
           - item:
             name: COBOL Language Support
             second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
@@ -946,17 +932,12 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
             logo: cobol-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: IBM RSE API Plug-in
             second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
-            description: >-
-              Extends Zowe CLI and Zowe Explorer APIs to let you interact with z/OS resources. The RSE plug-in
-
-              interacts with z/OS by using IBM Remote System Explorer API (RSE API) instead of using z/OSMF. This solution is a great alternative if you have already
-              used the Remote System Explorer with other IBM
-
-              offerings such as IBM Developer for z/OS or IBM Explorer for z/OS. It is also a good option if you have not configured z/OSMF on your z/OS.
+            description: "Extends Zowe CLI and Zowe Explorer APIs to let you interact with z/OS resources. The RSE plug-in\ninteracts with z/OS by using IBM Remote\
+              \ System Explorer API (RSE API) instead of using z/OSMF. This solution is a great alternative if you have already used the Remote System Explorer with\
+              \ other IBM\nofferings such as IBM Developer for z/OS or IBM Explorer for z/OS. It is also a good option if you have not configured z/OSMF on your z/OS."
             homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
             logo: ibm-rse-api-plug-in.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -970,7 +951,6 @@ landscape:
             logo: ibm-z-system-automation.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM® Z® Workload Scheduler V 9.5.0.2
             second_path:
@@ -983,31 +963,6 @@ landscape:
             logo: ibm-z-workload-scheduler.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
-          - item:
-            name: MAT Analyze
-            second_path: Zowe Conformant / CLI ZOWE V2
-            description: >-
-              MAT Analyze ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data in the form of CA MAT
-              analysis views using Zowe CLI.
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-mat-analyze-plug-in-for-zowe-cli.html
-            stock_ticker: AVGO
-            logo: mat-analyze.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
-          - item:
-            name: MAT Detect
-            second_path: Zowe Conformant / CLI ZOWE V2
-            description: >-
-              MAT Detect provides utilities to access performance data supplied by the CA Mainframe Application Tuner component Performance Management Assistant
-              (PMA).
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-mat-detect-plug-in-for-zowe-cli.html
-            stock_ticker: AVGO
-            logo: mat-detect.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI
             second_path: Zowe Conformant / CLI 2019
@@ -1017,7 +972,6 @@ landscape:
             logo: zos-connect-ee.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: Zowe CLI CICS Deploy plug-in
             second_path: Zowe Conformant / CLI 2019
@@ -1027,7 +981,6 @@ landscape:
             logo: zowe-cli-cics-deploy.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: Zowe Secure Credential Store
             second_path: Zowe Conformant / CLI 2019
@@ -1036,7 +989,6 @@ landscape:
             repo_url: https://github.com/zowe/zowe-cli-scs-plugin
             logo: zowe-secure-credential-store.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            allow_duplicate_repo: true
       - subcategory:
         name: API Mediation Layer 2019
         items:
@@ -1046,7 +998,6 @@ landscape:
             homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-            allow_duplicate_repo: true
       - subcategory:
         name: App Framework 2019
         items:
@@ -1057,7 +1008,6 @@ landscape:
             logo: service-automation-suite.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
           - item:
             name: IBM® Service Management Suite for z/OS
             description: >-
@@ -1067,7 +1017,6 @@ landscape:
             logo: service-management-suite-for-zos.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
       - subcategory:
         name: CLI 2019
         items:
@@ -1078,7 +1027,6 @@ landscape:
             repo_url: https://github.com/phoenixsoftware/ejes-cli
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-            allow_duplicate_repo: true
           - item:
             name: CA Secure Credential Store
             description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
@@ -1086,7 +1034,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-secure-credential-store.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
       - subcategory:
         name: Support Provider Comprehensive ZOWE V1
         items:
@@ -1108,7 +1055,6 @@ landscape:
             homepage_url: https://www.broadcom.com/products/mainframe/application-development/brightside
             logo: brightside.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: IBM Z Distribution for Zowe
             second_path:
@@ -1131,7 +1077,6 @@ landscape:
             logo: ibm-z-distribution-for-zowe.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
       - subcategory:
         name: Support Provider API Mediation Layer ZOWE V1
         items: []
@@ -1155,7 +1100,6 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.abend-analyzer
             logo: abend-analyzer-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: COBOL Control Flow
             description: >-
@@ -1164,14 +1108,12 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.ccf
             logo: cobol-control-flow.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Code4z
             description: Extension pack for MF users working with z/OS applications and tools. Simplify user experience for new Mainframe developers.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack
             logo: code4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Data Editor for Mainframe
             description: >-
@@ -1180,19 +1122,14 @@ landscape:
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.data-editor-for-mainframe
             logo: data-editor-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Debugger for Mainframe
-            description: >-
-              This extension provides a modern debugging experience for CICS
-
-              and Batch programs written in COBOL leveraging Intertest Batch and z/OS
+            description: "This extension provides a modern debugging experience for CICS\nand Batch programs written in COBOL leveraging Intertest Batch and z/OS"
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe
             repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
             logo: debugger-for-mainframe.svg
             open_source: false
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Explorer for Endevor
             description: Modernizes the way you interact with Endevor, offering a user-friendly and convenient way to work with elements and inventory locations.
@@ -1200,7 +1137,6 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
             logo: explorer-for-endevor.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: HLASM Language Support
             description: >-
@@ -1210,7 +1146,6 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
             logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: IBM z Open Editor
             description: >-
@@ -1220,7 +1155,7 @@ landscape:
             homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
             logo: ibm-z-open-editor.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
-            allow_duplicate_repo: true
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
           - item:
             name: JCL Language Support
             description: >-
@@ -1231,14 +1166,12 @@ landscape:
             logo: jcl-language-support.svg
             open_source: false
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            allow_duplicate_repo: true
           - item:
             name: Zowe Explorer Extension for FTP
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.zowe-explorer-ftp-extension
             repo_url: https://github.com/zowe/vscode-extension-for-zowe
             logo: zowe-explorer-extension-for-ftp.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            allow_duplicate_repo: true
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V2
         items:
@@ -1246,11 +1179,10 @@ landscape:
             name: Zowe Explorer for IBM CICS
             second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
-            project:
+            project: null
             repo_url: https://github.com/zowe/vscode-extension-for-cics
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            allow_duplicate_repo: true
       - subcategory:
         name: CLI ZOWE V2
         items:
@@ -1304,10 +1236,7 @@ landscape:
             second_path:
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI 2019
-            description: >-
-              Extend the Zowe CLI to include OPS/MVS commands
-
-              NPM Registry Date: Will be released immediately following Zowe v2.
+            description: "Extend the Zowe CLI to include OPS/MVS commands\nNPM Registry Date: Will be released immediately following Zowe v2."
             homepage_url: https://www.npmjs.com/package/@broadcom/ops-for-zowe-cli
             logo: opsmvs.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -1315,7 +1244,7 @@ landscape:
             name: Spool™
             second_path: Zowe Conformant / CLI ZOWE V1
             description: Spool Plug-in for Zowe CLI allows issuing Spool native commands from Zowe CLI.
-            homepage_url: https://www.npmjs.com/package/@broadcom/caspool-for-zowe-cli
+            homepage_url: https://www.npmjs.com/package/@broadcom/om-spool-for-zowe-cli
             logo: spool.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
@@ -1352,6 +1281,18 @@ landscape:
             description: Test4z v1.2.2 Mainframe Batch Testing Automation released March 22, 2022
             homepage_url: https://broadcom.com
             logo: test4z.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: API State Monitor for Zowe API ML
+            description: >-
+              The API State Monitor for Zowe API ML monitors the state of standard API services that flow through the Zowe ecosystem and reports that state back
+              to the System Log (SYSLOG) in the form of a Write To Operator (WTO) message. Specifically, the API State
+
+              Monitor posts information on whether services are registering or de-registering from the API Mediation Layer Discovery Service (EUREKA), or shut
+              down ungracefully.
+            homepage_url: >-
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-api-ml/ca-brightside-extensions-for-zowe-api-mediation-layer.html
+            logo: api-state-monitor-for-zowe-api-ml.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Support Provider Comprehensive ZOWE V2
@@ -1811,7 +1752,7 @@ landscape:
             homepage_url: https://maintenance.vmware.com/maintenance.html
             repo_url: https://github.com/saltstack/salt
             logo: salt-stack.svg
-            twitter:
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/saltstack
           - item:
             name: SonarCube
@@ -1919,7 +1860,7 @@ landscape:
             homepage_url: https://spark.apache.org
             repo_url: https://github.com/apache/spark
             logo: spark.svg
-            twitter:
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Elastic
@@ -1957,7 +1898,7 @@ landscape:
             homepage_url: https://lucene.apache.org/
             repo_url: https://github.com/apache/lucene-solr
             logo: lucenesolr.svg
-            twitter:
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Splunk
