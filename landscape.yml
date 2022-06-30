@@ -1131,12 +1131,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Data Editor for Mainframe
-            description: >-
-              Enhances the functionality of Zowe Explorer to allow you to apply record layouts to VSAM data sets and interactively filter records using
-              selection criteria.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.data-editor-for-mainframe
+            description: Data Editor for Mainframe, a VS Code extension that adds a modern user interface to File Master Plus for MVS.
+            homepage_url: https://github.com/BroadcomMFD/data-editor-for-mainframe/releases/t ag/v1.0.0
             logo: data-editor-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
           - item:
             name: Debugger for Mainframe
             description: |-
