@@ -744,7 +744,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM® Remote System Explorer API
-            second_path: 
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
               - Zowe Conformant / CLI ZOWE V2
               - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
@@ -914,19 +916,6 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
             logo: cobol-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: IBM RSE API Plug-in
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
-            description: >-
-              Extends Zowe CLI and Zowe Explorer APIs to let you interact with z/OS resources. The RSE plug-in
-
-              interacts with z/OS by using IBM Remote System Explorer API (RSE API) instead of using z/OSMF. This solution is a great alternative if you have
-              already used the Remote System Explorer with other IBM
-
-              offerings such as IBM Developer for z/OS or IBM Explorer for z/OS. It is also a good option if you have not configured z/OSMF on your z/OS.
-            homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
-            logo: ibm-rse-api-plug-in.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM Z System Automation
             description: >
