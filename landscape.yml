@@ -874,9 +874,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/micro-focus
           - item:
             name: COBOL Language Support
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support
+            homepage_url: https://github.com/eclipse/che-che4z-lsp-for-cobol/releases/tag/1.0.2
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
             logo: cobol-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
