@@ -38,9 +38,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Linux Distributions Working Group
-            description: The purpose of this working group is to oversee the health and maintenance of the s390x port of various Linux distributions to ensure that
-              the s390x port remains a supported architecture for them all. To this end, the group will collaborate on shared challenges and successes, work together
-              to nurture new contributors, and make sure they also have the infrastructure they need.
+            description: >-
+              The purpose of this working group is to oversee the health and maintenance of the s390x port of various Linux distributions to ensure that the
+              s390x port remains a supported architecture for them all. To this end, the group will collaborate on shared challenges and successes, work
+              together to nurture new contributors, and make sure they also have the infrastructure they need.
             homepage_url: https://wiki.openmainframeproject.org/display/LinuxDistrosWG
             project: workinggroup
             logo: linux-distributions-working-group.svg
@@ -94,9 +95,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: sysload
-            description: System Loader uses a minimal RAM disk based Linux system to run a boot loader application and kexec to boot the final Linux system. Within
-              the boot loader application all capabilities provided by the kernel can be used to select and access a kernel image and other boot files or to start
-              a shell and use it as a rescue system.
+            description: >-
+              System Loader uses a minimal RAM disk based Linux system to run a boot loader application and kexec to boot the final Linux system. Within the
+              boot loader application all capabilities provided by the kernel can be used to select and access a kernel image and other boot files or to start a
+              shell and use it as a rescue system.
             homepage_url: https://developer.ibm.com/technologies/linux
             repo_url: https://github.com/openmainframeproject/sysload
             logo: system-loader-sysload.svg
@@ -448,8 +450,9 @@ landscape:
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/cobol-programming-course
           - item:
             name: COBOL Working Group
-            description: The COBOL Working Group aims to promote the language by changing its perception and making materials more accessible to help more developers
-              and students learn it on their mainframe journey.
+            description: >-
+              The COBOL Working Group aims to promote the language by changing its perception and making materials more accessible to help more developers and
+              students learn it on their mainframe journey.
             homepage_url: https://www.openmainframeproject.org/projects/cobol-working-group
             project: workinggroup
             repo_url: https://github.com/openmainframeproject/wg-cobol
@@ -591,24 +594,31 @@ landscape:
           - item:
             name: (E)JES
             second_path: Zowe Conformant / CLI ZOWE V1
-            description: (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether
-              you are running JES2 or JES3
+            description: >-
+              (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
+              running JES2 or JES3
             homepage_url: https://phoenixsoftware.com/ejes.htm
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
             name: Alert Central
-            description: "Alert Central provides a single, secure, rich interface for\nmessages and alerts from Mainframe and other platforms."
+            description: |-
+              Alert Central provides a single, secure, rich interface for
+              messages and alerts from Mainframe and other platforms.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/alert-central/1-0.html
             logo: alert-central.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: BMC Common REST API
-            description: "The Common REST API (CRA) enables you to retrieve data collected by BMC mainframe monitoring products. Currently, the API works with BMC\
-              \ AMI Ops products.\n\nThe BMC Common REST API provides open APIs to retrieve data where those APIs can be used also through the Zowe interface and\
-              \ a user-friendly interface to experiment with the REST API calls, known as the Swagger UI."
+            description: >-
+              The Common REST API (CRA) enables you to retrieve data collected by BMC mainframe monitoring products. Currently, the API works with BMC AMI Ops
+              products.
+
+
+              The BMC Common REST API provides open APIs to retrieve data where those APIs can be used also through the Zowe interface and a user-friendly
+              interface to experiment with the REST API calls, known as the Swagger UI.
             homepage_url: https://docs.bmc.com/docs/commonmainframe/2021/administering-976814066.html
-            project:
+            project: null
             logo: commonrestapi.svg
             crunchbase: https://www.crunchbase.com/organization/bmc-software
           - item:
@@ -628,8 +638,9 @@ landscape:
             second_path:
               - Zowe Conformant / CLI 2019
               - Zowe Conformant / CLI ZOWE V1
-            description: CA Endevor® provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate
-              the development process, CA Endevor governs software change from the very first line of modified code through deployment with change tracking.
+            description: >-
+              CA Endevor® provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
+              development process, CA Endevor governs software change from the very first line of modified code through deployment with change tracking.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0.html
             stock_ticker: AVGO
             logo: ca-endevor.svg
@@ -645,8 +656,9 @@ landscape:
           - item:
             name: CA JCLCheck™ Workload Automation
             second_path: Zowe Conformant / CLI ZOWE V1
-            description: CA JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use
-              the plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+            description: >-
+              CA JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
               production cycles
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-jclcheck-workload-automation/12-0.html
             stock_ticker: AVGO
@@ -660,8 +672,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: CA MAT
-            description: This API enables accessing CA Mainframe Application Tuner via modern tools by providing end-points to enable customers to automate and script
-              a MAT request in their CI/CD pipeline
+            description: >-
+              This API enables accessing CA Mainframe Application Tuner via modern tools by providing end-points to enable customers to automate and script a
+              MAT request in their CI/CD pipeline
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
             logo: ca-mat.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -670,8 +683,9 @@ landscape:
             second_path:
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI ZOWE V2
-            description: CA SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access CA SYSVIEW actions
-              and data using a modern API.
+            description: >-
+              CA SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access CA SYSVIEW actions and
+              data using a modern API.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html
             stock_ticker: AVGO
             logo: ca-sysview-performance-management.svg
@@ -698,30 +712,34 @@ landscape:
               - Zowe Conformant / CLI ZOWE V2
               - Zowe Conformant / API Mediation Layer 2019
               - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned,
-              and VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
+            description: >-
+              CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
+              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0.html
             stock_ticker: AVGO
             logo: file-master-plus.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: IBM Z ChatOps
-            description: "IBM Z ChatOps V1.1.2 provides ChatOps capabilities for an IBM Z environment by providing a chatbot that gives users in a supported enterprise\
-              \ chat tool access to information from IBM Z systems management tools.\nIBM Z ChatOps also provides an incident webhook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident\
-              \ to enable other products to send their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data\
-              \ model."
+            description: >-
+              IBM Z ChatOps V1.1.2 provides ChatOps capabilities for an IBM Z environment by providing a chatbot that gives users in a supported enterprise chat
+              tool access to information from IBM Z systems management tools.
+
+              IBM Z ChatOps also provides an incident webhook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident to enable other products to
+              send their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data model.
             homepage_url: https://www.ibm.com/docs/en/z-chatops
-            project:
+            project: null
             logo: IBM Z ChatOps.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM Z JCL Expert
             second_path: Zowe Conformant / API Mediation Layer ZOWE V2
-            description: IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors
-              and costly delays through mass JCL checking.
+            description: >-
+              IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
+              costly delays through mass JCL checking.
             homepage_url: https://www.ibm.com/products/z-jcl-expert
-            project:
+            project: null
             logo: ibm-z-jcl-expert.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
@@ -731,7 +749,8 @@ landscape:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
               - Zowe Conformant / CLI ZOWE V2
               - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: REST APIs for working with various components on the z/OS host system, including MVS data sets, z/OS UNIX files and commands, JES jobs, TSO
+            description: >-
+              REST APIs for working with various components on the z/OS host system, including MVS data sets, z/OS UNIX files and commands, JES jobs, TSO
               Commands, and more.
             homepage_url: https://ibm.github.io/mainframe-downloads/host-components.html#rse-api-host
             logo: ibm-remote-system-explorer-api.svg
@@ -744,7 +763,8 @@ landscape:
               - Zowe Conformant / App Framework 2019
               - Zowe Conformant / App Framework ZOWE V1
               - Zowe Conformant / CLI ZOWE V1
-            description: IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
+            description: >-
+              IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
               systems management to address your requirements for business agility on IBM Z systems.
             homepage_url: https://www.ibm.com/products/z-netview
             logo: ibm-z-netview.svg
@@ -752,8 +772,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM® Z System Automation
-            description: IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical
-              systems and applications.
+            description: >-
+              IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
+              and applications.
             homepage_url: https://www.ibm.com/products/z-system-automation
             logo: ibm-z-system-automation.svg
             twitter: https://twitter.com/ibmz
@@ -767,17 +788,19 @@ landscape:
           - item:
             name: NetMaster
             second_path: Zowe Conformant / API Mediation Layer ZOWE V2
-            description: NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers
-              with an open and standard interface to network management data collected by NetMaster.
+            description: >-
+              NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers with
+              an open and standard interface to network management data collected by NetMaster.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-netmaster-network-management
             logo: netmaster.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: PRO/JCL Plug-in
-            description: ASG-PRO/JCL is a JCL management solution that helps mainframe data centers achieve and operate a production Job Control Language (JCL) environment
+            description: >-
+              ASG-PRO/JCL is a JCL management solution that helps mainframe data centers achieve and operate a production Job Control Language (JCL) environment
               that is error free, standardized and optimized with a DevOps-enabled Eclipse plugin.
             homepage_url: https://www.asg.com/en/Products/IT-Systems-Management/Operations-Management/JCL-Management/ASG-PRO-JCL.aspx
-            project:
+            project: null
             logo: projcl.svg
             crunchbase: https://www.crunchbase.com/organization/asg
       - subcategory:
@@ -785,23 +808,28 @@ landscape:
         items:
           - item:
             name: IBM Z Service Management Explorer
-            description: IBM Z Service Management Explorer is intended to provide a web-based replacement for the java-based IBM Tivoli Enterprise  Portal, providing
-              a graphical user interface for IBM OMEGAMON agents.
+            description: >-
+              IBM Z Service Management Explorer is intended to provide a web-based replacement for the java-based IBM Tivoli Enterprise  Portal, providing a
+              graphical user interface for IBM OMEGAMON agents.
             homepage_url: https://www.ibm.com/docs/en/om-shared
             logo: ibm-z-service-management-explorer.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM z/OS Workload Interaction Navigator
-            description: "IBM z/OS Workload Interaction Navigator analyzes\nhigh frequency IBM z/OS Workload Interaction Correlator data to identify, correlate and\
-              \ contextually prioritize short term anomalous activities across your entire IBM Z workload to provide deep insight into the inter-dependencies in IBM\
-              \ Z workloads to quickly identify the root cause of operational issues."
+            description: >-
+              IBM z/OS Workload Interaction Navigator analyzes
+
+              high frequency IBM z/OS Workload Interaction Correlator data to identify, correlate and contextually prioritize short term anomalous activities
+              across your entire IBM Z workload to provide deep insight into the inter-dependencies in IBM Z workloads to quickly identify the root cause of
+              operational issues.
             homepage_url: https://www.ibm.com/products/zos-workload-interaction-navigator
             logo: ibm-zos-workload-interaction-navigator.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM® Db2 Administration Foundation for z/OS
-            description: Introduces a modern unified experience for next-gen users that delivers an intuitive alternative to existing Db2 for z/OS administration
+            description: >-
+              Introduces a modern unified experience for next-gen users that delivers an intuitive alternative to existing Db2 for z/OS administration
               experience with a modern UI, capabilities to view database object details, run SQL queries and Db2 commands.
             homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
             logo: ibm-db2-administration-foundation-for-zos.svg
@@ -813,7 +841,8 @@ landscape:
               - Zowe Conformant / App Framework 2019
               - Zowe Conformant / API Mediation Layer 2019
               - Zowe Conformant / CLI 2019
-            description: Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
+            description: >-
+              Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
               practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
             homepage_url: https://www.ibm.com/products/db2-devops-experience
             logo: db2-devops-experience-for-zos.svg
@@ -822,8 +851,10 @@ landscape:
           - item:
             name: IBM® Service Management Unite
             second_path: Zowe Conformant / App Framework 2019
-            description: IBM® Service Management Unite is a customizable service management user interface that provides dashboards to monitor and operate IBM Z environments.
-              Zowe application plugin for Service Management Unite is provided to allow user to use Service Management Unite directly on Zowe Desktop.
+            description: >-
+              IBM® Service Management Unite is a customizable service management user interface that provides dashboards to monitor and operate IBM Z
+              environments. Zowe application plugin for Service Management Unite is provided to allow user to use Service Management Unite directly on Zowe
+              Desktop.
             homepage_url: https://www.ibm.com/products/service-management-unite
             logo: service-management-unite.svg
             twitter: https://twitter.com/ibmz
@@ -831,8 +862,9 @@ landscape:
           - item:
             name: Rocket™ BlueZone Web
             second_path: Zowe Conformant / App Framework 2019
-            description: Rocket BlueZone Web simplifies the mainframe by making it easy for your users to access host-based applications and data anytime, anywhere
-              and on any device.
+            description: >-
+              Rocket BlueZone Web simplifies the mainframe by making it easy for your users to access host-based applications and data anytime, anywhere and on
+              any device.
             homepage_url: https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-web
             logo: rocketsoftware-bluezoneweb.svg
             crunchbase: https://www.crunchbase.com/organization/rocket-software
@@ -842,9 +874,11 @@ landscape:
           - item:
             name: CA Endevor® Bridge For Git
             second_path: Zowe Conformant / CLI ZOWE V2
-            description: The Endevor Bridge for Git Plug-in for Zowe CLI allows you to work with and manage Git-Endevor mappings of your Bridge for Git server. Also,
-              as a developer, you can build the changed files from the local working directory of your mapping in an Endevor work area.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-endevor-bridge-for-git-plug-in-for-zowe-cli.html
+            description: >-
+              The Endevor Bridge for Git Plug-in for Zowe CLI allows you to work with and manage Git-Endevor mappings of your Bridge for Git server. Also, as a
+              developer, you can build the changed files from the local working directory of your mapping in an Endevor work area.
+            homepage_url: >-
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-endevor-bridge-for-git-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: ca-endevor-bridge-for-git.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -852,7 +886,8 @@ landscape:
             name: CA z/OS Extended Files
             second_path: Zowe Conformant / CLI 2019
             description: CA z/OS Extended Files Plug-in extends the CLI to support complex data set management functionality.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
+            homepage_url: >-
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
             stock_ticker: AVGO
             logo: ca-zos-extended-files.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -860,7 +895,8 @@ landscape:
             name: CA z/OS Extended Jobs
             second_path: Zowe Conformant / CLI 2019
             description: CA z/OS Extended Jobs extends the CLI to include additional commands for interaction with z/OS jobs.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
+            homepage_url: >-
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
             stock_ticker: AVGO
             logo: ca-zos-extended-jobs.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -884,9 +920,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: IBM Z System Automation
-            description: "IBM Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical\
-              \ systems and applications. A Zowe CLI add-on that include a set of commands to retrieve information about automated resources as well as create and\
-              \ delete dynamic resources was made available since October 22, 2021 on top of IBM Z System Automation v 4.2 (already available since November 2020).\n"
+            description: >
+              IBM Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
+              and applications. A Zowe CLI add-on that include a set of commands to retrieve information about automated resources as well as create and delete
+              dynamic resources was made available since October 22, 2021 on top of IBM Z System Automation v 4.2 (already available since November 2020).
             homepage_url: https://www.ibm.com/products/z-system-automation
             logo: ibm-z-system-automation.svg
             twitter: https://twitter.com/ibmz
@@ -896,7 +933,8 @@ landscape:
             second_path:
               - Zowe Conformant / API Mediation Layer 2019
               - Zowe Conformant / CLI 2019
-            description: IBM® Z® Workload Scheduler is a workload automation solution that enables organizations to automate, plan and control the processing of complex
+            description: >-
+              IBM® Z® Workload Scheduler is a workload automation solution that enables organizations to automate, plan and control the processing of complex
               systems’ workloads.
             homepage_url: https://www.ibm.com/products/z-workload-scheduler
             logo: ibm-z-workload-scheduler.svg
@@ -905,8 +943,9 @@ landscape:
           - item:
             name: MAT Analyze
             second_path: Zowe Conformant / CLI ZOWE V2
-            description: MAT Analyze ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data in the form
-              of CA MAT analysis views using Zowe CLI.
+            description: >-
+              MAT Analyze ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data in the form of CA MAT
+              analysis views using Zowe CLI.
             homepage_url: https://www.npmjs.com/package/@broadcom/mat-analyze-for-zowe-cli
             stock_ticker: AVGO
             logo: mat-analyze.svg
@@ -914,8 +953,9 @@ landscape:
           - item:
             name: MAT Detect
             second_path: Zowe Conformant / CLI ZOWE V2
-            description: MAT Detect provides utilities to access performance data supplied by the CA Mainframe Application Tuner component Performance Management
-              Assistant (PMA).
+            description: >-
+              MAT Detect provides utilities to access performance data supplied by the CA Mainframe Application Tuner component Performance Management Assistant
+              (PMA).
             homepage_url: https://www.npmjs.com/package/@broadcom/mat-detect-for-zowe-cli
             stock_ticker: AVGO
             logo: mat-detect.svg
@@ -923,9 +963,11 @@ landscape:
           - item:
             name: View®
             second_path: Zowe Conformant / CLI ZOWE V2
-            description: CA View® lets you access report data, list repositories, and search cross-report index names or values in a repository. You can also use
-              the plug-in to automate report data exports using rules, and to manage user settings.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-view-plug-in-for-zowe-cli.html
+            description: >-
+              CA View® lets you access report data, list repositories, and search cross-report index names or values in a repository. You can also use the
+              plug-in to automate report data exports using rules, and to manage user settings.
+            homepage_url: >-
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-view-plug-in-for-zowe-cli.html
             stock_ticker: AVGO
             logo: view.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -976,7 +1018,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM® Service Management Suite for z/OS
-            description: IBM® Service Management Suite is focused on delivering comprehensive management of your z/OS enterprise, encompassing monitoring, automation,
+            description: >-
+              IBM® Service Management Suite is focused on delivering comprehensive management of your z/OS enterprise, encompassing monitoring, automation,
               network management, and asset discovery.
             homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
             logo: service-management-suite-for-zos.svg
@@ -987,8 +1030,7 @@ landscape:
         items:
           - item:
             name: (E)JES Plug-in for Zowe CLI
-            description: 'The (E)JES Plug-in for Zowe CLI uses the (E)JES Zowe REST API to provide command line functions to stream or search the mainframe system
-              logs. '
+            description: 'The (E)JES Plug-in for Zowe CLI uses the (E)JES Zowe REST API to provide command line functions to stream or search the mainframe system logs. '
             homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
             repo_url: https://github.com/phoenixsoftware/ejes-cli
             logo: phoenix-software-international-ejes.svg
@@ -1015,8 +1057,9 @@ landscape:
               - Zowe Conformant / Support Provider App Framework ZOWE V2
               - Zowe Conformant / Support Provider CLI ZOWE V2
               - Zowe Conformant / Support Provider Explorer for Visual Studio Code ZOWE V2
-            description: 24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.  Brightside
-              subscribers also have access to exclusive innovations.
+            description: >-
+              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence. 
+              Brightside subscribers also have access to exclusive innovations.
             homepage_url: https://www.broadcom.com/products/mainframe/application-development/brightside
             logo: brightside.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -1032,11 +1075,12 @@ landscape:
               - Zowe Conformant / Support Provider App Framework ZOWE V2
               - Zowe Conformant / Support Provider CLI ZOWE V2
               - Zowe Conformant / Support Provider Explorer for Visual Studio Code ZOWE V2
-            description: IBM Z® Distribution for Zowe provides IBM delivery of Zowe open source software in executable form to extend and enhance z/OS products and
-              services, includes an entitlement to IBM SDK for Node.js - z/OS, V12.0 as a supporting program of IBM Z Distribution for Zowe, is delivered in z/OS
-              standard software package format (SMP/E), includes entitled IBM Subscription and Support (S&S) when Zowe is used as a prerequisite for IBM products,
-              and S&S has been purchased for such IBM products, and offers optional worldwide 24x7 fee-based S&S when Zowe is used independent of IBM products, subject
-              to IBM standard terms and conditions.
+            description: >-
+              IBM Z® Distribution for Zowe provides IBM delivery of Zowe open source software in executable form to extend and enhance z/OS products and
+              services, includes an entitlement to IBM SDK for Node.js - z/OS, V12.0 as a supporting program of IBM Z Distribution for Zowe, is delivered in
+              z/OS standard software package format (SMP/E), includes entitled IBM Subscription and Support (S&S) when Zowe is used as a prerequisite for IBM
+              products, and S&S has been purchased for such IBM products, and offers optional worldwide 24x7 fee-based S&S when Zowe is used independent of IBM
+              products, subject to IBM standard terms and conditions.
             homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS220-014/index.html
             logo: ibm-z-distribution-for-zowe.svg
             twitter: https://twitter.com/ibmz
@@ -1058,14 +1102,16 @@ landscape:
         items:
           - item:
             name: Abend Analyzer for Mainframe
-            description: Abend Analyzer for Mainframe provides an interface to SymDump® Batch. This extension allows you to browse, manage and view formatted abend
-              reports and symbolic data in a modern IDE environment.
+            description: >-
+              Abend Analyzer for Mainframe provides an interface to SymDump® Batch. This extension allows you to browse, manage and view formatted abend reports
+              and symbolic data in a modern IDE environment.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.abend-analyzer
             logo: abend-analyzer-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: COBOL Control Flow
-            description: Provides graphical visualization of program flow for programs written in COBOL. The extension is designed to help COBOL developers to quickly
+            description: >-
+              Provides graphical visualization of program flow for programs written in COBOL. The extension is designed to help COBOL developers to quickly
               comprehend and debug COBOL programs with which they might not be familiar.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.ccf
             logo: cobol-control-flow.svg
@@ -1078,14 +1124,17 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Data Editor for Mainframe
-            description: Enhances the functionality of Zowe Explorer to allow you to apply record layouts to VSAM data sets and interactively filter records using
+            description: >-
+              Enhances the functionality of Zowe Explorer to allow you to apply record layouts to VSAM data sets and interactively filter records using
               selection criteria.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.data-editor-for-mainframe
             logo: data-editor-for-mainframe.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Debugger for Mainframe
-            description: "This extension provides a modern debugging experience for CICS\nand Batch programs written in COBOL leveraging Intertest Batch and z/OS"
+            description: |-
+              This extension provides a modern debugging experience for CICS
+              and Batch programs written in COBOL leveraging Intertest Batch and z/OS
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe
             repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
             logo: debugger-for-mainframe.svg
@@ -1100,8 +1149,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: HLASM Language Support
-            description: An extension that supports the High Level Assembler language. It provides code completion, highlighting and navigation features, shows mistakes
-              in the source, and lets you trace how the conditional assembly is evaluated with a modern debugging experience.
+            description: >-
+              An extension that supports the High Level Assembler language. It provides code completion, highlighting and navigation features, shows mistakes in
+              the source, and lets you trace how the conditional assembly is evaluated with a modern debugging experience.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.hlasm-language-support
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
             logo: hlasm-language-support.svg
@@ -1109,15 +1159,17 @@ landscape:
           - item:
             name: IBM z Open Editor
             second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
-              interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and utilizes its APIs for various
-              operations such as resolving and parsing program include files directly from MVS, running personal builds, submitting jobs and many more.
+            description: >-
+              An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
+              interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and utilizes its APIs for
+              various operations such as resolving and parsing program include files directly from MVS, running personal builds, submitting jobs and many more.
             homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
             logo: ibm-z-open-editor.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: JCL Language Support
-            description: Extension provides an interface in VS Code for developers and system administrators to interact with Job Control Language (JCL) on IBM z/OS
+            description: >-
+              Extension provides an interface in VS Code for developers and system administrators to interact with Job Control Language (JCL) on IBM z/OS
               mainframes. Edit JCL in a local environment complete with syntax highlighting, linting, and access to a library of sample job snippets.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.jcl-language-support
             repo_url: https://github.com/BroadcomMFD/jcl-language-support
@@ -1137,7 +1189,7 @@ landscape:
             name: Zowe Explorer for IBM CICS
             second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
-            project:
+            project: null
             repo_url: https://github.com/zowe/vscode-extension-for-cics
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -1158,8 +1210,9 @@ landscape:
             second_path:
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI 2019
-            description: The IBM® Db2® Database Plug-in for Zowe CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development
-              tools to automate typical workloads more efficiently.
+            description: >-
+              The IBM® Db2® Database Plug-in for Zowe CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development tools to
+              automate typical workloads more efficiently.
             homepage_url: http://github.com/zowe/zowe-cli-db2-plugin#readme
             repo_url: https://github.com/zowe/zowe-cli-db2-plugin
             logo: ibm-db2-for-cli.svg
@@ -1167,8 +1220,9 @@ landscape:
           - item:
             name: IBM® IMS™ Plug-in
             second_path: Zowe Conformant / CLI ZOWE V1
-            description: The IBM® IMS™ Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions).
-              You can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
+            description: >-
+              The IBM® IMS™ Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions). You
+              can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
             homepage_url: http://github.com/zowe/zowe-cli-ims-plugin#readme
             repo_url: https://github.com/zowe/zowe-cli-ims-plugin
             logo: ibm-ims-for-cli.svg
@@ -1180,8 +1234,9 @@ landscape:
               - Zowe Conformant / API Mediation Layer 2019
               - Zowe Conformant / CLI 2019
               - Zowe Conformant / CLI ZOWE V1
-            description: The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks,
-              such as defining, altering, and deleting local queue objects.
+            description: >-
+              The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks, such
+              as defining, altering, and deleting local queue objects.
             homepage_url: https://github.com/zowe/zowe-cli-mq-plugin#readme
             repo_url: https://github.com/zowe/zowe-cli-mq-plugin
             logo: ibm-mq-for-cli.svg
@@ -1191,7 +1246,9 @@ landscape:
             second_path:
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI 2019
-            description: "Extend the Zowe CLI to include OPS/MVS commands\nNPM Registry Date: Will be released immediately following Zowe v2."
+            description: |-
+              Extend the Zowe CLI to include OPS/MVS commands
+              NPM Registry Date: Will be released immediately following Zowe v2.
             homepage_url: https://www.npmjs.com/package/@broadcom/ops-for-zowe-cli
             logo: opsmvs.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -1225,17 +1282,20 @@ landscape:
         items:
           - item:
             name: API State Monitor for Zowe API ML
-            description: "The API State Monitor for Zowe API ML monitors the state of standard API services that flow through the Zowe ecosystem and reports that\
-              \ state back to the System Log (SYSLOG) in the form of a Write To Operator (WTO) message. Specifically, the API State\nMonitor posts information on\
-              \ whether services are registering or de-registering from the API Mediation Layer Discovery Service (EUREKA), or shut down ungracefully."
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-api-ml/ca-brightside-extensions-for-zowe-api-mediation-layer.html
+            description: >-
+              The API State Monitor for Zowe API ML monitors the state of standard API services that flow through the Zowe ecosystem and reports that state back
+              to the System Log (SYSLOG) in the form of a Write To Operator (WTO) message. Specifically, the API State
+
+              Monitor posts information on whether services are registering or de-registering from the API Mediation Layer Discovery Service (EUREKA), or shut
+              down ungracefully.
+            homepage_url: >-
+              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-api-ml/ca-brightside-extensions-for-zowe-api-mediation-layer.html
             logo: api-state-monitor-for-zowe-api-ml.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: SymDump
             second_path: Zowe Conformant / API Mediation Layer ZOWE V1
-            description: SymDump is a fault management tool designed to identify and resolve dumps. The tool provides multitude of user interfaces including REST
-              API.
+            description: SymDump is a fault management tool designed to identify and resolve dumps. The tool provides multitude of user interfaces including REST API.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-intertest-and-ca-symdump/11-0/using.html
             logo: symdump.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -1269,8 +1329,9 @@ landscape:
             second_path:
               - Zowe Conformant / App Framework ZOWE V1
               - Zowe Conformant / API Mediation Layer ZOWE V1
-            description: CA Vantage™ Storage Resource Manager Web Client, also known as Mainframe Team Center - Management. Zowe App Framework plugin provides access
-              to the Mainframe Team Center - Management from Zowe Desktop.
+            description: >-
+              CA Vantage™ Storage Resource Manager Web Client, also known as Mainframe Team Center - Management. Zowe App Framework plugin provides access to
+              the Mainframe Team Center - Management from Zowe Desktop.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0/web-client.html
             logo: vantage-storage-resource-manager.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -1345,17 +1406,19 @@ landscape:
         items:
           - item:
             name: Apache HTTP Server Project
-            description: The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX
-              and Windows. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current HTTP
-              standards.
+            description: >-
+              The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and
+              Windows. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current
+              HTTP standards.
             homepage_url: https://httpd.apache.org/
             repo_url: https://github.com/apache/httpd
             logo: Apache_HTTP_server_logo_(2016).svg
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Cloud Foundry
-            description: Cloud Foundry makes it faster and easier to build, test, deploy and scale applications, providing a choice of clouds, developer frameworks,
-              and application services. It is an open source project and is available through a variety of private cloud distributions and public cloud instances.
+            description: >-
+              Cloud Foundry makes it faster and easier to build, test, deploy and scale applications, providing a choice of clouds, developer frameworks, and
+              application services. It is an open source project and is available through a variety of private cloud distributions and public cloud instances.
             homepage_url: https://www.cloudfoundry.org/
             repo_url: https://github.com/cloudfoundry/bosh
             logo: cloudfoundry.svg
@@ -1543,8 +1606,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/llvm-foundation
           - item:
             name: LuaJIT
-            description: LuaJIT is a Just-In-Time Compiler (JIT) for the Lua programming language. Lua is a powerful, dynamic and light-weight programming language.
-              It may be embedded or used as a general-purpose, stand-alone language.
+            description: >-
+              LuaJIT is a Just-In-Time Compiler (JIT) for the Lua programming language. Lua is a powerful, dynamic and light-weight programming language. It may
+              be embedded or used as a general-purpose, stand-alone language.
             homepage_url: http://luajit.org/
             repo_url: https://github.com/moonjit/moonjit
             logo: luajit.svg
@@ -1700,7 +1764,7 @@ landscape:
             homepage_url: https://maintenance.vmware.com/maintenance.html
             repo_url: https://github.com/saltstack/salt
             logo: salt-stack.svg
-            twitter:
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/saltstack
           - item:
             name: SonarCube
@@ -1808,7 +1872,7 @@ landscape:
             homepage_url: https://spark.apache.org
             repo_url: https://github.com/apache/spark
             logo: spark.svg
-            twitter:
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Elastic
@@ -1846,7 +1910,7 @@ landscape:
             homepage_url: https://lucene.apache.org/
             repo_url: https://github.com/apache/lucene-solr
             logo: lucenesolr.svg
-            twitter:
+            twitter: null
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Splunk
@@ -1918,7 +1982,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/oracle
           - item:
             name: PostgreSQL
-            description: PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong
+            description: >-
+              PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong
               reputation for reliability, feature robustness, and performance.
             homepage_url: https://www.postgresql.org/
             repo_url: https://github.com/postgres/postgres
@@ -1957,8 +2022,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/alpine-linux
           - item:
             name: ClefOS for System z
-            description: ClefOS is a distribution specifically for Linux on z Systems (s390x aka "the mainframe"). It is based on the CentOS source materials but
-              is not part of the CentOS organization.
+            description: >-
+              ClefOS is a distribution specifically for Linux on z Systems (s390x aka "the mainframe"). It is based on the CentOS source materials but is not
+              part of the CentOS organization.
             homepage_url: https://www.sinenomine.net/products/linux/clefos
             repo_url: https://github.com/nealef/clefos
             logo: clefos.svg
@@ -1972,7 +2038,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/debian
           - item:
             name: Fedora Linux
-            description: Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community
+            description: >-
+              Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community
               members to build tailored solutions for their users.
             homepage_url: https://fedoraproject.org/wiki/Architectures/s390x
             repo_url: https://github.com/fedora-infra/bodhi
@@ -1980,7 +2047,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/the-fedora-project
           - item:
             name: Gentoo Linux
-            description: Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized and customized for just about any
+            description: >-
+              Gentoo is a free operating system based on either Linux or FreeBSD that can be automatically optimized and customized for just about any
               application or need.
             homepage_url: https://wiki.gentoo.org/wiki/Project:S390
             repo_url: https://github.com/gentoo/gentoo
@@ -2023,25 +2091,21 @@ landscape:
             name: Broadcom Corporation
             homepage_url: https://broadcom.com/
             logo: broadcom_corporation.svg
-            twitter: https://twitter.com/Broadcom
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: International Business Machines Corporation
             homepage_url: https://ibm.com/
             logo: international_business_machines_corporation.svg
-            twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Rocket Software, Inc.
             homepage_url: https://rocketsoftware.com/
             logo: rocket_software_inc.svg
-            twitter: https://twitter.com/Rocket
             crunchbase: https://www.crunchbase.com/organization/rocket-software
           - item:
             name: SUSE LLC
             homepage_url: https://suse.com/
             logo: suse_llc.svg
-            twitter: https://twitter.com/SUSE
             crunchbase: https://www.crunchbase.com/organization/suse
       - subcategory:
         name: Silver
@@ -2056,7 +2120,6 @@ landscape:
             name: Canonical Group Limited
             homepage_url: https://canonical.com/
             logo: canonical_group_limited.svg
-            twitter: https://twitter.com/Canonical
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
           - item:
             name: IN-COM Data Systems
@@ -2084,7 +2147,6 @@ landscape:
             name: Phoenix Software International
             homepage_url: https://phoenixsoftware.com/
             logo: phoenix_software_international.svg
-            twitter: https://twitter.com/PhnxSoftware
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
             name: Precisely Holdings, LLC
@@ -2128,14 +2190,7 @@ landscape:
             name: East Carolina University
             homepage_url: https://ecu.edu/
             logo: east_carolina_university.svg
-            twitter: https://twitter.com/EastCarolina
             crunchbase: https://www.crunchbase.com/organization/east-carolina-university
-          - item:
-            name: École privée des sciences informatiques (EPSI)
-            homepage_url: https://epsi.fr/
-            logo: ecole_privee_des_sciences_informatiques_epsi.svg
-            twitter: https://twitter.com/EPSI_Ecoles
-            crunchbase: https://www.crunchbase.com/organization/epsi
           - item:
             name: HoGent
             homepage_url: https://hogent.be/
@@ -2146,7 +2201,6 @@ landscape:
             name: HTL Donaustadt
             homepage_url: https://htl-donaustadt.at/
             logo: htl_donaustadt.svg
-            twitter: https://twitter.com/htldonaustadt
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
           - item:
             name: Johann Wolfgang Goethe University
@@ -2170,7 +2224,6 @@ landscape:
             name: North Carolina A&T State University
             homepage_url: https://ncat.edu/
             logo: north_carolina_at_state_university.svg
-            twitter: https://twitter.com/ncatsuaggies
             crunchbase: https://www.crunchbase.com/organization/north-carolina-a-t-state-university
           - item:
             name: South China University of Technology
@@ -2187,19 +2240,16 @@ landscape:
             name: University of Washington CIAC (Center for Information Assurance and Cybersecurity)
             homepage_url: https://washington.edu/
             logo: university_of_washington_ciac_center_for_information_assurance_and_cybersecurity.svg
-            twitter: https://twitter.com/UW
             crunchbase: https://www.crunchbase.com/organization/university-of-washington
           - item:
             name: University of Wolverhampton
             homepage_url: https://wlv.ac.uk/
             logo: university_of_wolverhampton.svg
-            twitter: https://twitter.com/wlv_uni
             crunchbase: https://www.crunchbase.com/organization/university-of-wolverhampton
           - item:
             name: Virginia Commonwealth University
             homepage_url: https://vcu.edu/
             logo: virginia_commonwealth_university.svg
-            twitter: https://twitter.com/VCU
             crunchbase: https://www.crunchbase.com/organization/virginia-commonwealth-university
           - item:
             name: Western University
@@ -2218,6 +2268,12 @@ landscape:
             homepage_url: https://xidian.edu.cn/
             logo: xidian_university.svg
             crunchbase: https://www.crunchbase.com/organization/xidian-university
+          - item:
+            name: École privée des sciences informatiques (EPSI)
+            homepage_url: https://epsi.fr/
+            logo: ecole_privee_des_sciences_informatiques_epsi.svg
+            twitter: https://twitter.com/EPSI_Ecoles
+            crunchbase: https://www.crunchbase.com/organization/epsi
       - subcategory:
         name: Associate
         items:
@@ -2241,13 +2297,11 @@ landscape:
             name: GSE UK Region
             homepage_url: https://gse.org.uk/
             logo: gse_uk_region.svg
-            twitter: https://twitter.com/gseukc
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
           - item:
             name: Guide Share Europe (GSE)
             homepage_url: https://gse.org/
             logo: guide_share_europe_gse.svg
-            twitter: https://twitter.com/GuideShareEurop
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe
           - item:
             name: High School Technology Services
