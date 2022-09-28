@@ -802,12 +802,14 @@ landscape:
           - item:
             name: PRO/JCL Plug-in
             description: >-
-              ASG-PRO/JCL is a JCL management solution that helps mainframe data centers achieve and operate a production Job Control Language (JCL) environment
-              that is error free, standardized and optimized with a DevOps-enabled Eclipse plugin.
-            homepage_url: https://www.asg.com/en/Products/IT-Systems-Management/Operations-Management/JCL-Management/ASG-PRO-JCL.aspx
+              PRO/JCL is a comprehensive JCL management tool that provides JCL validation, standards enforcement, and reformatting. Designed to help developers
+              streamline their JCL workflows on the z/OS mainframe, this extension allows you to access the most important features of PRO/JCL from Visual
+              Studio Code.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=RocketSoftware.projcl-vscode
             project: null
             logo: projcl.svg
             crunchbase: https://www.crunchbase.com/organization/asg
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
       - subcategory:
         name: App Framework ZOWE V1
         items:
