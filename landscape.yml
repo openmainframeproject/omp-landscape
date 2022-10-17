@@ -1321,13 +1321,18 @@ landscape:
             homepage_url: https://broadcom.com
             logo: test4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+      - subcategory:
+        name: Support Provider Comprehensive ZOWE V2
+        items: []
+      - subcategory:
+        name: Support Provider Explorer for Visual Studio Code ZOWE V2
+        items: []
+      - subcategory:
+        name: Support Provider API Mediation Layer ZOWE V2
+        items:
           - item:
             name: Rocket Support for Zowe
             second_path:
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / App Framework ZOWE V2
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-              - Zowe Conformant / Support Provider API Mediation Layer ZOWE V2
               - Zowe Conformant / Support Provider App Framework ZOWE V2
               - Zowe Conformant / Support Provider CLI ZOWE V2
               - Zowe Conformant / Support Provider Explorer for Visual Studio Code ZOWE V2
@@ -1338,15 +1343,6 @@ landscape:
             homepage_url: https://www.rocketsoftware.com/products/rocket-zowe
             logo: rocket-support.svg
             crunchbase: https://www.crunchbase.com/organization/rocket-software
-      - subcategory:
-        name: Support Provider Comprehensive ZOWE V2
-        items: []
-      - subcategory:
-        name: Support Provider Explorer for Visual Studio Code ZOWE V2
-        items: []
-      - subcategory:
-        name: Support Provider API Mediation Layer ZOWE V2
-        items: []
       - subcategory:
         name: Support Provider App Framework ZOWE V2
         items: []
