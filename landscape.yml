@@ -256,7 +256,7 @@ landscape:
           - item:
             name: Polycephaly
             homepage_url: https://www.openmainframeproject.org/projects/polycephaly
-            project: incubating
+            project: emeritus
             repo_url: https://github.com/openmainframeproject/polycephaly
             logo: polycephaly.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -268,7 +268,7 @@ landscape:
               meeting_cadence: Every other Monday at 2:00pm US Eastern Time
               date_accepted: ^2019-12-19
               last_review_date: ^2021-10-28
-              next_review_date: ^2022-10-27
+              next_review_date: ^N/A
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/polycephaly
           - item:
             name: TSTerm
@@ -1277,7 +1277,11 @@ landscape:
               - Zowe Conformant / Support Provider App Framework ZOWE V2
               - Zowe Conformant / Support Provider CLI ZOWE V2
               - Zowe Conformant / Support Provider Explorer for Visual Studio Code ZOWE V2
+              - Zowe Conformant / Support Provider Comprehensive ZOWE V2
             description: Rocket Support for Zowe provides a Rocket-hosted download for all Zowe core components, 24x7 customer support for Zowe, and security assurance
+              with an independent ability to provide security fixes as needed.  Additionally, Rocket Support for Zowe comes with extra Rocket exclusive
+              enterprise-grade utility apps for the mainframe virtual desktop.
+              description: Rocket Support for Zowe provides a Rocket-hosted download for all Zowe core components, 24x7 customer support for Zowe, and security assurance
               with an independent ability to provide security fixes as needed.  Additionally, Rocket Support for Zowe comes with extra Rocket exclusive enterprise-grade
               utility apps for the mainframe virtual desktop.
             homepage_url: https://www.rocketsoftware.com/products/rocket-zowe
