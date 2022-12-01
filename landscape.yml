@@ -22,7 +22,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/feilong-discussion
               slack_channel: '#feilong'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ffeilong
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/feilong/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IfR9gQAF/overview
               meeting_cadence: Monthly on the second Wednesday of the month at 9:00am US Eastern Time
               leads: Mike Friesenegger and James Vincent
               date_accepted: ^2019-08-20
@@ -48,7 +49,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/wg-linux-distros
               slack_channel: '#linux-distros-wg'
-              LFX_insights_url: none
+              LFX_insights: none
+              LFX_security: none
               meeting_cadence: none
               leads: Elizabeth Joseph
               date_accepted: ^2021-10-14
@@ -116,7 +118,8 @@ landscape:
               user_mailing_list_url: https://lists.openmainframeproject.org/g/tessia-user
               dev_mailing_list_url: https://lists.openmainframeproject.org/g/tessia-dev
               slack_channel: '#tessia'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftessia
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/tessia/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkUvgQAF/overview
               leads: Alexey Machikhin and Alexander Efremkin
               meeting_cadence: none
               date_accepted: ^2020-10-22
@@ -167,7 +170,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/consolez-discussion
               slack_channel: '#consolez'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fconsolez
+              LFX_insights: none
+              LFX_security: none
               leads: Michael MacIssac
               meeting_cadence: none
               date_accepted: ^2021-01-14
@@ -189,7 +193,8 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: none
-              LFX_insights_url: none
+              LFX_insights: none
+              LFX_security: none
               leads: Bill Bitner
               meeting_cadence: none
               date_accepted: ^2021-05-13
@@ -207,7 +212,8 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: '#cbt-tape'
-              LFX_insights_url: none
+              LFX_insights: none
+              LFX_security: none
               leads: Sam Golab
               meeting_cadence: none
               date_accepted: ^2020-09-10
@@ -225,7 +231,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/genevaers-discussion
               slack_channel: '#genevaers'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fgenevaers
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/genevaers/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkTlvQAF/overview 
               leads: Andrea Orth
               meeting_cadence: Monthly on second Tuesday at 9:00pm US Eastern Time
               date_accepted: ^2020-08-13
@@ -263,9 +270,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/polycephaly-discussion
               slack_channel: '#polycephaly'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%polycephaly
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/polycephaly/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001JWsF4QAL/overview 
               leads: Jerry Edgington
-              meeting_cadence: Every other Monday at 2:00pm US Eastern Time
+              meeting_cadence: none
               date_accepted: ^2019-12-19
               last_review_date: ^2021-10-28
               next_review_date: ^N/A
@@ -281,7 +289,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/tsterm-discussion
               slack_channel: '#tsterm'
-              LFX_insights_url: none
+              LFX_insights: none
+              LFX_security: none
               leads: Joe Devlin
               meeting_cadence: none
               date_accepted: ^2021-11-18
@@ -337,7 +346,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/zorow-discussion
               slack_channel: '#zorow'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%zorow
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/zorow/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IfR9MQAV/overview
               leads: Hiren Shah
               meeting_cadence: Every other Thursday at 2:00pm US Eastern
               date_accepted: ^2019-08-20
@@ -357,7 +367,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/zowe-dev
               slack_channel: '#zowe-onboarding'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%zowe
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/zowe/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV4KHQA1/overview
               leads: Jakub Balhar, Sean Grady, Mike Bauer
               meeting_cadence: https://lists.openmainframeproject.org/g/zowe-dev/calendar
               date_accepted: ^2019-08-20
@@ -383,7 +394,8 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: '#atomplugins'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%atom-plugins
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/atom/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IfR9lQAF/overview
               leads: Walter Church
               meeting_cadence: none
               date_accepted: ^2017-09-13
@@ -400,7 +412,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/cobol-check-discussion
               slack_channel: '#cobol-check'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%cobol-check
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/cobol-check/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001KWfljQAD/overview
               leads: Dave Nicolette
               meeting_cadence: Weekly on Thursdays at 9:00am US Eastern Time
               date_accepted: ^2021-01-14
@@ -437,7 +450,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/cobol-course-discussion
               slack_channel: '#cobol-programming-course'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fcobol-programming-course
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/cobol-programming-course/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkTlwQAF/overview
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
               leads: Sudharsana Srinivasan
               date_accepted: ^2020-04-09
@@ -456,7 +470,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/wg-cobol
               slack_channel: '#wg-cobol'
-              LFX_insights_url: none
+              LFX_insights: none
+              LFX_security: none
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
               leads: Derek Britton and Cameron Seay
               date_accepted: ^2020-06-11
@@ -469,23 +484,6 @@ landscape:
             logo: Global-Repository-for-Mainframe-Developers.svg
             crunchbase: https://www.crunchbase.com/organization/iba-group
           - item:
-            name: Mentorship
-            homepage_url: https://www.openmainframeproject.org/projects/mentorship-program
-            project: graduated
-            repo_url: https://github.com/openmainframeproject-internship/resources
-            project_org: https://github.com/openmainframeproject-internship
-            logo: mentorship.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            extra:
-              mailing_list_url: none
-              slack_channel: '#mentorship'
-              LFX_insights_url: none
-              meeting_cadence: none
-              leads: Bob Dahlberg
-              date_accepted: ^2015-08-23
-              last_review_date: ^2021-11-18
-              next_review_date: ^2022-11-10
-          - item:
             name: Open Mainframe Education
             homepage_url: https://github.com/openmainframeproject/omp-education
             project: incubating
@@ -495,7 +493,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/omp-education-discussion
               slack_channel: '#omp-education-project'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Feducation
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/mainframe-open-education/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkTlxQAF/overview
               meeting_cadence: none
               leads: Lauren Valenti
               date_accepted: ^2020-05-14
@@ -514,7 +513,8 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: '#ade'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fade
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/ade/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV4KCQA1/overview
               meeting_cadence: none
               leads: James Caffrey
               date_accepted: ^2016-02-15
@@ -532,7 +532,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/ambitus-discussion
               slack_channel: '#ambitus'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fambitus
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/ambitus/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001JWqRDQA1/overview
               meeting_cadence: Every other Monday at 10am US Eastern Time
               leads: Joe Bostian
               date_accepted: ^2020-02-24
@@ -554,7 +555,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/software-discovery-tool
               slack_channel: '#software-discovery-tool'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fsoftware-discovery-tool
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/software-discovery-tool/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkTmPQAV/overview
               meeting_cadence: none
               leads: Elizabeth Joseph
               date_accepted: ^2020-04-09
@@ -573,7 +575,8 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: '#tersedecompress'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftersedecompress
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/tersedecompress/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IfRAKQA3/overview
               meeting_cadence: none
               leads: none
               date_accepted: ^2018-12-14
