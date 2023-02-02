@@ -799,15 +799,6 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
-            name: IBM® Z System Automation
-            description: >-
-              IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
-              and applications.
-            homepage_url: https://www.ibm.com/products/z-system-automation
-            logo: ibm-z-system-automation.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
             name: IMS Operations API
             homepage_url: https://github.com/zowe/ims-operations-api#readme
             repo_url: https://github.com/zowe/ims-operations-api
@@ -1118,7 +1109,19 @@ landscape:
         items: []
       - subcategory:
         name: Support Provider App Framework ZOWE V1
-        items: []
+        items:
+          - item:
+            name: IBM® Z System Automation
+            description: >-
+              IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
+              and applications.
+            homepage_url: https://www.ibm.com/products/z-system-automation
+            logo: ibm-z-system-automation.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+            second_path:
+              - Zowe Conformant - API Mediation Layer ZOWE V2
+              - Zowe Conformant - CLI ZOWE V2
       - subcategory:
         name: Support Provider CLI ZOWE V1
         items: []
