@@ -13630,56 +13630,83 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-02-09T21:27:06.000Z
           - item:
-            name: PRO/JCL Plug-in
+            name: Rocket® PRO/JCL
             description: >-
-              ASG-PRO/JCL is a JCL management solution that helps mainframe data centers achieve and operate a production Job Control Language (JCL) environment
-              that is error free, standardized and optimized with a DevOps-enabled Eclipse plugin.
-            homepage_url: https://www.asg.com/en/Products/IT-Systems-Management/Operations-Management/JCL-Management/ASG-PRO-JCL.aspx
+              PRO/JCL increases throughput and reduces costs by creating an error-free, standardized, and optimized ecosystem. The powerful REXX APIs also
+              facilitate detailed analysis of the JCL and the necessary changes to standardize, convert, or clean the libraries.
+            homepage_url: https://www.rocketsoftware.com/products/rocket-projcl
             project: null
-            logo: projcl.svg
-            crunchbase: https://www.crunchbase.com/organization/asg
+            logo: rocket-projcl.svg
+            crunchbase: https://www.crunchbase.com/organization/rocket-software
             crunchbase_data:
-              name: ASG Technologies
-              description: ASG Technologies provides Information Management and IT Systems management solutions that enable companies to leverage their data.
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: https://www.asg.com/
-              city: Naples
-              region: Florida
+              name: Rocket Software
+              description: Rocket Software is a software development firm that offers enterprise infrastructure products and various related services.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.rocketsoftware.com
+              city: Waltham
+              region: Massachusetts
               country: United States
-              twitter: https://twitter.com/asgtec
-              linkedin: https://www.linkedin.com/company/asg
+              twitter: http://twitter.com/Rocket
+              linkedin: https://www.linkedin.com/groups/Rocket-Software-3997577?home=&gid=3997577&trk=groups_guest_most_popular-h-logo
               acquisitions:
-                - date: '2004-02-23'
-                  acquiree: Dirig Software
-                - date: '2007-06-15'
-                  acquiree: Mobius Management Systems
-                  price: 211000000
-                - date: '2011-03-14'
-                  acquiree: PS'Soft
-                - date: '2011-10-12'
-                  acquiree: RiverGlass
-                - date: '2011-12-13'
-                  acquiree: Atempo
-                - date: '2012-04-23'
-                  acquiree: NTRglobal
-                - date: '2018-03-07'
-                  acquiree: Mowbly
+                - date: '2002-11-12'
+                  acquiree: TCSI
+                  price: 10700000
+                - date: '2003-12-08'
+                  acquiree: StorageNetworks
+                - date: '2005-06-15'
+                  acquiree: ASTRAC
+                  price: 35000000
+                - date: '2006-07-28'
+                  acquiree: Mainstar Software
+                - date: '2006-12-18'
+                  acquiree: Seagull Software Systems
+                - date: '2008-01-10'
+                  acquiree: Arkivio
+                - date: '2010-03-29'
+                  acquiree: Computer Corporation of America
+                - date: '2011-03-22'
+                  acquiree: Aldon
+                - date: '2012-02-02'
+                  acquiree: Zephyr Development Corp.
+                - date: '2012-10-19'
+                  acquiree: OpenTech Systems
+                - date: '2012-10-19'
+                  acquiree: Progress Software - Shadow Business
+                - date: '2012-11-29'
+                  acquiree: Sirius Software
+                - date: '2013-11-18'
+                  acquiree: TigerLogic - MultiValue Database Business
+                - date: '2014-03-04'
+                  acquiree: Trubiquity
+                - date: '2018-09-18'
+                  acquiree: Fundi Software
+                - date: '2019-09-09'
+                  acquiree: RSD SA
+                - date: '2021-02-03'
+                  acquiree: Uniface
+                - date: '2021-04-12'
+                  acquiree: ASG Technologies
+                - date: '2021-10-14'
+                  acquiree: Zumasys
               parents: []
-              funding: 0
+              funding: 111911267
               stockExchange: null
               company_type: For Profit
               industries:
+                - Corporate Training
                 - Enterprise Software
                 - Software
+              kind: funding
             image_data:
-              fileName: pro-jcl-plug-in.svg
-              hash: E0yH9YX3tporFRKkeuol4nT+AhXuHTBtp5FscNrnmHc=
+              fileName: rocket-pro-jcl.svg
+              hash: B1jqbl8tRVe+JWRIRWeoJkZIyVpqfRfDQXQguymDl8M=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-01-14T17:00:24.000Z
+              latest_tweet_date: 2023-02-09T18:09:47.000Z
       - subcategory:
         name: App Framework ZOWE V1
         items:
@@ -16218,7 +16245,7 @@ landscape:
               kind: funding
             image_data:
               fileName: rocket-blue-zone-web.svg
-              hash: 9msXR3lDY6h6qt1HMqckg8LQ04q0oaCUvU/ZlfdD8yc=
+              hash: K4ZGzNWPglcBnPIoHR30shAxwWu9uw8iQmmqCcCstXU=
             best_practice_data:
               badge: false
               percentage: null
@@ -24791,7 +24818,7 @@ landscape:
               kind: funding
             image_data:
               fileName: rocket-support-for-zowe.svg
-              hash: jpjGdtNkf8a/130s+FqfXUnUojaieKkLh7GGCG1b1OM=
+              hash: 5CHytKocq+lyr5v8l9MYc46E64rCZK28MH24+rGo+ac=
             best_practice_data:
               badge: false
               percentage: null
