@@ -671,7 +671,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: CA IDMS
-            second_path: Zowe Conformant / CLI ZOWE V1
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI ZOWE V2
             description: IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html
             stock_ticker: AVGO
