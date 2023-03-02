@@ -22,7 +22,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/feilong-discussion
               slack_channel: '#feilong'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ffeilong
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/feilong/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IfR9gQAF/overview
               meeting_cadence: Monthly on the second Wednesday of the month at 9:00am US Eastern Time
               leads: Mike Friesenegger and James Vincent
               date_accepted: ^2019-08-20
@@ -49,12 +50,13 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/wg-linux-distros
               slack_channel: '#linux-distros-wg'
-              LFX_insights_url: none
+              LFX_insights: none
+              LFX_security: none
               meeting_cadence: none
               leads: Elizabeth Joseph
               date_accepted: ^2021-10-14
-              last_review_date: none
-              next_review_date: ^2022-10-27
+              last_review_date: ^2022-10-27
+              next_review_date: ^2023-10-19
           - item:
             name: qclib
             description: qclib provides a C API for extraction of system information for Linux on z Systems.
@@ -118,12 +120,13 @@ landscape:
               user_mailing_list_url: https://lists.openmainframeproject.org/g/tessia-user
               dev_mailing_list_url: https://lists.openmainframeproject.org/g/tessia-dev
               slack_channel: '#tessia'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftessia
-              leads: Alexey Machikhin and Alexander Efremkin
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/tessia/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkUvgQAF/overview
+              lead: Kuriakose Jijo George
               meeting_cadence: none
               date_accepted: ^2020-10-22
-              last_review_date: ^2021-10-14
-              next_review_date: ^2022-10-13
+              last_review_date: ^2022-10-13
+              next_review_date: ^2023-10-12
           - item:
             name: VMLINK
             homepage_url: https://github.com/trothr/vmlink
@@ -169,7 +172,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/consolez-discussion
               slack_channel: '#consolez'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fconsolez
+              LFX_insights: none
+              LFX_security: none
               leads: Michael MacIssac
               meeting_cadence: none
               date_accepted: ^2021-01-14
@@ -191,7 +195,8 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: none
-              LFX_insights_url: none
+              LFX_insights: none
+              LFX_security: none
               leads: Bill Bitner
               meeting_cadence: none
               date_accepted: ^2021-05-13
@@ -209,12 +214,13 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: '#cbt-tape'
-              LFX_insights_url: none
+              LFX_insights: none
+              LFX_security: none
               leads: Sam Golab
               meeting_cadence: none
               date_accepted: ^2020-09-10
-              last_review_date: ^2021-10-14
-              next_review_date: ^2022-10-13
+              last_review_date: ^2022-10-13
+              next_review_date: ^2023-10-12
           - item:
             name: GenevaERS
             homepage_url: https://genevaers.org
@@ -227,7 +233,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/genevaers-discussion
               slack_channel: '#genevaers'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fgenevaers
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/genevaers/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkTlvQAF/overview
               leads: Andrea Orth
               meeting_cadence: Monthly on second Tuesday at 9:00pm US Eastern Time
               date_accepted: ^2020-08-13
@@ -243,7 +250,7 @@ landscape:
           - item:
             name: Open z/OS Enablement Working Group
             homepage_url: https://github.com/openmainframeproject/wg-open-zos-enablement
-            project: workinggroup
+            project: emeritus
             repo_url: https://github.com/openmainframeproject/wg-open-zos-enablement
             logo: open-z-os-enablement-working-group.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -252,25 +259,26 @@ landscape:
               slack_channel: '#wg-open-zos-enablement'
               leads: Kip Twitchell
               meeting_cadence: First and third Thursdays of the month at 4:00pm US Eastern Time
-              date_accepted: ^2021-02-11
-              last_review_date: ^2022-02-10
-              next_review_date: ^2023-02-09
+              date_accepted: none
+              last_review_date: none
+              next_review_date: none
           - item:
             name: Polycephaly
             homepage_url: https://www.openmainframeproject.org/projects/polycephaly
-            project: incubating
+            project: emeritus
             repo_url: https://github.com/openmainframeproject/polycephaly
             logo: polycephaly.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/polycephaly-discussion
               slack_channel: '#polycephaly'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%polycephaly
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/polycephaly/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001JWsF4QAL/overview
               leads: Jerry Edgington
-              meeting_cadence: Every other Monday at 2:00pm US Eastern Time
+              meeting_cadence: none
               date_accepted: ^2019-12-19
               last_review_date: ^2021-10-28
-              next_review_date: ^2022-10-27
+              next_review_date: ^N/A
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/polycephaly
           - item:
             name: TSTerm
@@ -283,12 +291,13 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/tsterm-discussion
               slack_channel: '#tsterm'
-              LFX_insights_url: none
+              LFX_insights: none
+              LFX_security: none
               leads: Joe Devlin
               meeting_cadence: none
               date_accepted: ^2021-11-18
-              last_review_date: none
-              next_review_date: ^2022-11-10
+              last_review_date: ^2023-01-26
+              next_review_date: ^2023-06-22
               SBOM: none
           - item:
             name: z/OS Connector Plugin for Jenkins
@@ -332,19 +341,20 @@ landscape:
           - item:
             name: Zorow
             homepage_url: https://www.openmainframeproject.org/projects/zorow
-            project: incubating
+            project: emeritus
             repo_url: https://github.com/openmainframeproject/zorow
             logo: zorow.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/zorow-discussion
               slack_channel: '#zorow'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%zorow
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/zorow/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IfR9MQAV/overview
               leads: Hiren Shah
               meeting_cadence: Every other Thursday at 2:00pm US Eastern
-              date_accepted: ^2019-08-20
-              last_review_date: ^2021-08-26
-              next_review_date: ^2022-08-25
+              date_accepted: none
+              last_review_date: none
+              next_review_date: none
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/zorow
           - item:
             name: Zowe
@@ -359,7 +369,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/zowe-dev
               slack_channel: '#zowe-onboarding'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%zowe
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/zowe/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV4KHQA1/overview
               leads: Jakub Balhar, Sean Grady, Mike Bauer
               meeting_cadence: https://lists.openmainframeproject.org/g/zowe-dev/calendar
               date_accepted: ^2019-08-20
@@ -385,7 +396,8 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: '#atomplugins'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%atom-plugins
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/atom/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IfR9lQAF/overview
               leads: Walter Church
               meeting_cadence: none
               date_accepted: ^2017-09-13
@@ -402,12 +414,13 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/cobol-check-discussion
               slack_channel: '#cobol-check'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%cobol-check
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/cobol-check/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001KWfljQAD/overview
               leads: Dave Nicolette
               meeting_cadence: Weekly on Thursdays at 9:00am US Eastern Time
               date_accepted: ^2021-01-14
               last_review_date: ^2022-01-27
-              next_review_date: ^2023-01-26
+              next_review_date: ^^2023-04-24
           - item:
             name: COBOL Source colouriser for Visual Studio Code
             homepage_url: https://github.com/spgennard/vscode_cobol
@@ -439,7 +452,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/cobol-course-discussion
               slack_channel: '#cobol-programming-course'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fcobol-programming-course
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/cobol-programming-course/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkTlwQAF/overview
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
               leads: Sudharsana Srinivasan
               date_accepted: ^2020-04-09
@@ -459,7 +473,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/wg-cobol
               slack_channel: '#wg-cobol'
-              LFX_insights_url: none
+              LFX_insights: none
+              LFX_security: none
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
               leads: Derek Britton and Cameron Seay
               date_accepted: ^2020-06-11
@@ -472,23 +487,6 @@ landscape:
             logo: Global-Repository-for-Mainframe-Developers.svg
             crunchbase: https://www.crunchbase.com/organization/iba-group
           - item:
-            name: Mentorship
-            homepage_url: https://www.openmainframeproject.org/projects/mentorship-program
-            project: graduated
-            repo_url: https://github.com/openmainframeproject-internship/resources
-            project_org: https://github.com/openmainframeproject-internship
-            logo: mentorship.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            extra:
-              mailing_list_url: none
-              slack_channel: '#mentorship'
-              LFX_insights_url: none
-              meeting_cadence: none
-              leads: Bob Dahlberg
-              date_accepted: ^2015-08-23
-              last_review_date: ^2021-11-18
-              next_review_date: ^2022-11-10
-          - item:
             name: Open Mainframe Education
             homepage_url: https://github.com/openmainframeproject/omp-education
             project: incubating
@@ -498,7 +496,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/omp-education-discussion
               slack_channel: '#omp-education-project'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Feducation
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/mainframe-open-education/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkTlxQAF/overview
               meeting_cadence: none
               leads: Lauren Valenti
               date_accepted: ^2020-05-14
@@ -517,12 +516,13 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: '#ade'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fade
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/ade/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV4KCQA1/overview
               meeting_cadence: none
               leads: James Caffrey
               date_accepted: ^2016-02-15
               last_review_date: ^2022-01-27
-              next_review_date: ^2023-01-26
+              next_review_date: ^2023-02-09 (rescheduling)
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/ade
           - item:
             name: Ambitus
@@ -535,7 +535,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/ambitus-discussion
               slack_channel: '#ambitus'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fambitus
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/ambitus/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001JWqRDQA1/overview
               meeting_cadence: Every other Monday at 10am US Eastern Time
               leads: Joe Bostian
               date_accepted: ^2020-02-24
@@ -548,6 +549,26 @@ landscape:
             logo: ductwork.svg
             crunchbase: https://www.crunchbase.com/organization/la-casita
           - item:
+            name: Modernization Working Group
+            description: >-
+              The purpose of this working group is to create a common definition and framework around modernization in the mainframe space; produce educational
+              material and promote all messages and definitions wider landscape for better alignment.
+            homepage_url: https://modernization.openmainframeproject.org
+            project: workinggroup
+            logo: modernization.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/wg-modernization
+              slack_channel: '#wg-modernization'
+              LFX_insights: none
+              LFX_security: none
+              wiki: https://wiki.openmainframeproject.org/display/MW
+              meeting_cadence: none
+              leads: Misty Decker
+              date_accepted: ^2022-09-18
+              last_review_date: none
+              next_review_date: ^2023-09-14
+          - item:
             name: Software Discovery Tool
             homepage_url: https://github.com/openmainframeproject/software-discovery-tool
             project: incubating
@@ -557,7 +578,8 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/software-discovery-tool
               slack_channel: '#software-discovery-tool'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fsoftware-discovery-tool
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/software-discovery-tool/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IkTmPQAV/overview
               meeting_cadence: none
               leads: Elizabeth Joseph
               date_accepted: ^2020-04-09
@@ -576,7 +598,8 @@ landscape:
             extra:
               mailing_list_url: none
               slack_channel: '#tersedecompress'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Ftersedecompress
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/tersedecompress/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IfRAKQA3/overview
               meeting_cadence: none
               leads: none
               date_accepted: ^2018-12-14
@@ -648,7 +671,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: CA IDMS
-            second_path: Zowe Conformant / CLI ZOWE V1
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI ZOWE V2
             description: IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html
             stock_ticker: AVGO
@@ -739,7 +764,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM Z JCL Expert
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
               costly delays through mass JCL checking.
@@ -800,16 +827,15 @@ landscape:
             logo: netmaster.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: PRO/JCL Plug-in
+            name: Rocket® PRO/JCL
             description: >-
               PRO/JCL is a comprehensive JCL management tool that provides JCL validation, standards enforcement, and reformatting. Designed to help developers
               streamline their JCL workflows on the z/OS mainframe, this extension allows you to access the most important features of PRO/JCL from Visual
               Studio Code.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=RocketSoftware.projcl-vscode
             project: null
-            logo: projcl.svg
-            crunchbase: https://www.crunchbase.com/organization/asg
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            logo: rocket-projcl.svg
+            crunchbase: https://www.crunchbase.com/organization/rocket-software
       - subcategory:
         name: App Framework ZOWE V1
         items:
@@ -1310,6 +1336,15 @@ landscape:
             logo: api-state-monitor-for-zowe-api-ml.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
+            name: Mainframe Topology
+            description: >-
+              Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
+              elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
+              their environment.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/mainframe-topology/1-0.html
+            logo: mainframe-topology.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
             name: SymDump
             second_path: Zowe Conformant / API Mediation Layer ZOWE V1
             description: SymDump is a fault management tool designed to identify and resolve dumps. The tool provides multitude of user interfaces including REST API.
@@ -1331,7 +1366,21 @@ landscape:
         items: []
       - subcategory:
         name: Support Provider API Mediation Layer ZOWE V2
-        items: []
+        items:
+          - item:
+            name: Rocket Support for Zowe
+            second_path:
+              - Zowe Conformant / Support Provider App Framework ZOWE V2
+              - Zowe Conformant / Support Provider CLI ZOWE V2
+              - Zowe Conformant / Support Provider Explorer for Visual Studio Code ZOWE V2
+              - Zowe Conformant / Support Provider Comprehensive ZOWE V2
+            description: >-
+              Rocket Support for Zowe provides a Rocket-hosted download for all Zowe core components, 24x7 customer support for Zowe, and security assurance
+              with an independent ability to provide security fixes as needed.  Additionally, Rocket Support for Zowe comes with extra Rocket exclusive
+              enterprise-grade utility apps for the mainframe virtual desktop.
+            homepage_url: https://www.rocketsoftware.com/products/rocket-zowe
+            logo: rocket-support.svg
+            crunchbase: https://www.crunchbase.com/organization/rocket-software
       - subcategory:
         name: Support Provider App Framework ZOWE V2
         items: []
@@ -2142,6 +2191,7 @@ landscape:
             name: EPAM Systems, Inc
             homepage_url: https://epam.com/
             logo: epam_systems_inc.svg
+            twitter: https://twitter.com/EPAMSystems
             crunchbase: https://www.crunchbase.com/organization/epam-systems
           - item:
             name: IN-COM Data Systems
@@ -2149,11 +2199,6 @@ landscape:
             logo: in-com_data_systems.svg
             twitter: https://twitter.com/IncomData
             crunchbase: https://www.crunchbase.com/organization/in-com-b0bc
-          - item:
-            name: KNS Group LLC (trademark YADRO)
-            homepage_url: https://yadro.com/
-            logo: kns_group_llc_trademark_yadro.svg
-            crunchbase: https://www.crunchbase.com/organization/yadro
           - item:
             name: Micro Focus International plc
             homepage_url: https://microfocus.com/
