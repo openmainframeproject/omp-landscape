@@ -830,12 +830,14 @@ landscape:
           - item:
             name: Rocket® PRO/JCL
             description: >-
-              PRO/JCL increases throughput and reduces costs by creating an error-free, standardized, and optimized ecosystem. The powerful REXX APIs also
-              facilitate detailed analysis of the JCL and the necessary changes to standardize, convert, or clean the libraries.
-            homepage_url: https://www.rocketsoftware.com/products/rocket-projcl
+              PRO/JCL is a comprehensive JCL management tool that provides JCL validation, standards enforcement, and reformatting. Designed to help developers
+              streamline their JCL workflows on the z/OS mainframe, this extension allows you to access the most important features of PRO/JCL from Visual
+              Studio Code.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=RocketSoftware.projcl-vscode
             project: null
             logo: rocket-projcl.svg
             crunchbase: https://www.crunchbase.com/organization/rocket-software
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
       - subcategory:
         name: App Framework ZOWE V1
         items:
