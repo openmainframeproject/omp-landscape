@@ -371,7 +371,7 @@ landscape:
               slack_channel: '#zowe-onboarding'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/zowe/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV4KHQA1/overview
-              leads: Jakub Balhar  
+              leads: Jakub Balhar
               TAC_representative: Sean Grady
               meeting_cadence: https://lists.openmainframeproject.org/g/zowe-dev/calendar
               date_accepted: ^2019-08-20
@@ -829,6 +829,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Rocket® PRO/JCL
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: >-
               PRO/JCL is a comprehensive JCL management tool that provides JCL validation, standards enforcement, and reformatting. Designed to help developers
               streamline their JCL workflows on the z/OS mainframe, this extension allows you to access the most important features of PRO/JCL from Visual
@@ -837,7 +838,6 @@ landscape:
             project: null
             logo: rocket-projcl.svg
             crunchbase: https://www.crunchbase.com/organization/rocket-software
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
       - subcategory:
         name: App Framework ZOWE V1
         items:
