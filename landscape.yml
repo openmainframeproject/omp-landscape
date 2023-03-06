@@ -834,6 +834,7 @@ landscape:
         items:
           - item:
             name: IBM Z Service Management Explorer
+            second_path: Zowe Conformant / App Framework ZOWE V2
             description: >-
               IBM Z Service Management Explorer is intended to provide a web-based alternative for the java-based IBM Tivoli Enterprise Portal, providing a
               graphical user interface for IBM OMEGAMON agents.
@@ -841,7 +842,6 @@ landscape:
             logo: ibm-z-service-management-explorer.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            second_path: Zowe Conformant / App Framework ZOWE V2
           - item:
             name: IBM z/OS Workload Interaction Navigator
             description: >-
@@ -1120,6 +1120,9 @@ landscape:
         items:
           - item:
             name: IBM® Z System Automation
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
               and applications.
@@ -1127,9 +1130,6 @@ landscape:
             logo: ibm-z-system-automation.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V2
       - subcategory:
         name: Support Provider CLI ZOWE V1
         items: []
