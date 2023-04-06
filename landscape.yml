@@ -590,7 +590,7 @@ landscape:
           - item:
             name: TerseDecompress
             homepage_url: https://www.openmainframeproject.org/projects/tersedecompress
-            project: emeritus
+            project: sandbox
             repo_url: https://github.com/openmainframeproject/tersedecompress
             additional_repos:
               - repo_url: https://github.com/openmainframeproject/tersedecompress-testdata
@@ -602,10 +602,10 @@ landscape:
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/tersedecompress/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IfRAKQA3/overview
               meeting_cadence: none
-              leads: none
+              leads: Oleksandr Hubanov
               date_accepted: ^2018-12-14
               last_review_date: none
-              next_review_date: none
+              next_review_date: ^2023-06-22
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/tersedecompress
   - category:
     name: Zowe Conformant
