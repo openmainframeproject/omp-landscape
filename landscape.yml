@@ -945,16 +945,6 @@ landscape:
             logo: cobol-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: IBM Z System Automation
-            description: >
-              IBM Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
-              and applications. A Zowe CLI add-on that include a set of commands to retrieve information about automated resources as well as create and delete
-              dynamic resources was made available since October 22, 2021 on top of IBM Z System Automation v 4.2 (already available since November 2020).
-            homepage_url: https://www.ibm.com/products/z-system-automation
-            logo: ibm-z-system-automation.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
             name: IBM® Z® Workload Scheduler V 9.5.0.2
             second_path:
               - Zowe Conformant / API Mediation Layer 2019
@@ -1122,6 +1112,7 @@ landscape:
             second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V2
               - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
             description: >-
               IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
               and applications.
@@ -1406,6 +1397,14 @@ landscape:
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0/web-client.html
             logo: vantage-storage-resource-manager.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: IBM Unified Management Server (UMS) for z/OS
+            description: >-
+              The IBM Unified Experience for z/OS is a browser-based user interface that is built on top of the open-source Zowe Virtual Desktop. One intuitive
+              interface seamlessly displays all installed software, or data management products, by logical grouping.
+            homepage_url: https://www.ibm.com/docs/en/umsfz/1.1.0?topic=overview-unified-experience-zos
+            logo: Unified_management_server.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
   - category:
     name: Broad Open Source
     subcategories:
