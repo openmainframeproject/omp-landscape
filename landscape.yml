@@ -1347,6 +1347,14 @@ landscape:
             logo: mainframe-topology.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
+            name: MAT REST API
+            description: >-
+              MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
+              performance analysis.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
+            logo: mat_rest_api.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
             name: SymDump
             second_path: Zowe Conformant / API Mediation Layer ZOWE V1
             description: SymDump is a fault management tool designed to identify and resolve dumps. The tool provides multitude of user interfaces including REST API.
@@ -1359,14 +1367,6 @@ landscape:
             description: Test4z v1.2.2 Mainframe Batch Testing Automation released March 22, 2022
             homepage_url: https://broadcom.com
             logo: test4z.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: MAT REST API
-            description: >-
-              MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
-              performance analysis.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
-            logo: mat_rest_api.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Support Provider Comprehensive ZOWE V2
@@ -1401,6 +1401,12 @@ landscape:
         name: App Framework ZOWE V2
         items:
           - item:
+            name: IBM IMS Administration Foundation for z/OS
+            description: IBM IMS Administration Foundation for z/OS (a component of IBM IMS Tools Base for z/OS V1.7 and later)
+            homepage_url: https://www.ibm.com/docs/en/umsfz/1.1.0?topic=110-using-ims-administration-foundation
+            logo: ibm-ims.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
             name: IBM Unified Management Server (UMS) for z/OS
             description: >-
               The IBM Unified Experience for z/OS is a browser-based user interface that is built on top of the open-source Zowe Virtual Desktop. One intuitive
@@ -1419,12 +1425,6 @@ landscape:
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0/web-client.html
             logo: vantage-storage-resource-manager.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: IBM IMS Administration Foundation for z/OS
-            description: IBM IMS Administration Foundation for z/OS (a component of IBM IMS Tools Base for z/OS V1.7 and later)
-            homepage_url: https://www.ibm.com/docs/en/umsfz/1.1.0?topic=110-using-ims-administration-foundation
-            logo: ibm-ims.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
   - category:
     name: Broad Open Source
     subcategories:
