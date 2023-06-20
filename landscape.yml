@@ -856,17 +856,21 @@ landscape:
             name: IBM® Db2 Administration Foundation for z/OS
             description: >-
               Introduces a modern unified experience for next-gen users that delivers an intuitive alternative to existing Db2 for z/OS administration
-              experience with a modern UI, capabilities to view database object details, run SQL queries and Db2 commands.
+              experience with capabilities to view database object details, run SQL queries and Db2 commands. With release 1.2, integration with IBM Db2
+              Analytics Accelerator Administration Services and IBM Query Workload Tuner for z/OS is now available to support accelerator management and
+              workload tuning respectively.
             homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
             logo: ibm-db2-administration-foundation-for-zos.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
+            second_path: Zowe Conformant / App Framework ZOWE V2
           - item:
             name: IBM® Db2 DevOps Experience for z/OS
             second_path:
               - Zowe Conformant / App Framework 2019
               - Zowe Conformant / API Mediation Layer 2019
               - Zowe Conformant / CLI 2019
+              - Zowe Conformant / App Framework ZOWE V2
             description: >-
               Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
               practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
@@ -1400,12 +1404,6 @@ landscape:
       - subcategory:
         name: App Framework ZOWE V2
         items:
-          - item:
-            name: IBM IMS Administration Foundation for z/OS
-            description: IBM IMS Administration Foundation for z/OS (a component of IBM IMS Tools Base for z/OS V1.7 and later)
-            homepage_url: https://www.ibm.com/docs/en/umsfz/1.1.0?topic=110-using-ims-administration-foundation
-            logo: ibm-ims.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM Unified Management Server (UMS) for z/OS
             description: >-
