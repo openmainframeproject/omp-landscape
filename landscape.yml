@@ -201,7 +201,7 @@ landscape:
               meeting_cadence: none
               date_accepted: ^2021-05-13
               last_review_date: ^2022-06-09
-              next_review_date: ^2022-09-08
+              next_review_date: ^2023-08-24
       - subcategory:
         name: z/OS
         items:
@@ -297,7 +297,7 @@ landscape:
               meeting_cadence: none
               date_accepted: ^2021-11-18
               last_review_date: ^2023-01-26
-              next_review_date: ^2023-06-22
+              next_review_date: ^2023-07-27
               SBOM: none
           - item:
             name: z/OS Connector Plugin for Jenkins
@@ -605,7 +605,7 @@ landscape:
               leads: Oleksandr Hubanov
               date_accepted: ^2018-12-14
               last_review_date: none
-              next_review_date: ^2023-06-22
+              next_review_date: ^2023-07-27
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/tersedecompress
   - category:
     name: Zowe Conformant
