@@ -510,7 +510,7 @@ landscape:
           - item:
             name: ADE
             homepage_url: http://ade.openmainframeproject.org
-            project: graduated
+            project: emeritus
             repo_url: https://github.com/openmainframeproject/ade
             logo: ade.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -522,8 +522,8 @@ landscape:
               meeting_cadence: none
               leads: James Caffrey
               date_accepted: ^2016-02-15
-              last_review_date: ^2022-01-27
-              next_review_date: ^2023-07-13
+              last_review_date: ^2023-07-13
+              next_review_date: ''
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/ade
           - item:
             name: Ambitus
@@ -541,8 +541,8 @@ landscape:
               meeting_cadence: Every other Monday at 10am US Eastern Time
               leads: Joe Bostian
               date_accepted: ^2020-02-24
-              last_review_date: ^2022-07-14
-              next_review_date: ^2023-07-13
+              last_review_date: ^2023-7-13
+              next_review_date: ^2024-07-11
           - item:
             name: Ductwork
             homepage_url: https://github.com/trothr/ductwork
