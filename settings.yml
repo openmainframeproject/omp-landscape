@@ -472,3 +472,4 @@ prerender:
 export:
   projects-hosted: card-mode?grouping=no&category=projects&project=hosted
   projects-hosted-by-stage: card-mode?category=projects&project=hosted
+  projects-not-emeritus: card-mode?grouping=no&category=projects&project=graduated,incubating,sandbox,workinggroup
