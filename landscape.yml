@@ -844,11 +844,9 @@ landscape:
           - item:
             name: IBM z/OS Workload Interaction Navigator
             description: >-
-              IBM z/OS Workload Interaction Navigator analyzes
-
-              high frequency IBM z/OS Workload Interaction Correlator data to identify, correlate and contextually prioritize short term anomalous activities
-              across your entire IBM Z workload to provide deep insight into the inter-dependencies in IBM Z workloads to quickly identify the root cause of
-              operational issues.
+              IBM z/OS Workload Interaction Navigator reactive analysis helps identify the root cause of transient performance issues by correlating and
+              contextually prioritizing short term anomalous activities. The historical inspector analyzes performance issues over a period of time to highlight
+              system resilience risks.
             homepage_url: https://www.ibm.com/products/zos-workload-interaction-navigator
             logo: ibm-zos-workload-interaction-navigator.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
