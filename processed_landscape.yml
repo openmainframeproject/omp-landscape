@@ -538,8 +538,8 @@ landscape:
               meeting_cadence: Monthly on the second Wednesday of the month at 9:00am US Eastern Time
               leads: Mike Friesenegger
               date_accepted: ^2019-08-20
-              last_review_date: ^2022-03-24
-              next_review_date: ^2023-04-27
+              last_review_date: ^2023-05-11
+              next_review_date: ^2024-05-09
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/feilong
             crunchbase_data:
               name: Open Mainframe Project
@@ -1144,7 +1144,7 @@ landscape:
               leads: Elizabeth Joseph
               date_accepted: ^2021-10-14
               last_review_date: ^2022-10-27
-              next_review_date: ^2023-10-19
+              next_review_date: ^2023-10-26
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -1177,8 +1177,8 @@ landscape:
           - item:
             name: qclib
             description: qclib provides a C API for extraction of system information for Linux on z Systems.
-            homepage_url: https://developer.ibm.com/technologies/linux
-            repo_url: https://github.com/openmainframeproject/qclib
+            homepage_url: https://github.com/ibm-s390-linux/qclib
+            repo_url: https://github.com/ibm-s390-linux/qclib
             logo: qclib.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -1658,34 +1658,34 @@ landscape:
             github_data:
               languages:
                 - name: C
-                  value: 326494
+                  value: 327428
                   color: '#555555'
                 - name: Makefile
-                  value: 5244
+                  value: 3609
                   color: '#427819'
                 - name: Roff
-                  value: 2663
+                  value: 2889
                   color: '#ecdebe'
                 - name: Shell
-                  value: 1200
+                  value: 1098
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-24Z
-              stars: 1
+              contributions: 0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;3;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2022-08-21Z
+              stars: 4
               license: Other
-              description: Github mirror of the Linux on z Systems qclib package ('qclib' for 'Query Capacity library').
-              latest_commit_date: '2020-09-16T11:51:18Z'
-              latest_commit_link: /openmainframeproject/qclib/commit/1c19a883d35b40b595e5d9eb45b6ce776fb6f6c1
-              release_date: '2020-01-07T02:05:16Z'
-              release_link: https://github.com/openmainframeproject/qclib/releases
-              contributors_count: 1
-              contributors_link: https://github.com/openmainframeproject/qclib/graphs/contributors
+              description: The query capacity library and utilities for extraction of system information for Linux on IBM Z
+              latest_commit_date: '2023-04-08T21:49:23Z'
+              latest_commit_link: /ibm-s390-linux/qclib/commit/67dd24e130a53f54f55c4f27bbc05f28fb4828b1
+              release_date: '2023-08-01T17:13:52Z'
+              release_link: https://github.com/ibm-s390-linux/qclib/releases
+              contributors_count: 4
+              contributors_link: https://github.com/ibm-s390-linux/qclib/graphs/contributors
             repos:
-              - url: https://github.com/openmainframeproject/qclib
-                stars: 1
+              - url: https://github.com/ibm-s390-linux/qclib
+                stars: 4
             github_start_commit_data:
-              start_commit_link: /openmainframeproject/qclib/commit/eddcc19024de389173f898900cc8836fd7d3d7e1
-              start_date: '2020-01-07T01:51:50Z'
+              start_commit_link: /ibm-s390-linux/qclib/commit/fa59dee04fa7cdfc69af90ec167be91c48640b69
+              start_date: '2020-11-24T12:40:24Z'
             yahoo_finance_data:
               market_cap: 113922899968
               effective_ticker: IBM
@@ -2233,8 +2233,8 @@ landscape:
               latest_tweet_date: 2023-04-20T17:25:36.000Z
           - item:
             name: SMC Tools
-            homepage_url: https://developer.ibm.com/technologies/linux
-            repo_url: https://github.com/openmainframeproject/smc-tools
+            homepage_url: https://github.com/ibm-s390-linux/smc-tools
+            repo_url: https://github.com/ibm-s390-linux/smc-tools
             logo: shared-memory-communication-tools.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -2714,32 +2714,32 @@ landscape:
             github_data:
               languages:
                 - name: C
-                  value: 33993
+                  value: 146424
                   color: '#555555'
                 - name: Roff
-                  value: 19561
+                  value: 54376
                   color: '#ecdebe'
                 - name: Shell
-                  value: 8420
+                  value: 25828
                   color: '#89e051'
                 - name: Makefile
-                  value: 5836
+                  value: 8084
                   color: '#427819'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-24Z
-              stars: 1
+              contributions: 0;0;0;0;1;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;1;0;0
+              firstWeek: 2022-08-21Z
+              stars: 13
               license: Eclipse Public License 1.0
-              description: Mirror of the Linux on Z Systems Shared Memory Communication Tools (smc-tools) package
-              latest_commit_date: '2020-09-16T11:49:11Z'
-              latest_commit_link: /openmainframeproject/smc-tools/commit/df9b3c08fa1783b042e2a9d081500faaa06d7006
-              contributors_count: 1
-              contributors_link: https://github.com/openmainframeproject/smc-tools/graphs/contributors
+              description: Tools for use with AF_SMC sockets
+              latest_commit_date: '2023-07-28T11:40:47Z'
+              latest_commit_link: /ibm-s390-linux/smc-tools/commit/75e767d2e900a0ce66fc80f58d59471b90e87fed
+              contributors_count: 9
+              contributors_link: https://github.com/ibm-s390-linux/smc-tools/graphs/contributors
             repos:
-              - url: https://github.com/openmainframeproject/smc-tools
-                stars: 1
+              - url: https://github.com/ibm-s390-linux/smc-tools
+                stars: 13
             github_start_commit_data:
-              start_commit_link: /openmainframeproject/smc-tools/commit/961b9e73d7cc30b7662ca68562b813946374a051
-              start_date: '2020-01-07T02:27:44Z'
+              start_commit_link: /ibm-s390-linux/smc-tools/commit/29f31946c4ab0574b3b36b3d5a59ef7828a64992
+              start_date: '2020-12-02T12:35:40Z'
             yahoo_finance_data:
               market_cap: 113922899968
               effective_ticker: IBM
@@ -5282,7 +5282,7 @@ landscape:
               meeting_cadence: none
               date_accepted: ^2021-05-13
               last_review_date: ^2022-06-09
-              next_review_date: ^2022-09-08
+              next_review_date: ^2023-08-24
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -5713,7 +5713,7 @@ landscape:
               meeting_cadence: none
               date_accepted: ^2021-11-18
               last_review_date: ^2023-01-26
-              next_review_date: ^2023-06-22
+              next_review_date: ^2023-07-27
               SBOM: none
             crunchbase_data:
               name: Open Mainframe Project
@@ -7765,11 +7765,11 @@ landscape:
               slack_channel: '#cobol-check'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/cobol-check/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001KWfljQAD/overview
-              leads: Dave Nicolette
+              leads: Dave Nicolette / Rune Christensen
               meeting_cadence: Weekly on Thursdays at 9:00am US Eastern Time
               date_accepted: ^2021-01-14
-              last_review_date: ^2022-01-27
-              next_review_date: ^^2023-05-11
+              last_review_date: ^2023-06-08
+              next_review_date: ^2024-06-13
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -8135,8 +8135,8 @@ landscape:
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
               leads: Sudharsana Srinivasan
               date_accepted: ^2020-04-09
-              last_review_date: ^2022-04-14
-              next_review_date: ^2023-04-27
+              last_review_date: ^2023-04-27
+              next_review_date: ^2024-04-25
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/cobol-programming-course
             crunchbase_data:
               name: Open Mainframe Project
@@ -8323,7 +8323,7 @@ landscape:
           - item:
             name: Open Mainframe Education
             homepage_url: https://github.com/openmainframeproject/omp-education
-            project: incubating
+            project: graduated
             repo_url: https://github.com/openmainframeproject/omp-education
             logo: open-mainframe-education.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -8335,8 +8335,8 @@ landscape:
               meeting_cadence: none
               leads: Lauren Valenti
               date_accepted: ^2020-05-14
-              last_review_date: ^2022-05-26
-              next_review_date: ^2023-05-25
+              last_review_date: ^2023-06-08
+              next_review_date: ^2024-06-13
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -8389,7 +8389,7 @@ landscape:
           - item:
             name: ADE
             homepage_url: http://ade.openmainframeproject.org
-            project: graduated
+            project: emeritus
             repo_url: https://github.com/openmainframeproject/ade
             logo: ade.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -8399,10 +8399,10 @@ landscape:
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/ade/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV4KCQA1/overview
               meeting_cadence: none
-              leads: James Caffrey
+              leads: ''
               date_accepted: ^2016-02-15
-              last_review_date: ^2022-01-27
-              next_review_date: ^2023-06-08
+              last_review_date: ^2023-07-13
+              next_review_date: ''
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/ade
             crunchbase_data:
               name: Open Mainframe Project
@@ -8484,8 +8484,8 @@ landscape:
               meeting_cadence: Every other Monday at 10am US Eastern Time
               leads: Joe Bostian
               date_accepted: ^2020-02-24
-              last_review_date: ^2022-07-14
-              next_review_date: ^2023-07-13
+              last_review_date: ^2023-07-13
+              next_review_date: ^2024-07-11
             crunchbase_data:
               name: Open Mainframe Project
               description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
@@ -8866,8 +8866,8 @@ landscape:
               meeting_cadence: none
               leads: Elizabeth Joseph
               date_accepted: ^2020-04-09
-              last_review_date: ^2022-05-12
-              next_review_date: ^2023-05-25
+              last_review_date: ^2023-05-25
+              next_review_date: ^2024-05-23
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/software-discovery-tool
             crunchbase_data:
               name: Open Mainframe Project
@@ -8946,7 +8946,7 @@ landscape:
               leads: Oleksandr Hubanov
               date_accepted: ^2018-12-14
               last_review_date: none
-              next_review_date: ^2023-06-22
+              next_review_date: ^2023-07-27
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/tersedecompress
             crunchbase_data:
               name: Open Mainframe Project
@@ -9012,8 +9012,8 @@ landscape:
               fileName: terse-decompress.svg
               hash: OvrtyShYQU4ea7FDOZzbluzLMGEDcj+3QgYhCmUFfhg=
             best_practice_data:
-              badge: false
-              percentage: null
+              badge: 7734
+              percentage: 18
             twitter_data:
               latest_tweet_date: 2023-04-21T15:29:59.000Z
   - category:
@@ -13762,12 +13762,11 @@ landscape:
               latest_tweet_date: 2023-04-20T17:25:36.000Z
           - item:
             name: IBM z/OS Workload Interaction Navigator
+            second_path: Zowe Conformant / App Framework ZOWE V2
             description: >-
-              IBM z/OS Workload Interaction Navigator analyzes
-
-              high frequency IBM z/OS Workload Interaction Correlator data to identify, correlate and contextually prioritize short term anomalous activities
-              across your entire IBM Z workload to provide deep insight into the inter-dependencies in IBM Z workloads to quickly identify the root cause of
-              operational issues.
+              IBM z/OS Workload Interaction Navigator reactive analysis helps identify the root cause of transient performance issues by correlating and
+              contextually prioritizing short term anomalous activities. The historical inspector analyzes performance issues over a period of time to highlight
+              system resilience risks.
             homepage_url: https://www.ibm.com/products/zos-workload-interaction-navigator
             logo: ibm-zos-workload-interaction-navigator.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -14257,9 +14256,12 @@ landscape:
               latest_tweet_date: 2023-04-21T15:33:40.000Z
           - item:
             name: IBM® Db2 Administration Foundation for z/OS
+            second_path: Zowe Conformant / App Framework ZOWE V2
             description: >-
               Introduces a modern unified experience for next-gen users that delivers an intuitive alternative to existing Db2 for z/OS administration
-              experience with a modern UI, capabilities to view database object details, run SQL queries and Db2 commands.
+              experience with capabilities to view database object details, run SQL queries and Db2 commands. With release 1.2, integration with IBM Db2
+              Analytics Accelerator Administration Services and IBM Query Workload Tuner for z/OS is now available to support accelerator management and
+              workload tuning respectively.
             homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
             logo: ibm-db2-administration-foundation-for-zos.svg
             twitter: https://twitter.com/ibmz
@@ -14754,6 +14756,7 @@ landscape:
               - Zowe Conformant / App Framework 2019
               - Zowe Conformant / API Mediation Layer 2019
               - Zowe Conformant / CLI 2019
+              - Zowe Conformant / App Framework ZOWE V2
             description: >-
               Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
               practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
@@ -22911,8 +22914,8 @@ landscape:
               fileName: zowe-explorer-extension-for-ftp.svg
               hash: N2bxJwAfOuDpj7YsGoUhTX7Nck7z/OYZVi24PAkjaWc=
             best_practice_data:
-              badge: false
-              percentage: null
+              badge: 7677
+              percentage: 63
             twitter_data:
               latest_tweet_date: 2023-04-21T15:29:59.000Z
       - subcategory:
@@ -24171,6 +24174,152 @@ landscape:
             image_data:
               fileName: mainframe-topology.svg
               hash: Q+r52JSL4DdL1JsSmVfUQNba2QMSSAluEQNCZeD1fdE=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-21T17:13:07.000Z
+          - item:
+            name: MAT REST API
+            description: >-
+              MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
+              performance analysis.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
+            logo: mat_rest_api.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            crunchbase_data:
+              name: Broadcom
+              description: Broadcom is a designer, developer, and global supplier of a broad range of analog and digital semiconductor connectivity solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/Broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '1999-01-27'
+                  acquiree: Maverick Networks
+                  price: 111900000
+                - date: '1999-08-12'
+                  acquiree: Altocom
+                  price: 180000000
+                - date: '2000-08-07'
+                  acquiree: Silicon Spice
+                  price: 1230000000
+                - date: '2000-08-15'
+                  acquiree: NewPort Communications
+                  price: 1320000000
+                - date: '2000-10-17'
+                  acquiree: Allayer Technologies
+                  price: 276000000
+                - date: '2000-11-01'
+                  acquiree: Element 14 Inc
+                  price: 600000000
+                - date: '2000-11-07'
+                  acquiree: SiByte
+                  price: 2040000000
+                - date: '2001-01-06'
+                  acquiree: VisionTech
+                  price: 250000000
+                - date: '2001-01-08'
+                  acquiree: ServerWorks
+                  price: 957000000
+                - date: '2003-03-03'
+                  acquiree: Gadzoox Network
+                - date: '2004-02-02'
+                  acquiree: RAIDCore
+                - date: '2004-04-07'
+                  acquiree: Sand Video
+                  price: 77500000
+                - date: '2004-04-20'
+                  acquiree: WIDCOMM
+                - date: '2004-06-16'
+                  acquiree: Zyray Wireless
+                  price: 96000000
+                - date: '2004-09-22'
+                  acquiree: Alphamosaic
+                  price: 123000000
+                - date: '2004-10-05'
+                  acquiree: Agere Systems
+                - date: '2005-03-07'
+                  acquiree: Zeevo
+                - date: '2005-07-19'
+                  acquiree: Siliquent Technologies
+                  price: 84000000
+                - date: '2005-10-06'
+                  acquiree: Athena Semiconductors
+                - date: '2006-01-23'
+                  acquiree: Sandburst Corporation
+                - date: '2006-11-29'
+                  acquiree: LVL7 Systems
+                  price: 62000000
+                - date: '2007-05-03'
+                  acquiree: Octalica
+                  price: 31000000
+                - date: '2007-07-12'
+                  acquiree: Global Locate
+                  price: 146000000
+                - date: '2009-11-30'
+                  acquiree: DuneNetworks
+                  price: 178000000
+                - date: '2010-02-03'
+                  acquiree: Teknovus
+                  price: 123000000
+                - date: '2010-06-17'
+                  acquiree: Innovision Research & Technology
+                  price: 47500000
+                - date: '2010-10-13'
+                  acquiree: Beceem Communications
+                  price: 316000000
+                - date: '2010-10-26'
+                  acquiree: Percello
+                  price: 86000000
+                - date: '2010-11-22'
+                  acquiree: Gigle Networks
+                  price: 75000000
+                - date: '2011-03-21'
+                  acquiree: Provigent
+                  price: 314000000
+                - date: '2011-05-09'
+                  acquiree: SCsquare
+                  price: 42000000
+                - date: '2011-09-12'
+                  acquiree: NetLogic Microsystems
+                  price: 3700000000
+                - date: '2012-03-21'
+                  acquiree: BroadLight
+                  price: 230000000
+                - date: '2013-01-30'
+                  acquiree: BroadLogic Network Technologies
+                - date: '2016-05-17'
+                  acquiree: MagnaCom
+                  price: 50000000
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                  price: 5900000000
+                - date: '2019-11-01'
+                  acquiree: NortonLifeLock
+                  price: 10700000000
+                - date: '2019-12-31'
+                  acquiree: Bay Dynamics
+                - date: '2021-12-07'
+                  acquiree: AppNeta
+                - date: '2022-05-26'
+                  acquiree: VMware
+                  price: 61000000000
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Mobile
+                - Semiconductor
+                - Wireless
+            image_data:
+              fileName: mat-rest-api.svg
+              hash: 9LtFUPLP7p7itYbZjtSCGYfUSb0JA50A0hht0XokM80=
             best_practice_data:
               badge: false
               percentage: null
@@ -27080,8 +27229,8 @@ landscape:
               fileName: lxd.svg
               hash: EWjRRhCxq0OVigSlEqhYs9rHywZdXQPQ20zWpM3fu5A=
             best_practice_data:
-              badge: 1086
-              percentage: 100
+              badge: false
+              percentage: null
             twitter_data:
               latest_tweet_date: 2023-04-21T16:22:10.000Z
           - item:
@@ -37823,39 +37972,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-21T16:00:11.000Z
           - item:
-            name: IN-COM Data Systems
-            homepage_url: https://in-com.com/
-            logo: in-com_data_systems.svg
-            twitter: https://twitter.com/IncomData
-            crunchbase: https://www.crunchbase.com/organization/in-com-b0bc
-            crunchbase_data:
-              name: IN-COM Data Systems
-              description: IN-COM stays abreast of the latest technological trends in offering a wide range of robust software intelligence solutions to its clients.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: https://in-com.com/
-              city: Richardson
-              region: Texas
-              country: United States
-              twitter: https://twitter.com/incomdata
-              linkedin: https://www.linkedin.com/company/in-com-data-systems/
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: For Profit
-              industries:
-                - Consulting
-                - Information Technology
-                - Software
-            image_data:
-              fileName: in-com-data-systems.svg
-              hash: CZ4CF9QSrYnvSlJt/0AhmhSnLmm17jFCwkzBWrphl9g=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-05-31T14:01:33.000Z
-          - item:
             name: Micro Focus International plc
             homepage_url: https://microfocus.com/
             logo: micro_focus_international_plc.svg
@@ -37935,31 +38051,27 @@ landscape:
             name: Model9
             homepage_url: https://model9.io/
             logo: model9.svg
-            crunchbase: https://www.crunchbase.com/organization/model-9
+            crunchbase: https://www.crunchbase.com/organization/bmc
             crunchbase_data:
-              name: Model 9
-              description: The cloud data management platform for mainframe enterprises, designed for the cloud, data security and analytics
+              name: BMC
+              description: BMC is a strategic management consultancy that deals with outsourcing, banking, and market research in the healthcare and pharma sectors.
               num_employees_min: 11
               num_employees_max: 50
-              homepage: https://www.model9.io/
-              city: Tel Aviv
-              region: Tel Aviv
-              country: Israel
+              homepage: http://www.bannert-manlik.com
+              city: Starnberg
+              region: Bayern
+              country: Germany
               twitter: null
-              linkedin: https://www.linkedin.com/company/model-9/
+              linkedin: https://www.linkedin.com/company/bannert-manlik-consultants/
               acquisitions: []
               parents: []
-              funding: 13750000
               stockExchange: null
               company_type: For Profit
               industries:
-                - Analytics
-                - Cloud Storage
-                - Data Integration
-                - Data Storage
-                - Enterprise Software
-                - Software
-              kind: funding
+                - Business Development
+                - Consulting
+                - Health Care
+                - Management Consulting
             image_data:
               fileName: model9.svg
               hash: jiOpgj0O6EqvDhxQsbwDXtLpT0A7h+dO/6eGUHVyWfg=
