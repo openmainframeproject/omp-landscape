@@ -15,6 +15,15 @@ global:
     twitter: '@OpenMFProject'
     google_site_verification: a2XVEjwm7VZNRuQ5wY3uDlwLXvxUzodGsIxwav3opvA
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
+    extra: >
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=359859504"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '359859504');
+      </script>
   membership: Open Mainframe Project Member Company
   flags:
     companies: Open Mainframe Project Member Company
