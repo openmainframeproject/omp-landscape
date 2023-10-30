@@ -55,8 +55,8 @@ landscape:
               meeting_cadence: none
               leads: Elizabeth Joseph
               date_accepted: ^2021-10-14
-              last_review_date: ^2022-10-27
-              next_review_date: ^2023-10-26
+              last_review_date: ^2023-10-26
+              next_review_date: ^2024-10-31
           - item:
             name: qclib
             description: qclib provides a C API for extraction of system information for Linux on z Systems.
@@ -375,8 +375,8 @@ landscape:
               TAC_representative: Sean Grady
               meeting_cadence: https://lists.openmainframeproject.org/g/zowe-dev/calendar
               date_accepted: ^2019-08-20
-              last_review_date: ^2022-08-11
-              next_review_date: ^2023-08-10
+              last_review_date: ^2023-10-26
+              next_review_date: ^2023-10-31
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/zowe
           - item:
             name: zUID
