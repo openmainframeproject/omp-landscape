@@ -44,7 +44,7 @@ landscape:
               s390x port remains a supported architecture for them all. To this end, the group will collaborate on shared challenges and successes, work
               together to nurture new contributors, and make sure they also have the infrastructure they need.
             homepage_url: https://wiki.openmainframeproject.org/display/LinuxDistrosWG
-            project: workinggroup
+            project: working-group
             logo: linux-distributions-working-group.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
@@ -55,8 +55,8 @@ landscape:
               meeting_cadence: none
               leads: Elizabeth Joseph
               date_accepted: ^2021-10-14
-              last_review_date: ^2022-10-27
-              next_review_date: ^2023-10-26
+              last_review_date: ^2023-10-26
+              next_review_date: ^2024-10-31
           - item:
             name: qclib
             description: qclib provides a C API for extraction of system information for Linux on z Systems.
@@ -125,8 +125,8 @@ landscape:
               leads: Kuriakose Jijo George
               meeting_cadence: none
               date_accepted: ^2020-10-22
-              last_review_date: ^2022-10-13
-              next_review_date: ^2023-10-12
+              last_review_date: ^2023-10-12
+              next_review_date: ^2024-10-10
           - item:
             name: VMLINK
             homepage_url: https://github.com/trothr/vmlink
@@ -219,12 +219,12 @@ landscape:
               leads: Sam Golab
               meeting_cadence: none
               date_accepted: ^2020-09-10
-              last_review_date: ^2022-10-13
-              next_review_date: ^2023-10-12
+              last_review_date: ^2023-10-12
+              next_review_date: ^2024-10-10
           - item:
             name: GenevaERS
             homepage_url: https://genevaers.org
-            project: graduated
+            project: active
             repo_url: https://github.com/genevaers/community
             project_org: https://github.com/genevaers
             url_for_bestpractices: https://github.com/genevaers
@@ -238,8 +238,8 @@ landscape:
               leads: Andrea Orth
               meeting_cadence: Monthly on second Tuesday at 9:00pm US Eastern Time
               date_accepted: ^2020-08-13
-              last_review_date: ^2022-08-11
-              next_review_date: ^2023-08-10
+              last_review_date: ^2023-08-10
+              next_review_date: ^2024-08-08
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/genevaers/
           - item:
             name: Launcher
@@ -296,8 +296,8 @@ landscape:
               leads: Joe Devlin
               meeting_cadence: none
               date_accepted: ^2021-11-18
-              last_review_date: ^2023-01-26
-              next_review_date: ^2023-07-27
+              last_review_date: ^2023-09-14
+              next_review_date: ^2024-09-12
               SBOM: none
           - item:
             name: z/OS Connector Plugin for Jenkins
@@ -360,7 +360,7 @@ landscape:
             name: Zowe
             description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
             homepage_url: https://www.zowe.org
-            project: graduated
+            project: active
             repo_url: https://github.com/zowe/api-layer
             project_org: https://github.com/zowe
             url_for_bestpractices: https://github.com/zowe/zlc
@@ -375,8 +375,8 @@ landscape:
               TAC_representative: Sean Grady
               meeting_cadence: https://lists.openmainframeproject.org/g/zowe-dev/calendar
               date_accepted: ^2019-08-20
-              last_review_date: ^2022-08-11
-              next_review_date: ^2023-08-10
+              last_review_date: ^2023-10-26
+              next_review_date: ^2023-10-31
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/zowe
           - item:
             name: zUID
@@ -435,6 +435,20 @@ landscape:
             logo: che4z.svg
             crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
           - item:
+            name: galasa
+            homepage_url: https://galasa.dev/
+            project: incubating
+            repo_url: https://github.com/galasa-dev/framework
+            project_org: https://github.com/galasa-dev
+            logo: galasa.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              slack_channel: '#galasa_users'
+              leads: Louisa Seers
+              date_accepted: ^2023-04-28
+              last_review_date: ''
+              next_review_date: ^2024-04-25
+          - item:
             name: zSublime
             homepage_url: https://github.com/vadimshchukin/zsublime
             repo_url: https://github.com/vadimshchukin/zsublime
@@ -446,7 +460,7 @@ landscape:
           - item:
             name: COBOL Programming Course
             homepage_url: https://www.openmainframeproject.org/projects/cobolprogrammingcourse
-            project: graduated
+            project: active
             repo_url: https://github.com/openmainframeproject/cobol-programming-course
             logo: cobol-programming-course.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -467,7 +481,7 @@ landscape:
               The COBOL Working Group aims to promote the language by changing its perception and making materials more accessible to help more developers and
               students learn it on their mainframe journey.
             homepage_url: https://www.openmainframeproject.org/projects/cobol-working-group
-            project: workinggroup
+            project: working-group
             repo_url: https://github.com/openmainframeproject/wg-cobol
             logo: cobol-working-group.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -479,8 +493,8 @@ landscape:
               meeting_cadence: Quarterly on second Tuesday of the quarter at 11:00am US Eastern Time
               leads: Cameron Seay
               date_accepted: ^2020-06-11
-              last_review_date: ^2022-08-25
-              next_review_date: ^2023-08-24
+              last_review_date: ^2023-08-24
+              next_review_date: ^2024-08-22
           - item:
             name: Global Repository for Mainframe Developers
             homepage_url: https://github.com/IBA-mainframe-dev/Global-Repository-for-Mainframe-Developers
@@ -490,7 +504,7 @@ landscape:
           - item:
             name: Open Mainframe Education
             homepage_url: https://github.com/openmainframeproject/omp-education
-            project: graduated
+            project: active
             repo_url: https://github.com/openmainframeproject/omp-education
             logo: open-mainframe-education.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -555,7 +569,7 @@ landscape:
               The purpose of this working group is to create a common definition and framework around modernization in the mainframe space; produce educational
               material and promote all messages and definitions wider landscape for better alignment.
             homepage_url: https://modernization.openmainframeproject.org
-            project: workinggroup
+            project: working-group
             logo: modernization.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
@@ -567,8 +581,8 @@ landscape:
               meeting_cadence: none
               leads: Misty Decker
               date_accepted: ^2022-09-18
-              last_review_date: none
-              next_review_date: ^2023-09-14
+              last_review_date: ^2023-09-14
+              next_review_date: ^2024-09-12
           - item:
             name: Software Discovery Tool
             homepage_url: https://github.com/openmainframeproject/software-discovery-tool
@@ -604,8 +618,8 @@ landscape:
               meeting_cadence: none
               leads: Oleksandr Hubanov
               date_accepted: ^2018-12-14
-              last_review_date: none
-              next_review_date: ^2023-07-27
+              last_review_date: ^2023-08-10
+              next_review_date: ^2024-08-08
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/tersedecompress
   - category:
     name: Zowe Conformant
@@ -795,6 +809,7 @@ landscape:
               - Zowe Conformant / App Framework 2019
               - Zowe Conformant / App Framework ZOWE V1
               - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
               systems management to address your requirements for business agility on IBM Z systems.
@@ -2194,6 +2209,7 @@ landscape:
             homepage_url: https://suse.com/
             logo: suse_llc.svg
             crunchbase: https://www.crunchbase.com/organization/suse
+            joined: '2017-04-01'
       - subcategory:
         name: Silver
         items:
@@ -2208,6 +2224,7 @@ landscape:
             homepage_url: https://canonical.com/
             logo: canonical_group_limited.svg
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+            joined: '2017-01-01'
           - item:
             name: EPAM Systems, Inc
             homepage_url: https://epam.com/
@@ -2221,11 +2238,6 @@ landscape:
             twitter: https://twitter.com/MicroFocus
             crunchbase: https://www.crunchbase.com/organization/micro-focus
           - item:
-            name: Model9
-            homepage_url: https://model9.io/
-            logo: model9.svg
-            crunchbase: https://www.crunchbase.com/organization/bmc
-          - item:
             name: Phoenix Software International
             homepage_url: https://phoenixsoftware.com/
             logo: phoenix_software_international.svg
@@ -2235,7 +2247,7 @@ landscape:
             homepage_url: https://precisely.com/
             logo: precisely_holdings_llc.svg
             twitter: https://twitter.com/PreciselyData
-            crunchbase: https://www.crunchbase.com/organization/precisely
+            crunchbase: https://www.crunchbase.com/organization/precisely-write
           - item:
             name: Vicom Infinity, Inc.
             homepage_url: https://vicominfinity.com/

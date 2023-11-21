@@ -15,6 +15,13 @@ global:
     twitter: '@OpenMFProject'
     google_site_verification: a2XVEjwm7VZNRuQ5wY3uDlwLXvxUzodGsIxwav3opvA
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
+    extra: |
+      <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=359859504"></script> <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '359859504');
+      </script>
   membership: Open Mainframe Project Member Company
   flags:
     companies: Open Mainframe Project Member Company
@@ -29,7 +36,7 @@ relation:
     - id: hosted
       label: Open Mainframe Project Projects
       children:
-        - id: graduated
+        - id: active
           label: Active Open Mainframe Projects
           prefix: OMP
           tag: Active
@@ -53,7 +60,7 @@ relation:
           big_picture_order: 2
           big_picture_label: OMP Sandbox
           big_picture_color: rgb(83, 113, 189)
-        - id: workinggroup
+        - id: working-group
           label: Open Mainframe Project Working Group
           prefix: OMP
           tag: Working Group
