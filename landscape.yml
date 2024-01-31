@@ -1090,11 +1090,17 @@ landscape:
         items:
           - item:
             name: (E)JES Plug-in for Zowe CLI
-            description: 'The (E)JES Plug-in for Zowe CLI uses the (E)JES Zowe REST API to provide command line functions to stream or search the mainframe system logs. '
+            description: >-
+              E)JES Plug-in for Zowe Command Line Interface - Provides a "zowe" command supported on Windows, Mac and Linux systems, and others. Supports the
+              concept of “plug-ins”, modules that can be
+
+              incorporated into the CLI framework extending functionality of basic “zowe” command. Allows plug-in to support a common syntax for command line
+              directives, options and parameters. Provides command line functions to stream or search mainframe system logs.
             homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
             repo_url: https://github.com/phoenixsoftware/ejes-cli
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
+            second_path: Zowe Conformant / CLI ZOWE V2
           - item:
             name: CA Secure Credential Store
             description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
