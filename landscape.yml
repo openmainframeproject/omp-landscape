@@ -629,7 +629,8 @@ landscape:
         items:
           - item:
             name: (E)JES
-            second_path: Zowe Conformant / CLI ZOWE V1
+            second_path: 
+              - Zowe Conformant / CLI ZOWE V1
             description: >-
               (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
               running JES2 or JES3
@@ -638,7 +639,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
             name: Alert Central
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            second_path: 
+              - Zowe Conformant / API Mediation Layer ZOWE V2
             description: Alert Central is a product used to quickly identify and resolve incidents across multiple systems and applications.
             homepage_url: https://techdocs.broadcom.com/alertcentral
             logo: alert-central.svg
@@ -814,7 +816,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: NetMaster
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            second_path: 
+              - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers with
               an open and standard interface to network management data collected by NetMaster.
@@ -823,7 +826,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Rocket® PRO/JCL
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            second_path: 
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: >-
               PRO/JCL is a comprehensive JCL management tool that provides JCL validation, standards enforcement, and reformatting. Designed to help developers
               streamline their JCL workflows on the z/OS mainframe, this extension allows you to access the most important features of PRO/JCL from Visual
@@ -837,7 +841,8 @@ landscape:
         items:
           - item:
             name: IBM Z Service Management Explorer
-            second_path: Zowe Conformant / App Framework ZOWE V2
+            second_path: 
+              - Zowe Conformant / App Framework ZOWE V2
             description: >-
               IBM Z Service Management Explorer is intended to provide a web-based alternative for the java-based IBM Tivoli Enterprise Portal, providing a
               graphical user interface for IBM OMEGAMON agents.
@@ -847,7 +852,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM z/OS Workload Interaction Navigator
-            second_path: Zowe Conformant / App Framework ZOWE V2
+            second_path: 
+              - Zowe Conformant / App Framework ZOWE V2
             description: >-
               IBM z/OS Workload Interaction Navigator reactive analysis helps identify the root cause of transient performance issues by correlating and
               contextually prioritizing short term anomalous activities. The historical inspector analyzes performance issues over a period of time to highlight
@@ -857,7 +863,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM® Db2 Administration Foundation for z/OS
-            second_path: Zowe Conformant / App Framework ZOWE V2
+            second_path: 
+              - Zowe Conformant / App Framework ZOWE V2
             description: >-
               Introduces a modern unified experience for next-gen users that delivers an intuitive alternative to existing Db2 for z/OS administration
               experience with capabilities to view database object details, run SQL queries and Db2 commands. With release 1.2, integration with IBM Db2
@@ -883,7 +890,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM® Service Management Unite
-            second_path: Zowe Conformant / App Framework 2019
+            second_path: 
+              - Zowe Conformant / App Framework 2019
             description: >-
               IBM® Service Management Unite is a customizable service management user interface that provides dashboards to monitor and operate IBM Z
               environments. Zowe application plugin for Service Management Unite is provided to allow user to use Service Management Unite directly on Zowe
@@ -894,7 +902,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Rocket™ BlueZone Web
-            second_path: Zowe Conformant / App Framework 2019
+            second_path: 
+              - Zowe Conformant / App Framework 2019
             description: >-
               Rocket BlueZone Web simplifies the mainframe by making it easy for your users to access host-based applications and data anytime, anywhere and on
               any device.
@@ -906,7 +915,8 @@ landscape:
         items:
           - item:
             name: CA Endevor® Bridge For Git
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path: 
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               The Endevor Bridge for Git Plug-in for Zowe CLI allows you to work with and manage Git-Endevor mappings of your Bridge for Git server. Also, as a
               developer, you can build the changed files from the local working directory of your mapping in an Endevor work area.
@@ -917,7 +927,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: CA z/OS Extended Files
-            second_path: Zowe Conformant / CLI 2019
+            second_path: 
+              - Zowe Conformant / CLI 2019
             description: CA z/OS Extended Files Plug-in extends the CLI to support complex data set management functionality.
             homepage_url: >-
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
@@ -926,7 +937,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: CA z/OS Extended Jobs
-            second_path: Zowe Conformant / CLI 2019
+            second_path: 
+              - Zowe Conformant / CLI 2019
             description: CA z/OS Extended Jobs extends the CLI to include additional commands for interaction with z/OS jobs.
             homepage_url: >-
               https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
