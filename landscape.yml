@@ -1059,13 +1059,13 @@ landscape:
         items:
           - item:
             name: (E)JES Zowe REST API
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer (APIML).  The APIML is a gateway that
               provides a single point of access to heterogeneous services that might be located on different systems or locations.
             homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
       - subcategory:
         name: App Framework 2019
         items:
@@ -1090,6 +1090,7 @@ landscape:
         items:
           - item:
             name: (E)JES Plug-in for Zowe CLI
+            second_path: Zowe Conformant / CLI ZOWE V2
             description: >-
               E)JES Plug-in for Zowe Command Line Interface - Provides a "zowe" command supported on Windows, Mac and Linux systems, and others. Supports the
               concept of “plug-ins”, modules that can be
@@ -1100,7 +1101,6 @@ landscape:
             repo_url: https://github.com/phoenixsoftware/ejes-cli
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-            second_path: Zowe Conformant / CLI ZOWE V2
           - item:
             name: CA Secure Credential Store
             description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
@@ -1465,6 +1465,13 @@ landscape:
         name: App Framework ZOWE V2
         items:
           - item:
+            name: (E)JES Web App on Zowe Desktop
+            description: (E)JES Web running on the Zowe Desktop (a ZSS component)
+            homepage_url: https://www.phoenixsoftware.com/ejes.htm
+            project: null
+            logo: ejes_web.svg
+            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
+          - item:
             name: IBM IMS Administration Foundation for z/OS
             description: IBM IMS Administration Foundation for z/OS (a component of IBM IMS Tools Base for z/OS V1.7 and later)
             homepage_url: https://www.ibm.com/docs/en/umsfz/1.2.0?topic=120-using-ims-administration-foundation
@@ -1490,13 +1497,6 @@ landscape:
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0/web-client.html
             logo: vantage-storage-resource-manager.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: (E)JES Web App on Zowe Desktop
-            description: (E)JES Web running on the Zowe Desktop (a ZSS component)
-            homepage_url: https://www.phoenixsoftware.com/ejes.htm
-            project: null
-            logo: ejes_web.svg
-            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
   - category:
     name: Broad Open Source
     subcategories:
