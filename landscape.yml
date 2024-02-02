@@ -1059,7 +1059,8 @@ landscape:
         items:
           - item:
             name: (E)JES Zowe REST API
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer (APIML).  The APIML is a gateway that
               provides a single point of access to heterogeneous services that might be located on different systems or locations.
@@ -1090,7 +1091,8 @@ landscape:
         items:
           - item:
             name: (E)JES Plug-in for Zowe CLI
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               E)JES Plug-in for Zowe Command Line Interface - Provides a "zowe" command supported on Windows, Mac and Linux systems, and others. Supports the
               concept of “plug-ins”, modules that can be
