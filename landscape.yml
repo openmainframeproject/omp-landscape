@@ -1035,7 +1035,11 @@ landscape:
         items:
           - item:
             name: (E)JES Zowe REST API
-            description: The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer.
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer (APIML).  The APIML is a gateway that
+              provides a single point of access to heterogeneous services that might be located on different systems or locations.
             homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
@@ -1063,7 +1067,14 @@ landscape:
         items:
           - item:
             name: (E)JES Plug-in for Zowe CLI
-            description: 'The (E)JES Plug-in for Zowe CLI uses the (E)JES Zowe REST API to provide command line functions to stream or search the mainframe system logs. '
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: >-
+              E)JES Plug-in for Zowe Command Line Interface - Provides a "zowe" command supported on Windows, Mac and Linux systems, and others. Supports the
+              concept of “plug-ins”, modules that can be
+
+              incorporated into the CLI framework extending functionality of basic “zowe” command. Allows plug-in to support a common syntax for command line
+              directives, options and parameters. Provides command line functions to stream or search mainframe system logs.
             homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
             repo_url: https://github.com/phoenixsoftware/ejes-cli
             logo: phoenix-software-international-ejes.svg
@@ -1431,6 +1442,13 @@ landscape:
       - subcategory:
         name: App Framework ZOWE V2
         items:
+          - item:
+            name: (E)JES Web App on Zowe Desktop
+            description: (E)JES Web running on the Zowe Desktop (a ZSS component)
+            homepage_url: https://www.phoenixsoftware.com/ejes.htm
+            project: null
+            logo: ejes_web.svg
+            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
             name: IBM IMS Administration Foundation for z/OS
             description: IBM IMS Administration Foundation for z/OS (a component of IBM IMS Tools Base for z/OS V1.7 and later)
