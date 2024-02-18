@@ -196,7 +196,7 @@ landscape:
             logo: zvm-community-tools.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
-              mailing_list_url: null
+              mailing_list_url: 'null'
               slack_channel: none
               LFX_insights: none
               LFX_security: none
@@ -215,7 +215,7 @@ landscape:
             logo: cbttape.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
-              mailing_list_url: null
+              mailing_list_url: 'null'
               slack_channel: '#cbt-tape'
               LFX_insights: none
               LFX_security: none
@@ -224,6 +224,7 @@ landscape:
               date_accepted: ^2020-09-10
               last_review_date: ^2023-10-12
               next_review_date: ^2024-10-10
+              artwork: https://artwork.openmainframeproject.org/projects/cbt-tape/
           - item:
             name: GenevaERS
             homepage_url: https://genevaers.org
