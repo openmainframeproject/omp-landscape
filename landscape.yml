@@ -547,7 +547,7 @@ landscape:
             logo: ade.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
-              mailing_list_url: null
+              mailing_list_url: 'null'
               slack_channel: '#ade'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/ade/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV4KCQA1/overview
@@ -557,6 +557,7 @@ landscape:
               last_review_date: ^2023-07-13
               next_review_date: ''
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/ade
+              artwork: https://artwork.openmainframeproject.org/projects/ade/
           - item:
             name: Ambitus
             homepage_url: https://github.com/ambitus
