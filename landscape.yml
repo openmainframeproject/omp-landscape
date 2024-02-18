@@ -30,6 +30,7 @@ landscape:
               last_review_date: ^2023-05-11
               next_review_date: ^2024-05-09
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/feilong
+              artwork: https://artwork.openmainframeproject.org/projects/feilong/
           - item:
             name: libica
             homepage_url: https://github.com/opencryptoki/libica
@@ -57,6 +58,7 @@ landscape:
               date_accepted: ^2021-10-14
               last_review_date: ^2023-10-26
               next_review_date: ^2024-10-31
+              artwork: https://artwork.openmainframeproject.org/working-groups/linux-distributions-wg/
           - item:
             name: qclib
             description: qclib provides a C API for extraction of system information for Linux on z Systems.
@@ -127,6 +129,7 @@ landscape:
               date_accepted: ^2020-10-22
               last_review_date: ^2023-10-12
               next_review_date: ^2024-10-10
+              artwork: https://artwork.openmainframeproject.org/projects/tessia/
           - item:
             name: VMLINK
             homepage_url: https://github.com/trothr/vmlink
@@ -179,6 +182,7 @@ landscape:
               date_accepted: ^2021-01-14
               last_review_date: none
               next_review_date: none
+              artwork: https://artwork.openmainframeproject.org/projects/consolez/
           - item:
             name: xmitmsgx
             homepage_url: https://github.com/trothr/xmitmsgx
@@ -193,7 +197,7 @@ landscape:
             logo: zvm-community-tools.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
-              mailing_list_url: null
+              mailing_list_url: 'null'
               slack_channel: none
               LFX_insights: none
               LFX_security: none
@@ -212,7 +216,7 @@ landscape:
             logo: cbttape.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
-              mailing_list_url: null
+              mailing_list_url: 'null'
               slack_channel: '#cbt-tape'
               LFX_insights: none
               LFX_security: none
@@ -221,6 +225,7 @@ landscape:
               date_accepted: ^2020-09-10
               last_review_date: ^2023-10-12
               next_review_date: ^2024-10-10
+              artwork: https://artwork.openmainframeproject.org/projects/cbt-tape/
           - item:
             name: GenevaERS
             homepage_url: https://genevaers.org
@@ -241,6 +246,7 @@ landscape:
               last_review_date: ^2023-08-10
               next_review_date: ^2024-08-08
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/genevaers/
+              artwork: https://artwork.openmainframeproject.org/projects/genevaers/
           - item:
             name: Launcher
             homepage_url: https://github.com/phoenixsoftware/Launcher
@@ -262,6 +268,7 @@ landscape:
               date_accepted: none
               last_review_date: none
               next_review_date: none
+              artwork: https://artwork.openmainframeproject.org/working-groups/open-z-os-enablement-wg/
           - item:
             name: Polycephaly
             homepage_url: https://www.openmainframeproject.org/projects/polycephaly
@@ -280,6 +287,7 @@ landscape:
               last_review_date: ^2021-10-28
               next_review_date: ^N/A
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/polycephaly
+              artwork: https://artwork.openmainframeproject.org/projects/polycephaly/
           - item:
             name: TSTerm
             homepage_url: https://github.com/TSTerminal
@@ -356,6 +364,7 @@ landscape:
               last_review_date: none
               next_review_date: none
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/zorow
+              artwork: https://artwork.openmainframeproject.org/projects/zorow/
           - item:
             name: Zowe
             description: Zowe is an open source framework for leveraging data and applications in z/OS from modern applications and tools.
@@ -378,6 +387,7 @@ landscape:
               last_review_date: ^2023-10-26
               next_review_date: ^2023-10-31
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/zowe
+              artwork: https://artwork.openmainframeproject.org/projects/zowe/
           - item:
             name: zUID
             homepage_url: https://github.com/walmartlabs/zUID
@@ -395,7 +405,7 @@ landscape:
             logo: atom-language-syntax-highlighting-for-z-vm.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
-              mailing_list_url: null
+              mailing_list_url: 'null'
               slack_channel: '#atomplugins'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/atom/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IfR9lQAF/overview
@@ -405,6 +415,7 @@ landscape:
               last_review_date: ^2022-09-08
               next_review_date: none
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/atom
+              artwork: https://artwork.openmainframeproject.org/projects/atom/
           - item:
             name: COBOL Check
             homepage_url: https://www.openmainframeproject.org/projects/cobol-check
@@ -422,6 +433,7 @@ landscape:
               date_accepted: ^2021-01-14
               last_review_date: ^2023-06-08
               next_review_date: ^2024-06-13
+              artwork: https://artwork.openmainframeproject.org/projects/cobol-check/
           - item:
             name: COBOL Source colouriser for Visual Studio Code
             homepage_url: https://github.com/spgennard/vscode_cobol
@@ -443,11 +455,16 @@ landscape:
             logo: galasa.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
+              mailing_list_url: https://lists.openmainframeproject.org/g/galasa-discussion
+              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/galasa/trends
+              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001O6R6SQAV/overview
+              meeting_cadence: https://lists.openmainframeproject.org/g/galasa-discussion/calendar
               slack_channel: '#galasa_users'
               leads: Louisa Seers
               date_accepted: ^2023-04-28
               last_review_date: ''
               next_review_date: ^2024-04-25
+              artwork: https://artwork.openmainframeproject.org/projects/galasa/
           - item:
             name: zSublime
             homepage_url: https://github.com/vadimshchukin/zsublime
@@ -475,6 +492,7 @@ landscape:
               last_review_date: ^2023-04-27
               next_review_date: ^2024-04-25
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/cobol-programming-course
+              artwork: https://artwork.openmainframeproject.org/projects/cobol-pc/
           - item:
             name: COBOL Working Group
             description: >-
@@ -495,6 +513,7 @@ landscape:
               date_accepted: ^2020-06-11
               last_review_date: ^2023-08-24
               next_review_date: ^2024-08-22
+              artwork: https://artwork.openmainframeproject.org/working-groups/cobol-wg/
           - item:
             name: Global Repository for Mainframe Developers
             homepage_url: https://github.com/IBA-mainframe-dev/Global-Repository-for-Mainframe-Developers
@@ -518,6 +537,7 @@ landscape:
               date_accepted: ^2020-05-14
               last_review_date: ^2023-06-08
               next_review_date: ^2024-06-13
+              artwork: https://artwork.openmainframeproject.org/projects/mainframe-open-education/
       - subcategory:
         name: Other
         items:
@@ -529,7 +549,7 @@ landscape:
             logo: ade.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
-              mailing_list_url: null
+              mailing_list_url: 'null'
               slack_channel: '#ade'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/ade/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IV4KCQA1/overview
@@ -539,6 +559,7 @@ landscape:
               last_review_date: ^2023-07-13
               next_review_date: ''
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/ade
+              artwork: https://artwork.openmainframeproject.org/projects/ade/
           - item:
             name: Ambitus
             homepage_url: https://github.com/ambitus
@@ -557,6 +578,7 @@ landscape:
               date_accepted: ^2020-02-24
               last_review_date: ^2023-07-13
               next_review_date: ^2024-07-11
+              artwork: https://artwork.openmainframeproject.org/projects/ambitus/
           - item:
             name: Ductwork
             homepage_url: https://github.com/trothr/ductwork
@@ -583,6 +605,7 @@ landscape:
               date_accepted: ^2022-09-18
               last_review_date: ^2023-09-14
               next_review_date: ^2024-09-12
+              artwork: https://artwork.openmainframeproject.org/working-groups/modernization-wg/
           - item:
             name: Software Discovery Tool
             homepage_url: https://github.com/openmainframeproject/software-discovery-tool
@@ -601,6 +624,7 @@ landscape:
               last_review_date: ^2023-05-25
               next_review_date: ^2024-05-23
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/software-discovery-tool
+              artwork: https://artwork.openmainframeproject.org/projects/software-discovery-tool/
           - item:
             name: TerseDecompress
             homepage_url: https://www.openmainframeproject.org/projects/tersedecompress
@@ -611,7 +635,7 @@ landscape:
             logo: terse-decompress.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
-              mailing_list_url: null
+              mailing_list_url: 'null'
               slack_channel: '#tersedecompress'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/tersedecompress/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IfRAKQA3/overview
@@ -621,6 +645,7 @@ landscape:
               last_review_date: ^2023-08-10
               next_review_date: ^2024-08-08
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/tersedecompress
+              artwork: https://artwork.openmainframeproject.org/projects/tersedecompress/
   - category:
     name: Zowe Conformant
     subcategories:
