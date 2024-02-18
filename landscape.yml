@@ -267,6 +267,7 @@ landscape:
               date_accepted: none
               last_review_date: none
               next_review_date: none
+              artwork: https://artwork.openmainframeproject.org/working-groups/open-z-os-enablement-wg/
           - item:
             name: Polycephaly
             homepage_url: https://www.openmainframeproject.org/projects/polycephaly
@@ -285,6 +286,7 @@ landscape:
               last_review_date: ^2021-10-28
               next_review_date: ^N/A
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/polycephaly
+              artwork: https://artwork.openmainframeproject.org/projects/polycephaly/
           - item:
             name: TSTerm
             homepage_url: https://github.com/TSTerminal
@@ -400,7 +402,7 @@ landscape:
             logo: atom-language-syntax-highlighting-for-z-vm.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
-              mailing_list_url: null
+              mailing_list_url: 'null'
               slack_channel: '#atomplugins'
               LFX_insights: https://insights-v2.lfx.linuxfoundation.org/atom/trends
               LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001IfR9lQAF/overview
@@ -410,6 +412,7 @@ landscape:
               last_review_date: ^2022-09-08
               next_review_date: none
               SBOM: https://github.com/lfscanning/spdx-omp/tree/master/atom
+              artwork: https://artwork.openmainframeproject.org/projects/atom/
           - item:
             name: COBOL Check
             homepage_url: https://www.openmainframeproject.org/projects/cobol-check
