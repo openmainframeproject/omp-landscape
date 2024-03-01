@@ -198,11 +198,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/zvm-communitytools-discussion
-              slack_channel: #z-vm-community-tools
+              slack_channel: 'null'
               leads: Bruce Hayden
               date_accepted: ^2021-05-13
               last_review_date: ^2022-06-09
               next_review_date: ^2023-08-24
+              artwork: https://artwork.openmainframeproject.org/projects/zvm-community-tools/
       - subcategory:
         name: z/OS
         items:
@@ -304,6 +305,7 @@ landscape:
               last_review_date: ^2023-09-14
               next_review_date: ^2024-09-12
               SBOM: none
+              artwork: https://artwork.openmainframeproject.org/projects/tsterm/
           - item:
             name: z/OS Connector Plugin for Jenkins
             homepage_url: https://github.com/jenkinsci/zos-connector-plugin
