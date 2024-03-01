@@ -1290,15 +1290,6 @@ landscape:
         name: Explorer for Visual Studio Code ZOWE V2
         items:
           - item:
-            name: Zowe Explorer for IBM CICS
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
-            project: null
-            repo_url: https://github.com/zowe/vscode-extension-for-cics
-            logo: zowe-explorer-for-ibm-cics.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
             name: OPS/REXX Language Support Extension for VS Code
             description: >-
               The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
@@ -1307,6 +1298,15 @@ landscape:
             project: null
             logo: ops_rexx.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: Zowe Explorer for IBM CICS
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
+            project: null
+            repo_url: https://github.com/zowe/vscode-extension-for-cics
+            logo: zowe-explorer-for-ibm-cics.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
       - subcategory:
         name: CLI ZOWE V2
         items:
