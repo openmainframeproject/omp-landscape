@@ -1412,6 +1412,15 @@ landscape:
             logo: workload-automation.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
+            name: IDMS Systems REST API
+            description: |-
+              The IDMS Systems REST API allows you to manage and monitor your IDMS CV with DCMT, DCUF, Compiler, SQL Execution, and Performance
+              Metrics endpoints.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html
+            project: null
+            logo: IDMS_API.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
             name: Mainframe Topology
             description: >-
               Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
@@ -1443,15 +1452,6 @@ landscape:
             description: Test4z v1.2.2 Mainframe Batch Testing Automation released March 22, 2022
             homepage_url: https://broadcom.com
             logo: test4z.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: IDMS Systems REST API
-            description: |-
-              The IDMS Systems REST API allows you to manage and monitor your IDMS CV with DCMT, DCUF, Compiler, SQL Execution, and Performance
-              Metrics endpoints.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html
-            project: null
-            logo: IDMS_API.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Support Provider Comprehensive ZOWE V2
