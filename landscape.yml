@@ -1732,6 +1732,13 @@ landscape:
         name: Languages and Runtimes
         items:
           - item:
+            name: .NET
+            homepage_url: https://dotnet.microsoft.com/
+            repo_url: https://github.com/dotnet/core
+            project_org: https://github.com/dotnet
+            logo: dotnet.svg
+            crunchbase: https://www.crunchbase.com/organization/net-foundation
+          - item:
             name: Apache Groovy
             homepage_url: https://groovy-lang.org/
             repo_url: https://github.com/apache/groovy
@@ -1743,6 +1750,12 @@ landscape:
             repo_url: https://github.com/apache/tomcat
             logo: tomcat.svg
             crunchbase: https://www.crunchbase.com/organization/apache
+          - item:
+            name: C#
+            homepage_url: https://learn.microsoft.com/en-us/dotnet/csharp/
+            repo_url: https://github.com/dotnet/csharplang
+            logo: csharp.svg
+            crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: Clojure
             homepage_url: https://clojure.org/
@@ -1761,6 +1774,12 @@ landscape:
             repo_url: https://github.com/erlang/otp
             logo: erlang.svg
             crunchbase: https://www.crunchbase.com/organization/erlang
+          - item:
+            name: F#
+            homepage_url: https://fsharp.org/
+            repo_url: https://github.com/dotnet/fsharp
+            logo: fsharp.svg
+            crunchbase: https://www.crunchbase.com/organization/the-f--software-foundation
           - item:
             name: GNU Compiler Collection
             description: GCC is the system compiler for Linux.
@@ -1883,25 +1902,6 @@ landscape:
             repo_url: https://github.com/wildfly/wildfly
             logo: wildfly.svg
             crunchbase: https://www.crunchbase.com/organization/red-hat
-          - item:
-            name: .NET
-            homepage_url: https://dotnet.microsoft.com/
-            repo_url: https://github.com/dotnet/core
-            project_org: https://github.com/dotnet
-            logo: dotnet.svg
-            crunchbase: https://www.crunchbase.com/organization/net-foundation
-          - item:
-            name: C#
-            homepage_url: https://learn.microsoft.com/en-us/dotnet/csharp/
-            repo_url: https://github.com/dotnet/csharplang
-            logo: csharp.svg
-            crunchbase: https://www.crunchbase.com/organization/microsoft
-          - item:
-            name: F#
-            homepage_url: https://fsharp.org/
-            repo_url: https://github.com/dotnet/fsharp
-            logo: fsharp.svg
-            crunchbase: https://www.crunchbase.com/organization/the-f--software-foundation
       - subcategory:
         name: Devops and Automation
         items:
@@ -2217,6 +2217,14 @@ landscape:
         name: Linux Distributions
         items:
           - item:
+            name: Alma Linux
+            homepage_url: https://almalinux.org/
+            project: null
+            repo_url: https://github.com/AlmaLinux/almalinux-deploy
+            project_org: https://github.com/AlmaLinux
+            logo: alma-linux.svg
+            crunchbase: https://www.crunchbase.com/organization/almalinux-os-foundation
+          - item:
             name: Alpine Linux
             description: A security-oriented, lightweight Linux distribution
             homepage_url: https://wiki.alpinelinux.org/wiki/S390x
@@ -2278,14 +2286,6 @@ landscape:
             homepage_url: https://wiki.ubuntu.com/S390X
             logo: ubuntu.svg
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
-          - item:
-            name: Alma Linux
-            homepage_url: https://almalinux.org/
-            project: null
-            repo_url: https://github.com/AlmaLinux/almalinux-deploy
-            project_org: https://github.com/AlmaLinux
-            logo: alma-linux.svg
-            crunchbase: https://www.crunchbase.com/organization/almalinux-os-foundation
   - category:
     name: Open Mainframe Project Member Company
     subcategories:
