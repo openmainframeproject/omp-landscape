@@ -2082,6 +2082,7 @@ landscape:
               artwork_url: https://artwork.openmainframeproject.org/projects/ambitus
               chair: Joe Bostian
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=ambitus
+            repo_url: https://github.com/ambitus/ambitus
           - item:
             name: CBT Tape
             second_path:
@@ -2104,14 +2105,17 @@ landscape:
               artwork_url: https://artwork.openmainframeproject.org/projects/cbt-tape
               chair: Sam Golob
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=cbt-tape
+            repo_url: https://github.com/CBTTape/Dicussions
+            project_org: https://github.com/CBTTape
           - item:
             name: COBOL Check
             second_path:
               - Projects / Development Tools
+            description: The mission of the COBOL Check project is to provide a fine-grained unit testing/checking for COBOL.
             homepage_url: https://www.openmainframeproject.org/projects/cobol-check
             project: incubating
             repo_url: https://github.com/openmainframeproject/cobol-check
-            logo: cobol-check.svg
+            logo: cobol_check.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: cobol-check
@@ -2120,7 +2124,14 @@ landscape:
               chat_channel: '#cobol-check'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=cobol-check
               leads: Rune Christensen
-              artwork_url: https://artwork.openmainframeproject.org/projects/cobol-check/
+              artwork_url: https://artwork.openmainframeproject.org/projects/cobol-check
+              accepted: '2021-02-16'
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobol-check
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWfljQAD
+              annual_review_date: '2023-06-08'
+              annual_review_url: https://github.com/openmainframeproject/tac/issues/578
+              next_annual_review_date: '2024-08-22'
+              chair: Rune Christensen
           - item:
             name: COBOL Programming Course
             homepage_url: https://www.openmainframeproject.org/projects/cobolprogrammingcourse
@@ -2140,6 +2151,7 @@ landscape:
               artwork_url: https://artwork.openmainframeproject.org/projects/cobol-programming-course
               chair: Sudharsana Srinivasan
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=cobol-programming-course
+            repo_url: https://github.com/openmainframeproject/cobol-programming-course
           - item:
             name: COBOL Working Group
             homepage_url: https://www.openmainframeproject.org/projects/cobol-working-group
@@ -2158,6 +2170,7 @@ landscape:
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkUvlQAF
               artwork_url: https://artwork.openmainframeproject.org/projects/cobol-working-group
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=cobol-working-group
+            repo_url: https://github.com/openmainframeproject/wg-cobol
           - item:
             name: Feilong
             homepage_url: https://www.openmainframeproject.org/projects/feilong
@@ -2182,6 +2195,7 @@ landscape:
               annual_review_url: https://github.com/openmainframeproject/tac/issues/579
               next_annual_review_date: '2025-07-24'
               chair: Mike Friesenegger
+            repo_url: https://github.com/openmainframeproject/feilong
           - item:
             name: Galasa
             homepage_url: https://galasa.dev/
@@ -2192,22 +2206,25 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/galasa-discussion
-              LFX_insights: https://insights-v2.lfx.linuxfoundation.org/galasa/trends
-              LFX_security: https://security.lfx.linuxfoundation.org/#/a092M00001O6R6SQAV/overview
-              meeting_cadence: https://lists.openmainframeproject.org/g/galasa-discussion/calendar
               slack_url: https://slack.openmainframeproject.org
               chat_channel: '#galasa_users'
-              leads: Louisa Seers
-              date_accepted: ^2023-04-28
-              last_review_date: ''
-              next_review_date: ^2024-04-11
-              artwork_url: https://artwork.openmainframeproject.org/projects/galasa/
+              artwork_url: https://artwork.openmainframeproject.org/projects/galasa
+              slug: galasa
+              accepted: '2023-07-03'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=galasa
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/galasa
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001O6R6SQAV
+              annual_review_date: '2024-04-25'
+              annual_review_url: https://github.com/openmainframeproject/tac/issues/584
+              next_annual_review_date: '2025-04-24'
+              chair: Louisa Seers
+            description: The mission of the Project is to provide an integration test framework for mainframe and hybrid applications.
           - item:
             name: GenevaERS
             second_path:
               - Projects / z/OS
             homepage_url: https://genevaers.org/
-            repo_url: https://github.com/genevaers/community
+            repo_url: https://github.com/genevaers/Community
             project_org: https://github.com/genevaers
             url_for_bestpractices: https://github.com/genevaers
             project: active
@@ -2274,6 +2291,7 @@ landscape:
               artwork_url: https://artwork.openmainframeproject.org/projects/mainframe-open-education
               chair: Lauren Valenti
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=mainframe-open-education
+            repo_url: https://github.com/openmainframeproject/omp-education
           - item:
             name: Modernization Working Group
             description: >-
@@ -2290,8 +2308,10 @@ landscape:
               wiki: https://wiki.openmainframeproject.org/display/MW
               leads: Misty Decker
               accepted: ^2022-09-18
-              next_annual_review_date: ^2024-09-12
+              next_annual_review_date: '2024-09-26'
               artwork_url: https://artwork.openmainframeproject.org/working-groups/modernization-wg/
+              annual_review_date: '2023-09-14'
+              annual_review_url: https://github.com/openmainframeproject/tac/issues/529
           - item:
             name: Software Discovery Tool
             homepage_url: https://www.openmainframeproject.org/projects/software-discovery-tool
@@ -2310,6 +2330,7 @@ landscape:
               annual_review_url: https://github.com/openmainframeproject/tac/issues/580
               next_annual_review_date: '2025-05-22'
               chair: Elizabeth Joseph
+            repo_url: https://github.com/openmainframeproject/software-discovery-tool
           - item:
             name: TerseDecompress
             project: sandbox
@@ -2329,6 +2350,7 @@ landscape:
               artwork_url: https://artwork.openmainframeproject.org/projects/tersedecompress
               chair: Oleksandr Hubanov
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=tersedecompress
+            repo_url: https://github.com/openmainframeproject/tersedecompress
           - item:
             name: Tessia
             second_path:
@@ -2352,6 +2374,7 @@ landscape:
               artwork_url: https://artwork.openmainframeproject.org/projects/tessia
               chair: Kuriakose Jijo George
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=tessia
+            repo_url: https://github.com/tessia-project/tessia
           - item:
             name: TSTerm
             homepage_url: https://github.com/TSTerminal
@@ -2373,12 +2396,16 @@ landscape:
               next_review_date: ^2024-09-12
               SBOM: none
               artwork_url: https://artwork.openmainframeproject.org/projects/tsterm/
+              annual_review_date: '2023-09-14'
+              annual_review_url: https://github.com/openmainframeproject/tac/issues/506
+              next_annual_review_date: '2024-09-12'
+              chair: Joe Devlin
           - item:
             name: Zowe
             second_path:
               - Projects / z/OS
             homepage_url: https://www.zowe.org/
-            repo_url: https://github.com/zowe/api-layer
+            repo_url: https://github.com/zowe/zac
             project_org: https://github.com/zowe
             url_for_bestpractices: https://github.com/zowe/zlc
             logo: zowe.svg
@@ -2417,3 +2444,6 @@ landscape:
               last_review_date: ^2022-06-09
               next_review_date: ^2023-08-24
               artwork_url: https://artwork.openmainframeproject.org/projects/zvm-community-tools/
+              annual_review_date: '2022-06-09'
+              annual_review_url: https://github.com/openmainframeproject/tac/issues/454
+              next_annual_review_date: '2024-08-22'
