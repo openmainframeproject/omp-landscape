@@ -2066,6 +2066,8 @@ landscape:
         items:
           - item:
             name: Ambitus
+            second_path:
+              - Projects / Other
             homepage_url: https://www.openmainframeproject.org/projects/ambitus
             project: incubating
             logo: ambitus.svg
@@ -2134,6 +2136,8 @@ landscape:
               chair: Rune Christensen
           - item:
             name: COBOL Programming Course
+            second_path:
+              - Projects / Learning and Mentoring
             homepage_url: https://www.openmainframeproject.org/projects/cobolprogrammingcourse
             project: active
             logo: cobol_programming_course.svg
@@ -2154,6 +2158,8 @@ landscape:
             repo_url: https://github.com/openmainframeproject/cobol-programming-course
           - item:
             name: COBOL Working Group
+            second_path:
+              - Projects / Learning and Mentoring
             homepage_url: https://www.openmainframeproject.org/projects/cobol-working-group
             project: working-group
             logo: cobol_working_group.svg
@@ -2198,6 +2204,8 @@ landscape:
             repo_url: https://github.com/openmainframeproject/feilong
           - item:
             name: Galasa
+            second_path:
+              - Projects / Development Tools
             homepage_url: https://galasa.dev/
             project: incubating
             repo_url: https://github.com/galasa-dev/framework
@@ -2273,6 +2281,8 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=omp-linux-distributions-wg
           - item:
             name: Mainframe Open Education
+            second_path:
+              - Projects / Learning and Mentoring
             homepage_url: https://www.openmainframeproject.org/projects/mainframeopeneducation
             logo: mainframe_open_education.svg
             project: active
@@ -2294,6 +2304,8 @@ landscape:
             repo_url: https://github.com/openmainframeproject/omp-education
           - item:
             name: Modernization Working Group
+            second_path:
+              - Projects / Other
             description: >-
               The purpose of this working group is to create a common definition and framework around modernization in the mainframe space; produce educational
               material and promote all messages and definitions wider landscape for better alignment.
@@ -2302,11 +2314,12 @@ landscape:
             logo: modernization.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
+              slug: mainframe-modernization-wg
               mailing_list_url: https://lists.openmainframeproject.org/g/wg-modernization
               slack_url: https://slack.openmainframeproject.org
               chat_channel: '#wg-modernization'
               wiki: https://wiki.openmainframeproject.org/display/MW
-              leads: Misty Decker
+              chair: Misty Decker
               accepted: '2022-09-18'
               next_annual_review_date: '2024-09-26'
               artwork_url: https://artwork.openmainframeproject.org/working-groups/modernization-wg/
@@ -2314,6 +2327,8 @@ landscape:
               annual_review_url: https://github.com/openmainframeproject/tac/issues/529
           - item:
             name: Software Discovery Tool
+            second_path:
+              - Projects / Other
             homepage_url: https://www.openmainframeproject.org/projects/software-discovery-tool
             project: incubating
             logo: software_discovery_tool.svg
@@ -2333,6 +2348,8 @@ landscape:
             repo_url: https://github.com/openmainframeproject/software-discovery-tool
           - item:
             name: TerseDecompress
+            second_path:
+              - Projects / Other
             project: sandbox
             homepage_url: https://www.openmainframeproject.org/projects/tersedecompress
             logo: tersedecompress.svg
@@ -2377,6 +2394,8 @@ landscape:
             repo_url: https://github.com/tessia-project/tessia
           - item:
             name: TSTerm
+            second_path:
+              - Projects / z/OS
             homepage_url: https://github.com/TSTerminal
             project: sandbox
             repo_url: https://github.com/TSTerminal/TSTerm
@@ -2430,6 +2449,8 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=zowe
           - item:
             name: z/VM Community Tools
+            second_path:
+              - Projects / z/VM
             homepage_url: https://github.com/openmainframeproject/zvm-community-tools
             project: sandbox
             repo_url: https://github.com/openmainframeproject/zvm-community-tools
