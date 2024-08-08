@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: jmertic/landscape-tools@include-projects
+        with:
+          token: ${{ secrets.PAT }}
         env:
           token: ${{ secrets.PAT }}
           repository: ${{ github.repository }}
