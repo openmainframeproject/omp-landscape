@@ -477,6 +477,6 @@ prerender:
     /card-mode?category=api-mediation-layer-zowe-v1%2Capp-framework-zowe-v1%2Ccli-zowe-v1,explorer-for-visual-studio-code-zowe-v1&grouping=category&embed=yes&style=logo
   zowe-conformant-2019: /card-mode?category=api-mediation-layer-2019%2Capp-framework-2019%2Ccli-2019&grouping=category&embed=yes&style=logo
 export:
-  projects-hosted: card-mode?grouping=no&category=projects&project=hosted
-  projects-hosted-by-stage: card-mode?category=projects&project=hosted
-  projects-hosted-website: card-mode?grouping=no&category=projects&project=graduated,incubating,workinggroup
+  projects-hosted: card-mode?grouping=no&project=hosted
+  projects-hosted-by-stage: card-mode?project=hosted
+  projects-hosted-website: card-mode?grouping=no&project=graduated,incubating,workinggroup
