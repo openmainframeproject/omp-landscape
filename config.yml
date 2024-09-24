@@ -15,6 +15,17 @@ landscapeMemberCategory: Open Mainframe Project Member Company
 landscapefile: landscape.yml
 missingcsvfile: missing.csv
 landscapeProjectsCategory: Open Mainframe Project Projects
+landscapeProjectsLevels:
+  - level: active
+    name: Active
+  - level: incubating
+    name: Incubation
+  - level: sandbox
+    name: Sandbox
+  - level: working-group
+    name: Working Group
+  - level: emeritus
+    name: Emeritus
 landscapeProjectsSubcategories:
   - name: All
     category: All
