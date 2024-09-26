@@ -676,74 +676,6 @@ landscape:
             logo: ca-secure-credential-store.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
-        name: Support Provider Comprehensive ZOWE V1
-        items:
-          - item:
-            name: Brightside
-            second_path:
-              - Zowe Conformant / Support Provider API Mediation Layer ZOWE V1
-              - Zowe Conformant / Support Provider App Framework ZOWE V1
-              - Zowe Conformant / Support Provider CLI ZOWE V1
-              - Zowe Conformant / Support Provider Explorer for Visual Studio Code ZOWE V1
-              - Zowe Conformant / Support Provider Comprehensive ZOWE V2
-              - Zowe Conformant / Support Provider API Mediation Layer ZOWE V2
-              - Zowe Conformant / Support Provider App Framework ZOWE V2
-              - Zowe Conformant / Support Provider CLI ZOWE V2
-              - Zowe Conformant / Support Provider Explorer for Visual Studio Code ZOWE V2
-            description: >-
-              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence. 
-              Brightside subscribers also have access to exclusive innovations.
-            homepage_url: https://www.broadcom.com/products/mainframe/application-development/brightside
-            logo: brightside.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: IBM Z Distribution for Zowe
-            second_path:
-              - Zowe Conformant / Support Provider API Mediation Layer ZOWE V1
-              - Zowe Conformant / Support Provider App Framework ZOWE V1
-              - Zowe Conformant / Support Provider CLI ZOWE V1
-              - Zowe Conformant / Support Provider Explorer for Visual Studio Code ZOWE V1
-              - Zowe Conformant / Support Provider Comprehensive ZOWE V2
-              - Zowe Conformant / Support Provider API Mediation Layer ZOWE V2
-              - Zowe Conformant / Support Provider App Framework ZOWE V2
-              - Zowe Conformant / Support Provider CLI ZOWE V2
-              - Zowe Conformant / Support Provider Explorer for Visual Studio Code ZOWE V2
-            description: >-
-              IBM Z® Distribution for Zowe provides IBM delivery of Zowe open source software in executable form to extend and enhance z/OS products and
-              services, includes an entitlement to IBM SDK for Node.js - z/OS, V12.0 as a supporting program of IBM Z Distribution for Zowe, is delivered in
-              z/OS standard software package format (SMP/E), includes entitled IBM Subscription and Support (S&S) when Zowe is used as a prerequisite for IBM
-              products, and S&S has been purchased for such IBM products, and offers optional worldwide 24x7 fee-based S&S when Zowe is used independent of IBM
-              products, subject to IBM standard terms and conditions.
-            homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS220-014/index.html
-            logo: ibm-z-distribution-for-zowe.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-      - subcategory:
-        name: Support Provider API Mediation Layer ZOWE V1
-        items: []
-      - subcategory:
-        name: Support Provider App Framework ZOWE V1
-        items:
-          - item:
-            name: IBM® Z System Automation
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / CLI ZOWE V1
-            description: >-
-              IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
-              and applications.
-            homepage_url: https://www.ibm.com/products/z-system-automation
-            logo: ibm-z-system-automation.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-      - subcategory:
-        name: Support Provider CLI ZOWE V1
-        items: []
-      - subcategory:
-        name: Support Provider Explorer for Visual Studio Code ZOWE V1
-        items: []
-      - subcategory:
         name: Explorer for Visual Studio Code ZOWE V1
         items:
           - item:
@@ -1022,35 +954,6 @@ landscape:
             logo: test4z.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
-        name: Support Provider Comprehensive ZOWE V2
-        items: []
-      - subcategory:
-        name: Support Provider Explorer for Visual Studio Code ZOWE V2
-        items: []
-      - subcategory:
-        name: Support Provider API Mediation Layer ZOWE V2
-        items:
-          - item:
-            name: Rocket Support for Zowe
-            second_path:
-              - Zowe Conformant / Support Provider App Framework ZOWE V2
-              - Zowe Conformant / Support Provider CLI ZOWE V2
-              - Zowe Conformant / Support Provider Explorer for Visual Studio Code ZOWE V2
-              - Zowe Conformant / Support Provider Comprehensive ZOWE V2
-            description: >-
-              Rocket Support for Zowe provides a Rocket-hosted download for all Zowe core components, 24x7 customer support for Zowe, and security assurance
-              with an independent ability to provide security fixes as needed.  Additionally, Rocket Support for Zowe comes with extra Rocket exclusive
-              enterprise-grade utility apps for the mainframe virtual desktop.
-            homepage_url: https://www.rocketsoftware.com/products/rocket-zowe
-            logo: rocket-support.svg
-            crunchbase: https://www.crunchbase.com/organization/rocket-software
-      - subcategory:
-        name: Support Provider App Framework ZOWE V2
-        items: []
-      - subcategory:
-        name: Support Provider CLI ZOWE V2
-        items: []
-      - subcategory:
         name: App Framework ZOWE V2
         items:
           - item:
@@ -1086,6 +989,106 @@ landscape:
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0/web-client.html
             logo: vantage-storage-resource-manager.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+  - category:
+    name: Zowe Conformant Support Provider
+    subcategories:
+      - subcategory:
+        name: Comprehensive ZOWE V1
+        items:
+          - item:
+            name: Brightside
+            second_path:
+              - Zowe Conformant Support Provider / API Mediation Layer ZOWE V1
+              - Zowe Conformant Support Provider / App Framework ZOWE V1
+              - Zowe Conformant Support Provider / CLI ZOWE V1
+              - Zowe Conformant Support Provider / Explorer for Visual Studio Code ZOWE V1
+              - Zowe Conformant Support Provider / Comprehensive ZOWE V2
+              - Zowe Conformant Support Provider / API Mediation Layer ZOWE V2
+              - Zowe Conformant Support Provider / App Framework ZOWE V2
+              - Zowe Conformant Support Provider / CLI ZOWE V2
+              - Zowe Conformant Support Provider / Explorer for Visual Studio Code ZOWE V2
+            description: >-
+              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence. 
+              Brightside subscribers also have access to exclusive innovations.
+            homepage_url: https://www.broadcom.com/products/mainframe/application-development/brightside
+            logo: brightside.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: IBM Z Distribution for Zowe
+            second_path:
+              - Zowe Conformant Support Provider / API Mediation Layer ZOWE V1
+              - Zowe Conformant Support Provider / App Framework ZOWE V1
+              - Zowe Conformant Support Provider / CLI ZOWE V1
+              - Zowe Conformant Support Provider / Explorer for Visual Studio Code ZOWE V1
+              - Zowe Conformant Support Provider / Comprehensive ZOWE V2
+              - Zowe Conformant Support Provider / API Mediation Layer ZOWE V2
+              - Zowe Conformant Support Provider / App Framework ZOWE V2
+              - Zowe Conformant Support Provider / CLI ZOWE V2
+              - Zowe Conformant Support Provider / Explorer for Visual Studio Code ZOWE V2
+            description: >-
+              IBM Z® Distribution for Zowe provides IBM delivery of Zowe open source software in executable form to extend and enhance z/OS products and
+              services, includes an entitlement to IBM SDK for Node.js - z/OS, V12.0 as a supporting program of IBM Z Distribution for Zowe, is delivered in
+              z/OS standard software package format (SMP/E), includes entitled IBM Subscription and Support (S&S) when Zowe is used as a prerequisite for IBM
+              products, and S&S has been purchased for such IBM products, and offers optional worldwide 24x7 fee-based S&S when Zowe is used independent of IBM
+              products, subject to IBM standard terms and conditions.
+            homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS220-014/index.html
+            logo: ibm-z-distribution-for-zowe.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+      - subcategory:
+        name: API Mediation Layer ZOWE V1
+        items: []
+      - subcategory:
+        name: App Framework ZOWE V1
+        items:
+          - item:
+            name: IBM® Z System Automation
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
+            description: >-
+              IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
+              and applications.
+            homepage_url: https://www.ibm.com/products/z-system-automation
+            logo: ibm-z-system-automation.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+      - subcategory:
+        name: CLI ZOWE V1
+        items: []
+      - subcategory:
+        name: Explorer for Visual Studio Code ZOWE V1
+        items: []
+      - subcategory:
+        name: Comprehensive ZOWE V2
+        items: []
+      - subcategory:
+        name: Explorer for Visual Studio Code ZOWE V2
+        items: []
+      - subcategory:
+        name: API Mediation Layer ZOWE V2
+        items:
+          - item:
+            name: Rocket Support for Zowe
+            second_path:
+              - Zowe Conformant Support Provider / App Framework ZOWE V2
+              - Zowe Conformant Support Provider / CLI ZOWE V2
+              - Zowe Conformant Support Provider / Explorer for Visual Studio Code ZOWE V2
+              - Zowe Conformant Support Provider / Comprehensive ZOWE V2
+            description: >-
+              Rocket Support for Zowe provides a Rocket-hosted download for all Zowe core components, 24x7 customer support for Zowe, and security assurance
+              with an independent ability to provide security fixes as needed.  Additionally, Rocket Support for Zowe comes with extra Rocket exclusive
+              enterprise-grade utility apps for the mainframe virtual desktop.
+            homepage_url: https://www.rocketsoftware.com/products/rocket-zowe
+            logo: rocket-support.svg
+            crunchbase: https://www.crunchbase.com/organization/rocket-software
+      - subcategory:
+        name: App Framework ZOWE V2
+        items: []
+      - subcategory:
+        name: CLI ZOWE V2
+        items: []
   - category:
     name: Broad Open Source
     subcategories:
