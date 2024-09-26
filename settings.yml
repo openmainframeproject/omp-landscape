@@ -313,7 +313,7 @@ big_picture:
         color: rgb(126,115,14)
         fit_width: true
     category: Open Mainframe Project Member Company
-  sixth:
+  zowe-conformant:
     tab_index: 4
     url: zowe-conformant
     name: Zowe Conformant
@@ -388,6 +388,13 @@ big_picture:
         left: 680
         top: -20
         layout: subcategory
+    category: Zowe Conformant
+  zowe-conformant-support-provider:
+    tab_index: 5
+    url: zowe-conformant-support-provider
+    name: Zowe Conformant Support Provider
+    title: Ecosystem of support providers for Zowe
+    elements:
       - type: VerticalCategory
         category: Support Provider Comprehensive ZOWE V2
         width: 200
@@ -458,7 +465,7 @@ big_picture:
         top: 700
         left: 890
         color: rgb(43,125,225)
-    category: Zowe Conformant
+    category: Zowe Conformant Support Provider
 test:
   header: Open Mainframe Project Interactive Landscape
   section: Active Open Mainframe Projects
