@@ -313,7 +313,7 @@ big_picture:
         color: rgb(126,115,14)
         fit_width: true
     category: Open Mainframe Project Member Company
-  sixth:
+  zowe-conformant:
     tab_index: 4
     url: zowe-conformant
     name: Zowe Conformant
@@ -379,6 +379,13 @@ big_picture:
         top: 510
         left: 180
         color: rgb(43,125,225)
+    category: Zowe Conformant
+  zowe-conformant-support-provider:
+    tab_index: 5
+    url: zowe-conformant-support-provider
+    name: Zowe Conformant Support Provider
+    title: Ecosystem of support providers for Zowe
+    elements:
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformant-support-provider
         image: >-
@@ -389,7 +396,7 @@ big_picture:
         top: -20
         layout: subcategory
       - type: VerticalCategory
-        category: Support Provider Comprehensive ZOWE V2
+        category: Comprehensive ZOWE V2
         width: 200
         height: 150
         top: 0
@@ -405,7 +412,7 @@ big_picture:
         top: 150
         layout: subcategory
       - type: VerticalCategory
-        category: Support Provider API Mediation Layer ZOWE V2
+        category: API Mediation Layer ZOWE V2
         width: 200
         height: 150
         top: 170
@@ -421,7 +428,7 @@ big_picture:
         top: 320
         layout: subcategory
       - type: VerticalCategory
-        category: Support Provider App Framework ZOWE V2
+        category: App Framework ZOWE V2
         width: 200
         height: 150
         top: 340
@@ -436,7 +443,7 @@ big_picture:
         top: 490
         layout: subcategory
       - type: VerticalCategory
-        category: Support Provider CLI ZOWE V2
+        category: CLI ZOWE V2
         width: 200
         height: 150
         top: 510
@@ -452,13 +459,13 @@ big_picture:
         top: 680
         layout: subcategory
       - type: VerticalCategory
-        category: Support Provider Explorer for Visual Studio Code ZOWE V2
+        category: Explorer for Visual Studio Code ZOWE V2
         width: 200
         height: 150
         top: 700
         left: 890
         color: rgb(43,125,225)
-    category: Zowe Conformant
+    category: Zowe Conformant Support Provider
 test:
   header: Open Mainframe Project Interactive Landscape
   section: Active Open Mainframe Projects
