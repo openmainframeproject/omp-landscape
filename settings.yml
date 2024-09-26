@@ -379,6 +379,13 @@ big_picture:
         top: 510
         left: 180
         color: rgb(43,125,225)
+    category: Zowe Conformant
+  zowe-conformant-support-provider:
+    tab_index: 5
+    url: zowe-conformant-support-provider
+    name: Zowe Conformant Support Provider
+    title: Ecosystem of support providers for Zowe
+    elements:
       - type: LandscapeLink
         url: https://www.openmainframeproject.org/projects/zowe/conformant-support-provider
         image: >-
@@ -388,13 +395,6 @@ big_picture:
         left: 680
         top: -20
         layout: subcategory
-    category: Zowe Conformant
-  zowe-conformant-support-provider:
-    tab_index: 5
-    url: zowe-conformant-support-provider
-    name: Zowe Conformant Support Provider
-    title: Ecosystem of support providers for Zowe
-    elements:
       - type: VerticalCategory
         category: Comprehensive ZOWE V2
         width: 200
