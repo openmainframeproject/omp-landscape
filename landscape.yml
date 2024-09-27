@@ -13,6 +13,12 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
+            name: Installation assistant for Linux on IBM Z
+            homepage_url: https://ibm.github.io/liz/
+            repo_url: https://github.com/IBM/liz
+            logo: liz.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
             name: libica
             homepage_url: https://github.com/opencryptoki/libica
             repo_url: https://github.com/opencryptoki/libica
@@ -88,12 +94,6 @@ landscape:
             repo_url: https://github.com/trothr/znetboot
             logo: znetboot.svg
             crunchbase: https://www.crunchbase.com/organization/la-casita
-          - item:
-            name: Installation assistant for Linux on IBM Z
-            homepage_url: https://ibm.github.io/liz/
-            repo_url: https://github.com/IBM/liz
-            logo: liz.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
       - subcategory:
         name: z/VM
         items:
