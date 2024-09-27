@@ -474,15 +474,12 @@ prerender:
   members: /card-mode?category=open-mainframe-project-member-company&grouping=category&embed=yes&style=borderless
   members-non-grouped: /card-mode?category=open-mainframe-project-member-company&grouping=no&embed=yes&style=borderless
   hosted-projects: /card-mode?project=hosted&embed=yes&style=borderless
+  zowe-conformant-support-provider: >-
+    /card-mode?category=zowe-conformant-support-provider&grouping=category&embed=yes
   zowe-conformant-support-vendor: >-
-    /card-mode?category=support-provider-comprehensive-zowe-v2,support-provider-api-mediation-layer-zowe-v2,support-provider-app-framework-zowe-v2,support-provider-cli-zowe-v2,support-provider-explorer-for-visual-studio-code-zowe-v2&grouping=category&embed=yes
-  zowe-conformant-support-vendor-v1: >-
-    /card-mode?category=support-provider-comprehensive-zowe-v1,support-provider-api-mediation-layer-zowe-v1,support-provider-app-framework-zowe-v1,support-provider-cli-zowe-v1,support-provider-explorer-for-visual-studio-code-zowe-v1&grouping=category&embed=yes
+    /card-mode?category=zowe-conformant-support-provider&grouping=category&embed=yes
   zowe-conformant: >-
-    /card-mode?category=api-mediation-layer-zowe-v2%2Capp-framework-zowe-v2%2Ccli-zowe-v2,explorer-for-visual-studio-code-zowe-v2&grouping=category&embed=yes&style=logo
-  zowe-conformant-v1: >-
-    /card-mode?category=api-mediation-layer-zowe-v1%2Capp-framework-zowe-v1%2Ccli-zowe-v1,explorer-for-visual-studio-code-zowe-v1&grouping=category&embed=yes&style=logo
-  zowe-conformant-2019: /card-mode?category=api-mediation-layer-2019%2Capp-framework-2019%2Ccli-2019&grouping=category&embed=yes&style=logo
+    /card-mode?category=zowe-conformant&grouping=no&embed=yes&style=logo
 export:
   projects-hosted: card-mode?grouping=no&project=hosted
   projects-hosted-by-stage: card-mode?project=hosted
