@@ -994,13 +994,212 @@ landscape:
         items: []
       - subcategory:
         name: CLI ZOWE V3
-        items: []
+        items:
+          - item:
+            name: CA SYSVIEW® Performance Management
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              CA SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access CA SYSVIEW actions and
+              data using a modern API.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html
+            stock_ticker: AVGO
+            logo: ca-sysview-performance-management.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: File Master™ Plus
+            second_path:
+              - Zowe Conformant / CLI 2019
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / API Mediation Layer 2019
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              The File Master Plus Plug-in for Zowe CLI helps you quickly create, edit, and manipulate files in virtual storage access method (VSAM), sequential, and partitioned data sets.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/enterprise-support-for-zowe/1-0/using/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
+            logo: file-master-plus.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: OPS/MVS®
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI 2019
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: |-
+                The OPS/MVS Plug-in for Zowe CLI enables efficient automation administration and resource management from a single command-line interface.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/enterprise-support-for-zowe/1-0/using/zowe-cli/available-cli-plug-ins/ca-ops-mvs-plug-in-for-zowe-cli.html
+            logo: opsmvs.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: SYSVIEW® Performance Management
+            description: >-
+              "The SYSVIEW Plug-in for Zowe CLI lets Application Developers, DevOps and CI/CD Administrators, and other similar IT roles issue SYSVIEW commands that take actions or display data."            
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/enterprise-support-for-zowe/1-0/using/zowe-cli/available-cli-plug-ins/ca-sysview-performance-management-plug-in-for-zowe-cli.html
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: Spool™
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+            description: The Spool Plug-in for Zowe CLI lets users issue any Spool native command from a single command-line interface. This plug-in also enables automated administration of Spool and lets service providers that administer multiple Spool environments respond to client requests faster
+            homepage_url: https://www.npmjs.com/package/@broadcom/om-spool-for-zowe-cli
+            logo: spool.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: OPS/MVS®
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI 2019
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: |-
+              "The OPS/MVS Plug-in for Zowe CLI enables efficient automation administration and resource management from a single command-line interface."
+            homepage_url: https://techdocs.broadcom.com/opsmvs
+            logo: opsmvs.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: IBM® CICS® Plug-in for Zowe CLI
+            description: |-
+             "The IBM CICS Plug-in for Zowe CLI extends Zowe CLI to interact with IBM CICS programs and transactions."
+            homepage_url: null
+            logo: null
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: IBM® Db2® Database Plug-in for Zowe CLI
+            description: |-
+             "The IBM® Db2® Database Plug-in for ZoweTM CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development tools to automate typical workloads more efficiently."
+            homepage_url: https://github.com/zowe/zowe-cli-db2-plugin
+            logo: null
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: IIBM® MQ Plug-in for Zowe CLI
+            description: |-
+             "The IBM MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks such as defining, altering, and deleting local queue objects."
+            homepage_url: https://github.com/zowe/zowe-cli-mq-plugin
+            logo: null
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: z/OS FTP Plug-in for ZoweTM CLI
+            description: |-
+              "The z/OS FTP Plug-in for ZoweTM CLI lets you access z/OS data sets, USS files, and submit JCL, leveraging the z/OS FTP service."
+            homepage_url: https://github.com/zowe/zowe-cli-ftp-plugin
+            logo: null
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: API Mediation Layer ZOWE V3
-        items: []
+        items:
+          - item:
+            name: Workload Automation CA 7®
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V1
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
+            description: >- 
+              Zowe CLI plugins for CA 7.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-ca-7-edition/12-1.html
+            logo: workload-automation-ca-7.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: Mainframe Topology
+            description: >-
+              Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
+              elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
+              their environment.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/mainframe-topology/1-0.html
+            logo: mainframe-topology.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: NetMaster
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              The NetMaster API service helps you quickly glean network information that can be used by network security personnel and network administrators to manage and analyze your network.
+            homepage_url: https://integration.mainframe.broadcom.com/solution/NetMaster/api
+            logo: netmaster.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: Database Management Solutions for Db2 for z/OS
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V2
+            description: >- 
+              Db2 for z/OS management data services for administration, performance monitoring, schema provisioning, and other Db2 generic purposes.
+            homepage_url: https://integration.mainframe.broadcom.com/solution/Database-Management-Solutions-for-Db2-for-z-OS/api
+            logo: database-management-solutions-for-db2-for-zos.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: ESP Workload Automation
+            description: >- 
+              Use the ESP Workload Automation RESTful Web Services to retrieve information about jobs and applications that are currently active and to execute commands at the WA ESP Workload Automation side.
+            homepage_url: https://integration.mainframe.broadcom.com/solution/ESP-Workload-Automation/api
+            logo: workload-automation.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: SymDump
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V1
+            description: Use SymDump REST API services to detect, analyze, and resolve ABEND application failures.
+            homepage_url: https://integration.mainframe.broadcom.com/solution/SYMDUMP/api
+            logo: symdump.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: Mainframe Operational Intelligence
+            description: >- 
+              "Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts."
+            homepage_url: https://integration.mainframe.broadcom.com/solution/Mainframe-Operational-Intelligence-(MOI)/api
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: Endevor®
+            description: "Use the Endevor RESTful API services to perform a wide range of actions. You can use the REST API services for example to process various element actions. You can also list inventory and work with packages."
+            homepage_url: https://integration.mainframe.broadcom.com/solution/Endevor/api
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: Database Management Solutions for Db2 for z/OS
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V2
+            description: "The DBM for Db2 Plug-in for Zowe CLI lets you automate Db2 schema provisioning."
+            homepage_url: https://integration.mainframe.broadcom.com/solution/Database-Management-Solutions-for-Db2-for-z-OS/api
+            stock_ticker: AVGO
+            logo: database-management-solutions-for-db2-for-zos.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
-        items: []
+        items: 
+        - item:
+            name: Explorer for Endevor
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            description: "The Explorer for Endevor VS Code extension modernizes the way you interact with Endevor and offers a user-friendly and convenient way to work with elements and inventory locations."
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.explorer-for-endevor
+            repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
+            logo: explorer-for-endevor.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: OPS/REXX Language Support Extension for VS Code
+            description: >-
+              The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
+              syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
+            homepage_url: https://github.com/BroadcomMFD/opsrexx-language-support
+            project: null
+            logo: ops_rexx.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: IBM® CICS® for Zowe Explorer
+            description: >-
+             "The CICS extension for Zowe Explorer enables interactions with CICS regions and programs from within VS Code."
+            homepage_url: null
+            project: null
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            - item:
+            name: IBM® z/OS FTP for Zowe Explorer
+            description: >-
+             "The IBM z/OS FTP for Zowe Explorer adds the FTP protocol to the Zowe Explorer VS Code extension, allowing you to use z/OS FTP to interact with data sets, jobs, and USS files."
+            homepage_url: https://github.com/zowe/zowe-explorer-vscode/tree/main/packages/zowe-explorer-ftp-extension
+            project: null
+            crunchbase: https://www.crunchbase.com/organization/broadcom
   - category:
     name: Zowe Conformant Support Provider
     subcategories:
@@ -1114,7 +1313,7 @@ landscape:
         name: API Mediation Layer ZOWE V3
         items: []
       - subcategory:
-        name:  App Framework ZOWE V3
+        name: App Framework ZOWE V3
         items: []
       - subcategory:
         name: CLI ZOWE V3
@@ -1226,7 +1425,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/docker
           - item:
             name: Eigen
-            description: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
+            description: "Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms."
             homepage_url: http://eigen.tuxfamily.org/index.php?title=Main_Page
             repo_url: https://github.com/eigenteam/eigen-git-mirror
             logo: eigen.svg
@@ -2111,10 +2310,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: ambitus
-              accepted: '2020-02-24'
-              annual_review_date: '2023-07-13'
+              accepted: "2020-02-24"
+              annual_review_date: "2023-07-13"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/577
-              next_annual_review_date: '2024-09-12'
+              next_annual_review_date: "2024-09-12"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ambitus
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001JWqRDQA1
               artwork_url: https://artwork.openmainframeproject.org/projects/ambitus
@@ -2136,11 +2335,11 @@ landscape:
             extra:
               slug: cbt-tape
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: '#cbt-tape'
-              accepted: '2020-09-09'
-              annual_review_date: '2023-10-12'
+              chat_channel: "#cbt-tape"
+              accepted: "2020-09-09"
+              annual_review_date: "2023-10-12"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/530
-              next_annual_review_date: '2024-10-10'
+              next_annual_review_date: "2024-10-10"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cbt-tape
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkTm0QAF
               artwork_url: https://artwork.openmainframeproject.org/projects/cbt-tape
@@ -2160,16 +2359,16 @@ landscape:
               slug: cobol-check
               mailing_list_url: https://lists.openmainframeproject.org/g/cobol-check-discussion
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: '#cobol-check'
+              chat_channel: "#cobol-check"
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=cobol-check
               leads: Rune Christensen
               artwork_url: https://artwork.openmainframeproject.org/projects/cobol-check
-              accepted: '2021-02-16'
+              accepted: "2021-02-16"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobol-check
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWfljQAD
-              annual_review_date: '2023-06-08'
+              annual_review_date: "2023-06-08"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/578
-              next_annual_review_date: '2024-08-22'
+              next_annual_review_date: "2024-08-22"
               chair: Rune Christensen
           - item:
             name: COBOL Programming Course
@@ -2185,10 +2384,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: cobol-programming-course
-              accepted: '2021-08-03'
-              annual_review_date: '2024-04-11'
+              accepted: "2021-08-03"
+              annual_review_date: "2024-04-11"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/585
-              next_annual_review_date: '2025-04-10'
+              next_annual_review_date: "2025-04-10"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobol-programming-course
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWrdtQAD
               artwork_url: https://artwork.openmainframeproject.org/projects/cobol-programming-course
@@ -2208,10 +2407,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: cobol-working-group
-              accepted: '2020-07-09'
-              annual_review_date: '2023-08-24'
+              accepted: "2020-07-09"
+              annual_review_date: "2023-08-24"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/581
-              next_annual_review_date: '2024-11-14'
+              next_annual_review_date: "2024-11-14"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobol-working-group
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkUvlQAF
               artwork_url: https://artwork.openmainframeproject.org/projects/cobol-working-group
@@ -2232,16 +2431,16 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/feilong-discussion
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: '#feilong'
+              chat_channel: "#feilong"
               slug: feilong
-              accepted: '2019-08-20'
+              accepted: "2019-08-20"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/feilong
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IfR9gQAF
               artwork_url: https://artwork.openmainframeproject.org/projects/feilong
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=feilong
-              annual_review_date: '2024-07-19'
+              annual_review_date: "2024-07-19"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/579
-              next_annual_review_date: '2025-07-24'
+              next_annual_review_date: "2025-07-24"
               chair: Mike Friesenegger
           - item:
             name: Galasa
@@ -2257,16 +2456,16 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/galasa-discussion
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: '#galasa_users'
+              chat_channel: "#galasa_users"
               artwork_url: https://artwork.openmainframeproject.org/projects/galasa
               slug: galasa
-              accepted: '2023-07-03'
+              accepted: "2023-07-03"
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=galasa
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/galasa
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001O6R6SQAV
-              annual_review_date: '2024-04-25'
+              annual_review_date: "2024-04-25"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/584
-              next_annual_review_date: '2025-04-24'
+              next_annual_review_date: "2025-04-24"
               chair: Louisa Seers
           - item:
             name: GenevaERS
@@ -2287,12 +2486,12 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/genevaers-discussion
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: '#genevaers'
+              chat_channel: "#genevaers"
               slug: genevaers
-              accepted: '2021-03-29'
-              annual_review_date: '2023-08-10'
+              accepted: "2021-03-29"
+              annual_review_date: "2023-08-10"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/575
-              next_annual_review_date: '2024-09-26'
+              next_annual_review_date: "2024-09-26"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/genevaers
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkTlvQAF
               artwork_url: https://artwork.openmainframeproject.org/projects/genevaers
@@ -2313,12 +2512,12 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/wg-linux-distros
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: '#linux-distros-wg'
+              chat_channel: "#linux-distros-wg"
               slug: omp-linux-distributions-wg
-              accepted: '2021-06-10'
-              annual_review_date: '2023-10-26'
+              accepted: "2021-06-10"
+              annual_review_date: "2023-10-26"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/532
-              next_annual_review_date: '2024-12-12'
+              next_annual_review_date: "2024-12-12"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/omp-linux-distributions-wg
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MaHzKQAV
               artwork_url: https://artwork.openmainframeproject.org/projects/omp-linux-distributions-wg
@@ -2339,13 +2538,13 @@ landscape:
               slug: mainframe-modernization-wg
               mailing_list_url: https://lists.openmainframeproject.org/g/wg-modernization
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: '#wg-modernization'
+              chat_channel: "#wg-modernization"
               wiki: https://wiki.openmainframeproject.org/display/MW
               chair: Misty Decker
-              accepted: '2022-09-01'
-              next_annual_review_date: '2024-09-26'
+              accepted: "2022-09-01"
+              next_annual_review_date: "2024-09-26"
               artwork_url: https://artwork.openmainframeproject.org/projects/mainframe-modernization-wg
-              annual_review_date: '2023-09-14'
+              annual_review_date: "2023-09-14"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/529
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=mainframe-modernization-wg
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/mainframe-modernization-wg
@@ -2367,10 +2566,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: mainframe-open-education
-              accepted: '2024-07-16'
-              annual_review_date: '2024-06-27'
+              accepted: "2024-07-16"
+              annual_review_date: "2024-06-27"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/494
-              next_annual_review_date: '2025-06-26'
+              next_annual_review_date: "2025-06-26"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/mainframe-open-education
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkTlxQAF
               artwork_url: https://artwork.openmainframeproject.org/projects/mainframe-open-education
@@ -2388,14 +2587,14 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: software-discovery-tool
-              accepted: '2020-09-09'
+              accepted: "2020-09-09"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/software-discovery-tool
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkTmPQAV
               artwork_url: https://artwork.openmainframeproject.org/projects/software-discovery-tool
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=software-discovery-tool
-              annual_review_date: '2024-06-28'
+              annual_review_date: "2024-06-28"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/580
-              next_annual_review_date: '2025-05-22'
+              next_annual_review_date: "2025-05-22"
               chair: Elizabeth Joseph
           - item:
             name: TerseDecompress
@@ -2411,10 +2610,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: tersedecompress
-              accepted: '2019-08-20'
-              annual_review_date: '2023-08-10'
+              accepted: "2019-08-20"
+              annual_review_date: "2023-08-10"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/576
-              next_annual_review_date: '2024-10-10'
+              next_annual_review_date: "2024-10-10"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/tersedecompress
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IfRAKQA3
               artwork_url: https://artwork.openmainframeproject.org/projects/tersedecompress
@@ -2433,12 +2632,12 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/tessia-user
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: '#tessia'
+              chat_channel: "#tessia"
               slug: tessia
-              accepted: '2020-10-23'
-              annual_review_date: '2023-10-12'
+              accepted: "2020-10-23"
+              annual_review_date: "2023-10-12"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/531
-              next_annual_review_date: '2024-10-24'
+              next_annual_review_date: "2024-10-24"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/tessia
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkUvgQAF
               artwork_url: https://artwork.openmainframeproject.org/projects/tessia
@@ -2457,7 +2656,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/tsterm-discussion
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: '#tsterm'
+              chat_channel: "#tsterm"
               LFX_insights: none
               LFX_security: none
               leads: Joe Devlin
@@ -2467,9 +2666,9 @@ landscape:
               next_review_date: ^2024-09-12
               SBOM: none
               artwork_url: https://artwork.openmainframeproject.org/projects/tsterm/
-              annual_review_date: '2023-09-14'
+              annual_review_date: "2023-09-14"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/506
-              next_annual_review_date: '2024-09-12'
+              next_annual_review_date: "2024-09-12"
               chair: Joe Devlin
           - item:
             name: z/VM Community Tools
@@ -2483,16 +2682,16 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/zvm-communitytools-discussion
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: '#z-vm-community-tools'
+              chat_channel: "#z-vm-community-tools"
               leads: Bruce Hayden
               date_accepted: ^2021-05-13
               last_review_date: ^2022-06-09
               next_review_date: ^2023-08-24
               artwork_url: https://artwork.openmainframeproject.org/projects/zvm-community-tools/
-              annual_review_date: '2022-06-09'
+              annual_review_date: "2022-06-09"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/454
-              next_annual_review_date: '2024-12-12'
-              chair: ''
+              next_annual_review_date: "2024-12-12"
+              chair: ""
           - item:
             name: Zowe
             second_path:
@@ -2511,12 +2710,12 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/zowe-dev
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: '#zowe-onboarding'
+              chat_channel: "#zowe-onboarding"
               slug: zowe
-              accepted: '2021-08-03'
-              annual_review_date: '2023-10-26'
+              accepted: "2021-08-03"
+              annual_review_date: "2023-10-26"
               annual_review_url: https://github.com/openmainframeproject/tac/issues/526
-              next_annual_review_date: '2024-11-14'
+              next_annual_review_date: "2024-11-14"
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zowe
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV4KHQA1
               artwork_url: https://artwork.openmainframeproject.org/projects/zowe
