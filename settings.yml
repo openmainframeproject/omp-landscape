@@ -474,12 +474,9 @@ prerender:
   members: /card-mode?category=open-mainframe-project-member-company&grouping=category&embed=yes&style=borderless
   members-non-grouped: /card-mode?category=open-mainframe-project-member-company&grouping=no&embed=yes&style=borderless
   hosted-projects: /card-mode?project=hosted&embed=yes&style=borderless
-  zowe-conformant-support-provider: >-
-    /logo-mode?category=zowe-conformant-support-provider&grouping=no&embed=yes
-  zowe-conformant-support-vendor: >-
-    /logo-mode?category=zowe-conformant-support-provider&grouping=no&embed=yes
-  zowe-conformant: >-
-    /logo-mode?category=zowe-conformant&grouping=no&embed=yes
+  zowe-conformant-support-provider: /logo-mode?category=zowe-conformant-support-provider&grouping=no&embed=yes
+  zowe-conformant-support-vendor: /logo-mode?category=zowe-conformant-support-provider&grouping=no&embed=yes
+  zowe-conformant: /logo-mode?category=zowe-conformant&grouping=no&embed=yes
 export:
   projects-hosted: card-mode?grouping=no&project=hosted
   projects-hosted-by-stage: card-mode?project=hosted
