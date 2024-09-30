@@ -303,6 +303,7 @@ landscape:
             second_path:
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V3
               - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               CA SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access CA SYSVIEW actions and
@@ -317,6 +318,7 @@ landscape:
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / API Mediation Layer ZOWE V2
               - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V3
             description: Db2 for z/OS administration, performance monitoring, and DevOps capabilities using modern API and CLI interfaces
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html
             stock_ticker: AVGO
@@ -336,6 +338,7 @@ landscape:
               - Zowe Conformant / CLI ZOWE V2
               - Zowe Conformant / API Mediation Layer 2019
               - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V3
             description: >-
               CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
               VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
@@ -407,6 +410,7 @@ landscape:
             name: NetMaster
             second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V3
             description: >-
               NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers with
               an open and standard interface to network management data collected by NetMaster.
@@ -738,6 +742,7 @@ landscape:
             name: Explorer for Endevor
             second_path:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
             description: Modernizes the way you interact with Endevor, offering a user-friendly and convenient way to work with elements and inventory locations.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.explorer-for-endevor
             repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
@@ -786,6 +791,8 @@ landscape:
         items:
           - item:
             name: OPS/REXX Language Support Extension for VS Code
+            second_path:
+               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
             description: >-
               The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
               syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
@@ -858,6 +865,7 @@ landscape:
           - item:
             name: OPS/MVS®
             second_path:
+              - Zowe Conformant / CLI ZOWE V3
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI 2019
               - Zowe Conformant / API Mediation Layer ZOWE V2
@@ -871,6 +879,7 @@ landscape:
             name: Spool™
             second_path:
               - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI ZOWE V3
             description: Spool Plug-in for Zowe CLI allows issuing Spool native commands from Zowe CLI.
             homepage_url: https://www.npmjs.com/package/@broadcom/om-spool-for-zowe-cli
             logo: spool.svg
@@ -880,6 +889,7 @@ landscape:
             second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V1
               - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V3
               - Zowe Conformant / CLI ZOWE V1
             description: Zowe CLI plugins for CA 7
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-ca-7-edition/12-1.html
@@ -912,6 +922,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: ESP Workload Automation
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V3
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-esp-edition/12-0.html
             project: null
             logo: workload-automation.svg
@@ -927,6 +939,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Mainframe Topology
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V3
             description: >-
               Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
               elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
@@ -946,6 +960,7 @@ landscape:
             name: SymDump
             second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V1
+              - Zowe Conformant / API Mediation Layer ZOWE V3
             description: SymDump is a fault management tool designed to identify and resolve dumps. The tool provides multitude of user interfaces including REST API.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-intertest-and-ca-symdump/11-0/using.html
             logo: symdump.svg
@@ -999,159 +1014,19 @@ landscape:
         items: []
       - subcategory:
         name: CLI ZOWE V3
-        items:
-          - item:
-            name: CA SYSVIEW® Performance Management
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              CA SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access CA SYSVIEW actions and
-              data using a modern API.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html
-            stock_ticker: AVGO
-            logo: ca-sysview-performance-management.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: File Master™ Plus
-            second_path:
-              - Zowe Conformant / CLI 2019
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / API Mediation Layer 2019
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              The File Master Plus Plug-in for Zowe CLI helps you quickly create, edit, and manipulate files in virtual storage access method (VSAM), sequential, and partitioned data sets.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/enterprise-support-for-zowe/1-0/using/zowe-cli/available-cli-plug-ins/ca-file-master-plus-plug-in-for-zowe-cli.html
-            logo: file-master-plus.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: OPS/MVS®
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI 2019
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: |-
-                The OPS/MVS Plug-in for Zowe CLI enables efficient automation administration and resource management from a single command-line interface.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/enterprise-support-for-zowe/1-0/using/zowe-cli/available-cli-plug-ins/ca-ops-mvs-plug-in-for-zowe-cli.html
-            logo: opsmvs.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: Spool™
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-            description: The Spool Plug-in for Zowe CLI lets users issue any Spool native command from a single command-line interface. This plug-in also enables automated administration of Spool and lets service providers that administer multiple Spool environments respond to client requests faster
-            homepage_url: https://www.npmjs.com/package/@broadcom/om-spool-for-zowe-cli
-            logo: spool.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: OPS/MVS®
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI 2019
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: |-
-              "The OPS/MVS Plug-in for Zowe CLI enables efficient automation administration and resource management from a single command-line interface."
-            homepage_url: https://techdocs.broadcom.com/opsmvs
-            logo: opsmvs.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
+        items: []
       - subcategory:
         name: API Mediation Layer ZOWE V3
         items:
-          - item:
-            name: Workload Automation CA 7®
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V1
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V1
-            description: >- 
-              Zowe CLI plugins for CA 7.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-ca-7-edition/12-1.html
-            logo: workload-automation-ca-7.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: Mainframe Topology
-            description: >-
-              Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
-              elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
-              their environment.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/mainframe-topology/1-0.html
-            logo: mainframe-topology.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: NetMaster
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              The NetMaster API service helps you quickly glean network information that can be used by network security personnel and network administrators to manage and analyze your network.
-            homepage_url: https://integration.mainframe.broadcom.com/solution/NetMaster/api
-            logo: netmaster.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: Database Management Solutions for Db2 for z/OS
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V2
-            description: >- 
-              Db2 for z/OS management data services for administration, performance monitoring, schema provisioning, and other Db2 generic purposes.
-            homepage_url: https://integration.mainframe.broadcom.com/solution/Database-Management-Solutions-for-Db2-for-z-OS/api
-            logo: database-management-solutions-for-db2-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: ESP Workload Automation
-            description: >- 
-              Use the ESP Workload Automation RESTful Web Services to retrieve information about jobs and applications that are currently active and to execute commands at the WA ESP Workload Automation side.
-            homepage_url: https://integration.mainframe.broadcom.com/solution/ESP-Workload-Automation/api
-            logo: workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: SymDump
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V1
-            description: Use SymDump REST API services to detect, analyze, and resolve ABEND application failures.
-            homepage_url: https://integration.mainframe.broadcom.com/solution/SYMDUMP/api
-            logo: symdump.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Mainframe Operational Intelligence
             description: >- 
               "Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts."
             homepage_url: https://integration.mainframe.broadcom.com/solution/Mainframe-Operational-Intelligence-(MOI)/api
             crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: Database Management Solutions for Db2 for z/OS
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V2
-            description: "The DBM for Db2 Plug-in for Zowe CLI lets you automate Db2 schema provisioning."
-            homepage_url: https://integration.mainframe.broadcom.com/solution/Database-Management-Solutions-for-Db2-for-z-OS/api
-            stock_ticker: AVGO
-            logo: database-management-solutions-for-db2-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
         items: 
-          - item:
-            name: Explorer for Endevor
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: "The Explorer for Endevor VS Code extension modernizes the way you interact with Endevor and offers a user-friendly and convenient way to work with elements and inventory locations."
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.explorer-for-endevor
-            repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
-            logo: explorer-for-endevor.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: OPS/REXX Language Support Extension for VS Code
-            description: >-
-              The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
-              syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
-            homepage_url: https://github.com/BroadcomMFD/opsrexx-language-support
-            project: null
-            logo: ops_rexx.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: IBM® z/OS FTP for Zowe Explorer
             description: >-
