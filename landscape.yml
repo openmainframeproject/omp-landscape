@@ -1032,13 +1032,13 @@ landscape:
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/enterprise-support-for-zowe/1-0/using/zowe-cli/available-cli-plug-ins/ca-ops-mvs-plug-in-for-zowe-cli.html
             logo: opsmvs.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: SYSVIEW® Performance Management
             description: >-
               "The SYSVIEW Plug-in for Zowe CLI lets Application Developers, DevOps and CI/CD Administrators, and other similar IT roles issue SYSVIEW commands that take actions or display data."            
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/enterprise-support-for-zowe/1-0/using/zowe-cli/available-cli-plug-ins/ca-sysview-performance-management-plug-in-for-zowe-cli.html
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: Spool™
             second_path:
               - Zowe Conformant / CLI ZOWE V1
@@ -1046,7 +1046,7 @@ landscape:
             homepage_url: https://www.npmjs.com/package/@broadcom/om-spool-for-zowe-cli
             logo: spool.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: OPS/MVS®
             second_path:
               - Zowe Conformant / CLI ZOWE V1
@@ -1057,28 +1057,28 @@ landscape:
             homepage_url: https://techdocs.broadcom.com/opsmvs
             logo: opsmvs.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: IBM® CICS® Plug-in for Zowe CLI
             description: |-
              "The IBM CICS Plug-in for Zowe CLI extends Zowe CLI to interact with IBM CICS programs and transactions."
             homepage_url: null
             logo: null
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: IBM® Db2® Database Plug-in for Zowe CLI
             description: |-
              "The IBM® Db2® Database Plug-in for ZoweTM CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development tools to automate typical workloads more efficiently."
             homepage_url: https://github.com/zowe/zowe-cli-db2-plugin
             logo: null
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: IIBM® MQ Plug-in for Zowe CLI
             description: |-
              "The IBM MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks such as defining, altering, and deleting local queue objects."
             homepage_url: https://github.com/zowe/zowe-cli-mq-plugin
             logo: null
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: z/OS FTP Plug-in for ZoweTM CLI
             description: |-
               "The z/OS FTP Plug-in for ZoweTM CLI lets you access z/OS data sets, USS files, and submit JCL, leveraging the z/OS FTP service."
@@ -1117,7 +1117,7 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/solution/NetMaster/api
             logo: netmaster.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: Database Management Solutions for Db2 for z/OS
             second_path:
               - Zowe Conformant / CLI ZOWE V1
@@ -1128,14 +1128,14 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/solution/Database-Management-Solutions-for-Db2-for-z-OS/api
             logo: database-management-solutions-for-db2-for-zos.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: ESP Workload Automation
             description: >- 
               Use the ESP Workload Automation RESTful Web Services to retrieve information about jobs and applications that are currently active and to execute commands at the WA ESP Workload Automation side.
             homepage_url: https://integration.mainframe.broadcom.com/solution/ESP-Workload-Automation/api
             logo: workload-automation.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: SymDump
             second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V1
@@ -1143,18 +1143,18 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/solution/SYMDUMP/api
             logo: symdump.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: Mainframe Operational Intelligence
             description: >- 
               "Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts."
             homepage_url: https://integration.mainframe.broadcom.com/solution/Mainframe-Operational-Intelligence-(MOI)/api
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: Endevor®
             description: "Use the Endevor RESTful API services to perform a wide range of actions. You can use the REST API services for example to process various element actions. You can also list inventory and work with packages."
             homepage_url: https://integration.mainframe.broadcom.com/solution/Endevor/api
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: Database Management Solutions for Db2 for z/OS
             second_path:
               - Zowe Conformant / CLI ZOWE V1
@@ -1168,7 +1168,7 @@ landscape:
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
         items: 
-        - item:
+          - item:
             name: Explorer for Endevor
             second_path:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
@@ -1177,7 +1177,7 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
             logo: explorer-for-endevor.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: OPS/REXX Language Support Extension for VS Code
             description: >-
               The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
@@ -1186,14 +1186,14 @@ landscape:
             project: null
             logo: ops_rexx.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: IBM® CICS® for Zowe Explorer
             description: >-
              "The CICS extension for Zowe Explorer enables interactions with CICS regions and programs from within VS Code."
             homepage_url: null
             project: null
             crunchbase: https://www.crunchbase.com/organization/broadcom
-            - item:
+          - item:
             name: IBM® z/OS FTP for Zowe Explorer
             description: >-
              "The IBM z/OS FTP for Zowe Explorer adds the FTP protocol to the Zowe Explorer VS Code extension, allowing you to use z/OS FTP to interact with data sets, jobs, and USS files."
