@@ -356,7 +356,7 @@ landscape:
               send their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data model.
             homepage_url: https://www.ibm.com/docs/en/z-chatops
             project: null
-            logo: IBM Z ChatOps.svg
+            logo: z-chatops.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
@@ -807,8 +807,7 @@ landscape:
               The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
               syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
             homepage_url: https://github.com/BroadcomMFD/opsrexx-language-support
-            project: null
-            logo: ops_rexx.svg
+            logo: opsrexx-language-support-extension-for-vs-code.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: CLI ZOWE V2
@@ -926,7 +925,7 @@ landscape:
               - Zowe Conformant / API Mediation Layer ZOWE V3
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-esp-edition/12-0.html
             project: null
-            logo: workload-automation.svg
+            logo: esp-workload-automation.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: IDMS Systems REST API
@@ -935,7 +934,7 @@ landscape:
               Metrics endpoints.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html
             project: null
-            logo: IDMS_API.svg
+            logo: idms-systems-rest-api.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Mainframe Topology
@@ -954,7 +953,7 @@ landscape:
               MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
               performance analysis.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
-            logo: mat_rest_api.svg
+            logo: mat-rest-api.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: SymDump
@@ -988,7 +987,7 @@ landscape:
             description: IBM IMS Administration Foundation for z/OS (a component of IBM IMS Tools Base for z/OS V1.7 and later)
             homepage_url: https://www.ibm.com/docs/en/umsfz/1.2.0?topic=120-using-ims-administration-foundation
             project: null
-            logo: ibm-ims.svg
+            logo: ibm-ims-administration-foundation-for-zos.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM Unified Management Server (UMS) for z/OS
@@ -996,7 +995,7 @@ landscape:
               The IBM Unified Experience for z/OS is a browser-based user interface that is built on top of the open-source Zowe Virtual Desktop. One intuitive
               interface seamlessly displays all installed software, or data management products, by logical grouping.
             homepage_url: https://www.ibm.com/docs/en/umsfz/1.1.0?topic=overview-unified-experience-zos
-            logo: Unified_management_server.svg
+            logo: ibm-unified-management-server-ums-for-zos.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Vantage™ Storage Resource Manager
@@ -1022,6 +1021,7 @@ landscape:
             name: Mainframe Operational Intelligence
             description: '"Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts."'
             homepage_url: https://integration.mainframe.broadcom.com/solution/Mainframe-Operational-Intelligence-(MOI)/api
+            logo: mainframe-operational-intelligence.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
@@ -1032,7 +1032,7 @@ landscape:
               "The IBM z/OS FTP for Zowe Explorer adds the FTP protocol to the Zowe Explorer VS Code extension, allowing you to use z/OS FTP to interact with
               data sets, jobs, and USS files."
             homepage_url: https://github.com/zowe/zowe-explorer-vscode/tree/main/packages/zowe-explorer-ftp-extension
-            project: null
+            logo: ibm-zos-ftp-for-zowe-explorer.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
   - category:
     name: Zowe Conformant Support Provider
