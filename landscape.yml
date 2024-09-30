@@ -790,17 +790,6 @@ landscape:
         name: Explorer for Visual Studio Code ZOWE V2
         items:
           - item:
-            name: OPS/REXX Language Support Extension for VS Code
-            second_path:
-               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
-            description: >-
-              The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
-              syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
-            homepage_url: https://github.com/BroadcomMFD/opsrexx-language-support
-            project: null
-            logo: ops_rexx.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
             name: IBM® CICS® for Zowe Explorer
             second_path:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
@@ -810,6 +799,17 @@ landscape:
             repo_url: https://github.com/zowe/vscode-extension-for-cics
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+          - item:
+            name: OPS/REXX Language Support Extension for VS Code
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
+            description: >-
+              The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
+              syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
+            homepage_url: https://github.com/BroadcomMFD/opsrexx-language-support
+            project: null
+            logo: ops_rexx.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: CLI ZOWE V2
         items:
@@ -1020,17 +1020,17 @@ landscape:
         items:
           - item:
             name: Mainframe Operational Intelligence
-            description: >- 
-              "Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts."
+            description: '"Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts."'
             homepage_url: https://integration.mainframe.broadcom.com/solution/Mainframe-Operational-Intelligence-(MOI)/api
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
-        items: 
+        items:
           - item:
             name: IBM® z/OS FTP for Zowe Explorer
             description: >-
-             "The IBM z/OS FTP for Zowe Explorer adds the FTP protocol to the Zowe Explorer VS Code extension, allowing you to use z/OS FTP to interact with data sets, jobs, and USS files."
+              "The IBM z/OS FTP for Zowe Explorer adds the FTP protocol to the Zowe Explorer VS Code extension, allowing you to use z/OS FTP to interact with
+              data sets, jobs, and USS files."
             homepage_url: https://github.com/zowe/zowe-explorer-vscode/tree/main/packages/zowe-explorer-ftp-extension
             project: null
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -1259,7 +1259,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/docker
           - item:
             name: Eigen
-            description: "Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms."
+            description: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
             homepage_url: http://eigen.tuxfamily.org/index.php?title=Main_Page
             repo_url: https://github.com/eigenteam/eigen-git-mirror
             logo: eigen.svg
@@ -2144,10 +2144,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: ambitus
-              accepted: "2020-02-24"
-              annual_review_date: "2023-07-13"
+              accepted: '2020-02-24'
+              annual_review_date: '2023-07-13'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/577
-              next_annual_review_date: "2024-09-12"
+              next_annual_review_date: '2024-09-12'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ambitus
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001JWqRDQA1
               artwork_url: https://artwork.openmainframeproject.org/projects/ambitus
@@ -2169,11 +2169,11 @@ landscape:
             extra:
               slug: cbt-tape
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: "#cbt-tape"
-              accepted: "2020-09-09"
-              annual_review_date: "2023-10-12"
+              chat_channel: '#cbt-tape'
+              accepted: '2020-09-09'
+              annual_review_date: '2023-10-12'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/530
-              next_annual_review_date: "2024-10-10"
+              next_annual_review_date: '2024-10-10'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cbt-tape
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkTm0QAF
               artwork_url: https://artwork.openmainframeproject.org/projects/cbt-tape
@@ -2193,16 +2193,16 @@ landscape:
               slug: cobol-check
               mailing_list_url: https://lists.openmainframeproject.org/g/cobol-check-discussion
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: "#cobol-check"
+              chat_channel: '#cobol-check'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=cobol-check
               leads: Rune Christensen
               artwork_url: https://artwork.openmainframeproject.org/projects/cobol-check
-              accepted: "2021-02-16"
+              accepted: '2021-02-16'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobol-check
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWfljQAD
-              annual_review_date: "2023-06-08"
+              annual_review_date: '2023-06-08'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/578
-              next_annual_review_date: "2024-08-22"
+              next_annual_review_date: '2024-08-22'
               chair: Rune Christensen
           - item:
             name: COBOL Programming Course
@@ -2218,10 +2218,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: cobol-programming-course
-              accepted: "2021-08-03"
-              annual_review_date: "2024-04-11"
+              accepted: '2021-08-03'
+              annual_review_date: '2024-04-11'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/585
-              next_annual_review_date: "2025-04-10"
+              next_annual_review_date: '2025-04-10'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobol-programming-course
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWrdtQAD
               artwork_url: https://artwork.openmainframeproject.org/projects/cobol-programming-course
@@ -2241,10 +2241,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: cobol-working-group
-              accepted: "2020-07-09"
-              annual_review_date: "2023-08-24"
+              accepted: '2020-07-09'
+              annual_review_date: '2023-08-24'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/581
-              next_annual_review_date: "2024-11-14"
+              next_annual_review_date: '2024-11-14'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobol-working-group
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkUvlQAF
               artwork_url: https://artwork.openmainframeproject.org/projects/cobol-working-group
@@ -2265,16 +2265,16 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/feilong-discussion
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: "#feilong"
+              chat_channel: '#feilong'
               slug: feilong
-              accepted: "2019-08-20"
+              accepted: '2019-08-20'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/feilong
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IfR9gQAF
               artwork_url: https://artwork.openmainframeproject.org/projects/feilong
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=feilong
-              annual_review_date: "2024-07-19"
+              annual_review_date: '2024-07-19'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/579
-              next_annual_review_date: "2025-07-24"
+              next_annual_review_date: '2025-07-24'
               chair: Mike Friesenegger
           - item:
             name: Galasa
@@ -2290,16 +2290,16 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/galasa-discussion
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: "#galasa_users"
+              chat_channel: '#galasa_users'
               artwork_url: https://artwork.openmainframeproject.org/projects/galasa
               slug: galasa
-              accepted: "2023-07-03"
+              accepted: '2023-07-03'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=galasa
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/galasa
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001O6R6SQAV
-              annual_review_date: "2024-04-25"
+              annual_review_date: '2024-04-25'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/584
-              next_annual_review_date: "2025-04-24"
+              next_annual_review_date: '2025-04-24'
               chair: Louisa Seers
           - item:
             name: GenevaERS
@@ -2320,12 +2320,12 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/genevaers-discussion
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: "#genevaers"
+              chat_channel: '#genevaers'
               slug: genevaers
-              accepted: "2021-03-29"
-              annual_review_date: "2023-08-10"
+              accepted: '2021-03-29'
+              annual_review_date: '2023-08-10'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/575
-              next_annual_review_date: "2024-09-26"
+              next_annual_review_date: '2024-09-26'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/genevaers
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkTlvQAF
               artwork_url: https://artwork.openmainframeproject.org/projects/genevaers
@@ -2346,12 +2346,12 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/wg-linux-distros
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: "#linux-distros-wg"
+              chat_channel: '#linux-distros-wg'
               slug: omp-linux-distributions-wg
-              accepted: "2021-06-10"
-              annual_review_date: "2023-10-26"
+              accepted: '2021-06-10'
+              annual_review_date: '2023-10-26'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/532
-              next_annual_review_date: "2024-12-12"
+              next_annual_review_date: '2024-12-12'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/omp-linux-distributions-wg
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MaHzKQAV
               artwork_url: https://artwork.openmainframeproject.org/projects/omp-linux-distributions-wg
@@ -2372,13 +2372,13 @@ landscape:
               slug: mainframe-modernization-wg
               mailing_list_url: https://lists.openmainframeproject.org/g/wg-modernization
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: "#wg-modernization"
+              chat_channel: '#wg-modernization'
               wiki: https://wiki.openmainframeproject.org/display/MW
               chair: Misty Decker
-              accepted: "2022-09-01"
-              next_annual_review_date: "2024-09-26"
+              accepted: '2022-09-01'
+              next_annual_review_date: '2024-09-26'
               artwork_url: https://artwork.openmainframeproject.org/projects/mainframe-modernization-wg
-              annual_review_date: "2023-09-14"
+              annual_review_date: '2023-09-14'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/529
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=mainframe-modernization-wg
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/mainframe-modernization-wg
@@ -2400,10 +2400,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: mainframe-open-education
-              accepted: "2024-07-16"
-              annual_review_date: "2024-06-27"
+              accepted: '2024-07-16'
+              annual_review_date: '2024-06-27'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/494
-              next_annual_review_date: "2025-06-26"
+              next_annual_review_date: '2025-06-26'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/mainframe-open-education
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkTlxQAF
               artwork_url: https://artwork.openmainframeproject.org/projects/mainframe-open-education
@@ -2421,14 +2421,14 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: software-discovery-tool
-              accepted: "2020-09-09"
+              accepted: '2020-09-09'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/software-discovery-tool
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkTmPQAV
               artwork_url: https://artwork.openmainframeproject.org/projects/software-discovery-tool
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=software-discovery-tool
-              annual_review_date: "2024-06-28"
+              annual_review_date: '2024-06-28'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/580
-              next_annual_review_date: "2025-05-22"
+              next_annual_review_date: '2025-05-22'
               chair: Elizabeth Joseph
           - item:
             name: TerseDecompress
@@ -2444,10 +2444,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               slug: tersedecompress
-              accepted: "2019-08-20"
-              annual_review_date: "2023-08-10"
+              accepted: '2019-08-20'
+              annual_review_date: '2023-08-10'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/576
-              next_annual_review_date: "2024-10-10"
+              next_annual_review_date: '2024-10-10'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/tersedecompress
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IfRAKQA3
               artwork_url: https://artwork.openmainframeproject.org/projects/tersedecompress
@@ -2466,12 +2466,12 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/tessia-user
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: "#tessia"
+              chat_channel: '#tessia'
               slug: tessia
-              accepted: "2020-10-23"
-              annual_review_date: "2023-10-12"
+              accepted: '2020-10-23'
+              annual_review_date: '2023-10-12'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/531
-              next_annual_review_date: "2024-10-24"
+              next_annual_review_date: '2024-10-24'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/tessia
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkUvgQAF
               artwork_url: https://artwork.openmainframeproject.org/projects/tessia
@@ -2490,7 +2490,7 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/tsterm-discussion
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: "#tsterm"
+              chat_channel: '#tsterm'
               LFX_insights: none
               LFX_security: none
               leads: Joe Devlin
@@ -2500,9 +2500,9 @@ landscape:
               next_review_date: ^2024-09-12
               SBOM: none
               artwork_url: https://artwork.openmainframeproject.org/projects/tsterm/
-              annual_review_date: "2023-09-14"
+              annual_review_date: '2023-09-14'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/506
-              next_annual_review_date: "2024-09-12"
+              next_annual_review_date: '2024-09-12'
               chair: Joe Devlin
           - item:
             name: z/VM Community Tools
@@ -2516,16 +2516,16 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/zvm-communitytools-discussion
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: "#z-vm-community-tools"
+              chat_channel: '#z-vm-community-tools'
               leads: Bruce Hayden
               date_accepted: ^2021-05-13
               last_review_date: ^2022-06-09
               next_review_date: ^2023-08-24
               artwork_url: https://artwork.openmainframeproject.org/projects/zvm-community-tools/
-              annual_review_date: "2022-06-09"
+              annual_review_date: '2022-06-09'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/454
-              next_annual_review_date: "2024-12-12"
-              chair: ""
+              next_annual_review_date: '2024-12-12'
+              chair: ''
           - item:
             name: Zowe
             second_path:
@@ -2544,12 +2544,12 @@ landscape:
             extra:
               mailing_list_url: https://lists.openmainframeproject.org/g/zowe-dev
               slack_url: https://slack.openmainframeproject.org
-              chat_channel: "#zowe-onboarding"
+              chat_channel: '#zowe-onboarding'
               slug: zowe
-              accepted: "2021-08-03"
-              annual_review_date: "2023-10-26"
+              accepted: '2021-08-03'
+              annual_review_date: '2023-10-26'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/526
-              next_annual_review_date: "2024-11-14"
+              next_annual_review_date: '2024-11-14'
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zowe
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV4KHQA1
               artwork_url: https://artwork.openmainframeproject.org/projects/zowe
