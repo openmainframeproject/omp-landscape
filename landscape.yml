@@ -991,7 +991,14 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: App Framework ZOWE V3
-        items: []
+        items:
+          - item:
+            name: IBM TEST
+            description: Testing testing
+            homepage_url: www.openmainframeproject.org
+            project: null
+            logo: broadcom-v3.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: CLI ZOWE V3
         items: []
