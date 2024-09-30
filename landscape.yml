@@ -794,9 +794,10 @@ landscape:
             logo: ops_rexx.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: Zowe Explorer for IBM CICS
+            name: IBM® CICS® for Zowe Explorer
             second_path:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
             project: null
             repo_url: https://github.com/zowe/vscode-extension-for-cics
@@ -808,6 +809,7 @@ landscape:
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI
             second_path:
+              - Zowe Conformant / CLI ZOWE V3
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI 2019
             description: The IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS programs and transactions.
@@ -817,6 +819,7 @@ landscape:
           - item:
             name: IBM® Db2® Database Plug-in
             second_path:
+              - Zowe Conformant / CLI ZOWE V3
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI 2019
             description: >-
@@ -844,6 +847,7 @@ landscape:
               - Zowe Conformant / API Mediation Layer 2019
               - Zowe Conformant / CLI 2019
               - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks, such
               as defining, altering, and deleting local queue objects.
@@ -885,6 +889,7 @@ landscape:
             name: z/OS FTP Plug-in for Zowe CLI
             second_path:
               - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI ZOWE V3
             description: The z/OS FTP Plug-in for Zowe CLI lets you access z/OS datasets, USS files, and submit JCL, leveraging the z/OS FTP service.
             homepage_url: https://github.com/zowe/zowe-cli-ftp-plugin#readme
             repo_url: https://github.com/zowe/zowe-cli-ftp-plugin
@@ -1033,12 +1038,6 @@ landscape:
             logo: opsmvs.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: SYSVIEW® Performance Management
-            description: >-
-              "The SYSVIEW Plug-in for Zowe CLI lets Application Developers, DevOps and CI/CD Administrators, and other similar IT roles issue SYSVIEW commands that take actions or display data."            
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/enterprise-support-for-zowe/1-0/using/zowe-cli/available-cli-plug-ins/ca-sysview-performance-management-plug-in-for-zowe-cli.html
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
             name: Spool™
             second_path:
               - Zowe Conformant / CLI ZOWE V1
@@ -1056,34 +1055,6 @@ landscape:
               "The OPS/MVS Plug-in for Zowe CLI enables efficient automation administration and resource management from a single command-line interface."
             homepage_url: https://techdocs.broadcom.com/opsmvs
             logo: opsmvs.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: IBM® CICS® Plug-in for Zowe CLI
-            description: |-
-             "The IBM CICS Plug-in for Zowe CLI extends Zowe CLI to interact with IBM CICS programs and transactions."
-            homepage_url: null
-            logo: null
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: IBM® Db2® Database Plug-in for Zowe CLI
-            description: |-
-             "The IBM® Db2® Database Plug-in for ZoweTM CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development tools to automate typical workloads more efficiently."
-            homepage_url: https://github.com/zowe/zowe-cli-db2-plugin
-            logo: null
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: IIBM® MQ Plug-in for Zowe CLI
-            description: |-
-             "The IBM MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks such as defining, altering, and deleting local queue objects."
-            homepage_url: https://github.com/zowe/zowe-cli-mq-plugin
-            logo: null
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: z/OS FTP Plug-in for ZoweTM CLI
-            description: |-
-              "The z/OS FTP Plug-in for ZoweTM CLI lets you access z/OS data sets, USS files, and submit JCL, leveraging the z/OS FTP service."
-            homepage_url: https://github.com/zowe/zowe-cli-ftp-plugin
-            logo: null
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: API Mediation Layer ZOWE V3
@@ -1150,11 +1121,6 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/solution/Mainframe-Operational-Intelligence-(MOI)/api
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: Endevor®
-            description: "Use the Endevor RESTful API services to perform a wide range of actions. You can use the REST API services for example to process various element actions. You can also list inventory and work with packages."
-            homepage_url: https://integration.mainframe.broadcom.com/solution/Endevor/api
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
             name: Database Management Solutions for Db2 for z/OS
             second_path:
               - Zowe Conformant / CLI ZOWE V1
@@ -1185,13 +1151,6 @@ landscape:
             homepage_url: https://github.com/BroadcomMFD/opsrexx-language-support
             project: null
             logo: ops_rexx.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: IBM® CICS® for Zowe Explorer
-            description: >-
-             "The CICS extension for Zowe Explorer enables interactions with CICS regions and programs from within VS Code."
-            homepage_url: null
-            project: null
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: IBM® z/OS FTP for Zowe Explorer
