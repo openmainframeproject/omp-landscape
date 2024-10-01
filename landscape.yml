@@ -252,6 +252,7 @@ landscape:
               - Zowe Conformant / API Mediation Layer ZOWE V2
               - Zowe Conformant / CLI ZOWE V2
               - Zowe Conformant / API Mediation Layer ZOWE V3
+              - Zowe Conformant / CLI ZOWE V3
             description: >-
               CA Endevor® provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
               development process, CA Endevor governs software change from the very first line of modified code through deployment with change tracking.
@@ -306,6 +307,7 @@ landscape:
               - Zowe Conformant / CLI ZOWE V2
               - Zowe Conformant / CLI ZOWE V3
               - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V3
             description: >-
               CA SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access CA SYSVIEW actions and
               data using a modern API.
@@ -320,6 +322,7 @@ landscape:
               - Zowe Conformant / API Mediation Layer ZOWE V2
               - Zowe Conformant / CLI ZOWE V2
               - Zowe Conformant / API Mediation Layer ZOWE V3
+              - Zowe Conformant / CLI ZOWE V2
             description: Db2 for z/OS administration, performance monitoring, and DevOps capabilities using modern API and CLI interfaces
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html
             stock_ticker: AVGO
@@ -339,7 +342,9 @@ landscape:
               - Zowe Conformant / CLI ZOWE V2
               - Zowe Conformant / API Mediation Layer 2019
               - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V3
               - Zowe Conformant / CLI ZOWE V3
+              
             description: >-
               CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
               VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
@@ -511,6 +516,7 @@ landscape:
             name: CA Endevor® Bridge For Git
             second_path:
               - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
             description: >-
               The Endevor Bridge for Git Plug-in for Zowe CLI allows you to work with and manage Git-Endevor mappings of your Bridge for Git server. Also, as a
               developer, you can build the changed files from the local working directory of your mapping in an Endevor work area.
@@ -870,6 +876,7 @@ landscape:
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI 2019
               - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V3
             description: |-
               Extend the Zowe CLI to include OPS/MVS commands
               NPM Registry Date: Will be released immediately following Zowe v2.
