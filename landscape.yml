@@ -855,6 +855,7 @@ landscape:
               - Zowe Conformant / CLI 2019
               - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V3
             description: >-
               The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks, such
               as defining, altering, and deleting local queue objects.
@@ -1020,7 +1021,7 @@ landscape:
         items:
           - item:
             name: Mainframe Operational Intelligence
-            description: '"Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts."'
+            description: Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts.
             homepage_url: https://integration.mainframe.broadcom.com/solution/Mainframe-Operational-Intelligence-(MOI)/api
             logo: mainframe-operational-intelligence.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
@@ -1030,8 +1031,8 @@ landscape:
           - item:
             name: IBM® z/OS FTP for Zowe Explorer
             description: >-
-              "The IBM z/OS FTP for Zowe Explorer adds the FTP protocol to the Zowe Explorer VS Code extension, allowing you to use z/OS FTP to interact with
-              data sets, jobs, and USS files."
+              The IBM z/OS FTP for Zowe Explorer adds the FTP protocol to the Zowe Explorer VS Code extension, allowing you to use z/OS FTP to interact with
+              data sets, jobs, and USS files.
             homepage_url: https://github.com/zowe/zowe-explorer-vscode/tree/main/packages/zowe-explorer-ftp-extension
             logo: ibm-zos-ftp-for-zowe-explorer.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
