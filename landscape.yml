@@ -1147,7 +1147,10 @@ landscape:
         items: []
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
-        items: []
+        items:
+          - item:
+            name: Enterprise Support for Zowe
+            project: null
       - subcategory:
         name: Explorer for IntelliJ ZOWE V3
         items: []
