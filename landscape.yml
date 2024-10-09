@@ -1144,7 +1144,24 @@ landscape:
         items: []
       - subcategory:
         name: Comprehensive ZOWE V3
-        items: []
+        items:
+          - item:
+            name: Enterprise Support for Zowe
+            second_path:
+              - Zowe Conformant Support Provider / Comprehensive ZOWE V3
+              - Zowe Conformant Support Provider / API Mediation Layer ZOWE V3
+              - Zowe Conformant Support Provider / App Framework ZOWE V3
+              - Zowe Conformant Support Provider / CLI ZOWE V3
+              - Zowe Conformant Support Provider / Explorer for Visual Studio Code ZOWE V3
+              - Zowe Conformant Support Provider / Explorer for IntelliJ ZOWE V3
+            description: >-
+              A Broadcom subscription designed to help enterprises confidently adopt the Open Mainframe Project Zowe open-source software for use in production.
+              In addition to comprehensive support for Zowe core components, customers gain access to Zowe release distributions,
+
+              Zowe enhancements, and Zowe fixes directly from the Broadcom Support Portal.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/enterprise-support-for-zowe/1-0.html
+            logo: enterprise-support-for-zowe.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
         items: []
