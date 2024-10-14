@@ -18,7 +18,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: gr2m/merge-schedule-action@b00191bec092ae480b63bf466fb94b5474b71cdd # v2.4.3
+      - uses: gr2m/merge-schedule-action@678b3399de95e30d1c7c48b319b3b86b533d2ab9 # v2.4.4
         with:
           # Merge method to use. Possible values are merge, squash or
           # rebase. Default is merge.
