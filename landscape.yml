@@ -807,8 +807,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: OPS/REXX Language Support Extension for VS Code
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
             description: >-
               The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
               syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
@@ -946,22 +945,13 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Mainframe Topology
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V3
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V3
             description: >-
               Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
               elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
               their environment.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/mainframe-topology/1-0.html
             logo: mainframe-topology.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: MAT REST API
-            description: >-
-              MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
-              performance analysis.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
-            logo: mat-rest-api.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: SymDump
@@ -1026,10 +1016,52 @@ landscape:
         name: API Mediation Layer ZOWE V3
         items:
           - item:
+            name: MAT REST API
+            description: >-
+              MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
+              performance analysis.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: mat-rest-api.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+          - item:
             name: Mainframe Operational Intelligence
             description: Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts.
             homepage_url: https://integration.mainframe.broadcom.com/solution/Mainframe-Operational-Intelligence-(MOI)/api
             logo: mainframe-operational-intelligence.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: Mainframe Application Tuner
+            second_path: Zowe Conformant / CLI ZOWE V3
+            description: >-
+              The REST API enables application and system programmers to manage the application measurement process and access the MAT measurement data stored
+              in the MAT database for analysis of application performance.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/dev ops/ca-mainframe-application-tuner/12-0/using/use-the-rest-api.html
+            logo: mainframe-application-tuner.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: WatchTower Data Insights
+            description: |-
+              WatchTower Data Insights REST APIs provide access to
+              the operational ML Insights metrics.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: watchtower-data-insights.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: WatchTower Metric Catalog
+            description: The Metric Catalog APIs support operational intelligence projects by delivering ML Insights functionality.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: watchtower-metric-catalog.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: WatchTower Alert Insights
+            description: >-
+              The Alert Insights API allows you to list and manage
+
+              alerts including service ticket creation, issue XMVS commands through SYSVIEW, retrieve QuickRef data and configurations, and manage users and
+              user groups.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: watchtower-alert-insights.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
