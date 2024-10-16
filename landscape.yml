@@ -945,22 +945,13 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Mainframe Topology
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V3
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V3
             description: >-
               Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
               elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
               their environment.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/mainframe-topology/1-0.html
             logo: mainframe-topology.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: MAT REST API
-            description: >-
-              MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
-              performance analysis.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
-            logo: mat-rest-api.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: SymDump
@@ -1024,6 +1015,15 @@ landscape:
       - subcategory:
         name: API Mediation Layer ZOWE V3
         items:
+          - item:
+            name: MAT REST API
+            description: >-
+              MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
+              performance analysis.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
+            logo: mat-rest-api.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
           - item:
             name: Mainframe Operational Intelligence
             description: Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts.
