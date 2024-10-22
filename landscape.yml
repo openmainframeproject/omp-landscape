@@ -807,7 +807,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: OPS/REXX Language Support Extension for VS Code
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
             description: >-
               The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
               syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
@@ -945,7 +946,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Mainframe Topology
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V3
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V3
             description: >-
               Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
               elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
@@ -1023,7 +1025,8 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: mat-rest-api.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
           - item:
             name: Mainframe Operational Intelligence
             description: Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts.
@@ -1032,7 +1035,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Mainframe Application Tuner
-            second_path: Zowe Conformant / CLI ZOWE V3
+            second_path:
+              - Zowe Conformant / CLI ZOWE V3
             description: >-
               The REST API enables application and system programmers to manage the application measurement process and access the MAT measurement data stored
               in the MAT database for analysis of application performance.

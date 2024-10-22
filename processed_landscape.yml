@@ -16882,7 +16882,8 @@ landscape:
               percentage: null
           - item:
             name: OPS/REXX Language Support Extension for VS Code
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
             description: >-
               The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
               syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
@@ -17597,7 +17598,8 @@ landscape:
               percentage: null
           - item:
             name: Mainframe Topology
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V3
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V3
             description: >-
               Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
               elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
@@ -18826,7 +18828,8 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: mat-rest-api.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
             crunchbase_data:
               name: Broadcom Limited
               description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
@@ -18931,7 +18934,8 @@ landscape:
               percentage: null
           - item:
             name: Mainframe Application Tuner
-            second_path: Zowe Conformant / CLI ZOWE V3
+            second_path:
+              - Zowe Conformant / CLI ZOWE V3
             description: >-
               The REST API enables application and system programmers to manage the application measurement process and access the MAT measurement data stored
               in the MAT database for analysis of application performance.
@@ -18982,7 +18986,7 @@ landscape:
               effective_ticker: 1YD.F
             image_data:
               fileName: mainframe-application-tuner.svg
-              hash: sS4DTlVA6veQ1Fxr9dvw5TagopVbq0Cyl7+cOGLBDH8=
+              hash: F/bGWx6WcRJi/6EuxjItuYTEvsBzgPOfVR0smq1YIq4=
             best_practice_data:
               badge: false
               percentage: null
@@ -19038,7 +19042,7 @@ landscape:
               effective_ticker: 1YD.F
             image_data:
               fileName: watch-tower-data-insights.svg
-              hash: 9IZswsf4szbgzHw0mBGZkWt2m4IKrUovEhqELb3qAhk=
+              hash: dlwLFSpwJlKK8Lb9v7UKxNTzhlBIEcG4sAMmQyB79zY=
             best_practice_data:
               badge: false
               percentage: null
@@ -19092,7 +19096,7 @@ landscape:
               effective_ticker: 1YD.F
             image_data:
               fileName: watch-tower-metric-catalog.svg
-              hash: qI2NCmHGAdB/CbKDriFFrsXbhGY7Uj/e+HZAmm2/KIQ=
+              hash: 99RevtG9rS7QXJUVhux852wkxVv73FEVKsMo2Yn4YVk=
             best_practice_data:
               badge: false
               percentage: null
@@ -19150,7 +19154,7 @@ landscape:
               effective_ticker: 1YD.F
             image_data:
               fileName: watch-tower-alert-insights.svg
-              hash: LOIlpqXRpdX74oj2vgmY67SaCl1C/Lh4xejXVHCAxVk=
+              hash: qX1dzCB4YJbNafM4dGaI984YGdVrr5CmiUI1r/hofZA=
             best_practice_data:
               badge: false
               percentage: null
