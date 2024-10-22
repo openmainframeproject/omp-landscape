@@ -1018,22 +1018,6 @@ landscape:
         name: API Mediation Layer ZOWE V3
         items:
           - item:
-            name: MAT REST API
-            description: >-
-              MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
-              performance analysis.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            logo: mat-rest-api.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-          - item:
-            name: Mainframe Operational Intelligence
-            description: Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            logo: mainframe-operational-intelligence.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
             name: Mainframe Application Tuner
             second_path:
               - Zowe Conformant / CLI ZOWE V3
@@ -1042,6 +1026,32 @@ landscape:
               in the MAT database for analysis of application performance.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0/using/use-the-rest-api.html
             logo: mainframe-application-tuner.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: Mainframe Operational Intelligence
+            description: Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: mainframe-operational-intelligence.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: MAT REST API
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
+              performance analysis.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: mat-rest-api.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: WatchTower Alert Insights
+            description: >-
+              The Alert Insights API allows you to list and manage
+
+              alerts including service ticket creation, issue XMVS commands through SYSVIEW, retrieve QuickRef data and configurations, and manage users and
+              user groups.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: watchtower-alert-insights.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: WatchTower Data Insights
@@ -1056,16 +1066,6 @@ landscape:
             description: The Metric Catalog APIs support operational intelligence projects by delivering ML Insights functionality.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: watchtower-metric-catalog.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: WatchTower Alert Insights
-            description: >-
-              The Alert Insights API allows you to list and manage
-
-              alerts including service ticket creation, issue XMVS commands through SYSVIEW, retrieve QuickRef data and configurations, and manage users and
-              user groups.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            logo: watchtower-alert-insights.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
