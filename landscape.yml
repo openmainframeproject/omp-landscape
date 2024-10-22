@@ -689,18 +689,6 @@ landscape:
         name: Explorer for Visual Studio Code ZOWE V1
         items:
           - item:
-            name: Abend Analyzer for Mainframe
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: >-
-              Abend Analyzer for Mainframe provides an interface to SymDump® Batch. This extension allows you to browse, manage and view formatted abend reports
-              and symbolic data in a modern IDE environment.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.abend-analyzer
-            repo_url: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe
-            logo: abend-analyzer-for-mainframe.svg
-            open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
             name: COBOL Control Flow
             second_path:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
@@ -795,6 +783,17 @@ landscape:
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V2
         items:
+          - item:
+            name: Abend Analyzer for Mainframe
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+            description: >-
+              Abend Analyzer for Mainframe provides an interface to SymDump® Batch. This extension allows you to browse, manage and view formatted abend reports
+              and symbolic data in a modern IDE environment.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe
+            logo: abend-analyzer-for-mainframe.svg
+            open_source: false
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: IBM® CICS® for Zowe Explorer
             second_path:
