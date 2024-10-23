@@ -536,17 +536,6 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
-            name: MAT Detect
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              MAT Detect provides utilities to access performance data supplied by the CA Mainframe Application Tuner component Performance Management Assistant
-              (PMA).
-            homepage_url: https://www.npmjs.com/package/@broadcom/mat-detect-for-zowe-cli
-            stock_ticker: AVGO
-            logo: mat-detect.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
             name: View®
             second_path:
               - Zowe Conformant / CLI ZOWE V2
@@ -782,6 +771,16 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: mat-analyze.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: MAT Detect
+            second_path: Zowe Conformant / CLI ZOWE V1
+            description: >-
+              MAT Detect provides utilities to access performance data supplied by the Mainframe Application Tuner component Performance Management Assistant
+              (PMA).
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: mat-detect.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI
