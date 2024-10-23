@@ -255,33 +255,12 @@ landscape:
           - item:
             name: IDMS
             second_path:
-              - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
             description: IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: ca-idms.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: JCLCheck™ Workload Automation
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: >-
-              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
-              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
-              production cycles
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: ca-jclcheck-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: Mainframe Security Insights Platform
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: ca-mainframe-security-insights-platform.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: MAT
@@ -290,21 +269,6 @@ landscape:
               request in their CI/CD pipeline
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: ca-mat.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: SYSVIEW® Performance Management
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / CLI ZOWE V3
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / API Mediation Layer ZOWE V3
-            description: >-
-              SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access SYSVIEW actions and data
-              using a modern API.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: ca-sysview-performance-management.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Database Management Solutions for Db2 for z/OS
@@ -717,6 +681,20 @@ landscape:
         name: Explorer for Visual Studio Code ZOWE V2
         items:
           - item:
+            name: JCLCheck™ Workload Automation
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / API Mediation Layer ZOWE V1
+            description: >-
+              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: ca-jclcheck-workload-automation.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
             name: Abend Analyzer for Mainframe
             second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
             description: >-
@@ -868,6 +846,13 @@ landscape:
         name: API Mediation Layer ZOWE V2
         items:
           - item:
+            name: Mainframe Security Insights Platform
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V1
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: ca-mainframe-security-insights-platform.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
             name: Alert Central
             second_path: Zowe Conformant / API Mediation Layer ZOWE V1
             description: Alert Central is a product used to quickly identify and resolve incidents across multiple systems and applications.
@@ -964,6 +949,21 @@ landscape:
       - subcategory:
         name: API Mediation Layer ZOWE V3
         items:
+          - item:
+            name: SYSVIEW® Performance Management
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V1
+              - Zowe Conformant / CLI ZOWE V3
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
+            description: >-
+              SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access SYSVIEW actions and data
+              using a modern API.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: ca-sysview-performance-management.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: File Master™ Plus
             second_path:
