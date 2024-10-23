@@ -608,8 +608,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Zowe Secure Credential Store
-            second_path:
-              - Zowe Conformant / CLI 2019
+            second_path: Zowe Conformant / CLI 2019
             description: Zowe Secure Credential Store lets you store your credentials securely in the credential manager of your operating system.
             homepage_url: https://github.com/zowe/zowe-cli-scs-plugin#readme
             repo_url: https://github.com/zowe/zowe-cli-scs-plugin
@@ -670,7 +669,6 @@ landscape:
             stock_ticker: AVGO
             logo: ca-secure-credential-store.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            repo_url: https://github.com/zowe/zowe-cli-scs-plugin
             homepage_url: https://integration.mainframe.broadcom.com/
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V1
@@ -742,8 +740,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: IBM z Open Editor
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: >-
               An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
               interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and utilizes its APIs for
