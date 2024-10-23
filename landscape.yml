@@ -486,18 +486,6 @@ landscape:
         name: CLI ZOWE V1
         items:
           - item:
-            name: Endevor® Bridge For Git
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
-            description: >-
-              The Endevor Bridge for Git Plug-in for Zowe CLI allows you to work with and manage Git-Endevor mappings of your Bridge for Git server. Also, as a
-              developer, you can build the changed files from the local working directory of your mapping in an Endevor work area.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: ca-endevor-bridge-for-git.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
             name: z/OS Extended Files
             second_path: Zowe Conformant / CLI 2019
             description: z/OS Extended Files Plug-in extends the CLI to support complex data set management functionality.
@@ -1055,6 +1043,18 @@ landscape:
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
         items:
+          - item:
+            name: Endevor® Bridge For Git
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
+            description: >-
+              The Endevor Bridge for Git Plug-in for Zowe CLI allows you to work with and manage Git-Endevor mappings of your Bridge for Git server. Also, as a
+              developer, you can build the changed files from the local working directory of your mapping in an Endevor work area.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: ca-endevor-bridge-for-git.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: IBM® z/OS FTP for Zowe Explorer
             description: >-
