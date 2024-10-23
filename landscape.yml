@@ -917,17 +917,6 @@ landscape:
             logo: idms-systems-rest-api.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
-            name: Mainframe Topology
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V3
-            description: >-
-              Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
-              elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
-              their environment.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/mainframe-topology/1-0.html
-            logo: mainframe-topology.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
             name: SymDump
             second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V1
@@ -1004,6 +993,16 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: file-master-plus.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: Mainframe Topology
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
+              elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
+              their environment.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: mainframe-topology.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Mainframe Application Tuner
