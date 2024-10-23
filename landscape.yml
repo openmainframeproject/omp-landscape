@@ -536,17 +536,6 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
-            name: MAT Analyze
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              MAT Analyze ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data in the form of CA MAT
-              analysis views using Zowe CLI.
-            homepage_url: https://www.npmjs.com/package/@broadcom/mat-analyze-for-zowe-cli
-            stock_ticker: AVGO
-            logo: mat-analyze.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
             name: MAT Detect
             second_path:
               - Zowe Conformant / CLI ZOWE V2
@@ -784,6 +773,16 @@ landscape:
       - subcategory:
         name: CLI ZOWE V2
         items:
+          - item:
+            name: MAT Analyze
+            second_path: Zowe Conformant / CLI ZOWE V1
+            description: >-
+              MAT Analyze ensures interaction with MAT and enables you to measure your mainframe applications and get the analysis data in the form of MAT
+              analysis views using Zowe CLI.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: mat-analyze.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI
             second_path:
