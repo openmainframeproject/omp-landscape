@@ -411,12 +411,11 @@ landscape:
         items:
           - item:
             name: z/OS Extended Files
-            second_path:
-              - Zowe Conformant / CLI 2019
+            second_path: Zowe Conformant / CLI 2019
             description: z/OS Extended Files Plug-in extends the CLI to support complex data set management functionality.
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
-            logo: ca-zos-extended-files.svg
+            logo: zos-extended-files.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: z/OS Extended Jobs
