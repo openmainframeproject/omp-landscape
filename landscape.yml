@@ -237,22 +237,6 @@ landscape:
             logo: data-content-discovery.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
-            name: Endevor
-            second_path:
-              - Zowe Conformant / CLI 2019
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / API Mediation Layer ZOWE V3
-              - Zowe Conformant / CLI ZOWE V3
-            description: >-
-              Endevor® provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
-              development process, CA Endevor governs software change from the very first line of modified code through deployment with change tracking.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: endevor.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
             name: IDMS
             second_path:
               - Zowe Conformant / CLI ZOWE V2
@@ -880,6 +864,22 @@ landscape:
       - subcategory:
         name: API Mediation Layer ZOWE V3
         items:
+          - item:
+            name: Endevor
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V1
+              - Zowe Conformant / CLI ZOWE V3
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI 2019
+            description: >-
+              Endevor® provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
+              development process, CA Endevor governs software change from the very first line of modified code through deployment with change tracking.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: endevor.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: SYSVIEW® Performance Management
             second_path:
