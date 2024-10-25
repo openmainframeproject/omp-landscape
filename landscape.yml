@@ -749,7 +749,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Output Management View™ for z/OS
-            second_path: Zowe Conformant / CLI ZOWE V1
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
             description: >-
               Output Management View™ for z/OS lets you access report data, list repositories, and search cross-report index names or values in a repository.
               You can also use the plug-in to automate report data exports using rules, and to manage user settings.
@@ -934,7 +935,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Mainframe Topology
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
               elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
@@ -944,7 +946,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: MAT REST API
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
               performance analysis.
