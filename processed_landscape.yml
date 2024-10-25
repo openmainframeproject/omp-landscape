@@ -7177,65 +7177,9 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: Alert Central
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: Alert Central is a product used to quickly identify and resolve incidents across multiple systems and applications.
-            homepage_url: https://techdocs.broadcom.com/alertcentral
-            logo: alert-central.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: alert-central.svg
-              hash: Z55mN3QB8jqvXTH7zsgzYwug4D1ztWhBL6Zz8B6xuS0=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: CA Compliance Event Manager
-            description: CA Compliance Event Manager helps you establish continuous data security and compliance.
-            homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/compliance-event-manager
+            name: Compliance Event Manager
+            description: Compliance Event Manager helps you establish continuous data security and compliance.
+            homepage_url: https://integration.mainframe.broadcom.com/
             logo: ca-compliance-event-manager.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
@@ -7281,15 +7225,15 @@ landscape:
             yahoo_finance_data:
               effective_ticker: 1YD.F
             image_data:
-              fileName: ca-compliance-event-manager.svg
+              fileName: compliance-event-manager.svg
               hash: Ud0Rjv4oyWjOzkYJAx42TsFyLrpO0FumwOju8iEOYrU=
             best_practice_data:
               badge: false
               percentage: null
           - item:
-            name: CA Data Content Discovery
-            description: CA Data Content Discovery helps you identify data exposure risks and institute effective measures for enterprise data protection.
-            homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/data-content-discovery
+            name: Data Content Discovery
+            description: Data Content Discovery helps you identify data exposure risks and institute effective measures for enterprise data protection.
+            homepage_url: https://integration.mainframe.broadcom.com/
             logo: ca-data-content-discovery.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
@@ -7335,435 +7279,15 @@ landscape:
             yahoo_finance_data:
               effective_ticker: 1YD.F
             image_data:
-              fileName: ca-data-content-discovery.svg
+              fileName: data-content-discovery.svg
               hash: ePyyEoQ0CUTie2pKUh+7lWStCLK//0rehSgoPS2uuO8=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: CA Endevor®
-            second_path:
-              - Zowe Conformant / CLI 2019
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / API Mediation Layer ZOWE V3
-              - Zowe Conformant / CLI ZOWE V3
-            description: >-
-              CA Endevor® provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
-              development process, CA Endevor governs software change from the very first line of modified code through deployment with change tracking.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-endevor-software-change-manager/18-0.html
-            stock_ticker: AVGO
-            logo: ca-endevor.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: ca-endevor.svg
-              hash: L2gslWAhwcpv7Tgy5B01gvzJz9sMPNduGACKseHUahs=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: CA IDMS
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-            description: IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html
-            stock_ticker: AVGO
-            logo: ca-idms.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: ca-idms.svg
-              hash: erT5/4fPPYUP3nvCz8DEzS1EEG1pbDROj8GnGWpQQe0=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: CA JCLCheck™ Workload Automation
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: >-
-              CA JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
-              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
-              production cycles
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-jclcheck-workload-automation/12-0.html
-            stock_ticker: AVGO
-            logo: ca-jclcheck-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: ca-jcl-check-workload-automation.svg
-              hash: ivnhyW0rOoLLDkdTxUwg8HscT6FPLRdCOebWKAezC+8=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: CA Mainframe Security Insights Platform
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            homepage_url: https://www.broadcom.com/products/mainframe/compliance-data-protection/security-insights-platform
-            stock_ticker: AVGO
-            logo: ca-mainframe-security-insights-platform.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: ca-mainframe-security-insights-platform.svg
-              hash: kU67ISEiE/PQ3Tnexc8b0+PchmAy1kFjCAFj5XPIwMg=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: CA MAT
-            description: >-
-              This API enables accessing CA Mainframe Application Tuner via modern tools by providing end-points to enable customers to automate and script a
-              MAT request in their CI/CD pipeline
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0.html
-            logo: ca-mat.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: ca-mat.svg
-              hash: hUcHBSovNANkdcVPtxR0fAxOt1C39BFoj1TL0bQeRes=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: CA SYSVIEW® Performance Management
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / CLI ZOWE V3
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / API Mediation Layer ZOWE V3
-            description: >-
-              CA SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access CA SYSVIEW actions and
-              data using a modern API.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-sysview-performance-management/16-0.html
-            stock_ticker: AVGO
-            logo: ca-sysview-performance-management.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: ca-sysview-performance-management.svg
-              hash: oipfChjgRYgCdUFw2FSTTClZaWP/ZUwXEHTcRzezGDQ=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Database Management Solutions for Db2 for z/OS
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / API Mediation Layer ZOWE V3
-              - Zowe Conformant / CLI ZOWE V3
-            description: Db2 for z/OS administration, performance monitoring, and DevOps capabilities using modern API and CLI interfaces
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-database-management-solutions-for-db2-for-z-os/20.html
-            stock_ticker: AVGO
-            logo: database-management-solutions-for-db2-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: database-management-solutions-for-db2-for-z-os.svg
-              hash: aB4Fx38KB/2wKRFN17XnG4sEkLUnOZIp2b2JSm95Vlk=
             best_practice_data:
               badge: false
               percentage: null
           - item:
             name: Datacom DST API
             description: Restful API for accessing CA Datacom Dynamic System Tables
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-datacom-tools/15-1.html
+            homepage_url: https://integration.mainframe.broadcom.com/
             logo: datacom-dst-api.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
@@ -7815,21 +7339,20 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: File Master™ Plus
+            name: Endevor®
             second_path:
               - Zowe Conformant / CLI 2019
               - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / API Mediation Layer 2019
               - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V2
               - Zowe Conformant / API Mediation Layer ZOWE V3
               - Zowe Conformant / CLI ZOWE V3
             description: >-
-              CA File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
-              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-filemaster-plus/12-0.html
+              Endevor® provides a standardized, reliable and automated approach to securing and managing your software assets. Designed to automate the
+              development process, CA Endevor governs software change from the very first line of modified code through deployment with change tracking.
+            homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
-            logo: file-master-plus.svg
+            logo: ca-endevor.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
               name: Broadcom Limited
@@ -7874,8 +7397,8 @@ landscape:
             yahoo_finance_data:
               effective_ticker: 1YD.F
             image_data:
-              fileName: file-master-plus.svg
-              hash: 41heazhWWsTaX5ZszW6IlkD2bo+aIzslsfUhiaga744=
+              fileName: endevor.svg
+              hash: L2gslWAhwcpv7Tgy5B01gvzJz9sMPNduGACKseHUahs=
             best_practice_data:
               badge: false
               percentage: null
@@ -9798,6 +9321,64 @@ landscape:
               badge: false
               percentage: null
           - item:
+            name: IDMS
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
+            description: IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: ca-idms.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: idms.svg
+              hash: erT5/4fPPYUP3nvCz8DEzS1EEG1pbDROj8GnGWpQQe0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: IMS Operations API
             homepage_url: https://github.com/zowe/ims-operations-api#readme
             repo_url: https://github.com/zowe/ims-operations-api
@@ -9864,15 +9445,12 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: NetMaster
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / API Mediation Layer ZOWE V3
+            name: MAT
             description: >-
-              NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers with
-              an open and standard interface to network management data collected by NetMaster.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-netmaster-network-management
-            logo: netmaster.svg
+              This API enables accessing Mainframe Application Tuner via modern tools by providing end-points to enable customers to automate and script a MAT
+              request in their CI/CD pipeline
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: ca-mat.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
               name: Broadcom Limited
@@ -9917,8 +9495,8 @@ landscape:
             yahoo_finance_data:
               effective_ticker: 1YD.F
             image_data:
-              fileName: net-master.svg
-              hash: DlA4U3YmcWuv9NL0OK4DJ2LD2kXZJ9uZcXtVfwotSbE=
+              fileName: mat.svg
+              hash: hUcHBSovNANkdcVPtxR0fAxOt1C39BFoj1TL0bQeRes=
             best_practice_data:
               badge: false
               percentage: null
@@ -12486,282 +12064,6 @@ landscape:
         name: CLI ZOWE V1
         items:
           - item:
-            name: CA Endevor® Bridge For Git
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
-            description: >-
-              The Endevor Bridge for Git Plug-in for Zowe CLI allows you to work with and manage Git-Endevor mappings of your Bridge for Git server. Also, as a
-              developer, you can build the changed files from the local working directory of your mapping in an Endevor work area.
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-endevor-bridge-for-git-plug-in-for-zowe-cli.html
-            stock_ticker: AVGO
-            logo: ca-endevor-bridge-for-git.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: ca-endevor-bridge-for-git.svg
-              hash: O+OC3N4Y36wfn1o6gfrPnshEA/4TCkvssVcoiw1GZ7Y=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: CA z/OS Extended Files
-            second_path:
-              - Zowe Conformant / CLI 2019
-            description: CA z/OS Extended Files Plug-in extends the CLI to support complex data set management functionality.
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-files.html
-            stock_ticker: AVGO
-            logo: ca-zos-extended-files.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: ca-z-os-extended-files.svg
-              hash: bOPDTSidTZx6ArD7hhyXBR8BQJQFca2ke0BAdNxYPyo=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: CA z/OS Extended Jobs
-            second_path:
-              - Zowe Conformant / CLI 2019
-            description: CA z/OS Extended Jobs extends the CLI to include additional commands for interaction with z/OS jobs.
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-brightside-plug-in-for-z-os-extended-jobs.html
-            stock_ticker: AVGO
-            logo: ca-zos-extended-jobs.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: ca-z-os-extended-jobs.svg
-              hash: xdn/7KfIZ4uTlWvx0zD6GMmZb6xGNXnJfYS8ujbHaQA=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: COBOL Language Support
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.cobol-language-support
-            repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
-            logo: cobol-language-support.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            github_data:
-              languages:
-                - name: COBOL
-                  value: 43288080
-                - name: Java
-                  value: 3802823
-                  color: '#b07219'
-                - name: ANTLR
-                  value: 562748
-                  color: '#9DC3FF'
-                - name: TypeScript
-                  value: 372803
-                  color: '#2b7489'
-                - name: JavaScript
-                  value: 4355
-                  color: '#f1e05a'
-                - name: Earthly
-                  value: 1088
-                - name: Roff
-                  value: 810
-                  color: '#ecdebe'
-                - name: Shell
-                  value: 403
-                  color: '#89e051'
-              contributions: 12;5;14;22;14;21;45;41;33;11;8;13;21;33;8;3;9;12;8;4;7;12;5;13;14;9;5;10;15;17;14;11;3;7;7;5;3;6;1;1;7;11;14;3;1;4;8;5;9;2;3;2
-              firstWeek: 2023-02-26Z
-              stars: 63
-              license: Other
-              description: COBOL Language Support provides autocomplete, highlighting and diagnostics for COBOL code and copybooks
-              latest_commit_date: '2024-02-20T12:34:44Z'
-              latest_commit_link: /eclipse-che4z/che-che4z-lsp-for-cobol/commit/deb581168bd5c6c05ef9c791b1a8ca2ff73cd5c9
-              release_date: '2024-01-30T13:21:41Z'
-              release_link: https://github.com/eclipse/che-che4z-lsp-for-cobol/releases
-              contributors_count: 43
-              contributors_link: https://github.com/eclipse/che-che4z-lsp-for-cobol/graphs/contributors
-            repos:
-              - url: https://github.com/eclipse/che-che4z-lsp-for-cobol
-                stars: 63
-            github_start_commit_data:
-              start_commit_link: /eclipse-che4z/che-che4z-lsp-for-cobol/commit/bb98467e9929cae1470d8131e7c68dce2042ba44
-              start_date: '2019-08-05T12:26:17Z'
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: cobol-language-support.svg
-              hash: cUNQs4FKTDjZFAmkbozVdPkfV1xm6xUvLhWUnH0xHwA=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
             name: IBM® Z® Workload Scheduler V 9.5.0.2
             second_path:
               - Zowe Conformant / API Mediation Layer 2019
@@ -13236,184 +12538,6 @@ landscape:
             image_data:
               fileName: ibm-z-workload-scheduler-v-9-5-0-2.svg
               hash: t826TfQ2vgBB6w6pIKrdlUxjBYnwozcyZ1ad6B+1lkk=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: MAT Analyze
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              MAT Analyze ensures interaction with CA MAT and enables you to measure your mainframe applications and get the analysis data in the form of CA MAT
-              analysis views using Zowe CLI.
-            homepage_url: https://www.npmjs.com/package/@broadcom/mat-analyze-for-zowe-cli
-            stock_ticker: AVGO
-            logo: mat-analyze.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: mat-analyze.svg
-              hash: Icl53ZWqHOVy0txW0fflKCPmPQS3cqNepaHbmDGgmrM=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: MAT Detect
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              MAT Detect provides utilities to access performance data supplied by the CA Mainframe Application Tuner component Performance Management Assistant
-              (PMA).
-            homepage_url: https://www.npmjs.com/package/@broadcom/mat-detect-for-zowe-cli
-            stock_ticker: AVGO
-            logo: mat-detect.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: mat-detect.svg
-              hash: ZrZ1x5hSV/7aab3mkSkFDInKjkTxk60Dm6LI+Bmsh/Y=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: View®
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              CA View® lets you access report data, list repositories, and search cross-report index names or values in a repository. You can also use the
-              plug-in to automate report data exports using rules, and to manage user settings.
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-cli/available-cli-plug-ins/ca-view-plug-in-for-zowe-cli.html
-            stock_ticker: AVGO
-            logo: view.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: view.svg
-              hash: 4eZdYsFe5fjmBiaFIgm4ZpNTEi6l4JqsaQDFcv+/vWY=
             best_practice_data:
               badge: false
               percentage: null
@@ -13918,6 +13042,120 @@ landscape:
             image_data:
               fileName: z-os-connect-ee-plug-in-for-zowe-cli.svg
               hash: MZLWXrlKT9+QCDu+a26nGFBd67m/IeSeSPXRQ2LBIIk=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: z/OS Extended Files
+            second_path:
+              - Zowe Conformant / CLI 2019
+            description: z/OS Extended Files Plug-in extends the CLI to support complex data set management functionality.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: ca-zos-extended-files.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: z-os-extended-files.svg
+              hash: bOPDTSidTZx6ArD7hhyXBR8BQJQFca2ke0BAdNxYPyo=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: z/OS Extended Jobs
+            second_path:
+              - Zowe Conformant / CLI 2019
+            description: z/OS Extended Jobs extends the CLI to include additional commands for interaction with z/OS jobs.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: ca-zos-extended-jobs.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: z-os-extended-jobs.svg
+              hash: xdn/7KfIZ4uTlWvx0zD6GMmZb6xGNXnJfYS8ujbHaQA=
             best_practice_data:
               badge: false
               percentage: null
@@ -15550,9 +14788,9 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: CA Secure Credential Store
-            description: CA Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
-            homepage_url: https://github.com/zowe/zowe-cli-scs-plugin#readme
+            name: Secure Credential Store
+            description: Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
+            homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: ca-secure-credential-store.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
@@ -15599,7 +14837,7 @@ landscape:
             yahoo_finance_data:
               effective_ticker: 1YD.F
             image_data:
-              fileName: ca-secure-credential-store.svg
+              fileName: secure-credential-store.svg
               hash: xv5ZKEOTASIqfbipImB6BZ1Xqp7dKZXDPpx3RGpvPgg=
             best_practice_data:
               badge: false
@@ -15607,593 +14845,6 @@ landscape:
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V1
         items:
-          - item:
-            name: Abend Analyzer for Mainframe
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: >-
-              Abend Analyzer for Mainframe provides an interface to SymDump® Batch. This extension allows you to browse, manage and view formatted abend reports
-              and symbolic data in a modern IDE environment.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.abend-analyzer
-            repo_url: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe
-            logo: abend-analyzer-for-mainframe.svg
-            open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            github_data:
-              languages: []
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2023-02-26Z
-              stars: 1
-              license: Other
-              description: 'Abend Analyzer for Mainframe provides an interface to SymDump® CICS and SymDump® Batch. '
-              latest_commit_date: '2023-06-27T14:22:19Z'
-              latest_commit_link: /BroadcomMFD/abend-analyzer-for-mainframe/commit/e61dae1ed830fa44142eac3910556efa9229b25e
-              release_date: '2023-06-29T13:58:28Z'
-              release_link: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe/releases
-              contributors_count: 2
-              contributors_link: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe/graphs/contributors
-            repos:
-              - url: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe
-                stars: 1
-            github_start_commit_data:
-              start_commit_link: /BroadcomMFD/abend-analyzer-for-mainframe/commit/0547af12e87af377acd493169b2768f10847544a
-              start_date: '2021-07-07T10:23:21Z'
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: abend-analyzer-for-mainframe.svg
-              hash: jGAevBCifXqwjK3VwlHIMhKEIdyBForiHOGD0eenOxM=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: COBOL Control Flow
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: >-
-              Provides graphical visualization of program flow for programs written in COBOL. The extension is designed to help COBOL developers to quickly
-              comprehend and debug COBOL programs with which they might not be familiar.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.ccf
-            repo_url: https://github.com/BroadcomMFD/cobol-control-flow
-            logo: cobol-control-flow.svg
-            open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            github_data:
-              languages: []
-              contributions: 0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2023-02-26Z
-              stars: 8
-              license: Other
-              description: COBOL Control Flow is an extension for Visual Studio Code that provides graphical visualization of program flow for programs written in COBOL.
-              latest_commit_date: '2023-03-13T10:51:53Z'
-              latest_commit_link: /BroadcomMFD/cobol-control-flow/commit/47c817e207da20e58613037380593126c5b9f285
-              release_date: '2024-01-23T11:44:47Z'
-              release_link: https://github.com/BroadcomMFD/cobol-control-flow/releases
-              contributors_count: 7
-              contributors_link: https://github.com/BroadcomMFD/cobol-control-flow/graphs/contributors
-            repos:
-              - url: https://github.com/BroadcomMFD/cobol-control-flow
-                stars: 8
-            github_start_commit_data:
-              start_commit_link: /BroadcomMFD/cobol-control-flow/commit/b3fe7f755bc3681df99b735336cb0748c7c1ba1e
-              start_date: '2020-01-09T13:19:34Z'
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: cobol-control-flow.svg
-              hash: uIqBbljGsuVGHBu1m+oeAD7J9OYrc5OItQP5gyRrF5Y=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Code4z
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: Extension pack for MF users working with z/OS applications and tools. Simplify user experience for new Mainframe developers.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.code4z-extension-pack
-            repo_url: https://github.com/BroadcomMFD/code4z
-            logo: code4z.svg
-            open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            github_data:
-              languages:
-                - name: Shell
-                  value: 235
-                  color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;1;0;1;2;0;0;0;0;0;0;0;0;0;1;3;0;0;0;0;0;1;0;0;0;0;0;3;0;0;0;0;0;0;0;0
-              firstWeek: 2023-02-26Z
-              stars: 10
-              license: Other
-              description: Code4z is a mainframe pack for Developers working with z/OS applications
-              latest_commit_date: '2023-12-27T15:06:33Z'
-              latest_commit_link: /BroadcomMFD/code4z/commit/dcb90199f35934ae2447f31a7663f306af6e2f0b
-              release_date: '2023-07-12T15:48:32Z'
-              release_link: https://github.com/BroadcomMFD/code4z/releases
-              contributors_count: 10
-              contributors_link: https://github.com/BroadcomMFD/code4z/graphs/contributors
-            repos:
-              - url: https://github.com/BroadcomMFD/code4z
-                stars: 10
-            github_start_commit_data:
-              start_commit_link: /BroadcomMFD/code4z/commit/65004f932b608264bd3c1b65239a48b902943cdd
-              start_date: '2019-11-12T10:00:41Z'
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: code4z.svg
-              hash: kc7fDx07V+1pCQZo53LQJ0dLNY/hcnvMQT2Ex/s4PMs=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Data Editor for Mainframe
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: Data Editor for Mainframe, a VS Code extension that adds a modern user interface to File Master Plus for MVS.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.data-editor-for-mainframe
-            repo_url: https://github.com/BroadcomMFD/data-editor-for-mainframe
-            logo: data-editor-for-mainframe.svg
-            open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            github_data:
-              languages: []
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2023-02-26Z
-              stars: 1
-              license: Other
-              description: The Data Editor for Mainframe extension for VS Code adds a modern user interface to File Master Plus for MVS.
-              latest_commit_date: '2022-04-20T09:26:12Z'
-              latest_commit_link: /BroadcomMFD/data-editor-for-mainframe/commit/4fc9993a623022049fae40ab90868b56c0ee25d8
-              release_date: '2022-04-20T12:29:41Z'
-              release_link: https://github.com/BroadcomMFD/data-editor-for-mainframe/releases
-              contributors_count: 2
-              contributors_link: https://github.com/BroadcomMFD/data-editor-for-mainframe/graphs/contributors
-            repos:
-              - url: https://github.com/BroadcomMFD/data-editor-for-mainframe
-                stars: 1
-            github_start_commit_data:
-              start_commit_link: /BroadcomMFD/data-editor-for-mainframe/commit/b94cab08ee2825cfe32d577e4fce6b654a7eca00
-              start_date: '2021-07-07T10:22:16Z'
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: data-editor-for-mainframe.svg
-              hash: XHkcC6uz0vVTzhBZRao7+b7bOI4wMxfinXsotZ7F1iw=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Debugger for Mainframe
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: |-
-              This extension provides a modern debugging experience for CICS
-              and Batch programs written in COBOL leveraging Intertest Batch and z/OS
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.debugger-for-mainframe
-            repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
-            logo: debugger-for-mainframe.svg
-            open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            github_data:
-              languages: []
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2023-02-26Z
-              stars: 9
-              license: Unknown License
-              description: Debugger for Mainframe provides a debugging interface for InterTest™ for CICS and InterTest™ Batch.
-              latest_commit_date: '2023-12-04T09:11:53Z'
-              latest_commit_link: /BroadcomMFD/debugger-for-mainframe/commit/f52c8cab79bee6a599baf0f40a0bd52977dcd649
-              release_date: '2023-12-01T12:03:50Z'
-              release_link: https://github.com/BroadcomMFD/debugger-for-mainframe/releases
-              contributors_count: 5
-              contributors_link: https://github.com/BroadcomMFD/debugger-for-mainframe/graphs/contributors
-            repos:
-              - url: https://github.com/BroadcomMFD/debugger-for-mainframe
-                stars: 9
-            github_start_commit_data:
-              start_commit_link: /BroadcomMFD/debugger-for-mainframe/commit/b3fe7f755bc3681df99b735336cb0748c7c1ba1e
-              start_date: '2020-01-09T13:19:34Z'
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: debugger-for-mainframe.svg
-              hash: DbkaFOaDEGJz94pSwfTVsic2U/RgOSPRPgq+SjJNLn0=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Explorer for Endevor
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
-            description: Modernizes the way you interact with Endevor, offering a user-friendly and convenient way to work with elements and inventory locations.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.explorer-for-endevor
-            repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
-            logo: explorer-for-endevor.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            github_data:
-              languages:
-                - name: TypeScript
-                  value: 2365187
-                  color: '#2b7489'
-                - name: JavaScript
-                  value: 27494
-                  color: '#f1e05a'
-                - name: Gherkin
-                  value: 6560
-                  color: '#5B2063'
-                - name: Shell
-                  value: 491
-                  color: '#89e051'
-              contributions: 0;0;0;5;0;0;0;0;0;7;6;0;0;5;0;7;0;0;5;0;0;0;0;0;1;0;2;0;0;0;0;0;0;0;0;0;0;1;10;7;7;0;16;4;0;4;0;0;0;0;0;0
-              firstWeek: 2023-02-26Z
-              stars: 10
-              license: Other
-              description: Explorer for Endevor is an extension that modernizes the way you interact with Endevor inventory locations and elements
-              latest_commit_date: '2024-01-05T16:57:56Z'
-              latest_commit_link: /eclipse-che4z/che-che4z-explorer-for-endevor/commit/6c497a4f2886ffa3cf0e47def3505d53f5fd812a
-              release_date: '2023-11-21T15:03:25Z'
-              release_link: https://github.com/eclipse/che-che4z-explorer-for-endevor/releases
-              contributors_count: 25
-              contributors_link: https://github.com/eclipse/che-che4z-explorer-for-endevor/graphs/contributors
-            repos:
-              - url: https://github.com/eclipse/che-che4z-explorer-for-endevor
-                stars: 10
-            github_start_commit_data:
-              start_commit_link: /eclipse-che4z/che-che4z-explorer-for-endevor/commit/34c7a088467ff9bbf9583be355956dfd388d0f2f
-              start_date: '2019-10-21T09:33:53Z'
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: explorer-for-endevor.svg
-              hash: uAVkgOK1KBQ/fIp7/0myJAz8cLeg5xVqjcZa4+2Q8gg=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: HLASM Language Support
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: >-
-              An extension that supports the High Level Assembler language. It provides code completion, highlighting and navigation features, shows mistakes in
-              the source, and lets you trace how the conditional assembly is evaluated with a modern debugging experience.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.hlasm-language-support
-            repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
-            logo: hlasm-language-support.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            github_data:
-              languages:
-                - name: C++
-                  value: 4352353
-                  color: '#f34b7d'
-                - name: TypeScript
-                  value: 407897
-                  color: '#2b7489'
-                - name: ANTLR
-                  value: 109894
-                  color: '#9DC3FF'
-                - name: CMake
-                  value: 74428
-                - name: JavaScript
-                  value: 17965
-                  color: '#f1e05a'
-                - name: Shell
-                  value: 3523
-                  color: '#89e051'
-                - name: Lua
-                  value: 1635
-                  color: '#000080'
-                - name: C
-                  value: 1324
-                  color: '#555555'
-                - name: Assembly
-                  value: 71
-                  color: '#6E4C13'
-              contributions: 3;8;7;4;4;5;2;5;3;2;5;2;2;2;3;2;2;6;1;4;6;6;3;6;6;8;2;3;6;6;3;12;6;5;0;1;5;2;1;0;9;6;4;0;0;1;3;6;5;4;1;3
-              firstWeek: 2023-02-26Z
-              stars: 20
-              license: Eclipse Public License 2.0
-              description: HLASM Language Support is an LSP extension that adds support for the High Level Assembler language to IDEs
-              latest_commit_date: '2024-02-21T09:47:31Z'
-              latest_commit_link: /eclipse-che4z/che-che4z-lsp-for-hlasm/commit/e32d812e82f65afb063cc5369fe4a1386488ef8a
-              release_date: '2023-12-04T11:57:49Z'
-              release_link: https://github.com/eclipse/che-che4z-lsp-for-hlasm/releases
-              contributors_count: 16
-              contributors_link: https://github.com/eclipse/che-che4z-lsp-for-hlasm/graphs/contributors
-            repos:
-              - url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
-                stars: 20
-            github_start_commit_data:
-              start_commit_link: /eclipse-che4z/che-che4z-lsp-for-hlasm/commit/c43328791857a33f7dbad2ca08278285975d3455
-              start_date: '2019-11-14T10:48:56Z'
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: hlasm-language-support.svg
-              hash: kaUCkVr77IPIsiChqQVxVSJ48fMxC5zi2QGZsi77Q5A=
-            best_practice_data:
-              badge: false
-              percentage: null
           - item:
             name: IBM z Open Editor
             second_path:
@@ -16676,7 +15327,7 @@ landscape:
             description: >-
               Extension provides an interface in VS Code for developers and system administrators to interact with Job Control Language (JCL) on IBM z/OS
               mainframes. Edit JCL in a local environment complete with syntax highlighting, linting, and access to a library of sample job snippets.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=broadcomMFD.jcl-language-support
+            homepage_url: https://integration.mainframe.broadcom.com/
             repo_url: https://github.com/BroadcomMFD/jcl-language-support
             logo: jcl-language-support.svg
             open_source: false
@@ -16819,6 +15470,601 @@ landscape:
         name: Explorer for Visual Studio Code ZOWE V2
         items:
           - item:
+            name: Abend Analyzer for Mainframe
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+            description: >-
+              Abend Analyzer for Mainframe provides an interface to SymDump® Batch. This extension allows you to browse, manage and view formatted abend reports
+              and symbolic data in a modern IDE environment.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe
+            logo: abend-analyzer-for-mainframe.svg
+            open_source: false
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2023-02-26Z
+              stars: 1
+              license: Other
+              description: 'Abend Analyzer for Mainframe provides an interface to SymDump® CICS and SymDump® Batch. '
+              latest_commit_date: '2023-06-27T14:22:19Z'
+              latest_commit_link: /BroadcomMFD/abend-analyzer-for-mainframe/commit/e61dae1ed830fa44142eac3910556efa9229b25e
+              release_date: '2023-06-29T13:58:28Z'
+              release_link: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe/releases
+              contributors_count: 2
+              contributors_link: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe/graphs/contributors
+            repos:
+              - url: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe
+                stars: 1
+            github_start_commit_data:
+              start_commit_link: /BroadcomMFD/abend-analyzer-for-mainframe/commit/0547af12e87af377acd493169b2768f10847544a
+              start_date: '2021-07-07T10:23:21Z'
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: abend-analyzer-for-mainframe.svg
+              hash: jGAevBCifXqwjK3VwlHIMhKEIdyBForiHOGD0eenOxM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: COBOL Control Flow
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+            description: >-
+              Provides graphical visualization of program flow for programs written in COBOL. The extension is designed to help COBOL developers to quickly
+              comprehend and debug COBOL programs with which they might not be familiar.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/BroadcomMFD/cobol-control-flow
+            logo: cobol-control-flow.svg
+            open_source: false
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            github_data:
+              languages: []
+              contributions: 0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2023-02-26Z
+              stars: 8
+              license: Other
+              description: COBOL Control Flow is an extension for Visual Studio Code that provides graphical visualization of program flow for programs written in COBOL.
+              latest_commit_date: '2023-03-13T10:51:53Z'
+              latest_commit_link: /BroadcomMFD/cobol-control-flow/commit/47c817e207da20e58613037380593126c5b9f285
+              release_date: '2024-01-23T11:44:47Z'
+              release_link: https://github.com/BroadcomMFD/cobol-control-flow/releases
+              contributors_count: 7
+              contributors_link: https://github.com/BroadcomMFD/cobol-control-flow/graphs/contributors
+            repos:
+              - url: https://github.com/BroadcomMFD/cobol-control-flow
+                stars: 8
+            github_start_commit_data:
+              start_commit_link: /BroadcomMFD/cobol-control-flow/commit/b3fe7f755bc3681df99b735336cb0748c7c1ba1e
+              start_date: '2020-01-09T13:19:34Z'
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: cobol-control-flow.svg
+              hash: uIqBbljGsuVGHBu1m+oeAD7J9OYrc5OItQP5gyRrF5Y=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: COBOL Language Support
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+              - Zowe Conformant / CLI ZOWE V1
+            description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
+            logo: cobol-language-support.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            github_data:
+              languages:
+                - name: COBOL
+                  value: 43288080
+                - name: Java
+                  value: 3802823
+                  color: '#b07219'
+                - name: ANTLR
+                  value: 562748
+                  color: '#9DC3FF'
+                - name: TypeScript
+                  value: 372803
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 4355
+                  color: '#f1e05a'
+                - name: Earthly
+                  value: 1088
+                - name: Roff
+                  value: 810
+                  color: '#ecdebe'
+                - name: Shell
+                  value: 403
+                  color: '#89e051'
+              contributions: 12;5;14;22;14;21;45;41;33;11;8;13;21;33;8;3;9;12;8;4;7;12;5;13;14;9;5;10;15;17;14;11;3;7;7;5;3;6;1;1;7;11;14;3;1;4;8;5;9;2;3;2
+              firstWeek: 2023-02-26Z
+              stars: 63
+              license: Other
+              description: COBOL Language Support provides autocomplete, highlighting and diagnostics for COBOL code and copybooks
+              latest_commit_date: '2024-02-20T12:34:44Z'
+              latest_commit_link: /eclipse-che4z/che-che4z-lsp-for-cobol/commit/deb581168bd5c6c05ef9c791b1a8ca2ff73cd5c9
+              release_date: '2024-01-30T13:21:41Z'
+              release_link: https://github.com/eclipse/che-che4z-lsp-for-cobol/releases
+              contributors_count: 43
+              contributors_link: https://github.com/eclipse/che-che4z-lsp-for-cobol/graphs/contributors
+            repos:
+              - url: https://github.com/eclipse/che-che4z-lsp-for-cobol
+                stars: 63
+            github_start_commit_data:
+              start_commit_link: /eclipse-che4z/che-che4z-lsp-for-cobol/commit/bb98467e9929cae1470d8131e7c68dce2042ba44
+              start_date: '2019-08-05T12:26:17Z'
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: cobol-language-support.svg
+              hash: cUNQs4FKTDjZFAmkbozVdPkfV1xm6xUvLhWUnH0xHwA=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Code4z
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+            description: Extension pack for MF users working with z/OS applications and tools. Simplify user experience for new Mainframe developers.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/BroadcomMFD/code4z
+            logo: code4z.svg
+            open_source: false
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            github_data:
+              languages:
+                - name: Shell
+                  value: 235
+                  color: '#89e051'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;1;0;1;2;0;0;0;0;0;0;0;0;0;1;3;0;0;0;0;0;1;0;0;0;0;0;3;0;0;0;0;0;0;0;0
+              firstWeek: 2023-02-26Z
+              stars: 10
+              license: Other
+              description: Code4z is a mainframe pack for Developers working with z/OS applications
+              latest_commit_date: '2023-12-27T15:06:33Z'
+              latest_commit_link: /BroadcomMFD/code4z/commit/dcb90199f35934ae2447f31a7663f306af6e2f0b
+              release_date: '2023-07-12T15:48:32Z'
+              release_link: https://github.com/BroadcomMFD/code4z/releases
+              contributors_count: 10
+              contributors_link: https://github.com/BroadcomMFD/code4z/graphs/contributors
+            repos:
+              - url: https://github.com/BroadcomMFD/code4z
+                stars: 10
+            github_start_commit_data:
+              start_commit_link: /BroadcomMFD/code4z/commit/65004f932b608264bd3c1b65239a48b902943cdd
+              start_date: '2019-11-12T10:00:41Z'
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: code4z.svg
+              hash: kc7fDx07V+1pCQZo53LQJ0dLNY/hcnvMQT2Ex/s4PMs=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Data Editor for Mainframe
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+            description: Data Editor for Mainframe, a VS Code extension that adds a modern user interface to File Master Plus for MVS.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/BroadcomMFD/data-editor-for-mainframe
+            logo: data-editor-for-mainframe.svg
+            open_source: false
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2023-02-26Z
+              stars: 1
+              license: Other
+              description: The Data Editor for Mainframe extension for VS Code adds a modern user interface to File Master Plus for MVS.
+              latest_commit_date: '2022-04-20T09:26:12Z'
+              latest_commit_link: /BroadcomMFD/data-editor-for-mainframe/commit/4fc9993a623022049fae40ab90868b56c0ee25d8
+              release_date: '2022-04-20T12:29:41Z'
+              release_link: https://github.com/BroadcomMFD/data-editor-for-mainframe/releases
+              contributors_count: 2
+              contributors_link: https://github.com/BroadcomMFD/data-editor-for-mainframe/graphs/contributors
+            repos:
+              - url: https://github.com/BroadcomMFD/data-editor-for-mainframe
+                stars: 1
+            github_start_commit_data:
+              start_commit_link: /BroadcomMFD/data-editor-for-mainframe/commit/b94cab08ee2825cfe32d577e4fce6b654a7eca00
+              start_date: '2021-07-07T10:22:16Z'
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: data-editor-for-mainframe.svg
+              hash: XHkcC6uz0vVTzhBZRao7+b7bOI4wMxfinXsotZ7F1iw=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Debugger for Mainframe
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+            description: This extension provides a modern debugging experience for CICS and Batch programs written in COBOL leveraging Intertest Batch and z/OS
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
+            logo: debugger-for-mainframe.svg
+            open_source: false
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2023-02-26Z
+              stars: 9
+              license: Unknown License
+              description: Debugger for Mainframe provides a debugging interface for InterTest™ for CICS and InterTest™ Batch.
+              latest_commit_date: '2023-12-04T09:11:53Z'
+              latest_commit_link: /BroadcomMFD/debugger-for-mainframe/commit/f52c8cab79bee6a599baf0f40a0bd52977dcd649
+              release_date: '2023-12-01T12:03:50Z'
+              release_link: https://github.com/BroadcomMFD/debugger-for-mainframe/releases
+              contributors_count: 5
+              contributors_link: https://github.com/BroadcomMFD/debugger-for-mainframe/graphs/contributors
+            repos:
+              - url: https://github.com/BroadcomMFD/debugger-for-mainframe
+                stars: 9
+            github_start_commit_data:
+              start_commit_link: /BroadcomMFD/debugger-for-mainframe/commit/b3fe7f755bc3681df99b735336cb0748c7c1ba1e
+              start_date: '2020-01-09T13:19:34Z'
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: debugger-for-mainframe.svg
+              hash: DbkaFOaDEGJz94pSwfTVsic2U/RgOSPRPgq+SjJNLn0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: HLASM Language Support
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+            description: >-
+              An extension that supports the High Level Assembler language. It provides code completion, highlighting and navigation features, shows mistakes in
+              the source, and lets you trace how the conditional assembly is evaluated with a modern debugging experience.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
+            logo: hlasm-language-support.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            github_data:
+              languages:
+                - name: C++
+                  value: 4352353
+                  color: '#f34b7d'
+                - name: TypeScript
+                  value: 407897
+                  color: '#2b7489'
+                - name: ANTLR
+                  value: 109894
+                  color: '#9DC3FF'
+                - name: CMake
+                  value: 74428
+                - name: JavaScript
+                  value: 17965
+                  color: '#f1e05a'
+                - name: Shell
+                  value: 3523
+                  color: '#89e051'
+                - name: Lua
+                  value: 1635
+                  color: '#000080'
+                - name: C
+                  value: 1324
+                  color: '#555555'
+                - name: Assembly
+                  value: 71
+                  color: '#6E4C13'
+              contributions: 3;8;7;4;4;5;2;5;3;2;5;2;2;2;3;2;2;6;1;4;6;6;3;6;6;8;2;3;6;6;3;12;6;5;0;1;5;2;1;0;9;6;4;0;0;1;3;6;5;4;1;3
+              firstWeek: 2023-02-26Z
+              stars: 20
+              license: Eclipse Public License 2.0
+              description: HLASM Language Support is an LSP extension that adds support for the High Level Assembler language to IDEs
+              latest_commit_date: '2024-02-21T09:47:31Z'
+              latest_commit_link: /eclipse-che4z/che-che4z-lsp-for-hlasm/commit/e32d812e82f65afb063cc5369fe4a1386488ef8a
+              release_date: '2023-12-04T11:57:49Z'
+              release_link: https://github.com/eclipse/che-che4z-lsp-for-hlasm/releases
+              contributors_count: 16
+              contributors_link: https://github.com/eclipse/che-che4z-lsp-for-hlasm/graphs/contributors
+            repos:
+              - url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
+                stars: 20
+            github_start_commit_data:
+              start_commit_link: /eclipse-che4z/che-che4z-lsp-for-hlasm/commit/c43328791857a33f7dbad2ca08278285975d3455
+              start_date: '2019-11-14T10:48:56Z'
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: hlasm-language-support.svg
+              hash: kaUCkVr77IPIsiChqQVxVSJ48fMxC5zi2QGZsi77Q5A=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: IBM® CICS® for Zowe Explorer
             second_path:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
@@ -16881,14 +16127,18 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: OPS/REXX Language Support Extension for VS Code
+            name: JCLCheck™ Workload Automation
             second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / API Mediation Layer ZOWE V1
             description: >-
-              The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
-              syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
-            homepage_url: https://github.com/BroadcomMFD/opsrexx-language-support
-            logo: opsrexx-language-support-extension-for-vs-code.svg
+              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: ca-jclcheck-workload-automation.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
               name: Broadcom Limited
@@ -16933,8 +16183,8 @@ landscape:
             yahoo_finance_data:
               effective_ticker: 1YD.F
             image_data:
-              fileName: ops-rexx-language-support-extension-for-vs-code.svg
-              hash: aKk19UkXjgDBPNAmo1xZ6hR2C+EakgTdvIw7l9zOsMw=
+              fileName: jcl-check-workload-automation.svg
+              hash: ivnhyW0rOoLLDkdTxUwg8HscT6FPLRdCOebWKAezC+8=
             best_practice_data:
               badge: false
               percentage: null
@@ -17178,133 +16428,191 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: OPS/MVS®
+            name: MAT Analyze
             second_path:
-              - Zowe Conformant / CLI ZOWE V3
               - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI 2019
-              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              MAT Analyze ensures interaction with MAT and enables you to measure your mainframe applications and get the analysis data in the form of MAT
+              analysis views using Zowe CLI.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: mat-analyze.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: mat-analyze.svg
+              hash: Icl53ZWqHOVy0txW0fflKCPmPQS3cqNepaHbmDGgmrM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: MAT Detect
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+            description: >-
+              MAT Detect provides utilities to access performance data supplied by the Mainframe Application Tuner component Performance Management Assistant
+              (PMA).
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: mat-detect.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: mat-detect.svg
+              hash: ZrZ1x5hSV/7aab3mkSkFDInKjkTxk60Dm6LI+Bmsh/Y=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Output Management View™ for z/OS
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
+            description: >-
+              Output Management View™ for z/OS lets you access report data, list repositories, and search cross-report index names or values in a repository.
+              You can also use the plug-in to automate report data exports using rules, and to manage user settings.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: view.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: output-management-view-for-z-os.svg
+              hash: 4eZdYsFe5fjmBiaFIgm4ZpNTEi6l4JqsaQDFcv+/vWY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Workload Automation 7®
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
               - Zowe Conformant / API Mediation Layer ZOWE V3
-            description: |-
-              Extend the Zowe CLI to include OPS/MVS commands
-              NPM Registry Date: Will be released immediately following Zowe v2.
-            homepage_url: https://techdocs.broadcom.com/opsmvs
-            logo: opsmvs.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: ops-mvs.svg
-              hash: 4u3sD2jzXFM3dPn/xqvJTe2g9R6B1+kpLIfN3gN7yh4=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Output Management Spool™ for z/OS
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V3
-            description: Spool Plug-in for Zowe CLI allows issuing Spool native commands from Zowe CLI.
-            homepage_url: https://www.npmjs.com/package/@broadcom/om-spool-for-zowe-cli
-            logo: spool.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: output-management-spool-for-z-os.svg
-              hash: gSRF1vkpoBJ3CLawabQS7euK1SxpfRaqEKsQMJ51zLs=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Workload Automation CA 7®
-            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
               - Zowe Conformant / API Mediation Layer ZOWE V1
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / API Mediation Layer ZOWE V3
-              - Zowe Conformant / CLI ZOWE V1
-            description: Zowe CLI plugins for CA 7
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-ca-7-edition/12-1.html
+            description: Zowe CLI plugins for 7
+            homepage_url: https://integration.mainframe.broadcom.com/
             logo: workload-automation-ca-7.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
@@ -17350,7 +16658,7 @@ landscape:
             yahoo_finance_data:
               effective_ticker: 1YD.F
             image_data:
-              fileName: workload-automation-ca-7.svg
+              fileName: workload-automation-7.svg
               hash: bnZUJUse8r7aicsf2w2dhLhU/YjDyrOfDX6tBZ9IyyY=
             best_practice_data:
               badge: false
@@ -17424,6 +16732,62 @@ landscape:
         name: API Mediation Layer ZOWE V2
         items:
           - item:
+            name: Alert Central
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V1
+            description: Alert Central is a product used to quickly identify and resolve incidents across multiple systems and applications.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: alert-central.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: alert-central.svg
+              hash: Z55mN3QB8jqvXTH7zsgzYwug4D1ztWhBL6Zz8B6xuS0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: API State Monitor for Zowe API ML
             description: >-
               The API State Monitor for Zowe API ML monitors the state of standard API services that flow through the Zowe ecosystem and reports that state back
@@ -17431,8 +16795,7 @@ landscape:
 
               Monitor posts information on whether services are registering or de-registering from the API Mediation Layer Discovery Service (EUREKA), or shut
               down ungracefully.
-            homepage_url: >-
-              https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-brightside/3-0/zowe-api-ml/ca-brightside-extensions-for-zowe-api-mediation-layer.html
+            homepage_url: https://integration.mainframe.broadcom.com/
             logo: api-state-monitor-for-zowe-api-ml.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
@@ -17484,67 +16847,11 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: ESP Workload Automation
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V3
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/automation/ca-workload-automation-esp-edition/12-0.html
-            project: null
-            logo: esp-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: esp-workload-automation.svg
-              hash: UaBK1ZkhTBvWice+uWlx0Wm4F+SsLuSzkCvxr6ZzJuY=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
             name: IDMS Systems REST API
             description: |-
               The IDMS Systems REST API allows you to manage and monitor your IDMS CV with DCMT, DCUF, Compiler, SQL Execution, and Performance
               Metrics endpoints.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/database-management/ca-idms/19-0.html
+            homepage_url: https://integration.mainframe.broadcom.com/
             project: null
             logo: idms-systems-rest-api.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
@@ -17597,72 +16904,12 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: Mainframe Topology
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V3
-            description: >-
-              Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
-              elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
-              their environment.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/intelligent-operations/mainframe-topology/1-0.html
-            logo: mainframe-topology.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            crunchbase_data:
-              name: Broadcom Limited
-              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://broadcom.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/broadcom
-              linkedin: https://www.linkedin.com/company/broadcom
-              acquisitions:
-                - date: '2013-04-11'
-                  acquiree: CyOptics
-                - date: '2013-04-19'
-                  acquiree: Javelin Semiconductor
-                - date: '2013-12-16'
-                  acquiree: LSI Logic
-                - date: '2014-06-23'
-                  acquiree: PLX Technology
-                - date: '2015-02-25'
-                  acquiree: Emulex
-                - date: '2015-05-28'
-                  acquiree: Broadcom
-                - date: '2016-11-02'
-                  acquiree: Brocade Communications Systems
-                - date: '2018-07-11'
-                  acquiree: CA Technologies
-                - date: '2019-08-08'
-                  acquiree: Symantec
-              parents: []
-              ticker: 1YD.F
-              funding: 100000000000
-              stockExchange: fra
-              company_type: For Profit
-              industries:
-                - Electronics
-                - Information Technology
-                - Manufacturing
-                - Semiconductor
-            yahoo_finance_data:
-              effective_ticker: 1YD.F
-            image_data:
-              fileName: mainframe-topology.svg
-              hash: g0zhIYRk/HdlhSRl60Rn28Wth7/e5X3cWrd41704Bpo=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: SymDump
+            name: Mainframe Security Insights Platform
             second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V1
-              - Zowe Conformant / API Mediation Layer ZOWE V3
-            description: SymDump is a fault management tool designed to identify and resolve dumps. The tool provides multitude of user interfaces including REST API.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-intertest-and-ca-symdump/11-0/using.html
-            logo: symdump.svg
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: ca-mainframe-security-insights-platform.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
               name: Broadcom Limited
@@ -17707,8 +16954,8 @@ landscape:
             yahoo_finance_data:
               effective_ticker: 1YD.F
             image_data:
-              fileName: sym-dump.svg
-              hash: LPoDEangAbntfEoiOn9xpVkbSM6DOBd7NHqWxeAD3uE=
+              fileName: mainframe-security-insights-platform.svg
+              hash: kU67ISEiE/PQ3Tnexc8b0+PchmAy1kFjCAFj5XPIwMg=
             best_practice_data:
               badge: false
               percentage: null
@@ -17717,7 +16964,7 @@ landscape:
             second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V1
             description: Test4z v1.2.2 Mainframe Batch Testing Automation released March 22, 2022
-            homepage_url: https://broadcom.com
+            homepage_url: https://integration.mainframe.broadcom.com/
             logo: test4z.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
@@ -18758,9 +18005,9 @@ landscape:
               - Zowe Conformant / App Framework ZOWE V1
               - Zowe Conformant / API Mediation Layer ZOWE V1
             description: >-
-              CA Vantage™ Storage Resource Manager Web Client, also known as Mainframe Team Center - Management. Zowe App Framework plugin provides access to
-              the Mainframe Team Center - Management from Zowe Desktop.
-            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/performance-and-storage/ca-vantage-storage-resource-manager/14-0/web-client.html
+              Vantage™ Storage Resource Manager Web Client, also known as Mainframe Team Center - Management. Zowe App Framework plugin provides access to the
+              Mainframe Team Center - Management from Zowe Desktop.
+            homepage_url: https://integration.mainframe.broadcom.com/
             logo: vantage-storage-resource-manager.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
@@ -18816,20 +18063,80 @@ landscape:
         items: []
       - subcategory:
         name: CLI ZOWE V3
-        items: []
+        items:
+          - item:
+            name: Output Management Spool™ for z/OS
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
+            description: Output Management Spool™ for z/OS Plug-in for Zowe CLI allows issuing Spool native commands from Zowe CLI.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: spool.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: output-management-spool-for-z-os.svg
+              hash: gSRF1vkpoBJ3CLawabQS7euK1SxpfRaqEKsQMJ51zLs=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: API Mediation Layer ZOWE V3
         items:
           - item:
-            name: MAT REST API
-            description: >-
-              MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
-              performance analysis.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            logo: mat-rest-api.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            name: Database Management Solutions for Db2 for z/OS
             second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V1
+              - Zowe Conformant / CLI ZOWE V3
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
+            description: Db2 for z/OS administration, performance monitoring, and DevOps capabilities using modern API and CLI interfaces
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: database-management-solutions-for-db2-for-zos.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
               name: Broadcom Limited
               description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
@@ -18873,16 +18180,18 @@ landscape:
             yahoo_finance_data:
               effective_ticker: 1YD.F
             image_data:
-              fileName: mat-rest-api.svg
-              hash: SfiVZxgFr3JJJRfqdZdWIjCKnA+xejqWkBYvcbBE/o8=
+              fileName: database-management-solutions-for-db2-for-z-os.svg
+              hash: aB4Fx38KB/2wKRFN17XnG4sEkLUnOZIp2b2JSm95Vlk=
             best_practice_data:
               badge: false
               percentage: null
           - item:
-            name: Mainframe Operational Intelligence
-            description: Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts.
+            name: ESP Workload Automation
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
             homepage_url: https://integration.mainframe.broadcom.com/
-            logo: mainframe-operational-intelligence.svg
+            project: null
+            logo: esp-workload-automation.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
               name: Broadcom Limited
@@ -18927,8 +18236,72 @@ landscape:
             yahoo_finance_data:
               effective_ticker: 1YD.F
             image_data:
-              fileName: mainframe-operational-intelligence.svg
-              hash: REVJQjAhsUJSyINcS8ksLnqYx+07MBYr5w4YTrJeETE=
+              fileName: esp-workload-automation.svg
+              hash: UaBK1ZkhTBvWice+uWlx0Wm4F+SsLuSzkCvxr6ZzJuY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: File Master™ Plus
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V1
+              - Zowe Conformant / API Mediation Layer 2019
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI 2019
+            description: >-
+              File Master™ Plus is a full function z/OS and file/data management product that provides enhanced capabilities for sequential, partitioned, and
+              VSAM (including IAM) files in an online ISPF interface, Eclipse-based user interface, REST API, CLI and through batch commands.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: file-master-plus.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: file-master-plus.svg
+              hash: 41heazhWWsTaX5ZszW6IlkD2bo+aIzslsfUhiaga744=
             best_practice_data:
               badge: false
               percentage: null
@@ -18987,6 +18360,475 @@ landscape:
             image_data:
               fileName: mainframe-application-tuner.svg
               hash: F/bGWx6WcRJi/6EuxjItuYTEvsBzgPOfVR0smq1YIq4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Mainframe Operational Intelligence
+            description: Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: mainframe-operational-intelligence.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: mainframe-operational-intelligence.svg
+              hash: REVJQjAhsUJSyINcS8ksLnqYx+07MBYr5w4YTrJeETE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Mainframe Topology
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
+              elements hierarchically and their cross domain relationships, giving L1 Operators, L2 SMEs and application developers a better understanding of
+              their environment.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: mainframe-topology.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: mainframe-topology.svg
+              hash: g0zhIYRk/HdlhSRl60Rn28Wth7/e5X3cWrd41704Bpo=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: MAT REST API
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: >-
+              MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
+              performance analysis.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: mat-rest-api.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: mat-rest-api.svg
+              hash: SfiVZxgFr3JJJRfqdZdWIjCKnA+xejqWkBYvcbBE/o8=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: NetMaster
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V1
+            description: >-
+              NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers with
+              an open and standard interface to network management data collected by NetMaster.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: netmaster.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: net-master.svg
+              hash: DlA4U3YmcWuv9NL0OK4DJ2LD2kXZJ9uZcXtVfwotSbE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: OPS/MVS®
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V3
+              - Zowe Conformant / CLI ZOWE V1
+              - Zowe Conformant / CLI 2019
+            description: |-
+              Extend the Zowe CLI to include OPS/MVS commands
+              NPM Registry Date: Will be released immediately following Zowe v2.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: opsmvs.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: ops-mvs.svg
+              hash: 4u3sD2jzXFM3dPn/xqvJTe2g9R6B1+kpLIfN3gN7yh4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SymDump
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V1
+            description: SymDump is a fault management tool designed to identify and resolve dumps. The tool provides multitude of user interfaces including REST API.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: symdump.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: sym-dump.svg
+              hash: LPoDEangAbntfEoiOn9xpVkbSM6DOBd7NHqWxeAD3uE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SYSVIEW® Performance Management
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V1
+              - Zowe Conformant / CLI ZOWE V3
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
+            description: >-
+              SYSVIEW Performance Management allows Application Developers, Automation Engineers, and Systems Programmers to access SYSVIEW actions and data
+              using a modern API.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: ca-sysview-performance-management.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: sysview-performance-management.svg
+              hash: oipfChjgRYgCdUFw2FSTTClZaWP/ZUwXEHTcRzezGDQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: WatchTower Alert Insights
+            description: >-
+              The Alert Insights API allows you to list and manage
+
+              alerts including service ticket creation, issue XMVS commands through SYSVIEW, retrieve QuickRef data and configurations, and manage users and
+              user groups.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: watchtower-alert-insights.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: watch-tower-alert-insights.svg
+              hash: qX1dzCB4YJbNafM4dGaI984YGdVrr5CmiUI1r/hofZA=
             best_practice_data:
               badge: false
               percentage: null
@@ -19100,15 +18942,20 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+      - subcategory:
+        name: Explorer for Visual Studio Code ZOWE V3
+        items:
           - item:
-            name: WatchTower Alert Insights
+            name: Endevor® Bridge For Git
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / CLI ZOWE V1
             description: >-
-              The Alert Insights API allows you to list and manage
-
-              alerts including service ticket creation, issue XMVS commands through SYSVIEW, retrieve QuickRef data and configurations, and manage users and
-              user groups.
+              The Endevor Bridge for Git Plug-in for Zowe CLI allows you to work with and manage Git-Endevor mappings of your Bridge for Git server. Also, as a
+              developer, you can build the changed files from the local working directory of your mapping in an Endevor work area.
             homepage_url: https://integration.mainframe.broadcom.com/
-            logo: watchtower-alert-insights.svg
+            stock_ticker: AVGO
+            logo: ca-endevor-bridge-for-git.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
               name: Broadcom Limited
@@ -19153,14 +19000,100 @@ landscape:
             yahoo_finance_data:
               effective_ticker: 1YD.F
             image_data:
-              fileName: watch-tower-alert-insights.svg
-              hash: qX1dzCB4YJbNafM4dGaI984YGdVrr5CmiUI1r/hofZA=
+              fileName: endevor-bridge-for-git.svg
+              hash: O+OC3N4Y36wfn1o6gfrPnshEA/4TCkvssVcoiw1GZ7Y=
             best_practice_data:
               badge: false
               percentage: null
-      - subcategory:
-        name: Explorer for Visual Studio Code ZOWE V3
-        items:
+          - item:
+            name: Explorer for Endevor
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
+            description: Modernizes the way you interact with Endevor, offering a user-friendly and convenient way to work with elements and inventory locations.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
+            logo: explorer-for-endevor.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            github_data:
+              languages:
+                - name: TypeScript
+                  value: 2365187
+                  color: '#2b7489'
+                - name: JavaScript
+                  value: 27494
+                  color: '#f1e05a'
+                - name: Gherkin
+                  value: 6560
+                  color: '#5B2063'
+                - name: Shell
+                  value: 491
+                  color: '#89e051'
+              contributions: 0;0;0;5;0;0;0;0;0;7;6;0;0;5;0;7;0;0;5;0;0;0;0;0;1;0;2;0;0;0;0;0;0;0;0;0;0;1;10;7;7;0;16;4;0;4;0;0;0;0;0;0
+              firstWeek: 2023-02-26Z
+              stars: 10
+              license: Other
+              description: Explorer for Endevor is an extension that modernizes the way you interact with Endevor inventory locations and elements
+              latest_commit_date: '2024-01-05T16:57:56Z'
+              latest_commit_link: /eclipse-che4z/che-che4z-explorer-for-endevor/commit/6c497a4f2886ffa3cf0e47def3505d53f5fd812a
+              release_date: '2023-11-21T15:03:25Z'
+              release_link: https://github.com/eclipse/che-che4z-explorer-for-endevor/releases
+              contributors_count: 25
+              contributors_link: https://github.com/eclipse/che-che4z-explorer-for-endevor/graphs/contributors
+            repos:
+              - url: https://github.com/eclipse/che-che4z-explorer-for-endevor
+                stars: 10
+            github_start_commit_data:
+              start_commit_link: /eclipse-che4z/che-che4z-explorer-for-endevor/commit/34c7a088467ff9bbf9583be355956dfd388d0f2f
+              start_date: '2019-10-21T09:33:53Z'
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: explorer-for-endevor.svg
+              hash: uAVkgOK1KBQ/fIp7/0myJAz8cLeg5xVqjcZa4+2Q8gg=
+            best_practice_data:
+              badge: false
+              percentage: null
           - item:
             name: IBM® z/OS FTP for Zowe Explorer
             description: >-
@@ -19196,29 +19129,16 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-  - category:
-    name: Zowe Conformant Support Provider
-    subcategories:
-      - subcategory:
-        name: Comprehensive ZOWE V1
-        items:
           - item:
-            name: Brightside
+            name: OPS/REXX Language Support Extension for VS Code
             second_path:
-              - Zowe Conformant Support Provider / API Mediation Layer ZOWE V1
-              - Zowe Conformant Support Provider / App Framework ZOWE V1
-              - Zowe Conformant Support Provider / CLI ZOWE V1
-              - Zowe Conformant Support Provider / Explorer for Visual Studio Code ZOWE V1
-              - Zowe Conformant Support Provider / Comprehensive ZOWE V2
-              - Zowe Conformant Support Provider / API Mediation Layer ZOWE V2
-              - Zowe Conformant Support Provider / App Framework ZOWE V2
-              - Zowe Conformant Support Provider / CLI ZOWE V2
-              - Zowe Conformant Support Provider / Explorer for Visual Studio Code ZOWE V2
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: >-
-              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence. 
-              Brightside subscribers also have access to exclusive innovations.
-            homepage_url: https://www.broadcom.com/products/mainframe/application-development/brightside
-            logo: brightside.svg
+              The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
+              syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/BroadcomMFD/opsrexx-language-support
+            logo: opsrexx-language-support-extension-for-vs-code.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             crunchbase_data:
               name: Broadcom Limited
@@ -19260,14 +19180,41 @@ landscape:
                 - Information Technology
                 - Manufacturing
                 - Semiconductor
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13;1;0;0;1;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;5;2;0;0
+              firstWeek: 2023-10-29Z
+              stars: 2
+              license: Other
+              description: >-
+                OPS/REXX Language Support is a VS Code extension that enables automation engineers to develop OPS/MVS® Automated Operations Facility (AOF) rules
+                in a modern interface.
+              latest_commit_date: '2024-10-10T15:47:59Z'
+              latest_commit_link: /BroadcomMFD/opsrexx-language-support/commit/6905d1204cc0f972ddf6245631ffb9e0c7f125e7
+              release_date: '2024-10-10T15:48:52Z'
+              release_link: https://github.com/BroadcomMFD/opsrexx-language-support/releases
+              contributors_count: 1
+              contributors_link: https://github.com/BroadcomMFD/opsrexx-language-support/graphs/contributors
+            repos:
+              - url: https://github.com/BroadcomMFD/opsrexx-language-support
+                stars: 2
+            github_start_commit_data:
+              start_commit_link: /BroadcomMFD/opsrexx-language-support/commit/4f7ef970c842984260fd5ce035c59eaba41a0434
+              start_date: '2024-02-28T15:27:36Z'
             yahoo_finance_data:
               effective_ticker: 1YD.F
             image_data:
-              fileName: brightside.svg
-              hash: tTUrSRqNUsuSnj5NPutBPAX1yRgIA2flwbtlkKyqSm4=
+              fileName: ops-rexx-language-support-extension-for-vs-code.svg
+              hash: aKk19UkXjgDBPNAmo1xZ6hR2C+EakgTdvIw7l9zOsMw=
             best_practice_data:
               badge: false
               percentage: null
+  - category:
+    name: Zowe Conformant Support Provider
+    subcategories:
+      - subcategory:
+        name: Comprehensive ZOWE V1
+        items:
           - item:
             name: IBM Z Distribution for Zowe
             second_path:
@@ -20352,9 +20299,75 @@ landscape:
         name: Comprehensive ZOWE V3
         items:
           - item:
+            name: Brightside
+            second_path:
+              - Zowe Conformant Support Provider / Comprehensive ZOWE V2
+              - Zowe Conformant Support Provider / API Mediation Layer ZOWE V3
+              - Zowe Conformant Support Provider / API Mediation Layer ZOWE V2
+              - Zowe Conformant Support Provider / API Mediation Layer ZOWE V1
+              - Zowe Conformant Support Provider / App Framework ZOWE V2
+              - Zowe Conformant Support Provider / App Framework ZOWE V1
+              - Zowe Conformant Support Provider / CLI ZOWE V2
+              - Zowe Conformant Support Provider / CLI ZOWE V1
+              - Zowe Conformant Support Provider / Explorer for Visual Studio Code ZOWE V2
+              - Zowe Conformant Support Provider / Explorer for Visual Studio Code ZOWE V1
+            description: >-
+              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence. 
+              Brightside subscribers also have access to exclusive innovations.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: brightside.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase_data:
+              name: Broadcom Limited
+              description: Broadcom Limited is a designer, developer, and global supplier of a range of analog semiconductor devices.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://broadcom.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/broadcom
+              linkedin: https://www.linkedin.com/company/broadcom
+              acquisitions:
+                - date: '2013-04-11'
+                  acquiree: CyOptics
+                - date: '2013-04-19'
+                  acquiree: Javelin Semiconductor
+                - date: '2013-12-16'
+                  acquiree: LSI Logic
+                - date: '2014-06-23'
+                  acquiree: PLX Technology
+                - date: '2015-02-25'
+                  acquiree: Emulex
+                - date: '2015-05-28'
+                  acquiree: Broadcom
+                - date: '2016-11-02'
+                  acquiree: Brocade Communications Systems
+                - date: '2018-07-11'
+                  acquiree: CA Technologies
+                - date: '2019-08-08'
+                  acquiree: Symantec
+              parents: []
+              ticker: 1YD.F
+              funding: 100000000000
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 1YD.F
+            image_data:
+              fileName: brightside.svg
+              hash: tTUrSRqNUsuSnj5NPutBPAX1yRgIA2flwbtlkKyqSm4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: Enterprise Support for Zowe
             second_path:
-              - Zowe Conformant Support Provider / Comprehensive ZOWE V3
               - Zowe Conformant Support Provider / API Mediation Layer ZOWE V3
               - Zowe Conformant Support Provider / App Framework ZOWE V3
               - Zowe Conformant Support Provider / CLI ZOWE V3
