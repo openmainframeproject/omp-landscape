@@ -36,7 +36,7 @@ products=(
   'Zowe CLI CICS Deploy' 
   'IBM IMS Administration Foundation for z/OS' 
   'IBM Unified Management Server (UMS) for z/OS' 
-  'IBM® z/OS FTP for Zowe Explorer'
+  'zvm_ansible'
 )
 
 for i in ${!products[@]};
