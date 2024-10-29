@@ -4,7 +4,56 @@ cd $(dirname $BASH_SOURCE)
 cd hosted_logos
 
 logo='broadcom_corporation.svg'
-products=('API State Monitor for Zowe API ML' 'View®' 'Database Management Solutions for Db2 for z/OS' 'CA Compliance Event Manager' 'COBOL Language Support' 'Abend Analyzer for Mainframe' 'Debugger for Mainframe' 'Data Editor for Mainframe' 'HLASM Language Support'  'Explorer for Endevor' 'Code4z' 'COBOL Control Flow' 'Alert Central' 'JCL Language Support' 'Test4z' 'Brightside' 'SymDump' 'NetMaster' 'Datacom DST API' 'CA Data Content Discovery' 'CA Mainframe Security Insights Platform' 'Workload Automation CA 7®' 'Vantage™ Storage Resource Manager' 'CA IDMS' 'CA Endevor®' 'CA JCLCheck™ Workload Automation' 'OPS/MVS®' 'CA z/OS Extended Jobs' 'CA z/OS Extended Files' 'MAT Detect' 'MAT Analyze' 'CA SYSVIEW® Performance Management' 'CA Endevor® Bridge For Git' 'CA Secure Credential Store' 'File Master™ Plus' 'Spool™' 'CA MAT' 'ESP Workload Automation' 'Mainframe Topology' 'MAT REST API' 'IDMS Systems REST API' 'OPS/REXX Language Support Extension for VS Code' 'Mainframe Operational Intelligence' 'Enterprise Support for Zowe' 'Mainframe Application Tuner' 'WatchTower Data Insights' 'WatchTower Metric Catalog' 'WatchTower Alert Insights')
+products=(
+  'Compliance Event Manager'
+  'Data Content Discovery'
+  'Datacom DST API'
+  'Endevor®'
+  'IDMS'
+  'MAT'
+  'z/OS Extended Files'
+  'z/OS Extended Jobs'
+  'Secure Credential Store'
+  'JCL Language Support'
+  'Abend Analyzer for Mainframe'
+  'COBOL Control Flow'
+  'COBOL Language Support'
+  'Code4z'
+  'Data Editor for Mainframe'
+  'Debugger for Mainframe'
+  'HLASM Language Support'
+  'JCLCheck™ Workload Automation'
+  'MAT Analyze'
+  'MAT Detect'
+  'Output Management View™ for z/OS'
+  'Workload Automation 7®'
+  'Alert Central'
+  'API State Monitor for Zowe API ML'
+  'IDMS Systems REST API'
+  'Mainframe Security Insights Platform'
+  'Test4z'
+  'Vantage™ Storage Resource Manager'
+  'Output Management Spool™ for z/OS'
+  'Database Management Solutions for Db2 for z/OS'
+  'ESP Workload Automation'
+  'File Master™ Plus'
+  'Mainframe Application Tuner'
+  'Mainframe Operational Intelligence'
+  'Mainframe Topology'
+  'MAT REST API'
+  'NetMaster'
+  'OPS/MVS®'
+  'SymDump'
+  'SYSVIEW® Performance Management'
+  'WatchTower Alert Insights'
+  'WatchTower Data Insights'
+  'WatchTower Metric Catalog'
+  'Endevor® Bridge For Git'
+  'Explorer for Endevor'
+  'OPS/REXX Language Support Extension for VS Code'
+  'Brightside'
+  'Enterprise Support for Zowe'
+)
 
 for i in ${!products[@]};
 do
@@ -16,20 +65,11 @@ do
   filename="${filename//™/}.svg"
   texttoadd="<text x=\"50%\" y=\"50\" style=\"font: 10px sans-serif;alignment-baseline: middle; text-anchor:middle;\">${product}</text></svg>"
   echo "Creating ${filename} for ${product}"
-#  curl -X POST -H "Content-Type: application/json" -d "{\"svg\": `php -r 'echo json_encode(file_get_contents("${logo}"));'`, \"title\": \"${product} logo\", \"caption\": \"${product}\"}" https://autocrop.cncf.io/autocrop
-#  echo ${response}
-#  success=$( jq -r  '.success' <<< "${response}" )
-#  echo ${success}
-#  if [ ${success} ];
-#  then
-#    echo "$( jq -r  '.result' <<< \"${response}\" )"
-#  fi
-
 
   cp $logo $filename
   sed -i'.original' 's/height="33"/height="70"/g' $filename
   sed -i'.original' "s|</svg>|${texttoadd}|g" $filename
-  inkscape $filename --export-text-to-path --export-plain-svg --export-filename=$filename
+  inkscape $filename --actions="page-fit-to-selection" --export-text-to-path --export-plain-svg --export-filename=$filename
 done
 
 rm *.original
