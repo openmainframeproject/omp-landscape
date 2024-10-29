@@ -55,7 +55,7 @@ do
   cp $logo $filename
   sed -i'.original' 's/viewBox="0 0 400 245"/viewBox="0 0 400 300"/g' $filename
   sed -i'.original' "s|</svg>|${texttoadd}|g" $filename
-  inkscape $filename --export-text-to-path --export-plain-svg --export-filename=$filename
+  inkscape $filename --actions="page-fit-to-selection" --export-text-to-path --export-plain-svg --export-filename=$filename
 done
 
 rm *.original
