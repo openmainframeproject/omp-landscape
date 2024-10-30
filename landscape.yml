@@ -357,8 +357,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM® Service Management Unite
-            second_path:
-              - Zowe Conformant / App Framework 2019
+            second_path: Zowe Conformant / App Framework 2019
             description: >-
               IBM® Service Management Unite is a customizable service management user interface that provides dashboards to monitor and operate IBM Z
               environments. Zowe application plugin for Service Management Unite is provided to allow user to use Service Management Unite directly on Zowe
@@ -402,8 +401,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Zowe CLI CICS Deploy plug-in
-            second_path:
-              - Zowe Conformant / CLI 2019
+            second_path: Zowe Conformant / CLI 2019
             description: Deploy applications developed on a workstation to IBM CICS Transaction Server for z/OS.
             homepage_url: https://github.com/IBM/zowe-cli-cics-deploy-plugin
             repo_url: https://github.com/IBM/zowe-cli-cics-deploy-plugin
@@ -412,8 +410,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Zowe Secure Credential Store
-            second_path:
-              - Zowe Conformant / CLI 2019
+            second_path: Zowe Conformant / CLI 2019
             description: Zowe Secure Credential Store lets you store your credentials securely in the credential manager of your operating system.
             homepage_url: https://github.com/zowe/zowe-cli-scs-plugin#readme
             repo_url: https://github.com/zowe/zowe-cli-scs-plugin
@@ -424,8 +421,7 @@ landscape:
         items:
           - item:
             name: (E)JES Zowe REST API
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer (APIML).  The APIML is a gateway that
               provides a single point of access to heterogeneous services that might be located on different systems or locations.
@@ -456,8 +452,7 @@ landscape:
         items:
           - item:
             name: (E)JES Plug-in for Zowe CLI
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
+            second_path: Zowe Conformant / CLI ZOWE V2
             description: >-
               E)JES Plug-in for Zowe Command Line Interface - Provides a "zowe" command supported on Windows, Mac and Linux systems, and others. Supports the
               concept of “plug-ins”, modules that can be
@@ -468,20 +463,12 @@ landscape:
             repo_url: https://github.com/phoenixsoftware/ejes-cli
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-          - item:
-            name: Secure Credential Store
-            description: Secure Credential Store lets you store your credentials securely in the default credential manager of your operating system.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: secure-credential-store.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V1
         items:
           - item:
             name: IBM z Open Editor
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: >-
               An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
               interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and utilizes its APIs for
@@ -489,16 +476,6 @@ landscape:
             homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
             logo: ibm-z-open-editor.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: JCL Language Support
-            description: >-
-              Extension provides an interface in VS Code for developers and system administrators to interact with Job Control Language (JCL) on IBM z/OS
-              mainframes. Edit JCL in a local environment complete with syntax highlighting, linting, and access to a library of sample job snippets.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            repo_url: https://github.com/BroadcomMFD/jcl-language-support
-            logo: jcl-language-support.svg
-            open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Zowe Explorer Extension for FTP
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.zowe-explorer-ftp-extension
@@ -510,8 +487,6 @@ landscape:
         items:
           - item:
             name: Abend Analyzer for Mainframe
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
             description: >-
               Abend Analyzer for Mainframe provides an interface to SymDump® Batch. This extension allows you to browse, manage and view formatted abend reports
               and symbolic data in a modern IDE environment.
@@ -522,8 +497,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: COBOL Control Flow
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
             description: >-
               Provides graphical visualization of program flow for programs written in COBOL. The extension is designed to help COBOL developers to quickly
               comprehend and debug COBOL programs with which they might not be familiar.
@@ -534,9 +507,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: COBOL Language Support
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
-              - Zowe Conformant / CLI ZOWE V1
             description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
             homepage_url: https://integration.mainframe.broadcom.com/
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
@@ -544,8 +514,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Code4z
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
             description: Extension pack for MF users working with z/OS applications and tools. Simplify user experience for new Mainframe developers.
             homepage_url: https://integration.mainframe.broadcom.com/
             repo_url: https://github.com/BroadcomMFD/code4z
@@ -554,8 +522,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Data Editor for Mainframe
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
             description: Data Editor for Mainframe, a VS Code extension that adds a modern user interface to File Master Plus for MVS.
             homepage_url: https://integration.mainframe.broadcom.com/
             repo_url: https://github.com/BroadcomMFD/data-editor-for-mainframe
@@ -564,8 +530,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Debugger for Mainframe
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
             description: This extension provides a modern debugging experience for CICS and Batch programs written in COBOL leveraging Intertest Batch and z/OS
             homepage_url: https://integration.mainframe.broadcom.com/
             repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
@@ -574,8 +538,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: HLASM Language Support
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
             description: >-
               An extension that supports the High Level Assembler language. It provides code completion, highlighting and navigation features, shows mistakes in
               the source, and lets you trace how the conditional assembly is evaluated with a modern debugging experience.
@@ -639,8 +601,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: IBM® IMS™ Plug-in
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
+            second_path: Zowe Conformant / CLI ZOWE V1
             description: >-
               The IBM® IMS™ Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions). You
               can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
@@ -666,8 +627,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: MAT Analyze
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
             description: >-
               MAT Analyze ensures interaction with MAT and enables you to measure your mainframe applications and get the analysis data in the form of MAT
               analysis views using Zowe CLI.
@@ -677,8 +636,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: MAT Detect
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
             description: >-
               MAT Detect provides utilities to access performance data supplied by the Mainframe Application Tuner component Performance Management Assistant
               (PMA).
@@ -688,8 +645,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Output Management View™ for z/OS
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
+            second_path: Zowe Conformant / CLI ZOWE V1
             description: >-
               Output Management View™ for z/OS lets you access report data, list repositories, and search cross-report index names or values in a repository.
               You can also use the plug-in to automate report data exports using rules, and to manage user settings.
