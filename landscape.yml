@@ -222,14 +222,14 @@ landscape:
         items:
           - item:
             name: (E)JES
+            second_path:
+              - Zowe Conformant / CLI ZOWE V1
             description: >-
               (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
               running JES2 or JES3
             homepage_url: https://phoenixsoftware.com/ejes.htm
             logo: phoenix-software-international-ejes.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-            second_path: 
-              - Zowe Conformant / CLI ZOWE V1
           - item:
             name: IBM Z ChatOps
             description: >-
@@ -292,7 +292,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: Rocket® PRO/JCL
-            second_path: 
+            second_path:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: >-
               PRO/JCL is a comprehensive JCL management tool that provides JCL validation, standards enforcement, and reformatting. Designed to help developers
@@ -307,7 +307,7 @@ landscape:
         items:
           - item:
             name: IBM Z Service Management Explorer
-            second_path: 
+            second_path:
               - Zowe Conformant / App Framework ZOWE V2
             description: >-
               IBM Z Service Management Explorer is intended to provide a web-based alternative for the java-based IBM Tivoli Enterprise Portal, providing a
@@ -318,7 +318,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM z/OS Workload Interaction Navigator
-            second_path: 
+            second_path:
               - Zowe Conformant / App Framework ZOWE V2
             description: >-
               IBM z/OS Workload Interaction Navigator reactive analysis helps identify the root cause of transient performance issues by correlating and
@@ -329,7 +329,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM® Db2 Administration Foundation for z/OS
-            second_path: 
+            second_path:
               - Zowe Conformant / App Framework ZOWE V2
             description: >-
               Introduces a modern unified experience for next-gen users that delivers an intuitive alternative to existing Db2 for z/OS administration
@@ -356,7 +356,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM® Service Management Unite
-            second_path: 
+            second_path:
               - Zowe Conformant / App Framework 2019
             description: >-
               IBM® Service Management Unite is a customizable service management user interface that provides dashboards to monitor and operate IBM Z
@@ -368,7 +368,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Rocket™ BlueZone Web
-            second_path: 
+            second_path:
               - Zowe Conformant / App Framework 2019
             description: >-
               Rocket BlueZone Web simplifies the mainframe by making it easy for your users to access host-based applications and data anytime, anywhere and on
@@ -393,7 +393,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: z/OS Connect EE Plug-in for Zowe CLI
-            second_path: 
+            second_path:
               - Zowe Conformant / CLI 2019
             description: A Zowe CLI Plug-in for administering z/OS Connect EE servers.
             homepage_url: https://github.com/zosconnect/zowe-cli-zosconnect-plugin/tree/lts-incremental
@@ -403,7 +403,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Zowe CLI CICS Deploy plug-in
-            second_path: 
+            second_path:
               - Zowe Conformant / CLI 2019
             description: Deploy applications developed on a workstation to IBM CICS Transaction Server for z/OS.
             homepage_url: https://github.com/IBM/zowe-cli-cics-deploy-plugin
@@ -413,7 +413,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Zowe Secure Credential Store
-            second_path: 
+            second_path:
               - Zowe Conformant / CLI 2019
             description: Zowe Secure Credential Store lets you store your credentials securely in the credential manager of your operating system.
             homepage_url: https://github.com/zowe/zowe-cli-scs-plugin#readme
@@ -425,7 +425,7 @@ landscape:
         items:
           - item:
             name: (E)JES Zowe REST API
-            second_path: 
+            second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer (APIML).  The APIML is a gateway that
@@ -457,7 +457,7 @@ landscape:
         items:
           - item:
             name: (E)JES Plug-in for Zowe CLI
-            second_path: 
+            second_path:
               - Zowe Conformant / CLI ZOWE V2
             description: >-
               E)JES Plug-in for Zowe Command Line Interface - Provides a "zowe" command supported on Windows, Mac and Linux systems, and others. Supports the
@@ -474,7 +474,7 @@ landscape:
         items:
           - item:
             name: IBM z Open Editor
-            second_path: 
+            second_path:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: >-
               An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
@@ -564,7 +564,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: JCLCheck™ Workload Automation
-            second_path: 
+            second_path:
               - Zowe Conformant / CLI ZOWE V2
             description: >-
               JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
@@ -577,13 +577,6 @@ landscape:
       - subcategory:
         name: CLI ZOWE V2
         items:
-          - item:
-            name: IDMS
-            description: IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: idms.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI
             second_path:
@@ -609,7 +602,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: IBM® IMS™ Plug-in
-            second_path: 
+            second_path:
               - Zowe Conformant / CLI ZOWE V1
             description: >-
               The IBM® IMS™ Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions). You
@@ -634,6 +627,13 @@ landscape:
             repo_url: https://github.com/zowe/zowe-cli-mq-plugin
             logo: ibm-mq-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+          - item:
+            name: IDMS
+            description: IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: idms.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: MAT Analyze
             description: >-
@@ -753,7 +753,7 @@ landscape:
         items:
           - item:
             name: Output Management Spool™ for z/OS
-            second_path: 
+            second_path:
               - Zowe Conformant / CLI ZOWE V2
             description: Output Management Spool™ for z/OS Plug-in for Zowe CLI allows issuing Spool native commands from Zowe CLI.
             homepage_url: https://integration.mainframe.broadcom.com/
@@ -762,6 +762,17 @@ landscape:
       - subcategory:
         name: API Mediation Layer ZOWE V3
         items:
+          - item:
+            name: Database Management Solutions for Db2 for z/OS
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V3
+              - Zowe Conformant / CLI ZOWE V2
+            description: Db2 for z/OS administration, performance monitoring, and DevOps capabilities using modern API and CLI interfaces
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: database-management-solutions-for-db2-for-zos.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Endevor®
             second_path:
@@ -776,28 +787,8 @@ landscape:
             logo: endevor.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
-            name: Workload Automation 7®
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V2
-            description: Zowe CLI plugins for 7
-            homepage_url: https://integration.mainframe.broadcom.com/
-            logo: workload-automation-7.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: Database Management Solutions for Db2 for z/OS
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V3
-              - Zowe Conformant / CLI ZOWE V2
-            description: Db2 for z/OS administration, performance monitoring, and DevOps capabilities using modern API and CLI interfaces
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: database-management-solutions-for-db2-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
             name: ESP Workload Automation
-            second_path: 
+            second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V2
             homepage_url: https://integration.mainframe.broadcom.com/
             project: null
@@ -817,7 +808,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Mainframe Application Tuner
-            second_path: 
+            second_path:
               - Zowe Conformant / CLI ZOWE V3
             description: >-
               The REST API enables application and system programmers to manage the application measurement process and access the MAT measurement data stored
@@ -833,7 +824,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Mainframe Topology
-            second_path: 
+            second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               Mainframe Topology auto-discovers your mainframe environment by analyzing SMF data. It provides a modern web interface to view both the mainframe
@@ -844,7 +835,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: MAT REST API
-            second_path: 
+            second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               MAT REST API to measure your mainframe applications performance with Mainframe Application Tuner and obtain the measurement results for detailed
@@ -854,7 +845,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: NetMaster
-            second_path: 
+            second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               NetMaster includes a microservice that leverages the Open Mainframe Project ZoweTM Spring Boot REST API SDK. It provides NetMaster customers with
@@ -875,7 +866,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: SymDump
-            second_path: 
+            second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V2
             description: SymDump is a fault management tool designed to identify and resolve dumps. The tool provides multitude of user interfaces including REST API.
             homepage_url: https://integration.mainframe.broadcom.com/
@@ -918,12 +909,21 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: watchtower-metric-catalog.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: Workload Automation 7®
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V2
+            description: Zowe CLI plugins for 7
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: workload-automation-7.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
         items:
           - item:
             name: Endevor® Bridge For Git
-            second_path: 
+            second_path:
               - Zowe Conformant / CLI ZOWE V2
             description: >-
               The Endevor Bridge for Git Plug-in for Zowe CLI allows you to work with and manage Git-Endevor mappings of your Bridge for Git server. Also, as a
@@ -934,7 +934,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Explorer for Endevor
-            second_path: 
+            second_path:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: Modernizes the way you interact with Endevor, offering a user-friendly and convenient way to work with elements and inventory locations.
             homepage_url: https://integration.mainframe.broadcom.com/
@@ -951,7 +951,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: OPS/REXX Language Support Extension for VS Code
-            second_path: 
+            second_path:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: >-
               The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
