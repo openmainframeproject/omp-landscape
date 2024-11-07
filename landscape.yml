@@ -562,18 +562,6 @@ landscape:
             repo_url: https://github.com/zowe/vscode-extension-for-cics
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
-            name: JCLCheck™ Workload Automation
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
-              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
-              production cycles
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: jclcheck-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: CLI ZOWE V2
         items:
@@ -1018,7 +1006,18 @@ landscape:
         items: []
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V2
-        items: []
+        items:
+          - item:
+            name: JCLCheck™ Workload Automation
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / API Mediation layer ZOWE V2
+              - Zowe Conformant Support Provider / API Mediation layer ZOWE V2
+            description: Zowe APIML Catalog for JCLCheck.
+            homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-s oftware/automation/ca-jclcheck-workload-automation/12-0.html
+            stock_ticker: AVGO
+            logo: jclcheck-workload-automation.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
