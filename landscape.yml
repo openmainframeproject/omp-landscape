@@ -320,18 +320,6 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
             logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: JCLCheck™ Workload Automation
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
-              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
-              production cycles
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: jclcheck-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: CLI ZOWE V2
         items:
@@ -393,6 +381,19 @@ landscape:
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
+          - item:
+            name: JCLCheck™ Workload Automation
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            description: >-
+              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: jclcheck-workload-automation.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: IBM Z JCL Expert
             second_path: Zowe Conformant / CLI ZOWE V2
@@ -788,8 +789,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: OPS/REXX Language Support Extension for VS Code
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: >-
               The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
               syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
@@ -865,6 +865,16 @@ landscape:
             homepage_url: https://www.rocketsoftware.com/products/rocket-zowe
             logo: rocket-support.svg
             crunchbase: https://www.crunchbase.com/organization/rocket-software
+          - item:
+            name: JCLCheck Workload Automation
+            description: >-
+              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes.  Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles.
+            homepage_url: https://integration.mainframe.broadcom.com
+            stock_ticker: AVGO
+            logo: jclcheck-workload-automation.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: App Framework ZOWE V2
         items: []
