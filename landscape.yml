@@ -219,54 +219,10 @@ landscape:
     subcategories:
       - subcategory:
         name: API Mediation Layer ZOWE V1
-        items:
-          - item:
-            name: IBM® Z Netview
-            second_path:
-              - Zowe Conformant / API Mediation Layer 2019
-              - Zowe Conformant / App Framework 2019
-              - Zowe Conformant / App Framework ZOWE V1
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
-              systems management to address your requirements for business agility on IBM Z systems.
-            homepage_url: https://www.ibm.com/products/z-netview
-            logo: ibm-z-netview.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IMS Operations API
-            homepage_url: https://github.com/zowe/ims-operations-api#readme
-            repo_url: https://github.com/zowe/ims-operations-api
-            logo: zowe-ims-operations-api.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
-            name: Rocket® PRO/JCL
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: >-
-              PRO/JCL is a comprehensive JCL management tool that provides JCL validation, standards enforcement, and reformatting. Designed to help developers
-              streamline their JCL workflows on the z/OS mainframe, this extension allows you to access the most important features of PRO/JCL from Visual
-              Studio Code.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=RocketSoftware.projcl-vscode
-            project: null
-            logo: rocket-projcl.svg
-            crunchbase: https://www.crunchbase.com/organization/rocket-software
+        items: []
       - subcategory:
         name: App Framework ZOWE V1
         items:
-          - item:
-            name: IBM Z Service Management Explorer
-            second_path:
-              - Zowe Conformant / App Framework ZOWE V2
-            description: >-
-              IBM Z Service Management Explorer is intended to provide a web-based alternative for the java-based IBM Tivoli Enterprise Portal, providing a
-              graphical user interface for IBM OMEGAMON agents.
-            homepage_url: https://www.ibm.com/docs/en/om-shared
-            logo: ibm-z-service-management-explorer.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM z/OS Workload Interaction Navigator
             second_path:
@@ -443,6 +399,16 @@ landscape:
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V2
         items:
+          - item:
+            name: Rocket® PRO/JCL
+            description: >-
+              PRO/JCL is a comprehensive JCL management tool that provides JCL validation, standards enforcement, and reformatting. Designed to help developers
+              streamline their JCL workflows on the z/OS mainframe, this extension allows you to access the most important features of PRO/JCL from Visual
+              Studio Code.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=RocketSoftware.projcl-vscode
+            project: null
+            logo: rocket-projcl.svg
+            crunchbase: https://www.crunchbase.com/organization/rocket-software
           - item:
             name: Abend Analyzer for Mainframe
             description: >-
@@ -646,6 +612,15 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
+            name: IBM® Z Netview
+            description: >-
+              IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
+              systems management to address your requirements for business agility on IBM Z systems.
+            homepage_url: https://www.ibm.com/products/z-netview
+            logo: ibm-z-netview.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
             name: Alert Central
             description: Alert Central is a product used to quickly identify and resolve incidents across multiple systems and applications.
             homepage_url: https://integration.mainframe.broadcom.com/
@@ -686,6 +661,15 @@ landscape:
       - subcategory:
         name: App Framework ZOWE V2
         items:
+          - item:
+            name: IBM Z Service Management Explorer
+            description: >-
+              IBM Z Service Management Explorer is intended to provide a web-based alternative for the java-based IBM Tivoli Enterprise Portal, providing a
+              graphical user interface for IBM OMEGAMON agents.
+            homepage_url: https://www.ibm.com/docs/en/om-shared
+            logo: ibm-z-service-management-explorer.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: (E)JES Web App on Zowe Desktop
             description: (E)JES Web running on the Zowe Desktop (a ZSS component)
