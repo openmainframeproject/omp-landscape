@@ -221,55 +221,6 @@ landscape:
         name: API Mediation Layer ZOWE V1
         items:
           - item:
-            name: (E)JES
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-            description: >-
-              (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
-              running JES2 or JES3
-            homepage_url: https://phoenixsoftware.com/ejes.htm
-            logo: phoenix-software-international-ejes.svg
-            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-          - item:
-            name: IBM Z ChatOps
-            description: >-
-              IBM Z ChatOps V1.1.2 provides ChatOps capabilities for an IBM Z environment by providing a chatbot that gives users in a supported enterprise chat
-              tool access to information from IBM Z systems management tools.
-
-              IBM Z ChatOps also provides an incident webhook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident to enable other products to
-              send their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data model.
-            homepage_url: https://www.ibm.com/docs/en/z-chatops
-            project: null
-            logo: z-chatops.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IBM Z JCL Expert
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
-              costly delays through mass JCL checking.
-            homepage_url: https://www.ibm.com/products/z-jcl-expert
-            project: null
-            logo: ibm-z-jcl-expert.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IBM® Remote System Explorer API
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              REST APIs for working with various components on the z/OS host system, including MVS data sets, z/OS UNIX files and commands, JES jobs, TSO
-              Commands, and more.
-            homepage_url: https://ibm.github.io/mainframe-downloads/host-components.html#rse-api-host
-            logo: ibm-remote-system-explorer-api.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
             name: IBM® Z Netview
             second_path:
               - Zowe Conformant / API Mediation Layer 2019
@@ -674,6 +625,26 @@ landscape:
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
+          - item:
+            name: IBM Z JCL Expert
+            second_path: Zowe Conformant / CLI ZOWE V2
+            description: >-
+              IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
+              costly delays through mass JCL checking.
+            homepage_url: https://www.ibm.com/products/z-jcl-expert
+            project: null
+            logo: ibm-z-jcl-expert.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: IBM® Remote System Explorer API
+            second_path: Zowe Conformant / CLI ZOWE V2
+            description: >-
+              REST APIs for working with various components on the z/OS host system, including MVS data sets, z/OS UNIX files and commands, JES jobs, TSO
+              Commands, and more.
+            homepage_url: https://ibm.github.io/mainframe-downloads/host-components.html#rse-api-host
+            logo: ibm-remote-system-explorer-api.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Alert Central
             description: Alert Central is a product used to quickly identify and resolve incidents across multiple systems and applications.
