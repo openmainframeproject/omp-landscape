@@ -219,81 +219,30 @@ landscape:
     subcategories:
       - subcategory:
         name: API Mediation Layer ZOWE V1
+        items: []
+      - subcategory:
+        name: App Framework ZOWE V1
+        items: []
+      - subcategory:
+        name: CLI ZOWE V1
+        items: []
+      - subcategory:
+        name: API Mediation Layer 2019
+        items: []
+      - subcategory:
+        name: App Framework 2019
+        items: []
+      - subcategory:
+        name: CLI 2019
+        items: []
+      - subcategory:
+        name: Explorer for Visual Studio Code ZOWE V1
+        items: []
+      - subcategory:
+        name: Explorer for Visual Studio Code ZOWE V2
         items:
           - item:
-            name: (E)JES
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-            description: >-
-              (E)JES is a systems management tool that provides all the information you need to monitor, manage, and control your z/OS® JESplex—whether you are
-              running JES2 or JES3
-            homepage_url: https://phoenixsoftware.com/ejes.htm
-            logo: phoenix-software-international-ejes.svg
-            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-          - item:
-            name: IBM Z ChatOps
-            description: >-
-              IBM Z ChatOps V1.1.2 provides ChatOps capabilities for an IBM Z environment by providing a chatbot that gives users in a supported enterprise chat
-              tool access to information from IBM Z systems management tools.
-
-              IBM Z ChatOps also provides an incident webhook https://your_microservice_server:your_port_number/ibm/bnz/v1/incident to enable other products to
-              send their own incidents, events, and alert data to the chat platform in the required JSON format of common incident data model.
-            homepage_url: https://www.ibm.com/docs/en/z-chatops
-            project: null
-            logo: z-chatops.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IBM Z JCL Expert
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
-              costly delays through mass JCL checking.
-            homepage_url: https://www.ibm.com/products/z-jcl-expert
-            project: null
-            logo: ibm-z-jcl-expert.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IBM® Remote System Explorer API
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              REST APIs for working with various components on the z/OS host system, including MVS data sets, z/OS UNIX files and commands, JES jobs, TSO
-              Commands, and more.
-            homepage_url: https://ibm.github.io/mainframe-downloads/host-components.html#rse-api-host
-            logo: ibm-remote-system-explorer-api.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IBM® Z Netview
-            second_path:
-              - Zowe Conformant / API Mediation Layer 2019
-              - Zowe Conformant / App Framework 2019
-              - Zowe Conformant / App Framework ZOWE V1
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
-              systems management to address your requirements for business agility on IBM Z systems.
-            homepage_url: https://www.ibm.com/products/z-netview
-            logo: ibm-z-netview.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IMS Operations API
-            homepage_url: https://github.com/zowe/ims-operations-api#readme
-            repo_url: https://github.com/zowe/ims-operations-api
-            logo: zowe-ims-operations-api.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
             name: Rocket® PRO/JCL
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: >-
               PRO/JCL is a comprehensive JCL management tool that provides JCL validation, standards enforcement, and reformatting. Designed to help developers
               streamline their JCL workflows on the z/OS mainframe, this extension allows you to access the most important features of PRO/JCL from Visual
@@ -302,180 +251,8 @@ landscape:
             project: null
             logo: rocket-projcl.svg
             crunchbase: https://www.crunchbase.com/organization/rocket-software
-      - subcategory:
-        name: App Framework ZOWE V1
-        items:
-          - item:
-            name: IBM Z Service Management Explorer
-            second_path:
-              - Zowe Conformant / App Framework ZOWE V2
-            description: >-
-              IBM Z Service Management Explorer is intended to provide a web-based alternative for the java-based IBM Tivoli Enterprise Portal, providing a
-              graphical user interface for IBM OMEGAMON agents.
-            homepage_url: https://www.ibm.com/docs/en/om-shared
-            logo: ibm-z-service-management-explorer.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IBM z/OS Workload Interaction Navigator
-            second_path:
-              - Zowe Conformant / App Framework ZOWE V2
-            description: >-
-              IBM z/OS Workload Interaction Navigator reactive analysis helps identify the root cause of transient performance issues by correlating and
-              contextually prioritizing short term anomalous activities. The historical inspector analyzes performance issues over a period of time to highlight
-              system resilience risks.
-            homepage_url: https://www.ibm.com/products/zos-workload-interaction-navigator
-            logo: ibm-zos-workload-interaction-navigator.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IBM® Db2 Administration Foundation for z/OS
-            second_path:
-              - Zowe Conformant / App Framework ZOWE V2
-            description: >-
-              Introduces a modern unified experience for next-gen users that delivers an intuitive alternative to existing Db2 for z/OS administration
-              experience with capabilities to view database object details, run SQL queries and Db2 commands. With release 1.2, integration with IBM Db2
-              Analytics Accelerator Administration Services and IBM Query Workload Tuner for z/OS is now available to support accelerator management and
-              workload tuning respectively.
-            homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
-            logo: ibm-db2-administration-foundation-for-zos.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IBM® Db2 DevOps Experience for z/OS
-            second_path:
-              - Zowe Conformant / App Framework 2019
-              - Zowe Conformant / API Mediation Layer 2019
-              - Zowe Conformant / CLI 2019
-              - Zowe Conformant / App Framework ZOWE V2
-            description: >-
-              Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
-              practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
-            homepage_url: https://www.ibm.com/products/db2-devops-experience
-            logo: db2-devops-experience-for-zos.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IBM® Service Management Unite
-            second_path:
-              - Zowe Conformant / App Framework 2019
-            description: >-
-              IBM® Service Management Unite is a customizable service management user interface that provides dashboards to monitor and operate IBM Z
-              environments. Zowe application plugin for Service Management Unite is provided to allow user to use Service Management Unite directly on Zowe
-              Desktop.
-            homepage_url: https://www.ibm.com/products/service-management-unite
-            logo: service-management-unite.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: Rocket™ BlueZone Web
-            second_path:
-              - Zowe Conformant / App Framework 2019
-            description: >-
-              Rocket BlueZone Web simplifies the mainframe by making it easy for your users to access host-based applications and data anytime, anywhere and on
-              any device.
-            homepage_url: https://www.rocketsoftware.com/products/rocket-bluezonepassport-terminal-emulator/rocket-bluezone-web
-            logo: rocketsoftware-bluezoneweb.svg
-            crunchbase: https://www.crunchbase.com/organization/rocket-software
-      - subcategory:
-        name: CLI ZOWE V1
-        items:
-          - item:
-            name: IBM® Z® Workload Scheduler V 9.5.0.2
-            second_path:
-              - Zowe Conformant / API Mediation Layer 2019
-              - Zowe Conformant / CLI 2019
-            description: >-
-              IBM® Z® Workload Scheduler is a workload automation solution that enables organizations to automate, plan and control the processing of complex
-              systems’ workloads.
-            homepage_url: https://www.ibm.com/products/z-workload-scheduler
-            logo: ibm-z-workload-scheduler.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: z/OS Connect EE Plug-in for Zowe CLI
-            second_path:
-              - Zowe Conformant / CLI 2019
-            description: A Zowe CLI Plug-in for administering z/OS Connect EE servers.
-            homepage_url: https://github.com/zosconnect/zowe-cli-zosconnect-plugin/tree/lts-incremental
-            repo_url: https://github.com/zosconnect/zowe-cli-zosconnect-plugin
-            logo: zos-connect-ee.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: Zowe CLI CICS Deploy plug-in
-            second_path:
-              - Zowe Conformant / CLI 2019
-            description: Deploy applications developed on a workstation to IBM CICS Transaction Server for z/OS.
-            homepage_url: https://github.com/IBM/zowe-cli-cics-deploy-plugin
-            repo_url: https://github.com/IBM/zowe-cli-cics-deploy-plugin
-            logo: zowe-cli-cics-deploy.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: Zowe Secure Credential Store
-            second_path:
-              - Zowe Conformant / CLI 2019
-            description: Zowe Secure Credential Store lets you store your credentials securely in the credential manager of your operating system.
-            homepage_url: https://github.com/zowe/zowe-cli-scs-plugin#readme
-            repo_url: https://github.com/zowe/zowe-cli-scs-plugin
-            logo: zowe-secure-credential-store.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-      - subcategory:
-        name: API Mediation Layer 2019
-        items:
-          - item:
-            name: (E)JES Zowe REST API
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer (APIML).  The APIML is a gateway that
-              provides a single point of access to heterogeneous services that might be located on different systems or locations.
-            homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
-            logo: phoenix-software-international-ejes.svg
-            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-      - subcategory:
-        name: App Framework 2019
-        items:
-          - item:
-            name: IBM® Service Automation Suite
-            description: IBM® Service Automation Suite V1.1.0 offers a single point of control for a broad range of systems management functions.
-            homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
-            logo: service-automation-suite.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IBM® Service Management Suite for z/OS
-            description: >-
-              IBM® Service Management Suite is focused on delivering comprehensive management of your z/OS enterprise, encompassing monitoring, automation,
-              network management, and asset discovery.
-            homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
-            logo: service-management-suite-for-zos.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-      - subcategory:
-        name: CLI 2019
-        items:
-          - item:
-            name: (E)JES Plug-in for Zowe CLI
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              E)JES Plug-in for Zowe Command Line Interface - Provides a "zowe" command supported on Windows, Mac and Linux systems, and others. Supports the
-              concept of “plug-ins”, modules that can be
-
-              incorporated into the CLI framework extending functionality of basic “zowe” command. Allows plug-in to support a common syntax for command line
-              directives, options and parameters. Provides command line functions to stream or search mainframe system logs.
-            homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
-            repo_url: https://github.com/phoenixsoftware/ejes-cli
-            logo: phoenix-software-international-ejes.svg
-            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-      - subcategory:
-        name: Explorer for Visual Studio Code ZOWE V1
-        items:
           - item:
             name: IBM z Open Editor
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: >-
               An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
               interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and utilizes its APIs for
@@ -483,15 +260,6 @@ landscape:
             homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
             logo: ibm-z-open-editor.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: Zowe Explorer Extension for FTP
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.zowe-explorer-ftp-extension
-            repo_url: https://github.com/zowe/vscode-extension-for-zowe
-            logo: zowe-explorer-extension-for-ftp.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-      - subcategory:
-        name: Explorer for Visual Studio Code ZOWE V2
-        items:
           - item:
             name: Abend Analyzer for Mainframe
             description: >-
@@ -552,80 +320,29 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
             logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: IBM® CICS® for Zowe Explorer
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V1
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V3
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
-            project: null
-            repo_url: https://github.com/zowe/vscode-extension-for-cics
-            logo: zowe-explorer-for-ibm-cics.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
-            name: JCLCheck™ Workload Automation
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
-              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
-              production cycles
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: jclcheck-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: CLI ZOWE V2
         items:
           - item:
-            name: IBM® CICS® Plug-in for Zowe CLI
-            second_path:
-              - Zowe Conformant / CLI ZOWE V3
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI 2019
-            description: The IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS programs and transactions.
-            homepage_url: https://https://github.com/zowe/zowe-cli-cics-plugin#readme
-            logo: ibm-cics-for-cli.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
-            name: IBM® Db2® Database Plug-in for Zowe CLI
-            second_path:
-              - Zowe Conformant / CLI ZOWE V3
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI 2019
+            name: (E)JES Plug-in for Zowe CLI
             description: >-
-              The IBM® Db2® Database Plug-in for Zowe CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development tools to
-              automate typical workloads more efficiently.
-            homepage_url: http://github.com/zowe/zowe-cli-db2-plugin#readme
-            repo_url: https://github.com/zowe/zowe-cli-db2-plugin
-            logo: ibm-db2-for-cli.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+              E)JES Plug-in for Zowe Command Line Interface - Provides a "zowe" command supported on Windows, Mac and Linux systems, and others. Supports the
+              concept of “plug-ins”, modules that can be
+
+              incorporated into the CLI framework extending functionality of basic “zowe” command. Allows plug-in to support a common syntax for command line
+              directives, options and parameters. Provides command line functions to stream or search mainframe system logs.
+            homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
+            repo_url: https://github.com/phoenixsoftware/ejes-cli
+            logo: phoenix-software-international-ejes.svg
+            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
             name: IBM® IMS™ Plug-in
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
             description: >-
               The IBM® IMS™ Plug-in for Zowe CLI lets you extend Zowe CLI such that it can interact with IMS resources (regions, programs and transactions). You
               can use the plug-in to start, stop, and query regions and start, stop, query, and update programs and transactions.
             homepage_url: http://github.com/zowe/zowe-cli-ims-plugin#readme
             repo_url: https://github.com/zowe/zowe-cli-ims-plugin
             logo: ibm-ims-for-cli.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
-            name: IBM® MQ Plug-in for Zowe CLI
-            second_path:
-              - Zowe Conformant / App Framework 2019
-              - Zowe Conformant / API Mediation Layer 2019
-              - Zowe Conformant / CLI 2019
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / CLI ZOWE V3
-            description: >-
-              The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks, such
-              as defining, altering, and deleting local queue objects.
-            homepage_url: https://github.com/zowe/zowe-cli-mq-plugin#readme
-            repo_url: https://github.com/zowe/zowe-cli-mq-plugin
-            logo: ibm-mq-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: IDMS
@@ -661,19 +378,61 @@ landscape:
             stock_ticker: AVGO
             logo: output-management-view-for-zos.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: z/OS FTP Plug-in for Zowe CLI
-            second_path:
-              - Zowe Conformant / CLI ZOWE V1
-              - Zowe Conformant / CLI ZOWE V3
-            description: The z/OS FTP Plug-in for Zowe CLI lets you access z/OS datasets, USS files, and submit JCL, leveraging the z/OS FTP service.
-            homepage_url: https://github.com/zowe/zowe-cli-ftp-plugin#readme
-            repo_url: https://github.com/zowe/zowe-cli-ftp-plugin
-            logo: zowe-zos-ftp-for-cli.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
+          - item:
+            name: JCLCheck™ Workload Automation
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            description: >-
+              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: jclcheck-workload-automation.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: IBM Z JCL Expert
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: >-
+              IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
+              costly delays through mass JCL checking.
+            homepage_url: https://www.ibm.com/products/z-jcl-expert
+            project: null
+            logo: ibm-z-jcl-expert.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: IBM® Remote System Explorer API
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: >-
+              REST APIs for working with various components on the z/OS host system, including MVS data sets, z/OS UNIX files and commands, JES jobs, TSO
+              Commands, and more.
+            homepage_url: https://ibm.github.io/mainframe-downloads/host-components.html#rse-api-host
+            logo: ibm-remote-system-explorer-api.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: IBM® Z Netview
+            description: >-
+              IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
+              systems management to address your requirements for business agility on IBM Z systems.
+            homepage_url: https://www.ibm.com/products/z-netview
+            logo: ibm-z-netview.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: (E)JES Zowe REST API
+            description: >-
+              The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer (APIML).  The APIML is a gateway that
+              provides a single point of access to heterogeneous services that might be located on different systems or locations.
+            homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
+            logo: phoenix-software-international-ejes.svg
+            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
             name: Alert Central
             description: Alert Central is a product used to quickly identify and resolve incidents across multiple systems and applications.
@@ -716,6 +475,44 @@ landscape:
         name: App Framework ZOWE V2
         items:
           - item:
+            name: IBM Z Service Management Explorer
+            description: >-
+              IBM Z Service Management Explorer is intended to provide a web-based alternative for the java-based IBM Tivoli Enterprise Portal, providing a
+              graphical user interface for IBM OMEGAMON agents.
+            homepage_url: https://www.ibm.com/docs/en/om-shared
+            logo: ibm-z-service-management-explorer.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: IBM z/OS Workload Interaction Navigator
+            description: >-
+              IBM z/OS Workload Interaction Navigator reactive analysis helps identify the root cause of transient performance issues by correlating and
+              contextually prioritizing short term anomalous activities. The historical inspector analyzes performance issues over a period of time to highlight
+              system resilience risks.
+            homepage_url: https://www.ibm.com/products/zos-workload-interaction-navigator
+            logo: ibm-zos-workload-interaction-navigator.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: IBM® Db2 Administration Foundation for z/OS
+            description: >-
+              Introduces a modern unified experience for next-gen users that delivers an intuitive alternative to existing Db2 for z/OS administration
+              experience with capabilities to view database object details, run SQL queries and Db2 commands. With release 1.2, integration with IBM Db2
+              Analytics Accelerator Administration Services and IBM Query Workload Tuner for z/OS is now available to support accelerator management and
+              workload tuning respectively.
+            homepage_url: https://www.ibm.com/common/ssi/ShowDoc.wss
+            logo: ibm-db2-administration-foundation-for-zos.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: IBM® Db2 DevOps Experience for z/OS
+            description: >-
+              Allows you to bring applications to market more rapidly, at lower costs and with less risk. You can implement modern application development
+              practices by automating and standardizing processes while ensuring your organizational standards and business rules are followed.
+            homepage_url: https://www.ibm.com/products/db2-devops-experience
+            logo: db2-devops-experience-for-zos.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
             name: (E)JES Web App on Zowe Desktop
             description: (E)JES Web running on the Zowe Desktop (a ZSS component)
             homepage_url: https://www.phoenixsoftware.com/ejes.htm
@@ -751,6 +548,45 @@ landscape:
       - subcategory:
         name: CLI ZOWE V3
         items:
+          - item:
+            name: IBM® CICS® Plug-in for Zowe CLI
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: The IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS programs and transactions.
+            homepage_url: https://https://github.com/zowe/zowe-cli-cics-plugin#readme
+            logo: ibm-cics-for-cli.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+          - item:
+            name: IBM® Db2® Database Plug-in for Zowe CLI
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: >-
+              The IBM® Db2® Database Plug-in for Zowe CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development tools to
+              automate typical workloads more efficiently.
+            homepage_url: http://github.com/zowe/zowe-cli-db2-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-db2-plugin
+            logo: ibm-db2-for-cli.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+          - item:
+            name: IBM® MQ Plug-in for Zowe CLI
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: >-
+              The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks, such
+              as defining, altering, and deleting local queue objects.
+            homepage_url: https://github.com/zowe/zowe-cli-mq-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-mq-plugin
+            logo: ibm-mq-for-cli.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+          - item:
+            name: z/OS FTP Plug-in for Zowe CLI
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: The z/OS FTP Plug-in for Zowe CLI lets you access z/OS datasets, USS files, and submit JCL, leveraging the z/OS FTP service.
+            homepage_url: https://github.com/zowe/zowe-cli-ftp-plugin#readme
+            repo_url: https://github.com/zowe/zowe-cli-ftp-plugin
+            logo: zowe-zos-ftp-for-cli.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: Output Management Spool™ for z/OS
             second_path:
@@ -922,6 +758,15 @@ landscape:
         name: Explorer for Visual Studio Code ZOWE V3
         items:
           - item:
+            name: IBM® CICS® for Zowe Explorer
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
+            project: null
+            repo_url: https://github.com/zowe/vscode-extension-for-cics
+            logo: zowe-explorer-for-ibm-cics.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+          - item:
             name: Endevor® Bridge For Git
             second_path:
               - Zowe Conformant / CLI ZOWE V2
@@ -965,15 +810,25 @@ landscape:
     subcategories:
       - subcategory:
         name: Comprehensive ZOWE V1
+        items: []
+      - subcategory:
+        name: API Mediation Layer ZOWE V1
+        items: []
+      - subcategory:
+        name: App Framework ZOWE V1
+        items: []
+      - subcategory:
+        name: CLI ZOWE V1
+        items: []
+      - subcategory:
+        name: Explorer for Visual Studio Code ZOWE V1
+        items: []
+      - subcategory:
+        name: Comprehensive ZOWE V2
         items:
           - item:
             name: IBM Z Distribution for Zowe
             second_path:
-              - Zowe Conformant Support Provider / API Mediation Layer ZOWE V1
-              - Zowe Conformant Support Provider / App Framework ZOWE V1
-              - Zowe Conformant Support Provider / CLI ZOWE V1
-              - Zowe Conformant Support Provider / Explorer for Visual Studio Code ZOWE V1
-              - Zowe Conformant Support Provider / Comprehensive ZOWE V2
               - Zowe Conformant Support Provider / API Mediation Layer ZOWE V2
               - Zowe Conformant Support Provider / App Framework ZOWE V2
               - Zowe Conformant Support Provider / CLI ZOWE V2
@@ -989,17 +844,15 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
       - subcategory:
-        name: API Mediation Layer ZOWE V1
+        name: Explorer for Visual Studio Code ZOWE V2
         items: []
       - subcategory:
-        name: App Framework ZOWE V1
+        name: API Mediation Layer ZOWE V2
         items:
           - item:
             name: IBM® Z System Automation
             second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
               - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / CLI ZOWE V1
             description: >-
               IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
               and applications.
@@ -1007,21 +860,6 @@ landscape:
             logo: ibm-z-system-automation.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-      - subcategory:
-        name: CLI ZOWE V1
-        items: []
-      - subcategory:
-        name: Explorer for Visual Studio Code ZOWE V1
-        items: []
-      - subcategory:
-        name: Comprehensive ZOWE V2
-        items: []
-      - subcategory:
-        name: Explorer for Visual Studio Code ZOWE V2
-        items: []
-      - subcategory:
-        name: API Mediation Layer ZOWE V2
-        items:
           - item:
             name: Rocket Support for Zowe
             second_path:
@@ -1036,6 +874,16 @@ landscape:
             homepage_url: https://www.rocketsoftware.com/products/rocket-zowe
             logo: rocket-support.svg
             crunchbase: https://www.crunchbase.com/organization/rocket-software
+          - item:
+            name: JCLCheck Workload Automation
+            description: >-
+              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes.  Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles.
+            homepage_url: https://integration.mainframe.broadcom.com
+            stock_ticker: AVGO
+            logo: jclcheck-workload-automation.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: App Framework ZOWE V2
         items: []
