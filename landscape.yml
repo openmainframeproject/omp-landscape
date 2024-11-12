@@ -396,7 +396,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: IBM Z JCL Expert
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
               costly delays through mass JCL checking.
@@ -406,7 +407,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM® Remote System Explorer API
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               REST APIs for working with various components on the z/OS host system, including MVS data sets, z/OS UNIX files and commands, JES jobs, TSO
               Commands, and more.
@@ -548,14 +550,16 @@ landscape:
         items:
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: The IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS programs and transactions.
             homepage_url: https://https://github.com/zowe/zowe-cli-cics-plugin#readme
             logo: ibm-cics-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: IBM® Db2® Database Plug-in for Zowe CLI
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               The IBM® Db2® Database Plug-in for Zowe CLI lets you interact with IBM® Db2® Database for z/OS and perform tasks with modern development tools to
               automate typical workloads more efficiently.
@@ -565,7 +569,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: IBM® MQ Plug-in for Zowe CLI
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               The IBM® MQ Plug-in for Zowe CLI lets you issue MQSC commands to a queue manager. With MQSC commands, you can perform administration tasks, such
               as defining, altering, and deleting local queue objects.
@@ -575,7 +580,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: z/OS FTP Plug-in for Zowe CLI
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: The z/OS FTP Plug-in for Zowe CLI lets you access z/OS datasets, USS files, and submit JCL, leveraging the z/OS FTP service.
             homepage_url: https://github.com/zowe/zowe-cli-ftp-plugin#readme
             repo_url: https://github.com/zowe/zowe-cli-ftp-plugin
@@ -753,7 +759,8 @@ landscape:
         items:
           - item:
             name: IBM® CICS® for Zowe Explorer
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
             project: null
             repo_url: https://github.com/zowe/vscode-extension-for-cics
@@ -789,7 +796,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: OPS/REXX Language Support Extension for VS Code
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: >-
               The OPS/REXX Language Support extension provides language support in VS Code for developers to edit OPS/REXX in a local environment complete with
               syntax highlighting, hover IntelliSense, minor error checking, and access to a library of sample rule/function snippets.
@@ -843,7 +851,8 @@ landscape:
         items:
           - item:
             name: IBM® Z System Automation
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
               and applications.
