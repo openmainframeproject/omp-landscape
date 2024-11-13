@@ -852,8 +852,7 @@ landscape:
         items:
           - item:
             name: IBM® Z System Automation
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
+            second_path: Zowe Conformant / CLI ZOWE V2
             description: >-
               IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
               and applications.
@@ -861,16 +860,6 @@ landscape:
             logo: ibm-z-system-automation.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: JCLCheck Workload Automation
-            description: >-
-              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes.  Use the
-              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
-              production cycles.
-            homepage_url: https://integration.mainframe.broadcom.com
-            stock_ticker: AVGO
-            logo: jclcheck-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Rocket Support for Zowe
             second_path:
@@ -933,7 +922,18 @@ landscape:
         items: []
       - subcategory:
         name: API Mediation Layer ZOWE V3
-        items: []
+        items:
+          - item:
+            name: JCLCheck Workload Automation
+            description: >-
+              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes.  Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles.
+            homepage_url: https://integration.mainframe.broadcom.com
+            stock_ticker: AVGO
+            logo: jclcheck-workload-automation.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
       - subcategory:
         name: App Framework ZOWE V3
         items: []
