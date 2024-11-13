@@ -447,19 +447,6 @@ landscape:
             logo: idms-systems-rest-api.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
-            name: JCLCheck™ Workload Automation
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: >-
-              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
-              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
-              production cycles
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: jclcheck-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
             name: Mainframe Security Insights Platform
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
@@ -598,6 +585,20 @@ landscape:
       - subcategory:
         name: API Mediation Layer ZOWE V3
         items:
+          - item:
+            name: JCLCheck™ Workload Automation
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            description: >-
+              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: jclcheck-workload-automation.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Database Management Solutions for Db2 for z/OS
             second_path:
