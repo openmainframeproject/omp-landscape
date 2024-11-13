@@ -242,25 +242,6 @@ landscape:
         name: Explorer for Visual Studio Code ZOWE V2
         items:
           - item:
-            name: Rocket® PRO/JCL
-            description: >-
-              PRO/JCL is a comprehensive JCL management tool that provides JCL validation, standards enforcement, and reformatting. Designed to help developers
-              streamline their JCL workflows on the z/OS mainframe, this extension allows you to access the most important features of PRO/JCL from Visual
-              Studio Code.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=RocketSoftware.projcl-vscode
-            project: null
-            logo: rocket-projcl.svg
-            crunchbase: https://www.crunchbase.com/organization/rocket-software
-          - item:
-            name: IBM z Open Editor
-            description: >-
-              An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
-              interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and utilizes its APIs for
-              various operations such as resolving and parsing program include files directly from MVS, running personal builds, submitting jobs and many more.
-            homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
-            logo: ibm-z-open-editor.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
             name: Abend Analyzer for Mainframe
             description: >-
               Abend Analyzer for Mainframe provides an interface to SymDump® Batch. This extension allows you to browse, manage and view formatted abend reports
@@ -320,6 +301,25 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
             logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: IBM z Open Editor
+            description: >-
+              An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
+              interact with z/OS, this extension also extends and automatically co-installs the Zowe Explorer VS Code Extension and utilizes its APIs for
+              various operations such as resolving and parsing program include files directly from MVS, running personal builds, submitting jobs and many more.
+            homepage_url: https://ibm.github.io/mainframe-downloads/downloads.html
+            logo: ibm-z-open-editor.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: Rocket® PRO/JCL
+            description: >-
+              PRO/JCL is a comprehensive JCL management tool that provides JCL validation, standards enforcement, and reformatting. Designed to help developers
+              streamline their JCL workflows on the z/OS mainframe, this extension allows you to access the most important features of PRO/JCL from Visual
+              Studio Code.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=RocketSoftware.projcl-vscode
+            project: null
+            logo: rocket-projcl.svg
+            crunchbase: https://www.crunchbase.com/organization/rocket-software
       - subcategory:
         name: CLI ZOWE V2
         items:
@@ -382,17 +382,29 @@ landscape:
         name: API Mediation Layer ZOWE V2
         items:
           - item:
-            name: JCLCheck™ Workload Automation
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            name: (E)JES Zowe REST API
             description: >-
-              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
-              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
-              production cycles
+              The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer (APIML).  The APIML is a gateway that
+              provides a single point of access to heterogeneous services that might be located on different systems or locations.
+            homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
+            logo: phoenix-software-international-ejes.svg
+            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
+          - item:
+            name: Alert Central
+            description: Alert Central is a product used to quickly identify and resolve incidents across multiple systems and applications.
             homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: jclcheck-workload-automation.svg
+            logo: alert-central.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: API State Monitor for Zowe API ML
+            description: >-
+              The API State Monitor for Zowe API ML monitors the state of standard API services that flow through the Zowe ecosystem and reports that state back
+              to the System Log (SYSLOG) in the form of a Write To Operator (WTO) message. Specifically, the API State
+
+              Monitor posts information on whether services are registering or de-registering from the API Mediation Layer Discovery Service (EUREKA), or shut
+              down ungracefully.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: api-state-monitor-for-zowe-api-ml.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: IBM Z JCL Expert
@@ -426,31 +438,6 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
-            name: (E)JES Zowe REST API
-            description: >-
-              The Zowe API for (E)JES is based on REST principles and is compatible with the Zowe API Mediation Layer (APIML).  The APIML is a gateway that
-              provides a single point of access to heterogeneous services that might be located on different systems or locations.
-            homepage_url: https://phoenixsoftware.com/ejes.htm#zowe
-            logo: phoenix-software-international-ejes.svg
-            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-          - item:
-            name: Alert Central
-            description: Alert Central is a product used to quickly identify and resolve incidents across multiple systems and applications.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            logo: alert-central.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: API State Monitor for Zowe API ML
-            description: >-
-              The API State Monitor for Zowe API ML monitors the state of standard API services that flow through the Zowe ecosystem and reports that state back
-              to the System Log (SYSLOG) in the form of a Write To Operator (WTO) message. Specifically, the API State
-
-              Monitor posts information on whether services are registering or de-registering from the API Mediation Layer Discovery Service (EUREKA), or shut
-              down ungracefully.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            logo: api-state-monitor-for-zowe-api-ml.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
             name: IDMS Systems REST API
             description: |-
               The IDMS Systems REST API allows you to manage and monitor your IDMS CV with DCMT, DCUF, Compiler, SQL Execution, and Performance
@@ -458,6 +445,19 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             project: null
             logo: idms-systems-rest-api.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: JCLCheck™ Workload Automation
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            description: >-
+              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: jclcheck-workload-automation.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Mainframe Security Insights Platform
@@ -474,6 +474,28 @@ landscape:
       - subcategory:
         name: App Framework ZOWE V2
         items:
+          - item:
+            name: (E)JES Web App on Zowe Desktop
+            description: (E)JES Web running on the Zowe Desktop (a ZSS component)
+            homepage_url: https://www.phoenixsoftware.com/ejes.htm
+            project: null
+            logo: ejes_web.svg
+            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
+          - item:
+            name: IBM IMS Administration Foundation for z/OS
+            description: IBM IMS Administration Foundation for z/OS (a component of IBM IMS Tools Base for z/OS V1.7 and later)
+            homepage_url: https://www.ibm.com/docs/en/umsfz/1.2.0?topic=120-using-ims-administration-foundation
+            project: null
+            logo: ibm-ims-administration-foundation-for-zos.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: IBM Unified Management Server (UMS) for z/OS
+            description: >-
+              The IBM Unified Experience for z/OS is a browser-based user interface that is built on top of the open-source Zowe Virtual Desktop. One intuitive
+              interface seamlessly displays all installed software, or data management products, by logical grouping.
+            homepage_url: https://www.ibm.com/docs/en/umsfz/1.1.0?topic=overview-unified-experience-zos
+            logo: ibm-unified-management-server-ums-for-zos.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM Z Service Management Explorer
             description: >-
@@ -511,28 +533,6 @@ landscape:
             homepage_url: https://www.ibm.com/products/db2-devops-experience
             logo: db2-devops-experience-for-zos.svg
             twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: (E)JES Web App on Zowe Desktop
-            description: (E)JES Web running on the Zowe Desktop (a ZSS component)
-            homepage_url: https://www.phoenixsoftware.com/ejes.htm
-            project: null
-            logo: ejes_web.svg
-            crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
-          - item:
-            name: IBM IMS Administration Foundation for z/OS
-            description: IBM IMS Administration Foundation for z/OS (a component of IBM IMS Tools Base for z/OS V1.7 and later)
-            homepage_url: https://www.ibm.com/docs/en/umsfz/1.2.0?topic=120-using-ims-administration-foundation
-            project: null
-            logo: ibm-ims-administration-foundation-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IBM Unified Management Server (UMS) for z/OS
-            description: >-
-              The IBM Unified Experience for z/OS is a browser-based user interface that is built on top of the open-source Zowe Virtual Desktop. One intuitive
-              interface seamlessly displays all installed software, or data management products, by logical grouping.
-            homepage_url: https://www.ibm.com/docs/en/umsfz/1.1.0?topic=overview-unified-experience-zos
-            logo: ibm-unified-management-server-ums-for-zos.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: Vantage™ Storage Resource Manager
@@ -579,6 +579,14 @@ landscape:
             logo: ibm-mq-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
+            name: Output Management Spool™ for z/OS
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: Output Management Spool™ for z/OS Plug-in for Zowe CLI allows issuing Spool native commands from Zowe CLI.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: output-management-spool-for-zos.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
             name: z/OS FTP Plug-in for Zowe CLI
             second_path:
               - Zowe Conformant / CLI ZOWE V2
@@ -587,14 +595,6 @@ landscape:
             repo_url: https://github.com/zowe/zowe-cli-ftp-plugin
             logo: zowe-zos-ftp-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
-            name: Output Management Spool™ for z/OS
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-            description: Output Management Spool™ for z/OS Plug-in for Zowe CLI allows issuing Spool native commands from Zowe CLI.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            logo: output-management-spool-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: API Mediation Layer ZOWE V3
         items:
@@ -758,15 +758,6 @@ landscape:
         name: Explorer for Visual Studio Code ZOWE V3
         items:
           - item:
-            name: IBM® CICS® for Zowe Explorer
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
-            project: null
-            repo_url: https://github.com/zowe/vscode-extension-for-cics
-            logo: zowe-explorer-for-ibm-cics.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
             name: Endevor® Bridge For Git
             second_path:
               - Zowe Conformant / CLI ZOWE V2
@@ -786,6 +777,15 @@ landscape:
             repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
             logo: explorer-for-endevor.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: IBM® CICS® for Zowe Explorer
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
+            project: null
+            repo_url: https://github.com/zowe/vscode-extension-for-cics
+            logo: zowe-explorer-for-ibm-cics.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: IBM® z/OS FTP for Zowe Explorer
             description: >-
@@ -861,6 +861,16 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
+            name: JCLCheck Workload Automation
+            description: >-
+              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes.  Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles.
+            homepage_url: https://integration.mainframe.broadcom.com
+            stock_ticker: AVGO
+            logo: jclcheck-workload-automation.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
             name: Rocket Support for Zowe
             second_path:
               - Zowe Conformant Support Provider / App Framework ZOWE V2
@@ -874,16 +884,6 @@ landscape:
             homepage_url: https://www.rocketsoftware.com/products/rocket-zowe
             logo: rocket-support.svg
             crunchbase: https://www.crunchbase.com/organization/rocket-software
-          - item:
-            name: JCLCheck Workload Automation
-            description: >-
-              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes.  Use the
-              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
-              production cycles.
-            homepage_url: https://integration.mainframe.broadcom.com
-            stock_ticker: AVGO
-            logo: jclcheck-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: App Framework ZOWE V2
         items: []
