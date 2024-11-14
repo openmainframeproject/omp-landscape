@@ -369,15 +369,6 @@ landscape:
             stock_ticker: AVGO
             logo: mat-detect.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: Output Management View™ for z/OS
-            description: >-
-              Output Management View™ for z/OS lets you access report data, list repositories, and search cross-report index names or values in a repository.
-              You can also use the OM View Plug-in for Zowe CLI to automate report data exports using rules, and to manage user settings.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: output-management-view-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
@@ -536,9 +527,18 @@ landscape:
         name: CLI ZOWE V3
         items:
           - item:
+            name: Output Management View™ for z/OS
+            description: >-
+              Output Management View™ for z/OS lets you access report data, list repositories, and search cross-report index names or values in a repository.
+              You can also use the OM View Plug-in for Zowe CLI to automate report data exports using rules, and to manage user settings.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: output-management-view-for-zos.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            second_path: Zowe Conformant / CLI ZOWE V2
+          - item:
             name: IBM® CICS® Plug-in for Zowe CLI
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
+            second_path: Zowe Conformant / CLI ZOWE V2
             description: The IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS programs and transactions.
             homepage_url: https://https://github.com/zowe/zowe-cli-cics-plugin#readme
             logo: ibm-cics-for-cli.svg
@@ -567,8 +567,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: Output Management Spool™ for z/OS
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
+            second_path: Zowe Conformant / CLI ZOWE V2
             description: Output Management Spool™ for z/OS Plug-in for Zowe CLI allows issuing Spool native commands from Zowe CLI.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: output-management-spool-for-zos.svg
