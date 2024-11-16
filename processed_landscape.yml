@@ -29056,7 +29056,6 @@ landscape:
             name: Broadcom Corporation
             homepage_url: https://broadcom.com/
             logo: broadcom_corporation.svg
-            twitter: https://twitter.com/Broadcom
             crunchbase: https://www.crunchbase.com/organization/broadcom
             crunchbase_data:
               name: Broadcom
@@ -29169,10 +29168,59 @@ landscape:
               badge: false
               percentage: null
           - item:
+            name: Citi
+            homepage_url: https://citi.com/
+            logo: citi.svg
+            twitter: https://twitter.com/citi
+            crunchbase: https://www.crunchbase.com/organization/citigroup
+            crunchbase_data:
+              name: Citi
+              description: Citigroup is a financial services holding company that provides various financial products and services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://www.citigroup.com
+              city: New York
+              region: New York
+              country: United States
+              twitter: https://twitter.com/citi
+              linkedin: https://www.linkedin.com/company/citi
+              acquisitions:
+                - date: '2001-02-13'
+                  acquiree: European American Bank
+                - date: '2001-05-18'
+                  acquiree: Citibanamex
+                - date: '2004-02-18'
+                  acquiree: Koram Bank
+                - date: '2004-07-02'
+                  acquiree: Lava Trading
+                - date: '2006-12-13'
+                  acquiree: Quilter Cheviot
+                - date: '2007-07-02'
+                  acquiree: Automated Trading Desk
+                - date: '2007-08-01'
+                  acquiree: The BISYS Group
+              parents: []
+              ticker: C
+              funding: 8700000000
+              stockExchange: nyse
+              company_type: For Profit
+              industries:
+                - Banking
+                - Credit Cards
+                - Financial Services
+                - Wealth Management
+            yahoo_finance_data:
+              effective_ticker: C
+            image_data:
+              fileName: citi.svg
+              hash: pxRSLZpb45M+IdS/qi36QmPNq9e2FEK40dnVmAS5H2E=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: International Business Machines Corporation
             homepage_url: https://ibm.com/
             logo: international_business_machines_corporation.svg
-            twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
             crunchbase_data:
               name: IBM
@@ -29644,7 +29692,6 @@ landscape:
             name: Rocket Software, Inc.
             homepage_url: https://rocketsoftware.com/
             logo: rocket_software_inc.svg
-            twitter: https://twitter.com/Rocket
             crunchbase: https://www.crunchbase.com/organization/rocket-software
             crunchbase_data:
               name: Rocket Software
@@ -29722,7 +29769,6 @@ landscape:
             name: SUSE LLC
             homepage_url: https://suse.com/
             logo: suse_llc.svg
-            twitter: https://twitter.com/SUSE
             crunchbase: https://www.crunchbase.com/organization/suse
             crunchbase_data:
               name: SUSE
@@ -29764,7 +29810,6 @@ landscape:
             name: Canonical Group Limited
             homepage_url: https://canonical.com/
             logo: canonical_group_limited.svg
-            twitter: https://twitter.com/Canonical
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
             crunchbase_data:
               name: Canonical
@@ -29817,7 +29862,6 @@ landscape:
             name: Phoenix Software International
             homepage_url: https://phoenixsoftware.com/
             logo: phoenix_software_international.svg
-            twitter: https://twitter.com/PhnxSoftware
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
             crunchbase_data:
               name: Phoenix Software International
@@ -29999,34 +30043,6 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: École privée des sciences informatiques (EPSI)
-            homepage_url: https://epsi.fr/
-            logo: ecole_privee_des_sciences_informatiques_epsi.svg
-            twitter: https://twitter.com/EPSI_Ecoles
-            crunchbase: https://www.crunchbase.com/organization/epsi
-            crunchbase_data:
-              name: EPSI
-              description: École Privée des Sciences Informatiques, a French IT School based in many french cities
-              num_employees_min: 101
-              num_employees_max: 250
-              homepage: http://www.epsi.fr
-              city: Lyon
-              region: Rhone-Alpes
-              country: France
-              twitter: https://www.twitter.com/epsilyon
-              linkedin: https://www.linkedin.com/company/epsi_2
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: ''
-              industries: []
-            image_data:
-              fileName: cole-priv-e-des-sciences-informatiques-epsi.svg
-              hash: 0w30swBPqz7lzNBJdm4lJQX10pskwDdXBm/cNIx3KE0=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
             name: HoGent
             homepage_url: https://hogent.be/
             logo: hogent.svg
@@ -30060,7 +30076,6 @@ landscape:
             name: HTL Donaustadt
             homepage_url: https://htl-donaustadt.at/
             logo: htl_donaustadt.svg
-            twitter: https://twitter.com/htldonaustadt
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
             crunchbase_data:
               name: HTL Donaustadt
@@ -30178,7 +30193,6 @@ landscape:
             name: North Carolina A&T State University
             homepage_url: https://ncat.edu/
             logo: north_carolina_a_t_state_university.svg
-            twitter: https://twitter.com/ncatsuaggies
             crunchbase: https://www.crunchbase.com/organization/north-carolina-a-t-state-university
             crunchbase_data:
               name: North Carolina Agricultural and Technical State University
@@ -30270,7 +30284,6 @@ landscape:
             name: University of Washington CIAC (Center for Information Assurance and Cybersecurity)
             homepage_url: https://washington.edu/
             logo: university_of_washington_ciac_center_for_information_assurance_and_cybersecurity.svg
-            twitter: https://twitter.com/UW
             crunchbase: https://www.crunchbase.com/organization/university-of-washington
             crunchbase_data:
               name: University of Washington
@@ -30303,7 +30316,6 @@ landscape:
             name: University of Wolverhampton
             homepage_url: https://wlv.ac.uk/
             logo: university_of_wolverhampton.svg
-            twitter: https://twitter.com/wlv_uni
             crunchbase: https://www.crunchbase.com/organization/university-of-wolverhampton
             crunchbase_data:
               name: University of Wolverhampton
@@ -30331,7 +30343,6 @@ landscape:
             name: Virginia Commonwealth University
             homepage_url: https://vcu.edu/
             logo: virginia_commonwealth_university.svg
-            twitter: https://twitter.com/VCU
             crunchbase: https://www.crunchbase.com/organization/virginia-commonwealth-university
             crunchbase_data:
               name: Virginia Commonwealth University
@@ -30451,6 +30462,34 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: École privée des sciences informatiques (EPSI)
+            homepage_url: https://epsi.fr/
+            logo: ecole_privee_des_sciences_informatiques_epsi.svg
+            twitter: https://twitter.com/EPSI_Ecoles
+            crunchbase: https://www.crunchbase.com/organization/epsi
+            crunchbase_data:
+              name: EPSI
+              description: École Privée des Sciences Informatiques, a French IT School based in many french cities
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: http://www.epsi.fr
+              city: Lyon
+              region: Rhone-Alpes
+              country: France
+              twitter: https://www.twitter.com/epsilyon
+              linkedin: https://www.linkedin.com/company/epsi_2
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
+            image_data:
+              fileName: cole-priv-e-des-sciences-informatiques-epsi.svg
+              hash: 0w30swBPqz7lzNBJdm4lJQX10pskwDdXBm/cNIx3KE0=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Associate
         items:
@@ -30529,7 +30568,6 @@ landscape:
             name: GSE UK Region
             homepage_url: https://gse.org.uk/
             logo: gse_uk_region.svg
-            twitter: https://twitter.com/gseukc
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
             crunchbase_data:
               name: Guide Share Europe - UK Region
@@ -30557,7 +30595,6 @@ landscape:
             name: Guide Share Europe (GSE)
             homepage_url: https://gse.org/
             logo: guide_share_europe_gse.svg
-            twitter: https://twitter.com/GuideShareEurop
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe
             crunchbase_data:
               name: Guide Share Europe
@@ -32495,6 +32532,83 @@ landscape:
             image_data:
               fileName: z-vm-community-tools.svg
               hash: EnC2JihzDnEf/njS4eidkzumMC30J8JpHfmrVlDSeAs=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Zopen
+            description: >-
+              The z/OS Open Tools github organization serves as a collaborative github organization for z/OS UNIX developers, users, and organizations who
+              contribute to and utilize open-source tools on z/OS.
+
+              z/OS Open Tools started in 2022 with a handful of projects and now currently hosts over 180+ projects, with the aim of providing the build recipes
+              as well as the patches to enable popular open source packages to build and run on z/OS. z/OS Open Tools includes ports for popular open source
+              projects like Git, Bash, Curl, CMake, Make, GPG, LLama.cpp, Vim, Nano and many more.
+
+              z/OS Open Tools also distributes binaries for each of the tools as Github releases. It also provides a z/OS UNIX package manager (zopen) that
+              makes it easy to consume the 180+ tools directly on z/OS.
+            homepage_url: https://zosopentools.github.io/meta/
+            repo_url: https://github.com/ZOSOpenTools/.github
+            project_org: https://github.com/ZOSOpenTools
+            logo: zopen.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              slug: zopen
+              accepted: '2024-05-03'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=zopen
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zopen
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf0W2biSSY63djWaZX
+              artwork_url: https://artwork.openmainframeproject.org/projects/zopen
+              annotations:
+                slug: zopen
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zopen
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf0W2biSSY63djWaZX
+                next_annual_review_date: '2025-03-13'
+                chair: ''
+              annual_review_date: '2024-03-21'
+              annual_review_url: https://github.com/openmainframeproject/tac/issues/625
+            project: sandbox
+            crunchbase_data:
+              name: Open Mainframe Project
+              description: The Open Mainframe Project intends to increase collaboration across the mainframe community and to developed shared tool sets and resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.openmainframeproject.org/
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/OpenMFProject
+              linkedin: https://www.linkedin.com/company/the-open-mainframe-project
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Communities
+                - Education
+                - Robotics
+            github_data:
+              description: null
+              contributors_count: 1
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0
+              stars: 0
+              languages: []
+              latest_commit_link: /ZOSOpenTools/.github/commit/ac337df520748a91789b8e8d0f4b4a50cea9262b
+              latest_commit_date: '2024-10-07T13:13:18Z'
+              firstWeek: 2023-11-19Z
+              license: Unknown License
+              contributors_link: https://github.com/ZOSOpenTools/.github/graphs/contributors
+            repos:
+              - url: https://github.com/ZOSOpenTools/.github
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /ZOSOpenTools/.github/commit/583d4a81ffc0b0a154c16a198d82dec841c3b8e0
+              start_date: '2024-10-07T13:12:03Z'
+            image_data:
+              fileName: zopen.svg
+              hash: Pcke6ZHzQM0mrFhiMz5FaPKQVZO2+EO/Xe7Eg1qAng8=
             best_practice_data:
               badge: false
               percentage: null
