@@ -2406,6 +2406,30 @@ landscape:
                 next_annual_review_date: '2024-12-12'
                 chair: Ray Mullins
           - item:
+            name: Zopen
+            description: >-
+              The z/OS Open Tools github organization serves as a collaborative github organization for z/OS UNIX developers, users, and organizations who
+              contribute to and utilize open-source tools on z/OS.
+
+              z/OS Open Tools started in 2022 with a handful of projects and now currently hosts over 180+ projects, with the aim of providing the build recipes
+              as well as the patches to enable popular open source packages to build and run on z/OS. z/OS Open Tools includes ports for popular open source
+              projects like Git, Bash, Curl, CMake, Make, GPG, LLama.cpp, Vim, Nano and many more.
+
+              z/OS Open Tools also distributes binaries for each of the tools as Github releases. It also provides a z/OS UNIX package manager (zopen) that
+              makes it easy to consume the 180+ tools directly on z/OS.
+            homepage_url: https://zosopentools.github.io/meta/
+            repo_url: https://github.com/ZOSOpenTools/.github
+            project_org: https://github.com/ZOSOpenTools
+            logo: zopen.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              slug: zopen
+              accepted: '2024-05-03'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=zopen
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zopen
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf0W2biSSY63djWaZX
+              artwork_url: https://artwork.openmainframeproject.org/projects/zopen
+          - item:
             name: Zowe
             second_path:
               - Projects / z/OS
