@@ -1724,7 +1724,6 @@ landscape:
             name: Citi
             homepage_url: https://citi.com/
             logo: citi.svg
-            twitter: https://twitter.com/citi
             crunchbase: https://www.crunchbase.com/organization/citigroup
           - item:
             name: International Business Machines Corporation
@@ -2426,6 +2425,7 @@ landscape:
               z/OS Open Tools also distributes binaries for each of the tools as Github releases. It also provides a z/OS UNIX package manager (zopen) that
               makes it easy to consume the 180+ tools directly on z/OS.
             homepage_url: https://zosopentools.github.io/meta/
+            project: sandbox
             repo_url: https://github.com/ZOSOpenTools/.github
             project_org: https://github.com/ZOSOpenTools
             logo: zopen.svg
@@ -2445,7 +2445,6 @@ landscape:
                 chair: ''
               annual_review_date: '2024-03-21'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/625
-            project: sandbox
           - item:
             name: Zowe
             second_path:
