@@ -2424,10 +2424,10 @@ landscape:
 
               z/OS Open Tools also distributes binaries for each of the tools as Github releases. It also provides a z/OS UNIX package manager (zopen) that
               makes it easy to consume the 180+ tools directly on z/OS.
-            homepage_url: https://zosopentools.github.io/meta/
+            homepage_url: https://zopen.community/
             project: sandbox
-            repo_url: https://github.com/ZOSOpenTools/.github
-            project_org: https://github.com/ZOSOpenTools
+            repo_url: https://github.com/zopencommunity/m4port
+            project_org: https://github.com/zopencommunity
             logo: zopen.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
@@ -2445,6 +2445,26 @@ landscape:
                 chair: ''
               annual_review_date: '2024-03-21'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/625
+          - item:
+            name: Zorse
+            description: >-
+              The mission of the Project is to curate a dataset of production COBOL and associated mainframe languages (JCL, REXX, PL/I) on which Large Language
+
+              Models (LLMs) can be fine-tuned and develop an evaluation suite to measure LLMs' ability to comprehend, explain, and write code in the associated
+              language.
+            homepage_url: https://zorse.ai/
+            project: sandbox
+            repo_url: https://github.com/zorse-project/COBOLEval
+            project_org: https://github.com/zorse-project
+            logo: zorse.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              slug: zorse
+              accepted: '2024-07-16'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=zorse
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zorse
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfdtDySeARCxRkGkfK
+              artwork_url: https://artwork.openmainframeproject.org/projects/zorse
           - item:
             name: Zowe
             second_path:
