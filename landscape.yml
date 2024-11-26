@@ -535,10 +535,12 @@ landscape:
             stock_ticker: AVGO
             logo: output-management-view-for-zos.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: The IBM® CICS® Plug-in for Zowe CLI lets you extend Zowe CLI to interact with CICS programs and transactions.
             homepage_url: https://https://github.com/zowe/zowe-cli-cics-plugin#readme
             logo: ibm-cics-for-cli.svg
@@ -567,7 +569,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: Output Management Spool™ for z/OS
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: Output Management Spool™ for z/OS Plug-in for Zowe CLI allows issuing Spool native commands from Zowe CLI.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: output-management-spool-for-zos.svg
@@ -851,7 +854,8 @@ landscape:
         items:
           - item:
             name: IBM® Z System Automation
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
               and applications.
@@ -932,7 +936,8 @@ landscape:
             stock_ticker: AVGO
             logo: jclcheck-workload-automation.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
       - subcategory:
         name: App Framework ZOWE V3
         items: []
