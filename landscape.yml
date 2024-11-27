@@ -527,17 +527,6 @@ landscape:
         name: CLI ZOWE V3
         items:
           - item:
-            name: Output Management View™ for z/OS
-            description: >-
-              Output Management View™ for z/OS lets you access report data, list repositories, and search cross-report index names or values in a repository.
-              You can also use the OM View Plug-in for Zowe CLI to automate report data exports using rules, and to manage user settings.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: output-management-view-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-          - item:
             name: IBM® CICS® Plug-in for Zowe CLI
             second_path:
               - Zowe Conformant / CLI ZOWE V2
@@ -576,6 +565,17 @@ landscape:
             logo: output-management-spool-for-zos.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
+            name: Output Management View™ for z/OS
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: >-
+              Output Management View™ for z/OS lets you access report data, list repositories, and search cross-report index names or values in a repository.
+              You can also use the OM View Plug-in for Zowe CLI to automate report data exports using rules, and to manage user settings.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: output-management-view-for-zos.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
             name: z/OS FTP Plug-in for Zowe CLI
             second_path:
               - Zowe Conformant / CLI ZOWE V2
@@ -587,20 +587,6 @@ landscape:
       - subcategory:
         name: API Mediation Layer ZOWE V3
         items:
-          - item:
-            name: JCLCheck™ Workload Automation
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-              - Zowe Conformant / CLI ZOWE V2
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: >-
-              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
-              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
-              production cycles
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: jclcheck-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Database Management Solutions for Db2 for z/OS
             second_path:
@@ -644,6 +630,20 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: file-master-plus.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+          - item:
+            name: JCLCheck™ Workload Automation
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            description: >-
+              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes. Use the
+              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
+              production cycles
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: jclcheck-workload-automation.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Mainframe Application Tuner
@@ -928,6 +928,8 @@ landscape:
         items:
           - item:
             name: JCLCheck Workload Automation
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
             description: >-
               JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes.  Use the
               plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
@@ -936,8 +938,6 @@ landscape:
             stock_ticker: AVGO
             logo: jclcheck-workload-automation.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
       - subcategory:
         name: App Framework ZOWE V3
         items: []
