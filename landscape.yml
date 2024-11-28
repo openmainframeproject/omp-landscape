@@ -131,6 +131,14 @@ landscape:
             logo: phoenix-software-international-launcher.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
           - item:
+            name: racfadm
+            homepage_url: https://github.com/lbdyck/racfadm
+            project: null
+            repo_url: https://github.com/lbdyck/racfadm
+            logo: racfadm.svg
+            organization:
+              name: Lionel B. Dyck
+          - item:
             name: z/OS Connector Plugin for Jenkins
             homepage_url: https://github.com/jenkinsci/zos-connector-plugin
             repo_url: https://github.com/jenkinsci/zos-connector-plugin
@@ -175,14 +183,6 @@ landscape:
             repo_url: https://github.com/walmartlabs/zUID
             logo: zuid.svg
             crunchbase: https://www.crunchbase.com/organization/walmart-labs
-          - item:
-            name: racfadm
-            homepage_url: https://github.com/lbdyck/racfadm
-            project: null
-            repo_url: https://github.com/lbdyck/racfadm
-            logo: racfadm.svg
-            organization:
-              name: Lionel B. Dyck
       - subcategory:
         name: Development Tools
         items:
