@@ -5,16 +5,8 @@ cd hosted_logos
 
 logo='broadcom_corporation.svg'
 products=(
-  'Compliance Event Manager'
-  'Data Content Discovery'
-  'Datacom DST API'
   'Endevor®'
   'IDMS'
-  'MAT'
-  'z/OS Extended Files'
-  'z/OS Extended Jobs'
-  'Secure Credential Store'
-  'JCL Language Support'
   'Abend Analyzer for Mainframe'
   'COBOL Control Flow'
   'COBOL Language Support'
@@ -53,6 +45,7 @@ products=(
   'OPS/REXX Language Support Extension for VS Code'
   'Brightside'
   'Enterprise Support for Zowe'
+  'MICS Rest API Server'
 )
 
 for i in ${!products[@]};
