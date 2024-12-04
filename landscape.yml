@@ -203,7 +203,7 @@ landscape:
             homepage_url: https://github.com/vadimshchukin/zsublime
             repo_url: https://github.com/vadimshchukin/zsublime
             logo: zsublime.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Learning and Mentoring
         items:
@@ -256,7 +256,7 @@ landscape:
             repo_url: https://github.com/BroadcomMFD/code4z
             logo: code4z.svg
             open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: IBM z Open Editor
             description: >-
@@ -306,7 +306,7 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: idms.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: MAT Analyze
             description: >-
@@ -315,7 +315,7 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: mat-analyze.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: MAT Detect
             description: >-
@@ -324,7 +324,7 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: mat-detect.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
@@ -341,7 +341,7 @@ landscape:
             description: Alert Central is a product used to quickly identify and resolve incidents across multiple systems and applications.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: alert-central.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: API State Monitor for Zowe API ML
             description: >-
@@ -352,10 +352,11 @@ landscape:
               down ungracefully.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: api-state-monitor-for-zowe-api-ml.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: IBM Z JCL Expert
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
               costly delays through mass JCL checking.
@@ -365,7 +366,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM® Remote System Explorer API
-            second_path: Zowe Conformant / CLI ZOWE V2
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
             description: >-
               REST APIs for working with various components on the z/OS host system, including MVS data sets, z/OS UNIX files and commands, JES jobs, TSO
               Commands, and more.
@@ -390,19 +392,19 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             project: null
             logo: idms-systems-rest-api.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Mainframe Security Insights Platform
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: mainframe-security-insights-platform.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Test4z
             description: Test4z v1.2.2 Mainframe Batch Testing Automation released March 22, 2022
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: test4z.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: App Framework ZOWE V2
         items:
@@ -473,7 +475,7 @@ landscape:
               Mainframe Team Center - Management from Zowe Desktop.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: vantage-storage-resource-manager.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: App Framework ZOWE V3
         items: []
@@ -517,7 +519,7 @@ landscape:
             description: Output Management Spool™ for z/OS Plug-in for Zowe CLI allows issuing Spool native commands from Zowe CLI.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: output-management-spool-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Output Management View™ for z/OS
             second_path:
@@ -528,7 +530,7 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: output-management-view-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: z/OS FTP Plug-in for Zowe CLI
             second_path:
@@ -551,7 +553,7 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: database-management-solutions-for-db2-for-zos.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Endevor®
             second_path:
@@ -564,14 +566,15 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: endevor.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: ESP Workload Automation
-            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
             homepage_url: https://integration.mainframe.broadcom.com/
             project: null
             logo: esp-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: File Master™ Plus
             second_path:
@@ -583,7 +586,7 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: file-master-plus.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: JCLCheck™ Workload Automation
             second_path:
@@ -597,7 +600,7 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: jclcheck-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Mainframe Application Tuner
             second_path:
@@ -607,13 +610,13 @@ landscape:
               in the MAT database for analysis of application performance.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/ca-mainframe-application-tuner/12-0/using/use-the-rest-api.html
             logo: mainframe-application-tuner.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Mainframe Operational Intelligence
             description: Mainframe Operational Intelligence (MOI) GraphQL API to query time-series data, Green Highway data, statistical data, and alerts.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: mainframe-operational-intelligence.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Mainframe Topology
             second_path:
@@ -624,7 +627,7 @@ landscape:
               their environment.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: mainframe-topology.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: MAT REST API
             second_path:
@@ -634,7 +637,7 @@ landscape:
               performance analysis.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: mat-rest-api.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: MICS Rest API Server
             description: >-
@@ -643,7 +646,7 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             project: null
             logo: mics-rest-api-server.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: NetMaster
             second_path:
@@ -653,7 +656,7 @@ landscape:
               an open and standard interface to network management data collected by NetMaster.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: netmaster.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: OPS/MVS®
             second_path:
@@ -664,7 +667,7 @@ landscape:
               NPM Registry Date: Will be released immediately following Zowe v2.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: opsmvs.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: SymDump
             second_path:
@@ -672,7 +675,7 @@ landscape:
             description: SymDump is a fault management tool designed to identify and resolve dumps. The tool provides multitude of user interfaces including REST API.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: symdump.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: SYSVIEW® Performance Management
             second_path:
@@ -685,7 +688,7 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: sysview-performance-management.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: WatchTower Alert Insights
             description: >-
@@ -695,7 +698,7 @@ landscape:
               user groups.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: watchtower-alert-insights.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: WatchTower Data Insights
             description: |-
@@ -703,13 +706,13 @@ landscape:
               the operational ML Insights metrics.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: watchtower-data-insights.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: WatchTower Metric Catalog
             description: The Metric Catalog APIs support operational intelligence projects by delivering ML Insights functionality.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: watchtower-metric-catalog.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Workload Automation 7®
             second_path:
@@ -718,7 +721,7 @@ landscape:
             description: Zowe CLI plugins for 7
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: workload-automation-7.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
         items:
@@ -731,8 +734,9 @@ landscape:
             repo_url: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe
             logo: abend-analyzer-for-mainframe.svg
             open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
           - item:
             name: COBOL Control Flow
             description: >-
@@ -742,16 +746,18 @@ landscape:
             repo_url: https://github.com/BroadcomMFD/cobol-control-flow
             logo: cobol-control-flow.svg
             open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
           - item:
             name: COBOL Language Support
             description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
             homepage_url: https://integration.mainframe.broadcom.com/
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
             logo: cobol-language-support.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
           - item:
             name: Data Editor for Mainframe
             description: Data Editor for Mainframe, a VS Code extension that adds a modern user interface to File Master Plus for MVS.
@@ -759,8 +765,9 @@ landscape:
             repo_url: https://github.com/BroadcomMFD/data-editor-for-mainframe
             logo: data-editor-for-mainframe.svg
             open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
           - item:
             name: Debugger for Mainframe
             description: This extension provides a modern debugging experience for CICS and Batch programs written in COBOL leveraging Intertest Batch and z/OS
@@ -768,8 +775,9 @@ landscape:
             repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
             logo: debugger-for-mainframe.svg
             open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
           - item:
             name: HLASM Language Support
             description: >-
@@ -778,8 +786,9 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
             logo: hlasm-language-support.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
           - item:
             name: Endevor® Bridge For Git
             second_path:
@@ -790,15 +799,16 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: endevor-bridge-for-git.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Explorer for Endevor
-            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: Modernizes the way you interact with Endevor, offering a user-friendly and convenient way to work with elements and inventory locations.
             homepage_url: https://integration.mainframe.broadcom.com/
             repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
             logo: explorer-for-endevor.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: IBM® CICS® for Zowe Explorer
             second_path:
@@ -826,7 +836,7 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             repo_url: https://github.com/BroadcomMFD/opsrexx-language-support
             logo: opsrexx-language-support-extension-for-vs-code.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
   - category:
     name: Zowe Conformant Support Provider
     subcategories:
@@ -919,7 +929,7 @@ landscape:
               Brightside subscribers also have access to exclusive innovations.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: brightside.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Enterprise Support for Zowe
             second_path:
@@ -935,7 +945,7 @@ landscape:
               Zowe enhancements, and Zowe fixes directly from the Broadcom Support Portal.
             homepage_url: https://techdocs.broadcom.com/us/en/ca-mainframe-software/devops/enterprise-support-for-zowe/1-0.html
             logo: enterprise-support-for-zowe.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
         items: []
@@ -956,7 +966,7 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com
             stock_ticker: AVGO
             logo: jclcheck-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: App Framework ZOWE V3
         items: []
