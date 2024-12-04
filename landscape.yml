@@ -250,16 +250,6 @@ landscape:
         name: Explorer for Visual Studio Code ZOWE V2
         items:
           - item:
-            name: Abend Analyzer for Mainframe
-            description: >-
-              Abend Analyzer for Mainframe provides an interface to SymDump® Batch. This extension allows you to browse, manage and view formatted abend reports
-              and symbolic data in a modern IDE environment.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            repo_url: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe
-            logo: abend-analyzer-for-mainframe.svg
-            open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
             name: COBOL Control Flow
             description: >-
               Provides graphical visualization of program flow for programs written in COBOL. The extension is designed to help COBOL developers to quickly
@@ -407,8 +397,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: IBM Z JCL Expert
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
+            second_path: Zowe Conformant / CLI ZOWE V2
             description: >-
               IBM Z JCL Expert is a new offering that can accelerate testing and production delivery of JCL streams and reduce production processing errors and
               costly delays through mass JCL checking.
@@ -418,8 +407,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IBM® Remote System Explorer API
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
+            second_path: Zowe Conformant / CLI ZOWE V2
             description: >-
               REST APIs for working with various components on the z/OS host system, including MVS data sets, z/OS UNIX files and commands, JES jobs, TSO
               Commands, and more.
@@ -621,8 +609,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: ESP Workload Automation
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
+            second_path: Zowe Conformant / API Mediation Layer ZOWE V2
             homepage_url: https://integration.mainframe.broadcom.com/
             project: null
             logo: esp-workload-automation.svg
@@ -778,6 +765,17 @@ landscape:
         name: Explorer for Visual Studio Code ZOWE V3
         items:
           - item:
+            name: Abend Analyzer for Mainframe
+            description: >-
+              Abend Analyzer for Mainframe provides an interface to SymDump® Batch. This extension allows you to browse, manage and view formatted abend reports
+              and symbolic data in a modern IDE environment.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe
+            logo: abend-analyzer-for-mainframe.svg
+            open_source: false
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+          - item:
             name: Endevor® Bridge For Git
             second_path:
               - Zowe Conformant / CLI ZOWE V2
@@ -790,8 +788,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: Explorer for Endevor
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
             description: Modernizes the way you interact with Endevor, offering a user-friendly and convenient way to work with elements and inventory locations.
             homepage_url: https://integration.mainframe.broadcom.com/
             repo_url: https://github.com/eclipse/che-che4z-explorer-for-endevor
