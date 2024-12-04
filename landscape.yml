@@ -260,44 +260,12 @@ landscape:
             open_source: false
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
-            name: COBOL Language Support
-            description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
-            logo: cobol-language-support.svg
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
             name: Code4z
             description: Extension pack for MF users working with z/OS applications and tools. Simplify user experience for new Mainframe developers.
             homepage_url: https://integration.mainframe.broadcom.com/
             repo_url: https://github.com/BroadcomMFD/code4z
             logo: code4z.svg
             open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: Data Editor for Mainframe
-            description: Data Editor for Mainframe, a VS Code extension that adds a modern user interface to File Master Plus for MVS.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            repo_url: https://github.com/BroadcomMFD/data-editor-for-mainframe
-            logo: data-editor-for-mainframe.svg
-            open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: Debugger for Mainframe
-            description: This extension provides a modern debugging experience for CICS and Batch programs written in COBOL leveraging Intertest Batch and z/OS
-            homepage_url: https://integration.mainframe.broadcom.com/
-            repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
-            logo: debugger-for-mainframe.svg
-            open_source: false
-            crunchbase: https://www.crunchbase.com/organization/avago-technologies
-          - item:
-            name: HLASM Language Support
-            description: >-
-              An extension that supports the High Level Assembler language. It provides code completion, highlighting and navigation features, shows mistakes in
-              the source, and lets you trace how the conditional assembly is evaluated with a modern debugging experience.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
-            logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
           - item:
             name: IBM z Open Editor
@@ -773,6 +741,42 @@ landscape:
             repo_url: https://github.com/BroadcomMFD/abend-analyzer-for-mainframe
             logo: abend-analyzer-for-mainframe.svg
             open_source: false
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+          - item:
+            name: COBOL Language Support
+            description: Provide autocomplete, syntax highlighting and coloring, and diagnostic features for for IBM Enterprise Cobol for z/OS code and copybooks.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
+            logo: cobol-language-support.svg
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+          - item:
+            name: Data Editor for Mainframe
+            description: Data Editor for Mainframe, a VS Code extension that adds a modern user interface to File Master Plus for MVS.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/BroadcomMFD/data-editor-for-mainframe
+            logo: data-editor-for-mainframe.svg
+            open_source: false
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+          - item:
+            name: Debugger for Mainframe
+            description: This extension provides a modern debugging experience for CICS and Batch programs written in COBOL leveraging Intertest Batch and z/OS
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/BroadcomMFD/debugger-for-mainframe
+            logo: debugger-for-mainframe.svg
+            open_source: false
+            crunchbase: https://www.crunchbase.com/organization/avago-technologies
+            second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+          - item:
+            name: HLASM Language Support
+            description: >-
+              An extension that supports the High Level Assembler language. It provides code completion, highlighting and navigation features, shows mistakes in
+              the source, and lets you trace how the conditional assembly is evaluated with a modern debugging experience.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/eclipse/che-che4z-lsp-for-hlasm
+            logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/avago-technologies
             second_path: Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
           - item:
