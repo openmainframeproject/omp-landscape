@@ -13,6 +13,7 @@ products=(
   'IBM Z Distribution for Zowe'
   'IBM® Db2 Administration Foundation for z/OS'
   'IBM® Remote System Explorer API' 
+  'IBM® RSE API Plug-in for Zowe CLI'
   'crc32-s390x' 
   'IBM® Z System Automation' 
   'IBM® Z Service Management Explorer' 
