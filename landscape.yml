@@ -385,6 +385,17 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
+            name: IBM® Z System Automation
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: >-
+              IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
+              and applications.
+            homepage_url: https://www.ibm.com/products/z-system-automation
+            logo: ibm-z-system-automation.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
             name: IDMS Systems REST API
             description: |-
               The IDMS Systems REST API allows you to manage and monitor your IDMS CV with DCMT, DCUF, Compiler, SQL Execution, and Performance
@@ -721,7 +732,7 @@ landscape:
             logo: watchtower-metric-catalog.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
-            name: Workload Automation 7®
+            name: Workload Automation CA7®
             second_path:
               - Zowe Conformant / API Mediation Layer ZOWE V2
               - Zowe Conformant / CLI ZOWE V2
@@ -889,17 +900,6 @@ landscape:
         name: API Mediation Layer ZOWE V2
         items:
           - item:
-            name: IBM® Z System Automation
-            second_path:
-              - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              IBM® Z System Automation is a policy-based, self-healing, high-availability solution to optimize efficiency and availability of critical systems
-              and applications.
-            homepage_url: https://www.ibm.com/products/z-system-automation
-            logo: ibm-z-system-automation.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
             name: Rocket Support for Zowe
             second_path:
               - Zowe Conformant Support Provider / App Framework ZOWE V2
@@ -961,19 +961,7 @@ landscape:
         items: []
       - subcategory:
         name: API Mediation Layer ZOWE V3
-        items:
-          - item:
-            name: JCLCheck Workload Automation
-            second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
-            description: >-
-              JCLCheck Workload Automation lets you validate the accuracy of Job Control Language (JCL) during development or automated processes.  Use the
-              plug-in to identify execution-time errors, such as security violations and missing data sets, that can cause jobs to fail and lead to delays in
-              production cycles.
-            homepage_url: https://integration.mainframe.broadcom.com
-            stock_ticker: AVGO
-            logo: jclcheck-workload-automation.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
+        items: []
       - subcategory:
         name: App Framework ZOWE V3
         items: []
