@@ -18,7 +18,7 @@ products=(
   'MAT Analyze'
   'MAT Detect'
   'Output Management View™ for z/OS'
-  'Workload Automation 7®'
+  'Workload Automation CA7®'
   'Alert Central'
   'API State Monitor for Zowe API ML'
   'IDMS Systems REST API'
