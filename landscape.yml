@@ -521,7 +521,7 @@ landscape:
             logo: ibm-rse-api-plug-in-for-zowe-cli.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
-          - item: 
+          - item:
             name: Output Management Spool™ for z/OS
             second_path:
               - Zowe Conformant / CLI ZOWE V2
@@ -820,6 +820,16 @@ landscape:
             logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
+            name: IBM z Open Editor
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            description: >-
+              IBM Z Open Editor is an extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL
+              languages. Also allowing interaction with z/OS using the Zowe Explorer VS Code Extension introducing a new RSE profile type for host connection.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=IBM.zopeneditor
+            logo: ibm-z-open-editor.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
             name: IBM® CICS® for Zowe Explorer
             second_path:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
@@ -828,15 +838,6 @@ landscape:
             repo_url: https://github.com/zowe/vscode-extension-for-cics
             logo: zowe-explorer-for-ibm-cics.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
-            name: IBM z Open Editor
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            description: >-
-              IBM Z Open Editor is an extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. Also allowing interaction with z/OS using the Zowe Explorer VS Code Extension introducing a new RSE profile type for host connection.
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=IBM.zopeneditor
-            logo: ibm-z-open-editor.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: OPS/REXX Language Support Extension for VS Code
             second_path:
