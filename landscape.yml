@@ -250,14 +250,6 @@ landscape:
         name: Explorer for Visual Studio Code ZOWE V2
         items:
           - item:
-            name: Code4z
-            description: Extension pack for MF users working with z/OS applications and tools. Simplify user experience for new Mainframe developers.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            repo_url: https://github.com/BroadcomMFD/code4z
-            logo: code4z.svg
-            open_source: false
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
             name: IBM z Open Editor
             description: >-
               An extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL languages. To
@@ -768,6 +760,16 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             repo_url: https://github.com/eclipse/che-che4z-lsp-for-cobol
             logo: cobol-language-support.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: Code4z
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            description: Code4z is an all-in-one VS Code extension pack for mainframe users working with z/OS. Code4z provides language support for COBOL and High Level Assembler for z/OS and graphical visualization of COBOL applications. The pack also includes data editing and file management tools, Explorer for Endevor, and extensions for interactive debugging, macro tracing, and abend analysis. Code4z is free to install and use.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            repo_url: https://github.com/BroadcomMFD/code4z
+            logo: code4z.svg
+            open_source: false
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Data Editor for Mainframe
