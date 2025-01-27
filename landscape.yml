@@ -516,6 +516,13 @@ landscape:
             logo: ibm-mq-for-cli.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
+            name: IBM® RSE API Plug-in for Zowe CLI
+            description: IBM RSE API Plug-in for Zowe CLI extends Zowe CLI to let you interact with z/OS resources by using IBM Remote System Explorer API (RSE API).
+            homepage_url: https://www.npmjs.com/package/@ibm/rse-api-for-zowe-cli
+            logo: ibm-rse-api-plug-in-for-zowe-cli.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
             name: Output Management Spool™ for z/OS
             second_path:
               - Zowe Conformant / CLI ZOWE V2
@@ -593,6 +600,7 @@ landscape:
           - item:
             name: JCLCheck™ Workload Automation
             second_path:
+              - Zowe Conformant / CLI ZOWE V3
               - Zowe Conformant / API Mediation Layer ZOWE V2
               - Zowe Conformant / CLI ZOWE V2
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
@@ -723,7 +731,7 @@ landscape:
               - Zowe Conformant / CLI ZOWE V2
             description: Zowe CLI plugins for 7
             homepage_url: https://integration.mainframe.broadcom.com/
-            logo: workload-automation-7.svg
+            logo: workload-automation-ca7.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Explorer for Visual Studio Code ZOWE V3
@@ -823,6 +831,16 @@ landscape:
             logo: hlasm-language-support.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
+            name: IBM z Open Editor
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            description: >-
+              IBM Z Open Editor is an extension for Visual Studio Code that provides language support for the IBM® Enterprise COBOL, PL/I, HLASM, REXX, and JCL
+              languages. Also allowing interaction with z/OS using the Zowe Explorer VS Code Extension introducing a new RSE profile type for host connection.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=IBM.zopeneditor
+            logo: ibm-z-open-editor.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
             name: IBM® CICS® for Zowe Explorer
             second_path:
               - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
@@ -830,14 +848,6 @@ landscape:
             project: null
             repo_url: https://github.com/zowe/vscode-extension-for-cics
             logo: zowe-explorer-for-ibm-cics.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
-            name: IBM® z/OS FTP for Zowe Explorer
-            description: >-
-              The IBM z/OS FTP for Zowe Explorer adds the FTP protocol to the Zowe Explorer VS Code extension, allowing you to use z/OS FTP to interact with
-              data sets, jobs, and USS files.
-            homepage_url: https://github.com/zowe/zowe-explorer-vscode/tree/main/packages/zowe-explorer-ftp-extension
-            logo: ibm-zos-ftp-for-zowe-explorer.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
           - item:
             name: OPS/REXX Language Support Extension for VS Code
@@ -1741,208 +1751,469 @@ landscape:
         items:
           - item:
             name: Broadcom Corporation
+            description: >-
+              Broadcom Inc. is an American designer, developer, manufacturer and global supplier of a wide range of semiconductor and infrastructure software
+              products.
             homepage_url: https://broadcom.com/
             logo: broadcom_corporation.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+            extra:
+              linkedin_url: https://www.linkedin.com/company/broadcom
           - item:
             name: Citi
+            description: >-
+              Citi, the leading global financial services company, has approximately 200 million customer accounts and does business in more than 140 countries.
+              Through its two operating units, Citicorp and Citi Holdings, Citi provides consumers, corporations, governments and institutions with a broad
+              range of financial products and services, including consumer banking and credit, corporate and investment banking, securities brokerage, and
+              wealth management.
+
+
+              --- Merged Data:
+
+
+              Credit Cards, Banking, Mortgage, Personal Loans | Citi.com Citi's mission is to serve as a trusted partner to our clients by responsibly providing
+              financial services that enable growth and economic progress. Our core activities are safeguarding assets,...
             homepage_url: https://citi.com/
             logo: citi.svg
             crunchbase: https://www.crunchbase.com/organization/citigroup
+            extra:
+              linkedin_url: https://www.linkedin.com/company/citi
           - item:
             name: International Business Machines Corporation
+            description: >-
+              Founded in 1911, International Business Machines (IBM) is a multinational computer, technology, and IT consulting corporation that manufactures
+              and sells computer hardware and software, and offers infrastructure services, hosting services, and consulting services. They are headquartered in
+              Armonk, New York.
+
+
+              --- Merged Data:
+
+
+              IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.
             homepage_url: https://ibm.com/
             logo: international_business_machines_corporation.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
+            extra:
+              linkedin_url: https://www.linkedin.com/company/ibm
           - item:
             name: SUSE LLC
+            description: >-
+              SUSE provides businesses with software solutions. Some solutions they offer include data analytics, cloud management, infrastructure facilitation,
+              and more.
             homepage_url: https://suse.com/
             logo: suse_llc.svg
             crunchbase: https://www.crunchbase.com/organization/suse
+            extra:
+              linkedin_url: https://www.linkedin.com/company/attachmate
       - subcategory:
         name: Silver
         items:
           - item:
             name: Canonical Group Limited
+            description: >-
+              Canonical Ltd. is a UK-based privately held computer software company founded and funded by South African entrepreneur Mark Shuttleworth to market
+              commercial support and related services for Ubuntu and related projects.
             homepage_url: https://canonical.com/
             logo: canonical_group_limited.svg
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+            extra:
+              linkedin_url: https://www.linkedin.com/company/canonical-ltd-
           - item:
             name: Converge Technology Solutions Corp
+            description: >-
+              Converge Technology Solutions is building a national platform of regionally focused IT infrastructure firms connecting best of breed services and
+              solutions.
             homepage_url: https://convergetp.com/
             logo: converge_technology_solutions_corp.svg
             twitter: https://twitter.com/ConvergeTSC
+            extra:
+              linkedin_url: https://www.linkedin.com/company/converge-technology-solutions-corp
             organization:
               name: Converge Technology Solutions Corp
               linkedin: https://www.linkedin.com/company/converge-technology-solutions-corp
           - item:
             name: Phoenix Software International
+            description: >-
+              Phoenix Software International develops software for data entry and system management on mainframe and PC platforms, and is a leader in exploiting
+              the latest hardware and software advances.
             homepage_url: https://phoenixsoftware.com/
             logo: phoenix_software_international.svg
             crunchbase: https://www.crunchbase.com/organization/phoenix-software-international
+            extra:
+              linkedin_url: https://www.linkedin.com/company/phoenix-software-international
           - item:
             name: Rocket Software, Inc.
+            description: >-
+              Rocket Software is a technology company that helps organizations in the IBM ecosystem build solutions that meet today's needs while extending the
+              value of their technology investments for the future.
             homepage_url: https://rocketsoftware.com/
             logo: rocket_software_inc.svg
             twitter: https://twitter.com/Rocket
             crunchbase: https://www.crunchbase.com/organization/rocket-software
+            extra:
+              linkedin_url: https://www.linkedin.com/company/rocket-software
           - item:
             name: Zoss Team, LLC
+            description: >-
+              Bizapedia.com is committed to helping you find information on companies and their principals online, but also to help you obtain the products and
+              services necessary to succeed at business. Visit our Business Services page to view a list of our preferre...
             homepage_url: https://bizapedia.com/ma/zoss-team-llc.html
             logo: zoss_team_llc.svg
             twitter: https://twitter.com/BizaPedia
             crunchbase: https://www.crunchbase.com/organization/zoss-team-llc
+            extra:
+              linkedin_url: https://www.linkedin.com/company/bizapedia-com
       - subcategory:
         name: Academic Institution
         items:
           - item:
             name: Albany State University
+            description: >-
+              Albany State University is a four-year, state-supported, historically black university located in Albany, Georgia, United States. It is one of
+              three HBCU's in the University System of Georgia.
             homepage_url: https://asurams.edu/
             logo: albany_state_university.svg
             twitter: https://twitter.com/AlbanyStateUniv
             crunchbase: https://www.crunchbase.com/organization/albany-state-university
+            extra:
+              linkedin_url: https://www.linkedin.com/company/albany-state-university
           - item:
             name: Beijing Institute of Technology
+            description: Beijing Institute of Technology, is a co-educational public university, located in Beijing, China, established in 1940, Yan'an.
             homepage_url: https://bit.edu.cn/
             logo: beijing_institute_of_technology.svg
             twitter: https://twitter.com/dnx
             crunchbase: https://www.crunchbase.com/organization/beijing-institute-of-technology
+            extra:
+              linkedin_url: https://www.linkedin.com/company/beijing-institute-of-technology
           - item:
             name: Coburg University of Applied Sciences and Arts
+            description: Studieren in den Bereichen Bauen, Design, Technik, Naturwissenschaft, Soziale Arbeit, Gesundheit, Wirtschaft und Versicherung.
             homepage_url: https://hs-coburg.de/
             logo: coburg_university_of_applied_sciences_and_arts.svg
             twitter: https://twitter.com/hs_coburg
             crunchbase: https://www.crunchbase.com/organization/coburg-university-of-applied-sciences-and-arts
+            extra:
+              linkedin_url: https://www.linkedin.com/company/fmcoburg
           - item:
             name: East Carolina University
+            description: >-
+              East Carolina University is a public, coeducational, engaged doctoral/research university located in Greenville, North Carolina. East Carolina
+              University is the largest institution of higher learning in eastern North Carolina and the third-largest university in North Carolina.
             homepage_url: https://ecu.edu/
             logo: east_carolina_university.svg
             twitter: https://twitter.com/ECUGradSchool
             crunchbase: https://www.crunchbase.com/organization/east-carolina-university
+            extra:
+              linkedin_url: https://www.linkedin.com/company/east-carolina-university
           - item:
             name: HoGent
+            description: |-
+              Hogeschool Gent
+              Faculteit Bedrijf en Organisatie
+              Campus Schoonmeersen Gent
+              Valentin Vaerwyckweg 1
+              9000 Gent
+              www.hogent.be
             homepage_url: https://hogent.be/
             logo: hogent.svg
             twitter: https://twitter.com/hashtaghogent
             crunchbase: https://www.crunchbase.com/organization/hogeschool-gent
+            extra:
+              linkedin_url: https://www.linkedin.com/company/hogeschool-gent
           - item:
             name: HTL Donaustadt
+            description: |-
+              Herzlich Willkommen auf der offiziellen Seite der htl donaustadt!
+                
+                Wir sind eine höhere technische Schule mit Herz und Verstand.
             homepage_url: https://htl-donaustadt.at/
             logo: htl_donaustadt.svg
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
+            extra:
+              linkedin_url: https://www.linkedin.com/company/htl-donaustadt
           - item:
             name: Johann Wolfgang Goethe University
+            description: >-
+              Goethe University is a university located in Frankfurt am Main, Germany. It was founded in 1914 as a citizens' university, which means it was
+              founded and funded by the wealthy and active liberal citizenry of Frankfurt.
             homepage_url: https://goethe-university-frankfurt.de/
             logo: johann_wolfgang_goethe_university.svg
             crunchbase: https://www.crunchbase.com/organization/goethe-university-frankfurt
+            extra:
+              linkedin_url: https://www.linkedin.com/company/ig-farben-haus
           - item:
             name: Leipzig University
+            description: >-
+              Unsere Universität wurde 1409 gegründet und gehört zu den forschungsstarken und medizinführenden Universitäten Deutschlands. Sie bietet eine
+              einmalige Fächervielfalt von den Geistes- und Sozialwissenschaften bis zu den Natur- und Lebenswissenschaften.
             homepage_url: https://informatik.uni-leipzig.de/
             logo: leipzig_university.svg
             twitter: https://twitter.com/UniLeipzig
             crunchbase: https://www.crunchbase.com/organization/leipzig-university
+            extra:
+              linkedin_url: https://www.linkedin.com/company/uni-leipzig
           - item:
             name: Marist College
+            description: >-
+              Marist College is a private liberal arts college offering over 60 bachelors and masters degree programs and 20 certificates the traditional
+              undergraduate, graduate, adult education, and distance learning environments including online.
             homepage_url: https://marist.edu/
             logo: marist_college.svg
             twitter: https://twitter.com/Marist
             crunchbase: https://www.crunchbase.com/organization/marist-college
+            extra:
+              linkedin_url: https://www.linkedin.com/company/marist-college
           - item:
             name: North Carolina A&T State University
+            description: >-
+              North Carolina Agricultural and Technical State University is a public coeducational, research university located in Greensboro, North Carolina.
+              It is a constituent institution of the University of North Carolina, one of the Oldest public universities in the United States.
             homepage_url: https://ncat.edu/
             logo: north_carolina_a_t_state_university.svg
             crunchbase: https://www.crunchbase.com/organization/north-carolina-a-t-state-university
+            extra:
+              linkedin_url: https://www.linkedin.com/company/north-carolina-a&t-state-university
+          - item:
+            name: Northern Illinois University
+            description: >-
+              Northern Illinois University (NIU) is dedicated to providing an education that goes beyond just academic degrees. NIU focuses on career success,
+              critical thinking, and lifelong learning. The university's resources and people are tailored to help studen...
+            homepage_url: https://niu.edu/
+            logo: northern_illinois_university.svg
+            organization:
+              name: Northern Illinois University
           - item:
             name: South China University of Technology
+            description: >-
+              South China University of Technology (SCUT) is one of China's key universities operating under the direct leadership of the State Ministry of
+              Education. The university, which has a total area of 294 hectares, is situated in Guangzhou, a southern metropolitan in China. The university has
+              two campuses: The Wushan Campus and Guangzhou Higher Education Mega Center Campus.
             homepage_url: https://scut.edu.cn/
             logo: south_china_university_of_technology.svg
             crunchbase: https://www.crunchbase.com/organization/south-china-university-of-technology
+            extra:
+              linkedin_url: https://www.linkedin.com/company/%E5%8D%8E%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6
           - item:
             name: University of Bedfordshire
+            description: The University of Bedfordshire is a public university situated in Bedfordshire and Buckinghamshire, England.
             homepage_url: https://beds.ac.uk/
             logo: university_of_bedfordshire.svg
             twitter: https://twitter.com/uniofbedsnews
             crunchbase: https://www.crunchbase.com/organization/university-of-bedfordshire
+            extra:
+              linkedin_url: https://www.linkedin.com/company/university-of-bedfordshire
           - item:
             name: University of Washington CIAC (Center for Information Assurance and Cybersecurity)
+            description: >-
+              Center for Information Assurance and Cybersecurity
+
+
+              What We Do
+
+
+
+
+              CIAC prepares students for a career protecting computer systems from accidents, hackers, viruses and other security threats. It is a unique
+              collaboration between information science, computer science, economics, electrical engineering and law.
+
+
+
+
+              Students have the opportunity to work with nationally known researchers in the field and conduct their own research projects. Research is
+              conducted across multiple departments at the University of Washington and with partnering institutions to create an interdisciplinary
+              knowledge-network.
+
+
+
+
+              We are committed to the 4 P��_��_s
+
+
+
+
+              Promoting collaboration-regional, national and international
+
+
+              Producing multidisciplinary education and research
+
+
+              Providing Center for National Security Studies certification for students
+
+
+              Preparing professional IA leaders in the most efficient way possible
+
+
+              Why CIAC?
+
+
+              The world economy and global industries now rely on a digital infrastructure which is increasingly vulnerable to hackers and cyber thieves.
+              Government and private organizations understand the importance of security vital data and career opportunities in the information assurance (IA)
+              field have never been better. CIAC is training the next generation of IA professionals.
+
+
+
+
+              http://depts.washington.edu/ciac/node/15
             homepage_url: https://washington.edu/
             logo: university_of_washington_ciac_center_for_information_assurance_and_cybersecurity.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-washington
+            extra:
+              linkedin_url: https://www.linkedin.com/company/university-of-washington
           - item:
             name: University of Wolverhampton
+            description: The University of Wolverhampton is a public university located on four campuses across the West Midlands, Shropshire and Staffordshire in England.
             homepage_url: https://wlv.ac.uk/
             logo: university_of_wolverhampton.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-wolverhampton
+            extra:
+              linkedin_url: https://www.linkedin.com/company/university-of-wolverhampton
           - item:
             name: Virginia Commonwealth University
+            description: >-
+              Virginia Commonwealth University is a public research university located in Richmond, Virginia. More than 31,000 students pursue 226 degree and
+              certificate programs through VCU's 13 schools and one college. The VCU Health System supports the university's health care education, research and
+              patient care mission.
             homepage_url: https://vcu.edu/
             logo: virginia_commonwealth_university.svg
             crunchbase: https://www.crunchbase.com/organization/virginia-commonwealth-university
+            extra:
+              linkedin_url: https://www.linkedin.com/company/virginia-commonwealth-university
           - item:
             name: Western University
+            description: The University of Western Ontario is a public research university located in London, Ontario, Canada.
             homepage_url: https://uwo.ca/
             logo: western_university.svg
             twitter: https://twitter.com/WesternU
             crunchbase: https://www.crunchbase.com/organization/university-of-western-ontario
           - item:
             name: William Patterson University
+            description: William Paterson University, officially William Paterson University of New Jersey, is a public university in Wayne, New Jersey.
             homepage_url: https://wpunj.edu/
             logo: william_patterson_university.svg
             twitter: https://twitter.com/wpunj_edu
             crunchbase: https://www.crunchbase.com/organization/william-paterson-university-of-new-jersey
+            extra:
+              linkedin_url: https://www.linkedin.com/company/wpunj
           - item:
             name: Xidian University
+            description: 835889 Xidian University is a public research university in Xi'an, China, that is administered by the Ministry of Education of China.
             homepage_url: https://xidian.edu.cn/
             logo: xidian_university.svg
             crunchbase: https://www.crunchbase.com/organization/xidian-university
+            extra:
+              linkedin_url: https://www.linkedin.com/company/%e8%a5%bf%e5%ae%89%e7%94%b5%e5%ad%90%e7%a7%91%e6%8a%80%e5%a4%a7%e5%ad%a6
           - item:
             name: École privée des sciences informatiques (EPSI)
+            description: >-
+              L'école informatique EPSI à Paris, Lyon, Arras, Montpellier, Nantes, Grenoble, Amiens, Lille et Bordeaux propose des formations en informatique,
+              de bac à bac+5.
             homepage_url: https://epsi.fr/
             logo: ecole_privee_des_sciences_informatiques_epsi.svg
             twitter: https://twitter.com/EPSI_Ecoles
             crunchbase: https://www.crunchbase.com/organization/epsi
+            extra:
+              linkedin_url: https://www.linkedin.com/company/epsi_2
       - subcategory:
         name: Associate
         items:
           - item:
             name: Academic Mainframe Consortium
+            description: >-
+              The friends' association AMC e. V. consists of interested colleges and universities, companies and friends of the mainframe. Together we would
+              like to support the training on the subject of "Enterprise Computing" at Europe's academic institutions with fun and commitment.
             homepage_url: https://amc-ev.org/
             logo: academic_mainframe_consortium.svg
             crunchbase: https://www.crunchbase.com/organization/academic-mainframe-consortium
+            extra:
+              linkedin_url: https://www.linkedin.com/company/amc-ev-org
           - item:
             name: European Mainframe Academy
+            description: >-
+              In order to counteract the proverbial ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œskill gapÃƒÂ¢Ã¢â€šÂ¬Ã¯Â¿Â½ in the IBM mainframe environment, we launched the European
+              Mainframe Academy in 2008. What sets us apart from other providers is a highly efficient training and further education based on "blended
+              learning". Our participants learn to a large extent independently, but are intensively supported and accompanied by our recognized experts.
             homepage_url: https://mainframe-academy.de/
             logo: european_mainframe_academy.svg
             crunchbase: https://www.crunchbase.com/organization/european-mainframe-academy
+            extra:
+              linkedin_url: https://www.linkedin.com/company/ema-european-mainframe-academy-gmbh
           - item:
             name: ForBladi Association
+            description: >-
+              ForBladi is a non-profit organization introducing an integrated development model based on modern technologies to achieve sustainable development
+              in the Middle East and Africa.
             homepage_url: https://forbladi.org/
             logo: forbladi_association.svg
+            extra:
+              linkedin_url: https://www.linkedin.com/company/forbladi
             organization:
               name: ForBladi Association
               linkedin: https://www.linkedin.com/company/forbladi
           - item:
             name: GSE UK Region
+            description: >-
+              Systems and solutions based on IBM technology are more powerful, widespread and relevant than ever before. With the latest hardware, software and
+              investments dr
             homepage_url: https://gse.org.uk/
             logo: gse_uk_region.svg
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
+            extra:
+              linkedin_url: https://www.linkedin.com/company/gse-uk-region
           - item:
             name: Guide Share Europe (GSE)
+            description: BTB GmbH - Ihr kompetenter Ansprechpartner für die Entwicklung von individueller Business-Software und Sprachassistenten.
             homepage_url: https://gse.org/
             logo: guide_share_europe_gse.svg
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe
+            extra:
+              linkedin_url: https://www.linkedin.com/company/gse-europe-hq
           - item:
             name: High School Technology Services
+            description: >-
+              OUR MISSION AND VALUES
+
+              Our future lies in the hands of students and teenagers. Educating a teenager is equivalent to educating a family and that in turn is equivalent to
+              educating the whole society. We strive to provide the highest quality information technology services to high schools, teenagers, and adults. From
+              creating websites to building computer labs, from offering counseling sessions to designing preparation programs, we aim to provide an assortment
+              of services to support the dreams of these teenagers, their parents and the schools.
+
+
+              our Mission
+
+              Our mission is to provide high schools with resources and facilities to foster student-teacher interactions and parent-teacher relationships to
+              improve student performance and high school efficiency.
+
+
+              our Values
+
+              Tangible Impacts: We believe in sincere and selfless contributions to improve the quality of education and youth life.
+
+              Simplicity: We agree with what Leonardo De Vinci says "Simplicity is the ultimate sophistication."
+
+              Honesty: We hold honesty in high regard because only true work can have a real impact.
+
+              Kindness: We sincerely believe in the power of goodness and kindness as Mark Twain put it "Kindness is a language that the deaf can hear and the
+              blind can see."
+
+              Genuine Friendship: We are genuinely committed to educating all students regardless of their age, nationality, gender, race, and background.
             homepage_url: https://myhsts.org/
             logo: high_school_technology_services.svg
             twitter: https://twitter.com/MyHSTS
             crunchbase: https://www.crunchbase.com/organization/high-school-technical-services
+            extra:
+              linkedin_url: https://www.linkedin.com/company/techsavvy-coders
           - item:
             name: SHARE
+            description: >-
+              SHARE is an independent association user group providing IT and enterprise technology professionals with training, technical content and
+              networking opportunities focused on IBM System z Mainframe Technology.
             homepage_url: https://share.org/
             logo: share.svg
             twitter: https://twitter.com/SHAREhq
             crunchbase: https://www.crunchbase.com/organization/share-8c77
+            extra:
+              linkedin_url: https://www.linkedin.com/company/share-association
   - category:
     name: Open Mainframe Project Projects
     subcategories:
@@ -2492,6 +2763,10 @@ landscape:
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zorse
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfdtDySeARCxRkGkfK
               artwork_url: https://artwork.openmainframeproject.org/projects/zorse
+              annotations:
+                slug: zorse
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zorse
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfdtDySeARCxRkGkfK
           - item:
             name: Zowe
             second_path:

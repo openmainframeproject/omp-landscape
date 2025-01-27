@@ -37,6 +37,7 @@ products=(
   'IBM IMS Administration Foundation for z/OS' 
   'IBM Unified Management Server (UMS) for z/OS' 
   'zvm_ansible'
+  'IBM® RSE API Plug-in for Zowe CLI'
 )
 
 for i in ${!products[@]};
