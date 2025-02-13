@@ -931,8 +931,8 @@ landscape:
               - Zowe Conformant Support Provider / CLI ZOWE V2
               - Zowe Conformant Support Provider / Explorer for Visual Studio Code ZOWE V2
             description: >-
-              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence.  Brightside subscribers also
-              have access to exclusive innovations.
+              24x7 Enterprise Support for Zowe, Code4z and Test4z from a trusted mainframe partner, enabling teams to adopt open source with confidence. 
+              Brightside subscribers also have access to exclusive innovations.
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: brightside.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
@@ -2216,14 +2216,15 @@ landscape:
         items:
           - item:
             name: COBOL Programming Course
-            homepage_url: https://www.openmainframeproject.org/projects/cobolprogrammingcourse
-            logo: cobol_programming_course.svg
-            description: The COBOL Programming Course is an open source initiative under the Open Mainframe Project that offers introductory-level educational COBOL materials with modern
-              tooling.
             second_path:
               - Projects / Learning and Mentoring
+            description: >-
+              The COBOL Programming Course is an open source initiative under the Open Mainframe Project that offers introductory-level educational COBOL
+              materials with modern tooling.
+            homepage_url: https://www.openmainframeproject.org/projects/cobolprogrammingcourse
             project: graduated
             repo_url: https://github.com/openmainframeproject/cobol-programming-course
+            logo: cobol_programming_course.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2021-08-03'
@@ -2239,15 +2240,17 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=cobol-programming-course
           - item:
             name: GenevaERS
-            homepage_url: https://genevaers.org/
-            logo: genevaers.svg
-            description: GenevaERS is the single-pass optimization engine for data extraction and reporting on z/OS. Originally developed by PricewaterhouseCoopers as the Geneva Enterprise
-              Reporting System and acquired by IBM, GenevaERS offers businesses a high-level reporting solution uniquely tuned for big data scanning and improved financial transparency
-              for better decision-making. This project combines the processing power of GenevaERS, the reliability of the mainframe and the dynamic open source community.
             second_path:
               - Projects / z/OS
+            description: >-
+              GenevaERS is the single-pass optimization engine for data extraction and reporting on z/OS. Originally developed by PricewaterhouseCoopers as the
+              Geneva Enterprise Reporting System and acquired by IBM, GenevaERS offers businesses a high-level reporting solution uniquely tuned for big data
+              scanning and improved financial transparency for better decision-making. This project combines the processing power of GenevaERS, the reliability
+              of the mainframe and the dynamic open source community.
+            homepage_url: https://genevaers.org/
             project: graduated
             repo_url: https://github.com/genevaers/Community
+            url_for_bestpractices: https://github.com/genevaers
             additional_repos:
               - repo_url: https://github.com/genevaers/Demo
               - repo_url: https://github.com/genevaers/Demo
@@ -2271,8 +2274,8 @@ landscape:
               - repo_url: https://github.com/genevaers/Utilities
               - repo_url: https://github.com/genevaers/Workbench
               - repo_url: https://github.com/genevaers/Workbench
+            logo: genevaers.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            url_for_bestpractices: https://github.com/genevaers
             extra:
               accepted: '2021-03-29'
               annotations:
@@ -2290,15 +2293,18 @@ landscape:
               slack_url: https://slack.openmainframeproject.org
           - item:
             name: Mainframe Open Education
-            homepage_url: https://www.openmainframeproject.org/projects/mainframeopeneducation
-            logo: mainframe_open_education.svg
-            description: |-
-              The Project's mission is to provide an open-source platform for mainframe users to develop essential skills for future hires and to encourage knowledge sharing
-              and community contribution. We aim to align a foundational curriculum with cultivating new mainframe skills for enterprise computing in today's hybrid data center.
             second_path:
               - Projects / Learning and Mentoring
+            description: >-
+              The Project's mission is to provide an open-source platform for mainframe users to develop essential skills for future hires and to encourage
+              knowledge sharing
+
+              and community contribution. We aim to align a foundational curriculum with cultivating new mainframe skills for enterprise computing in today's
+              hybrid data center.
+            homepage_url: https://www.openmainframeproject.org/projects/mainframeopeneducation
             project: graduated
             repo_url: https://github.com/openmainframeproject/omp-education
+            logo: mainframe_open_education.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2024-07-16'
@@ -2314,15 +2320,16 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=mainframe-open-education
           - item:
             name: Zowe
-            homepage_url: https://www.zowe.org/
-            logo: zowe.svg
-            description: Zowe is an open source project created to host technologies that benefit the Z platform from all members of the Z community (Integrated Software Vendors, System
-              Integrators and z/OS consumers). Zowe, like Mac OS or Windows, comes with a set of APIs and OS capabilities that applications build on and also includes some applications
-              out of the box.
             second_path:
               - Projects / z/OS
+            description: >-
+              Zowe is an open source project created to host technologies that benefit the Z platform from all members of the Z community (Integrated Software
+              Vendors, System Integrators and z/OS consumers). Zowe, like Mac OS or Windows, comes with a set of APIs and OS capabilities that applications
+              build on and also includes some applications out of the box.
+            homepage_url: https://www.zowe.org/
             project: graduated
             repo_url: https://github.com/zowe/zac
+            url_for_bestpractices: https://github.com/zowe/zlc
             additional_repos:
               - repo_url: https://github.com/zowe/.github
               - repo_url: https://github.com/zowe/.github
@@ -2590,8 +2597,8 @@ landscape:
               - repo_url: https://github.com/zowe/zss-auth
               - repo_url: https://github.com/zowe/ztrial-sample-cli-plugin
               - repo_url: https://github.com/zowe/ztrial-sample-cli-plugin
+            logo: zowe.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            url_for_bestpractices: https://github.com/zowe/zlc
             extra:
               accepted: '2021-08-03'
               annotations:
@@ -2612,13 +2619,13 @@ landscape:
         items:
           - item:
             name: Ambitus
-            homepage_url: https://www.openmainframeproject.org/projects/ambitus
-            logo: ambitus.svg
-            description: Ambitus fosters a community that will help educate developers about all open source technologies on z/OS
             second_path:
               - Projects / Other
+            description: Ambitus fosters a community that will help educate developers about all open source technologies on z/OS
+            homepage_url: https://www.openmainframeproject.org/projects/ambitus
             project: incubating
             repo_url: https://github.com/ambitus/ambitus
+            logo: ambitus.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-02-24'
@@ -2634,11 +2641,12 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=ambitus
           - item:
             name: CBT Tape
-            homepage_url: https://www.cbttape.org/
-            logo: cbt_tape.svg
-            description: CBT Tape is an open library of free software distribution for the IBM mainframe Multiple Virtual Storage (MVS) and OS/390 and z/OS operating system environments
             second_path:
               - Projects / z/OS
+            description: >-
+              CBT Tape is an open library of free software distribution for the IBM mainframe Multiple Virtual Storage (MVS) and OS/390 and z/OS operating
+              system environments
+            homepage_url: https://www.cbttape.org/
             project: incubating
             repo_url: https://github.com/CBTTape/Dicussions
             additional_repos:
@@ -4664,6 +4672,7 @@ landscape:
               - repo_url: https://github.com/CBTTape/CBT998
               - repo_url: https://github.com/CBTTape/CBT999
               - repo_url: https://github.com/CBTTape/CBT999
+            logo: cbt_tape.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-09-09'
@@ -4681,13 +4690,13 @@ landscape:
               slack_url: https://slack.openmainframeproject.org
           - item:
             name: COBOL Check
-            homepage_url: https://github.com/openmainframeproject/cobol-check
-            logo: cobol_check.svg
-            description: The mission of the COBOL Check project is to provide a fine-grained unit testing/checking for COBOL.
             second_path:
               - Projects / Development Tools
+            description: The mission of the COBOL Check project is to provide a fine-grained unit testing/checking for COBOL.
+            homepage_url: https://github.com/openmainframeproject/cobol-check
             project: incubating
             repo_url: https://github.com/openmainframeproject/cobol-check
+            logo: cobol_check.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2021-02-16'
@@ -4707,14 +4716,15 @@ landscape:
               slack_url: https://slack.openmainframeproject.org
           - item:
             name: Feilong
-            homepage_url: https://www.openmainframeproject.org/projects/feilong
-            logo: feilong.svg
-            description: Feilong is an open source z/VM cloud connector project under the Open Mainframe Project umbrella that will accelerate the z/VM adoption, extending its ecosystem
-              and its user experience.
             second_path:
               - Projects / Linux
+            description: >-
+              Feilong is an open source z/VM cloud connector project under the Open Mainframe Project umbrella that will accelerate the z/VM adoption, extending
+              its ecosystem and its user experience.
+            homepage_url: https://www.openmainframeproject.org/projects/feilong
             project: incubating
             repo_url: https://github.com/openmainframeproject/feilong
+            logo: feilong.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2019-08-20'
@@ -4733,11 +4743,10 @@ landscape:
               slack_url: https://slack.openmainframeproject.org
           - item:
             name: Galasa
-            homepage_url: https://galasa.dev/
-            logo: galasa.svg
-            description: The mission of the Project is to provide an integration test framework for mainframe and hybrid applications.
             second_path:
               - Projects / Development Tools
+            description: The mission of the Project is to provide an integration test framework for mainframe and hybrid applications.
+            homepage_url: https://galasa.dev/
             project: incubating
             repo_url: https://github.com/galasa-dev/galasa.dev
             additional_repos:
@@ -4769,6 +4778,7 @@ landscape:
               - repo_url: https://github.com/galasa-dev/simplatform
               - repo_url: https://github.com/galasa-dev/webui
               - repo_url: https://github.com/galasa-dev/webui
+            logo: galasa.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2023-07-03'
@@ -4787,13 +4797,13 @@ landscape:
               slack_url: https://slack.openmainframeproject.org
           - item:
             name: Software Discovery Tool
-            homepage_url: https://www.openmainframeproject.org/projects/software-discovery-tool
-            logo: software_discovery_tool.svg
-            description: The mission of the Project is to develop a library and associated software to enable developers to discover existing open source software tools.
             second_path:
               - Projects / Other
+            description: The mission of the Project is to develop a library and associated software to enable developers to discover existing open source software tools.
+            homepage_url: https://www.openmainframeproject.org/projects/software-discovery-tool
             project: incubating
             repo_url: https://github.com/openmainframeproject/software-discovery-tool
+            logo: software_discovery_tool.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-09-09'
@@ -4809,13 +4819,13 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=software-discovery-tool
           - item:
             name: Tessia
-            homepage_url: https://www.openmainframeproject.org/projects/tessia
-            logo: tessia.svg
-            description: A tool to automate and simplify the installation/configuration/testing of Linux systems running on the IBM Z platform.
             second_path:
               - Projects / Linux
+            description: A tool to automate and simplify the installation/configuration/testing of Linux systems running on the IBM Z platform.
+            homepage_url: https://www.openmainframeproject.org/projects/tessia
             project: incubating
             repo_url: https://github.com/tessia-project/tessia
+            logo: tessia.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-10-23'
@@ -4837,14 +4847,15 @@ landscape:
         items:
           - item:
             name: TerseDecompress
-            homepage_url: https://www.openmainframeproject.org/projects/tersedecompress
-            logo: tersedecompress.svg
-            description: TerseDecompress is a java program that can be used to decompress files which have been previously compressed on an IBM Mainframe using the TERSE / AMATERSE program
-              (on IBM z/OS or IBM z/VM).
             second_path:
               - Projects / Other
+            description: >-
+              TerseDecompress is a java program that can be used to decompress files which have been previously compressed on an IBM Mainframe using the TERSE /
+              AMATERSE program (on IBM z/OS or IBM z/VM).
+            homepage_url: https://www.openmainframeproject.org/projects/tersedecompress
             project: sandbox
             repo_url: https://github.com/openmainframeproject/tersedecompress
+            logo: tersedecompress.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2019-08-20'
@@ -4860,14 +4871,19 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=tersedecompress
           - item:
             name: Zopen
-            homepage_url: https://zopen.community/
-            logo: zopen.svg
-            description: |-
-              The z/OS Open Tools github organization serves as a collaborative github organization for z/OS UNIX developers, users, and organizations who contribute to and utilize open-source tools on z/OS.
-              z/OS Open Tools started in 2022 with a handful of projects and now currently hosts over 180+ projects, with the aim of providing the build recipes as well as the patches to enable popular open source packages to build and run on z/OS. z/OS Open Tools includes ports for popular open source projects like Git, Bash, Curl, CMake, Make, GPG, LLama.cpp, Vim, Nano and many more.
-              z/OS Open Tools also distributes binaries for each of the tools as Github releases. It also provides a z/OS UNIX package manager (zopen) that makes it easy to consume the 180+ tools directly on z/OS.
             second_path:
               - Projects / z/OS
+            description: >-
+              The z/OS Open Tools github organization serves as a collaborative github organization for z/OS UNIX developers, users, and organizations who
+              contribute to and utilize open-source tools on z/OS.
+
+              z/OS Open Tools started in 2022 with a handful of projects and now currently hosts over 180+ projects, with the aim of providing the build recipes
+              as well as the patches to enable popular open source packages to build and run on z/OS. z/OS Open Tools includes ports for popular open source
+              projects like Git, Bash, Curl, CMake, Make, GPG, LLama.cpp, Vim, Nano and many more.
+
+              z/OS Open Tools also distributes binaries for each of the tools as Github releases. It also provides a z/OS UNIX package manager (zopen) that
+              makes it easy to consume the 180+ tools directly on z/OS.
+            homepage_url: https://zopen.community/
             project: sandbox
             repo_url: https://github.com/zopencommunity/m4port
             additional_repos:
@@ -5315,6 +5331,7 @@ landscape:
               - repo_url: https://github.com/zopencommunity/zusage
               - repo_url: https://github.com/zopencommunity/zusageport
               - repo_url: https://github.com/zopencommunity/zusageport
+            logo: zopen.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2024-05-03'
@@ -5330,18 +5347,20 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=zopen
           - item:
             name: Zorse
-            homepage_url: https://zorse.ai/
-            logo: zorse.svg
-            description: |-
-              The mission of the Project is to curate a dataset of production COBOL and associated mainframe languages (JCL, REXX, PL/I) on which Large Language
-              Models (LLMs) can be fine-tuned and develop an evaluation suite to measure LLMs' ability to comprehend, explain, and write code in the associated language.
             second_path:
               - Projects / Development Tools
+            description: >-
+              The mission of the Project is to curate a dataset of production COBOL and associated mainframe languages (JCL, REXX, PL/I) on which Large Language
+
+              Models (LLMs) can be fine-tuned and develop an evaluation suite to measure LLMs' ability to comprehend, explain, and write code in the associated
+              language.
+            homepage_url: https://zorse.ai/
             project: sandbox
             repo_url: https://github.com/zorse-project/COBOLEval
             additional_repos:
               - repo_url: https://github.com/zorse-project/zorse
               - repo_url: https://github.com/zorse-project/zorse
+            logo: zorse.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2024-07-16'
@@ -5356,14 +5375,15 @@ landscape:
         items:
           - item:
             name: COBOL Working Group
-            homepage_url: https://www.openmainframeproject.org/projects/cobol-working-group
-            logo: cobol_working_group.svg
-            description: The COBOL Working Group aims to promote the language by changing its perception and making materials more accessible to help more developers and students learn
-              it on their mainframe journey.
             second_path:
               - Projects / Learning and Mentoring
+            description: >-
+              The COBOL Working Group aims to promote the language by changing its perception and making materials more accessible to help more developers and
+              students learn it on their mainframe journey.
+            homepage_url: https://www.openmainframeproject.org/projects/cobol-working-group
             project: working-group
             repo_url: https://github.com/openmainframeproject/wg-cobol
+            logo: cobol_working_group.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-07-09'
@@ -5379,14 +5399,15 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=cobol-working-group
           - item:
             name: Linux Distributions Working Group
-            homepage_url: https://wiki.openmainframeproject.org/display/LinuxDistrosWG/Linux+Distributions+Working+Group
-            logo: linux_distributions_working_group.svg
-            description: The purpose of this working group is to oversee the health and maintenance of the s390x port of various Linux distributions to ensure that the s390x port remains
-              a supported architecture for them all. To this end, the group will collaborate on shared challenges and successes, work together to nurture new contributors, and make sure
-              they also have the infrastructure they need.
             second_path:
               - Projects / Linux
+            description: >-
+              The purpose of this working group is to oversee the health and maintenance of the s390x port of various Linux distributions to ensure that the
+              s390x port remains a supported architecture for them all. To this end, the group will collaborate on shared challenges and successes, work
+              together to nurture new contributors, and make sure they also have the infrastructure they need.
+            homepage_url: https://wiki.openmainframeproject.org/display/LinuxDistrosWG/Linux+Distributions+Working+Group
             project: working-group
+            logo: linux_distributions_working_group.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2021-06-10'
@@ -5405,13 +5426,14 @@ landscape:
               slack_url: https://slack.openmainframeproject.org
           - item:
             name: Mainframe Modernization WG
-            homepage_url: https://modernization.openmainframeproject.org/
-            logo: mainframe_modernization_wg.svg
-            description: The purpose of this working group is to oversee the health and maintenance of the s390x port of various Linux distributions to ensure that the s390x port remains
-              a supported architecture for them all.
             second_path:
               - Projects / Other
+            description: >-
+              The purpose of this working group is to oversee the health and maintenance of the s390x port of various Linux distributions to ensure that the
+              s390x port remains a supported architecture for them all.
+            homepage_url: https://modernization.openmainframeproject.org/
             project: working-group
+            logo: mainframe_modernization_wg.svg
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2022-09-01'
