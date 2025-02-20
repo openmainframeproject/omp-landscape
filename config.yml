@@ -19,7 +19,7 @@ landscapeProjectsLevels:
   - level: graduated
     name: Active
   - level: incubating
-    name: Incubation
+    name: Incubating
   - level: sandbox
     name: Sandbox
   - level: working-group
@@ -27,8 +27,14 @@ landscapeProjectsLevels:
   - level: archived
     name: Emeritus
 landscapeProjectsSubcategories:
-  - name: All
-    category: All
+  - name: Active
+    category: Active
+  - name: Incubating
+    category: Incubating
+  - name: Sandbox
+    category: Sandbox
+  - name: Working Group
+    category: Working Group
 projectsDefaultCrunchbase: https://www.crunchbase.com/organization/open-mainframe-project
 tacAgendaProjectUrl: https://github.com/orgs/openmainframeproject/projects/21/views/1
 artworkRepoUrl: "https://artwork.openmainframeproject.org/projects/{slug}"
