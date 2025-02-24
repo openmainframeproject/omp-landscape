@@ -379,15 +379,6 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
-            name: IDMS Systems REST API
-            description: |-
-              The IDMS Systems REST API allows you to manage and monitor your IDMS CV with DCMT, DCUF, Compiler, SQL Execution, and Performance
-              Metrics endpoints.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            project: null
-            logo: idms-systems-rest-api.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
             name: Mainframe Security Insights Platform
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
@@ -587,6 +578,17 @@ landscape:
             homepage_url: https://integration.mainframe.broadcom.com/
             stock_ticker: AVGO
             logo: file-master-plus.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: IDMS Systems REST API
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+            description: |-
+              The IDMS Systems REST API allows you to manage and monitor your IDMS CV with DCMT, DCUF, Compiler, SQL Execution, and Performance
+              Metrics endpoints.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            project: null
+            logo: idms-systems-rest-api.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: JCLCheck™ Workload Automation
