@@ -21,6 +21,7 @@ products=(
   'Workload Automation CA7®'
   'Alert Central'
   'API State Monitor for Zowe API ML'
+  'IDMS Plugin for Zowe CLI'
   'IDMS Systems REST API'
   'Mainframe Security Insights Platform'
   'Test4z'
