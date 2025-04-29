@@ -468,10 +468,13 @@ landscape:
         name: CLI ZOWE V3
         items:
           - item:
-            name: IDMS Plugin for Zowe CLI
-            description: The IDMS plugin for Zowe CLI allows you to manage and monitor your IDMS CV with DCMT, DCUF, and Compiler commands from Zowe CLI.
+            name: IDMS
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: IDMS RPC and REST APIs provide DCMT, DCUF, Print Log, and Performance Real Time Monitor services.
             homepage_url: https://integration.mainframe.broadcom.com/
-            logo: idms-plugin-for-zowe-cli.svg
+            stock_ticker: AVGO
+            logo: idms.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: IBM® CICS® Plug-in for Zowe CLI
