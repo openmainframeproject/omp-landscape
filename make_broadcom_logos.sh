@@ -46,6 +46,7 @@ products=(
   'Brightside'
   'Enterprise Support for Zowe'
   'MICS Rest API Server'
+  'Datacom Systems REST API'
 )
 
 for i in ${!products[@]};
