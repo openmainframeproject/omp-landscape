@@ -2526,6 +2526,10 @@ landscape:
             description: TSTerm is a software package that provides 3270 terminal functionality in a TypeScript implementation.
             project: sandbox
             repo_url: https://github.com/TSTerminal/TSTerm
+            additional_repos:
+              - repo_url: https://github.com/TSTerminal/TSTerm4Zowe
+              - repo_url: https://github.com/TSTerminal/TSTerm4Zowe
+              - repo_url: https://github.com/TSTerminal/Term4Z
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2021-11-30'
@@ -2540,10 +2544,6 @@ landscape:
               annual_review_url: https://github.com/openmainframeproject/tac/issues/506
               artwork_url: https://artwork.openmainframeproject.org/projects/tsterm
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project/overview?project=tsterm
-            additional_repos:
-              - repo_url: https://github.com/TSTerminal/TSTerm4Zowe
-              - repo_url: https://github.com/TSTerminal/Term4Z
-              - repo_url: https://github.com/TSTerminal/tspackager
           - item:
             name: Zopen
             homepage_url: https://zopen.community/
