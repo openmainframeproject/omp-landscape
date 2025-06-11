@@ -15,6 +15,7 @@ products=(
   'Debugger for Mainframe'
   'HLASM Language Support'
   'JCLCheck™ Workload Automation'
+  'JCL Language Support'
   'MAT Analyze'
   'MAT Detect'
   'Output Management View™ for z/OS'
