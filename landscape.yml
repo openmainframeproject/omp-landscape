@@ -290,24 +290,6 @@ landscape:
             stock_ticker: AVGO
             logo: idms.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: MAT Analyze
-            description: >-
-              MAT Analyze ensures interaction with MAT and enables you to measure your mainframe applications and get the analysis data in the form of MAT
-              analysis views using Zowe CLI.
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: mat-analyze.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
-          - item:
-            name: MAT Detect
-            description: >-
-              MAT Detect provides utilities to access performance data supplied by the Mainframe Application Tuner component Performance Management Assistant
-              (PMA).
-            homepage_url: https://integration.mainframe.broadcom.com/
-            stock_ticker: AVGO
-            logo: mat-detect.svg
-            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: API Mediation Layer ZOWE V2
         items:
@@ -513,6 +495,28 @@ landscape:
             logo: ibm-rse-api-plug-in-for-zowe-cli.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: MAT Analyze
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: >-
+              MAT Analyze ensures interaction with MAT and enables you to measure your mainframe applications and get the analysis data in the form of MAT
+              analysis views using Zowe CLI.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: mat-analyze.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: MAT Detect
+            second_path:
+              - Zowe Conformant / CLI ZOWE V2
+            description: >-
+              MAT Detect provides utilities to access performance data supplied by the Mainframe Application Tuner component Performance Management Assistant
+              (PMA).
+            homepage_url: https://integration.mainframe.broadcom.com/
+            stock_ticker: AVGO
+            logo: mat-detect.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Output Management Spool™ for z/OS
             second_path:
