@@ -14,6 +14,8 @@ products=(
   'Data Editor for Mainframe'
   'Debugger for Mainframe'
   'HLASM Language Support'
+  'InterTest'
+  'JCL Check'
   'JCLCheck™ Workload Automation'
   'JCL Language Support'
   'MAT Analyze'
