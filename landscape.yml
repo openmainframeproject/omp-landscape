@@ -2236,8 +2236,9 @@ landscape:
             repo_url: https://github.com/genevaers/Community
             additional_repos:
               - repo_url: https://github.com/genevaers/Demo
-              - repo_url: https://github.com/genevaers/Demo
-              - repo_url: https://github.com/genevaers/DevOps
+              - repo_url: https://github.com/genevaers/Performance-Engine
+              - repo_url: https://github.com/genevaers/Workbench
+              - repo_url: https://github.com/genevaers/User-Documentation
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             url_for_bestpractices: https://github.com/genevaers
             extra:
@@ -2296,11 +2297,8 @@ landscape:
             second_path:
               - Projects / z/OS
             project: graduated
-            repo_url: https://github.com/zowe/zac
-            additional_repos:
-              - repo_url: https://github.com/zowe/.github
-              - repo_url: https://github.com/zowe/.github
-              - repo_url: https://github.com/zowe/Onboarding-scripts
+            repo_url: https://github.com/zowe/community
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             url_for_bestpractices: https://github.com/zowe/zlc
             extra:
@@ -2359,11 +2357,8 @@ landscape:
             second_path:
               - Projects / z/OS
             project: incubating
-            repo_url: https://github.com/CBTTape/Dicussions
-            additional_repos:
-              - repo_url: https://github.com/CBTTape/.github
-              - repo_url: https://github.com/CBTTape/.github
-              - repo_url: https://github.com/CBTTape/CBT006
+            repo_url: https://github.com/CBTTape/CBT566
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-09-09'
@@ -2446,11 +2441,13 @@ landscape:
             second_path:
               - Projects / Development Tools
             project: incubating
-            repo_url: https://github.com/galasa-dev/galasa.dev
+            repo_url: https://github.com/galasa-dev/projectmanagement
             additional_repos:
-              - repo_url: https://github.com/galasa-dev/TSC
-              - repo_url: https://github.com/galasa-dev/TSC
-              - repo_url: https://github.com/galasa-dev/argocd-ibmcloud
+              - repo_url: https://github.com/galasa-dev/simplatform
+              - repo_url: https://github.com/galasa-dev/galasa.dev
+              - repo_url: https://github.com/galasa-dev/galasa
+              - repo_url: https://github.com/galasa-dev/helm
+              - repo_url: https://github.com/galasa-dev/webui
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2023-07-03'
@@ -2556,10 +2553,7 @@ landscape:
             description: TSTerm is a software package that provides 3270 terminal functionality in a TypeScript implementation.
             project: sandbox
             repo_url: https://github.com/TSTerminal/TSTerm
-            additional_repos:
-              - repo_url: https://github.com/TSTerminal/TSTerm4Zowe
-              - repo_url: https://github.com/TSTerminal/TSTerm4Zowe
-              - repo_url: https://github.com/TSTerminal/Term4Z
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2021-11-30'
@@ -2586,11 +2580,8 @@ landscape:
             second_path:
               - Projects / z/OS
             project: sandbox
-            repo_url: https://github.com/zopencommunity/m4port
-            additional_repos:
-              - repo_url: https://github.com/zopencommunity/.github
-              - repo_url: https://github.com/zopencommunity/.github
-              - repo_url: https://github.com/zopencommunity/aflplusplusport
+            repo_url: https://github.com/zopencommunity/meta
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2024-03-21'
@@ -2618,9 +2609,7 @@ landscape:
               - Projects / Development Tools
             project: sandbox
             repo_url: https://github.com/zorse-project/COBOLEval
-            additional_repos:
-              - repo_url: https://github.com/zorse-project/zorse
-              - repo_url: https://github.com/zorse-project/zorse
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2024-07-16'
