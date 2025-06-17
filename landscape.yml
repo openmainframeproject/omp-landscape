@@ -2027,8 +2027,6 @@ landscape:
               university, which has a total area of 294 hectares, is situated in Guangzhou, a southern metropolitan in China. The university has two campuses: The Wushan Campus and Guangzhou
               Higher Education Mega Center Campus."
             crunchbase: https://www.crunchbase.com/organization/south-china-university-of-technology
-            extra:
-              linkedin_url: https://www.linkedin.com/company/%E5%8D%8E%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6
           - item:
             name: University of Bedfordshire
             homepage_url: https://beds.ac.uk/
@@ -2153,9 +2151,6 @@ landscape:
               Middle East and Africa.
             organization:
               name: ForBladi Association
-              linkedin: https://www.linkedin.com/company/forbladi
-            extra:
-              linkedin_url: https://www.linkedin.com/company/forbladi
           - item:
             name: GSE UK Region
             homepage_url: https://gse.org.uk/
@@ -2164,8 +2159,6 @@ landscape:
               investments dr
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe-uk-region
             twitter: https://twitter.com/gseukc
-            extra:
-              linkedin_url: https://www.linkedin.com/company/gse-uk-region
           - item:
             name: Guide Share Europe (GSE)
             homepage_url: https://gse.org/
@@ -2173,8 +2166,6 @@ landscape:
             description: BTB GmbH - Ihr kompetenter Ansprechpartner für die Entwicklung von individueller Business-Software und Sprachassistenten.
             crunchbase: https://www.crunchbase.com/organization/guide-share-europe
             twitter: https://twitter.com/GuideShareEurop
-            extra:
-              linkedin_url: https://www.linkedin.com/company/gse-europe-hq
           - item:
             name: High School Technology Services
             homepage_url: https://myhsts.org/
@@ -2194,8 +2185,6 @@ landscape:
               Genuine Friendship: We are genuinely committed to educating all students regardless of their age, nationality, gender, race, and background.
             crunchbase: https://www.crunchbase.com/organization/high-school-technical-services
             twitter: https://twitter.com/MyHSTS
-            extra:
-              linkedin_url: https://www.linkedin.com/company/techsavvy-coders
           - item:
             name: SHARE
             homepage_url: https://share.org/
@@ -2314,7 +2303,6 @@ landscape:
               - Projects / z/OS
             project: graduated
             repo_url: https://github.com/zowe/community
-            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             url_for_bestpractices: https://github.com/zowe/zlc
             extra:
@@ -2337,6 +2325,7 @@ landscape:
               incubating: '2018-07-18'
               mailing_list_url: https://lists.openmainframeproject.org/g/zowe-dev
               slack_url: https://slack.openmainframeproject.org
+            additional_repos: []
       - subcategory:
         name: Incubating
         items:
@@ -2374,7 +2363,6 @@ landscape:
               - Projects / z/OS
             project: incubating
             repo_url: https://github.com/CBTTape/CBT566
-            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-09-09'
@@ -2393,6 +2381,7 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/cbt-tape
               incubating: '2020-09-09'
               slack_url: https://slack.openmainframeproject.org
+            additional_repos: []
           - item:
             name: COBOL Check
             homepage_url: https://github.com/openmainframeproject/cobol-check
@@ -2569,7 +2558,6 @@ landscape:
             description: TSTerm is a software package that provides 3270 terminal functionality in a TypeScript implementation.
             project: sandbox
             repo_url: https://github.com/TSTerminal/TSTerm
-            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2021-11-30'
@@ -2585,6 +2573,7 @@ landscape:
               annual_review_url: https://github.com/openmainframeproject/tac/issues/506
               artwork_url: https://artwork.openmainframeproject.org/projects/tsterm
               dev_stats_url: https://insights.linuxfoundation.org/project/tsterm
+            additional_repos: []
           - item:
             name: Zopen
             homepage_url: https://zopen.community/
@@ -2597,7 +2586,6 @@ landscape:
               - Projects / z/OS
             project: sandbox
             repo_url: https://github.com/zopencommunity/meta
-            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2024-03-21'
@@ -2614,6 +2602,7 @@ landscape:
               artwork_url: https://artwork.openmainframeproject.org/projects/zopen
               dev_stats_url: https://insights.linuxfoundation.org/project/zopen
               incubating: '2024-03-21'
+            additional_repos: []
           - item:
             name: Zorse
             homepage_url: https://zorse.ai/
@@ -2625,7 +2614,6 @@ landscape:
               - Projects / Development Tools
             project: sandbox
             repo_url: https://github.com/zorse-project/COBOLEval
-            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2024-07-16'
@@ -2642,6 +2630,7 @@ landscape:
               artwork_url: https://artwork.openmainframeproject.org/projects/zorse
               dev_stats_url: https://insights.linuxfoundation.org/project/zorse
               incubating: '2024-07-16'
+            additional_repos: []
           - item:
             name: z/VM Community Tools
             homepage_url: https://www.zvmcommunitytools.org/
