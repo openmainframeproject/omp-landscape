@@ -16,6 +16,6 @@ jobs:
 
       - uses: jmertic/lfx-landscape-tools@e4e3da3271d9c67a7591924dc874f350913e4db4 # main
         env:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
