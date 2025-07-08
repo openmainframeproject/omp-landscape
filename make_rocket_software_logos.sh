@@ -4,7 +4,7 @@ cd $(dirname $BASH_SOURCE)
 cd hosted_logos
 
 logo='rocket_software_inc.svg'
-products=('Rocket® PRO/JCL' 'Rocket™ BlueZone Web' 'Rocket Support for Zowe')
+products=('Rocket® PRO/JCL' 'Rocket™ BlueZone Web' 'Rocket Support for Zowe' 'Realtime Dataset Metrics')
 
 for i in ${!products[@]};
 do
