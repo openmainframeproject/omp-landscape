@@ -445,7 +445,15 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: App Framework ZOWE V3
-        items: []
+        items:
+          - item:
+            name: Realtime Dataset Metrics
+            description: >-
+              The Realtime Dataset Metrics feature is part of the IBM Z OMEGAMON AI for Storage.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=RocketSoftware.projcl-vscode
+            project: null
+            logo: realtime-dataset-metrics.svg
+            crunchbase: https://www.crunchbase.com/organization/rocket-software
       - subcategory:
         name: CLI ZOWE V3
         items:
