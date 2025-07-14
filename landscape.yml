@@ -758,8 +758,9 @@ landscape:
           - item:
             name: Workload Automation CA7®
             second_path:
-              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V3
               - Zowe Conformant / CLI ZOWE V2
+              - Zowe Conformant / API Mediation Layer ZOWE V2
             description: Zowe CLI plugins for 7
             homepage_url: https://integration.mainframe.broadcom.com/
             logo: workload-automation-ca7.svg
@@ -1021,7 +1022,13 @@ landscape:
         items: []
       - subcategory:
         name: CLI ZOWE V3
-        items: []
+        items:
+          - item:
+            name: Workload Automation CA7®
+            description: Zowe CLI plugins for 7
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: workload-automation-ca7.svg
+            crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
         name: Client SDK (Node.js) ZOWE V3
         items: []
