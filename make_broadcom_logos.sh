@@ -51,6 +51,7 @@ products=(
   'Enterprise Support for Zowe'
   'MICS Rest API Server'
   'Datacom Systems REST API'
+  'zArchitecture Bridge'
 )
 
 for i in ${!products[@]};
