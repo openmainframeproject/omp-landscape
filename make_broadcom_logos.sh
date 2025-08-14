@@ -39,6 +39,7 @@ products=(
   'MAT REST API'
   'NetMaster'
   'OPS/MVS®'
+  'PL/I Language Support'
   'SymDump'
   'SYSVIEW® Performance Management'
   'WatchTower Alert Insights'
