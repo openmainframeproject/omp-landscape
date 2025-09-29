@@ -888,15 +888,6 @@ landscape:
             logo: ibm-z-open-editor.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
-            name: IBM® CICS® for Zowe Explorer
-            second_path:
-              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
-            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
-            project: null
-            repo_url: https://github.com/zowe/vscode-extension-for-cics
-            logo: zowe-explorer-for-ibm-cics.svg
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-          - item:
             name: JCL Check
             description: >-
               VSCode Extension for JCL Check.
@@ -933,6 +924,26 @@ landscape:
             repo_url: https://github.com/BroadcomMFD/opsrexx-language-support
             logo: opsrexx-language-support-extension-for-vs-code.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: Zowe Explorer for IBM CICS Transaction Server
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            description: The Zowe® Explorer for IBM® CICS® Transaction Server extension enables interactions with CICS regions and programs from within VS Code.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.cics-extension-for-zowe
+            project: null
+            repo_url: https://github.com/zowe/vscode-extension-for-cics
+            logo: zowe-explorer-for-ibm-cics-transaction-server.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+          - item:
+            name: Zowe Explorer for IBM z/OS FTP
+            second_path:
+              - Zowe Conformant / Explorer for Visual Studio Code ZOWE V2
+            description: Zowe® Explorer for IBM® z/OS® FTP adds the FTP protocol to the Zowe Explorer VS Code extension, allowing you to use z/OS FTP to interact with data sets, jobs, and USS files.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=Zowe.zowe-explorer-ftp-extension
+            project: null
+            repo_url: https://github.com/zowe/zowe-explorer-vscode/tree/main/packages/zowe-explorer-ftp-extension
+            logo: zowe-explorer-for-ibm-zos-ftp.svg
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
   - category:
     name: Zowe Conformant Support Provider
     subcategories:
