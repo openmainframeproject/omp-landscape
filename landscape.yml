@@ -118,10 +118,14 @@ landscape:
             logo: cmstar.svg
             crunchbase: https://www.crunchbase.com/organization/la-casita
           - item:
-            name: xmitmsgx
+            name: xmm
             homepage_url: https://github.com/trothr/xmitmsgx
-            repo_url: https://github.com/trothr/xmitmsgx
-            logo: xmitmsgx.svg
+            repo_url: https://github.com/trothtech/xmm
+            license: "GPL-2.0-or-later"
+            additional_repos:
+              - repo_url: https://github.com/trothr/xmitmsgx
+                license: "GPL-2.0-or-later"
+            logo: xmm.svg
             crunchbase: https://www.crunchbase.com/organization/la-casita
           - item:
             name: zvm_ansible
