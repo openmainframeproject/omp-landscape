@@ -53,6 +53,7 @@ products=(
   'MICS Rest API Server'
   'Datacom Systems REST API'
   'zArchitecture Bridge'
+  'Easytrieve'
 )
 
 for i in ${!products[@]};
