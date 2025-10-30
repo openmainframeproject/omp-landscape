@@ -348,18 +348,9 @@ landscape:
             logo: ibm-z-jcl-expert.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
-            name: IBM® Remote System Explorer API
+            name: IBM® Z Netview
             second_path:
               - Zowe Conformant / CLI ZOWE V2
-            description: >-
-              REST APIs for working with various components on the z/OS host system, including MVS data sets, z/OS UNIX files and commands, JES jobs, TSO
-              Commands, and more.
-            homepage_url: https://ibm.github.io/mainframe-downloads/host-components.html#rse-api-host
-            logo: ibm-remote-system-explorer-api.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: IBM® Z Netview
             description: >-
               IBM Z® NetView®, a core component of IBM Z Service Management Suite and IBM Z Service Automation Suite, provides automation and network and
               systems management to address your requirements for business agility on IBM Z systems.
@@ -630,6 +621,18 @@ landscape:
             stock_ticker: AVGO
             logo: file-master-plus.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: IBM® Remote System Explorer API
+            second_path:
+              - Zowe Conformant / API Mediation Layer ZOWE V2
+              - Zowe Conformant / CLI ZOWE V2
+            description: >-
+              REST APIs for working with various components on the z/OS host system, including MVS data sets, z/OS UNIX files and commands, JES jobs, TSO
+              Commands, and more.
+            homepage_url: https://ibm.github.io/mainframe-downloads/host-components.html#rse-api-host
+            logo: ibm-remote-system-explorer-api.svg
+            twitter: https://twitter.com/ibmz
+            crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: IDMS Systems REST API
             second_path:
