@@ -2775,9 +2775,9 @@ landscape:
               Create a repository of z/VM tools for use by the z/VM community, collecting the various tools shared via listservs and other locations without a formal home into a single repository. The aim is not to replace other maintained/established repositories but refer to them, though those repositories can join this project if they wish.
 
               This will provide the community a single location for locating z/VM community tools.
-            project: sandbox
             second_path:
               - Projects / z/VM
+            project: sandbox
             repo_url: https://github.com/openmainframeproject/zvm-community-tools
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
