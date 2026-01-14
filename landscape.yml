@@ -2596,6 +2596,32 @@ landscape:
                   url: https://github.com/openmainframeproject/foundation/blob/main/project_charters/galasa_charter.pdf
               slack_url: https://slack.openmainframeproject.org
           - item:
+            name: Mainframe Software Hub for Linux
+            homepage_url: https://mainframesoftwarehubforz.org/
+            logo: mainframe_software_hub_for_linux.svg
+            description: The mission of the Project is to provide open source packages not available in distribution repositories or community-provided packages for easy consumption.
+            project: incubating
+            repo_url: https://github.com/linuxonzapps/docs
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              accepted: '2025-07-02'
+              annotations:
+                slug: mainframe-software-hub-for-linux
+                project_org: https://github.com/linuxonzapps
+              artwork_url: https://artwork.openmainframeproject.org/projects/mainframe-software-hub-for-linux
+              dev_stats_url: https://insights.linuxfoundation.org/project/mainframe-software-hub-for-linux
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/mainframe-software-hub-for-linux
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfkyr5mI8CLvcFy2G8
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/mainframe-software-hub-for-linux/mainframe-software-hub-for-linux_Charter.pdf?v=1752085373667
+            additional_repos:
+              - repo_url: https://github.com/linuxonzapps/tsc
+              - repo_url: https://github.com/linuxonzapps/zlinux-artifacts-builder
+          - item:
             name: Software Discovery Tool
             homepage_url: https://www.openmainframeproject.org/projects/software-discovery-tool
             logo: software_discovery_tool.svg
