@@ -2603,6 +2603,9 @@ landscape:
             project: incubating
             repo_url: https://github.com/linuxonzapps/docs
             license: Apache-2.0
+            additional_repos:
+              - repo_url: https://github.com/linuxonzapps/tsc
+              - repo_url: https://github.com/linuxonzapps/zlinux-artifacts-builder
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2025-07-02'
@@ -2618,9 +2621,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfkyr5mI8CLvcFy2G8
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/mainframe-software-hub-for-linux/mainframe-software-hub-for-linux_Charter.pdf?v=1752085373667
-            additional_repos:
-              - repo_url: https://github.com/linuxonzapps/tsc
-              - repo_url: https://github.com/linuxonzapps/zlinux-artifacts-builder
           - item:
             name: Software Discovery Tool
             homepage_url: https://www.openmainframeproject.org/projects/software-discovery-tool
