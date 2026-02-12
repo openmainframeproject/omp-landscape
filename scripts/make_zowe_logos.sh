@@ -2,7 +2,7 @@
 
 # Go to script directory
 cd "$(dirname "$BASH_SOURCE")" || exit 1
-cd hosted_logos || exit 1
+cd ../hosted_logos || exit 1
 
 logo='zowe.svg'
 products=(
