@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/data.schema.json
+
 landscape:
   - category:
     name: Projects
@@ -2279,12 +2281,15 @@ landscape:
             homepage_url: https://www.openmainframeproject.org/projects/cobolprogrammingcourse
             logo: cobol_programming_course.svg
             description: The COBOL Programming Course is an open source initiative under the Open Mainframe Project that offers introductory-level educational COBOL materials with modern tooling.
+            second_path:
+              - Projects / Learning and Mentoring
             project: graduated
             repo_url: https://github.com/openmainframeproject/cobol-programming-course
             license: Other
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-04-09'
+              lfx_slug: cobol-programming-course
               annotations:
                 next_annual_review_date: '2026-04-09'
                 chair: Mark Bylok, Roland Koo
@@ -2294,7 +2299,6 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/cobol-programming-course
               graduated: '2021-04-08'
               incubating: '2020-04-09'
-              lfx_slug: cobol-programming-course
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobol-programming-course
@@ -2307,12 +2311,21 @@ landscape:
             homepage_url: https://genevaers.org/
             logo: genevaers.svg
             description: GenevaERS is the single-pass optimization engine for data extraction and reporting on z/OS. Originally developed by PricewaterhouseCoopers as the Geneva Enterprise Reporting System and acquired by IBM, GenevaERS offers businesses a high-level reporting solution uniquely tuned for big data scanning and improved financial transparency for better decision-making. This project combines the processing power of GenevaERS, the reliability of the mainframe and the dynamic open source community.
+            second_path:
+              - Projects / z/OS
             project: graduated
             repo_url: https://github.com/genevaers/Community
             license: Apache-2.0
+            additional_repos:
+              - repo_url: https://github.com/genevaers/Demo
+              - repo_url: https://github.com/genevaers/Performance-Engine
+              - repo_url: https://github.com/genevaers/Workbench
+              - repo_url: https://github.com/genevaers/User-Documentation
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            url_for_bestpractices: https://github.com/genevaers
             extra:
               accepted: '2021-03-29'
+              lfx_slug: genevaers
               annotations:
                 next_annual_review_date: '2026-12-10'
                 chair: Andrea Orth, Aswini Vadlamudi
@@ -2320,10 +2333,11 @@ landscape:
               annual_review_date: '2025-12-11'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/575
               artwork_url: https://artwork.openmainframeproject.org/projects/genevaers
+              chat_channel: '#genevaers'
               dev_stats_url: https://insights.linuxfoundation.org/project/genevaers
               graduated: '2021-08-12'
               incubating: '2021-03-29'
-              lfx_slug: genevaers
+              mailing_list_url: https://lists.openmainframeproject.org/g/genevaers-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/genevaers
@@ -2331,11 +2345,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkTlvQAF
                 - name: Charter
                   url: https://github.com/openmainframeproject/foundation/blob/main/project_charters/genevaers_charter.pdf
-            additional_repos:
-              - repo_url: https://github.com/genevaers/Demo
-              - repo_url: https://github.com/genevaers/Performance-Engine
-              - repo_url: https://github.com/genevaers/Workbench
-              - repo_url: https://github.com/genevaers/User-Documentation
+              slack_url: https://slack.openmainframeproject.org
           - item:
             name: Mainframe Open Education
             homepage_url: https://www.openmainframeproject.org/projects/mainframeopeneducation
@@ -2343,12 +2353,15 @@ landscape:
             description: |-
               The Project's mission is to provide an open-source platform for mainframe users to develop essential skills for future hires and to encourage knowledge sharing
               and community contribution. We aim to align a foundational curriculum with cultivating new mainframe skills for enterprise computing in today's hybrid data center.
+            second_path:
+              - Projects / Learning and Mentoring
             project: graduated
             repo_url: https://github.com/openmainframeproject/omp-education
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-05-21'
+              lfx_slug: mainframe-open-education
               annotations:
                 next_annual_review_date: '2026-07-23'
                 chair: Lauren Valenti
@@ -2358,7 +2371,6 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/mainframe-open-education
               graduated: '2023-07-27'
               incubating: '2020-05-21'
-              lfx_slug: mainframe-open-education
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/mainframe-open-education
@@ -2369,23 +2381,28 @@ landscape:
             homepage_url: https://www.zowe.org/
             logo: zowe.svg
             description: Zowe is an open source project created to host technologies that benefit the Z platform from all members of the Z community (Integrated Software Vendors, System Integrators and z/OS consumers). Zowe, like Mac OS or Windows, comes with a set of APIs and OS capabilities that applications build on and also includes some applications out of the box.
+            second_path:
+              - Projects / z/OS
             project: graduated
             repo_url: https://github.com/zowe/community
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            url_for_bestpractices: https://github.com/zowe/zlc
             extra:
               accepted: '2018-07-18'
+              lfx_slug: zowe
               annotations:
                 next_annual_review_date: '2026-11-12'
-                TAC_representative: Sean Grady
                 chair: Jakub Balhar
                 project_org: https://github.com/zowe
+                TAC_representative: Sean Grady
               annual_review_date: '2025-11-13'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/526
               artwork_url: https://artwork.openmainframeproject.org/projects/zowe
+              chat_channel: '#zowe-onboarding'
               dev_stats_url: https://insights.linuxfoundation.org/project/zowe
               graduated: '2018-07-18'
               incubating: '2018-07-18'
-              lfx_slug: zowe
+              mailing_list_url: https://lists.openmainframeproject.org/g/zowe-dev
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zowe
@@ -2393,6 +2410,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV4KHQA1
                 - name: Charter
                   url: https://github.com/openmainframeproject/foundation/raw/main/project_charters/zowe_charter.pdf
+              slack_url: https://slack.openmainframeproject.org
             additional_repos: []
       - subcategory:
         name: Incubating
@@ -2402,12 +2420,15 @@ landscape:
             homepage_url: https://www.openmainframeproject.org/projects/ambitus
             logo: ambitus.svg
             description: Ambitus fosters a community that will help educate developers about all open source technologies on z/OS
+            second_path:
+              - Projects / Other
             project: incubating
             repo_url: https://github.com/ambitus/ambitus
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-02-24'
+              lfx_slug: ambitus
               annotations:
                 next_annual_review_date: '2026-09-10'
                 chair: Joe Bostian
@@ -2416,7 +2437,6 @@ landscape:
               artwork_url: https://artwork.openmainframeproject.org/projects/ambitus
               dev_stats_url: https://insights.linuxfoundation.org/project/ambitus
               incubating: '2020-02-24'
-              lfx_slug: ambitus
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ambitus
@@ -2427,12 +2447,15 @@ landscape:
             homepage_url: https://www.cbttape.org/
             logo: cbt_tape.svg
             description: The mission of the Project is to provide an open library of free software distribution for the IBM mainframe Multiple Virtual Storage (MVS), OS/390 and z/OS operating system environments that continues to evolve to meet today’s modern needs.
+            second_path:
+              - Projects / z/OS
             project: incubating
             repo_url: https://github.com/CBTTape/CBT898
             license: MIT
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-09-09'
+              lfx_slug: cbt-tape
               annotations:
                 next_annual_review_date: '2026-02-12'
                 chair: Sam Golob
@@ -2440,35 +2463,41 @@ landscape:
               annual_review_date: '2025-02-13'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/530
               artwork_url: https://artwork.openmainframeproject.org/projects/cbt-tape
+              chat_channel: '#cbt-tape'
               dev_stats_url: https://insights.linuxfoundation.org/project/cbt-tape
               incubating: '2020-09-09'
-              lfx_slug: cbt-tape
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cbt-tape
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkTm0QAF
+              slack_url: https://slack.openmainframeproject.org
             additional_repos: []
           - item:
             name: COBOL Check
             homepage_url: https://github.com/openmainframeproject/cobol-check
             logo: cobol_check.svg
             description: The mission of the COBOL Check project is to provide a fine-grained unit testing/checking for COBOL.
+            second_path:
+              - Projects / Development Tools
             project: incubating
             repo_url: https://github.com/openmainframeproject/cobol-check
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2021-01-14'
+              lfx_slug: cobol-check
               annotations:
                 next_annual_review_date: '2025-06-26'
                 chair: Claus Bjørno
+                leads: Rune Christensen
               annual_review_date: '2023-06-08'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/578
               artwork_url: https://artwork.openmainframeproject.org/projects/cobol-check
+              chat_channel: '#cobol-check'
               dev_stats_url: https://insights.linuxfoundation.org/project/cobol-check
               incubating: '2021-01-14'
-              lfx_slug: cobol-check
+              mailing_list_url: https://lists.openmainframeproject.org/g/cobol-check-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobol-check
@@ -2476,42 +2505,56 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWfljQAD
                 - name: Charter
                   url: https://github.com/openmainframeproject/foundation/blob/master/project_charters/cobol-check_charter.pdf
+              slack_url: https://slack.openmainframeproject.org
           - item:
             name: Feilong
             homepage_url: https://www.openmainframeproject.org/projects/feilong
             logo: feilong.svg
             description: Feilong is an open source z/VM cloud connector project under the Open Mainframe Project umbrella that will accelerate the z/VM adoption, extending its ecosystem and its user experience.
+            second_path:
+              - Projects / Linux
             project: incubating
             repo_url: https://github.com/openmainframeproject/feilong
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2019-09-19'
+              lfx_slug: feilong
               annotations:
                 next_annual_review_date: '2026-08-13'
                 chair: Mike Friesenegger
               annual_review_date: '2025-08-14'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/579
               artwork_url: https://artwork.openmainframeproject.org/projects/feilong
+              chat_channel: '#feilong'
               dev_stats_url: https://insights.linuxfoundation.org/project/feilong
               incubating: '2019-09-19'
-              lfx_slug: feilong
+              mailing_list_url: https://lists.openmainframeproject.org/g/feilong-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/feilong
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IfR9gQAF
+              slack_url: https://slack.openmainframeproject.org
           - item:
             name: Galasa
             homepage_url: https://galasa.dev/
             logo: galasa.svg
             description: The mission of the Project is to provide an integration test framework for mainframe and hybrid applications.
+            second_path:
+              - Projects / Development Tools
             project: incubating
             repo_url: https://github.com/galasa-dev/projectmanagement
             license: Other
+            additional_repos:
+              - repo_url: https://github.com/galasa-dev/simplatform
+              - repo_url: https://github.com/galasa-dev/galasa
+              - repo_url: https://github.com/galasa-dev/helm
+              - repo_url: https://github.com/galasa-dev/webui
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2023-07-03'
+              lfx_slug: galasa
               annotations:
                 next_annual_review_date: '2026-04-23'
                 chair: Will Bartolomeo
@@ -2519,9 +2562,10 @@ landscape:
               annual_review_date: '2025-04-24'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/584
               artwork_url: https://artwork.openmainframeproject.org/projects/galasa
+              chat_channel: '#galasa_users'
               dev_stats_url: https://insights.linuxfoundation.org/project/galasa
               incubating: '2023-07-03'
-              lfx_slug: galasa
+              mailing_list_url: https://lists.openmainframeproject.org/g/galasa-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/galasa
@@ -2529,11 +2573,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001O6R6SQAV
                 - name: Charter
                   url: https://github.com/openmainframeproject/foundation/blob/main/project_charters/galasa_charter.pdf
-            additional_repos:
-              - repo_url: https://github.com/galasa-dev/simplatform
-              - repo_url: https://github.com/galasa-dev/galasa
-              - repo_url: https://github.com/galasa-dev/helm
-              - repo_url: https://github.com/galasa-dev/webui
+              slack_url: https://slack.openmainframeproject.org
           - item:
             name: Mainframe Software Hub for Linux
             homepage_url: https://mainframesoftwarehubforz.org/
@@ -2542,12 +2582,17 @@ landscape:
             project: incubating
             repo_url: https://github.com/linuxonzapps/docs
             license: Apache-2.0
+            additional_repos:
+              - repo_url: https://github.com/linuxonzapps/tsc
+              - repo_url: https://github.com/linuxonzapps/zlinux-artifacts-builder
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2025-07-02'
+              lfx_slug: mainframe-software-hub-for-linux
+              annotations:
+                project_org: https://github.com/linuxonzapps
               artwork_url: https://artwork.openmainframeproject.org/projects/mainframe-software-hub-for-linux
               dev_stats_url: https://insights.linuxfoundation.org/project/mainframe-software-hub-for-linux
-              lfx_slug: mainframe-software-hub-for-linux
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/mainframe-software-hub-for-linux
@@ -2555,22 +2600,20 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfkyr5mI8CLvcFy2G8
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/mainframe-software-hub-for-linux/mainframe-software-hub-for-linux_Charter.pdf?v=1752085373667
-              annotations:
-                project_org: https://github.com/linuxonzapps
-            additional_repos:
-              - repo_url: https://github.com/linuxonzapps/tsc
-              - repo_url: https://github.com/linuxonzapps/zlinux-artifacts-builder
           - item:
             name: Software Discovery Tool
             homepage_url: https://www.openmainframeproject.org/projects/software-discovery-tool
             logo: software_discovery_tool.svg
             description: The mission of the Project is to develop a library and associated software to enable developers to discover existing open source software tools.
+            second_path:
+              - Projects / Other
             project: incubating
             repo_url: https://github.com/openmainframeproject/software-discovery-tool
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-09-09'
+              lfx_slug: software-discovery-tool
               annotations:
                 next_annual_review_date: '2026-05-14'
                 chair: Elizabeth Joseph
@@ -2579,7 +2622,6 @@ landscape:
               artwork_url: https://artwork.openmainframeproject.org/projects/software-discovery-tool
               dev_stats_url: https://insights.linuxfoundation.org/project/software-discovery-tool
               incubating: '2020-09-09'
-              lfx_slug: software-discovery-tool
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/software-discovery-tool
@@ -2590,26 +2632,31 @@ landscape:
             homepage_url: https://www.openmainframeproject.org/projects/tessia
             logo: tessia.svg
             description: A tool to automate and simplify the installation/configuration/testing of Linux systems running on the IBM Z platform.
+            second_path:
+              - Projects / Linux
             project: incubating
             repo_url: https://github.com/tessia-project/tessia
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-10-23'
+              lfx_slug: tessia
               annotations:
                 next_annual_review_date: '2026-10-08'
                 chair: Sanjay Kumar, Mohammed Erakkadavath
               annual_review_date: '2025-10-09'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/531
               artwork_url: https://artwork.openmainframeproject.org/projects/tessia
+              chat_channel: '#tessia'
               dev_stats_url: https://insights.linuxfoundation.org/project/tessia
               incubating: '2020-10-23'
-              lfx_slug: tessia
+              mailing_list_url: https://lists.openmainframeproject.org/g/tessia-user
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/tessia
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkUvgQAF
+              slack_url: https://slack.openmainframeproject.org
       - subcategory:
         name: Sandbox
         items:
@@ -2618,11 +2665,14 @@ landscape:
             homepage_url: https://www.openmainframeproject.org/projects/tersedecompress
             logo: tersedecompress.svg
             description: TerseDecompress is a java program that can be used to decompress files which have been previously compressed on an IBM Mainframe using the TERSE / AMATERSE program (on IBM z/OS or IBM z/VM).
+            second_path:
+              - Projects / Other
             project: sandbox
             repo_url: https://github.com/openmainframeproject/tersedecompress
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2019-08-20'
+              lfx_slug: tersedecompress
               annotations:
                 next_annual_review_date: '2026-02-26'
                 chair: Oleksandr Hubanov
@@ -2630,7 +2680,7 @@ landscape:
               annual_review_url: https://github.com/openmainframeproject/tac/issues/576
               artwork_url: https://artwork.openmainframeproject.org/projects/tersedecompress
               dev_stats_url: https://insights.linuxfoundation.org/project/tersedecompress
-              lfx_slug: tersedecompress
+              incubating: '2019-08-20'
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/tersedecompress
@@ -2641,12 +2691,15 @@ landscape:
             homepage_url: https://www.tsterm.org/
             logo: tsterm.svg
             description: TSTerm is a software package that provides 3270 terminal functionality in a TypeScript implementation.
+            second_path:
+              - Projects / z/OS
             project: sandbox
             repo_url: https://github.com/TSTerminal/TSTerm
             license: Other
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2021-11-30'
+              lfx_slug: tsterm
               annotations:
                 next_annual_review_date: '2026-05-28'
                 chair: Joe Devlin
@@ -2655,7 +2708,6 @@ landscape:
               annual_review_url: https://github.com/openmainframeproject/tac/issues/506
               artwork_url: https://artwork.openmainframeproject.org/projects/tsterm
               dev_stats_url: https://insights.linuxfoundation.org/project/tsterm
-              lfx_slug: tsterm
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/tsterm
@@ -2672,12 +2724,15 @@ landscape:
               The z/OS Open Tools github organization serves as a collaborative github organization for z/OS UNIX developers, users, and organizations who contribute to and utilize open-source tools on z/OS.
               z/OS Open Tools started in 2022 with a handful of projects and now currently hosts over 180+ projects, with the aim of providing the build recipes as well as the patches to enable popular open source packages to build and run on z/OS. z/OS Open Tools includes ports for popular open source projects like Git, Bash, Curl, CMake, Make, GPG, LLama.cpp, Vim, Nano and many more.
               z/OS Open Tools also distributes binaries for each of the tools as Github releases. It also provides a z/OS UNIX package manager (zopen) that makes it easy to consume the 180+ tools directly on z/OS.
+            second_path:
+              - Projects / z/OS
             project: sandbox
             repo_url: https://github.com/zopencommunity/meta
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2024-03-21'
+              lfx_slug: zopen
               annotations:
                 next_annual_review_date: '2026-03-12'
                 chair: Igor Todorovski
@@ -2686,7 +2741,7 @@ landscape:
               annual_review_url: https://github.com/openmainframeproject/tac/issues/625
               artwork_url: https://artwork.openmainframeproject.org/projects/zopen
               dev_stats_url: https://insights.linuxfoundation.org/project/zopen
-              lfx_slug: zopen
+              incubating: '2024-03-21'
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zopen
@@ -2700,22 +2755,29 @@ landscape:
             description: |-
               The mission of the Project is to curate a dataset of production COBOL and associated mainframe languages (JCL, REXX, PL/I) on which Large Language
               Models (LLMs) can be fine-tuned and develop an evaluation suite to measure LLMs' ability to comprehend, explain, and write code in the associated language.
+            second_path:
+              - Projects / Development Tools
             project: sandbox
             repo_url: https://github.com/zorse-project/COBOLEval
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2024-07-16'
+              lfx_slug: zorse
+              annotations:
+                project_org: https://github.com/zorse-project
+                next_annual_review_date: '2025-08-14'
+                chair: Gabriel Gordon-Hall
+              annual_review_date: '2024-07-11'
+              annual_review_url: https://github.com/openmainframeproject/tac/issues/642
               artwork_url: https://artwork.openmainframeproject.org/projects/zorse
               dev_stats_url: https://insights.linuxfoundation.org/project/zorse
-              lfx_slug: zorse
+              incubating: '2024-07-16'
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zorse
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfdtDySeARCxRkGkfK
-              annotations:
-                project_org: https://github.com/zorse-project
             additional_repos: []
           - item:
             name: z/VM Community Tools
@@ -2725,12 +2787,15 @@ landscape:
               Create a repository of z/VM tools for use by the z/VM community, collecting the various tools shared via listservs and other locations without a formal home into a single repository. The aim is not to replace other maintained/established repositories but refer to them, though those repositories can join this project if they wish.
 
               This will provide the community a single location for locating z/VM community tools.
+            second_path:
+              - Projects / z/VM
             project: sandbox
             repo_url: https://github.com/openmainframeproject/zvm-community-tools
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2021-05-13'
+              lfx_slug: zvm-community-tools
               annotations:
                 next_annual_review_date: '2026-06-11'
                 chair: Jeff Brown, Michael Macisaac
@@ -2738,7 +2803,6 @@ landscape:
               annual_review_url: https://github.com/openmainframeproject/tac/issues/454
               artwork_url: https://artwork.openmainframeproject.org/projects/zvm-community-tools
               dev_stats_url: https://insights.linuxfoundation.org/project/zvm-community-tools
-              lfx_slug: zvm-community-tools
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zvm-community-tools
@@ -2754,11 +2818,14 @@ landscape:
             homepage_url: https://www.openmainframeproject.org/projects/cobol-working-group
             logo: cobol_working_group.svg
             description: The COBOL Working Group aims to promote the language by changing its perception and making materials more accessible to help more developers and students learn it on their mainframe journey.
+            second_path:
+              - Projects / Learning and Mentoring
             project: working-group
             repo_url: https://github.com/openmainframeproject/wg-cobol
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2020-07-09'
+              lfx_slug: cobol-working-group
               annotations:
                 next_annual_review_date: '2026-01-08'
                 chair: ''
@@ -2766,7 +2833,6 @@ landscape:
               annual_review_url: https://github.com/openmainframeproject/tac/issues/581
               artwork_url: https://artwork.openmainframeproject.org/projects/cobol-working-group
               dev_stats_url: https://insights.linuxfoundation.org/project/cobol-working-group
-              lfx_slug: cobol-working-group
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobol-working-group
@@ -2777,20 +2843,54 @@ landscape:
             homepage_url: https://wiki.openmainframeproject.org/display/LinuxDistrosWG/Linux+Distributions+Working+Group
             logo: linux_distributions_working_group.svg
             description: The purpose of this working group is to oversee the health and maintenance of the s390x port of various Linux distributions to ensure that the s390x port remains a supported architecture for them all. To this end, the group will collaborate on shared challenges and successes, work together to nurture new contributors, and make sure they also have the infrastructure they need.
+            second_path:
+              - Projects / Linux
             project: working-group
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2021-06-10'
+              lfx_slug: omp-linux-distributions-wg
               annotations:
                 next_annual_review_date: '2026-11-10'
                 chair: Elizabeth Joseph
               annual_review_date: '2025-12-11'
               annual_review_url: https://github.com/openmainframeproject/tac/issues/532
               artwork_url: https://artwork.openmainframeproject.org/projects/omp-linux-distributions-wg
+              chat_channel: '#linux-distros-wg'
               dev_stats_url: https://insights.linuxfoundation.org/project/omp-linux-distributions-wg
-              lfx_slug: omp-linux-distributions-wg
+              mailing_list_url: https://lists.openmainframeproject.org/g/wg-linux-distros
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/omp-linux-distributions-wg
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001MaHzKQAV
+              slack_url: https://slack.openmainframeproject.org
+          - item:
+            name: Mainframe Modernization WG
+            homepage_url: https://modernization.openmainframeproject.org/
+            logo: mainframe_modernization_wg.svg
+            description: The purpose of this working group is to oversee the health and maintenance of the s390x port of various Linux distributions to ensure that the s390x port remains a supported architecture for them all.
+            second_path:
+              - Projects / Other
+            project: working-group
+            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
+            extra:
+              accepted: '2022-09-08'
+              lfx_slug: mainframe-modernization-wg
+              annotations:
+                next_annual_review_date: '2026-09-24'
+                chair: Misty Decker
+                wiki: https://wiki.openmainframeproject.org/display/MW
+              annual_review_date: '2025-09-25'
+              annual_review_url: https://github.com/openmainframeproject/tac/issues/529
+              artwork_url: https://artwork.openmainframeproject.org/projects/mainframe-modernization-wg
+              chat_channel: '#wg-modernization'
+              dev_stats_url: https://insights.linuxfoundation.org/project/mainframe-modernization-wg
+              incubating: '2023-06-22'
+              mailing_list_url: https://lists.openmainframeproject.org/g/wg-modernization
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/mainframe-modernization-wg
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1HVVQA3
+              slack_url: https://slack.openmainframeproject.org
