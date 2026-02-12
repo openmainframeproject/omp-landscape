@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cd $(dirname $BASH_SOURCE)
-cd hosted_logos
+cd "$(dirname "$BASH_SOURCE")" || exit 1
+cd ../hosted_logos || exit 1
 
 logo='rocket_software_inc.svg'
 products=('Rocket® PRO/JCL' 'Rocket™ BlueZone Web' 'Rocket Support for Zowe')
