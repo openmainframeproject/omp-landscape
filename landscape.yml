@@ -2752,37 +2752,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf0W2biSSY63djWaZX
             additional_repos: []
           - item:
-            name: Zorse
-            homepage_url: https://zorse.ai/
-            logo: zorse.svg
-            description: |-
-              The mission of the Project is to curate a dataset of production COBOL and associated mainframe languages (JCL, REXX, PL/I) on which Large Language
-              Models (LLMs) can be fine-tuned and develop an evaluation suite to measure LLMs' ability to comprehend, explain, and write code in the associated language.
-            second_path:
-              - Projects / Development Tools
-            project: sandbox
-            repo_url: https://github.com/zorse-project/COBOLEval
-            license: Apache-2.0
-            crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
-            extra:
-              accepted: '2024-07-16'
-              annotations:
-                project_org: https://github.com/zorse-project
-                next_annual_review_date: '2025-08-14'
-                chair: Gabriel Gordon-Hall
-              annual_review_date: '2024-07-11'
-              annual_review_url: https://github.com/openmainframeproject/tac/issues/642
-              artwork_url: https://artwork.openmainframeproject.org/projects/zorse
-              dev_stats_url: https://insights.linuxfoundation.org/project/zorse
-              incubating: '2024-07-16'
-              lfx_slug: zorse
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/zorse
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfdtDySeARCxRkGkfK
-            additional_repos: []
-          - item:
             name: z/VM Community Tools
             homepage_url: https://www.zvmcommunitytools.org/
             logo: z_vm_community_tools.svg
