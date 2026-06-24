@@ -18,7 +18,7 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: jmertic/lfx-landscape-tools@apptoken
+      - uses: jmertic/lfx-landscape-tools@2696780bce5ecfd9c58bc8afaf880d5ac128e1a9 # 20260624 + patch
         env:
           ghid_token: ${{ secrets.PAT }}
           repository: ${{ github.repository }}
