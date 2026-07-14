@@ -5,7 +5,7 @@ landscape:
     name: Projects
     subcategories:
       - subcategory:
-        name: Linux
+        name: Linux on Z
         items:
           - item:
             name: crc32-s390x
@@ -104,9 +104,6 @@ landscape:
             repo_url: https://github.com/trothr/znetboot
             logo: znetboot.svg
             crunchbase: https://www.crunchbase.com/organization/la-casita
-      - subcategory:
-        name: z/VM
-        items:
           - item:
             name: CMS Make
             homepage_url: https://github.com/trothr/cmsmake
@@ -204,7 +201,7 @@ landscape:
             logo: zuid.svg
             crunchbase: https://www.crunchbase.com/organization/walmart-labs
       - subcategory:
-        name: Development Tools
+        name: Mainframe Languages
         items:
           - item:
             name: COBOL Source colouriser for Visual Studio Code
@@ -220,6 +217,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
           - item:
             name: ZCrafter QuickLint
+            second_path:
+              - Projects / AI
             homepage_url: https://www.zcrafter.com/
             repo_url: https://github.com/victortaiwo/zcrafter-quicklint
             logo: zcrafter.svg
@@ -232,7 +231,7 @@ landscape:
             logo: zsublime.svg
             crunchbase: https://www.crunchbase.com/organization/broadcom
       - subcategory:
-        name: Learning and Mentoring
+        name: Education
         items:
           - item:
             name: Global Repository for Mainframe Developers
@@ -241,7 +240,7 @@ landscape:
             logo: Global-Repository-for-Mainframe-Developers.svg
             crunchbase: https://www.crunchbase.com/organization/iba-group
       - subcategory:
-        name: Other
+        name: Modernization
         items:
           - item:
             name: Ductwork
@@ -249,6 +248,22 @@ landscape:
             repo_url: https://github.com/trothr/ductwork
             logo: ductwork.svg
             crunchbase: https://www.crunchbase.com/organization/la-casita
+      - subcategory:
+        name: Testing
+        items: []
+      - subcategory:
+        name: Hybrid Cloud Intergration
+        items:
+          - item:
+            name: OpenTelemetry Mainframe SIG
+            repo_url: https://github.com/open-telemetry/sig-mainframe
+            homepage_url: https://openmainframeproject.org/our-projects/working-groups/opentelemetry-sig/
+            logo: opentelemetry.svg
+            project: working-group
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+      - subcategory:
+        name: AI
+        items: []
   - category:
     name: Zowe Conformant
     subcategories:
@@ -2037,7 +2052,7 @@ landscape:
             logo: htl_donaustadt.svg
             description: |-
               Herzlich Willkommen auf der offiziellen Seite der htl donaustadt!
-                
+
                 Wir sind eine höhere technische Schule mit Herz und Verstand.
             crunchbase: https://www.crunchbase.com/organization/htl-donaustadt
             twitter: https://twitter.com/htldonaustadt
@@ -2269,7 +2284,8 @@ landscape:
             logo: cobol_programming_course.svg
             description: The COBOL Programming Course is an open source initiative under the Open Mainframe Project that offers introductory-level educational COBOL materials with modern tooling.
             second_path:
-              - Projects / Learning and Mentoring
+              - Projects / Mainframe Languages
+              - Projects / Education
             project: graduated
             repo_url: https://github.com/openmainframeproject/cobol-programming-course
             license: Other
@@ -2343,7 +2359,7 @@ landscape:
               The Project's mission is to provide an open-source platform for mainframe users to develop essential skills for future hires and to encourage knowledge sharing
               and community contribution. We aim to align a foundational curriculum with cultivating new mainframe skills for enterprise computing in today's hybrid data center.
             second_path:
-              - Projects / Learning and Mentoring
+              - Projects / Education
             project: graduated
             repo_url: https://github.com/openmainframeproject/omp-education
             license: Apache-2.0
@@ -2372,6 +2388,8 @@ landscape:
             logo: zowe.svg
             description: Zowe is an open source project created to host technologies that benefit the Z platform from all members of the Z community (Integrated Software Vendors, System Integrators and z/OS consumers). Zowe, like Mac OS or Windows, comes with a set of APIs and OS capabilities that applications build on and also includes some applications out of the box.
             second_path:
+              - Projects / Testing
+              - Projects / Modernization
               - Projects / z/OS
             project: graduated
             repo_url: https://github.com/zowe/community
@@ -2412,7 +2430,8 @@ landscape:
             logo: ambitus.svg
             description: Ambitus fosters a community that will help educate developers about all open source technologies on z/OS
             second_path:
-              - Projects / Other
+              - Projects / Linux on Z
+              - Projects / z/OS
             project: incubating
             repo_url: https://github.com/ambitus/ambitus
             license: Apache-2.0
@@ -2472,7 +2491,9 @@ landscape:
             logo: feilong.svg
             description: Feilong is an open source z/VM cloud connector project under the Open Mainframe Project umbrella that will accelerate the z/VM adoption, extending its ecosystem and its user experience.
             second_path:
-              - Projects / Linux
+              - Projects / Linux on Z
+              - Projects / Modernization
+              - Projects / Hybrid Cloud Intergration
             project: incubating
             repo_url: https://github.com/openmainframeproject/feilong
             license: Apache-2.0
@@ -2503,7 +2524,9 @@ landscape:
             logo: galasa.svg
             description: The mission of the Project is to provide an integration test framework for mainframe and hybrid applications.
             second_path:
-              - Projects / Development Tools
+              - Projects / Modernization
+              - Projects / Testing
+              - Projects / z/OS
             project: incubating
             repo_url: https://github.com/galasa-dev/projectmanagement
             license: Other
@@ -2541,6 +2564,8 @@ landscape:
             homepage_url: https://mainframesoftwarehubforz.org/
             logo: mainframe_software_hub_for_linux.svg
             description: The mission of the Project is to provide open source packages not available in distribution repositories or community-provided packages for easy consumption.
+            second_path:
+              - Projects / Linux on Z
             project: incubating
             repo_url: https://github.com/linuxonzapps/docs
             license: Apache-2.0
@@ -2571,7 +2596,8 @@ landscape:
             logo: software_discovery_tool.svg
             description: The mission of the Project is to develop a library and associated software to enable developers to discover existing open source software tools.
             second_path:
-              - Projects / Other
+              - Projects / Linux on Z
+              - Projects / Modernization
             project: incubating
             repo_url: https://github.com/openmainframeproject/software-discovery-tool
             license: Apache-2.0
@@ -2599,7 +2625,7 @@ landscape:
             logo: tessia.svg
             description: A tool to automate and simplify the installation/configuration/testing of Linux systems running on the IBM Z platform.
             second_path:
-              - Projects / Linux
+              - Projects / Linux on Z
             project: incubating
             repo_url: https://github.com/tessia-project/tessia
             license: Apache-2.0
@@ -2633,7 +2659,7 @@ landscape:
             logo: tersedecompress.svg
             description: TerseDecompress is a java program that can be used to decompress files which have been previously compressed on an IBM Mainframe using the TERSE / AMATERSE program (on IBM z/OS or IBM z/VM).
             second_path:
-              - Projects / Other
+              - Projects / z/OS
             project: sandbox
             repo_url: https://github.com/openmainframeproject/tersedecompress
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -2727,7 +2753,7 @@ landscape:
 
               This will provide the community a single location for locating z/VM community tools.
             second_path:
-              - Projects / z/VM
+              - Projects / Linux on Z
             project: sandbox
             repo_url: https://github.com/openmainframeproject/zvm-community-tools
             license: Apache-2.0
@@ -2759,7 +2785,7 @@ landscape:
             logo: cobol_working_group.svg
             description: The COBOL Working Group aims to promote the language by changing its perception and making materials more accessible to help more developers and students learn it on their mainframe journey.
             second_path:
-              - Projects / Learning and Mentoring
+              - Projects / Mainframe Languages
             project: working-group
             repo_url: https://github.com/openmainframeproject/wg-cobol
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
@@ -2785,7 +2811,7 @@ landscape:
             logo: linux_distributions_working_group.svg
             description: The purpose of this working group is to oversee the health and maintenance of the s390x port of various Linux distributions to ensure that the s390x port remains a supported architecture for them all. To this end, the group will collaborate on shared challenges and successes, work together to nurture new contributors, and make sure they also have the infrastructure they need.
             second_path:
-              - Projects / Linux
+              - Projects / Linux on Z
             project: working-group
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
@@ -2813,7 +2839,7 @@ landscape:
             logo: mainframe_modernization_wg.svg
             description: The purpose of this working group is to oversee the health and maintenance of the s390x port of various Linux distributions to ensure that the s390x port remains a supported architecture for them all.
             second_path:
-              - Projects / Other
+              - Projects / Modernization
             project: working-group
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
@@ -2842,6 +2868,8 @@ landscape:
             homepage_url: https://github.com/openmainframeproject/wg-ztrust
             logo: ztrust_working_group.svg
             description: The ZTRUST working group exists to educate and inform members of the Z (mainframe) community about cryptographic trust issues, starting with code signing.
+            second_path:
+              - Projects / Modernization
             project: working-group
             repo_url: https://github.com/openmainframeproject/wg-ztrust
             license: Other
