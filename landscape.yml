@@ -256,7 +256,9 @@ landscape:
         items:
           - item:
             name: OpenTelemetry Mainframe SIG
-            repo_url: https://github.com/open-telemetry/sig-mainframe
+            repo_url: https://github.com/open-telemetry/semantic-conventions-mainframe
+            additional_repos:
+              - repo_url: https://github.com/open-telemetry/sig-mainframe
             homepage_url: https://openmainframeproject.org/our-projects/working-groups/opentelemetry-sig/
             logo: opentelemetry.svg
             project: working-group
