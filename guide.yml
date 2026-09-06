@@ -1,0 +1,318 @@
+# yaml-language-server: $schema=https://cncf.github.io/landscape2/config/schema/guide.schema.json
+
+categories:
+  - category: "Introduction"
+    content: |
+      Enterprise mainframes (IBM Z and LinuxONE) process the core transaction workloads of the global financial, retail, and public sectors. Historically, these systems operated on isolated, proprietary development silos. The Open Mainframe Project (OMP), founded in 2015 under the Linux Foundation, was established to bridge this gap.
+
+      The Open Mainframe Project acts as a focal point for the deployment and collaborative development of open-source software within mainframe computing environments. By introducing modern container orchestration, DevOps pipelines, standard testing frameworks, and open CLI standards to the mainframe, the OMP accelerates modernization while cultivating a diverse pipeline of engineering talent.
+
+      If you look at the landscape as a whole, it represents the critical tools and communities modernizing enterprise infrastructure. This guide is organized to take you through these layers systematically, moving from hardware-virtualization platforms up to developer tooling, and finally into community-driven mentorship frameworks.
+
+    subcategories:
+      - subcategory: "What is the Landscape"
+        content: |
+          The Open Mainframe Project Landscape is an interactive map of open-source projects hosted directly by the OMP, adjacent open-source software critical to the mainframe ecosystem, and the diverse member companies supporting this mission. Every project listed on this landscape is either an officially hosted OMP project (ranging from Sandbox to Graduated stages) or an independent open-source project designed specifically to operate within or support s390x and z/Architecture enterprise environments.
+
+      - subcategory: "How to Use the Guide"
+        content: |
+          This guide is structured around the three primary architectural tabs of the OMP Landscape: Projects, Zowe Conformant, and the Open Source Ecosystem. It walks you through each tab from the ground up, detailing what each technology category is, the real-world problem it solves, how it helps production teams, and a brief technical primer.
+
+      - subcategory: "How to Contribute"
+        content: |
+          The OMP Landscape is a community-owned directory and is hosted publicly on GitHub. If you maintain or develop an open-source project that is mainframe-centric and has reached a baseline of community adoption (such as having at least 300 GitHub stars or being actively hosted under the OMP umbrella), you can request to add it.
+
+          To do so, open a pull request against the `openmainframeproject/omp-landscape` repository on GitHub. You will need to insert your metadata entry into the primary `landscape.yml` file under the single best-fitting category. Additionally, upload a crisp, vector SVG of your project's logo to the `hosted_logos` path. To ensure the landscape loads perfectly, your SVG must consist of flat vector shapes with no embedded base64 raster elements and no raw, un-expanded font/text tags.
+
+  - category: "Projects"
+    content: |
+      This category tracks the open source software utilities, libraries, and frameworks specifically targetting the mainframe ecosystem. Sub-categories include the dimensions of specific operating system targetted ( z/OS, Linux ) and additionally solution spaces ( such as Modernization, Education, and Mainframe Languages )
+    subcategories:
+      - subcategory: "Linux On Z"
+        keywords:
+          - "s390x"
+          - "linuxone"
+          - "z linux"
+        content: |
+          ### What It Is
+          Linux first came to the mainframe architecture in 1999, and these projects are key to enabling Linux to run on the mainframe architecture ( known as s390x in the Linux ecosystem )
+
+          ### The Problem It Addresses
+          Installing and validating modern Linux distributions over specialized mainframe partitions and complex storage area networks requires manually configuring hardware maps and low-level hypervisor parameters, creating a massive configuration bottleneck.
+
+          ### How It Helps
+          It shifts platform configurations into software-defined infrastructure, allowing teams to provision, manage, and destroy virtual Linux guests with modern cloud speed.
+
+          ### Technical 101
+          Represented by projects like **Feilong** (the z/VM Cloud Connector). Feilong functions via a three-layered architecture: a Python-based REST API layer, an intermediate transition layer, and a C-based wrapper layer interacting with native Systems Management APIs (SMAPI). It exposes standardized JSON web contracts to distributed platforms (like OpenStack or custom web dashboards), completely automating disk formatting, image installation, and virtual switch connection steps on behalf of the user.
+
+      - subcategory: "z/OS"
+        keywords:
+          - "z/OS"
+          - "mvs"
+          - "genevaers"
+          - "freeware"
+          - "cbt tape"
+        content: |
+          ### What It Is
+          z/OS is the predominant operating system used for mainframes, with backwards compatibility tracing back to MVS in the 1970s. These projects are native to z/OS and enable better interoperability with other operating systems, programming lanaguges, and architectures.
+
+          ### The Problem It Addresses
+          Connecting z/OS applications and data to the enterprise, enabling greater interoperability with other applications and services in an enterprise.
+
+          ### How It Helps
+          It uses ultra-high-performance single-pass computing frameworks and curated asset collections to accelerate data queries and simplify operating system configurations.
+
+          ### Technical 101
+          This area houses analytics tools like **GenevaERS** and package tools like the **zopen community** and **Polycephaly**, alongside long-standing historical repositories like the **CBT Tape**. GenevaERS reads analytical configurations and processes massive sequential files in a single pass directly on System z hardware, optimizing memory arrays to achieve maximum data lookup velocities.
+
+      - subcategory: "AI"
+        keywords:
+          - "artificial intelligence"
+          - "llm"
+          - "zorse"
+          - "dataset"
+          - "automation"
+        content: |
+          ### What It Is
+          Early-stage open-source projects exploring the intersection of generative artificial intelligence, large language models (LLMs), and legacy enterprise mainframe architectures.
+
+          ### The Problem It Addresses
+          Public LLMs are heavily trained on modern web codebases (like Python and JavaScript) but lack exposure to specialized mainframe programming patterns, custom assembly syntax, and legacy systems constraints. This makes public models unreliable for enterprise code modernization or translation tasks.
+
+          ### How It Helps
+          It collects, validates, and standardizes high-fidelity, secure mainframe code datasets to accurately train and fine-tune next-generation developer assistance tools.
+
+          ### Technical 101
+          Represented by projects like **Zorse**, this subcategory acts as an open-source hub for curating production-quality mainframe logic contexts. It strips out proprietary variables while preserving the core algorithms of mainframe code patterns, formatting them as tokenized training datasets to optimize model outputs.
+
+      - subcategory: "Education"
+        keywords:
+          - "mentorship"
+          - "curriculum"
+          - "onboarding"
+          - "training"
+          - "skills"
+        content: |
+          ### What It Is
+          Community-managed instructional platforms, interactive sandbox environments, and student mentorship initiatives designed to build cross-platform enterprise skills.
+
+          ### The Problem It Addresses
+          Mainframe-specific systems knowledge is rarely taught in modern university computer science programs, resulting in an industry-wide generational skills gap as veteran administrators retire.
+
+          ### How It Helps
+          It provides accessible, vendor-neutral educational pathways that allow self-driven learners and junior developers to gain practical experience on actual mainframe infrastructure.
+
+          ### Technical 101
+          Driven by **Mainframe Open Education** and the **OMP Mentorship Program**, this area manages crowdsourced reference handbooks, open lab architectures, and community-led engineering tracks that guide mentees as they write code and run operations on enterprise environments.
+
+      - subcategory: "Hybrid Cloud Intergration"
+        keywords:
+          - "cloud native"
+          - "orchestration"
+          - "openstack"
+          - "api"
+          - "interoperability"
+        content: |
+          ### What It Is
+          API abstraction tools and open connector libraries that link legacy mainframe compute resources directly into off-platform, distributed cloud frameworks.
+
+          ### The Problem It Addresses
+          Enterprise data centers operate on a hybrid model, utilizing public cloud hyperscalers alongside on-premise mainframes. Without standardized orchestration hooks, mainframes remain isolated infrastructure silos managed by separate provisioning systems.
+
+          ### How It Helps
+          It unifies resource management across the entire enterprise estate, enabling automated provisioning of multi-tier applications that span both cloud architectures and mainframe nodes.
+
+          ### Technical 101
+          This area provides infrastructure drivers (such as OpenStack Nova hypervisor drivers and Terraform provider integrations) that translate distributed container or VM scheduling requests into platform-specific commands. These drivers translate higher-level orchestration actions directly into secure network connections to execute compute provisioning workflows across hybrid boundaries.
+
+      - subcategory: "Mainframe Languages"
+        keywords:
+          - "cobol"
+          - "compilers"
+          - "unit testing"
+          - "syntax"
+          - "programming"
+        content: |
+          ### What It Is
+          Open development resources, compiler extensions, and testing abstractions built around historical and active programming languages utilized in transaction processing.
+
+          ### The Problem It Addresses
+          Legacy enterprise applications run millions of lines of code that lack modern software testing workflows, forcing teams to run long, risky manual checks in shared testing environments.
+
+          ### How It Helps
+          It introduces modern development workflows—such as Test-Driven Development (TDD) and localized unit-testing loops—to enterprise code bases without requiring changes to production logic.
+
+          ### Technical 101
+          Represented by the **COBOL Programming Course** and **COBOL Check**. COBOL Check runs a pre-processor on target source text, injecting native verification paths around isolated sections of code. This allows teams to validate single functions locally before passing modules down into the compiler pipeline.
+
+      - subcategory: "Modernization"
+        keywords:
+          - "zowe"
+          - "rest api"
+          - "devops"
+          - "gateway"
+          - "open interfaces"
+        content: |
+          ### What It Is
+          Extensible core software frameworks, web interfaces, and API gateways that provide modern programmatic entry points into secure mainframe backends.
+
+          ### The Problem It Addresses
+          Mainframe systems services are historically locked behind legacy terminal protocols, rendering them incompatible with modern web development stacks and off-platform DevOps tools.
+
+          ### How It Helps
+          It exposes core system functions as secure web services, allowing modern web dashboards, command line shells, and remote build runners to control the platform natively.
+
+          ### Technical 101
+          Led by the **Zowe** core framework, this subcategory operates by launching a secure API Mediation Layer directly within the system environment. This proxy layer maps native subsystems down into secure, tokenized REST endpoints, enabling any external web node to query, edit, or control data tracks over standard JSON contracts.
+
+      - subcategory: "Testing"
+        keywords:
+          - "galasa"
+          - "automation"
+          - "integration testing"
+          - "pipeline"
+          - "quality gates"
+        content: |
+          ### What It Is
+          Enterprise-scale automated integration test environments and orchestration managers purpose-built for multi-platform business application paths.
+
+          ### The Problem It Addresses
+          Modern transactions touch multiple systems, hitting a web interface, routing through intermediate cloud APIs, and committing data to a mainframe backend. Testing this entire string typically requires fragile, fragmented custom automation scripts.
+
+          ### How It Helps
+          It delivers a unified, single-point test controller that executes and monitors deep verification passes across distributed cloud environments and native mainframe storage layers simultaneously.
+
+          ### Technical 101
+          Utilizing platforms like **Galasa**, developers script end-to-end integration journeys. The Galasa ecosystem uses an extensible manager architecture to orchestrate test loops, dynamically logging into web browsers, pulling mobile transaction profiles, and querying live database tables on the mainframe to confirm that data updates successfully across all platform boundaries.
+
+
+  - category: "Zowe Conformant"
+    content: |
+      The Zowe Conformance Program is the industry-standard verification framework for products, applications, and support distributions that leverage Zowe. This category highlights offerings and vendor integrations that adhere to strict interoperability, common security, and user experience criteria.
+
+    subcategories:
+      - subcategory: "API Mediation Layer"
+        keywords:
+          - "REST API"
+          - "Gateway"
+          - "SSO"
+          - "Registry"
+          - "Security"
+        content: |
+          ### What It Is
+          Standardized, secure REST API gateways, catalog services, and service registries compliant with the Zowe Conformance criteria.
+
+          ### The Problem It Addresses
+          Every enterprise mainframe software vendor publishes their own proprietary APIs, leading to a disorganized sprawl of connection endpoints, diverse authentication schemes, and unmanaged integrations.
+
+          ### How It Helps
+          It exposes all internal and third-party mainframe REST APIs through a single, secure gateway with unified Single Sign-On (SSO) and high availability.
+
+          ### Technical 101
+          Vendors earn Zowe API Conformance by integrating their web services into the Zowe API Mediation Layer (API ML). Built on top of Spring Cloud, Zuul, and Eureka, the API ML acts as a secure proxy, providing automated routing, load balancing, dynamic service discovery, and unified token security across z/OS backends.
+
+      - subcategory: "Core Interfaces (CLI & Explorer)"
+        keywords:
+          - "VS Code"
+          - "IDE"
+          - "SDK"
+          - "UI"
+          - "Shell"
+        content: |
+          ### What It Is
+          Visual Studio Code extensions, command-line interfaces, and client SDKs that provide unified modern interaction models for mainframe resources.
+
+          ### The Problem It Addresses
+          Mainframe software development historically forced engineers to use terminal emulators ("green screens") to edit datasets and monitor jobs, which felt archaic and slowed down onboarding for new developers.
+
+          ### How It Helps
+          It empowers developers to interact with z/OS datasets, Unix System Services files, and job queues using industry-standard terminal shells or modern IDEs.
+
+          ### Technical 101
+          Offerings must conform to Zowe CLI or Zowe Explorer standards. Conforming VS Code extensions or CLI plugins integrate seamlessly with standard terminal profiles, allowing developers to type commands like `zowe files list dataset` or use a visual directory tree inside VS Code to securely edit mainframe source files over HTTPS.
+
+      - subcategory: "Zowe Support Providers"
+        keywords:
+          - "SLA"
+          - "Enterprise Support"
+          - "Brightside"
+          - "IBM"
+          - "Rocket"
+        content: |
+          ### What It Is
+          Vetted, commercial software vendors and services certified by the OMP to provide enterprise-grade technical support for Zowe deployments.
+
+          ### The Problem It Addresses
+          Large financial institutions are hesitant to deploy pure community-supported open-source frameworks in their core, business-critical z/OS production systems without SLAs and dedicated support lines.
+
+          ### How It Helps
+          It gives risk-averse enterprise IT departments the confidence to adopt Zowe by providing 24/7 technical support, security patching, and platform distribution assistance.
+
+          ### Technical 101
+          Vendors must pass the Zowe Support Provider Conformance Program (such as IBM Z Distribution for Zowe, Rocket Support, or Broadcom's Brightside). Providers self-attest to rigorous support standards established by the Zowe Technical Steering Committee, ensuring they can maintain and debug complex enterprise deployments of the Zowe core.
+
+  - category: "Open Source Ecosystem"
+    content: |
+      The broader open-source ecosystem includes standard languages, cloud-native container runtimes, databases, and operating systems compiled specifically for IBM Z and LinuxONE hardware. This category showcases the foundational tools that bridge modern distributed engineering and the mainframe.
+
+    subcategories:
+      - subcategory: "Linux Distributions & OS"
+        keywords:
+          - "LinuxONE"
+          - "s390x"
+          - "RHEL"
+          - "SLES"
+          - "Ubuntu"
+        content: |
+          ### What It Is
+          Mainstream, enterprise Linux operating systems compiled specifically for s390x (IBM Z and LinuxONE) hardware architectures.
+
+          ### The Problem It Addresses
+          Running distributed application workloads natively on traditional mainframe software architectures (like z/OS) can be highly restrictive and expensive due to licensing boundaries and platform architecture locks.
+
+          ### How It Helps
+          It allows organizations to leverage standard Linux toolsets and applications on mainframe hardware, utilizing its massive memory capacity, security, and computing throughput.
+
+          ### Technical 101
+          Major distributions (Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and Ubuntu) publish dedicated `s390x` architecture binaries. They run natively on IBM Integrated Facility for Linux (IFL) processors, enabling companies to run traditional microservices, web servers, and databases on the same physical box that houses their core transaction engines.
+
+      - subcategory: "Cloud & Container Services"
+        keywords:
+          - "Kubernetes"
+          - "Docker"
+          - "OpenShift"
+          - "KVM"
+          - "Hypervisor"
+        content: |
+          ### What It Is
+          Kubernetes engines, container runtimes, and virtualization hypervisors optimized to run on the mainframe platform.
+
+          ### The Problem It Addresses
+          Traditional infrastructure virtualization on mainframes operated in isolated hardware partitions (LPARs), which lack the elasticity and fast deployment times of modern cloud-native containers.
+
+          ### How It Helps
+          It enables modern DevOps engineers to orchestrate, deploy, and scale mainframe workloads using familiar cloud-native patterns like Kubernetes and Docker.
+
+          ### Technical 101
+          Systems like KVM, OpenStack, and Red Hat OpenShift are compiled to run on s390x. These technologies allow standard container engines to run seamlessly on the mainframe, treating the massive s390x hardware as a high-performance cloud node that can spawn thousands of isolated containers in seconds.
+
+      - subcategory: "Languages & Runtimes"
+        keywords:
+          - "Python"
+          - "Node.js"
+          - "Java"
+          - "Go"
+          - "Compilers"
+        content: |
+          ### What It Is
+          Modern programming runtimes, language compilers, and SDKs compiled natively for mainframe operating environments.
+
+          ### The Problem It Addresses
+          Legacy mainframe applications are often locked into older languages like COBOL, PL/I, or HLASM, which limits the ability of modern web developers to write backend microservices directly on the mainframe.
+
+          ### How It Helps
+          It allows developers to write backend logic, APIs, and automation scripts on the mainframe using modern programming languages.
+
+          ### Technical 101
+          Standard runtimes (such as Node.js, Python, Java, and Go) are compiled to run natively on z/OS UNIX System Services and Linux on Z. This allows developers to write standard asynchronous JavaScript or fast Go binaries that communicate with legacy mainframe files and databases with ultra-low latency.
