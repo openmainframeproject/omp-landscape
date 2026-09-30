@@ -8,21 +8,8 @@ landscape:
         name: Linux on Z
         items:
           - item:
-            name: crc32-s390x
-            homepage_url: https://github.com/linux-on-ibm-z/crc32-s390x
-            repo_url: https://github.com/linux-on-ibm-z/crc32-s390x
-            logo: crc32-s390x.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: Installation assistant for Linux on IBM Z
-            homepage_url: https://ibm.github.io/liz/
-            repo_url: https://github.com/IBM/liz
-            logo: installation-assistant-for-linux-on-ibm-z.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
             name: libica
-            homepage_url: https://github.com/opencryptoki/libica
+            homepage_url: https://www.ibm.com/support/knowledgecenter/en/linuxonibm/com.ibm.linux.z.lxci/lxci_linuxonz.html
             repo_url: https://github.com/opencryptoki/libica
             logo: libica.svg
             twitter: https://twitter.com/ibmz
@@ -50,33 +37,6 @@ landscape:
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
-            name: snIPL
-            description: Linux on System z snIPL 'simple network IPL' package.
-            homepage_url: https://developer.ibm.com/technologies/linux
-            repo_url: https://github.com/openmainframeproject/snipl
-            logo: snipl.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: source VIPA
-            description: src_vipa is a recommended utility that provides a very flexible means of source address selection to arbitrary applications.
-            homepage_url: https://developer.ibm.com/technologies/linux
-            repo_url: https://github.com/openmainframeproject/src_vipa
-            logo: source-vipa.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: sysload
-            description: >-
-              System Loader uses a minimal RAM disk based Linux system to run a boot loader application and kexec to boot the final Linux system. Within the
-              boot loader application all capabilities provided by the kernel can be used to select and access a kernel image and other boot files or to start a
-              shell and use it as a rescue system.
-            homepage_url: https://developer.ibm.com/technologies/linux
-            repo_url: https://github.com/openmainframeproject/sysload
-            logo: system-loader-sysload.svg
-            twitter: https://twitter.com/ibmz
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
             name: VMLINK
             homepage_url: https://github.com/trothtech/vmlink
             repo_url: https://github.com/trothtech/vmlink
@@ -84,9 +44,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/la-casita
           - item:
             name: zfcp HBA API library
-            description: zfcp HBA API library, Version 2, is part of an implementation of FC-HBA for the ZFCP device driver to be used with the Linux on Z distributions.
-            homepage_url: https://developer.ibm.com/technologies/linux
-            repo_url: https://github.com/openmainframeproject/zfcp-hbaapi
+            homepage_url: https://github.com/ibm-s390-linux/libzfcphbaapi
+            repo_url: https://github.com/ibm-s390-linux/libzfcphbaapi
             logo: zfcp-hba-api-library.svg
             twitter: https://twitter.com/ibmz
             crunchbase: https://www.crunchbase.com/organization/ibm
@@ -182,24 +141,21 @@ landscape:
             logo: zecs.svg
             crunchbase: https://www.crunchbase.com/organization/walmart-labs
           - item:
-            name: zFAM
-            homepage_url: https://github.com/walmartlabs/zFAM
-            repo_url: https://github.com/walmartlabs/zFAM
-            logo: zfam.svg
-            crunchbase: https://www.crunchbase.com/organization/walmart-labs
+            name: XFL
+            homepage_url: https://github.com/trothtech/xfl/
+            repo_url: https://github.com/trothtech/xfl/
+            logo: xfl.svg
           - item:
             name: zigi
             homepage_url: https://zigi.rocks/
-            repo_url: https://github.com/wizardofzos/zigi
+            repo_url: https://github.com/zigi/zigi
+            additional_repos:
+              - repo_url: https://github.com/zigi/conda-installer
+              - repo_url: https://github.com/zigi/docs
+              - repo_url: https://github.com/zigi/zigi.rocks
             logo: zigi.svg
             twitter: https://twitter.com/ispfgit
             crunchbase: https://www.crunchbase.com/organization/zdev
-          - item:
-            name: zUID
-            homepage_url: https://github.com/walmartlabs/zUID
-            repo_url: https://github.com/walmartlabs/zUID
-            logo: zuid.svg
-            crunchbase: https://www.crunchbase.com/organization/walmart-labs
       - subcategory:
         name: Mainframe Languages
         items:
@@ -210,12 +166,6 @@ landscape:
             logo: cobol_source_colouriser_vscode.svg
             crunchbase: https://www.crunchbase.com/organization/bitlang-development
           - item:
-            name: Eclipse Che4z
-            homepage_url: https://projects.eclipse.org/projects/ecd.che.che4z
-            repo_url: https://github.com/eclipse/che-che4z
-            logo: che4z.svg
-            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
-          - item:
             name: ZCrafter QuickLint
             second_path:
               - Projects / AI
@@ -225,7 +175,7 @@ landscape:
             organization:
               name: Zcrafter Inc.
           - item:
-            name: zSublime
+            name: z/OS plugins for the Sublime Text editor
             homepage_url: https://github.com/vadimshchukin/zsublime
             repo_url: https://github.com/vadimshchukin/zsublime
             logo: zsublime.svg
@@ -241,13 +191,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/iba-group
       - subcategory:
         name: Modernization
-        items:
-          - item:
-            name: Ductwork
-            homepage_url: https://github.com/trothr/ductwork
-            repo_url: https://github.com/trothr/ductwork
-            logo: ductwork.svg
-            crunchbase: https://www.crunchbase.com/organization/la-casita
+        items: []
       - subcategory:
         name: Testing
         items: []
