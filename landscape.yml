@@ -831,13 +831,13 @@ landscape:
             logo: debugger-for-mainframe.svg
             open_source: false
             crunchbase: https://www.crunchbase.com/organization/broadcom
-          # - item:
-          #   name: Easytrieve
-          #   description: Easytrieve Language Support empowers developers with modern, shift-left capabilities that eliminate repetitive, manual tasks and fuel productivity. The modern day developer, relatively new to the mainframe can now work with mainframe applications with familiar, open-source tooling.
-          #   homepage_url: https://integration.mainframe.broadcom.com/
-          #   logo: easytrieve.svg
-          #   open_source: false
-          #   crunchbase: https://www.crunchbase.com/organization/broadcom
+          - item:
+            name: Easytrieve
+            description: Easytrieve Language Support empowers developers with modern, shift-left capabilities that eliminate repetitive, manual tasks and fuel productivity. The modern day developer, relatively new to the mainframe can now work with mainframe applications with familiar, open-source tooling.
+            homepage_url: https://integration.mainframe.broadcom.com/
+            logo: easytrieve.svg
+            open_source: false
+            crunchbase: https://www.crunchbase.com/organization/broadcom
           - item:
             name: Endevor® Bridge For Git
             second_path:
@@ -879,6 +879,13 @@ landscape:
               languages. Also allowing interaction with z/OS using the Zowe Explorer VS Code Extension introducing a new RSE profile type for host connection.
             homepage_url: https://marketplace.visualstudio.com/items?itemName=IBM.zopeneditor
             logo: ibm-z-open-editor.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: IBM CICS Interdependency Analyzer
+            description: >-
+              CICS Interdependency Analyzer Extension for Zowe Explorer adds additional functionality to the popular VS Code extension, Zowe Explorer. This extension allows users to interact and visualize CICS resources like Regions, Programs, Transactions and Webservices.
+            homepage_url: https://marketplace.visualstudio.com/items?itemName=IBM.cics-ia-extension-for-zowe
+            logo: ibm-cics-interdependency-analyzer.svg
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: JCL Check
