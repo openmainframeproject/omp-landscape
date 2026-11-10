@@ -1094,11 +1094,23 @@ landscape:
             twitter: https://twitter.com/caddyserver
             crunchbase: https://www.crunchbase.com/organization/ardan-labs
           - item:
+            name: Consul
+            homepage_url: https://www.consul.io/
+            repo_url: https://github.com/hashicorp/consul
+            logo: consul.svg
+            crunchbase: https://www.crunchbase.com/organization/hashicorp
+          - item:
             name: CoreDNS
             homepage_url: https://coredns.io
             repo_url: https://github.com/coredns/coredns
             logo: coreDNS-2.svg
             twitter: https://twitter.com/corednsio
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+          - item:
+            name: Envoy
+            homepage_url: https://www.envoyproxy.io
+            repo_url: https://github.com/envoyproxy/envoy
+            logo: envoy.svg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: etcd
@@ -1120,6 +1132,12 @@ landscape:
             logo: nginx.svg
             crunchbase: https://www.crunchbase.com/organization/nginx
           - item:
+            name: OpenResty
+            homepage_url: https://openresty.org/
+            repo_url: https://github.com/openresty/openresty
+            logo: openresty.svg
+            crunchbase: https://www.crunchbase.com/organization/openresty
+          - item:
             name: Prometheus
             homepage_url: https://prometheus.io/
             repo_url: https://github.com/prometheus/prometheus
@@ -1135,6 +1153,12 @@ landscape:
       - subcategory:
         name: Cloud and Container Services
         items:
+          - item:
+            name: Apache CloudStack
+            homepage_url: https://cloudstack.apache.org/
+            repo_url: https://github.com/apache/cloudstack
+            logo: apache-cloudstack.svg
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Apache HTTP Server Project
             description: >-
@@ -1176,6 +1200,18 @@ landscape:
             logo: eigen.svg
             crunchbase: https://www.crunchbase.com/organization/inria
           - item:
+            name: Falco
+            homepage_url: https://falco.org/
+            repo_url: https://github.com/falcosecurity/falco
+            logo: falco.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+          - item:
+            name: Gluster
+            homepage_url: https://www.gluster.org/
+            repo_url: https://github.com/gluster/glusterfs
+            logo: gluster.svg
+            crunchbase: https://www.crunchbase.com/organization/red-hat
+          - item:
             name: Helm
             homepage_url: https://helm.sh/
             repo_url: https://github.com/helm/helm
@@ -1195,6 +1231,12 @@ landscape:
             logo: kata-containers.svg
             twitter: https://twitter.com/KataContainers
             crunchbase: https://www.crunchbase.com/organization/openstack
+          - item:
+            name: kind
+            homepage_url: https://kind.sigs.k8s.io/
+            repo_url: https://github.com/kubernetes-sigs/kind
+            logo: kind.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: Knative
             homepage_url: https://knative.dev
@@ -1236,11 +1278,23 @@ landscape:
             twitter: https://twitter.com/kubernetesio
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
+            name: MinIO
+            homepage_url: https://min.io/
+            repo_url: https://github.com/minio/minio
+            logo: min-io.svg
+            crunchbase: https://www.crunchbase.com/organization/minio-inc
+          - item:
             name: OKD
             homepage_url: https://www.okd.io/
             repo_url: https://github.com/openshift/okd
             logo: okd.svg
             crunchbase: https://www.crunchbase.com/organization/red-hat
+          - item:
+            name: Open Policy Agent (OPA)
+            homepage_url: https://www.openpolicyagent.org/
+            repo_url: https://github.com/open-policy-agent/opa
+            logo: opa.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: OpenStack
             homepage_url: https://www.openstack.org/
@@ -1262,6 +1316,12 @@ landscape:
             logo: red-hat-open-shift.svg
             twitter: https://twitter.com/openshift
             crunchbase: https://www.crunchbase.com/organization/red-hat
+          - item:
+            name: SPIRE
+            homepage_url: https://spiffe.io/spire/
+            repo_url: https://github.com/spiffe/spire
+            logo: spire.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
           - item:
             name: sysdig
             description: sysdig is a simple tool with deep system visibility for exploration and troubleshooting, with native support for containers.
@@ -1363,6 +1423,11 @@ landscape:
             repo_url: https://github.com/moonjit/moonjit
             logo: luajit.svg
             crunchbase: https://www.crunchbase.com/organization/linaro
+          - item:
+            name: netty-tcnative
+            homepage_url: https://netty.io/wiki/forked-tomcat-native.html
+            repo_url: https://github.com/netty/netty-tcnative
+            logo: netty-tcnative.svg
           - item:
             name: Node.js
             homepage_url: https://nodejs.org/en/
@@ -1477,6 +1542,12 @@ landscape:
             repo_url: https://github.com/apache/maven
             logo: maven.svg
             crunchbase: https://www.crunchbase.com/organization/apache
+          - item:
+            name: Bazel
+            homepage_url: https://bazel.build/
+            repo_url: https://github.com/bazelbuild/bazel
+            logo: bazel.svg
+            crunchbase: https://www.crunchbase.com/organization/google
           - item:
             name: Chef
             homepage_url: https://www.chef.io/
@@ -1625,6 +1696,12 @@ landscape:
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
+            name: Beats
+            homepage_url: https://www.elastic.co/beats
+            repo_url: https://github.com/elastic/beats
+            logo: beats.svg
+            crunchbase: https://www.crunchbase.com/organization/elasticsearch
+          - item:
             name: Elastic
             homepage_url: https://www.elastic.co/
             repo_url: https://github.com/elastic/elasticsearch
@@ -1707,6 +1784,12 @@ landscape:
             name: MariaDB
             homepage_url: https://mariadb.com/
             repo_url: https://github.com/MariaDB/server
+            logo: maria-db.svg
+            crunchbase: https://www.crunchbase.com/organization/mariadb-2
+          - item:
+            name: MariaDB Connector/ODBC
+            homepage_url: https://mariadb.com/docs/connectors/mariadb-connector-odbc/
+            repo_url: https://github.com/mariadb-corporation/mariadb-connector-odbc
             logo: maria-db.svg
             crunchbase: https://www.crunchbase.com/organization/mariadb-2
           - item:
