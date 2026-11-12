@@ -2706,11 +2706,13 @@ landscape:
             logo: gait.svg
             description: The High-Level Assembly Interpreter Extension (HLASM) for VS Code (Patent Pending) is an educational tool designed to help developers new to the mainframe space learn and explore assembly code without the complexity of a traditional mainframe environment. By removing the need to connect to a mainframe, it lowers the barrier to entry and lets learners focus on what matters most — understanding the code. Step through instructions one at a time, monitor registers and memory in real time, and experiment with code snippets freely, all without ever leaving your editor. Whether you're building foundational knowledge or testing your understanding of a concept, it provides a safe, accessible space to learn at your own pace.
             project: sandbox
+            repo_url: https://github.com/gait-extension/Gait
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2026-09-15'
               artwork_url: https://artwork.openmainframeproject.org/projects/gait
+              dev_stats_url: https://insights.linuxfoundation.org/project/gait
               lfx_slug: gait
               other_links:
                 - name: Calendar
@@ -2719,6 +2721,9 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfcH97f1lRKxLTEh9z
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/hlasm-for-vscode/hlasm-for-vscode_Charter.pdf?v=1790018446793
+              annotations:
+                project_org: https://github.com/gait-extension
+            additional_repos: []
           - item:
             name: TerseDecompress
             homepage_url: https://www.openmainframeproject.org/projects/tersedecompress
