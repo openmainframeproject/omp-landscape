@@ -2711,6 +2711,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-mainframe-project
             extra:
               accepted: '2026-09-15'
+              annotations:
+                project_org: https://github.com/gait-extension
               artwork_url: https://artwork.openmainframeproject.org/projects/gait
               dev_stats_url: https://insights.linuxfoundation.org/project/gait
               lfx_slug: gait
@@ -2721,8 +2723,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfcH97f1lRKxLTEh9z
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/hlasm-for-vscode/hlasm-for-vscode_Charter.pdf?v=1790018446793
-              annotations:
-                project_org: https://github.com/gait-extension
             additional_repos: []
           - item:
             name: TerseDecompress
